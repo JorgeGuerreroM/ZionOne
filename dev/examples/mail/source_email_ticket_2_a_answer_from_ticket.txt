@@ -9,13 +9,13 @@ X-Google-Original-From: <aa@aa.comg>
 To: customer@customercompany.fr
 Subject: [MyBigCompany - Ticket #TS2008-0040] Nouveau message
 Date: Thu, 20 Aug 2020 18:31:37 +0200
-Message-ID: <1597941097.SMTPs-dolibarr-tic58@83b5bc91f83a56e458db71e0adac2b62>
+Message-ID: <1597941097.SMTPs-ZionOne-tic58@83b5bc91f83a56e458db71e0adac2b62>
 References: <CALeEO_kij-ogXKzrjV_pTgqVbUB9j=287VkX34iVSWgDHFA8eg@mail.gmail.com>
 In-Reply-To: <CALeEO_kij-ogXKzrjV_pTgqVbUB9j=287VkX34iVSWgDHFA8eg@mail.gmail.com>
-X-Dolibarr-TRACKID: tic58@83b5bc91f83a56e458db71e0adac2b62
+X-ZionOne-TRACKID: tic58@83b5bc91f83a56e458db71e0adac2b62
 X-RemoteAddr: 127.0.0.1
-X-Mailer: Dolibarr version 13.0.0-alpha (using SMTPs Mailer)
-X-Dolibarr-Option: MAIN_MAIL_USE_MULTI_PART
+X-Mailer: ZionOne version 13.0.0-alpha (using SMTPs Mailer)
+X-ZionOne-Option: MAIN_MAIL_USE_MULTI_PART
 Mime-Version: 1.0
 Content-Type: multipart/mixed; boundary="multipart_x.1597941097.x_boundary"
 Content-Transfer-Encoding: 8bit

@@ -593,7 +593,7 @@ class CMailFile
 				$smtps->setMoreInHeader($moreinheader);
 			}
 
-			//X-Dolibarr-TRACKID, In-Reply-To, References and $moreinheader will be added to header inside the smtps->getHeader
+			//X-ZionOne-TRACKID, In-Reply-To, References and $moreinheader will be added to header inside the smtps->getHeader
 
 			if (!empty($this->html)) {
 				if (!empty($css)) {
@@ -655,7 +655,7 @@ class CMailFile
 				$smtps->setOptions($options);
 			}
 
-			$this->msgid = uniqid('', true).'.SMTPs-dolibarr-'.$this->trackid.'@'.$host;
+			$this->msgid = uniqid('', true).'.SMTPs-ZionOne-'.$this->trackid.'@'.$host;
 
 			$smtps->setMessageID($this->msgid);
 
@@ -681,8 +681,8 @@ class CMailFile
 			// Adding a trackid header to a message
 			$headers = $this->message->getHeaders();
 
-			$headers->addTextHeader('X-Dolibarr-TRACKID', $this->trackid.'@'.$host);
-			$this->msgid = uniqid('', true).'.swiftmailer-dolibarr-'.$this->trackid.'@'.$host;
+			$headers->addTextHeader('X-ZionOne-TRACKID', $this->trackid.'@'.$host);
+			$this->msgid = uniqid('', true).'.swiftmailer-ZionOne-'.$this->trackid.'@'.$host;
 			$headerID = $this->msgid;
 			$msgid = $headers->get('Message-ID');
 			if ($msgid instanceof Swift_Mime_Headers_IdentificationHeader) {
@@ -1685,9 +1685,9 @@ class CMailFile
 
 		$trackid = $this->trackid;
 		if ($trackid) {
-			$this->msgid = uniqid('', true).'.phpmail-dolibarr-'.$trackid.'@'.$host;
+			$this->msgid = uniqid('', true).'.phpmail-ZionOne-'.$trackid.'@'.$host;
 			$out .= 'Message-ID: <'.$this->msgid.">".$this->eol2; // Uppercase seems replaced by phpmail
-			$out .= 'X-Dolibarr-TRACKID: '.$trackid.'@'.$host.$this->eol2;
+			$out .= 'X-ZionOne-TRACKID: '.$trackid.'@'.$host.$this->eol2;
 		} else {
 			$this->msgid = uniqid('', true).'.phpmail@'.$host;
 			$out .= 'Message-ID: <'.$this->msgid.">".$this->eol2;
@@ -1705,7 +1705,7 @@ class CMailFile
 		if (!empty($_SERVER['REMOTE_ADDR'])) {
 			$out .= "X-RemoteAddr: ".$_SERVER['REMOTE_ADDR'].$this->eol2;
 		}
-		$out .= "X-Mailer: Dolibarr version ".DOL_VERSION." (using php mail)".$this->eol2;
+		$out .= "X-Mailer: ZionOne version ".DOL_VERSION." (using php mail)".$this->eol2;
 		$out .= "Mime-Version: 1.0".$this->eol2;
 
 		//$out.= "From: ".$this->getValidAddress($this->addr_from,3,1).$this->eol;

@@ -1,4 +1,4 @@
-# AI FOR [DOLIBARR ERP CRM](https://www.dolibarr.org)
+# AI FOR [ZionOne ERP CRM](https://www.ZionOne.org)
 
 ## Features
 

@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe-moduulin asennus
-StripeDesc=Tarjoa asiakkaat online-sivulle maksu luotto- tai pankkikorttimaksuja varten <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> span>Raita</a>. Tätä voidaan käyttää sallimaan asiakkaat suorittaa tapausmaksuja tai tiettyyn Dolibarr-objektiin liittyviä maksuja (lasku, tilaus jne.)
+StripeDesc=Tarjoa asiakkaat online-sivulle maksu luotto- tai pankkikorttimaksuja varten <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> span>Raita</a>. Tätä voidaan käyttää sallimaan asiakkaat suorittaa tapausmaksuja tai tiettyyn ZionOne-objektiin liittyviä maksuja (lasku, tilaus jne.)
 StripeOrCBDoPayment=Maksa luottokortilla tai Stripellä
-FollowingUrlAreAvailableToMakePayments=Seuraavat URL-osoitteet ovat käytettävissä tarjota sivu asiakas tehdä maksua Dolibarr esineitä
+FollowingUrlAreAvailableToMakePayments=Seuraavat URL-osoitteet ovat käytettävissä tarjota sivu asiakas tehdä maksua ZionOne esineitä
 PaymentForm=Maksulomake
 WelcomeOnPaymentPage=Tervetuloa verkkopalveluumme maksu
 ThisScreenAllowsYouToPay=Tässä näytössä voit tehdä online-maksu %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL-osoite, jolla tarjotaan %s online- 
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL-osoite, joka tarjoaa %s online- maksu -sivun jäsentilaukselle
 ToOfferALinkForOnlinePaymentOnDonation=URL-osoite, jolla tarjotaan %s online maksu -sivu maksu lahjoituksesta
 YouCanAddTagOnUrl=Voit myös lisätä URL-parametrin <b>&tag=value</b> mihin tahansa näistä URL-osoitteista (pakollinen vain osoitteille maksu, jotka eivät ole linkitetty objektiin) lisätäksesi oman maksu-kommenttitunnisteesi.<br> Maksujen URL-osoitteille, joilla ei ole olemassa olevaa objektia, voit myös lisätä parametrin <strong>&noidempotency=1</strong>, joten samaa linkkiä ja samaa tagia voidaan käyttää useita kertoja (jotkut maksu-tilat saattavat rajoittaa maksu-arvon yhteen kutakin eri linkkiä kohden ilman tätä parametria)
-YouCanEmbedOnWebsite=Jos haluat integroida maksu-sivun Dolibarr-verkkosivustoon, voit sisällyttää parametrin: <b>&ws=website_ref</b>.<br>Lisäksi kaksi sivua nimeltä <b>paymentok</b> ja <b>maksuko</b> on luotava verkkosivustolle, jotta uudelleenohjaus voidaan vastaanottaa onnistuneen tai epäonnistuneen verkkomaksun maksu jälkeen.
+YouCanEmbedOnWebsite=Jos haluat integroida maksu-sivun ZionOne-verkkosivustoon, voit sisällyttää parametrin: <b>&ws=website_ref</b>.<br>Lisäksi kaksi sivua nimeltä <b>paymentok</b> ja <b>maksuko</b> on luotava verkkosivustolle, jotta uudelleenohjaus voidaan vastaanottaa onnistuneen tai epäonnistuneen verkkomaksun maksu jälkeen.
 SetupStripeToHavePaymentCreatedAutomatically=Setup your Stripe with url <b>%s</b> to have payment created automatically when validated by Stripe.
 AccountParameter=Tilin parametrit
 UsageParameter=Käyttöparametrien
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Vain asiakkaat-laitteille Itävallasta, Belg
 ListOfSupportedHooksToActivate=Luettelo tuetuista aktivoitavista koukuista
 # Paybox
 PayBoxSetup=PayBox moduulin asetukset
-PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
 PayBoxDoPayment=Pay with Paybox
 YouWillBeRedirectedOnPayBox=Sinut ohjataan on turvattu Paybox sivu tuloliittimeen voit luottokortin tiedot
 SetupPayBoxToHavePaymentCreatedAutomatically=Setup your Paybox with url <b>%s</b> to have payment created automatically when validated by Paybox.

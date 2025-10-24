@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=El nombre de la empresa %s ya existe. Elija otro.
 ErrorSetACountryFirst=Establecer primero el país
 SelectThirdParty=Seleccione un cliente/proveedor

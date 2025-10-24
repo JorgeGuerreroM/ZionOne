@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=اکاؤنٹنسی
 Accounting=حساب کتاب
 ACCOUNTING_EXPORT_SEPARATORCSV=برآمد فائل کے لیے کالم الگ کرنے والا
@@ -347,7 +347,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=سیلز پر اکاؤنٹنسی میں با
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=خریداری پر اکاؤنٹنسی میں بائنڈنگ اور ٹرانسفر کو غیر فعال کریں (وینڈر انوائس کو اکاؤنٹنگ میں مدنظر نہیں رکھا جائے گا)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=اخراجات کی رپورٹوں پر اکاؤنٹنسی میں بائنڈنگ اور ٹرانسفر کو غیر فعال کریں (اکاؤنٹنگ میں اخراجات کی رپورٹوں کو مدنظر نہیں رکھا جائے گا)
 ACCOUNTING_ENABLE_LETTERING=اکاؤنٹنگ میں لیٹرنگ فنکشن کو فعال کریں۔
-ACCOUNTING_ENABLE_LETTERING_DESC=When this options is enabled, you can define, on each accounting entry, a code so you can group different accounting movements together. In the past, when different journals was managed independently, this feature was necessary to group movement lines of different journals together. However, with Dolibarr accountancy, such a tracking code, called "<b>%s</b>" is already saved automatically, so an automatic lettering is already done, with no risk of error so this feature has become useless for a common usage. Manual lettering feature is provided for end users that really don't trust the computer engine making the transfer of data in accountancy.
+ACCOUNTING_ENABLE_LETTERING_DESC=When this options is enabled, you can define, on each accounting entry, a code so you can group different accounting movements together. In the past, when different journals was managed independently, this feature was necessary to group movement lines of different journals together. However, with ZionOne accountancy, such a tracking code, called "<b>%s</b>" is already saved automatically, so an automatic lettering is already done, with no risk of error so this feature has become useless for a common usage. Manual lettering feature is provided for end users that really don't trust the computer engine making the transfer of data in accountancy.
 EnablingThisFeatureIsNotNecessary=اکاؤنٹنگ کے سخت انتظام کے لیے اس خصوصیت کو فعال کرنا مزید ضروری نہیں ہے۔
 ACCOUNTING_ENABLE_AUTOLETTERING=اکاؤنٹنگ میں منتقل کرتے وقت خودکار حروف کو فعال کریں۔
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=حروف کے لیے کوڈ خود بخود تیار ہوتا ہے اور بڑھایا جاتا ہے اور آخری صارف کے ذریعے منتخب نہیں کیا جاتا ہے۔

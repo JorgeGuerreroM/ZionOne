@@ -42,7 +42,7 @@ class mod_codeproduct_leopard extends ModeleProductCode
 
 	// variables inherited from ModelProductCode class
 	public $name = 'Leopard';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 * @var int		Position of module among others

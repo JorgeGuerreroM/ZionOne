@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Código seguridad
 NumberingShort=Nº
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Hola)__\n\nEncuentre la intervención __RE
 PredefinedMailContentLink=Puede hacer clic en el siguiente enlace para realizar su pago, si aún no lo ha hecho.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hola)__\n\n\n__(Atentamente)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Recordatorio de evento "__EVENT_LABEL__" el __EVENT_DATE__ a las __EVENT_TIME__ <br> <br> Este es un mensaje automático, no responda.
-DemoDesc=Dolibarr es un ERP/CRM para la gestión de negocios (profesionales o asociaciones), compuesto de módulos funcionales independientes y opcionales. Una demostración que incluya todos estos módulos no tiene sentido porque no utilizará todos los módulos. Además, tiene disponibles varios tipos de perfiles de demostración.
+DemoDesc=ZionOne es un ERP/CRM para la gestión de negocios (profesionales o asociaciones), compuesto de módulos funcionales independientes y opcionales. Una demostración que incluya todos estos módulos no tiene sentido porque no utilizará todos los módulos. Además, tiene disponibles varios tipos de perfiles de demostración.
 DemoDesc2=Esta es una demostración compartida restringida, es posible que prefiera probar en su propia instancia dedicada con acceso de administrador completo, para hacerlo, <a href="%s" target="_blank">vaya aquí <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Elija el perfil de demostración que mejor se adapte a sus necesidades ...
 ChooseYourDemoProfilMore=... o construya su perfil<br>(modo de selección manual)
@@ -197,10 +197,10 @@ BugTracker=Incidencias
 SendNewPasswordDesc=Este formulario le permite obtener una nueva contraseña. Le será enviada a su e-mail.<br>El cambio será efectivo una vez haga clic en el enlace de confirmación del e-mail.<br>Revise su e-mail.
 EnterNewPasswordHere=Ingrese su nueva contraseña aquí
 BackToLoginPage=Volver a la página de conexión
-AuthenticationDoesNotAllowSendNewPassword=El modo de autentificación de Dolibarr está configurado como "<b>%s</b>".<br>En este modo Dolibarr no puede conocer ni modificar su contraseña<br>Contacte con su administrador para conocer las modalidades de cambio.
+AuthenticationDoesNotAllowSendNewPassword=El modo de autentificación de ZionOne está configurado como "<b>%s</b>".<br>En este modo ZionOne no puede conocer ni modificar su contraseña<br>Contacte con su administrador para conocer las modalidades de cambio.
 EnableGDLibraryDesc=Instale o active la libreria GD en su PHP para poder usar esta opción
 ProfIdShortDesc=<b>Prof Id %s</b> es una información dependiente del país del tercero.<br>Por ejemplo, para el país  <b>%s</b>, és el código <b>%s</b>.
-DolibarrDemo=Demo de Dolibarr ERP/CRM
+DolibarrDemo=Demo de ZionOne ERP/CRM
 StatsByAmount=Estadísticas sobre cantidad de productos/servicios
 StatsByAmountProducts=Estadísticas sobre cantidad de productos.
 StatsByAmountServices=Estadísticas sobre cantidad de servicios
@@ -262,7 +262,7 @@ FileIsTooBig=El archivo es demasiado grande
 PleaseBePatient=Rogamos espere unos instantes...
 NewPassword=Nueva contraseña
 ResetPassword=Reiniciar contraseña
-RequestToResetPasswordReceived=Se ha recibido una solicitud para cambiar tu contraseña de Dolibarr
+RequestToResetPasswordReceived=Se ha recibido una solicitud para cambiar tu contraseña de ZionOne
 NewKeyIs=Esta es su nueva contraseña para iniciar sesión
 NewKeyWillBe=Su nueva contraseña para iniciar sesión en el software será
 ClickHereToGoTo=Haga click aquí para ir a %s
@@ -404,4 +404,4 @@ SetHereATitleForLink = Indicar un nombre para el marcador
 ShowBookmark = Mostrar marcadores
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Utilice un enlace externo/absoluto (https://externalurl.com) o un enlace interno/relativo (/mypage.php). También puede utilizar un teléfono como tel:0123456.
-SubscribeToFoundation=Ayude al proyecto Dolibarr, adhiérase a la asociación Dolibarr
+SubscribeToFoundation=Ayude al proyecto ZionOne, adhiérase a la asociación ZionOne

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Ҳисоб (аз Нақшаи ҳисоб), ки ба таври нобаёнӣ барои "истифодабарандагон" оид ба маош истифода мешавад
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Ҳисоби махсуси дар корти корбар муайяншуда танҳо барои баҳисобгирии Subledger истифода мешавад. Ин барои Китоби Генералӣ, балки ҳамчун арзиши пешфарзии баҳисобгирии Subledger истифода мешавад, агар дар корбар ягон ҳисоби махсуси баҳисобгирии корбар муайян карда нашавад.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Ҳисоби баҳисобгирӣ бо нобаёнӣ барои пардохти музди меҳнат

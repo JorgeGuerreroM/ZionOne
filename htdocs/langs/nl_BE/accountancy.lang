@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - accountancy
+# ZionOne language file - Source file is en_US - accountancy
 AccountingAccount=Boekhoudkundige rekening
 ACCOUNTING_EXPORT_SEPARATORCSV=Kolom scheidingsteken voor exporteren naar bestand
 ACCOUNTING_EXPORT_DATE=Datum formaat voor exporteren naar bestand

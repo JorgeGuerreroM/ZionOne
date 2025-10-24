@@ -34,7 +34,7 @@ if (!defined('NOBROWSERNOTIF')) {
  * @var string $disabled
  * @var string $dol_url_root
  * @var string $focus_element
- * @var string $mode Contains (list of) authentication methods - example "http","dolibarr","openid,dolibarr"
+ * @var string $mode Contains (list of) authentication methods - example "http","ZionOne","openid,ZionOne"
  * @var string $message
  * @var string $title
  * @var string $urllogo
@@ -159,7 +159,7 @@ if (!getDolGlobalString('ADD_UNSPLASH_LOGIN_BACKGROUND')) {
 <div class="login_table_title center" title="<?php echo dol_escape_htmltag($title); ?>">
 <?php
 if (!empty($disablenofollow)) {
-	echo '<a class="login_table_title" href="https://www.dolibarr.org" target="_blank" rel="noopener noreferrer external">';
+	echo '<a class="login_table_title" href="https://www.ZionOne.org" target="_blank" rel="noopener noreferrer external">';
 }
 echo dol_escape_htmltag($title);
 if (!empty($disablenofollow)) {
@@ -293,7 +293,7 @@ if (!empty($morelogincontent)) {
 
 
 <?php
-if ($mode == 'dolibarr' || !$disabled) {
+if ($mode == 'ZionOne' || !$disabled) {
 	if ($action != 'validatenewpassword') {
 		print '<div class="center login_main_home divpasswordmessagedesc paddingtopbottom'.(!getDolGlobalString('MAIN_LOGIN_BACKGROUND') ? '' : ' backgroundsemitransparent boxshadow').'" style="max-width: 70%">';
 		print '<span class="passwordmessagedesc opacitymedium">';

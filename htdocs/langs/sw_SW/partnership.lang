@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Viungo vya nyuma vya kuangalia
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb of days before canceling status of a partnership when a subscription has expired
 ReferingWebsiteCheck=Angalia urejeleaji wa tovuti
 ReferingWebsiteCheckDesc=Unaweza kuwezesha kipengele ili kuangalia kama washirika wako wameongeza kiunga cha nyuma kwenye vikoa vya tovuti yako kwenye tovuti yao wenyewe.
-PublicFormRegistrationPartnerDesc=Dolibarr inaweza kukupa URL/tovuti ya umma ili kuruhusu wageni kutoka nje kuomba kuwa sehemu ya mpango wa ushirikiano.
+PublicFormRegistrationPartnerDesc=ZionOne inaweza kukupa URL/tovuti ya umma ili kuruhusu wageni kutoka nje kuomba kuwa sehemu ya mpango wa ushirikiano.
 
 #
 # Object

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=导出
 ImportArea=导入
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=通过单击 %s 图标来选择要导入文件的文�
 ChooseFileToImport=上传文件，然后单击 %s 图标选择文件作为导入源文件...
 SourceFileFormat=源文件格式
 FieldsInSourceFile=源文件中的字段
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=没有字段
 MoveField=移动字段列号 %s
 ExampleOfImportFile=导入文件的示例

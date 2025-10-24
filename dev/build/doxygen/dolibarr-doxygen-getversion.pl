@@ -5,12 +5,12 @@
 #
 #--------------------------------------------------------------------
 
-# Usage: dolibarr-doxygen-getversion.pl pathtofilefromdolibarrroot
+# Usage: ZionOne-doxygen-getversion.pl pathtofilefromdolibarrroot
 
 $file=$ARGV[0];
 if (! $file)
 {
-	print "Usage: dolibarr-doxygen-getversion.pl pathtofilefromdolibarrroot\n";
+	print "Usage: ZionOne-doxygen-getversion.pl pathtofilefromdolibarrroot\n";
 	exit;
 }
 

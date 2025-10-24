@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Your contact details have been recorded. We will get back to you soon...
 ContactUsDesc=This form allows you to send us a message for a first contact.
 ErrorCompanyNameAlreadyExists=Company name %s already exists. Choose another one.
@@ -334,7 +334,7 @@ CapitalOf=Capital of %s
 EditCompany=Edit company
 ThisUserIsNot=This user is not a prospect, customer or vendor
 VATIntraCheck=Check
-VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the Dolibarr server.
+VATIntraCheckDesc=The VAT ID must include the country prefix. The link <b>%s</b> uses the European VAT checker service (VIES) which requires internet access from the ZionOne server.
 VATIntraCheckURL=https://ec.europa.eu/taxation_customs/vies/#/vat-validation
 VATIntraCheckableOnEUSite=Check the intra-Community VAT ID on the European Commission website
 VATIntraManualCheck=You can also check manually on the European Commission website <a href="%s" target="_blank" rel="noopener noreferrer">%s</a>
@@ -380,8 +380,8 @@ ProspectsByStatus=Prospects by status
 NoParentCompany=არცერთი
 ExportCardToFormat=Export card to format
 ContactNotLinkedToCompany=Contact not linked to any third party
-DolibarrLogin=Dolibarr login
-NoDolibarrAccess=No Dolibarr access
+DolibarrLogin=ZionOne login
+NoDolibarrAccess=No ZionOne access
 ExportDataset_company_1=Third-parties (companies/foundations/physical people) and their properties
 ExportDataset_company_2=Contacts and their properties
 ImportDataset_company_1=Third-parties and their properties

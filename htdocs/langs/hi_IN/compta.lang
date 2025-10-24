@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=बिलिंग | भुगतान
 TaxModuleSetupToModifyRules=गणना के नियमों को संशोधित करने के लिए <a href="%s">कर मॉड्यूल सेटअप</a> पर जाएं
 TaxModuleSetupToModifyRulesLT=गणना के नियमों को संशोधित करने के लिए <a href="%s">कंपनी सेटअप</a> पर जाएं

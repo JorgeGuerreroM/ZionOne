@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=আপনার যোগাযোগের বিবরণ রেকর্ড করা হয়েছে. আমরা খুব শীঘ্রই আপনার কাছে ফিরে আসবো...
 ContactUsDesc=এই ফর্মটি আপনাকে প্রথম পরিচিতির জন্য আমাদের একটি বার্তা পাঠাতে দেয়।
 ErrorCompanyNameAlreadyExists=কোম্পানির নাম %s ইতিমধ্যেই বিদ্যমান। অন্য একটি চয়ন করুন.

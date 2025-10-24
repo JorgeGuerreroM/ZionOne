@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=डोमेन <b>%s</b> पर उपयोगकर्ता <b>%s</b> के लिए पासवर्ड अवश्य बदला जाना चाहिए।
 UserMustChangePassNextLogon=उपयोगकर्ता को डोमेन %s पर पासवर्ड बदलना होगा
 LDAPInformationsForThisContact=इस संपर्क के लिए LDAP डेटाबेस में जानकारी
@@ -22,7 +22,7 @@ GroupSynchronized=समूह सिंक्रनाइज़
 MemberSynchronized=सदस्य सिंक्रनाइज़
 MemberTypeSynchronized=सदस्य प्रकार सिंक्रनाइज़ किया गया
 ContactSynchronized=संपर्क सिंक्रनाइज़ किया गया
-ForceSynchronize=Dolibarr -> LDAP को बलपूर्वक सिंक्रनाइज़ करें
+ForceSynchronize=ZionOne -> LDAP को बलपूर्वक सिंक्रनाइज़ करें
 ErrorFailedToReadLDAP=LDAP डेटाबेस पढ़ने में विफल। LDAP मॉड्यूल सेटअप और डेटाबेस पहुँच क्षमता की जाँच करें।
 PasswordOfUserInLDAP=LDAP में उपयोगकर्ता का पासवर्ड
 LDAPPasswordHashType=पासवर्ड हैश प्रकार

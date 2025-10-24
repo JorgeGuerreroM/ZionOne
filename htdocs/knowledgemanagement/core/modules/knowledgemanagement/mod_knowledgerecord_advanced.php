@@ -36,10 +36,10 @@ dol_include_once('/knowledgemanagement/core/modules/knowledgemanagement/modules_
 class mod_knowledgerecord_advanced extends ModeleNumRefKnowledgeRecord
 {
 	/**
-	 * Dolibarr version of the loaded document
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental'
+	 * ZionOne version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental'
 	 */
-	public $version = 'dolibarr'; // 'development', 'experimental', 'dolibarr'
+	public $version = 'ZionOne'; // 'development', 'experimental', 'ZionOne'
 
 	/**
 	 * @var string Error message

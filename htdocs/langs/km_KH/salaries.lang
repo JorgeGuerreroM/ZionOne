@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=គណនី (ពីតារាងគណនី) ប្រើតាមលំនាំដើមសម្រាប់ "អ្នកប្រើប្រាស់" លើប្រាក់ខែ
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=គណនីផ្ទាល់ខ្លួនដែលបានកំណត់នៅលើកាតអ្នកប្រើប្រាស់នឹងត្រូវបានប្រើសម្រាប់តែគណនីរង។ គណនីមួយនេះនឹងត្រូវបានប្រើសម្រាប់ General Ledger ប៉ុន្តែក៏ជាតម្លៃលំនាំដើមនៃ Subledger accounting ប្រសិនបើគ្មានគណនីគណនីអ្នកប្រើប្រាស់ជាក់លាក់ណាមួយត្រូវបានកំណត់លើអ្នកប្រើប្រាស់។
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=គណនីគណនេយ្យតាមលំនាំដើមសម្រាប់ការទូទាត់ប្រាក់ឈ្នួល

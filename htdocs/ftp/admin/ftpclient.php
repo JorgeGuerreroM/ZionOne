@@ -24,7 +24,7 @@
  *       \brief      Admin page to setup FTP client module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 
@@ -133,21 +133,21 @@ if (GETPOST('delete', 'alpha')) {
 	if ($entry) {
 		$db->begin();
 
-		$result1 = dolibarr_del_const($db, "FTP_PORT_".$entry, $conf->entity);
+		$result1 = zionone_del_const($db, "FTP_PORT_".$entry, $conf->entity);
 		if ($result1) {
-			$result2 = dolibarr_del_const($db, "FTP_SERVER_".$entry, $conf->entity);
+			$result2 = zionone_del_const($db, "FTP_SERVER_".$entry, $conf->entity);
 		}
 		if ($result2) {
-			$result3 = dolibarr_del_const($db, "FTP_USER_".$entry, $conf->entity);
+			$result3 = zionone_del_const($db, "FTP_USER_".$entry, $conf->entity);
 		}
 		if ($result3) {
-			$result4 = dolibarr_del_const($db, "FTP_PASSWORD_".$entry, $conf->entity);
+			$result4 = zionone_del_const($db, "FTP_PASSWORD_".$entry, $conf->entity);
 		}
 		if ($result4) {
-			$result5 = dolibarr_del_const($db, "FTP_NAME_".$entry, $conf->entity);
+			$result5 = zionone_del_const($db, "FTP_NAME_".$entry, $conf->entity);
 		}
 		if ($result4) {
-			$result6 = dolibarr_del_const($db, "FTP_PASSIVE_".$entry, $conf->entity);
+			$result6 = zionone_del_const($db, "FTP_PASSIVE_".$entry, $conf->entity);
 		}
 
 		if ($result1 && $result2 && $result3 && $result4 && $result5 && $result6) {

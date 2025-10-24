@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Käänteisiä linkkejä tarkistettavaksi
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Päivämäärä ennen kumppanuustilan peruuttamista, kun tilaus on vanhentunut
 ReferingWebsiteCheck=Tarkista viittaava verkkosivusto
 ReferingWebsiteCheckDesc=Voit ottaa käyttöön ominaisuuden, joka tarkistaa, että kumppanisi ovat lisänneet käänteisen linkin verkkosivustosi verkkotunnuksiin omalla verkkosivustollaan.
-PublicFormRegistrationPartnerDesc=Dolibarr voi tarjota sinulle julkisen URL-osoitteen/verkkosivuston, jonka avulla ulkoiset vierailijat voivat pyytää saada osallistua kumppanuusohjelmaan.
+PublicFormRegistrationPartnerDesc=ZionOne voi tarjota sinulle julkisen URL-osoitteen/verkkosivuston, jonka avulla ulkoiset vierailijat voivat pyytää saada osallistua kumppanuusohjelmaan.
 # Object
 DeletePartnership=Poista kumppanuus
 PartnershipDedicatedToThisThirdParty=Tälle kolmannelle osapuolelle omistettu kumppanuus

@@ -1918,7 +1918,7 @@ class Holiday extends CommonObject
 	 *	Get list of Users or list of vacation balance.
 	 *
 	 *	@param	boolean		$stringlist	    If true return a string list of id. If false, return an array with detail.
-	 *	@param	boolean		$type			If true, read Dolibarr user list, if false, return vacation balance list.
+	 *	@param	boolean		$type			If true, read ZionOne user list, if false, return vacation balance list.
 	 *	@param	string		$filters        Filters. Warning: This must not contains data from user input.
 	 *	@return array<array{rowid:int,id:int,name:string,lastname:string,firstname:string,gender:string,status:int,employee:int,photo:string,fk_user:int,type?:int,nb_holiday?:int}>|string|int<-1,-1>	Return an array
 	 */
@@ -1930,7 +1930,7 @@ class Holiday extends CommonObject
 
 		if ($stringlist) {
 			if ($type) {
-				// If user of Dolibarr
+				// If user of ZionOne
 				$sql = "SELECT";
 				if (isModEnabled('multicompany') && getDolGlobalString('MULTICOMPANY_TRANSVERSE_MODE')) {
 					$sql .= " DISTINCT";
@@ -2018,9 +2018,9 @@ class Holiday extends CommonObject
 			}
 		} else {
 			// Si faux donc return array
-			// List for Dolibarr users
+			// List for ZionOne users
 			if ($type) {
-				// If we need users of Dolibarr
+				// If we need users of ZionOne
 				$sql = "SELECT";
 				if (isModEnabled('multicompany') && getDolGlobalString('MULTICOMPANY_TRANSVERSE_MODE')) {
 					$sql .= " DISTINCT";
@@ -2167,7 +2167,7 @@ class Holiday extends CommonObject
 
 
 	/**
-	 *	Compte le nombre d'utilisateur actifs dans Dolibarr
+	 *	Compte le nombre d'utilisateur actifs dans ZionOne
 	 *
 	 *  @return     int      retourne le nombre d'utilisateur
 	 */
@@ -2183,7 +2183,7 @@ class Holiday extends CommonObject
 		return $object->compteur;
 	}
 	/**
-	 *	Compte le nombre d'utilisateur actifs dans Dolibarr sans CP
+	 *	Compte le nombre d'utilisateur actifs dans ZionOne sans CP
 	 *
 	 *  @return     int      retourne le nombre d'utilisateur
 	 */
@@ -2200,9 +2200,9 @@ class Holiday extends CommonObject
 	}
 
 	/**
-	 *  Compare le nombre d'utilisateur actif de Dolibarr à celui des utilisateurs des congés payés
+	 *  Compare le nombre d'utilisateur actif de ZionOne à celui des utilisateurs des congés payés
 	 *
-	 *  @param    int	$userDolibarrWithoutCP	Number of active users in Dolibarr without holidays
+	 *  @param    int	$userDolibarrWithoutCP	Number of active users in ZionOne without holidays
 	 *  @param    int	$userCP    				Number of active users into table of holidays
 	 *  @return   int							Return integer <0 if KO, >0 if OK
 	 */

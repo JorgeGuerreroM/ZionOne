@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Modulio ID
 ModuleBuilderDesc=Šį įrankį turėtų naudoti tik patyrę vartotojai arba kūrėjai. Jis suteikia priemonių savo moduliui kurti arba redaguoti. Alternatyvaus <a href="%s" target="_blank" rel="noopener noreferrer">rankinio kūrimo dokumentaciją rasite čia</a>.
 EnterNameOfModuleDesc=Įveskite kuriamo modulio / programos pavadinimą be tarpų. Žodžius atskirkite didžiosiomis raidėmis (pavyzdžiui: MyModule, EcommerceForShop, SyncWithMySystem...).
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Galite ištrinti savo modulį. ĮSPĖJIMAS: Visi m
 EnterNameOfObjectToDeleteDesc=Galite ištrinti objektą. ĮSPĖJIMAS: Visi su objektu susiję kodavimo failai (sugeneruoti arba sukurti rankiniu būdu) bus ištrinti!
 DangerZone=Pavojinga zona
 BuildPackage=Sukurti paketą
-BuildPackageDesc=Galite sugeneruoti savo programos ZIP paketą, kad galėtumėte ją platinti bet kurioje „Dolibarr“ platformoje. Taip pat galite ją platinti arba parduoti prekyvietėje, pvz., <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=Galite sugeneruoti savo programos ZIP paketą, kad galėtumėte ją platinti bet kurioje „ZionOne“ platformoje. Taip pat galite ją platinti arba parduoti prekyvietėje, pvz., <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Sukurti dokumentaciją
 ModuleIsNotActive=Šis modulis dar neaktyvuotas. Norėdami jį suaktyvinti, eikite į %s arba spustelėkite čia.
 ModuleIsLive=Šis modulis buvo aktyvuotas. Bet koks pakeitimas gali sugadinti šiuo metu veikiančią funkciją.
@@ -113,7 +113,7 @@ HooksDefDesc=Modulio deskriptoriaus faile esančioje savybėje <b>module_parts['
 TriggerDefDesc=Trigerio faile apibrėžkite kodą, kurį norite vykdyti, kai vykdomas išorinis verslo įvykis, nesusijęs su jūsų moduliu (įvykiai, kuriuos suaktyvina kiti moduliai).
 SeeIDsInUse=Žr. jūsų įrenginyje naudojamus ID
 SeeReservedIDsRangeHere=Žr. rezervuotų ID diapazoną
-ToolkitForDevelopers=Įrankių rinkinys „Dolibarr“ kūrėjams
+ToolkitForDevelopers=Įrankių rinkinys „ZionOne“ kūrėjams
 TryToUseTheModuleBuilder=Jei mokate SQL ir PHP, galite naudoti vietinį modulių kūrimo vedlį.<br>Įjunkite modulį <strong>%s</strong> ir naudokite vedlį viršutiniame dešiniajame meniu spustelėdami <span class="fa fa-bug"></span>.<br>Įspėjimas: tai yra išplėstinė kūrėjo funkcija, <b>neeksperimentuokite</b> savo gamybinėje svetainėje!
 SeeTopRightMenu=Viršutiniame dešiniajame meniu žr. <span class="fa fa-bug"></span>
 AddLanguageFile=Pridėti kalbos failą

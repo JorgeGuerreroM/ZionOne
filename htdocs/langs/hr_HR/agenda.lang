@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID događaja
 Actions=Događaji
 Agenda=Podsjetnik
@@ -28,10 +28,10 @@ ViewWeek=Tjedni pregled
 ViewPerUser=Pregled po korisniku
 ViewPerType=Pregled po tipu
 AutoActions= Automasko filtriranje
-AgendaAutoActionDesc= Ovdje možete definirati događaje koje želite da Dolibarr automatski kreira u Agendi. Ako ništa nije označeno, samo će ručne radnje biti uključene u zapisnike i prikazane u dnevnom redu. Automatsko praćenje poslovnih radnji izvršenih na objektima (validacija, promjena statusa) neće se spremati.
-AgendaSetupOtherDesc= Ova stranica pruža opcije za dopuštanje izvoza vaših Dolibarr događaja u vanjski kalendar (Thunderbird, Google kalendar itd...)
-AgendaExtSitesDesc=Ova stranica omogućuje postavu vanjskih izvora kalendara kako bi se mogli viditi svoje događaje u Dolibarr podsjetnicima
-ActionsEvents=Događaji za koje Dolibarr će kreirat akcije u podsjetnicima automatski
+AgendaAutoActionDesc= Ovdje možete definirati događaje koje želite da ZionOne automatski kreira u Agendi. Ako ništa nije označeno, samo će ručne radnje biti uključene u zapisnike i prikazane u dnevnom redu. Automatsko praćenje poslovnih radnji izvršenih na objektima (validacija, promjena statusa) neće se spremati.
+AgendaSetupOtherDesc= Ova stranica pruža opcije za dopuštanje izvoza vaših ZionOne događaja u vanjski kalendar (Thunderbird, Google kalendar itd...)
+AgendaExtSitesDesc=Ova stranica omogućuje postavu vanjskih izvora kalendara kako bi se mogli viditi svoje događaje u ZionOne podsjetnicima
+ActionsEvents=Događaji za koje ZionOne će kreirat akcije u podsjetnicima automatski
 EventRemindersByEmailNotEnabled=Podsjetnici na događaje putem e-pošte nisu bili omogućeni u postavljanju modula %s.
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Stvorena je treća strana %s

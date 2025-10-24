@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - eventorganization
+# ZionOne language file - Source file is en_US - eventorganization
 EventOrganizationDescription =Organisation d'événements par le biais de projets modulaires
 EventOrganizationDescriptionLong=Gérer l'organisation d'un événement (salon, conférences, participants ou intervenants, avec des pages publiques de suggestion, de vote ou d'inscription)
 EventFee=Frais d'inscription à l'événement

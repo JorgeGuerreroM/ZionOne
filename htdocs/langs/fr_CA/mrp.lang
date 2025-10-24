@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mrp
+# ZionOne language file - Source file is en_US - mrp
 ManufacturingOrderLine=Ligne d'ordre de fabrication (consommation/production)
 ConsumptionAndProductionInMos=Ordres de fabrication et lignes de consommation et de production
 MRPDescription=Module de gestion de la production et des ordres de fabrication (OM).

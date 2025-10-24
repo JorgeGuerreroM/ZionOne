@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=कोई गलती नहीं, हम प्रतिबद्ध हैं
@@ -53,12 +53,12 @@ ErrorWrongDate=तारीख सही नहीं है!
 ErrorFailedToWriteInDir=निर्देशिका %s में लिखने में विफल
 ErrorFailedToBuildArchive=%s संग्रह फ़ाइल बनाने में विफल
 ErrorFoundBadEmailInFile=फ़ाइल में %s पंक्तियों के लिए गलत ईमेल सिंटैक्स मिला (उदाहरण पंक्ति %s के साथ email=%s)
-ErrorUserCannotBeDelete=उपयोगकर्ता को हटाया नहीं जा सकता। हो सकता है कि यह Dolibarr संस्थाओं से जुड़ा हो।
+ErrorUserCannotBeDelete=उपयोगकर्ता को हटाया नहीं जा सकता। हो सकता है कि यह ZionOne संस्थाओं से जुड़ा हो।
 ErrorFieldsRequired=कुछ आवश्यक फ़ील्ड रिक्त छोड़ दिए गए हैं.
 ErrorSubjectIsRequired=ईमेल विषय आवश्यक है
 ErrorInAddAttachmentsImageBaseOnMedia=अनुलग्नक के लिए मीडिया निर्देशिका में छवि फ़ाइलें बनाने में त्रुटि
 ErrorInAddAttachmentsImageBaseIsSrcData=अनुलग्नक के लिए अस्थायी निर्देशिका में छवि फ़ाइलें (डेटा: के रूप में पाई गईं) बनाने में त्रुटि
-ErrorFailedToCreateDir=निर्देशिका बनाने में विफल। जाँच करें कि वेब सर्वर उपयोगकर्ता के पास Dolibarr दस्तावेज़ निर्देशिका में लिखने की अनुमति है। यदि पैरामीटर <b>safe_mode</b> इस PHP पर सक्षम है, तो जाँच करें कि Dolibarr php फ़ाइलों का स्वामित्व वेब सर्वर उपयोगकर्ता (या समूह) के पास है।
+ErrorFailedToCreateDir=निर्देशिका बनाने में विफल। जाँच करें कि वेब सर्वर उपयोगकर्ता के पास ZionOne दस्तावेज़ निर्देशिका में लिखने की अनुमति है। यदि पैरामीटर <b>safe_mode</b> इस PHP पर सक्षम है, तो जाँच करें कि ZionOne php फ़ाइलों का स्वामित्व वेब सर्वर उपयोगकर्ता (या समूह) के पास है।
 ErrorNoMailDefinedForThisUser=इस उपयोगकर्ता के लिए कोई मेल निर्धारित नहीं है
 ErrorSetupOfEmailsNotComplete=ईमेल का सेटअप पूरा नहीं हुआ है
 ErrorAccountingClosureSetupNotComplete=बंद खातों की स्थापना पूरी नहीं हुई
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s को किसी अन्य तीसरे क�
 ErrorFailedToSendPassword=पासवर्ड भेजने में विफल
 ErrorFailedToLoadRSSFile=RSS फ़ीड प्राप्त करने में विफल। यदि त्रुटि संदेश पर्याप्त जानकारी प्रदान नहीं करता है, तो MAIN_SIMPLEXMLLOAD_DEBUG स्थिरांक जोड़ने का प्रयास करें।
 ErrorForbidden=पहुँच अस्वीकृत.<br>आप किसी अक्षम मॉड्यूल के पृष्ठ, क्षेत्र या सुविधा तक पहुँचने का प्रयास करते हैं या बिना किसी प्रमाणीकृत सत्र में शामिल हुए या जिसकी आपके उपयोगकर्ता को अनुमति नहीं है।
-ErrorForbidden2=इस लॉगिन के लिए अनुमति आपके Dolibarr व्यवस्थापक द्वारा मेनू %s->%s से परिभाषित की जा सकती है।
-ErrorForbidden3=ऐसा लगता है कि Dolibarr का उपयोग प्रमाणीकृत सत्र के माध्यम से नहीं किया जाता है। प्रमाणीकरण (htaccess, mod_auth या अन्य...) को प्रबंधित करने का तरीका जानने के लिए Dolibarr सेटअप दस्तावेज़ देखें।
+ErrorForbidden2=इस लॉगिन के लिए अनुमति आपके ZionOne व्यवस्थापक द्वारा मेनू %s->%s से परिभाषित की जा सकती है।
+ErrorForbidden3=ऐसा लगता है कि ZionOne का उपयोग प्रमाणीकृत सत्र के माध्यम से नहीं किया जाता है। प्रमाणीकरण (htaccess, mod_auth या अन्य...) को प्रबंधित करने का तरीका जानने के लिए ZionOne सेटअप दस्तावेज़ देखें।
 ErrorForbidden4=नोट: इस लॉगिन के लिए मौजूदा सत्रों को नष्ट करने के लिए अपने ब्राउज़र कुकीज़ को साफ़ करें।
 ErrorNoImagickReadimage=इस PHP में क्लास इमेजिक नहीं मिला। कोई पूर्वावलोकन उपलब्ध नहीं हो सकता। व्यवस्थापक मेनू सेटअप - डिस्प्ले से इस टैब को अक्षम कर सकते हैं।
 ErrorRecordAlreadyExists=रिकॉर्ड पहले से मौजूद है
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=वेब सर्वर को निष्
 ErrorNoActivatedBarcode=कोई बारकोड प्रकार सक्रिय नहीं है
 ErrUnzipFails=%s को ZipArchive से अनज़िप करना विफल रहा
 ErrNoZipEngine=इस PHP में %s फ़ाइल को ज़िप/अनज़िप करने के लिए कोई इंजन नहीं है
-ErrorFileMustBeADolibarrPackage=फ़ाइल %s एक Dolibarr ज़िप पैकेज होना चाहिए
-ErrorModuleFileRequired=आपको एक Dolibarr मॉड्यूल पैकेज फ़ाइल का चयन करना होगा
+ErrorFileMustBeADolibarrPackage=फ़ाइल %s एक ZionOne ज़िप पैकेज होना चाहिए
+ErrorModuleFileRequired=आपको एक ZionOne मॉड्यूल पैकेज फ़ाइल का चयन करना होगा
 ErrorPhpCurlNotInstalled=PHP CURL स्थापित नहीं है, यह Paypal से बात करने के लिए आवश्यक है
 ErrorFailedToAddToMailmanList=%s रिकॉर्ड को मेलमैन सूची %s या SPIP बेस में जोड़ने में विफल
 ErrorFailedToRemoveToMailmanList=%s रिकॉर्ड को मेलमैन सूची %s या SPIP बेस से हटाने में विफल
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=तारीख आज से बड़ी होनी 
 ErrorStartDateGreaterEnd=आरंभ तिथि समाप्ति तिथि से अधिक है
 ErrorPaymentModeDefinedToWithoutSetup=भुगतान मोड को %s प्रकार पर सेट किया गया था, लेकिन इस भुगतान मोड के लिए दर्शाई जाने वाली जानकारी को परिभाषित करने के लिए मॉड्यूल इनवॉइस का सेटअप पूरा नहीं किया गया था।
 ErrorPHPNeedModule=त्रुटि, इस सुविधा का उपयोग करने के लिए आपके PHP में मॉड्यूल <b>%s</b> स्थापित होना चाहिए।
-ErrorOpenIDSetupNotComplete=आपने OpenID प्रमाणीकरण की अनुमति देने के लिए Dolibarr कॉन्फ़िगरेशन फ़ाइल सेटअप की है, लेकिन OpenID सेवा का URL स्थिरांक %s में परिभाषित नहीं है
+ErrorOpenIDSetupNotComplete=आपने OpenID प्रमाणीकरण की अनुमति देने के लिए ZionOne कॉन्फ़िगरेशन फ़ाइल सेटअप की है, लेकिन OpenID सेवा का URL स्थिरांक %s में परिभाषित नहीं है
 ErrorWarehouseMustDiffers=स्रोत और लक्ष्य गोदाम अलग-अलग होने चाहिए
 ErrorBadFormat=ख़राब प्रारूप!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=त्रुटि, यह सदस्य अभी तक किसी तीसरे पक्ष से लिंक नहीं है। चालान के साथ सदस्यता बनाने से पहले सदस्य को किसी मौजूदा तीसरे पक्ष से लिंक करें या नया तीसरा पक्ष बनाएँ।
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=नये उपयोगकर्ता के पा�
 ErrorUserClone=उपयोगकर्ता क्लोन श्रेणियों में त्रुटि
 ErrorQtyOrderedLessQtyShipped = ऑर्डर की गई मात्रा भेजी गई मात्रा से कम नहीं हो सकती।
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=त्रुटि, कंपनी की मुद्रा से भिन्न मुद्रा वाले बैंक खाते पर विभिन्न भुगतान बनाना अभी तक समर्थित नहीं है।
-ErrorStreamMustBeEnabled=PHP स्ट्रीम %s उपलब्ध नहीं है। अपने PHP मॉड्यूल और Dolibarr पैरामीटर $dolibarr_main_stream_to_disable की जाँच करें।
+ErrorStreamMustBeEnabled=PHP स्ट्रीम %s उपलब्ध नहीं है। अपने PHP मॉड्यूल और ZionOne पैरामीटर $dolibarr_main_stream_to_disable की जाँच करें।
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=त्रुटि, आप एक ही भुगतान में विभिन्न मुद्राओं के साथ विभिन्न चालान का भुगतान करने का प्रयास करते हैं
 ErrorLinkNotFoundWithSharedLink=त्रुटि, इस साझा कुंजी के साथ लिंक नहीं मिला
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=पंक्तियों की गलत संख्या। फ़ाइल में कम से कम 2 पंक्तियाँ होनी चाहिए (शीर्षक के लिए 1 पंक्ति और डेटा के लिए 1 पंक्ति)
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=त्रुटि, इस प्रकार क�
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=आपका PHP पैरामीटर upload_max_filesize (%s) PHP पैरामीटर post_max_size (%s) से अधिक है। यह एक सुसंगत सेटअप नहीं है।
-WarningPasswordSetWithNoAccount=इस सदस्य के लिए एक पासवर्ड सेट किया गया था। हालाँकि, कोई उपयोगकर्ता खाता नहीं बनाया गया था। इसलिए यह पासवर्ड संग्रहीत है लेकिन इसका उपयोग Dolibarr में लॉगिन करने के लिए नहीं किया जा सकता है। इसका उपयोग किसी बाहरी मॉड्यूल/इंटरफ़ेस द्वारा किया जा सकता है लेकिन यदि आपको किसी सदस्य के लिए कोई लॉगिन या पासवर्ड परिभाषित करने की आवश्यकता नहीं है, तो आप सदस्य मॉड्यूल सेटअप से "प्रत्येक सदस्य के लिए लॉगिन प्रबंधित करें" विकल्प को अक्षम कर सकते हैं। यदि आपको लॉगिन प्रबंधित करने की आवश्यकता है लेकिन किसी पासवर्ड की आवश्यकता नहीं है, तो आप इस चेतावनी से बचने के लिए इस फ़ील्ड को खाली रख सकते हैं। नोट: यदि सदस्य किसी उपयोगकर्ता से जुड़ा हुआ है तो ईमेल को लॉगिन के रूप में भी इस्तेमाल किया जा सकता है।
+WarningPasswordSetWithNoAccount=इस सदस्य के लिए एक पासवर्ड सेट किया गया था। हालाँकि, कोई उपयोगकर्ता खाता नहीं बनाया गया था। इसलिए यह पासवर्ड संग्रहीत है लेकिन इसका उपयोग ZionOne में लॉगिन करने के लिए नहीं किया जा सकता है। इसका उपयोग किसी बाहरी मॉड्यूल/इंटरफ़ेस द्वारा किया जा सकता है लेकिन यदि आपको किसी सदस्य के लिए कोई लॉगिन या पासवर्ड परिभाषित करने की आवश्यकता नहीं है, तो आप सदस्य मॉड्यूल सेटअप से "प्रत्येक सदस्य के लिए लॉगिन प्रबंधित करें" विकल्प को अक्षम कर सकते हैं। यदि आपको लॉगिन प्रबंधित करने की आवश्यकता है लेकिन किसी पासवर्ड की आवश्यकता नहीं है, तो आप इस चेतावनी से बचने के लिए इस फ़ील्ड को खाली रख सकते हैं। नोट: यदि सदस्य किसी उपयोगकर्ता से जुड़ा हुआ है तो ईमेल को लॉगिन के रूप में भी इस्तेमाल किया जा सकता है।
 WarningMandatorySetupNotComplete=मुख्य पैरामीटर सेट करने के लिए यहां क्लिक करें
 WarningEnableYourModulesApplications=अपने मॉड्यूल और एप्लिकेशन सक्षम करने के लिए यहां क्लिक करें
 WarningSafeModeOnCheckExecDir=चेतावनी, PHP विकल्प <b>safe_mode</b> चालू है, इसलिए कमांड को PHP पैरामीटर <b>safe_mode_exec_dir</b> द्वारा घोषित निर्देशिका के अंदर संग्रहीत किया जाना चाहिए।

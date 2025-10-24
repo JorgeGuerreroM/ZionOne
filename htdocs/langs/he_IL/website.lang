@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=קוד
 WebsiteName=שם האתר
 WebsiteSetupDesc=צור כאן את האתרים שבהם אתה רוצה להשתמש. לאחר מכן היכנס לתפריט אתרי אינטרנט כדי לערוך אותם.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=To deploy this website live, you have
 SetHereVirtualHost=<u>השתמש עם Apache/NGinx/...</u><br>צור ב- שרת האינטרנט שלך (Apache, Nginx, ...) מארח וירטואלי ייעודי עם PHP מופעל וספריית בסיס ב<br><strong> %s</strong>
 ExampleToUseInApacheVirtualHostConfig=דוגמה לשימוש בהגדרת מארח וירטואלי של Apache:
 YouCanAlsoTestWithPHPS=<u>Use with PHP embedded server</u><br>On develop environment, you may prefer to test the site with the PHP embedded web server by running
-YouCanAlsoDeployToAnotherWHP=<u>Run your web site inside a Dolibarr web Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another Dolibarr instance provided by another Dolibarr hosting provider that provide full integration with the Website module. You can find a list of some Dolibarr hosting providers on <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Run your web site inside a ZionOne web Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another ZionOne instance provided by another ZionOne hosting provider that provide full integration with the Website module. You can find a list of some ZionOne hosting providers on <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=בדוק גם שלמשתמש המארח הווירטואלי (לדוגמה www-data) יש <strong>%s</strong>  הרשאות על קבצים לתוך<br><strong>%s</strong>
 ReadPerm=לקרוא
 WritePerm=לִכתוֹב
 TestDeployOnWeb=בדיקה/פריסה באינטרנט
 PreviewSiteServedByWebServer=<u>תצוגה מקדימה של %s בכרטיסייה חדשה.</u><br><br>ה-%s יוגש על ידי שרת אינטרנט חיצוני (כמו Apache, Nginx, IIS ). עליך להתקין ולהגדיר את השרת הזה לפני כדי להצביע על הספרייה:<br><strong>%s span></strong><br>כתובת אתר מוגשת על ידי שרת חיצוני:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Dolibarr server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Dolibarr.<br>URL served by Dolibarr:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
+PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by ZionOne server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your ZionOne.<br>URL served by ZionOne:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
 VirtualHostUrlNotDefined=כתובת האתר של המארח הוירטואלי המוגש על ידי שרת אינטרנט חיצוני לא מוגדרת
 NoPageYet=עדיין אין דפים
 YouCanCreatePageOrImportTemplate=אתה יכול ליצור דף חדש או לייבא תבנית אתר מלאה
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=You will be redirected to the order details page 
 WebPortalSetupNotComplete=Web portal setup is not complete
 DeleteWebsiteAccount=Delete website account
 ConfirmDeleteWebsiteAccount=Are you sure you want to delete this account.
-ConfirmDeleteWebsiteAccount2=If this account was used to login on the public portal or any otherweb site powered by Dolibarr, the login may be no more possible.
+ConfirmDeleteWebsiteAccount2=If this account was used to login on the public portal or any otherweb site powered by ZionOne, the login may be no more possible.
 ContentSecurityPolicy=Website HTTP "Content-Security-Policy"
 WebsiteSecurityForceRP=Website HTTP "Referer-Policy"
 WebsiteSecurityForceSTS=Website HTTP "Strict-Transport-Security"

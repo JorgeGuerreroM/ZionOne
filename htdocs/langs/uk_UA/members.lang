@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Зона членів
 MemberCard=Членська картка
 SubscriptionCard=Передплатна картка
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Список зареєстрованих публ�
 ErrorThisMemberIsNotPublic=Цей учасник не є загальнодоступним
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Another member (name:  <b> %s </b> , login:  <b> %s </b> ) is already linked to a third party  <b> %s </b> . Спершу видаліть це посилання, оскільки третя сторона не може бути пов’язана лише з учасником (і навпаки).
 ErrorUserPermissionAllowsToLinksToItselfOnly=З міркувань безпеки вам потрібно надати дозвіл редагувати всіх користувачів, щоб мати можливість пов’язувати учасника з іншим користувачем.
-SetLinkToUser=Посилання на користувача Dolibarr
-SetLinkToThirdParty=Посилання на третю сторону Dolibarr
+SetLinkToUser=Посилання на користувача ZionOne
+SetLinkToThirdParty=Посилання на третю сторону ZionOne
 MemberCountersArePublic=Лічильники дійсних учасників є відкритими
 MembersCards=Генерація карток для учасників
 MembersList=Список членів
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Ви впевнені, що хочете видали�
 Filehtpasswd=htpasswd файл
 ValidateMember=Підтвердити учасника
 ConfirmValidateMember=Ви впевнені, що хочете підтвердити цього учасника?
-FollowingLinksArePublic=Наведені нижче посилання є відкритими сторінками, які не захищені жодним дозволом Dolibarr. Це не відформатовані сторінки, наведені як приклад, щоб показати, як перерахувати базу даних учасників.
+FollowingLinksArePublic=Наведені нижче посилання є відкритими сторінками, які не захищені жодним дозволом ZionOne. Це не відформатовані сторінки, наведені як приклад, щоб показати, як перерахувати базу даних учасників.
 PublicMemberList=Публічний список учасників
 BlankSubscriptionForm=Форма публічної самореєстрації
-BlankSubscriptionFormDesc=Dolibarr може надати вам загальнодоступну URL-адресу/веб-сайт, щоб зовнішні відвідувачі могли попросити підписатися на фонд. Якщо модуль онлайн-платежів увімкнено, платіжна форма також може бути надана автоматично.
+BlankSubscriptionFormDesc=ZionOne може надати вам загальнодоступну URL-адресу/веб-сайт, щоб зовнішні відвідувачі могли попросити підписатися на фонд. Якщо модуль онлайн-платежів увімкнено, платіжна форма також може бути надана автоматично.
 EnablePublicSubscriptionForm=Увімкніть загальнодоступний веб-сайт із формою самостійної підписки
 ForceMemberType=Примусовий тип члена
 ExportDataset_member_1=Члени та внески

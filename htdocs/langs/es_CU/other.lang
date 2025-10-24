@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 SecurityCode=Código de seguridad
 ToolsDesc=Todas las herramientas no incluidas en otras entradas del menú se agrupan aquí. <br> Se puede acceder a todas las herramientas a través del menú de la izquierda.
 Birthday=Cumpleaños
@@ -65,7 +65,7 @@ AttachANewFile=Adjuntar un nuevo archivo/documento
 LinkedObject=Objeto vinculado
 NbOfActiveNotifications=Número de notificaciones (nº de correos electrónicos de los destinatarios)
 PredefinedMailContentLink=Puede hacer clic en el enlace a continuación para realizar su pago si aún no lo ha hecho.\n\n%s\n\n
-DemoDesc=Dolibarr es un ERP/CRM compacto que admite varios módulos comerciales. Una demostración que muestre todos los módulos no tiene sentido ya que este escenario nunca ocurre (varios cientos disponibles). Por lo tanto, varios perfiles de demostración están disponibles.
+DemoDesc=ZionOne es un ERP/CRM compacto que admite varios módulos comerciales. Una demostración que muestre todos los módulos no tiene sentido ya que este escenario nunca ocurre (varios cientos disponibles). Por lo tanto, varios perfiles de demostración están disponibles.
 ChooseYourDemoProfil=Elige el perfil demo que mejor se adapte a tus necesidades...
 ChooseYourDemoProfilMore=...o cree su propio perfil <br> (selección manual de módulos)
 DemoFundation=Administrar miembros de una fundación
@@ -109,10 +109,10 @@ SizeUnitmm=milímetro
 BugTracker=Localizador de bichos
 SendNewPasswordDesc=Este formulario le permite solicitar una nueva contraseña. Será enviado a su dirección de correo electrónico. <br> El cambio entrará en vigencia una vez que haga clic en el enlace de confirmación en el correo electrónico. <br> Revisa tu bandeja de entrada.
 BackToLoginPage=Volver a la página de inicio de sesión
-AuthenticationDoesNotAllowSendNewPassword=El modo de autenticación es <b> %s </b>. <br> En este modo, Dolibarr no puede saber ni cambiar su contraseña. <br> Comuníquese con el administrador del sistema si desea cambiar su contraseña.
+AuthenticationDoesNotAllowSendNewPassword=El modo de autenticación es <b> %s </b>. <br> En este modo, ZionOne no puede saber ni cambiar su contraseña. <br> Comuníquese con el administrador del sistema si desea cambiar su contraseña.
 EnableGDLibraryDesc=Instale o habilite la biblioteca GD en su instalación de PHP para usar esta opción.
 ProfIdShortDesc=<b> Prof Id %s </b> es una información que depende del país del tercero. <br> Por ejemplo, para el país <b> %s </b> , es el código <b> %s </b> .
-DolibarrDemo=Demostración de Dolibarr ERP/CRM
+DolibarrDemo=Demostración de ZionOne ERP/CRM
 StatsByNumberOfUnits=Estadísticas para la suma de la cantidad de productos/servicios
 StatsByNumberOfEntities=Estadísticas por número de entidades referentes (nº de facturas, o pedidos...)
 NumberOfUnitsMos=Número de unidades a producir en órdenes de fabricación

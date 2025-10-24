@@ -36,7 +36,7 @@ class mod_contract_olive extends ModelNumRefContracts
 {
 	// variables inherited from ModelNumRefContracts class
 	public $name = 'Olive';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 
 	/**

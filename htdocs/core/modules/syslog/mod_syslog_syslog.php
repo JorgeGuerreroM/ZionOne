@@ -23,13 +23,13 @@ class mod_syslog_syslog extends LogHandler
 	}
 
 	/**
-	 * Version of the module ('x.y.z' or 'dolibarr' or 'experimental' or 'development')
+	 * Version of the module ('x.y.z' or 'ZionOne' or 'experimental' or 'development')
 	 *
 	 * @return string
 	 */
 	public function getVersion()
 	{
-		return 'dolibarr';
+		return 'ZionOne';
 	}
 
 	/**
@@ -124,7 +124,7 @@ class mod_syslog_syslog extends LogHandler
 		}
 
 		// (int) is required to avoid error parameter 3 expected to be long
-		openlog('dolibarr', LOG_PID | LOG_PERROR, (int) $facility);
+		openlog('ZionOne', LOG_PID | LOG_PERROR, (int) $facility);
 
 		$message = sprintf("%6s", dol_trunc($content['osuser'], 6, 'right', 'UTF-8', 1));
 		$message .= " ".$content['message'];

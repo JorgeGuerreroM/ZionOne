@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=কোড
 WebsiteName=ওয়েবসাইটের নাম
 WebsiteSetupDesc=আপনি যে ওয়েবসাইটগুলি ব্যবহার করতে চান তা এখানে তৈরি করুন৷ তারপর সেগুলি সম্পাদনা করতে মেনু ওয়েবসাইটগুলিতে যান৷
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=এই ওয়েবসাইটট
 SetHereVirtualHost=<u>Apache/NGinx এর সাথে ব্যবহার করুন/...</u><br>এ তৈরি করুন আপনার ওয়েব সার্ভার (Apache, Nginx, ...) PHP সক্ষম সহ একটি ডেডিকেটেড ভার্চুয়াল হোস্ট এবং একটি রুট ডিরেক্টরি <br><strong> %s</strong>
 ExampleToUseInApacheVirtualHostConfig=Apache ভার্চুয়াল হোস্ট সেটআপে ব্যবহার করার উদাহরণ:
 YouCanAlsoTestWithPHPS=<u>পিএইচপি এমবেডেড সার্ভারের সাথে ব্যবহার করুন</u><br> ডেভেলপমেন্ট পরিবেশে, আপনি পিএইচপি এমবেডেড ওয়েব সার্ভার দিয়ে সাইটটি পরীক্ষা করতে পছন্দ করতে পারেন
-YouCanAlsoDeployToAnotherWHP=<u>একটি Dolibarr ওয়েব হোস্টিং প্রদানকারীর ভিতরে আপনার ওয়েবসাইটটি চালান</u><br> যদি আপনার ইন্টারনেটে Apache বা NGinx এর মতো কোনও ওয়েব সার্ভার উপলব্ধ না থাকে, তাহলে আপনি আপনার ওয়েবসাইটটি অন্য একটি Dolibarr হোস্টিং প্রদানকারী দ্বারা সরবরাহিত অন্য একটি Dolibarr ইনস্ট্যান্সে রপ্তানি এবং আমদানি করতে পারেন যা ওয়েবসাইট মডিউলের সাথে সম্পূর্ণ ইন্টিগ্রেশন প্রদান করে। আপনি <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org</a> এ কিছু Dolibarr হোস্টিং প্রদানকারীর তালিকা পেতে পারেন।
+YouCanAlsoDeployToAnotherWHP=<u>একটি ZionOne ওয়েব হোস্টিং প্রদানকারীর ভিতরে আপনার ওয়েবসাইটটি চালান</u><br> যদি আপনার ইন্টারনেটে Apache বা NGinx এর মতো কোনও ওয়েব সার্ভার উপলব্ধ না থাকে, তাহলে আপনি আপনার ওয়েবসাইটটি অন্য একটি ZionOne হোস্টিং প্রদানকারী দ্বারা সরবরাহিত অন্য একটি ZionOne ইনস্ট্যান্সে রপ্তানি এবং আমদানি করতে পারেন যা ওয়েবসাইট মডিউলের সাথে সম্পূর্ণ ইন্টিগ্রেশন প্রদান করে। আপনি <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external"> https://saas.ZionOne.org</a> এ কিছু ZionOne হোস্টিং প্রদানকারীর তালিকা পেতে পারেন।
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=পড়ুন
 WritePerm=লিখুন
 TestDeployOnWeb=ওয়েবে পরীক্ষা/নিয়োগ করুন
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u> একটি নতুন ট্যাবে %s এর পূর্বরূপ দেখুন।</u><br><br> %s Dolibarr সার্ভার দ্বারা পরিবেশিত হবে তাই এটির জন্য কোনও অতিরিক্ত ওয়েব সার্ভারের (যেমন Apache, Nginx, IIS) প্রয়োজন হবে না। ইনস্টল করা হয়েছে।<br> অসুবিধাজনক বিষয় হল পৃষ্ঠাগুলির URLগুলি ব্যবহারকারী বান্ধব নয় এবং আপনার Dolibarr-এর পথ দিয়ে শুরু হয়।<br> Dolibarr দ্বারা পরিবেশিত URL:<br><strong>%s</strong><br><br>আপনার নিজস্ব বহিরাগত ওয়েব সার্ভার (যেমন Apache, Nginx, Lighttp) ব্যবহার করে স্থাপন বা পরীক্ষা করতে "%s" লিঙ্কটি ব্যবহার করুন।
+PreviewSiteServedByDolibarr=<u> একটি নতুন ট্যাবে %s এর পূর্বরূপ দেখুন।</u><br><br> %s ZionOne সার্ভার দ্বারা পরিবেশিত হবে তাই এটির জন্য কোনও অতিরিক্ত ওয়েব সার্ভারের (যেমন Apache, Nginx, IIS) প্রয়োজন হবে না। ইনস্টল করা হয়েছে।<br> অসুবিধাজনক বিষয় হল পৃষ্ঠাগুলির URLগুলি ব্যবহারকারী বান্ধব নয় এবং আপনার ZionOne-এর পথ দিয়ে শুরু হয়।<br> ZionOne দ্বারা পরিবেশিত URL:<br><strong>%s</strong><br><br>আপনার নিজস্ব বহিরাগত ওয়েব সার্ভার (যেমন Apache, Nginx, Lighttp) ব্যবহার করে স্থাপন বা পরীক্ষা করতে "%s" লিঙ্কটি ব্যবহার করুন।
 VirtualHostUrlNotDefined=বহিরাগত ওয়েব সার্ভার দ্বারা পরিবেশিত ভার্চুয়াল হোস্টের URL সংজ্ঞায়িত করা হয়নি
 NoPageYet=এখনো কোনো পৃষ্ঠা নেই
 YouCanCreatePageOrImportTemplate=আপনি একটি নতুন পৃষ্ঠা তৈরি করতে পারেন বা একটি সম্পূর্ণ ওয়েবসাইট টেমপ্লেট আমদানি করতে পারেন৷
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=আপনাকে শীঘ্রই অর্�
 WebPortalSetupNotComplete=ওয়েব পোর্টাল সেটআপ সম্পূর্ণ হয়নি
 DeleteWebsiteAccount=ওয়েবসাইট অ্যাকাউন্ট মুছুন
 ConfirmDeleteWebsiteAccount=আপনি কি নিশ্চিত যে আপনি এই অ্যাকাউন্টটি মুছে ফেলতে চান?
-ConfirmDeleteWebsiteAccount2=যদি এই অ্যাকাউন্টটি পাবলিক পোর্টালে বা Dolibarr দ্বারা চালিত অন্য কোনও ওয়েবসাইটে লগইন করার জন্য ব্যবহার করা হয়, তাহলে লগইন আর সম্ভব নাও হতে পারে।
+ConfirmDeleteWebsiteAccount2=যদি এই অ্যাকাউন্টটি পাবলিক পোর্টালে বা ZionOne দ্বারা চালিত অন্য কোনও ওয়েবসাইটে লগইন করার জন্য ব্যবহার করা হয়, তাহলে লগইন আর সম্ভব নাও হতে পারে।
 ContentSecurityPolicy=ওয়েবসাইট HTTP "বিষয়বস্তু-নিরাপত্তা-নীতি"
 WebsiteSecurityForceRP=ওয়েবসাইট HTTP "রেফারার-নীতি"
 WebsiteSecurityForceSTS=ওয়েবসাইট HTTP "কঠোর-পরিবহন-নিরাপত্তা"

@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe 模組設定
-StripeDesc=透過 <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> 為您的客戶提供信用卡/金融卡付款的線上付款頁面。這可用於允許您的客戶進行臨時付款或與特定 Dolibarr 物件（發票、訂單等）相關的付款
+StripeDesc=透過 <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> 為您的客戶提供信用卡/金融卡付款的線上付款頁面。這可用於允許您的客戶進行臨時付款或與特定 ZionOne 物件（發票、訂單等）相關的付款
 StripeOrCBDoPayment=使用信用卡或 Stripe 支付
-FollowingUrlAreAvailableToMakePayments=以下 URL 可用於向客戶提供用於對 Dolibarr 物件進行付款的頁面
+FollowingUrlAreAvailableToMakePayments=以下 URL 可用於向客戶提供用於對 ZionOne 物件進行付款的頁面
 PaymentForm=支付表單
 WelcomeOnPaymentPage=歡迎使用我們的線上支付服務
 ThisScreenAllowsYouToPay=This screen allow you to make an online payment to %s.
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=僅適用於奧地利、比利時、德國�
 ListOfSupportedHooksToActivate=List of supported hooks to activate
 # Paybox
 PayBoxSetup=PayBox module setup
-PayBoxDesc=此模組提供允許客戶在 <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> 上付款的頁面。這可用於免費付款或針對特定 Dolibarr 物件（發票、訂單等）的付款
+PayBoxDesc=此模組提供允許客戶在 <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> 上付款的頁面。這可用於免費付款或針對特定 ZionOne 物件（發票、訂單等）的付款
 PayBoxDoPayment=Pay with Paybox
 YouWillBeRedirectedOnPayBox=You will be redirected on secured Paybox page to input you credit card information
 SetupPayBoxToHavePaymentCreatedAutomatically=使用網址<b>%s</b>設置您的Paybox以在通過Paybox驗證時自動創建付款。

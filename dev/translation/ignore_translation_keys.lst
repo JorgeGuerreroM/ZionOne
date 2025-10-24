@@ -264,8 +264,8 @@ Directory
 DisabledByOptionADD_UNSPLASH_LOGIN_BACKGROUND
 Document
 Documentation
-Dolibarr
-Dolibarr constant MAIN_SERVER_TZ
+ZionOne
+ZionOne constant MAIN_SERVER_TZ
 DolibarrPassword
 Down
 DraftMyObjects
@@ -448,10 +448,10 @@ KO
 Key
 Keywords
 LDAP
-LDAP setup for groups not defined inside Dolibarr
-LDAP setup for members not defined inside Dolibarr
-LDAP setup for members types not defined inside Dolibarr
-LDAP setup for users not defined inside Dolibarr
+LDAP setup for groups not defined inside ZionOne
+LDAP setup for members not defined inside ZionOne
+LDAP setup for members types not defined inside ZionOne
+LDAP setup for users not defined inside ZionOne
 LT
 LabelName
 LabelPaperSize

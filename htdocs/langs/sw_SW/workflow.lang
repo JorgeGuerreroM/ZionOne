@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Usanidi wa moduli ya mtiririko wa kazi
 WorkflowDesc=Moduli hii hutoa baadhi ya vitendo otomatiki. Kwa chaguo-msingi, mtiririko wa kazi umefunguliwa (unaweza kufanya mambo kwa mpangilio unaotaka) lakini hapa unaweza kuamilisha baadhi ya vitendo otomatiki.
 ThereIsNoWorkflowToModify=Hakuna marekebisho ya mtiririko wa kazi yanayopatikana na moduli zilizoamilishwa.

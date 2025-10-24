@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Das Passwort für Benutzer <b>%s</b> auf der Domain <b>%s</b> muss geändert werden.
 UserMustChangePassNextLogon=Der Benutzer muss das Passwort für Domäne %s ändern.
 LDAPInformationsForThisContact=Informationen in der LDAP-Datenbank für diesen Kontakt
@@ -22,7 +22,7 @@ GroupSynchronized=Gruppe synchronisiert
 MemberSynchronized=Mitglied synchronisiert
 MemberTypeSynchronized=Mitgliedschaftstyp synchronisiert
 ContactSynchronized=Kontakt synchronisiert
-ForceSynchronize=Erzwinge Synchronisation  Dolibarr -> LDAP
+ForceSynchronize=Erzwinge Synchronisation  ZionOne -> LDAP
 ErrorFailedToReadLDAP=Fehler beim Lesen der LDAP-Datenbank. Überprüfen Sie die Einstellungen des LDAP-Moduls und die Verfügbarkeit der Datenbank.
 PasswordOfUserInLDAP=Passwort des Benutzers in LDAP
 LDAPPasswordHashType=Passwort-Hash-Typ

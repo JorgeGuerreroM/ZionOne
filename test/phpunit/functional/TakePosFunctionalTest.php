@@ -46,18 +46,18 @@ class TakePosFunctionalTest extends \PHPUnit_Extensions_Selenium2TestCase
 	protected static $base_url = 'http://dev.zenfusion.fr';
 
 	/**
-	 * @var string Dolibarr admin username
+	 * @var string ZionOne admin username
 	 * @see authenticate
 	 */
 	protected static $dol_admin_user = 'admin';
 
 	/**
-	 * @var string Dolibarr admin password
+	 * @var string ZionOne admin password
 	 * @see authenticate
 	 */
 	protected static $dol_admin_pass = 'admin';
 
-	/** @var int Dolibarr module ID */
+	/** @var int ZionOne module ID */
 	private static $module_id = 500000; // TODO: autodetect?
 
 	/** @var array Browsers to test with */
@@ -128,7 +128,7 @@ class TakePosFunctionalTest extends \PHPUnit_Extensions_Selenium2TestCase
 	}
 
 	/**
-	 * Handle Dolibarr authentication
+	 * Handle ZionOne authentication
 	 *
 	 * @return	void
 	 */
@@ -235,7 +235,7 @@ class TakePosFunctionalTest extends \PHPUnit_Extensions_Selenium2TestCase
 		$this->url('/custom/takepos/admin/about.php');
 		$this->authenticate();
 		$this->assertEquals(
-			'Dolibarr Module Template (aka My Module)',
+			'ZionOne Module Template (aka My Module)',
 			$this->byTag('h1')->text(),
 			"Readme title"
 		);

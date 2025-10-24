@@ -40,4 +40,4 @@ If module Membership is enabled:
 Documentation
 -------------
 
-[Module Web Portal](https://wiki.dolibarr.org/index.php/Module_Web_Portal)
+[Module Web Portal](https://wiki.ZionOne.org/index.php/Module_Web_Portal)

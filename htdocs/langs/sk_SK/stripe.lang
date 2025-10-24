@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Nastavenie prúžkového modulu
-StripeDesc=Ponúknite svojim zákazníkom online platobnú stránku pre platby kreditnými/debetnými kartami cez <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Môžete to použiť, aby ste svojim zákazníkom umožnili uskutočňovať ad-hoc platby alebo platby súvisiace s konkrétnym objektom Dolibarr (faktúra, objednávka, ...)
+StripeDesc=Ponúknite svojim zákazníkom online platobnú stránku pre platby kreditnými/debetnými kartami cez <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Môžete to použiť, aby ste svojim zákazníkom umožnili uskutočňovať ad-hoc platby alebo platby súvisiace s konkrétnym objektom ZionOne (faktúra, objednávka, ...)
 StripeOrCBDoPayment=Plaťte kreditnou kartou alebo Stripe
-FollowingUrlAreAvailableToMakePayments=Nasledovné adresy URL sú k dispozícii ponúknuť stránky na zákazníka, aby platbu na Dolibarr objektov
+FollowingUrlAreAvailableToMakePayments=Nasledovné adresy URL sú k dispozícii ponúknuť stránky na zákazníka, aby platbu na ZionOne objektov
 PaymentForm=Platba formulár
 WelcomeOnPaymentPage=Vitajte v našej online platobnej službe
 ThisScreenAllowsYouToPay=Táto obrazovka vám umožní vykonať on-line platbu %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=Adresa URL, ktorá ponúka %s stránku 
 ToOfferALinkForOnlinePaymentOnMemberSubscription=Adresa URL, ktorá ponúka %s online platobnú stránku pre členské predplatné
 ToOfferALinkForOnlinePaymentOnDonation=Adresa URL, ktorá ponúka %s stránku online platieb na platbu daru
 YouCanAddTagOnUrl=Môžete tiež pridať parameter URL <b>&tag=value</b> do ktorejkoľvek z týchto URL (povinné iba pre platby, ktoré nie sú prepojené s objektom), aby ste pridali vlastnú značku komentára k platbe.<br>Pre URL platieb bez existujúceho objektu môžete tiež pridať parameter <strong>&noidempotency=1</strong>, aby sa ten istý odkaz s rovnakou značkou dal použiť niekoľkokrát (niektoré platobné režimy môžu obmedziť platbu na 1 pre každý iný odkaz bez tohto parametra)
-YouCanEmbedOnWebsite=Ak chcete integrovať platobnú stránku do webovej stránky Dolibarr, môžete zahrnúť parameter: <b>&ws=website_ref</b>.<br>Okrem toho dve stránky s názvom <b>paymentok</b> a <b>paymentko</b> musí byť na webovej stránke vytvorený, aby sa po úspešnej alebo neúspešnej online platbe dosiahlo presmerovanie.
+YouCanEmbedOnWebsite=Ak chcete integrovať platobnú stránku do webovej stránky ZionOne, môžete zahrnúť parameter: <b>&ws=website_ref</b>.<br>Okrem toho dve stránky s názvom <b>paymentok</b> a <b>paymentko</b> musí byť na webovej stránke vytvorený, aby sa po úspešnej alebo neúspešnej online platbe dosiahlo presmerovanie.
 SetupStripeToHavePaymentCreatedAutomatically=Nastavte svoj Stripe pomocou adresy URL <b>%s</b>, kedy sa platba vytvorí automaticky potvrdené spoločnosťou Stripe.
 AccountParameter=Parametre účtu
 UsageParameter=Používanie parametrov
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Len pre zákazníkov z Rakúska, Belgicka, N
 ListOfSupportedHooksToActivate=Zoznam podporovaných hookov na aktiváciu
 # Paybox
 PayBoxSetup=Paybox modul nastavenia
-PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
 PayBoxDoPayment=Pay with Paybox
 YouWillBeRedirectedOnPayBox=Budete presmerovaný na zabezpečené stránky Paybox vstupné vás informácie o kreditnej karte
 SetupPayBoxToHavePaymentCreatedAutomatically=Setup your Paybox with url <b>%s</b> to have payment created automatically when validated by Paybox.

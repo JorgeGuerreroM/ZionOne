@@ -45,7 +45,7 @@
 //if (! defined('NOTOKENRENEWAL'))           define('NOTOKENRENEWAL', '1');					// Do not roll the Anti CSRF token (used if MAIN_SECURITY_CSRF_WITH_TOKEN is on)
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 dol_include_once('/webhook/class/triggerhistory.class.php');
 dol_include_once('/webhook/lib/webhook_triggerhistory.lib.php');

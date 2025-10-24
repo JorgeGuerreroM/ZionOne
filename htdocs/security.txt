@@ -1,5 +1,5 @@
-# Security policies of Dolibarr ERP CRM project
-Contact: mailto:security@dolibarr.org
+# Security policies of ZionOne ERP CRM project
+Contact: mailto:security@ZionOne.org
 Preferred-Languages: en
-Policy: https://github.com/Dolibarr/dolibarr/security/policy
+Policy: https://github.com/ZionOne/ZionOne/security/policy
 Expires: Sat, 31 Dec 2050 00:00:00 GMT

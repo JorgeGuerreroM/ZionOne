@@ -39,7 +39,7 @@ class DolibarrCollector extends DataCollector implements Renderable, AssetProvid
 	 */
 	public function getName()
 	{
-		return 'dolibarr';
+		return 'ZionOne';
 	}
 
 	/**
@@ -74,7 +74,7 @@ class DolibarrCollector extends DataCollector implements Renderable, AssetProvid
 	}
 
 	/**
-	 *	Return dolibarr info as an HTML string
+	 *	Return ZionOne info as an HTML string
 	 *
 	 * @return string      HTML string
 	 */

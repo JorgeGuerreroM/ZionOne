@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Bazkideen eremua
 MemberCard=Bazkide txartela
 SubscriptionCard=Harpidetza txartela
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Balioztatutako kide publikoen zerrenda
 ErrorThisMemberIsNotPublic=Kide hau ez da publikoa
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Beste kide bat (izena: <b>%s</b>, saioa hasteko: <b>%s</b>) dagoeneko hirugarren bati lotuta dago <b>%s</b>. Kendu esteka hau lehenik, hirugarren bat ezin baita kide bati bakarrik lotu (eta alderantziz).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Segurtasun arrazoiengatik, erabiltzaile guztiak editatzeko baimenak eman behar dizkizute kide bat zurea ez den erabiltzaile bati lotu ahal izateko.
-SetLinkToUser=Dolibarr erabiltzaile baten esteka
-SetLinkToThirdParty=Dolibarr-eko hirugarren baten esteka
+SetLinkToUser=ZionOne erabiltzaile baten esteka
+SetLinkToThirdParty=ZionOne-eko hirugarren baten esteka
 MemberCountersArePublic=Baliozko kideen kontagailuak publikoak dira
 MembersCards=Bazkideentzako txartelak sortzea
 MembersList=Kideen zerrenda
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Ziur zaude ekarpen hau ezabatu nahi duzula?
 Filehtpasswd=htpasswd fitxategia
 ValidateMember=Balioztatu kide bat
 ConfirmValidateMember=Ziur zaude kide hau balioztatu nahi duzula?
-FollowingLinksArePublic=Hurrengo estekak Dolibarr baimenik gabe babestutako orrialde irekiak dira. Ez dira formatuko orrialdeak, kideen datu-basea nola zerrendatu erakusteko adibide gisa ematen dira.
+FollowingLinksArePublic=Hurrengo estekak ZionOne baimenik gabe babestutako orrialde irekiak dira. Ez dira formatuko orrialdeak, kideen datu-basea nola zerrendatu erakusteko adibide gisa ematen dira.
 PublicMemberList=Kideen zerrenda publikoa
 BlankSubscriptionForm=Autoerregistro publikoaren formularioa
-BlankSubscriptionFormDesc=Dolibarr-ek URL/webgune publiko bat eman diezazuke kanpoko bisitariek fundaziora harpidetzeko eskaera egin dezaten. Ordainketa-modulu bat gaituta badago, ordainketa-formulario bat ere automatikoki eman daiteke.
+BlankSubscriptionFormDesc=ZionOne-ek URL/webgune publiko bat eman diezazuke kanpoko bisitariek fundaziora harpidetzeko eskaera egin dezaten. Ordainketa-modulu bat gaituta badago, ordainketa-formulario bat ere automatikoki eman daiteke.
 EnablePublicSubscriptionForm=Gaitu webgune publikoa auto-harpidetza formularioarekin
 ForceMemberType=Behartu kide mota
 ExportDataset_member_1=Kideak eta ekarpenak

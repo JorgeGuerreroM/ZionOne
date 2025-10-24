@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Annetus
 Donations=Annetused
 DonationRef=Annetuse viide
@@ -37,7 +37,7 @@ DonationUseThirdparties=Kasutage annetaja aadressina olemasoleva kolmanda osapoo
 DonationsStatistics=Annetuse statistika
 NbOfDonations=Annetuste arv
 BlankDonationForm=Avaliku annetuse vorm
-BlankDonationFormDesc=Dolibarr saab teile pakkuda avaliku URL-i/veebisaidi, et võimaldada välistel külastajatel annetusi teha. Kui veebimaksete moodul on lubatud, võidakse automaatselt kuvada ka maksevorm.
+BlankDonationFormDesc=ZionOne saab teile pakkuda avaliku URL-i/veebisaidi, et võimaldada välistel külastajatel annetusi teha. Kui veebimaksete moodul on lubatud, võidakse automaatselt kuvada ka maksevorm.
 EnablePublicDonationForm=Luba avaliku annetuse vorm
 EnablePublicDonationList=Luba avalik annetuste nimekiri
 ForceDonateurNature = Sunniviisilise annetaja olemus (eraisik või ettevõte)

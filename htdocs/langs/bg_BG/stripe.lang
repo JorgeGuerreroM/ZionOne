@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Настройка на модула Stripe
-StripeDesc=Предложете на клиентите си онлайн плащане страница за плащания с кредитни/дебитни карти чрез <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> . Това може да се използва, за да позволи на вашите клиенти да извършват ad hoc плащания или за плащания, свързани с конкретен обект на Dolibarr (фактура, поръчка, ...)
+StripeDesc=Предложете на клиентите си онлайн плащане страница за плащания с кредитни/дебитни карти чрез <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> . Това може да се използва, за да позволи на вашите клиенти да извършват ad hoc плащания или за плащания, свързани с конкретен обект на ZionOne (фактура, поръчка, ...)
 StripeOrCBDoPayment=Плащане с кредитна карта или Stripe
-FollowingUrlAreAvailableToMakePayments=Следните URL адреси са налични, за да осигурят достъп на клиент, за да извърши плащане по Dolibarr обекти.
+FollowingUrlAreAvailableToMakePayments=Следните URL адреси са налични, за да осигурят достъп на клиент, за да извърши плащане по ZionOne обекти.
 PaymentForm=Формуляр за плащане
 WelcomeOnPaymentPage=Добре дошли в страницата с онлайн услуга за плащане
 ThisScreenAllowsYouToPay=Този екран позволява да направите онлайн плащане на %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL адрес, предлагащ %s �
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL адрес, предлагащ %s страница за онлайн плащане на абонамент за членство
 ToOfferALinkForOnlinePaymentOnDonation=URL адрес, предлагащ %s страница за онлайн плащане като дарение
 YouCanAddTagOnUrl=Можете също да добавите параметъра на URL адреса <b>&tag=value</b> към който и да е от тези URL адреси (задължително само за плащане, които не са свързани с обект), за да добавите свой собствен етикет за коментар плащане.<br>За URL адреса на плащания без съществуващ обект можете също да добавите параметъра <strong>&noidempotency=1</strong>, така че една и съща връзка с един и същ етикет може да се използва няколко пъти (някои режими плащане могат да ограничат плащане до 1 за всяка различна връзка без този параметър)
-YouCanEmbedOnWebsite=Ако искате да интегрирате страницата плащане в уебсайт на Dolibarr, можете да включите параметъра: <b>&ws=website_ref</b>.<br>Освен това, две страници с имена <b>paymentok</b> и <b>paymentko</b> трябва да бъде създаден на уебсайта, за да се получи пренасочването след успешен или неуспешен онлайн плащане.
+YouCanEmbedOnWebsite=Ако искате да интегрирате страницата плащане в уебсайт на ZionOne, можете да включите параметъра: <b>&ws=website_ref</b>.<br>Освен това, две страници с имена <b>paymentok</b> и <b>paymentko</b> трябва да бъде създаден на уебсайта, за да се получи пренасочването след успешен или неуспешен онлайн плащане.
 SetupStripeToHavePaymentCreatedAutomatically=Настройте Stripe с URL <b>%s</b>, за да се създава автоматично плащане след като бъде потвърдено от Stripe.
 AccountParameter=Параметри на акаунта
 UsageParameter=Параметри за използване
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Само за клиенти от Австр
 ListOfSupportedHooksToActivate=Списък с поддържани куки за активиране
 # Paybox
 PayBoxSetup=Настройка на модул PayBox
-PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
 PayBoxDoPayment=Плащане с Paybox
 YouWillBeRedirectedOnPayBox=Ще бъдете пренасочени към защитена Paybox страница, за да въведете информация за вашата кредитна карта
 SetupPayBoxToHavePaymentCreatedAutomatically=Настройте вашият Paybox с URL <b>%s</b>, за да се създава автоматично плащане след като бъде потвърдено от Paybox.

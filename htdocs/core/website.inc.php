@@ -20,7 +20,7 @@
 /**
  *	\file			htdocs/core/website.inc.php
  *  \brief			Common file loaded by all website pages (after master.inc.php). It sets the new object $weblangs.
- *  				This file is included in top of all container pages (in edit mode, in dolibarr web server mode and in external web server mode).
+ *  				This file is included in top of all container pages (in edit mode, in ZionOne web server mode and in external web server mode).
  *  				It is run only when a web page is called.
  *  			    The global variable $websitekey must be defined.
  */
@@ -83,7 +83,7 @@ if (!empty($pageid) && $pageid > 0) {
 	}
 	if (empty($srclang)) {
 		$reg = array();
-		// With Dolibarr server, url is in parameter pageref
+		// With ZionOne server, url is in parameter pageref
 		if (defined('USEDOLIBARRSERVER') && !empty($_GET['pageref']) && preg_match('/^\/?(\w\w)\//', $_GET['pageref'], $reg) && $reg[1] != 'js') {	// We reuse $_GET['pageref'] because $pageref may have been cleaned already from the language code.
 			$srclang = $reg[1];
 		}
@@ -237,7 +237,7 @@ if (GETPOST('l', 'aZ09')) {
 	$weblangs->setDefaultLang(GETPOST('l', 'aZ09'));
 }
 // A lang was forced, so we check to find if we must make a redirect on translation page
-if ($_SERVER['PHP_SELF'] != DOL_URL_ROOT.'/website/index.php') {	// If we browsing page using Dolibarr server or a Native web server
+if ($_SERVER['PHP_SELF'] != DOL_URL_ROOT.'/website/index.php') {	// If we browsing page using ZionOne server or a Native web server
 	//print_r(get_defined_constants(true));exit;
 	if (GETPOST('l', 'aZ09')) {
 		$sql = "SELECT wp.rowid, wp.lang, wp.pageurl, wp.fk_page";

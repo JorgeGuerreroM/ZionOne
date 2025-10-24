@@ -72,8 +72,8 @@ $includeconferror = '';
 $conffile = "../conf/conf.php";
 $conffiletoshow = "htdocs/conf/conf.php";
 // For debian/redhat like systems
-//$conffile = "/etc/dolibarr/conf.php";
-//$conffiletoshow = "/etc/dolibarr/conf.php";
+//$conffile = "/etc/ZionOne/conf.php";
+//$conffiletoshow = "/etc/ZionOne/conf.php";
 
 $short_options = "c:h";
 $long_options = array(
@@ -276,7 +276,7 @@ $suburi = strstr($uri, '/'); // $suburi contains url without domain
 if ($suburi == '/') {
 	$suburi = ''; // If $suburi is /, it is now ''
 }
-define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/dolibarr', ...)
+define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/ZionOne', ...)
 
 
 if (empty($conf->file->character_set_client)) {
@@ -417,7 +417,7 @@ if (GETPOST('lang', 'aZ09')) {
 /**
  * Load conf file (file must exists)
  *
- * @param	string		$dolibarr_main_document_root		Root directory of Dolibarr bin files
+ * @param	string		$dolibarr_main_document_root		Root directory of ZionOne bin files
  * @return	int												Return integer <0 if KO, >0 if OK
  */
 function conf($dolibarr_main_document_root)
@@ -563,7 +563,7 @@ function pHeader($subtitle, $next, $action = 'set', $param = '', $forcejqueryurl
 	print '<head>'."\n";
 	print '<meta charset="'.$conf->file->character_set_client.'">'."\n";
 	print '<meta name="viewport" content="width=device-width, initial-scale=1.0">'."\n";
-	print '<meta name="generator" content="Dolibarr installer">'."\n";
+	print '<meta name="generator" content="ZionOne installer">'."\n";
 	print '<link rel="stylesheet" type="text/css" href="default.css">'."\n";
 	print '<link rel="stylesheet" type="text/css" href="../public/theme/common/fontawesome-5/css/all.min.css?layout=classic">'."\n";
 
@@ -592,7 +592,7 @@ function pHeader($subtitle, $next, $action = 'set', $param = '', $forcejqueryurl
 	print '<body>'."\n";
 
 	print '<div class="divlogoinstall" style="text-align:center">';
-	print '<img class="imglogoinstall" src="../theme/dolibarr_logo.svg" alt="Dolibarr logo" width="300px"><br>';
+	print '<img class="imglogoinstall" src="../theme/logo.png" alt="ZionOne logo" width="300px"><br>';
 	print '<span class="opacitymedium">'.DOL_VERSION.'</span>';
 	print '</div><br>';
 
@@ -702,7 +702,7 @@ function dolibarr_install_syslog($message, $level = LOG_DEBUG)
 }
 
 /**
- * Automatically detect Dolibarr's main document root
+ * Automatically detect ZionOne's main document root
  *
  * @return string
  */
@@ -713,8 +713,8 @@ function detect_dolibarr_main_document_root()
 	if ($_SERVER["SCRIPT_FILENAME"] == 'php' || preg_match('/[\\/]php$/i', $_SERVER["SCRIPT_FILENAME"]) || preg_match('/php\.exe$/i', $_SERVER["SCRIPT_FILENAME"])) {
 		$dolibarr_main_document_root = $_SERVER["DOCUMENT_ROOT"];
 
-		if (!preg_match('/[\\/]dolibarr[\\/]htdocs$/i', $dolibarr_main_document_root)) {
-			$dolibarr_main_document_root .= "/dolibarr/htdocs";
+		if (!preg_match('/[\\/]ZionOne[\\/]htdocs$/i', $dolibarr_main_document_root)) {
+			$dolibarr_main_document_root .= "/ZionOne/htdocs";
 		}
 	} else {
 		// We assume /install to be under /htdocs, so we get the parent directory of the current directory
@@ -725,7 +725,7 @@ function detect_dolibarr_main_document_root()
 }
 
 /**
- * Automatically detect Dolibarr's main data root
+ * Automatically detect ZionOne's main data root
  *
  * @param string $dolibarr_main_document_root Current main document root
  * @return string
@@ -737,7 +737,7 @@ function detect_dolibarr_main_data_root($dolibarr_main_document_root)
 }
 
 /**
- * Automatically detect Dolibarr's main URL root
+ * Automatically detect ZionOne's main URL root
  *
  * @return string
  */

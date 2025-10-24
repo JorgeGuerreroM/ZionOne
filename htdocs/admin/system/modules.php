@@ -21,10 +21,10 @@
 
 /**
  *  \file       htdocs/admin/system/modules.php
- *  \brief      File to list all Dolibarr modules
+ *  \brief      File to list all ZionOne modules
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 

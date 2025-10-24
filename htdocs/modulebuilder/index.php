@@ -26,7 +26,7 @@
  *       \file       htdocs/modulebuilder/index.php
  *       \brief      Home page for module builder module
  *
- *       You can add parameter dirins=/home/ldestailleur/git/dolibarr/htdocs/mymodule to force generation of module
+ *       You can add parameter dirins=/home/ldestailleur/git/ZionOne/htdocs/mymodule to force generation of module
  *       into the dirins directory.
  */
 
@@ -34,7 +34,7 @@ if (!defined('NOSCANPOSTFORINJECTION')) {
 	define('NOSCANPOSTFORINJECTION', '1'); // Do not check anti SQL+XSS injection attack test
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
@@ -213,7 +213,7 @@ foreach ($dirsrootforscan as $tmpdirread) {
 		$newdircustom = img_warning();
 	}
 	// If dirread was forced to somewhere else, by using URL
-	// htdocs/modulebuilder/index.php?module=Inventory@/home/ldestailleur/git/dolibarr/htdocs/product
+	// htdocs/modulebuilder/index.php?module=Inventory@/home/ldestailleur/git/ZionOne/htdocs/product
 	if (empty($i)) {
 		$textforlistofdirs .= $langs->trans("DirScanned").' : ';
 	} else {
@@ -3200,7 +3200,7 @@ $text = $langs->trans("ModuleBuilder");
 
 print load_fiche_titre($text, '', 'title_setup');
 
-print '<span class="opacitymedium hideonsmartphone">'.$langs->trans("ModuleBuilderDesc", 'https://wiki.dolibarr.org/index.php/Module_development').'</span>';
+print '<span class="opacitymedium hideonsmartphone">'.$langs->trans("ModuleBuilderDesc", 'https://wiki.ZionOne.org/index.php/Module_development').'</span>';
 print '<br class="hideonsmartphone">';
 
 //print $textforlistofdirs;
@@ -3354,7 +3354,7 @@ if (/* is_array($listofmodules) && */ count($listofmodules) > 0) {
 						$linktoenabledisable .= ' <a href="'.$urltouse.(preg_match('/\?/', $urltouse) ? '&' : '?').'save_lastsearch_values=1&backtopage='.urlencode($backtourl).'" title="'.$langs->trans("Setup").'">'.img_picto($langs->trans("Setup"), "setup", 'style="padding-right: 8px"').'</a>';
 					} else {
 						// Case standard admin page (not a page provided by the
-						// module but a page provided by dolibarr)
+						// module but a page provided by ZionOne)
 						$urltouse = DOL_URL_ROOT.'/admin/'.$urlpage;
 						$linktoenabledisable .= ' <a href="'.$urltouse.(preg_match('/\?/', $urltouse) ? '&' : '?').'save_lastsearch_values=1&backtopage='.urlencode($backtourl).'" title="'.$langs->trans("Setup").'">'.img_picto($langs->trans("Setup"), "setup", 'style="padding-right: 8px"').'</a>';
 					}
@@ -3414,7 +3414,7 @@ if ($module == 'initmodule') {
 	print ' &nbsp; &nbsp; ';
 	print dolButtonToOpenUrlInDialogPopup('popup_modules_id', $langs->transnoentitiesnoconv("SeeIDsInUse"), $langs->transnoentitiesnoconv("SeeIDsInUse"), '/admin/system/modules.php?mainmenu=home&leftmenu=admintools_info&hidetitle=1', '', '');
 	print ' - ';
-	print '<a href="https://wiki.dolibarr.org/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>';
+	print '<a href="https://wiki.ZionOne.org/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>';
 	print '</span>';
 	print '</div></div>';
 
@@ -3704,7 +3704,7 @@ if ($module == 'initmodule') {
 					print '<span class="opacitymedium">';
 					print ' &nbsp; (';
 					print dolButtonToOpenUrlInDialogPopup('popup_modules_id', $langs->transnoentitiesnoconv("SeeIDsInUse"), $langs->transnoentitiesnoconv("SeeIDsInUse"), '/admin/system/modules.php?mainmenu=home&leftmenu=admintools_info', '', '');
-					print ' - <a href="https://wiki.dolibarr.org/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>)';
+					print ' - <a href="https://wiki.ZionOne.org/index.php/List_of_modules_id" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeReservedIDsRangeHere").'</a>)';
 					print '</span>';
 					print '</td></tr>';
 
@@ -4562,7 +4562,7 @@ if ($module == 'initmodule') {
 								print '<th class="tdstickyright tdstickyghostwhite"></th>';
 							}
 							print '<th class="tdsticky tdstickygray">';
-							$htmltext = $langs->trans("PropertyDesc").'<br><br><a class="" href="https://wiki.dolibarr.org/index.php/Language_and_development_rules#Table_and_fields_structures" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeExamples").'</a>';
+							$htmltext = $langs->trans("PropertyDesc").'<br><br><a class="" href="https://wiki.ZionOne.org/index.php/Language_and_development_rules#Table_and_fields_structures" target="_blank" rel="noopener noreferrer external">'.$langs->trans("SeeExamples").'</a>';
 							print $form->textwithpicto($langs->trans("Code"), $htmltext, 1, 'help', 'extracss', 0, 3, 'propertyhelp');
 							print '</th>';
 							print '<th>';
@@ -6815,7 +6815,7 @@ if ($module == 'initmodule') {
 						$path = isset($parts[5]) ? $parts[5] : '';
 
 						// If we want to remove the tab, then the format is 'objecttype:tabname:optionalcondition'
-						// See: https://wiki.dolibarr.org/index.php?title=Tabs_system#To_remove_an_existing_tab
+						// See: https://wiki.ZionOne.org/index.php?title=Tabs_system#To_remove_an_existing_tab
 						if ($tabName[0] === '-') {
 							$tabTitle = '';
 							$condition = isset($parts[2]) ? $parts[2] : '';

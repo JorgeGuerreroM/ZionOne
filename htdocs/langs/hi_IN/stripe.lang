@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=स्ट्राइप मॉड्यूल सेटअप
-StripeDesc=अपने ग्राहकों को <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> के माध्यम से क्रेडिट/डेबिट कार्ड से भुगतान के लिए एक ऑनलाइन भुगतान पृष्ठ प्रदान करें। इसका उपयोग आपके ग्राहकों को एड-हॉक भुगतान करने या किसी विशेष Dolibarr ऑब्जेक्ट (चालान, ऑर्डर, ...) से संबंधित भुगतान करने की अनुमति देने के लिए किया जा सकता है।
+StripeDesc=अपने ग्राहकों को <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> के माध्यम से क्रेडिट/डेबिट कार्ड से भुगतान के लिए एक ऑनलाइन भुगतान पृष्ठ प्रदान करें। इसका उपयोग आपके ग्राहकों को एड-हॉक भुगतान करने या किसी विशेष ZionOne ऑब्जेक्ट (चालान, ऑर्डर, ...) से संबंधित भुगतान करने की अनुमति देने के लिए किया जा सकता है।
 StripeOrCBDoPayment=क्रेडिट कार्ड या स्ट्राइप से भुगतान करें
 FollowingUrlAreAvailableToMakePayments=डोलिबार वस्तुओं पर भुगतान करने के लिए ग्राहक को पृष्ठ प्रदान करने के लिए निम्नलिखित URL उपलब्ध हैं
 PaymentForm=भुगतान फार्म
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=किसी भी राशि का
 ToOfferALinkForOnlinePaymentOnMemberSubscription=सदस्य सदस्यता के लिए %s ऑनलाइन भुगतान पृष्ठ प्रदान करने के लिए URL
 ToOfferALinkForOnlinePaymentOnDonation=दान के भुगतान के लिए %s ऑनलाइन भुगतान पृष्ठ प्रदान करने के लिए URL
 YouCanAddTagOnUrl=You can also add url parameter <b>&tag=value</b> to any of those URL (mandatory only for payment not linked to an object) to add your own payment comment tag.<br>For the URL of payments with no existing object, you may also add the parameter <strong>&noidempotency=1</strong> so the same link with same tag can be used several times (some payment mode may limit the payment to 1 for each different link without this parameter)
-YouCanEmbedOnWebsite=यदि आप भुगतान पृष्ठ को Dolibarr वेबसाइट में एकीकृत करना चाहते हैं, तो आप पैरामीटर शामिल कर सकते हैं: <b>&ws=website_ref</b>.<br>इसके अतिरिक्त, <b>paymentok</b> और <b>paymentko</b> सफल या असफल ऑनलाइन भुगतान के बाद रीडायरेक्ट प्राप्त करने के लिए वेबसाइट में बनाया जाना चाहिए।
+YouCanEmbedOnWebsite=यदि आप भुगतान पृष्ठ को ZionOne वेबसाइट में एकीकृत करना चाहते हैं, तो आप पैरामीटर शामिल कर सकते हैं: <b>&ws=website_ref</b>.<br>इसके अतिरिक्त, <b>paymentok</b> और <b>paymentko</b> सफल या असफल ऑनलाइन भुगतान के बाद रीडायरेक्ट प्राप्त करने के लिए वेबसाइट में बनाया जाना चाहिए।
 SetupStripeToHavePaymentCreatedAutomatically=स्ट्राइप द्वारा मान्य किए जाने पर भुगतान स्वचालित रूप से बनाने के लिए, URL <b>%s</b> के साथ अपना स्ट्राइप सेटअप करें।
 AccountParameter=खाता पैरामीटर
 UsageParameter=उपयोग पैरामीटर

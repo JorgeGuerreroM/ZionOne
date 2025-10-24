@@ -1,11 +1,11 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Nº de documentos en el directorio.
 ECMAddSection=Agregar directorio
 ECMCreationDate=Fecha de creación
 ECMNbOfSubDir=Cantidad de subdirectorios
 ECMNbOfFilesInSubDir=Número de archivos en subdirectorios
 ECMArea=Área de DMS / ECM
-ECMAreaDesc=El área DMS / ECM (Sistema de gestión de documentos / gestión de contenido electrónico) le permite guardar, compartir y buscar rápidamente todo tipo de documentos en Dolibarr.
+ECMAreaDesc=El área DMS / ECM (Sistema de gestión de documentos / gestión de contenido electrónico) le permite guardar, compartir y buscar rápidamente todo tipo de documentos en ZionOne.
 ECMSectionWasRemoved=El directorio <b>%s</b> ha sido borrado.
 ECMSectionWasCreated=El directorio <b>%s</b> ha sido creado.
 ECMNoDirectoryYet=Sin directorio creado

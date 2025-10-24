@@ -65,7 +65,7 @@ jobs:
           phpstan_additional_arguments: --memory-limit 7G -a dev/build/phpstan/bootstrap_action.php
           baseline_path: dev/build/phpstan/phpstan-baseline.neon
           commit_name: Dolibot
-          commit_email: dolibarr-bot@users.noreply.github.com
+          commit_email: ZionOne-bot@users.noreply.github.com
           commit_message: PHPStan > Update baseline
           target_branch: develop
           # pr_create: ${{ (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule') && 1 || 0 }}

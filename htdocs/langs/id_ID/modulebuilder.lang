@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Id modul
 ModuleBuilderDesc=Alat ini hanya boleh digunakan oleh pengguna atau pengembang berpengalaman. Ini menyediakan utilitas untuk membangun atau mengedit modul Anda sendiri. Dokumentasi untuk <a href="%s" target="_blank" rel="noopener noreferrer">pengembangan manual alternatif ada di sini</a>.
 EnterNameOfModuleDesc=Masukkan nama modul/aplikasi yang akan dibuat tanpa spasi. Gunakan huruf besar untuk memisahkan kata (Misalnya: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Anda dapat menghapus modul Anda. PERINGATAN: Semua
 EnterNameOfObjectToDeleteDesc=Anda dapat menghapus suatu objek. PERINGATAN: Semua file pengkodean (dihasilkan atau dibuat secara manual) yang terkait dengan objek akan dihapus!
 DangerZone=Zona bahaya
 BuildPackage=Membangun paket
-BuildPackageDesc=Anda dapat membuat paket zip aplikasi Anda sehingga Anda siap untuk mendistribusikannya di Dolibarr apa pun. Anda juga dapat mendistribusikan atau menjualnya di pasar seperti <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=Anda dapat membuat paket zip aplikasi Anda sehingga Anda siap untuk mendistribusikannya di ZionOne apa pun. Anda juga dapat mendistribusikan atau menjualnya di pasar seperti <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=Bangun dokumentasi
 ModuleIsNotActive=Modul ini belum diaktifkan. Pergi ke %s untuk membuatnya hidup atau klik di sini
 ModuleIsLive=Modul ini telah diaktifkan. Perubahan apa pun dapat merusak fitur langsung saat ini.
@@ -110,7 +110,7 @@ HooksDefDesc=Tentukan di properti <b>module_parts['hooks']</b>, di file deskript
 TriggerDefDesc=Tentukan dalam file pemicu kode yang ingin Anda jalankan ketika agenda bisnis di luar modul Anda dijalankan (peristiwa yang dipicu oleh modul lain).
 SeeIDsInUse=Lihat ID yang digunakan dalam instalasi Anda
 SeeReservedIDsRangeHere=Lihat berbagai ID yang dipesan
-ToolkitForDevelopers=Toolkit untuk pengembang Dolibarr
+ToolkitForDevelopers=Toolkit untuk pengembang ZionOne
 TryToUseTheModuleBuilder=Jika Anda memiliki pengetahuan tentang SQL dan PHP, Anda dapat menggunakan panduan pembuat modul asli. <br> Mengaktifkan modul<strong>%s </strong> dan gunakan wizard dengan mengklik <span class="fa fa-bug"> </span> di menu kanan atas. <br> Peringatan: Ini adalah fitur pengembang lanjutan, jangan<b>bukan eksperimen</b>di situs produksi Anda!
 SeeTopRightMenu=Lihat <span class="fa fa-bug"> </span> di menu kanan atas
 AddLanguageFile=Tambahkan file bahasa

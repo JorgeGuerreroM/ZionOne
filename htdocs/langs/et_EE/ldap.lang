@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Kasutaja <b>%s</b> salasõna domeenis <b>%s</b> peab muutma.
 UserMustChangePassNextLogon=Kasutaja peab muutma oma salasõna domeenis %s
 LDAPInformationsForThisContact=LDAPi andmebaasis selle kontakti kohta leiduv info
@@ -22,7 +22,7 @@ GroupSynchronized=Grupp sünkroniseeritud
 MemberSynchronized=Liige sünkroniseeritud
 MemberTypeSynchronized=Liikme tüüp sünkroonitud
 ContactSynchronized=Kontakt sünkroniseeritud
-ForceSynchronize=Sunni Dolibarr -> LDAP sünkroniseerimine
+ForceSynchronize=Sunni ZionOne -> LDAP sünkroniseerimine
 ErrorFailedToReadLDAP=LDAPi andmebaasi lugemine ebaõnnestus. Kontrolli LDAPi mooduli seadistust ja ligipääsu andmebaasile.
 PasswordOfUserInLDAP=Kasutaja parool LDAP-is
 LDAPPasswordHashType=Parooli räsi tüüp

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=İanə
 Donations=İanələr
 DonationRef=İanə ref.
@@ -37,7 +37,7 @@ DonationUseThirdparties=Donorun ünvanı kimi mövcud üçüncü tərəfin ünva
 DonationsStatistics=İanə statistikası
 NbOfDonations=İanələrin sayı
 BlankDonationForm=İctimai ianə forması
-BlankDonationFormDesc=Dolibarr xarici ziyarətçilərin ianə etməsinə icazə vermək üçün sizə ictimai URL/veb-sayt təqdim edə bilər. Onlayn ödəniş modulu işə salınarsa, ödəniş forması da avtomatik olaraq təqdim edilə bilər.
+BlankDonationFormDesc=ZionOne xarici ziyarətçilərin ianə etməsinə icazə vermək üçün sizə ictimai URL/veb-sayt təqdim edə bilər. Onlayn ödəniş modulu işə salınarsa, ödəniş forması da avtomatik olaraq təqdim edilə bilər.
 EnablePublicDonationForm=İctimai ianə formasını aktivləşdirin
 EnablePublicDonationList=İctimai ianə Siyahısını aktivləşdirin
 ForceDonateurNature = Məcburi ianəçi təbiət (fərdi və ya korporativ)

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Εισαγωγές / Εξαγωγές
 ExportsArea=Εξαγωγές
 ImportArea=Εισαγωγή
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Επιλέξτε τη μορφή αρχείου πο�
 ChooseFileToImport=Μεταφορτώστε το αρχείο και κάντε κλικ στο εικονίδιο %s για να επιλέξετε αρχείο ως αρχείο εισαγωγής προέλευσης ...
 SourceFileFormat=Μορφή αρχείου προέλευσης
 FieldsInSourceFile=Πεδία αρχείου προέλευσης
-FieldsInTargetDatabase=Πεδία στόχευσης στη βάση δεδομένων Dolibarr
+FieldsInTargetDatabase=Πεδία στόχευσης στη βάση δεδομένων ZionOne
 NoFields=Χωρίς πεδία
 MoveField=Μετακίνηση πεδίου αριθμού στήλης %s
 ExampleOfImportFile=Παράδειγμα_αρχείου_εισαγωγής

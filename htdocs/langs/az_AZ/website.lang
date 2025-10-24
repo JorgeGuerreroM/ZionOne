@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kod
 WebsiteName=Veb saytın adı
 WebsiteSetupDesc=Burada istifadə etmək istədiyiniz veb saytları yaradın. Sonra onları redaktə etmək üçün Vebsaytlar menyusuna daxil olun.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Bu veb-saytı canlı yayımlamaq üç
 SetHereVirtualHost=<u>Apache/NGinx/... ilə istifadə edin</u><br>Create veb serveriniz (Apache, Nginx, ...) PHP aktivləşdirilmiş xüsusi Virtual Host və<br><strong>-da Kök kataloqu %s</strong>
 ExampleToUseInApacheVirtualHostConfig=Apache virtual host quraşdırmasında istifadə etmək üçün nümunə:
 YouCanAlsoTestWithPHPS=<u>PHP daxili serveri ilə istifadə edin</u>><u>, sizə üstünlük verə bilər TXPROTECT-34b-mühit. işlətməklə saytı PHP daxili veb serveri ilə sınaqdan keçirmək
-YouCanAlsoDeployToAnotherWHP=<u>Veb saytınızı bir Dolibarr veb Hostinq provayderi daxilində işlədin</u>TXPROTECT-b5ba1a823cca-TX1>TXPROTECT-</span4ENDFROTEF internetdə mövcud olan Apache və ya NGinx kimi veb serveriniz yoxdursa, vebsaytınızı Veb-sayt modulu ilə tam inteqrasiyanı təmin edən başqa bir Dolibarr hosting provayderi tərəfindən təqdim edilən başqa bir Dolibarr nümunəsinə ixrac edə və idxal edə bilərsiniz. Siz bəzi Dolibarr hostinq provayderlərinin siyahısını ><a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a> saytında tapa bilərsiniz.
+YouCanAlsoDeployToAnotherWHP=<u>Veb saytınızı bir ZionOne veb Hostinq provayderi daxilində işlədin</u>TXPROTECT-b5ba1a823cca-TX1>TXPROTECT-</span4ENDFROTEF internetdə mövcud olan Apache və ya NGinx kimi veb serveriniz yoxdursa, vebsaytınızı Veb-sayt modulu ilə tam inteqrasiyanı təmin edən başqa bir ZionOne hosting provayderi tərəfindən təqdim edilən başqa bir ZionOne nümunəsinə ixrac edə və idxal edə bilərsiniz. Siz bəzi ZionOne hostinq provayderlərinin siyahısını ><a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a> saytında tapa bilərsiniz.
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Oxuyun
 WritePerm=yaz
 TestDeployOnWeb=Vebdə sınaqdan keçirin/yerləşdirin
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Dolibarr server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Dolibarr.<br>URL served by Dolibarr:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
+PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by ZionOne server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your ZionOne.<br>URL served by ZionOne:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
 VirtualHostUrlNotDefined=Xarici veb server tərəfindən xidmət edilən virtual hostun URL-i müəyyən edilməyib
 NoPageYet=Hələ səhifə yoxdur
 YouCanCreatePageOrImportTemplate=Siz yeni səhifə yarada və ya tam veb sayt şablonunu idxal edə bilərsiniz
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Tezliklə sifariş detalları səhifəsinə yönl
 WebPortalSetupNotComplete=Veb portalın quraşdırılması tamamlanmayıb
 DeleteWebsiteAccount=Veb sayt hesabını silin
 ConfirmDeleteWebsiteAccount=Bu hesabı silmək istədiyinizə əminsiniz.
-ConfirmDeleteWebsiteAccount2=Əgər bu hesabdan ictimai portala və ya Dolibarr tərəfindən dəstəklənən hər hansı digər internet saytına daxil olmaq üçün istifadə edilibsə, daxil olmaq daha mümkün olmaya bilər.
+ConfirmDeleteWebsiteAccount2=Əgər bu hesabdan ictimai portala və ya ZionOne tərəfindən dəstəklənən hər hansı digər internet saytına daxil olmaq üçün istifadə edilibsə, daxil olmaq daha mümkün olmaya bilər.
 ContentSecurityPolicy=Veb sayt HTTP "Məzmun-Təhlükəsizlik-Siyasət"
 WebsiteSecurityForceRP=Veb sayt HTTP "Referer-Policy"
 WebsiteSecurityForceSTS=Veb sayt HTTP "Strict-Nəqliyyat-Təhlükəsizlik"

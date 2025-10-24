@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Ρύθμιση ενότητας PayPal
-PaypalDesc=Αυτή η ενότητα επιτρέπει την πληρωμή από πελάτες μέσω του <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a>. Αυτό μπορεί να χρησιμοποιηθεί για μια ad-hoc πληρωμή ή για μια πληρωμή που σχετίζεται με ένα αντικείμενο Dolibarr (τιμολόγιο, παραγγελία, ...)
+PaypalDesc=Αυτή η ενότητα επιτρέπει την πληρωμή από πελάτες μέσω του <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a>. Αυτό μπορεί να χρησιμοποιηθεί για μια ad-hoc πληρωμή ή για μια πληρωμή που σχετίζεται με ένα αντικείμενο ZionOne (τιμολόγιο, παραγγελία, ...)
 PaypalOrCBDoPayment=Πληρωμή με PayPal (Κάρτα ή PayPal)
 PaypalDoPayment=Πληρωμή με PayPal
 PAYPAL_API_SANDBOX=Λειτουργία δοκιμής / sandbox

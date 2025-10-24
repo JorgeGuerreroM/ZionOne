@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - datapolicy
+# ZionOne language file - Source file is en_US - datapolicy
 datapolicySetup =Configuración de la política de privacidad de datos del módulo
 DATAPOLICY_TIERS_PROSPECT =Prospecto
 DATAPOLICY_TIERS_PROSPECT_CLIENT =Prospecto/Cliente

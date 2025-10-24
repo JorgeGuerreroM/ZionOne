@@ -23,7 +23,7 @@
  *		\brief      Page to setup reception module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/reception.lib.php';
@@ -151,7 +151,7 @@ if ($action == 'updateMask') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('RECEPTION_ADDON_PDF') == "$value") {
-			dolibarr_del_const($db, 'RECEPTION_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'RECEPTION_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'setdoc') {

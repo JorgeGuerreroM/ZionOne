@@ -3,7 +3,7 @@
 
 This directory contains:
 
-data:      A directory with SQL script to add Dolibarr initial data.
-migration: A directory with SQL script to migrate Dolibarr database from 
+data:      A directory with SQL script to add ZionOne initial data.
+migration: A directory with SQL script to migrate ZionOne database from 
            one version to another version.
 tables:    A directory with all files with create tables and index orders.

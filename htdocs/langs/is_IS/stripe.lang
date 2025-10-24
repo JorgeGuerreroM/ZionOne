@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe module setup
-StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular Dolibarr object (invoice, order, ...)
+StripeDesc=Offer your customers an online payment page for payments with credit/debit cards via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. This can be used to allow your customers to make ad-hoc payments or for payments related to a particular ZionOne object (invoice, order, ...)
 StripeOrCBDoPayment=Pay with credit card or Stripe
-FollowingUrlAreAvailableToMakePayments=Eftirfarandi vefslóðir eru að bjóða upp síðu til viðskiptavina til að framkvæma greiðslu á Dolibarr mótmæla
+FollowingUrlAreAvailableToMakePayments=Eftirfarandi vefslóðir eru að bjóða upp síðu til viðskiptavina til að framkvæma greiðslu á ZionOne mótmæla
 PaymentForm=Greiðsla mynd
 WelcomeOnPaymentPage=Welcome to our online payment service
 ThisScreenAllowsYouToPay=Þessi skjár leyfa þér að gera á netinu greiðslu til %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL to offer a %s online payment page o
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL to offer a %s online payment page for a member subscription
 ToOfferALinkForOnlinePaymentOnDonation=URL to offer a %s online payment page for payment of a donation
 YouCanAddTagOnUrl=You can also add url parameter <b>&tag=value</b> to any of those URL (mandatory only for payment not linked to an object) to add your own payment comment tag.<br>For the URL of payments with no existing object, you may also add the parameter <strong>&noidempotency=1</strong> so the same link with same tag can be used several times (some payment mode may limit the payment to 1 for each different link without this parameter)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=Setup your Stripe with url <b>%s</b> to have payment created automatically when validated by Stripe.
 AccountParameter=Skráningin breytur
 UsageParameter=Notkun breytur
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Only for customers from Austria, Belgium, Ge
 ListOfSupportedHooksToActivate=List of supported hooks to activate
 # Paybox
 PayBoxSetup=PayBox mát skipulag
-PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
 PayBoxDoPayment=Pay with Paybox
 YouWillBeRedirectedOnPayBox=Þú verður vísað á að tryggja Paybox síðu til inntak þú upplýsingar um greiðslukort
 SetupPayBoxToHavePaymentCreatedAutomatically=Setup your Paybox with url <b>%s</b> to have payment created automatically when validated by Paybox.

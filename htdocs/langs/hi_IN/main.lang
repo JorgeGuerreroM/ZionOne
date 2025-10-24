@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# ZionOne language file - Source file is en_US - main
 DIRECTION=ltr
 # Default for FONTFORPDF=helvetica
 # Note for Chinese:
@@ -70,8 +70,8 @@ ErrorNoRequestInError=कोई अनुरोध त्रुटिपूर�
 ErrorServiceUnavailableTryLater=सेवा अभी उपलब्ध नहीं है। बाद में पुनः प्रयास करें।
 ErrorDuplicateField=किसी अद्वितीय फ़ील्ड में डुप्लिकेट मान
 ErrorSomeErrorWereFoundRollbackIsDone=कुछ त्रुटियाँ पाई गईं। परिवर्तन वापस ले लिए गए हैं।
-ErrorConfigParameterNotDefined=पैरामीटर <b>%s</b> Dolibarr कॉन्फ़िगरेशन फ़ाइल <b>conf.php</b> में परिभाषित नहीं है।
-ErrorCantLoadUserFromDolibarrDatabase=Dolibarr डेटाबेस में उपयोगकर्ता <b>%s</b> को खोजने में विफल रहा।
+ErrorConfigParameterNotDefined=पैरामीटर <b>%s</b> ZionOne कॉन्फ़िगरेशन फ़ाइल <b>conf.php</b> में परिभाषित नहीं है।
+ErrorCantLoadUserFromZionOneDatabase=ZionOne डेटाबेस में उपयोगकर्ता <b>%s</b> को खोजने में विफल रहा।
 ErrorNoVATRateDefinedForSellerCountry=त्रुटि, देश '%s' के लिए कोई वैट दर परिभाषित नहीं है।
 ErrorNoSocialContributionForSellerCountry=त्रुटि, देश '%s' के लिए कोई सामाजिक/वित्तीय कर प्रकार परिभाषित नहीं है।
 ErrorFailedToSaveFile=त्रुटि, फ़ाइल सहेजने में विफल.
@@ -105,7 +105,7 @@ RecordDeleted=रिकॉर्ड हटा दिया गया
 RecordGenerated=रिकॉर्ड बनाया गया
 LevelOfFeature=सुविधाओं का स्तर
 NotDefined=परिभाषित नहीं
-DolibarrInHttpAuthenticationSoPasswordUseless=कॉन्फ़िगरेशन फ़ाइल <b>%s</b> में Dolibarr प्रमाणीकरण मोड को इस प्रकार सेट किया गया है: <b>conf.php</b>.<br>इसका अर्थ है कि पासवर्ड डेटाबेस Dolibarr से बाहरी है, इसलिए इस फ़ील्ड को बदलने से कोई प्रभाव नहीं पड़ेगा।
+ZionOneInHttpAuthenticationSoPasswordUseless=कॉन्फ़िगरेशन फ़ाइल <b>%s</b> में ZionOne प्रमाणीकरण मोड को इस प्रकार सेट किया गया है: <b>conf.php</b>.<br>इसका अर्थ है कि पासवर्ड डेटाबेस ZionOne से बाहरी है, इसलिए इस फ़ील्ड को बदलने से कोई प्रभाव नहीं पड़ेगा।
 Administrator=कार्यकारी प्रबंधक
 AdministratorDesc=सिस्टम प्रशासक (उपयोगकर्ता, अनुमतियों के साथ-साथ सिस्टम सेटअप और मॉड्यूल कॉन्फ़िगरेशन का भी प्रबंधन कर सकता है)
 Undefined=अपरिभाषित
@@ -125,9 +125,9 @@ DatabaseTypeManager=डेटाबेस प्रकार प्रबंध�
 RequestLastAccessInError=नवीनतम डेटाबेस पहुँच अनुरोध त्रुटि
 ReturnCodeLastAccessInError=नवीनतम डेटाबेस एक्सेस अनुरोध त्रुटि के लिए रिटर्न कोड
 InformationLastAccessInError=नवीनतम डेटाबेस एक्सेस अनुरोध त्रुटि के लिए जानकारी
-DolibarrHasDetectedError=डोलिबार ने एक तकनीकी त्रुटि का पता लगाया है
-YouCanSetOptionDolibarrMainProdToZero=अधिक जानकारी प्राप्त करने के लिए आप लॉग फ़ाइल पढ़ सकते हैं या अपनी कॉन्फ़िगरेशन फ़ाइल में विकल्प $dolibarr_main_prod को '0' पर सेट कर सकते हैं।
-InformationToHelpDiagnose=यह जानकारी निदान प्रयोजनों के लिए उपयोगी हो सकती है (संवेदनशील जानकारी छिपाने के लिए आप विकल्प $dolibarr_main_prod को '1' पर सेट कर सकते हैं)
+ZionOneHasDetectedError=डोलिबार ने एक तकनीकी त्रुटि का पता लगाया है
+YouCanSetOptionZionOneMainProdToZero=अधिक जानकारी प्राप्त करने के लिए आप लॉग फ़ाइल पढ़ सकते हैं या अपनी कॉन्फ़िगरेशन फ़ाइल में विकल्प $ZionOne_main_prod को '0' पर सेट कर सकते हैं।
+InformationToHelpDiagnose=यह जानकारी निदान प्रयोजनों के लिए उपयोगी हो सकती है (संवेदनशील जानकारी छिपाने के लिए आप विकल्प $ZionOne_main_prod को '1' पर सेट कर सकते हैं)
 MoreInformation=अधिक जानकारी
 TechnicalInformation=तकनीकी जानकारी
 TechnicalID=तकनीकी आईडी
@@ -528,8 +528,8 @@ Generate=उत्पन्न
 Duration=अवधि
 TotalDuration=कुल अवधि
 Summary=सारांश
-DolibarrStateBoard=डेटाबेस सांख्यिकी
-DolibarrWorkBoard=खुले आइटम
+ZionOneStateBoard=डेटाबेस सांख्यिकी
+ZionOneWorkBoard=खुले आइटम
 NoOpenedElementToProcess=प्रक्रिया के लिए कोई खुला तत्व नहीं
 Available=उपलब्ध
 NotYetAvailable=अभी उपलब्ध नहीं है
@@ -812,7 +812,7 @@ PrintContentArea=मुख्य सामग्री क्षेत्र म
 MenuManager=मेनू प्रबंधक
 WarningYouAreInMaintenanceMode=चेतावनी, आप रखरखाव मोड में हैं: केवल लॉगिन <b>%s</b> को इस मोड में एप्लिकेशन का उपयोग करने की अनुमति है।
 CoreErrorTitle=सिस्टम त्रुटि
-CoreErrorMessage=क्षमा करें, एक त्रुटि हुई। लॉग की जांच करने के लिए अपने सिस्टम व्यवस्थापक से संपर्क करें या अधिक जानकारी प्राप्त करने के लिए $dolibarr_main_prod=1 को अक्षम करें।
+CoreErrorMessage=क्षमा करें, एक त्रुटि हुई। लॉग की जांच करने के लिए अपने सिस्टम व्यवस्थापक से संपर्क करें या अधिक जानकारी प्राप्त करने के लिए $ZionOne_main_prod=1 को अक्षम करें।
 CreditCard=क्रेडिट कार्ड
 ValidatePayment=भुगतान मान्य करें
 CreditOrDebitCard=क्रेडिट या डेबिट कार्ड
@@ -967,7 +967,7 @@ ViewFlatList=फ्लैट सूची देखें
 ViewAccountList=खाता बही देखें
 ViewSubAccountList=उप-खाता बही देखें
 RemoveString=स्ट्रिंग '%s' निकालें
-SomeTranslationAreUncomplete=पेश की गई कुछ भाषाओं का अनुवाद आंशिक रूप से ही किया जा सकता है या उनमें त्रुटियाँ हो सकती हैं। कृपया अपने सुधार जोड़ने के लिए <a href="https://transifex.com/projects/p/dolibarr/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/dolibarr/</a> पर रजिस्टर करके अपनी भाषा को सही करने में मदद करें।
+SomeTranslationAreUncomplete=पेश की गई कुछ भाषाओं का अनुवाद आंशिक रूप से ही किया जा सकता है या उनमें त्रुटियाँ हो सकती हैं। कृपया अपने सुधार जोड़ने के लिए <a href="https://transifex.com/projects/p/ZionOne/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/ZionOne/</a> पर रजिस्टर करके अपनी भाषा को सही करने में मदद करें।
 DirectDownloadLink=सार्वजनिक डाउनलोड लिंक
 PublicDownloadLinkDesc=फ़ाइल डाउनलोड करने के लिए केवल लिंक की आवश्यकता है
 DirectDownloadInternalLink=निजी डाउनलोड लिंक
@@ -1189,11 +1189,11 @@ ByStatus=स्थिति के अनुसार
 InformationMessage=जानकारी
 Used=इस्तेमाल किया गया
 ASAP=जितनी जल्दी हो सके
-CREATEInDolibarr=रिकॉर्ड %s बनाया गया
-MODIFYInDolibarr=रिकॉर्ड %s संशोधित
-DELETEInDolibarr=रिकॉर्ड %s हटाया गया
-VALIDATEInDolibarr=रिकॉर्ड %s मान्य किया गया
-APPROVEDInDolibarr=रिकॉर्ड %s स्वीकृत
+CREATEInZionOne=रिकॉर्ड %s बनाया गया
+MODIFYInZionOne=रिकॉर्ड %s संशोधित
+DELETEInZionOne=रिकॉर्ड %s हटाया गया
+VALIDATEInZionOne=रिकॉर्ड %s मान्य किया गया
+APPROVEDInZionOne=रिकॉर्ड %s स्वीकृत
 DefaultMailModel=डिफ़ॉल्ट मेल मॉडल
 PublicVendorName=विक्रेता का सार्वजनिक नाम
 DateOfBirth=जन्म तिथि

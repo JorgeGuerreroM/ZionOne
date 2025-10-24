@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=ลิงก์ย้อนกลับเพื�
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb วันก่อนการยกเลิกสถานะของห้างหุ้นส่วนเมื่อการสมัครสมาชิกหมดอายุ
 ReferingWebsiteCheck=ตรวจสอบการอ้างอิงเว็บไซต์
 ReferingWebsiteCheckDesc=คุณสามารถเปิดใช้งานคุณสมบัติเพื่อตรวจสอบว่าพันธมิตรของคุณได้เพิ่มลิงก์ย้อนกลับไปยังโดเมนเว็บไซต์ของคุณบนเว็บไซต์ของพวกเขาเอง
-PublicFormRegistrationPartnerDesc=Dolibarr สามารถให้ URL/เว็บไซต์สาธารณะแก่คุณเพื่อให้ผู้เยี่ยมชมภายนอกสามารถขอเป็นส่วนหนึ่งของโปรแกรมหุ้นส่วนได้
+PublicFormRegistrationPartnerDesc=ZionOne สามารถให้ URL/เว็บไซต์สาธารณะแก่คุณเพื่อให้ผู้เยี่ยมชมภายนอกสามารถขอเป็นส่วนหนึ่งของโปรแกรมหุ้นส่วนได้
 # Object
 DeletePartnership=ลบห้างหุ้นส่วน
 PartnershipDedicatedToThisThirdParty=ความร่วมมือที่อุทิศให้กับบุคคลที่สามนี้

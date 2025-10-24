@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=ワークフローモジュールの設定
 WorkflowDesc=このモジュールは、いくつかの自動アクションを提供する。デフォルトでは、ワークフローは開いている(必要な順序で実行できる)が、ここでいくつかの自動アクションを活性化できる。
 ThereIsNoWorkflowToModify=活性化済モジュールで使用できるワークフローの変更はない。

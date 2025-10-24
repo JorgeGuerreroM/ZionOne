@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=אזור לחברים
 MemberCard=כרטיס חבר
 SubscriptionCard=כרטיס מנוי
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=רשימת חברים ציבוריים מאושרי
 ErrorThisMemberIsNotPublic=חבר זה אינו ציבורי
 ErrorMemberIsAlreadyLinkedToThisThirdParty=חבר אחר (שם: <b>%s</b>, כניסה: <b>%s</b>) כבר מקושר לצד שלישי <b>%s</b>. הסר תחילה את הקישור הזה מכיוון שלא ניתן לקשר צד שלישי רק לחבר (ולהיפך).
 ErrorUserPermissionAllowsToLinksToItselfOnly=מטעמי אבטחה, יש להעניק לך הרשאות לערוך את כל המשתמשים כדי שתוכל לקשר חבר למשתמש שאינו שלך.
-SetLinkToUser=קישור למשתמש של Dolibarr
-SetLinkToThirdParty=קישור לצד שלישי של Dolibarr
+SetLinkToUser=קישור למשתמש של ZionOne
+SetLinkToThirdParty=קישור לצד שלישי של ZionOne
 MemberCountersArePublic=המונים של חברים תקפים הם ציבוריים
 MembersCards=יצירת כרטיסים לחברים
 MembersList=רשימת חברים
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=האם אתה בטוח שברצונך למחוק את 
 Filehtpasswd=קובץ htpasswd
 ValidateMember=אימות חבר
 ConfirmValidateMember=האם אתה בטוח שברצונך לאמת חבר זה?
-FollowingLinksArePublic=הקישורים הבאים הם דפים פתוחים שאינם מוגנים בשום הרשאה של Dolibarr. הם אינם דפים מעוצבים, המסופקים כדוגמה כדי להראות כיצד לרשום את מסד הנתונים של חברים.
+FollowingLinksArePublic=הקישורים הבאים הם דפים פתוחים שאינם מוגנים בשום הרשאה של ZionOne. הם אינם דפים מעוצבים, המסופקים כדוגמה כדי להראות כיצד לרשום את מסד הנתונים של חברים.
 PublicMemberList=רשימת חברים ציבורית
 BlankSubscriptionForm=טופס רישום עצמי ציבורי
-BlankSubscriptionFormDesc=Dolibarr יכול לספק לך כתובת אתר/אתר ציבורי כדי לאפשר למבקרים חיצוניים לבקש להירשם לקרן. אם מודול תשלום מקוון מופעל, ייתכן שגם טופס תשלום יסופק אוטומטית.
+BlankSubscriptionFormDesc=ZionOne יכול לספק לך כתובת אתר/אתר ציבורי כדי לאפשר למבקרים חיצוניים לבקש להירשם לקרן. אם מודול תשלום מקוון מופעל, ייתכן שגם טופס תשלום יסופק אוטומטית.
 EnablePublicSubscriptionForm=אפשר את האתר הציבורי עם טופס הרשמה עצמית
 ForceMemberType=כפה על סוג החבר
 ExportDataset_member_1=חברים ותרומות

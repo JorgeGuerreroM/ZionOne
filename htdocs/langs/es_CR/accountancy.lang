@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - accountancy
+# ZionOne language file - Source file is en_US - accountancy
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de columnas para el archivo de exportación
 ACCOUNTING_EXPORT_DATE=Formato de fecha para el archivo de exportación
 ACCOUNTING_EXPORT_PIECE=Exportar número de pieza

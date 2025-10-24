@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=PayPal modülü kurulumu
-PaypalDesc=Bu modül, müşterilerin <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> aracılığıyla ödeme yapmasına olanak tanır. Bu, geçici bir ödeme için veya bir Dolibarr nesnesiyle (fatura, sipariş, ...) ilgili bir ödeme için kullanılabilir.
+PaypalDesc=Bu modül, müşterilerin <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> aracılığıyla ödeme yapmasına olanak tanır. Bu, geçici bir ödeme için veya bir ZionOne nesnesiyle (fatura, sipariş, ...) ilgili bir ödeme için kullanılabilir.
 PaypalOrCBDoPayment=PayPal ile Öde (Kart veya PayPal)
 PaypalDoPayment=PayPal ile öde
 PAYPAL_API_SANDBOX=Test/sandbox modu

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Ukázať naplánovanú úlohu
 Permission23102 = Vytvoriť / upraviť naplánovanú úlohu
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Zakázať
 CronTaskInactive=Táto úloha je zakázaná (nie je naplánovaná)
 CronId=Id
 CronClassFile=Názov súboru s triedou
-CronModuleHelp=Názov adresára modulu Dolibarr (funguje aj s externým modulom Dolibarr). <BR> Napríklad na volanie metódy načítania objektu Dolibarr Product /htdocs/<u>productb0adaaa40dz87 /class/product.class.php, hodnota modulu je<br><i>product</i>
-CronClassFileHelp=Relatívna cesta a názov súboru, ktorý sa má načítať (cesta je relatívna ku koreňovému adresáru webového servera). <BR> Napríklad na volanie metódy načítania objektu Dolibarr Product htdocs/product/class/<u>product.class.php</u>, hodnota názvu súboru triedy je <br><i>produkt/trieda/produkt .class.php</i>
-CronObjectHelp=Názov objektu, ktorý sa má načítať. <BR> Ak chcete napríklad volať metódu načítania objektu Dolibarr Product /htdocs/product/class/product.class.php, hodnota názvu súboru triedy je<br><i>Produkt</i>
-CronMethodHelp=Metóda objektu na spustenie. <BR> Ak chcete napríklad volať metódu načítania objektu Dolibarr Product /htdocs/product/class/product.class.php, hodnota metódy je <br><i>fetch</i>
-CronArgsHelp=Argumenty metódy. <BR> Ak chcete napríklad volať metódu načítania objektu Dolibarr Product /htdocs/product/class/product.class.php, hodnota parametrov môže byť<br><i>0, ProductRef</i>
+CronModuleHelp=Názov adresára modulu ZionOne (funguje aj s externým modulom ZionOne). <BR> Napríklad na volanie metódy načítania objektu ZionOne Product /htdocs/<u>productb0adaaa40dz87 /class/product.class.php, hodnota modulu je<br><i>product</i>
+CronClassFileHelp=Relatívna cesta a názov súboru, ktorý sa má načítať (cesta je relatívna ku koreňovému adresáru webového servera). <BR> Napríklad na volanie metódy načítania objektu ZionOne Product htdocs/product/class/<u>product.class.php</u>, hodnota názvu súboru triedy je <br><i>produkt/trieda/produkt .class.php</i>
+CronObjectHelp=Názov objektu, ktorý sa má načítať. <BR> Ak chcete napríklad volať metódu načítania objektu ZionOne Product /htdocs/product/class/product.class.php, hodnota názvu súboru triedy je<br><i>Produkt</i>
+CronMethodHelp=Metóda objektu na spustenie. <BR> Ak chcete napríklad volať metódu načítania objektu ZionOne Product /htdocs/product/class/product.class.php, hodnota metódy je <br><i>fetch</i>
+CronArgsHelp=Argumenty metódy. <BR> Ak chcete napríklad volať metódu načítania objektu ZionOne Product /htdocs/product/class/product.class.php, hodnota parametrov môže byť<br><i>0, ProductRef</i>
 CronCommandHelp=Systém príkazového riadka spustiť.
 CronCreateJob=Vytvorte novú plánovanú úlohu
 CronFrom=Z

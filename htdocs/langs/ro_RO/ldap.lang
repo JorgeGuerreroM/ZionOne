@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Parola pentru utilizatorul <b>%s</b> de pe domeniul<b>%s</b> trebuie să fie schimbată.
 UserMustChangePassNextLogon=Utilizatorul trebuie să schimbe parola de pe domeniul %s
 LDAPInformationsForThisContact=Informaţii în baza de date LDAP pentru acest contact
@@ -22,7 +22,7 @@ GroupSynchronized=Grup sincronizat
 MemberSynchronized=Membru sincronizat
 MemberTypeSynchronized=Tipul de membru sincronizat
 ContactSynchronized=Contact sincronizat
-ForceSynchronize=Forţează sincronizarea Dolibarr -> LDAP
+ForceSynchronize=Forţează sincronizarea ZionOne -> LDAP
 ErrorFailedToReadLDAP=Nu s-a putut citi baza de date LDAP. Verifică configurarea modulului LDAP şi accesul la baza de date.
 PasswordOfUserInLDAP=Parola utilizatorului în LDAP
 LDAPPasswordHashType=Tip hash parolă

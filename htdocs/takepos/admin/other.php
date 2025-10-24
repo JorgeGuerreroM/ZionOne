@@ -132,14 +132,14 @@ print '<td colspan="2">TakePOS Support</td>';
 print '<td>'.$langs->trans("URL").'</td>';
 print '</tr>';
 
-$url = 'https://partners.dolibarr.org';
+$url = 'https://partners.ZionOne.org';
 
 print '<tr class="oddeven">'."\n";
 print '<td class="titlefield">';
 print '<a href="'.$url.'" target="_blank" rel="noopener noreferrer external">';
 print '<img border="0" class="imgautosize imgmaxwidth180" src="'.DOL_URL_ROOT.'/theme/dolibarr_preferred_partner.png">';
 print '</a></td>';
-print '<td>Dolibarr Preferred Partners</td>';
+print '<td>ZionOne Preferred Partners</td>';
 print '<td>';
 print '<a href="'.$url.'" target="_blank" rel="noopener noreferrer external">';
 print img_picto('', 'url', 'class="pictofixedwidth"');

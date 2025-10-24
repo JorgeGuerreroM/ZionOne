@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=Exports
 ImportArea=ນຳ ເຂົ້າ
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=ເລືອກຮູບແບບໄຟລ to ເພ�
 ChooseFileToImport=ອັບໂຫຼດໄຟລ then ຈາກນັ້ນຄລິກທີ່ໄອຄອນ %s ເພື່ອເລືອກໄຟລ as ເປັນໄຟລ import ນໍາເຂົ້າແຫຼ່ງທີ່ມາ ...
 SourceFileFormat=ຮູບແບບໄຟລ Source ແຫຼ່ງຂໍ້ມູນ
 FieldsInSourceFile=ຊ່ອງຂໍ້ມູນໃນໄຟລ source ຕົ້ນສະບັບ
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=ບໍ່ມີຊ່ອງຂໍ້ມູນ
 MoveField=ຍ້າຍcolumnາຍເລກຖັນພາກສະ ໜາມ %s
 ExampleOfImportFile=Example_of_import_file

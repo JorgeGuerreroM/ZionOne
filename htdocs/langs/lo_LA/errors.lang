@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=ບໍ່ມີຂໍ້ຜິດພາດ, ພວກເຮົາມຸ່ງັ້ນ
@@ -52,12 +52,12 @@ ErrorWrongDate=ວັນທີບໍ່ຖືກຕ້ອງ!
 ErrorFailedToWriteInDir=ການຂຽນຢູ່ໃນບັນຊີລາຍຊື່ %s ບໍ່ສໍາເລັດ
 ErrorFailedToBuildArchive=ລົ້ມເຫລວໃນການສ້າງແຟ້ມຈັດເກັບ %s
 ErrorFoundBadEmailInFile=ພົບໄວຍະກອນອີເມວທີ່ບໍ່ຖືກຕ້ອງ ສຳ ລັບສາຍ %s (ຕົວຢ່າງແຖວ %s ທີ່ມີອີເມວ = %s)
-ErrorUserCannotBeDelete=ບໍ່ສາມາດລຶບຜູ້ໃຊ້ໄດ້. ບາງທີມັນອາດຈະພົວພັນກັບ ໜ່ວຍ ງານ Dolibarr.
+ErrorUserCannotBeDelete=ບໍ່ສາມາດລຶບຜູ້ໃຊ້ໄດ້. ບາງທີມັນອາດຈະພົວພັນກັບ ໜ່ວຍ ງານ ZionOne.
 ErrorFieldsRequired=ບາງຊ່ອງຂໍ້ມູນທີ່ຕ້ອງການໄດ້ປະຫວ່າງໄວ້.
 ErrorSubjectIsRequired=ຕ້ອງການຫົວຂໍ້ອີເມວ
 ErrorInAddAttachmentsImageBaseOnMedia=Error in creating image files into media directory for attachment
 ErrorInAddAttachmentsImageBaseIsSrcData=Error in creating image files (found as data:) into temp directory for attachment
-ErrorFailedToCreateDir=ສ້າງບັນຊີລາຍຊື່ບໍ່ ສຳ ເລັດ. ກວດເບິ່ງວ່າຜູ້ໃຊ້ເຊີບເວີເວັບມີການອະນຸຍາດຂຽນເຂົ້າໄປໃນບັນຊີລາຍການເອກະສານ Dolibarr. ຖ້າຕົວກໍານົດການ <b> safe_mode </b> ຖືກເປີດໃຊ້ໃນ PHP ນີ້, ກວດເບິ່ງວ່າໄຟລ Dol php Dolibarr ເປັນເຈົ້າຂອງກັບຜູ້ໃຊ້ web server (ຫຼືກຸ່ມ).
+ErrorFailedToCreateDir=ສ້າງບັນຊີລາຍຊື່ບໍ່ ສຳ ເລັດ. ກວດເບິ່ງວ່າຜູ້ໃຊ້ເຊີບເວີເວັບມີການອະນຸຍາດຂຽນເຂົ້າໄປໃນບັນຊີລາຍການເອກະສານ ZionOne. ຖ້າຕົວກໍານົດການ <b> safe_mode </b> ຖືກເປີດໃຊ້ໃນ PHP ນີ້, ກວດເບິ່ງວ່າໄຟລ Dol php ZionOne ເປັນເຈົ້າຂອງກັບຜູ້ໃຊ້ web server (ຫຼືກຸ່ມ).
 ErrorNoMailDefinedForThisUser=ບໍ່ໄດ້ ກຳ ນົດອີເມວ ສຳ ລັບຜູ້ໃຊ້ນີ້
 ErrorSetupOfEmailsNotComplete=ການຕັ້ງອີເມວບໍ່ ສຳ ເລັດ
 ErrorAccountingClosureSetupNotComplete=Setup of closure accounts not complete
@@ -88,7 +88,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=ຊ່ອງຂໍ້ມູນ 
 ErrorFieldMustHaveXChar=ຊ່ອງຂໍ້ມູນ <b> %s </b> ຕ້ອງມີຕົວອັກສອນຢ່າງ ໜ້ອຍ %s.
 ErrorNoAccountancyModuleLoaded=ບໍ່ໄດ້ເປີດໃຊ້ໂມດູນການບັນຊີ
 ErrorExportDuplicateProfil=ຊື່ໂປຣໄຟລ This ນີ້ມີຢູ່ແລ້ວ ສຳ ລັບຊຸດການສົ່ງອອກນີ້.
-ErrorLDAPSetupNotComplete=ການຈັບຄູ່ Dolibarr-LDAP ບໍ່ສົມບູນ.
+ErrorLDAPSetupNotComplete=ການຈັບຄູ່ ZionOne-LDAP ບໍ່ສົມບູນ.
 ErrorLDAPMakeManualTest=ໄຟລ. .ldif ໄດ້ຖືກສ້າງຂຶ້ນໃນບັນຊີລາຍຊື່ %s. ພະຍາຍາມໂຫຼດມັນດ້ວຍຕົນເອງຈາກບັນທັດຄໍາສັ່ງເພື່ອໃຫ້ມີຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບຂໍ້ຜິດພາດ.
 ErrorCantSaveADoneUserWithZeroPercentage=ບໍ່ສາມາດບັນທຶກ ຄຳ ສັ່ງທີ່ມີ "ສະຖານະບໍ່ໄດ້ເລີ່ມຕົ້ນ" ຖ້າຊ່ອງຂໍ້ມູນ "ເຮັດແລ້ວ" ຖືກຕື່ມໃສ່.
 ErrorPleaseTypeBankTransactionReportName=ກະລຸນາໃສ່ຊື່ໃບແຈ້ງຍອດຂອງທະນາຄານບ່ອນທີ່ລາຍການຕ້ອງໄດ້ລາຍງານ (ຮູບແບບ YYYYMM ຫຼື YYYYMMDD)
@@ -122,8 +122,8 @@ ErrorProdIdAlreadyExist=%s ຖືກມອບtoາຍໃຫ້ກັບອັນ
 ErrorFailedToSendPassword=ສົ່ງລະຫັດຜ່ານບໍ່ ສຳ ເລັດ
 ErrorFailedToLoadRSSFile=ລົ້ມເຫລວໃນການຮັບຟີດ RSS. ພະຍາຍາມເພີ່ມ MAIN_SIMPLEXMLLOAD_DEBUG ຄົງທີ່ຖ້າຂໍ້ຄວາມຜິດພາດບໍ່ໃຫ້ຂໍ້ມູນພຽງພໍ.
 ErrorForbidden=ປະ​ຕິ​ເສດ​ການ​ເຂົ້າ​ເຖິງ. <br> ເຈົ້າພະຍາຍາມເຂົ້າຫາ ໜ້າ ເວັບ, ພື້ນທີ່ຫຼືລັກສະນະຂອງໂມດູນພິການຫຼືໂດຍບໍ່ໄດ້ຢູ່ໃນຊ່ວງເວລາທີ່ຖືກກວດສອບຫຼືອັນນັ້ນບໍ່ໄດ້ຖືກອະນຸຍາດໃຫ້ກັບຜູ້ໃຊ້ຂອງເຈົ້າ.
-ErrorForbidden2=ການອະນຸຍາດສໍາລັບການເຂົ້າສູ່ລະບົບນີ້ສາມາດຖືກກໍານົດໂດຍຜູ້ບໍລິຫານ Dolibarr ຂອງເຈົ້າຈາກເມນູ %s-> %s.
-ErrorForbidden3=ມັນເບິ່ງຄືວ່າ Dolibarr ບໍ່ໄດ້ຖືກນໍາໃຊ້ຜ່ານກອງປະຊຸມທີ່ຖືກຮັບຮອງ. ກວດເບິ່ງເອກະສານການຕິດຕັ້ງ Dolibarr ເພື່ອຮູ້ວິທີຈັດການການກວດສອບຄວາມຖືກຕ້ອງ (htaccess, mod_auth ຫຼືອື່ນ ... ... ).
+ErrorForbidden2=ການອະນຸຍາດສໍາລັບການເຂົ້າສູ່ລະບົບນີ້ສາມາດຖືກກໍານົດໂດຍຜູ້ບໍລິຫານ ZionOne ຂອງເຈົ້າຈາກເມນູ %s-> %s.
+ErrorForbidden3=ມັນເບິ່ງຄືວ່າ ZionOne ບໍ່ໄດ້ຖືກນໍາໃຊ້ຜ່ານກອງປະຊຸມທີ່ຖືກຮັບຮອງ. ກວດເບິ່ງເອກະສານການຕິດຕັ້ງ ZionOne ເພື່ອຮູ້ວິທີຈັດການການກວດສອບຄວາມຖືກຕ້ອງ (htaccess, mod_auth ຫຼືອື່ນ ... ... ).
 ErrorForbidden4=ໝາຍເຫດ: ລຶບຄຸກກີ້ຂອງບຣາວເຊີຂອງທ່ານເພື່ອທຳລາຍເຊດຊັນທີ່ມີຢູ່ແລ້ວສຳລັບການເຂົ້າສູ່ລະບົບນີ້.
 ErrorNoImagickReadimage=Class Imagick ບໍ່ພົບໃນ PHP ນີ້. ບໍ່ສາມາດເບິ່ງຕົວຢ່າງໄດ້. ຜູ້ບໍລິຫານສາມາດປິດໃຊ້ງານແຖບນີ້ໄດ້ຈາກການຕັ້ງເມນູ - ການສະແດງ.
 ErrorRecordAlreadyExists=ມີບັນທຶກຢູ່ແລ້ວ
@@ -147,8 +147,8 @@ ErrorWebServerUserHasNotPermission=ບັນຊີຜູ້ໃຊ້ <b> %s </b>
 ErrorNoActivatedBarcode=ບໍ່ໄດ້ເປີດໃຊ້ປະເພດບາໂຄດ
 ErrUnzipFails=ການຊິບ %s ກັບ ZipArchive ລົ້ມເຫລວ
 ErrNoZipEngine=ບໍ່ມີເຄື່ອງຈັກໃນການ zip/unzip ໄຟລ 0 %s ໃນ PHP ນີ້
-ErrorFileMustBeADolibarrPackage=ໄຟລ a %s ຕ້ອງເປັນຊຸດຫັດໄປສະນີ Dolibarr
-ErrorModuleFileRequired=ເຈົ້າຕ້ອງເລືອກໄຟລ package ຊຸດໂມດູນ Dolibarr
+ErrorFileMustBeADolibarrPackage=ໄຟລ a %s ຕ້ອງເປັນຊຸດຫັດໄປສະນີ ZionOne
+ErrorModuleFileRequired=ເຈົ້າຕ້ອງເລືອກໄຟລ package ຊຸດໂມດູນ ZionOne
 ErrorPhpCurlNotInstalled=PHP CURL ບໍ່ໄດ້ຖືກຕິດຕັ້ງ, ອັນນີ້ ຈຳ ເປັນທີ່ຈະລົມກັບ Paypal
 ErrorFailedToAddToMailmanList=ລົ້ມເຫລວໃນການເພີ່ມບັນທຶກ %s ໃສ່ລາຍຊື່ Mailman %s ຫຼືຖານ SPIP
 ErrorFailedToRemoveToMailmanList=ລົ້ມເຫລວໃນການລຶບບັນທຶກ %s ໄປທີ່ລາຍຊື່ Mailman %s ຫຼືຖານ SPIP
@@ -161,7 +161,7 @@ ErrorDateMustBeInFuture=ວັນທີຈະຕ້ອງໃຫຍ່ກວ່�
 ErrorStartDateGreaterEnd=ວັນທີເລີ່ມຕົ້ນແມ່ນໃຫຍ່ກວ່າວັນທີສິ້ນສຸດ
 ErrorPaymentModeDefinedToWithoutSetup=ໂmodeດການຊໍາລະໄດ້ຖືກຕັ້ງໃຫ້ພິມ %s ແຕ່ການຕັ້ງຄ່າໃບແຈ້ງ ໜີ້ ໂມດູນບໍ່ສໍາເລັດເພື່ອກໍານົດຂໍ້ມູນທີ່ຈະສະແດງສໍາລັບຮູບແບບການຊໍາລະນີ້.
 ErrorPHPNeedModule=ຜິດພາດ, PHP ຂອງເຈົ້າຕ້ອງມີໂມດູນ <b> %s </b> ຕິດຕັ້ງເພື່ອໃຊ້ຄຸນສົມບັດນີ້.
-ErrorOpenIDSetupNotComplete=ເຈົ້າຕັ້ງໄຟລ config ການຕັ້ງຄ່າ Dolibarr ເພື່ອອະນຸຍາດການກວດສອບ OpenID, ແຕ່ URL ຂອງການບໍລິການ OpenID ບໍ່ໄດ້ຖືກກໍານົດເປັນ %s ຄົງທີ່.
+ErrorOpenIDSetupNotComplete=ເຈົ້າຕັ້ງໄຟລ config ການຕັ້ງຄ່າ ZionOne ເພື່ອອະນຸຍາດການກວດສອບ OpenID, ແຕ່ URL ຂອງການບໍລິການ OpenID ບໍ່ໄດ້ຖືກກໍານົດເປັນ %s ຄົງທີ່.
 ErrorWarehouseMustDiffers=ຄັງສິນຄ້າຕົ້ນທາງແລະເປົ້າmustາຍຕ້ອງແຕກຕ່າງກັນ
 ErrorBadFormat=ຮູບແບບບໍ່ດີ!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=ຜິດພາດ, ສະມາຊິກຄົນນີ້ຍັງບໍ່ໄດ້ເຊື່ອມໂຍງກັບພາກສ່ວນທີສາມເທື່ອ. ເຊື່ອມໂຍງສະມາຊິກເຂົ້າກັບພາກສ່ວນທີສາມທີ່ມີຢູ່ແລ້ວຫຼືສ້າງພາກສ່ວນທີສາມໃbefore່ກ່ອນສ້າງການສະwithັກໃຊ້ດ້ວຍໃບແຈ້ງ ໜີ້.
@@ -348,11 +348,11 @@ ErrorNoCloneWithoutEmail=The new user must have an email
 ErrorUserClone=Error in user clone categories
 ErrorQtyOrderedLessQtyShipped = The quantity ordered cannot be less than the quantity shipped.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Error, creating a various payment on a bank account with a currency different than the currency of the company is not yet supported.
-ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and Dolibarr parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and ZionOne parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, you try to pay different invoices with different currencies in the same payment
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=ພາຣາມິເຕີ PHP ຂອງເຈົ້າ upload_max_filesize (%s) ສູງກວ່າພາລາມິເຕີ PHP post_max_size (%s). ອັນນີ້ບໍ່ແມ່ນການຕັ້ງທີ່ສອດຄ່ອງ.
-WarningPasswordSetWithNoAccount=ລະຫັດຜ່ານຖືກຕັ້ງໃຫ້ສະມາຊິກນີ້. ຢ່າງໃດກໍ່ຕາມ, ບໍ່ໄດ້ສ້າງບັນຊີຜູ້ໃຊ້. ສະນັ້ນລະຫັດຜ່ານນີ້ຖືກເກັບໄວ້ແຕ່ບໍ່ສາມາດໃຊ້ເພື່ອເຂົ້າສູ່ລະບົບຫາ Dolibarr ໄດ້. ມັນອາດຈະຖືກໃຊ້ໂດຍໂມດູນ/ອິນເຕີເຟດພາຍນອກແຕ່ຖ້າເຈົ້າບໍ່ຈໍາເປັນຕ້ອງກໍານົດການເຂົ້າສູ່ລະບົບຫຼືລະຫັດຜ່ານສໍາລັບສະມາຊິກ, ເຈົ້າສາມາດປິດຕົວເລືອກ "ຈັດການການເຂົ້າສູ່ລະບົບສໍາລັບສະມາຊິກແຕ່ລະຄົນ" ຈາກການຕັ້ງຄ່າໂມດູນສະມາຊິກ. ຖ້າເຈົ້າຕ້ອງການຈັດການການເຂົ້າສູ່ລະບົບແຕ່ບໍ່ຕ້ອງການລະຫັດຜ່ານໃດ,, ເຈົ້າສາມາດເກັບຊ່ອງນີ້ຫວ່າງໄວ້ເພື່ອຫຼີກເວັ້ນການເຕືອນນີ້. Noteາຍເຫດ: ອີເມລ also ຍັງສາມາດໃຊ້ເປັນການເຂົ້າສູ່ລະບົບໄດ້ຖ້າສະມາຊິກເຊື່ອມໂຍງກັບຜູ້ໃຊ້.
+WarningPasswordSetWithNoAccount=ລະຫັດຜ່ານຖືກຕັ້ງໃຫ້ສະມາຊິກນີ້. ຢ່າງໃດກໍ່ຕາມ, ບໍ່ໄດ້ສ້າງບັນຊີຜູ້ໃຊ້. ສະນັ້ນລະຫັດຜ່ານນີ້ຖືກເກັບໄວ້ແຕ່ບໍ່ສາມາດໃຊ້ເພື່ອເຂົ້າສູ່ລະບົບຫາ ZionOne ໄດ້. ມັນອາດຈະຖືກໃຊ້ໂດຍໂມດູນ/ອິນເຕີເຟດພາຍນອກແຕ່ຖ້າເຈົ້າບໍ່ຈໍາເປັນຕ້ອງກໍານົດການເຂົ້າສູ່ລະບົບຫຼືລະຫັດຜ່ານສໍາລັບສະມາຊິກ, ເຈົ້າສາມາດປິດຕົວເລືອກ "ຈັດການການເຂົ້າສູ່ລະບົບສໍາລັບສະມາຊິກແຕ່ລະຄົນ" ຈາກການຕັ້ງຄ່າໂມດູນສະມາຊິກ. ຖ້າເຈົ້າຕ້ອງການຈັດການການເຂົ້າສູ່ລະບົບແຕ່ບໍ່ຕ້ອງການລະຫັດຜ່ານໃດ,, ເຈົ້າສາມາດເກັບຊ່ອງນີ້ຫວ່າງໄວ້ເພື່ອຫຼີກເວັ້ນການເຕືອນນີ້. Noteາຍເຫດ: ອີເມລ also ຍັງສາມາດໃຊ້ເປັນການເຂົ້າສູ່ລະບົບໄດ້ຖ້າສະມາຊິກເຊື່ອມໂຍງກັບຜູ້ໃຊ້.
 WarningMandatorySetupNotComplete=ຄລິກທີ່ນີ້ເພື່ອຕັ້ງຄ່າຕົວກໍານົດການຕົ້ນຕໍ
 WarningEnableYourModulesApplications=ຄລິກບ່ອນນີ້ເພື່ອເປີດໃຊ້ໂມດູນແລະການສະັກຂອງເຈົ້າ
 WarningSafeModeOnCheckExecDir=ຄຳ ເຕືອນ, ຕົວເລືອກ PHP <b> safe_mode </b> ຢູ່ເທິງສະນັ້ນ ຄຳ ສັ່ງຕ້ອງຖືກເກັບໄວ້ພາຍໃນໄດເຣັກທໍຣີທີ່ປະກາດໂດຍ php parameter <b> safe_mode_exec_dir </b>.
@@ -399,7 +399,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Warning, reading bank account is a
 WarningNoDataTransferedInAccountancyYet=Please note, there is no data in the accounting table. Please transfer your data recorded in the application to the accounting section or change the calculation mode to analyze the data recorded outside of accounting.
 WarningChangingThisMayBreakStopTaskScheduler=Warning, changing this value may disable the scheduler
 WarningAmountOfFileDiffersFromSumOfLines=Warning, amount of file (%s) differs from the sum of lines (%s)
-WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the Dolibarr foundation as being published by a company using illegal practices (non-compliance with the rules for using the Dolibarr brand, collecting your data without your consent or deploying malware).
+WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the ZionOne foundation as being published by a company using illegal practices (non-compliance with the rules for using the ZionOne brand, collecting your data without your consent or deploying malware).
 WarningModuleAffiliatedToAPiratPlatform=Be careful when getting a module (paid or free) from a suspicious non official platform like %s
 
 SwissQrOnlyVIR = ໃບແຈ້ງໜີ້ SwissQR ສາມາດຖືກເພີ່ມໃສ່ໃນໃບຮຽກເກັບເງິນທີ່ກຳນົດໃຫ້ຈ່າຍດ້ວຍການໂອນເງິນສິນເຊື່ອເທົ່ານັ້ນ.

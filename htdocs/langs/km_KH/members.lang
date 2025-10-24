@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=តំបន់សមាជិក
 MemberCard=កាតសមាជិក
 SubscriptionCard=កាតជាវ
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=បញ្ជីឈ្មោះសមាជិកស
 ErrorThisMemberIsNotPublic=សមាជិកនេះមិនមែនជាសាធារណៈទេ។
 ErrorMemberIsAlreadyLinkedToThisThirdParty=សមាជិកម្នាក់ទៀត (ឈ្មោះ៖ <b>%s</b> ចូល៖ <b>%s</b>) ត្រូវបានភ្ជាប់រួចហើយទៅកាន់ភាគីទីបី <b>%s</b>។ ដកតំណនេះចេញជាមុនសិន ព្រោះភាគីទីបីមិនអាចភ្ជាប់ទៅតែសមាជិក (និងផ្ទុយមកវិញ)។
 ErrorUserPermissionAllowsToLinksToItselfOnly=សម្រាប់ហេតុផលសុវត្ថិភាព អ្នកត្រូវតែទទួលបានការអនុញ្ញាតដើម្បីកែសម្រួលអ្នកប្រើប្រាស់ទាំងអស់ ដើម្បីអាចភ្ជាប់សមាជិកជាមួយអ្នកប្រើប្រាស់ដែលមិនមែនជារបស់អ្នក។
-SetLinkToUser=ភ្ជាប់ទៅអ្នកប្រើប្រាស់ Dolibarr
-SetLinkToThirdParty=ភ្ជាប់ទៅភាគីទីបី Dolibarr
+SetLinkToUser=ភ្ជាប់ទៅអ្នកប្រើប្រាស់ ZionOne
+SetLinkToThirdParty=ភ្ជាប់ទៅភាគីទីបី ZionOne
 MemberCountersArePublic=បញ្ជរនៃសមាជិកដែលមានសុពលភាពគឺសាធារណៈ
 MembersCards=ការបង្កើតកាតសម្រាប់សមាជិក
 MembersList=បញ្ជីសមាជិក
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=តើអ្នកប្រាកដថាចង់ល
 Filehtpasswd=ឯកសារ htpasswd
 ValidateMember=ធ្វើឱ្យសមាជិកមានសុពលភាព
 ConfirmValidateMember=តើ​អ្នក​ប្រាកដ​ជា​ចង់​ធ្វើ​ឱ្យ​សមាជិក​នេះ​មាន​សុពលភាព​ឬ?
-FollowingLinksArePublic=តំណភ្ជាប់ខាងក្រោមគឺជាទំព័របើកដែលមិនត្រូវបានការពារដោយការអនុញ្ញាត Dolibarr ណាមួយឡើយ។ ពួកគេមិនត្រូវបានធ្វើទ្រង់ទ្រាយទំព័រទេ ផ្តល់ជាឧទាហរណ៍ដើម្បីបង្ហាញពីរបៀបរាយបញ្ជីមូលដ្ឋានទិន្នន័យសមាជិក។
+FollowingLinksArePublic=តំណភ្ជាប់ខាងក្រោមគឺជាទំព័របើកដែលមិនត្រូវបានការពារដោយការអនុញ្ញាត ZionOne ណាមួយឡើយ។ ពួកគេមិនត្រូវបានធ្វើទ្រង់ទ្រាយទំព័រទេ ផ្តល់ជាឧទាហរណ៍ដើម្បីបង្ហាញពីរបៀបរាយបញ្ជីមូលដ្ឋានទិន្នន័យសមាជិក។
 PublicMemberList=បញ្ជីសមាជិកសាធារណៈ
 BlankSubscriptionForm=ទម្រង់ចុះឈ្មោះសាធារណៈ
-BlankSubscriptionFormDesc=Dolibarr អាចផ្តល់ឱ្យអ្នកនូវ URL/គេហទំព័រសាធារណៈ ដើម្បីអនុញ្ញាតឱ្យអ្នកទស្សនាខាងក្រៅស្នើសុំឱ្យជាវមូលនិធិ។ ប្រសិនបើម៉ូឌុលទូទាត់តាមអ៊ីនធឺណិតត្រូវបានបើក ទម្រង់បង់ប្រាក់ក៏អាចត្រូវបានផ្តល់ជូនដោយស្វ័យប្រវត្តិផងដែរ។
+BlankSubscriptionFormDesc=ZionOne អាចផ្តល់ឱ្យអ្នកនូវ URL/គេហទំព័រសាធារណៈ ដើម្បីអនុញ្ញាតឱ្យអ្នកទស្សនាខាងក្រៅស្នើសុំឱ្យជាវមូលនិធិ។ ប្រសិនបើម៉ូឌុលទូទាត់តាមអ៊ីនធឺណិតត្រូវបានបើក ទម្រង់បង់ប្រាក់ក៏អាចត្រូវបានផ្តល់ជូនដោយស្វ័យប្រវត្តិផងដែរ។
 EnablePublicSubscriptionForm=បើកដំណើរការគេហទំព័រសាធារណៈជាមួយនឹងទម្រង់ជាវដោយខ្លួនឯង។
 ForceMemberType=បង្ខំប្រភេទសមាជិក
 ExportDataset_member_1=សមាជិក និងការរួមចំណែក

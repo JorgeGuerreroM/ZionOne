@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kód
 WebsiteName=A weboldal neve
 WebsiteSetupDesc=Hozza létre itt a használni kívánt webhelyeket. Ezután lépjen be a Webhelyek menübe a szerkesztésükhöz.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=A webhely éles üzembe helyezéséhe
 SetHereVirtualHost=<u>Használat Apache/NGinx/... segítségével</u><br>Hozzon létre webszerverén (Apache, Nginx, ...) egy dedikált virtuális gazdagépet PHP-vel és egy gyökérkönyvtárral a<br> <strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Példa az Apache virtuális gazdagép beállításához:
 YouCanAlsoTestWithPHPS=<u>Használja a PHP beágyazott szerverével</u><br>A fejlesztői környezetben inkább tesztelje az oldalt a PHP beágyazott webszerverrel futtatva
-YouCanAlsoDeployToAnotherWHP=<u>Futtassa webhelyét egy Dolibarr webtárhely-szolgáltatón belül</u><br>If nem rendelkezik az interneten elérhető webszerverrel, mint például az Apache vagy az NGinx, akkor exportálhatja és importálhatja webhelyét egy másik Dolibarr-példányba, amelyet egy másik Dolibarr tárhelyszolgáltató biztosít, és amely teljes integrációt biztosít a Webhely modullal. Néhány Dolibarr tárhelyszolgáltató listája itt található: <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Futtassa webhelyét egy ZionOne webtárhely-szolgáltatón belül</u><br>If nem rendelkezik az interneten elérhető webszerverrel, mint például az Apache vagy az NGinx, akkor exportálhatja és importálhatja webhelyét egy másik ZionOne-példányba, amelyet egy másik ZionOne tárhelyszolgáltató biztosít, és amely teljes integrációt biztosít a Webhely modullal. Néhány ZionOne tárhelyszolgáltató listája itt található: <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Ellenőrizze azt is, hogy a virtuális gazdagép felhasználója (például a www-data) rendelkezik-e <strong>%s</strong> engedélyekkel a<br><strong>%s</strong> fájlokhoz
 ReadPerm=Olvasás
 WritePerm=Írás
 TestDeployOnWeb=Tesztelés/telepítés a weben
 PreviewSiteServedByWebServer=<u>A %s előnézete egy új lapon.</u><br><br>A %s egy külső webszerver (például Apache, Nginx, IIS) fogja kiszolgálni. Telepítenie és be kell állítania ezt a szervert, mielőtt a következő könyvtárra mutatna:<br><strong>%s</strong><br>A külső szerver által kiszolgált URL:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Tekintse meg a %s előnézetét egy új lapon.</u><br><br>A %s szolgáltatást a Dolibarr szerver fogja kiszolgálni, így nincs szükség semmilyen extra webszerver (például Apache, Nginx, IIS) telepítésére.<br>A kellemetlen az, hogy az oldalak URL-jei nem felhasználóbarátak, és a Dolibarr elérési útjával kezdődnek.<br>A Dolibarr által kiszolgált URL:<br><strong>%s</strong><br><br>Saját külső webszerver (például Apache, Nginx, Lighttp) használatával történő telepítéshez vagy teszteléshez használja a "%s" linket.
+PreviewSiteServedByDolibarr=<u>Tekintse meg a %s előnézetét egy új lapon.</u><br><br>A %s szolgáltatást a ZionOne szerver fogja kiszolgálni, így nincs szükség semmilyen extra webszerver (például Apache, Nginx, IIS) telepítésére.<br>A kellemetlen az, hogy az oldalak URL-jei nem felhasználóbarátak, és a ZionOne elérési útjával kezdődnek.<br>A ZionOne által kiszolgált URL:<br><strong>%s</strong><br><br>Saját külső webszerver (például Apache, Nginx, Lighttp) használatával történő telepítéshez vagy teszteléshez használja a "%s" linket.
 VirtualHostUrlNotDefined=A külső webszerver által kiszolgált virtuális gazdagép URL-je nincs megadva
 NoPageYet=Még nincsenek oldalak
 YouCanCreatePageOrImportTemplate=Létrehozhat egy új oldalt vagy importálhat egy teljes webhelysablont
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Hamarosan átirányítjuk a megrendelés részlet
 WebPortalSetupNotComplete=A webportál beállítása nem fejeződött be
 DeleteWebsiteAccount=Webhelyfiók törlése
 ConfirmDeleteWebsiteAccount=Biztosan törölni szeretné ezt a fiókot?
-ConfirmDeleteWebsiteAccount2=Ha ezt a fiókot használták bejelentkezéshez a nyilvános portálon vagy bármely más, a Dolibarr által működtetett weboldalon, akkor a bejelentkezés már nem lehetséges.
+ConfirmDeleteWebsiteAccount2=Ha ezt a fiókot használták bejelentkezéshez a nyilvános portálon vagy bármely más, a ZionOne által működtetett weboldalon, akkor a bejelentkezés már nem lehetséges.
 ContentSecurityPolicy=Weboldal HTTP "Tartalombiztonsági szabályzat"
 WebsiteSecurityForceRP=Weboldal HTTP „Adóirányelvek”
 WebsiteSecurityForceSTS=Weboldal HTTP "Szigorú szállításbiztonság"

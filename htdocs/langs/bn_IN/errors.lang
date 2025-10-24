@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=কোন ত্রুটি নেই, আমরা প্রতিশ্রুতিবদ্ধ
@@ -58,7 +58,7 @@ ErrorFieldsRequired=কিছু প্রয়োজনীয় ক্ষে�
 ErrorSubjectIsRequired=ইমেইল বিষয় প্রয়োজন
 ErrorInAddAttachmentsImageBaseOnMedia=সংযুক্তির জন্য মিডিয়া ডিরেক্টরিতে চিত্র ফাইল তৈরি করতে ত্রুটি।
 ErrorInAddAttachmentsImageBaseIsSrcData=সংযুক্তির জন্য টেম্প ডিরেক্টরিতে ইমেজ ফাইল (ডেটা হিসেবে পাওয়া গেছে:) তৈরি করার সময় ত্রুটি।
-ErrorFailedToCreateDir=একটি ডিরেক্টরি তৈরি করতে ব্যর্থ হয়েছে৷ ওয়েব সার্ভার ব্যবহারকারীর ডলিবার ডকুমেন্ট ডিরেক্টরিতে লেখার অনুমতি আছে কিনা তা পরীক্ষা করুন। যদি এই PHP-এ প্যারামিটার <b>safe_mode</b> সক্ষম করা থাকে, তাহলে দেখুন Dolibarr php ফাইলগুলি ওয়েব সার্ভার ব্যবহারকারীর (বা গ্রুপ) মালিকানাধীন।
+ErrorFailedToCreateDir=একটি ডিরেক্টরি তৈরি করতে ব্যর্থ হয়েছে৷ ওয়েব সার্ভার ব্যবহারকারীর ডলিবার ডকুমেন্ট ডিরেক্টরিতে লেখার অনুমতি আছে কিনা তা পরীক্ষা করুন। যদি এই PHP-এ প্যারামিটার <b>safe_mode</b> সক্ষম করা থাকে, তাহলে দেখুন ZionOne php ফাইলগুলি ওয়েব সার্ভার ব্যবহারকারীর (বা গ্রুপ) মালিকানাধীন।
 ErrorNoMailDefinedForThisUser=এই ব্যবহারকারীর জন্য কোনো মেল সংজ্ঞায়িত করা হয়নি
 ErrorSetupOfEmailsNotComplete=ইমেল সেটআপ সম্পূর্ণ হয়নি
 ErrorAccountingClosureSetupNotComplete=ক্লোজার অ্যাকাউন্টের সেটআপ সম্পূর্ণ হয়নি
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=<b>%s</b> বিশেষ অ�
 ErrorFieldMustHaveXChar=The field <b>%s</b> must have at least %s characters.
 ErrorNoAccountancyModuleLoaded=কোনো অ্যাকাউন্টেন্সি মডিউল সক্রিয় করা হয়নি
 ErrorExportDuplicateProfil=এই প্রোফাইল নামটি এই এক্সপোর্ট সেটের জন্য ইতিমধ্যেই বিদ্যমান।
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP মিল সম্পূর্ণ নয়।
+ErrorLDAPSetupNotComplete=ZionOne-LDAP মিল সম্পূর্ণ নয়।
 ErrorLDAPMakeManualTest=%s ডিরেক্টরিতে একটি .ldif ফাইল তৈরি করা হয়েছে। ত্রুটি সম্পর্কে আরও তথ্য পেতে কমান্ড লাইন থেকে ম্যানুয়ালি লোড করার চেষ্টা করুন।
 ErrorCantSaveADoneUserWithZeroPercentage="স্ট্যাটাস নট স্টার্ট" দিয়ে একটি অ্যাকশন সেভ করা যাবে না যদি ক্ষেত্র "দ্বারা সম্পন্ন"ও পূর্ণ হয়।
 ErrorPleaseTypeBankTransactionReportName=অনুগ্রহ করে ব্যাঙ্ক স্টেটমেন্টের নাম লিখুন যেখানে এন্ট্রি রিপোর্ট করতে হবে (ফর্ম্যাট YYYYMM বা YYYYMMDD)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s অন্য তৃতীয়কে বরাদ্
 ErrorFailedToSendPassword=পাসওয়ার্ড পাঠাতে ব্যর্থ হয়েছে
 ErrorFailedToLoadRSSFile=RSS ফিড পেতে ব্যর্থ. যদি ত্রুটি বার্তাগুলি যথেষ্ট তথ্য প্রদান না করে তবে ধ্রুবক MAIN_SIMPLEXMLLOAD_DEBUG যোগ করার চেষ্টা করুন৷
 ErrorForbidden=অ্যাক্সেস অস্বীকৃত৷<br>আপনি একটি অক্ষম মডিউলের একটি পৃষ্ঠা, এলাকা বা বৈশিষ্ট্য অ্যাক্সেস করার চেষ্টা করেন বা একটি প্রমাণীকৃত সেশনে না থেকে বা এটি আপনার ব্যবহারকারীকে অনুমোদিত নয়৷
-ErrorForbidden2=এই লগইনের জন্য অনুমতি মেনু %s->%s থেকে আপনার Dolibarr প্রশাসক দ্বারা সংজ্ঞায়িত করা যেতে পারে।
-ErrorForbidden3=মনে হচ্ছে ডলিবার একটি প্রমাণিত সেশনের মাধ্যমে ব্যবহার করা হয় না। প্রমাণীকরণগুলি কীভাবে পরিচালনা করবেন তা জানতে Dolibarr সেটআপ ডকুমেন্টেশন দেখুন (htaccess, mod_auth বা অন্যান্য...)।
+ErrorForbidden2=এই লগইনের জন্য অনুমতি মেনু %s->%s থেকে আপনার ZionOne প্রশাসক দ্বারা সংজ্ঞায়িত করা যেতে পারে।
+ErrorForbidden3=মনে হচ্ছে ডলিবার একটি প্রমাণিত সেশনের মাধ্যমে ব্যবহার করা হয় না। প্রমাণীকরণগুলি কীভাবে পরিচালনা করবেন তা জানতে ZionOne সেটআপ ডকুমেন্টেশন দেখুন (htaccess, mod_auth বা অন্যান্য...)।
 ErrorForbidden4=দ্রষ্টব্য: এই লগইনের জন্য বিদ্যমান সেশনগুলি ধ্বংস করতে আপনার ব্রাউজার কুকিজ সাফ করুন।
 ErrorNoImagickReadimage=ক্লাস ইমেজিক এই পিএইচপিতে পাওয়া যায় না। কোন পূর্বরূপ উপলব্ধ করা যাবে না. প্রশাসকরা মেনু সেটআপ - প্রদর্শন থেকে এই ট্যাবটি নিষ্ক্রিয় করতে পারেন৷
 ErrorRecordAlreadyExists=রেকর্ড আগে থেকেই আছে
@@ -149,7 +149,7 @@ ErrorNoActivatedBarcode=কোন বারকোড টাইপ সক্র�
 ErrUnzipFails=ZipArchive দিয়ে %s আনজিপ করতে ব্যর্থ হয়েছে
 ErrNoZipEngine=এই PHP-এ %s ফাইল জিপ/আনজিপ করার জন্য কোনো ইঞ্জিন নেই
 ErrorFileMustBeADolibarrPackage=ফাইল %s অবশ্যই একটি ডলিবার জিপ প্যাকেজ হতে হবে
-ErrorModuleFileRequired=আপনাকে অবশ্যই একটি Dolibarr মডিউল প্যাকেজ ফাইল নির্বাচন করতে হবে
+ErrorModuleFileRequired=আপনাকে অবশ্যই একটি ZionOne মডিউল প্যাকেজ ফাইল নির্বাচন করতে হবে
 ErrorPhpCurlNotInstalled=PHP CURL ইনস্টল করা নেই, পেপালের সাথে কথা বলার জন্য এটি অপরিহার্য
 ErrorFailedToAddToMailmanList=মেইলম্যান তালিকা %s বা SPIP বেসে রেকর্ড %s যোগ করতে ব্যর্থ হয়েছে
 ErrorFailedToRemoveToMailmanList=মেইলম্যান তালিকা %s বা SPIP বেস থেকে রেকর্ড %s সরাতে ব্যর্থ হয়েছে
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=তারিখটি আজকের থেকে ব�
 ErrorStartDateGreaterEnd=শুরুর তারিখটি শেষের তারিখের চেয়ে বড়৷
 ErrorPaymentModeDefinedToWithoutSetup=একটি অর্থপ্রদানের মোড %s টাইপ করার জন্য সেট করা হয়েছিল কিন্তু এই অর্থপ্রদানের মোডের জন্য দেখানোর জন্য তথ্য সংজ্ঞায়িত করার জন্য মডিউল চালানের সেটআপ সম্পূর্ণ হয়নি।
 ErrorPHPNeedModule=ত্রুটি, আপনার PHP-এ মডিউল <b>%s</b> ইনস্টল করা আবশ্যক বৈশিষ্ট্য
-ErrorOpenIDSetupNotComplete=আপনি OpenID প্রমাণীকরণের অনুমতি দেওয়ার জন্য Dolibarr কনফিগারেশন ফাইল সেটআপ করেন, কিন্তু OpenID পরিষেবার URL ধ্রুবক %s তে সংজ্ঞায়িত করা হয় না।
+ErrorOpenIDSetupNotComplete=আপনি OpenID প্রমাণীকরণের অনুমতি দেওয়ার জন্য ZionOne কনফিগারেশন ফাইল সেটআপ করেন, কিন্তু OpenID পরিষেবার URL ধ্রুবক %s তে সংজ্ঞায়িত করা হয় না।
 ErrorWarehouseMustDiffers=উত্স এবং লক্ষ্য গুদামগুলি অবশ্যই পৃথক হতে হবে
 ErrorBadFormat=খারাপ ফরম্যাট!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=ত্রুটি, এই সদস্য এখনও কোনো তৃতীয় পক্ষের সাথে লিঙ্ক করা হয়নি. সদস্যকে একটি বিদ্যমান তৃতীয় পক্ষের সাথে লিঙ্ক করুন বা চালান দিয়ে সদস্যতা তৈরি করার আগে একটি নতুন তৃতীয় পক্ষ তৈরি করুন।
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=নতুন ব্যবহারকারীর এ�
 ErrorUserClone=ব্যবহারকারী ক্লোন বিভাগগুলিতে ত্রুটি
 ErrorQtyOrderedLessQtyShipped = অর্ডার করা পরিমাণ পাঠানো পরিমাণের চেয়ে কম হতে পারবে না।
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=ত্রুটি, কোম্পানির মুদ্রার চেয়ে ভিন্ন মুদ্রা দিয়ে একটি ব্যাংক অ্যাকাউন্টে বিভিন্ন পেমেন্ট তৈরি করা এখনও সমর্থিত নয়।
-ErrorStreamMustBeEnabled=PHP স্ট্রিম %s উপলব্ধ নয়। আপনার PHP মডিউল এবং Dolibarr প্যারামিটার $dolibarr_main_stream_to_disable পরীক্ষা করুন।
+ErrorStreamMustBeEnabled=PHP স্ট্রিম %s উপলব্ধ নয়। আপনার PHP মডিউল এবং ZionOne প্যারামিটার $dolibarr_main_stream_to_disable পরীক্ষা করুন।
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=সমস্যা, আপনি একই পেমেন্টে বিভিন্ন মুদ্রায় বিভিন্ন ইনভয়েস দেওয়ার চেষ্টা করছেন
 ErrorLinkNotFoundWithSharedLink=ত্রুটি, এই শেয়ার্ড কী-এর লিঙ্ক খুঁজে পাওয়া যায়নি।
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=লাইনের সংখ্যা ভুল। ফাইলগুলিতে কমপক্ষে ২টি লাইন থাকতে হবে (শিরোনামের জন্য ১টি লাইন এবং ডেটার জন্য ১টি লাইন)
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=ত্রুটি, এই ধরণের ক্�
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=আপনার PHP প্যারামিটার upload_max_filesize (%s) PHP প্যারামিটার post_max_size (%s) থেকে বেশি। এটি একটি সামঞ্জস্যপূর্ণ সেটআপ নয়।
-WarningPasswordSetWithNoAccount=এই সদস্যের জন্য একটি পাসওয়ার্ড সেট করা হয়েছে৷ তবে কোনো ব্যবহারকারীর অ্যাকাউন্ট তৈরি হয়নি। তাই এই পাসওয়ার্ড সংরক্ষণ করা হয় কিন্তু Dolibarr লগইন করতে ব্যবহার করা যাবে না. এটি একটি বাহ্যিক মডিউল/ইন্টারফেস দ্বারা ব্যবহার করা যেতে পারে কিন্তু যদি আপনাকে কোনো সদস্যের জন্য কোনো লগইন বা পাসওয়ার্ড নির্ধারণ করতে না হয়, তাহলে আপনি সদস্য মডিউল সেটআপ থেকে "প্রতিটি সদস্যের জন্য একটি লগইন পরিচালনা করুন" বিকল্পটি নিষ্ক্রিয় করতে পারেন৷ আপনার যদি লগইন পরিচালনা করতে হয় কিন্তু কোনো পাসওয়ার্ডের প্রয়োজন না হয়, তাহলে এই সতর্কতা এড়াতে আপনি এই ক্ষেত্রটি খালি রাখতে পারেন। দ্রষ্টব্য: সদস্য যদি ব্যবহারকারীর সাথে সংযুক্ত থাকে তবে ইমেলটি লগইন হিসাবেও ব্যবহার করা যেতে পারে।
+WarningPasswordSetWithNoAccount=এই সদস্যের জন্য একটি পাসওয়ার্ড সেট করা হয়েছে৷ তবে কোনো ব্যবহারকারীর অ্যাকাউন্ট তৈরি হয়নি। তাই এই পাসওয়ার্ড সংরক্ষণ করা হয় কিন্তু ZionOne লগইন করতে ব্যবহার করা যাবে না. এটি একটি বাহ্যিক মডিউল/ইন্টারফেস দ্বারা ব্যবহার করা যেতে পারে কিন্তু যদি আপনাকে কোনো সদস্যের জন্য কোনো লগইন বা পাসওয়ার্ড নির্ধারণ করতে না হয়, তাহলে আপনি সদস্য মডিউল সেটআপ থেকে "প্রতিটি সদস্যের জন্য একটি লগইন পরিচালনা করুন" বিকল্পটি নিষ্ক্রিয় করতে পারেন৷ আপনার যদি লগইন পরিচালনা করতে হয় কিন্তু কোনো পাসওয়ার্ডের প্রয়োজন না হয়, তাহলে এই সতর্কতা এড়াতে আপনি এই ক্ষেত্রটি খালি রাখতে পারেন। দ্রষ্টব্য: সদস্য যদি ব্যবহারকারীর সাথে সংযুক্ত থাকে তবে ইমেলটি লগইন হিসাবেও ব্যবহার করা যেতে পারে।
 WarningMandatorySetupNotComplete=প্রধান পরামিতি সেটআপ করতে এখানে ক্লিক করুন
 WarningEnableYourModulesApplications=আপনার মডিউল এবং অ্যাপ্লিকেশন সক্রিয় করতে এখানে ক্লিক করুন
 WarningSafeModeOnCheckExecDir=Warning, PHP option <b>safe_mode</b> is on so command must be stored inside a directory declared by php parameter <b>safe_mode_exec_dir</b>.

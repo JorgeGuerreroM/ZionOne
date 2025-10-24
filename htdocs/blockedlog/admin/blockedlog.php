@@ -24,7 +24,7 @@
  */
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/blockedlog/lib/blockedlog.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/blockedlog/class/blockedlog.class.php';
@@ -74,7 +74,7 @@ if (preg_match('/set_(.*)/', $action, $reg)) {
 
 if (preg_match('/del_(.*)/', $action, $reg)) {
 	$code = $reg[1];
-	if (dolibarr_del_const($db, $code, 0) > 0) {
+	if (zionone_del_const($db, $code, 0) > 0) {
 		header("Location: ".$_SERVER["PHP_SELF"].($withtab ? '?withtab='.$withtab : ''));
 		exit;
 	} else {

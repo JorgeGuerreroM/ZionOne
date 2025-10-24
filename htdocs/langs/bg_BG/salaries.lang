@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Сметка (от сметкоплана), използвана по подразбиране за „потребители“ на заплати
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Специализираната сметка, дефинирана в потребителската карта, ще се използва само за подкнига Счетоводство. Тази сметка ще се използва за главната книга, но също и като стойност по подразбиране за подкнига Счетоводство, ако за потребителя не е дефиниран специален потребителски акаунт Счетоводство.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Счетоводна сметка по подразбиране за плащане на заплати

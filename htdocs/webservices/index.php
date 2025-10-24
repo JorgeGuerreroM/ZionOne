@@ -19,10 +19,10 @@
 
 /**
  *       \file       htdocs/webservices/server_invoice.php
- *       \brief      File that is entry point to call Dolibarr WebServices
+ *       \brief      File that is entry point to call ZionOne WebServices
  */
 
-// This is to make Dolibarr working with Plesk
+// This is to make ZionOne working with Plesk
 set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 
 require_once '../master.inc.php';
@@ -43,12 +43,12 @@ $langs->load("admin");
  * View
  */
 
-dol_syslog("Call Dolibarr webservices interfaces");
+dol_syslog("Call ZionOne webservices interfaces");
 
 // Enable and test if module web services is enabled
 if (!getDolGlobalString('MAIN_MODULE_WEBSERVICES')) {
 	$langs->load("admin");
-	dol_syslog("Call Dolibarr webservices interfaces with module webservices disabled");
+	dol_syslog("Call ZionOne webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive", 'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;

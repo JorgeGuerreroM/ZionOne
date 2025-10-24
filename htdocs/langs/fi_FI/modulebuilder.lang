@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Moduulin tunnus
 ModuleBuilderDesc=Vain kokeneet käyttäjät tai kehittäjät saavat käyttää tätä työkalua. Se tarjoaa apuohjelmia oman moduulin rakentamiseen tai muokkaamiseen. Vaihtoehtoisen <a href="%s" target="_blank" rel="noopener noreferrer">manuaalisen kehityksen dokumentaatio on täällä</a>.
 EnterNameOfModuleDesc=Syötä moduulin/sovelluksen nimi muotoon luo ilman välilyöntejä. Käytä isoja kirjaimia erottaaksesi sanat (esimerkiksi: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -110,7 +110,7 @@ HooksDefDesc=Määritä ominaisuudessa <b>module_parts['hooks']</b>, moduulin ku
 TriggerDefDesc=Määritä triggerissä tiedosto koodi, jonka haluat suorittaa, kun moduulisi ulkopuolinen liiketoimintatapahtuma suoritetaan (muiden moduulien käynnistämät tapahtumat).
 SeeIDsInUse=Katso asennuksessasi käytössä olevat tunnukset
 SeeReservedIDsRangeHere=Katso valikoima varattuja tunnuksia
-ToolkitForDevelopers=Toolkit Dolibarr-kehittäjille
+ToolkitForDevelopers=Toolkit ZionOne-kehittäjille
 TryToUseTheModuleBuilder=If you have knowledge of SQL and PHP, you may use the native module builder wizard.<br>Enable the module <strong>%s</strong> and use the wizard by clicking the <span class="fa fa-bug"></span> on the top right menu.<br>Warning: This is an advanced developer feature, do <b>not</b> experiment on your production site!
 SeeTopRightMenu=Katso oikeasta yläkulmasta <span class="fa fa-bug"></span> valikko
 AddLanguageFile=Lisää Kieli tiedosto

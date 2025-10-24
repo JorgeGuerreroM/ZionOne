@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Irakurri programatutako lana
 Permission23102 = Sortu/eguneratu programatutako lana
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Desgaitu
 CronTaskInactive=Lan hau desgaituta dago (ez dago programatuta)
 CronId=IDa
 CronClassFile=Fitxategi-izena klasearekin
-CronModuleHelp=Dolibarr moduluaren direktorioaren izena (kanpoko Dolibarr moduluarekin ere funtzionatzen du). <BR> Adibidez, Dolibarr Produktu objektuaren /htdocs/<u>produktua</u>/class/product.class.php fetch metodoa deitzeko, moduluaren balioa<br><i>produktua</i> da.
-CronClassFileHelp=Kargatzeko bide-izen erlatiboa eta fitxategi-izena (bidea web zerbitzariaren erro-direktorioarekiko erlatiboa da). <BR> Adibidez, Dolibarr Produktu objektuaren htdocs/product/class/<u>product.class.php</u> fetch metodoa deitzeko, klase fitxategi izenaren balioa hau da:<br><i>product/class/product.class.php</i>
-CronObjectHelp=Kargatu beharreko objektuaren izena. <BR> Adibidez, Dolibarr Produktu objektuaren /htdocs/product/class/product.class.php fetch metodoa deitzeko, klase fitxategiaren izenaren balioa hau da: <br><i>Produktua</i>
-CronMethodHelp=Abiarazi beharreko objektu-metodoa. <BR> Adibidez, Dolibarr Produktu objektuaren /htdocs/product/class/product.class.php fetch metodoa deitzeko, metodoaren balioa hau da: <br><i>fetch</i>
-CronArgsHelp=Metodoaren argumentuak. <BR> Adibidez, Dolibarr Produktu objektuaren /htdocs/product/class/product.class.php fetch metodoa deitzeko, parametroen balioa hau izan daiteke: <br><i>0, ProductRef</i>
+CronModuleHelp=ZionOne moduluaren direktorioaren izena (kanpoko ZionOne moduluarekin ere funtzionatzen du). <BR> Adibidez, ZionOne Produktu objektuaren /htdocs/<u>produktua</u>/class/product.class.php fetch metodoa deitzeko, moduluaren balioa<br><i>produktua</i> da.
+CronClassFileHelp=Kargatzeko bide-izen erlatiboa eta fitxategi-izena (bidea web zerbitzariaren erro-direktorioarekiko erlatiboa da). <BR> Adibidez, ZionOne Produktu objektuaren htdocs/product/class/<u>product.class.php</u> fetch metodoa deitzeko, klase fitxategi izenaren balioa hau da:<br><i>product/class/product.class.php</i>
+CronObjectHelp=Kargatu beharreko objektuaren izena. <BR> Adibidez, ZionOne Produktu objektuaren /htdocs/product/class/product.class.php fetch metodoa deitzeko, klase fitxategiaren izenaren balioa hau da: <br><i>Produktua</i>
+CronMethodHelp=Abiarazi beharreko objektu-metodoa. <BR> Adibidez, ZionOne Produktu objektuaren /htdocs/product/class/product.class.php fetch metodoa deitzeko, metodoaren balioa hau da: <br><i>fetch</i>
+CronArgsHelp=Metodoaren argumentuak. <BR> Adibidez, ZionOne Produktu objektuaren /htdocs/product/class/product.class.php fetch metodoa deitzeko, parametroen balioa hau izan daiteke: <br><i>0, ProductRef</i>
 CronCommandHelp=Exekutatzeko sistemaren komando-lerroa.
 CronCreateJob=Sortu programatutako lan berria
 CronFrom=-tik

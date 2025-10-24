@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Zona e anëtarëve
 MemberCard=Karta e anëtarit
 SubscriptionCard=Karta e abonimit
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Lista e anëtarëve publikë të vërtetuar
 ErrorThisMemberIsNotPublic=Ky anëtar nuk është publik
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Another member (name: <b>%s</b>, login: <b>%s</b>) is already linked to a third party <b>%s</b>. Remove this link first because a third party can't be linked to only a member (and vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Për arsye sigurie, duhet t'ju jepen lejet për të modifikuar të gjithë përdoruesit që të mund të lidhni një anëtar me një përdorues që nuk është i juaji.
-SetLinkToUser=Lidhje me një përdorues të Dolibarr
-SetLinkToThirdParty=Lidhja me një palë të tretë të Dolibarr
+SetLinkToUser=Lidhje me një përdorues të ZionOne
+SetLinkToThirdParty=Lidhja me një palë të tretë të ZionOne
 MemberCountersArePublic=Numëruesit e anëtarëve të vlefshëm janë publikë
 MembersCards=Gjenerimi i kartave për anëtarët
 MembersList=Lista e anëtarëve
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Jeni i sigurt që dëshironi ta fshini këtë kontribu
 Filehtpasswd=skedar htpasswd
 ValidateMember=Verifikoni një anëtar
 ConfirmValidateMember=Jeni i sigurt që dëshironi ta vërtetoni këtë anëtar?
-FollowingLinksArePublic=Lidhjet e mëposhtme janë faqe të hapura që nuk mbrohen nga asnjë leje Dolibarr. Ato nuk janë faqe të formatuara, të ofruara si shembull për të treguar se si të listohet databaza e anëtarëve.
+FollowingLinksArePublic=Lidhjet e mëposhtme janë faqe të hapura që nuk mbrohen nga asnjë leje ZionOne. Ato nuk janë faqe të formatuara, të ofruara si shembull për të treguar se si të listohet databaza e anëtarëve.
 PublicMemberList=Lista e anëtarëve publikë
 BlankSubscriptionForm=Formulari i vetëregjistrimit publik
-BlankSubscriptionFormDesc=Dolibarr mund t'ju ofrojë një URL/faqe të internetit publike për të lejuar vizitorët e jashtëm të kërkojnë të abonohen në fondacion. Nëse aktivizohet një modul pagese në internet, mund të sigurohet automatikisht edhe një formular pagese.
+BlankSubscriptionFormDesc=ZionOne mund t'ju ofrojë një URL/faqe të internetit publike për të lejuar vizitorët e jashtëm të kërkojnë të abonohen në fondacion. Nëse aktivizohet një modul pagese në internet, mund të sigurohet automatikisht edhe një formular pagese.
 EnablePublicSubscriptionForm=Aktivizo uebsajtin publik me formularin e vetë-abonimit
 ForceMemberType=Forco llojin e anëtarit
 ExportDataset_member_1=Anëtarët dhe kontributet

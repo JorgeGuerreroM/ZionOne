@@ -27,7 +27,7 @@
  *  \brief      	Page for trip and expense report card
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formexpensereport.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
@@ -1176,7 +1176,7 @@ if (empty($reshook)) {
 			}
 		}
 
-		// if VAT is not used in Dolibarr, set VAT rate to 0 because VAT rate is necessary.
+		// if VAT is not used in ZionOne, set VAT rate to 0 because VAT rate is necessary.
 		if (empty($vatrate)) {
 			$vatrate = "0.000";
 		}
@@ -1355,7 +1355,7 @@ if (empty($reshook)) {
 		$qty = price2num(GETPOST('qty', 'alpha'));
 		$vatrate = GETPOST('vatrate', 'alpha');
 
-		// if VAT is not used in Dolibarr, set VAT rate to 0 because VAT rate is necessary.
+		// if VAT is not used in ZionOne, set VAT rate to 0 because VAT rate is necessary.
 		if (empty($vatrate)) {
 			$vatrate = "0.000";
 		}

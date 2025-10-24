@@ -21,9 +21,9 @@
  * 	\file       htdocs/public/agenda/agendaexport.php
  * 	\ingroup    agenda
  * 	\brief      Page to export agenda into a vcal, ical or rss
- * 				http://127.0.0.1/dolibarr/public/agenda/agendaexport.php?format=vcal&exportkey=cle
- * 				http://127.0.0.1/dolibarr/public/agenda/agendaexport.php?format=ical&type=event&exportkey=cle
- * 				http://127.0.0.1/dolibarr/public/agenda/agendaexport.php?format=rss&exportkey=cle
+ * 				http://127.0.0.1/ZionOne/public/agenda/agendaexport.php?format=vcal&exportkey=cle
+ * 				http://127.0.0.1/ZionOne/public/agenda/agendaexport.php?format=ical&type=event&exportkey=cle
+ * 				http://127.0.0.1/ZionOne/public/agenda/agendaexport.php?format=rss&exportkey=cle
  *              Other parameters into url are:
  *              &notolderthan=99
  *              &year=2015
@@ -93,7 +93,7 @@ if (is_numeric($entity)) {
 	define("DOLENTITY", $entity);
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/comm/action/class/actioncomm.class.php';
 /**

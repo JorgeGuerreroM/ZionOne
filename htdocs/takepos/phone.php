@@ -79,7 +79,7 @@ if (!$user->hasRight('takepos', 'run') && !defined('INCLUDE_PHONEPAGE_FROM_PUBLI
  * View
  */
 
-$title = 'TakePOS - Dolibarr '.DOL_VERSION;
+$title = 'TakePOS - ZionOne '.DOL_VERSION;
 if (getDolGlobalString('MAIN_APPLICATION_TITLE')) {
 	$title = 'TakePOS - ' . getDolGlobalString('MAIN_APPLICATION_TITLE');
 }

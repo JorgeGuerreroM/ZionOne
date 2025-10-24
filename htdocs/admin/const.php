@@ -25,7 +25,7 @@
  *	\brief      Admin page to define miscellaneous constants
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/security.lib.php';
@@ -138,7 +138,7 @@ if (!empty($consts) && $action == 'delete') {
 	$nbdeleted = 0;
 	foreach ($consts as $const) {
 		if (!empty($const["check"])) {	// Is checkbox checked
-			if (dolibarr_del_const($db, $const["rowid"], -1) >= 0) {
+			if (zionone_del_const($db, $const["rowid"], -1) >= 0) {
 				$nbdeleted++;
 			} else {
 				dol_print_error($db);
@@ -153,7 +153,7 @@ if (!empty($consts) && $action == 'delete') {
 
 // Delete line from delete picto
 if ($action == 'delete') {
-	if (dolibarr_del_const($db, $rowid, $entity) >= 0) {
+	if (zionone_del_const($db, $rowid, $entity) >= 0) {
 		setEventMessages($langs->trans("RecordDeleted"), null, 'mesgs');
 	} else {
 		dol_print_error($db);

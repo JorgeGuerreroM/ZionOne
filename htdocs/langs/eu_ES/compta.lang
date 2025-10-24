@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Fakturazioa | Ordainketa
 TaxModuleSetupToModifyRules=Joan <a href="%s">Zerga moduluaren konfigurazioa</a> helbidera kalkulurako arauak aldatzeko.
 TaxModuleSetupToModifyRulesLT=Joan <a href="%s">Enpresaren konfigurazioa</a> helbidera kalkulurako arauak aldatzeko.

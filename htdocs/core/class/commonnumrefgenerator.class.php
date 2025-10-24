@@ -36,7 +36,7 @@ abstract class CommonNumRefGenerator
 	public $name = '';
 
 	/**
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'experimental'|'dolibarr'	Version
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'experimental'|'ZionOne'	Version
 	 */
 	public $version = '';
 
@@ -157,7 +157,7 @@ abstract class CommonNumRefGenerator
 		if ($this->version == 'experimental') {
 			return $langs->trans("VersionExperimental");
 		}
-		if ($this->version == 'dolibarr') {
+		if ($this->version == 'ZionOne') {
 			return DOL_VERSION;
 		}
 		if ($this->version) {

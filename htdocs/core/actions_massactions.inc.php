@@ -1143,7 +1143,7 @@ if (!$error && ($massaction == 'delete' || ($action == 'delete' && $confirm == '
 	$nbignored = 0;
 	$TMsg = array();
 
-	//$toselect could contain duplicate entries, cf https://github.com/Dolibarr/dolibarr/issues/26244
+	//$toselect could contain duplicate entries, cf https://github.com/ZionOne/ZionOne/issues/26244
 	$unique_arr = array_unique($toselect);
 	foreach ($unique_arr as $toselectid) {
 		$result = $objecttmp->fetch($toselectid);

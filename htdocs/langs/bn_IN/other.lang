@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=নিরাপত্তা কোড
 NumberingShort=N°
@@ -197,7 +197,7 @@ BugTracker=বাগ তালাশকারী
 SendNewPasswordDesc=এই ফর্মটি আপনাকে একটি নতুন পাসওয়ার্ড অনুরোধ করার অনুমতি দেয়। এটি আপনার ইমেল ঠিকানায় পাঠানো হবে৷<br>আপনি ইমেলের নিশ্চিতকরণ লিঙ্কে ক্লিক করলেই পরিবর্তন কার্যকর হবে৷<br> আপনার ইনবক্স চেক করুন.
 EnterNewPasswordHere=এখানে আপনার নতুন পাসওয়ার্ড লিখুন
 BackToLoginPage=লগইন পৃষ্ঠায় ফিরে যান
-AuthenticationDoesNotAllowSendNewPassword=প্রমাণীকরণ মোড হল <b>%s</b>।<span class='translate' ><br></span>এই মোডে, Dolibarr আপনার পাসওয়ার্ড জানতে বা পরিবর্তন করতে পারে না।<br>আপনার পাসওয়ার্ড পরিবর্তন করতে চাইলে আপনার সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।
+AuthenticationDoesNotAllowSendNewPassword=প্রমাণীকরণ মোড হল <b>%s</b>।<span class='translate' ><br></span>এই মোডে, ZionOne আপনার পাসওয়ার্ড জানতে বা পরিবর্তন করতে পারে না।<br>আপনার পাসওয়ার্ড পরিবর্তন করতে চাইলে আপনার সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।
 EnableGDLibraryDesc=এই বিকল্পটি ব্যবহার করতে আপনার পিএইচপি ইনস্টলেশনে জিডি লাইব্রেরি ইনস্টল বা সক্ষম করুন।
 ProfIdShortDesc=<b>Prof Id %s</b> is an information depending on third party country.<br>For example, for country <b>%s</b>, it's code <b>%s</b>.
 DolibarrDemo=ডলিবার ইআরপি/সিআরএম ডেমো
@@ -404,4 +404,4 @@ SetHereATitleForLink = Set a name for the bookmark
 ShowBookmark = Show bookmark
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
-SubscribeToFoundation=Help the Dolibarr project, subscribe to the foundation
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

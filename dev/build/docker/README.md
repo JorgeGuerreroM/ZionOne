@@ -1,11 +1,11 @@
-# How to use or run Dolibarr with Docker ?
+# How to use or run ZionOne with Docker ?
 
 
 ## For a fast run of a demo of the local version, you can build the docker image from the source repository by running
 
-	git clone https://github.com/Dolibarr/dolibarr.git dolibarr 
+	git clone https://github.com/ZionOne/ZionOne.git ZionOne 
 	
-	cd dolibarr/docker
+	cd ZionOne/docker
 
 	sudo docker-compose build
 
@@ -25,4 +25,4 @@ Warning: There is no persistency of data. This process is for dev purpose only.
 
 If you want to execute an official Docker package, you can find it and read the doc on 
 
-*https://hub.docker.com/r/dolibarr/dolibarr*
+*https://hub.docker.com/r/ZionOne/ZionOne*

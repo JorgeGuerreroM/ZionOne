@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Maaşlarda "kullanıcılar" için varsayılan olarak kullanılan hesap (Hesap Planı'ndan)
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Kullanıcı kartında tanımlanan özel hesap yalnızca Yardımcı Defter muhasebesi için kullanılacaktır. Bu, Genel Muhasebe için kullanılacaktır ancak kullanıcı üzerinde özel bir kullanıcı muhasebesi hesabı tanımlanmamışsa Yardımcı Defter muhasebesinin varsayılan değeri olarak da kullanılacaktır.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Ücret ödemeleri için varsayılan muhasebe hesabı

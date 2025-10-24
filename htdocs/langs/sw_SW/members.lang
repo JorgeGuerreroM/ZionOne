@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Eneo la wanachama
 MemberCard=Kadi ya mwanachama
 SubscriptionCard=Kadi ya usajili
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Orodha ya wanachama wa umma walioidhinishwa
 ErrorThisMemberIsNotPublic=Mwanachama huyu si hadharani
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Mwanachama mwingine (jina: <b> %s </b> , ingia: <b> %s </b> ) tayari imeunganishwa na mtu mwingine <b> %s </b> . Ondoa kiungo hiki kwanza kwa sababu mtu mwingine hawezi kuunganishwa na mwanachama pekee (na kinyume chake).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Kwa sababu za usalama, ni lazima upewe ruhusa za kuhariri watumiaji wote ili uweze kuunganisha mwanachama kwa mtumiaji ambaye si wako.
-SetLinkToUser=Unganisha kwa mtumiaji wa Dolibarr
-SetLinkToThirdParty=Unganisha kwa mtu wa tatu wa Dolibarr
+SetLinkToUser=Unganisha kwa mtumiaji wa ZionOne
+SetLinkToThirdParty=Unganisha kwa mtu wa tatu wa ZionOne
 MemberCountersArePublic=Kaunta za wanachama halali ni za umma
 MembersCards=Uzalishaji wa kadi kwa wanachama
 MembersList=Orodha ya wanachama
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Je, una uhakika unataka kufuta mchango huu?
 Filehtpasswd=faili ya htpasswd
 ValidateMember=Thibitisha mwanachama
 ConfirmValidateMember=Je, una uhakika unataka kumthibitisha mwanachama huyu?
-FollowingLinksArePublic=Viungo vifuatavyo ni kurasa zilizofunguliwa ambazo hazijalindwa na ruhusa yoyote ya Dolibarr. Si kurasa zilizoumbizwa, zinazotolewa kama mfano kuonyesha jinsi ya kuorodhesha hifadhidata ya wanachama.
+FollowingLinksArePublic=Viungo vifuatavyo ni kurasa zilizofunguliwa ambazo hazijalindwa na ruhusa yoyote ya ZionOne. Si kurasa zilizoumbizwa, zinazotolewa kama mfano kuonyesha jinsi ya kuorodhesha hifadhidata ya wanachama.
 PublicMemberList=Orodha ya wanachama wa umma
 BlankSubscriptionForm=Fomu ya kujiandikisha kwa umma
-BlankSubscriptionFormDesc=Dolibarr inaweza kukupa URL/tovuti ya umma ili kuruhusu wageni kutoka nje kuuliza kujiandikisha kwa wakfu. Ikiwa sehemu ya malipo ya mtandaoni imewezeshwa, fomu ya malipo inaweza pia kutolewa kiotomatiki.
+BlankSubscriptionFormDesc=ZionOne inaweza kukupa URL/tovuti ya umma ili kuruhusu wageni kutoka nje kuuliza kujiandikisha kwa wakfu. Ikiwa sehemu ya malipo ya mtandaoni imewezeshwa, fomu ya malipo inaweza pia kutolewa kiotomatiki.
 EnablePublicSubscriptionForm=Washa tovuti ya umma na fomu ya kujiandikisha
 ForceMemberType=Lazimisha aina ya mwanachama
 ExportDataset_member_1=Wanachama na michango

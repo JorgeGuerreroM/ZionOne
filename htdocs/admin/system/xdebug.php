@@ -22,7 +22,7 @@
  *     \brief      Page administration XDebug
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 /**

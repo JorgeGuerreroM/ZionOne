@@ -1,12 +1,12 @@
 #!/usr/bin/perl
 #----------------------------------------------------------------------------
-# \file         dev/build/makepack-dolibarr.pl
-# \brief        Dolibarr package builder (tgz, zip, rpm, deb, exe, aps)
+# \file         dev/build/makepack-ZionOne.pl
+# \brief        ZionOne package builder (tgz, zip, rpm, deb, exe, aps)
 # \author       (c)2004-2023 Laurent Destailleur  <eldy@users.sourceforge.net>
 #
 # This is list of constant you can set to have generated packages moved into a specific dir:
-#DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/Dolibarr/dolibarr.org/files/lastbuild'
-#DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/Dolibarr/dolibarr.org/files/stable'
+#DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/ZionOne/ZionOne.org/files/lastbuild'
+#DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/ZionOne/ZionOne.org/files/stable'
 #DESTIMODULES='/media/HDDATA1_LD/Mes Sites/Web/Admin1/wwwroot/files/modules'
 #DESTIDOLIMEDBETARC='/media/HDDATA1_LD/Mes Sites/Web/DoliCloud/dolimed.com/htdocs/files/lastbuild'
 #DESTIDOLIMEDMODULES='/media/HDDATA1_LD/Mes Sites/Web/DoliCloud/dolimed.com/htdocs/files/modules'
@@ -17,12 +17,12 @@ use Cwd;
 use Term::ANSIColor;
 
 # Change this to defined target for option 98 and 99
-$PROJECT="dolibarr";
+$PROJECT="ZionOne";
 
-$PUBLISHBETARC="$ENV{'DESTIASSOLOGIN'}\@vmprod1.dolibarr.org:/home/dolibarr/asso.dolibarr.org/dolibarr_documents/website/www.dolibarr.org/files";
-$PUBLISHSTABLE="$ENV{'DESTISFLOGIN'}\@frs.sourceforge.net:/home/frs/project/dolibarr";
+$PUBLISHBETARC="$ENV{'DESTIASSOLOGIN'}\@vmprod1.ZionOne.org:/home/ZionOne/asso.ZionOne.org/dolibarr_documents/website/www.ZionOne.org/files";
+$PUBLISHSTABLE="$ENV{'DESTISFLOGIN'}\@frs.sourceforge.net:/home/frs/project/ZionOne";
 
-# due to implicit origin on git commands, example: implicit origin, lionel upstream, eric dolibarr
+# due to implicit origin on git commands, example: implicit origin, lionel upstream, eric ZionOne
 $GITREMOTENAME="$ENV{'GITREMOTENAME'}";
 #@LISTETARGET=("TGZ","ZIP","RPM_GENERIC","RPM_FEDORA","RPM_MANDRIVA","RPM_OPENSUSE","DEB","EXEDOLIWAMP","SNAPSHOT");   # Possible packages
 @LISTETARGET=("TGZ","ZIP","RPM_GENERIC","RPM_FEDORA","RPM_MANDRIVA","RPM_OPENSUSE","DEB","EXEDOLIWAMP","SNAPSHOT");   # Possible packages
@@ -77,7 +77,7 @@ if ($SOURCE !~ /^\// && $SOURCE !~ /^[a-z]:/i)
 if (! $ENV{"DESTIASSOLOGIN"} || ! $ENV{"DESTISFLOGIN"})
 {
 	print "Error: Missing environment variables.\n";
-	print "You must define the environment variable DESTIASSOLOGIN and DESTISFLOGIN to define your login to connect to the dolibarr foundation server and/or mirrors servers.\n";
+	print "You must define the environment variable DESTIASSOLOGIN and DESTISFLOGIN to define your login to connect to the ZionOne foundation server and/or mirrors servers.\n";
 	print "$PROG.$Extension aborted.\n";
 	print "\n";
 	print "You can set them with\n";
@@ -107,8 +107,8 @@ if (! $ENV{"DESTIBETARC"} || ! $ENV{"DESTISTABLE"})
 	print "set DESTISTABLE=c:/tmp\n";
 	print "\n";
 	print "Example in .bashrc:\n";
-	print "export DESTIBETARC='/mnt/HDDATA1_LD/Mes Archives/Doli/dolibarr/lastbuild'\n";
-	print "export DESTISTABLE='/mnt/HDDATA1_LD/Mes Archives/Doli/dolibarr/stable'\n";
+	print "export DESTIBETARC='/mnt/HDDATA1_LD/Mes Archives/Doli/ZionOne/lastbuild'\n";
+	print "export DESTISTABLE='/mnt/HDDATA1_LD/Mes Archives/Doli/ZionOne/stable'\n";
 	sleep 2;
 	exit 1;
 }
@@ -547,14 +547,14 @@ if ($nboftargetok) {
 		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr_*.dsc`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr_*.tar.gz`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr_*.tar.xz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr-*.deb`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr-*.rpm`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr-*.tar`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr-*.tar.gz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr-*.tar.xz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr-*.tgz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr-*.xz`;
-		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/dolibarr-*.zip`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/ZionOne-*.deb`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/ZionOne-*.rpm`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/ZionOne-*.tar`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/ZionOne-*.tar.gz`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/ZionOne-*.tar.xz`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/ZionOne-*.tgz`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/ZionOne-*.xz`;
+		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/ZionOne-*.zip`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/dev/build/doxygen/doxygen_warnings.log`;
 		$ret=`rm -fr $BUILDROOT/$PROJECT/dev/build/phpstan/phpstan`;
 		$ret=`rm -f  $BUILDROOT/$PROJECT/htdocs/cache.manifest`;
@@ -909,8 +909,8 @@ if ($nboftargetok) {
 			close SPECTO;
 
 			print "Copy patch file to $RPMDIR/SOURCES\n";
-			$ret=`cp "$SOURCE/dev/build/rpm/dolibarr-forrpm.patch" "$RPMDIR/SOURCES"`;
-			$ret=`chmod 644 $RPMDIR/SOURCES/dolibarr-forrpm.patch`;
+			$ret=`cp "$SOURCE/dev/build/rpm/ZionOne-forrpm.patch" "$RPMDIR/SOURCES"`;
+			$ret=`chmod 644 $RPMDIR/SOURCES/ZionOne-forrpm.patch`;
 
 			print "Launch RPM build (rpmbuild --clean -ba $BUILDROOT/${BUILDFIC})\n";
 			#$ret=`rpmbuild -vvvv --clean -ba $BUILDROOT/${BUILDFIC}`;
@@ -979,15 +979,15 @@ if ($nboftargetok) {
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/compat`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/control*`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/copyright`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.config`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.desktop`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.docs`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.install`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.lintian-overrides`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.postrm`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.postinst`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.templates`;
-			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/dolibarr.templates.futur`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.config`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.desktop`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.docs`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.install`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.lintian-overrides`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.postrm`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.postinst`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.templates`;
+			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/ZionOne.templates.futur`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/rules`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/README.Debian`;
 			$ret=`rm -f  $BUILDROOT/$PROJECT.tmp/dev/build/debian/README.howto`;
@@ -1047,11 +1047,11 @@ if ($nboftargetok) {
 			$ret=`cp -f  "$SOURCE/dev/build/debian/compat"         "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/dev/build/debian/control"        "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/dev/build/debian/copyright"      "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.desktop"        	"$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.docs"        		"$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.install" 	        "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.lintian-overrides"  "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.xpm"  		      	"$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.desktop"        	"$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.docs"        		"$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.install" 	        "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.lintian-overrides"  "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.xpm"  		      	"$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/dev/build/debian/rules"          "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/dev/build/debian/watch"          "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -fr "$SOURCE/dev/build/debian/patches"        "$BUILDROOT/$PROJECT.tmp/debian"`;
@@ -1061,10 +1061,10 @@ if ($nboftargetok) {
 			$ret=`cp -f  "$SOURCE/dev/build/debian/apache/.htaccess" "$BUILDROOT/$PROJECT.tmp/debian/apache"`;
 			$ret=`cp -fr "$SOURCE/dev/build/debian/lighttpd"       "$BUILDROOT/$PROJECT.tmp/debian/lighttpd"`;
 			# Add files also required to build binary package
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.config"         "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.postinst"       "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.postrm"         "$BUILDROOT/$PROJECT.tmp/debian"`;
-			$ret=`cp -f  "$SOURCE/dev/build/debian/dolibarr.templates"      "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.config"         "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.postinst"       "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.postrm"         "$BUILDROOT/$PROJECT.tmp/debian"`;
+			$ret=`cp -f  "$SOURCE/dev/build/debian/ZionOne.templates"      "$BUILDROOT/$PROJECT.tmp/debian"`;
 			$ret=`cp -f  "$SOURCE/dev/build/debian/install.forced.php.install"      "$BUILDROOT/$PROJECT.tmp/debian"`;
 
 			# Set owners and permissions
@@ -1210,17 +1210,17 @@ if ($nboftargetok) {
 		print "\nList of files to publish (BUILD=$BUILD)\n";
 		%filestoscansf=(
 			"$DESTI/signatures/filelist-$MAJOR.$MINOR.$BUILD.xml"=>'none',				# none means it won't be published on SF
-			"$DESTI/package_rpm_generic/$FILENAMERPM"=>'Dolibarr installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
+			"$DESTI/package_rpm_generic/$FILENAMERPM"=>'ZionOne installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
 			"$DESTI/package_rpm_generic/$FILENAMERPMSRC"=>'none',						# none means it won't be published on SF
-			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}_all.deb"=>'Dolibarr installer for Debian-Ubuntu (DoliDeb)',
+			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}_all.deb"=>'ZionOne installer for Debian-Ubuntu (DoliDeb)',
 			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}_amd64.changes"=>'none',		# none means it won't be published on SF
 			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}.dsc"=>'none',					# none means it won't be published on SF
 			#"$DESTI/package_debian-ubuntu/${FILENAMEDEB}.debian.tar.xz"=>'none',		# none means it won't be published on SF
 			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}.debian.tar.gz"=>'none',		# none means it won't be published on SF
 			"$DESTI/package_debian-ubuntu/${FILENAMEDEBSHORT}.orig.tar.gz"=>'none',		# none means it won't be published on SF
-			"$DESTI/package_windows/$FILENAMEEXEDOLIWAMP.exe"=>'Dolibarr installer for Windows (DoliWamp)',
-			"$DESTI/standard/$FILENAMETGZ.tgz"=>'Dolibarr ERP-CRM',
-			"$DESTI/standard/$FILENAMETGZ.zip"=>'Dolibarr ERP-CRM'
+			"$DESTI/package_windows/$FILENAMEEXEDOLIWAMP.exe"=>'ZionOne installer for Windows (DoliWamp)',
+			"$DESTI/standard/$FILENAMETGZ.tgz"=>'ZionOne ERP-CRM',
+			"$DESTI/standard/$FILENAMETGZ.zip"=>'ZionOne ERP-CRM'
 		);
 		%filestoscanstableasso=(
 			"$DESTI/signatures/filelist-$MAJOR.$MINOR.$BUILD.xml"=>'signatures',
@@ -1238,11 +1238,11 @@ if ($nboftargetok) {
 		);
 		if ($target eq 'ASSO' && $BUILD =~ /[a-z]/i)   { 	# Not stable
 			%filestoscansf=(
-				"$DESTI/$FILENAMERPM"=>'Dolibarr installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
-				"$DESTI/${FILENAMEDEB}_all.deb"=>'Dolibarr installer for Debian-Ubuntu (DoliDeb)',
-				"$DESTI/$FILENAMEEXEDOLIWAMP.exe"=>'Dolibarr installer for Windows (DoliWamp)',
-				"$DESTI/$FILENAMETGZ.tgz"=>'Dolibarr ERP-CRM',
-				"$DESTI/$FILENAMETGZ.zip"=>'Dolibarr ERP-CRM'
+				"$DESTI/$FILENAMERPM"=>'ZionOne installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
+				"$DESTI/${FILENAMEDEB}_all.deb"=>'ZionOne installer for Debian-Ubuntu (DoliDeb)',
+				"$DESTI/$FILENAMEEXEDOLIWAMP.exe"=>'ZionOne installer for Windows (DoliWamp)',
+				"$DESTI/$FILENAMETGZ.tgz"=>'ZionOne ERP-CRM',
+				"$DESTI/$FILENAMETGZ.zip"=>'ZionOne ERP-CRM'
 			);
 			%filestoscanstableasso=(
 				"$DESTI/$FILENAMERPM"=>'',
@@ -1325,7 +1325,7 @@ if ($nboftargetok) {
 				#my $sftp = Net::SFTP::Foreign->new($ip, user => $user, password => $pass, autodie => 1);
 				#$sftp->mkdir($destFolder)
 
-				#$command="ssh eldy,dolibarr\@frs.sourceforge.net mkdir -p \"$destFolder\"";
+				#$command="ssh eldy,ZionOne\@frs.sourceforge.net mkdir -p \"$destFolder\"";
 				#print "$command\n";
 				#my $ret=`$command 2>&1`;
 

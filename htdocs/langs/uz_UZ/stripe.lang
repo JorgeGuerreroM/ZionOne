@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe modulini sozlash
-StripeDesc=Mijozlarga <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> orqali kredit/debet kartalari bilan toʻlovlar uchun onlayn toʻlov sahifasini taklif qiling. Bu sizning mijozlaringizga vaqtinchalik to'lovlarni amalga oshirish yoki ma'lum bir Dolibarr ob'ekti (hisob-kitob, buyurtma, ...) bilan bog'liq to'lovlar uchun foydalanish mumkin.
+StripeDesc=Mijozlarga <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> orqali kredit/debet kartalari bilan toʻlovlar uchun onlayn toʻlov sahifasini taklif qiling. Bu sizning mijozlaringizga vaqtinchalik to'lovlarni amalga oshirish yoki ma'lum bir ZionOne ob'ekti (hisob-kitob, buyurtma, ...) bilan bog'liq to'lovlar uchun foydalanish mumkin.
 StripeOrCBDoPayment=Kredit karta yoki Stripe orqali to'lash
-FollowingUrlAreAvailableToMakePayments=Dolibarr ob'ektlarida to'lovni amalga oshirish uchun xaridorga sahifani taklif qilish uchun quyidagi URL manzillar mavjud
+FollowingUrlAreAvailableToMakePayments=ZionOne ob'ektlarida to'lovni amalga oshirish uchun xaridorga sahifani taklif qilish uchun quyidagi URL manzillar mavjud
 PaymentForm=To'lov shakli
 WelcomeOnPaymentPage=Onlayn to'lov xizmatimizga xush kelibsiz
 ThisScreenAllowsYouToPay=Ushbu ekran sizga %s raqamiga onlayn to'lovni amalga oshirishga imkon beradi.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=Mavjud ob'ekti bo'lmagan har qanday miq
 ToOfferALinkForOnlinePaymentOnMemberSubscription=Ro'yxatdan obuna uchun %s onlayn to'lov sahifasini taqdim etish uchun URL
 ToOfferALinkForOnlinePaymentOnDonation=Xayr-ehson to'lash uchun %s onlayn to'lov sahifasini taqdim etadigan URL
 YouCanAddTagOnUrl=You can also add url parameter <b>&tag=value</b> to any of those URL (mandatory only for payment not linked to an object) to add your own payment comment tag.<br>For the URL of payments with no existing object, you may also add the parameter <strong>&noidempotency=1</strong> so the same link with same tag can be used several times (some payment mode may limit the payment to 1 for each different link without this parameter)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=Stripe-ni url bilan sozlang <b> %s </b> Stripe tomonidan tasdiqlanganda to'lov avtomatik ravishda yaratiladi.
 AccountParameter=Hisob parametrlari
 UsageParameter=Foydalanish parametrlari

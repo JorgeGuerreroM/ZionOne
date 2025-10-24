@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=کوئی غلطی نہیں، ہم ارتکاب کرتے ہیں۔
@@ -53,12 +53,12 @@ ErrorWrongDate=تاریخ درست نہیں ہے!
 ErrorFailedToWriteInDir=ڈائریکٹری %s میں لکھنے میں ناکام
 ErrorFailedToBuildArchive=آرکائیو فائل بنانے میں ناکام %s
 ErrorFoundBadEmailInFile=فائل میں %s لائنوں کے لیے غلط ای میل نحو ملا (مثال کی لائن %s with email=%s)
-ErrorUserCannotBeDelete=صارف کو حذف نہیں کیا جا سکتا۔ ہوسکتا ہے کہ اس کا تعلق Dolibarr اداروں سے ہو۔
+ErrorUserCannotBeDelete=صارف کو حذف نہیں کیا جا سکتا۔ ہوسکتا ہے کہ اس کا تعلق ZionOne اداروں سے ہو۔
 ErrorFieldsRequired=کچھ مطلوبہ فیلڈز کو خالی چھوڑ دیا گیا ہے۔
 ErrorSubjectIsRequired=ای میل کا مضمون درکار ہے۔
 ErrorInAddAttachmentsImageBaseOnMedia=Error in creating image files into media directory for attachment
 ErrorInAddAttachmentsImageBaseIsSrcData=Error in creating image files (found as data:) into temp directory for attachment
-ErrorFailedToCreateDir=ڈائریکٹری بنانے میں ناکام۔ چیک کریں کہ ویب سرور صارف کو Dolibarr دستاویزات کی ڈائرکٹری میں لکھنے کی اجازت ہے۔ اگر اس پی ایچ پی پر پیرامیٹر <b> safe_mode </b> فعال ہے تو چیک کریں کہ Dolibarr php فائلیں ویب سرور صارف (یا گروپ) کی ملکیت ہیں۔
+ErrorFailedToCreateDir=ڈائریکٹری بنانے میں ناکام۔ چیک کریں کہ ویب سرور صارف کو ZionOne دستاویزات کی ڈائرکٹری میں لکھنے کی اجازت ہے۔ اگر اس پی ایچ پی پر پیرامیٹر <b> safe_mode </b> فعال ہے تو چیک کریں کہ ZionOne php فائلیں ویب سرور صارف (یا گروپ) کی ملکیت ہیں۔
 ErrorNoMailDefinedForThisUser=اس صارف کے لیے کوئی میل متعین نہیں ہے۔
 ErrorSetupOfEmailsNotComplete=ای میلز کا سیٹ اپ مکمل نہیں ہے۔
 ErrorAccountingClosureSetupNotComplete=Setup of closure accounts not complete
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=فیلڈ <b>%s</b> میں خا�
 ErrorFieldMustHaveXChar=فیلڈ <b> %s </b> میں کم از کم %s حروف ہونے چاہئیں۔
 ErrorNoAccountancyModuleLoaded=کوئی اکاؤنٹنسی ماڈیول فعال نہیں ہے۔
 ErrorExportDuplicateProfil=اس برآمدی سیٹ کے لیے یہ پروفائل نام پہلے سے موجود ہے۔
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP مماثلت مکمل نہیں ہے۔
+ErrorLDAPSetupNotComplete=ZionOne-LDAP مماثلت مکمل نہیں ہے۔
 ErrorLDAPMakeManualTest=ایک .ldif فائل ڈائرکٹری %s میں تیار کی گئی ہے۔ غلطیوں کے بارے میں مزید معلومات حاصل کرنے کے لیے اسے کمانڈ لائن سے دستی طور پر لوڈ کرنے کی کوشش کریں۔
 ErrorCantSaveADoneUserWithZeroPercentage="اسٹیٹس ناٹ اسٹارٹ" کے ساتھ کسی ایکشن کو محفوظ نہیں کیا جا سکتا اگر فیلڈ "ڈون بائے" بھی بھری ہو۔
 ErrorPleaseTypeBankTransactionReportName=براہ کرم بینک اسٹیٹمنٹ کا نام درج کریں جہاں اندراج کی اطلاع دی جانی ہے (فارمیٹ YYYYMM یا YYYYMMDD)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s دوسرے تیسرے کو تفویض کیا گیا �
 ErrorFailedToSendPassword=پاس ورڈ بھیجنے میں ناکام
 ErrorFailedToLoadRSSFile=RSS فیڈ حاصل کرنے میں ناکام۔ مستقل MAIN_SIMPLEXMLLOAD_DEBUG شامل کرنے کی کوشش کریں اگر غلطی کے پیغامات کافی معلومات فراہم نہیں کرتے ہیں۔
 ErrorForbidden=رسائی مسترد کر دی. <br> آپ کسی غیر فعال ماڈیول کے صفحہ، علاقے یا خصوصیت تک رسائی حاصل کرنے کی کوشش کرتے ہیں یا بغیر تصدیق شدہ سیشن میں شامل ہوتے ہیں یا آپ کے صارف کو اس کی اجازت نہیں ہے۔
-ErrorForbidden2=اس لاگ ان کے لیے اجازت کی تعریف آپ کے Dolibarr منتظم مینو %s->%s سے کر سکتے ہیں۔
-ErrorForbidden3=ایسا لگتا ہے کہ Dolibarr کو مستند سیشن کے ذریعے استعمال نہیں کیا گیا ہے۔ Dolibarr سیٹ اپ دستاویزات پر ایک نظر ڈالیں تاکہ یہ معلوم ہو سکے کہ تصدیق کیسے کریں (htaccess، mod_auth یا دیگر...)۔
+ErrorForbidden2=اس لاگ ان کے لیے اجازت کی تعریف آپ کے ZionOne منتظم مینو %s->%s سے کر سکتے ہیں۔
+ErrorForbidden3=ایسا لگتا ہے کہ ZionOne کو مستند سیشن کے ذریعے استعمال نہیں کیا گیا ہے۔ ZionOne سیٹ اپ دستاویزات پر ایک نظر ڈالیں تاکہ یہ معلوم ہو سکے کہ تصدیق کیسے کریں (htaccess، mod_auth یا دیگر...)۔
 ErrorForbidden4=نوٹ: اس لاگ ان کے لیے موجودہ سیشنز کو تباہ کرنے کے لیے اپنے براؤزر کی کوکیز کو صاف کریں۔
 ErrorNoImagickReadimage=کلاس امیجک اس پی ایچ پی میں نہیں ملتی ہے۔ کوئی پیش نظارہ دستیاب نہیں ہوسکتا ہے۔ منتظمین مینو سیٹ اپ - ڈسپلے سے اس ٹیب کو غیر فعال کر سکتے ہیں۔
 ErrorRecordAlreadyExists=ریکارڈ پہلے سے موجود ہے۔
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=ویب سرور کو چلانے کے لیے �
 ErrorNoActivatedBarcode=بار کوڈ کی کوئی قسم فعال نہیں ہے۔
 ErrUnzipFails=ZipArchive کے ساتھ %s کو ان زپ کرنے میں ناکام
 ErrNoZipEngine=اس پی ایچ پی میں %s فائل کو زپ/انزپ کرنے کے لیے کوئی انجن نہیں ہے
-ErrorFileMustBeADolibarrPackage=فائل %s Dolibarr zip پیکیج ہونی چاہیے۔
-ErrorModuleFileRequired=آپ کو ایک Dolibarr ماڈیول پیکیج فائل کو منتخب کرنا ہوگا۔
+ErrorFileMustBeADolibarrPackage=فائل %s ZionOne zip پیکیج ہونی چاہیے۔
+ErrorModuleFileRequired=آپ کو ایک ZionOne ماڈیول پیکیج فائل کو منتخب کرنا ہوگا۔
 ErrorPhpCurlNotInstalled=PHP CURL انسٹال نہیں ہے، یہ Paypal کے ساتھ بات کرنے کے لیے ضروری ہے۔
 ErrorFailedToAddToMailmanList=میل مین لسٹ %s یا SPIP بیس میں ریکارڈ %s شامل کرنے میں ناکام
 ErrorFailedToRemoveToMailmanList=میل مین لسٹ %s یا SPIP بیس سے ریکارڈ %s کو ہٹانے میں ناکام
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=تاریخ آج سے زیادہ ہونی چاہیے۔
 ErrorStartDateGreaterEnd=The start date is greater than the end date
 ErrorPaymentModeDefinedToWithoutSetup=ادائیگی کا موڈ %s ٹائپ کرنے کے لیے سیٹ کیا گیا تھا لیکن اس ادائیگی کے موڈ کے لیے ظاہر کرنے کے لیے معلومات کی وضاحت کرنے کے لیے ماڈیول انوائس کا سیٹ اپ مکمل نہیں کیا گیا تھا۔
 ErrorPHPNeedModule=خرابی، اس خصوصیت کو استعمال کرنے کے لیے آپ کے پی ایچ پی میں ماڈیول <b> %s </b> انسٹال ہونا چاہیے۔
-ErrorOpenIDSetupNotComplete=آپ OpenID کی توثیق کی اجازت دینے کے لیے Dolibarr config فائل ترتیب دیتے ہیں، لیکن OpenID سروس کے URL کو مستقل %s میں بیان نہیں کیا گیا ہے۔
+ErrorOpenIDSetupNotComplete=آپ OpenID کی توثیق کی اجازت دینے کے لیے ZionOne config فائل ترتیب دیتے ہیں، لیکن OpenID سروس کے URL کو مستقل %s میں بیان نہیں کیا گیا ہے۔
 ErrorWarehouseMustDiffers=ماخذ اور ہدف کے گوداموں میں فرق ہونا چاہیے۔
 ErrorBadFormat=خراب فارمیٹ!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=خرابی، یہ رکن ابھی تک کسی تیسرے فریق سے منسلک نہیں ہے۔ انوائس کے ساتھ سبسکرپشن بنانے سے پہلے ممبر کو کسی موجودہ تھرڈ پارٹی سے لنک کریں یا ایک نیا تھرڈ پارٹی بنائیں۔
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=The new user must have an email
 ErrorUserClone=Error in user clone categories
 ErrorQtyOrderedLessQtyShipped = The quantity ordered cannot be less than the quantity shipped.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Error, creating a various payment on a bank account with a currency different than the currency of the company is not yet supported.
-ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and Dolibarr parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and ZionOne parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, you try to pay different invoices with different currencies in the same payment
 ErrorLinkNotFoundWithSharedLink=Error, link not found with this shared key
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Wrong number of lines. The files must have at least 2 lines (1 line for title and 1 line for data)
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Error, a value for this type of field is mandatory
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=آپ کا پی ایچ پی پیرامیٹر upload_max_filesize (%s) PHP پیرامیٹر post_max_size (%s) سے زیادہ ہے۔ یہ ایک مستقل سیٹ اپ نہیں ہے۔
-WarningPasswordSetWithNoAccount=اس ممبر کے لیے پاس ورڈ سیٹ کیا گیا تھا۔ تاہم، کوئی صارف اکاؤنٹ نہیں بنایا گیا تھا۔ لہذا یہ پاس ورڈ محفوظ ہے لیکن اسے Dolibarr میں لاگ ان کرنے کے لیے استعمال نہیں کیا جا سکتا۔ اسے کسی بیرونی ماڈیول/انٹرفیس کے ذریعے استعمال کیا جا سکتا ہے لیکن اگر آپ کو کسی رکن کے لیے کوئی لاگ ان یا پاس ورڈ متعین کرنے کی ضرورت نہیں ہے، تو آپ ممبر ماڈیول سیٹ اپ سے "ہر ممبر کے لیے لاگ ان کا انتظام کریں" کے آپشن کو غیر فعال کر سکتے ہیں۔ اگر آپ کو لاگ ان کا انتظام کرنے کی ضرورت ہے لیکن کسی پاس ورڈ کی ضرورت نہیں ہے، تو آپ اس انتباہ سے بچنے کے لیے اس فیلڈ کو خالی رکھ سکتے ہیں۔ نوٹ: اگر ممبر کسی صارف سے منسلک ہے تو ای میل کو لاگ ان کے طور پر بھی استعمال کیا جا سکتا ہے۔
+WarningPasswordSetWithNoAccount=اس ممبر کے لیے پاس ورڈ سیٹ کیا گیا تھا۔ تاہم، کوئی صارف اکاؤنٹ نہیں بنایا گیا تھا۔ لہذا یہ پاس ورڈ محفوظ ہے لیکن اسے ZionOne میں لاگ ان کرنے کے لیے استعمال نہیں کیا جا سکتا۔ اسے کسی بیرونی ماڈیول/انٹرفیس کے ذریعے استعمال کیا جا سکتا ہے لیکن اگر آپ کو کسی رکن کے لیے کوئی لاگ ان یا پاس ورڈ متعین کرنے کی ضرورت نہیں ہے، تو آپ ممبر ماڈیول سیٹ اپ سے "ہر ممبر کے لیے لاگ ان کا انتظام کریں" کے آپشن کو غیر فعال کر سکتے ہیں۔ اگر آپ کو لاگ ان کا انتظام کرنے کی ضرورت ہے لیکن کسی پاس ورڈ کی ضرورت نہیں ہے، تو آپ اس انتباہ سے بچنے کے لیے اس فیلڈ کو خالی رکھ سکتے ہیں۔ نوٹ: اگر ممبر کسی صارف سے منسلک ہے تو ای میل کو لاگ ان کے طور پر بھی استعمال کیا جا سکتا ہے۔
 WarningMandatorySetupNotComplete=مین پیرامیٹرز ترتیب دینے کے لیے یہاں کلک کریں۔
 WarningEnableYourModulesApplications=اپنے ماڈیولز اور ایپلیکیشنز کو فعال کرنے کے لیے یہاں کلک کریں۔
 WarningSafeModeOnCheckExecDir=وارننگ، PHP آپشن <b> safe_mode </b> آن ہے لہذا کمانڈ کو php پیرامیٹر <b> safe_mode_exec_dir a09a4b739f80f17 کے ذریعہ اعلان کردہ ڈائریکٹری کے اندر ذخیرہ کرنا ضروری ہے۔
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Warning, reading bank account is a
 WarningNoDataTransferedInAccountancyYet=Please note, there is no data in the accounting table. Please transfer your data recorded in the application to the accounting section or change the calculation mode to analyze the data recorded outside of accounting.
 WarningChangingThisMayBreakStopTaskScheduler=Warning, changing this value may disable the scheduler
 WarningAmountOfFileDiffersFromSumOfLines=Warning, amount of file (%s) differs from the sum of lines (%s)
-WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the Dolibarr foundation as being published by a company using illegal practices (non-compliance with the rules for using the Dolibarr brand, collecting your data without your consent or deploying malware).
+WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the ZionOne foundation as being published by a company using illegal practices (non-compliance with the rules for using the ZionOne brand, collecting your data without your consent or deploying malware).
 WarningModuleAffiliatedToAPiratPlatform=Be careful when getting a module (paid or free) from a suspicious non official platform like %s
 
 SwissQrOnlyVIR = سوئس کیو آر انوائس کو صرف ان انوائسز پر شامل کیا جا سکتا ہے جن کی ادائیگی کریڈٹ ٹرانسفر ادائیگیوں کے ساتھ کی جائے گی۔

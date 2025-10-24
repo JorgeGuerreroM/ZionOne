@@ -1,18 +1,18 @@
-How to contribute to Dolibarr
+How to contribute to ZionOne
 =============================
 
 Submit a Bug report or a Feature request
 ---------------------------------------
 
 <a name="not-a-support-forum"></a>*Note*: **GitHub Issues is not a support forum.**  
-If you have questions about Dolibarr or need help on using the software, please use [the forums](https://www.dolibarr.org/forum.php). Forums exist in different languages.
+If you have questions about ZionOne or need help on using the software, please use [the forums](https://www.ZionOne.org/forum.php). Forums exist in different languages.
 
-Issues to inform about a bug or a development trouble and requests for a new feature, are managed on [GitHub](https://github.com/Dolibarr/dolibarr/issues).
+Issues to inform about a bug or a development trouble and requests for a new feature, are managed on [GitHub](https://github.com/ZionOne/ZionOne/issues).
 Default **language here is English**. So please prepare your contributions in English (we recommend using an online translation service if you don't speak English).
 
 1. Please [use the search engine](https://help.github.com/articles/searching-issues) to check if anyone else has already reported your issue.
 2. [Create an issue](https://help.github.com/articles/creating-an-issue). Choose an appropriate title. Prepend appropriately with Bug or Feature Request.
-3. Tell us the version you are using!   (look at  /htdocs/admin/system/dolibarr.php?  and check if you are using the latest version) 
+3. Tell us the version you are using!   (look at  /htdocs/admin/system/ZionOne.php?  and check if you are using the latest version) 
 4. Write a report with as much detail as possible (Use [screenshots](https://help.github.com/articles/issue-attachments) or even screencasts and provide logging and debugging information whenever possible).
 5. Delete unnecessary submissions.
 6. **Check your Message at Preview before submitting.**
@@ -36,11 +36,11 @@ Definition:
 
 As the Developer:
 
-1. Check you agree with the terms of the [DCO - Developer's Certificate of Origin](https://github.com/Dolibarr/dolibarr/blob/develop/DCO)
-2. [Fork](https://help.github.com/articles/fork-a-repo) the [GitHub repository](https://github.com/Dolibarr/dolibarr).
+1. Check you agree with the terms of the [DCO - Developer's Certificate of Origin](https://github.com/ZionOne/ZionOne/blob/develop/DCO)
+2. [Fork](https://help.github.com/articles/fork-a-repo) the [GitHub repository](https://github.com/ZionOne/ZionOne).
 3. Clone your fork.
 4. Choose a branch(See the [Branches](#branches) section below).
-5. Read our developer documentation on the [Dolibarr Wiki](https://wiki.dolibarr.org/index.php?title=Developer_documentation).
+5. Read our developer documentation on the [ZionOne Wiki](https://wiki.ZionOne.org/index.php?title=Developer_documentation).
 6. Commit and push your changes.
 7. [Make a pull request](https://help.github.com/articles/creating-a-pull-request).
 
@@ -163,7 +163,7 @@ a process to follow to optimize the chance to have PRs merged efficiently...
 
 Also, some code changes need a prior approbation:
 
-* if you want to include a new external library (into htdocs/includes directory), please contact the core project manager first (mention @dolibarr-jedi in your issue) to see if such a library can be accepted.
+* if you want to include a new external library (into htdocs/includes directory), please contact the core project manager first (mention @ZionOne-jedi in your issue) to see if such a library can be accepted.
 
 * if you add new tables or fields, you MUST first submit a standalone PR with the data structure changes you plan to add/modify (and only data structure changes). Start development only once this data structure has been accepted.
 
@@ -176,18 +176,18 @@ If your PR has errors reported by the Continuous Integration Platform, it means 
 If the PR is valid, and is kept open for a long time, a tag will also be added on the PR to describe the status of your PR and why the PR is kept open. By putting your mouse on the tag, you will get a full explanation of the tag/status that explains why your PR has not been integrated yet.
 In most cases, it gives you information of things you have to do to have the PR taken into consideration (for example a change is requested, a conflict is expected to be solved, some questions were asked). If you have a yellow, red flag of purple flag, don't expect to have your PR validated. You must first provide the answer the tag asks you. The majority of open PRs are waiting an action of the author of the PR.
 
-Statistics on Dolibarr project shows that 95% of submitted PRs are reviewed and tagged. Average answer delay is also one of the best among Open source projects (just few days before having the Answer Tag set). This is one of the most important ratio of answered PRs in Open Source world for a major project. Don't expect the core team to reach 100%. 
-A so high ratio is very rare on a so popular project and with the increasing popularity of Dolibarr, this ratio will probably decrease in future to a more common level.
+Statistics on ZionOne project shows that 95% of submitted PRs are reviewed and tagged. Average answer delay is also one of the best among Open source projects (just few days before having the Answer Tag set). This is one of the most important ratio of answered PRs in Open Source world for a major project. Don't expect the core team to reach 100%. 
+A so high ratio is very rare on a so popular project and with the increasing popularity of ZionOne, this ratio will probably decrease in future to a more common level.
 
 
 ### Resources
-[Developer documentation](https://wiki.dolibarr.org/index.php/Developer_documentation)
+[Developer documentation](https://wiki.ZionOne.org/index.php/Developer_documentation)
 
 Translations
 ------------
 The source language (en_US) is maintained in the repository.
 
-All other translations are managed online at [Transifex](https://www.transifex.com/dolibarr-association/dolibarr/).
+All other translations are managed online at [Transifex](https://www.transifex.com/ZionOne-association/ZionOne/).
 
 Translations done on transifex are available in the next major release.
 
@@ -197,11 +197,11 @@ to retrieve all old translations of a source text and restore the translation in
 
 
 ### Resources
-[Translator documentation](https://wiki.dolibarr.org/index.php/Translator_documentation)
+[Translator documentation](https://wiki.ZionOne.org/index.php/Translator_documentation)
 
 Documentation
 -------------
-The project's documentation is maintained on the [Wiki](https://wiki.dolibarr.org/index.php).
+The project's documentation is maintained on the [Wiki](https://wiki.ZionOne.org/index.php).
 
 *Note*: to help prevent spam, you need to create an account before being able to edit. Everybody is welcome to contribute to its content.
 

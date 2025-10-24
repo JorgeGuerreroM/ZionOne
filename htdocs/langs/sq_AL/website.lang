@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kodi
 WebsiteName=Emri i faqes së internetit
 WebsiteSetupDesc=Krijoni këtu faqet e internetit që dëshironi të përdorni. Pastaj shkoni te menyja Uebfaqe për t'i modifikuar ato.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Për ta vendosur këtë faqe internet
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Shembull për t'u përdorur në konfigurimin e hostit virtual të Apache:
 YouCanAlsoTestWithPHPS=<u>Përdoret me serverin e integruar PHP</u><br>Në mjedisin e zhvillimit, mund të preferoni të testoni faqen me serverin e integruar PHP duke ekzekutuar
-YouCanAlsoDeployToAnotherWHP=<u>Operoni faqen tuaj të internetit brenda një ofruesi të hostimit në internet Dolibarr</u><br>Nëse nuk keni një server web si Apache ose NGinx të disponueshëm në internet, mund ta eksportoni dhe importoni faqen tuaj të internetit në një instancë tjetër Dolibarr të ofruar nga një ofrues tjetër i hostimit Dolibarr që ofron integrim të plotë me modulin e faqes së internetit. Mund të gjeni një listë të disa ofruesve të hostimit Dolibarr në <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Operoni faqen tuaj të internetit brenda një ofruesi të hostimit në internet ZionOne</u><br>Nëse nuk keni një server web si Apache ose NGinx të disponueshëm në internet, mund ta eksportoni dhe importoni faqen tuaj të internetit në një instancë tjetër ZionOne të ofruar nga një ofrues tjetër i hostimit ZionOne që ofron integrim të plotë me modulin e faqes së internetit. Mund të gjeni një listë të disa ofruesve të hostimit ZionOne në <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Lexoni
 WritePerm=Shkruaj
 TestDeployOnWeb=Testoni/shpërndani në ueb
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Shikoni paraprakisht %s në një skedë të re.</u><br><br>%s do të shërbehet nga serveri Dolibarr, kështu që nuk ka nevojë për ndonjë server shtesë web (si Apache, Nginx, IIS) për t'u instaluar.<br>Problemi është se URL-të e faqeve nuk janë të lehta për t'u përdorur dhe fillojnë me shtegun e Dolibarr-it tuaj.<br><strong>%s</strong><br><br>Për të vendosur ose testuar duke përdorur serverin tuaj të jashtëm të internetit (si Apache, Nginx, Lighttp) përdorni lidhjen "%s".
+PreviewSiteServedByDolibarr=<u>Shikoni paraprakisht %s në një skedë të re.</u><br><br>%s do të shërbehet nga serveri ZionOne, kështu që nuk ka nevojë për ndonjë server shtesë web (si Apache, Nginx, IIS) për t'u instaluar.<br>Problemi është se URL-të e faqeve nuk janë të lehta për t'u përdorur dhe fillojnë me shtegun e ZionOne-it tuaj.<br><strong>%s</strong><br><br>Për të vendosur ose testuar duke përdorur serverin tuaj të jashtëm të internetit (si Apache, Nginx, Lighttp) përdorni lidhjen "%s".
 VirtualHostUrlNotDefined=URL-ja e hostit virtual të shërbyer nga serveri i jashtëm i uebit nuk është i përcaktuar
 NoPageYet=Ende nuk ka faqe
 YouCanCreatePageOrImportTemplate=Mund të krijoni një faqe të re ose të importoni një shabllon të plotë të faqes në internet
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Së shpejti do të ridrejtoheni në faqen e detaj
 WebPortalSetupNotComplete=Konfigurimi i portalit në internet nuk është përfunduar
 DeleteWebsiteAccount=Fshi llogarinë e faqes së internetit
 ConfirmDeleteWebsiteAccount=Je i sigurt që dëshiron ta fshish këtë llogari.
-ConfirmDeleteWebsiteAccount2=Nëse kjo llogari është përdorur për t'u kyçur në portalin publik ose në ndonjë faqe tjetër interneti të mundësuar nga Dolibarr, kyçja mund të mos jetë më e mundur.
+ConfirmDeleteWebsiteAccount2=Nëse kjo llogari është përdorur për t'u kyçur në portalin publik ose në ndonjë faqe tjetër interneti të mundësuar nga ZionOne, kyçja mund të mos jetë më e mundur.
 ContentSecurityPolicy=HTTP "Politika e Sigurisë së Përmbajtjes" e faqes së internetit
 WebsiteSecurityForceRP="Politika e referimit" HTTP e faqes së internetit
 WebsiteSecurityForceSTS=HTTP e faqes së internetit "Strict-Transport-Security"

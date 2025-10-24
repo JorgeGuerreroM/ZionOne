@@ -50,6 +50,6 @@ parent::addTargetsToDatabase($mailing_id, $target);
 
 ***** STEP 3 *****
 
-Once this file has been edited, you can go to the Dolibarr emailing feature,
+Once this file has been edited, you can go to the ZionOne emailing feature,
 you will see a new line selector in the "targets" editor of emailing tool.
 

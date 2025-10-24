@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - accountancy
+# ZionOne language file - Source file is en_US - accountancy
 AccountingAccount=Conta contábil
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de coluna para arquivo de exportação
 ACCOUNTING_EXPORT_DATE=Formato de data para arquivo de exportação
@@ -246,7 +246,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Desabilitar vinculação e transferência na
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Desabilitar vinculação e transferência na contabilidade em compras (as faturas do fornecedor não serão consideradas na contabilidade)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Desabilitar vinculação e transferência na contabilidade em relatórios de despesas (relatórios de despesas não serão levados em consideração na contabilidade)
 ACCOUNTING_ENABLE_LETTERING=Habilitar a função de letramento na contabilidade
-ACCOUNTING_ENABLE_LETTERING_DESC=Quando esta opção está habilitada, você pode definir, em cada lançamento contábil, um código para agrupar diferentes movimentos contábeis. No passado, quando diferentes diários eram gerenciados de forma independente, esse recurso era necessário para agrupar o movimento linhas de diferentes diários. No entanto, com a contabilidade Dolibarr, esse código de rastreamento, chamado "<b>%s</b>" já está salvo automaticamente, então uma rotulação automática já é feita, sem risco de erro, então esse recurso se tornou inútil para um uso comum. O recurso de letras manuais é fornecido para usuários finais que realmente não confiam no mecanismo do computador que faz a transferência de dados na contabilidade.
+ACCOUNTING_ENABLE_LETTERING_DESC=Quando esta opção está habilitada, você pode definir, em cada lançamento contábil, um código para agrupar diferentes movimentos contábeis. No passado, quando diferentes diários eram gerenciados de forma independente, esse recurso era necessário para agrupar o movimento linhas de diferentes diários. No entanto, com a contabilidade ZionOne, esse código de rastreamento, chamado "<b>%s</b>" já está salvo automaticamente, então uma rotulação automática já é feita, sem risco de erro, então esse recurso se tornou inútil para um uso comum. O recurso de letras manuais é fornecido para usuários finais que realmente não confiam no mecanismo do computador que faz a transferência de dados na contabilidade.
 EnablingThisFeatureIsNotNecessary=Habilitar esse recurso não é mais necessário para uma gestão contábil rigorosa.
 ACCOUNTING_ENABLE_AUTOLETTERING=Habilitar a rotulagem automática ao transferir para a contabilidade
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=O código para as letras é automaticamente gerado e incrementado e não escolhido pelo usuário final

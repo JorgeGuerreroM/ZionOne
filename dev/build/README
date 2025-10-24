@@ -1,22 +1,22 @@
 README (English)
 
-Path: /dolibarr/dev/build/README
+Path: /ZionOne/dev/build/README
 
 ##################################################
 Building packages
 ##################################################
 
-All sub-directories of "build" directory contains files (setup or binary tools) required to build automatically Dolibarr packages.
-The build directory and all its contents is absolutely not required to make Dolibarr working.
-It is here only to build Dolibarr packages, and those generated packages will not contains this "build" directory.
+All sub-directories of "build" directory contains files (setup or binary tools) required to build automatically ZionOne packages.
+The build directory and all its contents is absolutely not required to make ZionOne working.
+It is here only to build ZionOne packages, and those generated packages will not contains this "build" directory.
 
 
 There are several tools:
 
 --------------------------------------------------------------------------------------------------
 
-- To build full Dolibarr packages, launch the script
-> Launch command perl makepack-dolibarr.pl
+- To build full ZionOne packages, launch the script
+> Launch command perl makepack-ZionOne.pl
 
 See makepack-howto.txt for prerequisites.
 
@@ -35,7 +35,7 @@ See makepack-howto.txt for prerequisites.
 --------------------------------------------------------------------------------------------------
 
 - To build developer documentation, launch the script
-> perl dolibarr-doxygen-build.pl
+> perl ZionOne-doxygen-build.pl
 
 
 --------------------------------------------------------------------------------------------------
@@ -53,16 +53,16 @@ To build Debian package.
 To build Mac OS package (not ready yet).
 
 * doap:
-To build Doap descriptor to promote/describe Dolibarr releases.
+To build Doap descriptor to promote/describe ZionOne releases.
 
 * docker:
-To deploy Dolibarr with docker.
+To deploy ZionOne with docker.
 
 * doxygen:
 Dir with config file to build doxygen documentation.
 
 * exe:
-To build exe package for Windows that distribute Dolibarr sources or
+To build exe package for Windows that distribute ZionOne sources or
 to build the complete DoliWamp package.
 
 * gource:
@@ -75,13 +75,13 @@ Doc file to explain how to use launchpad.
 Doc file to explain how to push release onto OBS.
 
 * pad:
-To build a PAD file descriptor to promote/describe Dolibarr releases.
+To build a PAD file descriptor to promote/describe ZionOne releases.
 
 * patch:
-Script file to generate a patch file to distribute a Dolibarr mod.
+Script file to generate a patch file to distribute a ZionOne mod.
 
 * perl:
-Tool to install dolibarr when using virtualmin pro
+Tool to install ZionOne when using virtualmin pro
 
 * rpm:
 To build Redhat, Opensuse or Mandriva package.

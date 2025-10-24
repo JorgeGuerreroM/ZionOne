@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=會計
 Accounting=會計
 AccountingAccount=會計科目
@@ -349,7 +349,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=停用銷售的會計綁定與轉帳(客戶�
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=停用採購的會計綁定與轉帳(供應商發票將不記入會計)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=停用費用報告的會計綁定與轉帳(費用報告將不記入會計)
 ACCOUNTING_ENABLE_LETTERING=啟用會計勾對功能
-ACCOUNTING_ENABLE_LETTERING_DESC=啟用後，可於每筆會計分錄設定代碼以便分錄勾對，Dolibarr 已自動勾對，若無需手動則無須啟用。
+ACCOUNTING_ENABLE_LETTERING_DESC=啟用後，可於每筆會計分錄設定代碼以便分錄勾對，ZionOne 已自動勾對，若無需手動則無須啟用。
 EnablingThisFeatureIsNotNecessary=啟用此功能已非必要
 ACCOUNTING_ENABLE_AUTOLETTERING=轉帳至會計時自動勾對
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=勾對代碼將自動產生遞增，無需用戶選擇

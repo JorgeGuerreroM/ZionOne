@@ -82,7 +82,7 @@ top_httphead();
 	$jNotifyJSUrl = dirname($context->rootUrl).'/includes/jquery/plugins/jnotify/jquery.jnotify.min.js';
 	print '<script src="'.$jNotifyJSUrl.'"></script>'."\n";
 
-	// Common dolibarr js functions
+	// Common ZionOne js functions
 	$jQueryUIJSUrl = $context->rootUrl.'js/lib_head.js.php';
 	print '<script src="'.$jQueryUIJSUrl.'"></script>'."\n";
 	?>

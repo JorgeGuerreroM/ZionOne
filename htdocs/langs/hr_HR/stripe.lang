@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Postavljanje Stripe modula
-StripeDesc=Ponudite svojim klijentima stranicu za online plaćanje za plaćanja kreditnim/debitnim karticama putem <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Ovo se može koristiti kako biste svojim klijentima omogućili ad-hoc plaćanja ili za plaćanja vezana uz određeni Dolibarr objekt (račun, narudžba, ...)
+StripeDesc=Ponudite svojim klijentima stranicu za online plaćanje za plaćanja kreditnim/debitnim karticama putem <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Ovo se može koristiti kako biste svojim klijentima omogućili ad-hoc plaćanja ili za plaćanja vezana uz određeni ZionOne objekt (račun, narudžba, ...)
 StripeOrCBDoPayment=Platite kreditnom karticom ili Stripeom
-FollowingUrlAreAvailableToMakePayments=Following URLs are available to offer a page to a customer to make a payment on Dolibarr objects
+FollowingUrlAreAvailableToMakePayments=Following URLs are available to offer a page to a customer to make a payment on ZionOne objects
 PaymentForm=Obrazac plaćanja
 WelcomeOnPaymentPage=Dobrodošli u našu uslugu online plaćanja
 ThisScreenAllowsYouToPay=Ova stranica vam dozvoljava da vršite online plaćanje prema %s
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL za ponudu %s stranice za online pla
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL za ponudu %s stranice za online plaćanje za član pretplatu
 ToOfferALinkForOnlinePaymentOnDonation=URL za ponudu %s stranice za online plaćanje za uplatu donacije
 YouCanAddTagOnUrl=Također možete dodati parametar url-a <b>&oznaka=value</b> bilo kojem od tih URL-ova (obavezno samo za plaćanje koje nije povezano s objektom) na dodajte vlastiti komentar o plaćanju oznaka.<br>Za URL plaćanja bez postojećeg objekta, također možete dodati parametar <strong>&noidempotency=1</strong> tako da se ista veza s istim oznaka može koristiti nekoliko puta (neki načini plaćanja mogu ograničiti plaćanje na 1 za svaku različitu vezu bez ovog parametra)
-YouCanEmbedOnWebsite=Ako želite integrirati stranicu plaćanja u Dolibarr web mjesto, možete uključiti parametar: <b>&ws=website_ref</b>.<br>Osim toga, dvije stranice pod nazivom <b>paymentok</b> i <b>paymentko</b> mora biti kreiran na web-mjestu za primanje preusmjeravanja nakon uspješnog ili neuspjelog online plaćanja.
+YouCanEmbedOnWebsite=Ako želite integrirati stranicu plaćanja u ZionOne web mjesto, možete uključiti parametar: <b>&ws=website_ref</b>.<br>Osim toga, dvije stranice pod nazivom <b>paymentok</b> i <b>paymentko</b> mora biti kreiran na web-mjestu za primanje preusmjeravanja nakon uspješnog ili neuspjelog online plaćanja.
 SetupStripeToHavePaymentCreatedAutomatically=Postavite svoj Stripe s url <b>%s</b> kako bi se plaćanje automatski kreiralo kada potvrdio Stripe.
 AccountParameter=Parametri računa
 UsageParameter=Parametri korištenja
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Samo za kupce iz Austrije, Belgije, Njemačk
 ListOfSupportedHooksToActivate=Popis podržanih kuka za aktiviranje
 # Paybox
 PayBoxSetup=Podešavanje PayBox modula
-PayBoxDesc=Ovaj modul nudi stranice koje omogućuju plaćanje na <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> od strane kupaca. Ovo se može koristiti za besplatno plaćanje ili za plaćanje na određenom Dolibarr objektu (račun, narudžba, ...)
+PayBoxDesc=Ovaj modul nudi stranice koje omogućuju plaćanje na <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> od strane kupaca. Ovo se može koristiti za besplatno plaćanje ili za plaćanje na određenom ZionOne objektu (račun, narudžba, ...)
 PayBoxDoPayment=Platite Payboxom
 YouWillBeRedirectedOnPayBox=Biti ćete preusmjereni na sigurnu stranicu PayBox servisa gdje možete unijeti podatke o svojoj kreditnoj kartici
 SetupPayBoxToHavePaymentCreatedAutomatically=Postavite svoj Paybox s url-om <b> %s </b> da se plaćanje automatski kreira kada ga Paybox potvrdi.

@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=הגדרת מודול PayPal
-PaypalDesc=מודול זה מאפשר תשלום על ידי לקוחות באמצעות <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. זה יכול לשמש עבור תשלום אד-הוק או עבור תשלום הקשור לאובייקט Dolibarr (חשבונית, הזמנה, ...)
+PaypalDesc=מודול זה מאפשר תשלום על ידי לקוחות באמצעות <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. זה יכול לשמש עבור תשלום אד-הוק או עבור תשלום הקשור לאובייקט ZionOne (חשבונית, הזמנה, ...)
 PaypalOrCBDoPayment=שלם עם PayPal (כרטיס או PayPal)
 PaypalDoPayment=שלם עם PayPal
 PAYPAL_API_SANDBOX=בדיקת מצב/ארגז חול

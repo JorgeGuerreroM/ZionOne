@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = อ่านงานที่กำหนดเวลาไว้
 Permission23102 = สร้าง / การปรับปรุงกำหนดเวลางาน
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=ปิดการใช้งาน
 CronTaskInactive=งานนี้ถูกปิดใช้งาน (ไม่ได้กำหนดเวลาไว้)
 CronId=Id
 CronClassFile=ชื่อไฟล์กับคลาส
-CronModuleHelp=ชื่อของไดเร็กทอรีโมดูล Dolibarr (ใช้ได้กับโมดูล Dolibarr ภายนอกด้วย) <BR> ตัวอย่างเช่นในการเรียกวิธีการดึงข้อมูลของวัตถุ Dolibarr Product /htdocs/<u>product</u> /class/product.class.php ค่าสำหรับโมดูลคือ<br><i>product</i>
-CronClassFileHelp=เส้นทางสัมพัทธ์และชื่อไฟล์ที่จะโหลด (เส้นทางสัมพันธ์กับไดเร็กทอรีรากของเว็บเซิร์ฟเวอร์) <BR> ตัวอย่างเช่นในการเรียกวิธีการดึงข้อมูลของวัตถุ Dolibarr Product htdocs/product/class/<u>product.class.php</u> ค่าสำหรับชื่อไฟล์คลาสคือ<br><i>product/class/product .class.php</i>
-CronObjectHelp=ชื่อวัตถุที่จะโหลด <BR> ตัวอย่างเช่น หากต้องการเรียกวิธีการดึงข้อมูลของวัตถุ Dolibarr Product /htdocs/product/class/product.class.php ค่าของชื่อไฟล์คลาสคือ<br><i>ผลิตภัณฑ์</i>
-CronMethodHelp=วิธีการวัตถุที่จะเปิดตัว <BR> ตัวอย่างเช่น หากต้องการเรียกวิธีการดึงข้อมูลของวัตถุ Dolibarr Product /htdocs/product/class/product.class.php ค่าของวิธีการคือ <br><i>ดึงข้อมูล</i>
-CronArgsHelp=อาร์กิวเมนต์วิธีการ <BR> ตัวอย่างเช่น หากต้องการเรียกวิธีการดึงข้อมูลของวัตถุ Dolibarr Product /htdocs/product/class/product.class.php ค่าสำหรับพารามิเตอร์อาจเป็น<br><i>0, ProductRef</i>
+CronModuleHelp=ชื่อของไดเร็กทอรีโมดูล ZionOne (ใช้ได้กับโมดูล ZionOne ภายนอกด้วย) <BR> ตัวอย่างเช่นในการเรียกวิธีการดึงข้อมูลของวัตถุ ZionOne Product /htdocs/<u>product</u> /class/product.class.php ค่าสำหรับโมดูลคือ<br><i>product</i>
+CronClassFileHelp=เส้นทางสัมพัทธ์และชื่อไฟล์ที่จะโหลด (เส้นทางสัมพันธ์กับไดเร็กทอรีรากของเว็บเซิร์ฟเวอร์) <BR> ตัวอย่างเช่นในการเรียกวิธีการดึงข้อมูลของวัตถุ ZionOne Product htdocs/product/class/<u>product.class.php</u> ค่าสำหรับชื่อไฟล์คลาสคือ<br><i>product/class/product .class.php</i>
+CronObjectHelp=ชื่อวัตถุที่จะโหลด <BR> ตัวอย่างเช่น หากต้องการเรียกวิธีการดึงข้อมูลของวัตถุ ZionOne Product /htdocs/product/class/product.class.php ค่าของชื่อไฟล์คลาสคือ<br><i>ผลิตภัณฑ์</i>
+CronMethodHelp=วิธีการวัตถุที่จะเปิดตัว <BR> ตัวอย่างเช่น หากต้องการเรียกวิธีการดึงข้อมูลของวัตถุ ZionOne Product /htdocs/product/class/product.class.php ค่าของวิธีการคือ <br><i>ดึงข้อมูล</i>
+CronArgsHelp=อาร์กิวเมนต์วิธีการ <BR> ตัวอย่างเช่น หากต้องการเรียกวิธีการดึงข้อมูลของวัตถุ ZionOne Product /htdocs/product/class/product.class.php ค่าสำหรับพารามิเตอร์อาจเป็น<br><i>0, ProductRef</i>
 CronCommandHelp=บรรทัดคำสั่งระบบที่จะดำเนินการ
 CronCreateJob=สร้างงานใหม่กำหนด
 CronFrom=จาก

@@ -44,17 +44,17 @@
 	</Directory>
 
 	# Leaving /public, /dav and /.well_known directory accessible to everyone
-    <Directory /home/admin/wwwroot/dolibarr/htdocs/public/>
+    <Directory /home/admin/wwwroot/ZionOne/htdocs/public/>
         AuthType None
         Satisfy any
         Require all granted
     </Directory>
-    <Directory /home/admin/wwwroot/dolibarr/htdocs/dav/>
+    <Directory /home/admin/wwwroot/ZionOne/htdocs/dav/>
         AuthType None
         Satisfy any
         Require all granted
     </Directory>
-    <Directory /home/admin/wwwroot/dolibarr/htdocs/.well-known/>
+    <Directory /home/admin/wwwroot/ZionOne/htdocs/.well-known/>
         AuthType None
         Satisfy any
         Require all granted
@@ -62,7 +62,7 @@
 
     # You may also want to allow access to everyone to wrappers for api, document, viewimage, manifest and public json/img
     # but if you can avoid it, it is better.
-    <Files /home/admin/wwwroot/dolibarr/htdocs/api/index.php>
+    <Files /home/admin/wwwroot/ZionOne/htdocs/api/index.php>
         AuthType None
         Satisfy any
         Require all granted

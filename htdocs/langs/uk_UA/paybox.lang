@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Налаштування модуля PayBox
-PayBoxDesc=Цей модуль пропонує сторінки, які дозволяють клієнтам здійснювати оплату на <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>. Це можна використовувати для безкоштовного платежу або для оплати за конкретний об’єкт Dolibarr (рахунок-фактура, замовлення, ...)
+PayBoxDesc=Цей модуль пропонує сторінки, які дозволяють клієнтам здійснювати оплату на <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>. Це можна використовувати для безкоштовного платежу або для оплати за конкретний об’єкт ZionOne (рахунок-фактура, замовлення, ...)
 PayBoxDoPayment=Оплата за допомогою Paybox
 YouWillBeRedirectedOnPayBox=Ви будете перенаправлені на захищену сторінку Paybox, щоб ввести дані вашої кредитної картки
 SetupPayBoxToHavePaymentCreatedAutomatically=Налаштуйте свою Paybox за URL-адресою <b> %s </b>, щоб платіж створювався автоматично після підтвердження Paybox.

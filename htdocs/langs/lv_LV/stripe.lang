@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Joslas moduļa iestatīšana
-StripeDesc=Piedāvājiet saviem klientiem tiešsaistes maksājumu lapu maksājumiem ar kredītkartēm/debetkartēm, izmantojot <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . To var izmantot, lai ļautu jūsu klientiem veikt ad hoc maksājumus vai maksājumus, kas saistīti ar konkrētu Dolibarr objektu (rēķins, pasūtījums, ...)
+StripeDesc=Piedāvājiet saviem klientiem tiešsaistes maksājumu lapu maksājumiem ar kredītkartēm/debetkartēm, izmantojot <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . To var izmantot, lai ļautu jūsu klientiem veikt ad hoc maksājumus vai maksājumus, kas saistīti ar konkrētu ZionOne objektu (rēķins, pasūtījums, ...)
 StripeOrCBDoPayment=Maksājiet ar kredītkarti vai Stripe
-FollowingUrlAreAvailableToMakePayments=Pēc URL ir pieejami, lai piedāvātu lapu, lai klients varētu veikt maksājumu par Dolibarr objektiem
+FollowingUrlAreAvailableToMakePayments=Pēc URL ir pieejami, lai piedāvātu lapu, lai klients varētu veikt maksājumu par ZionOne objektiem
 PaymentForm=Maksājuma forma
 WelcomeOnPaymentPage=Laipni lūdzam mūsu tiešsaistes maksājumu pakalpojumu
 ThisScreenAllowsYouToPay=Šis logs ļauj jums veikt tiešsaistes maksājumu %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL, lai piedāvātu %s tiešsaistes ma
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL, lai piedāvātu %s tiešsaistes maksājuma lapu dalībnieka abonementam
 ToOfferALinkForOnlinePaymentOnDonation=URL, lai piedāvātu tiešsaistes maksājuma lapu %s ziedojuma samaksai
 YouCanAddTagOnUrl=Varat arī pievienot url parametru <b>&tag=value</b> jebkuram no šiem URL (obligāti tikai maksājumam, kas nav saistīts ar objektu. ). >&noidempotency=1</strong>, lai vienu un to pašu saiti ar vienu tagu varētu izmantot vairākas reizes (daži maksājuma veidi var ierobežot maksājumu līdz 1 par katru atšķirīgo saiti bez šī parametra)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=Set up your Stripe ar url <b> %s </b>, lai maksājums tiktu izveidots automātiski, ja to apstiprina Stripe.
 AccountParameter=Konta parametri
 UsageParameter=Izmantošanas parametri
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Tikai klientiem no Austrijas, Beļģijas, V�
 ListOfSupportedHooksToActivate=List of supported hooks to activate
 # Paybox
 PayBoxSetup=PayBox moduļa iestatīšana
-PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
 PayBoxDoPayment=Pay with Paybox
 YouWillBeRedirectedOnPayBox=Jums tiks novirzīts uz drošu Paybox lapā, lai ievadi kredītkartes informāciju
 SetupPayBoxToHavePaymentCreatedAutomatically=Izveidojiet savu Paybox ar URL <b> %s </b>, lai maksājums tiktu izveidots automātiski, ja to apstiprina Paybox.

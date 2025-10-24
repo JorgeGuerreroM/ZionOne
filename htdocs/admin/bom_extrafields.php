@@ -27,7 +27,7 @@
  *		\brief      Page to setup extra fields of BOM
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/bom/lib/bom.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';

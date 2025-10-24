@@ -25,7 +25,7 @@
  *		\brief      File of main public page for open job position
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 /**
  * @var Conf $conf

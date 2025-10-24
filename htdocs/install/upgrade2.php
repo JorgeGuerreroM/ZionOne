@@ -49,7 +49,7 @@ include_once 'inc.php';
  */
 
 if (!file_exists($conffile)) {
-	print 'Error: Dolibarr config file was not found. This may means that Dolibarr is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
+	print 'Error: ZionOne config file was not found. This may means that ZionOne is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
 }
 require_once $conffile;
 /**
@@ -223,7 +223,7 @@ if (!GETPOST('action', 'aZ09') || preg_match('/upgrade/i', GETPOST('action', 'aZ
 	 *
 	 ***************************************************************************************/
 
-	// Force to execute this at begin to avoid the new core code into Dolibarr to be broken.
+	// Force to execute this at begin to avoid the new core code into ZionOne to be broken.
 	$sql = 'ALTER TABLE '.MAIN_DB_PREFIX.'user ADD COLUMN birth date';
 	$db->query($sql, 1);
 	$sql = 'ALTER TABLE '.MAIN_DB_PREFIX.'user ADD COLUMN dateemployment date';

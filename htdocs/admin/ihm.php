@@ -29,7 +29,7 @@
  *       \brief      Page to setup GUI display options
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/usergroups.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
@@ -86,7 +86,7 @@ if (preg_match('/^(set|del)_([A-Z_]+)$/', $action, $regs)) {
 	if ($regs[1] == 'set') {
 		dolibarr_set_const($db, $regs[2], 1, 'chaine', 0, '', $conf->entity);
 	} else {
-		dolibarr_del_const($db, $regs[2], $conf->entity);
+		zionone_del_const($db, $regs[2], $conf->entity);
 	}
 }
 
@@ -96,17 +96,17 @@ if ($action == 'removebackgroundlogin' && getDolGlobalString('MAIN_LOGIN_BACKGRO
 
 	$logofile = $conf->mycompany->dir_output.'/logos/' . getDolGlobalString('MAIN_LOGIN_BACKGROUND');
 	dol_delete_file($logofile);
-	dolibarr_del_const($db, "MAIN_LOGIN_BACKGROUND", $conf->entity);
+	zionone_del_const($db, "MAIN_LOGIN_BACKGROUND", $conf->entity);
 	$mysoc->logo = '';
 
 	/*$logosmallfile=$conf->mycompany->dir_output.'/logos/thumbs/'.$mysoc->logo_small;
 	dol_delete_file($logosmallfile);
-	dolibarr_del_const($db, "MAIN_INFO_SOCIETE_LOGO_SMALL",$conf->entity);
+	zionone_del_const($db, "MAIN_INFO_SOCIETE_LOGO_SMALL",$conf->entity);
 	$mysoc->logo_small='';
 
 	$logominifile=$conf->mycompany->dir_output.'/logos/thumbs/'.$mysoc->logo_mini;
 	dol_delete_file($logominifile);
-	dolibarr_del_const($db, "MAIN_INFO_SOCIETE_LOGO_MINI",$conf->entity);
+	zionone_del_const($db, "MAIN_INFO_SOCIETE_LOGO_MINI",$conf->entity);
 	$mysoc->logo_mini='';*/
 }
 
@@ -114,7 +114,7 @@ if ($action == 'update') {
 	$error = 0;
 
 	if ($mode == 'template') {
-		//dolibarr_del_const($db, "MAIN_THEME", 0);	// To be sure we don't have this constant set for all entities
+		//zionone_del_const($db, "MAIN_THEME", 0);	// To be sure we don't have this constant set for all entities
 
 		dolibarr_set_const($db, "MAIN_THEME", GETPOST("main_theme", 'aZ09'), 'chaine', 0, '', $conf->entity);
 		dolibarr_set_const($db, "MAIN_IHM_PARAMS_REV", getDolGlobalInt('MAIN_IHM_PARAMS_REV') + 1, 'chaine', 0, '', $conf->entity);
@@ -126,7 +126,7 @@ if ($action == 'update') {
 		if (GETPOSTISSET('THEME_DARKMODEENABLED')) {
 			$val = GETPOST('THEME_DARKMODEENABLED');
 			if (!$val) {
-				dolibarr_del_const($db, "THEME_DARKMODEENABLED", $conf->entity);
+				zionone_del_const($db, "THEME_DARKMODEENABLED", $conf->entity);
 			}
 			if ($val) {
 				dolibarr_set_const($db, "THEME_DARKMODEENABLED", $val, 'chaine', 0, '', $conf->entity);
@@ -136,7 +136,7 @@ if ($action == 'update') {
 		if (GETPOSTISSET('THEME_TOPMENU_DISABLE_IMAGE')) {
 			$val = GETPOST('THEME_TOPMENU_DISABLE_IMAGE');
 			if (!$val) {
-				dolibarr_del_const($db, 'THEME_TOPMENU_DISABLE_IMAGE', $conf->entity);
+				zionone_del_const($db, 'THEME_TOPMENU_DISABLE_IMAGE', $conf->entity);
 			} else {
 				dolibarr_set_const($db, 'THEME_TOPMENU_DISABLE_IMAGE', GETPOST('THEME_TOPMENU_DISABLE_IMAGE'), 'chaine', 0, '', $conf->entity);
 			}
@@ -149,110 +149,110 @@ if ($action == 'update') {
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_BACKBODY'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_BACKBODY', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_BACKBODY', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_BACKBODY', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_TOPMENU_BACK1'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_TOPMENU_BACK1', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_TOPMENU_BACK1', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_TOPMENU_BACK1', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_VERMENU_BACK1'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_VERMENU_BACK1', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_VERMENU_BACK1', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_VERMENU_BACK1', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_TEXTTITLENOTAB'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_TEXTTITLENOTAB', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_TEXTTITLENOTAB', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_TEXTTITLENOTAB', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_BACKTITLE1'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_BACKTITLE1', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_BACKTITLE1', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_BACKTITLE1', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_TEXTTITLE'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_TEXTTITLE', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_TEXTTITLE', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_TEXTTITLE', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_TEXTTITLELINK'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_TEXTTITLELINK', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_TEXTTITLELINK', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_TEXTTITLELINK', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_LINEIMPAIR1'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_LINEIMPAIR1', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_LINEIMPAIR1', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_LINEIMPAIR1', $val, 'chaine', 0, '', $conf->entity);
 		}
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_LINEIMPAIR1'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_LINEIMPAIR2', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_LINEIMPAIR2', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_LINEIMPAIR2', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_LINEPAIR1'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_LINEPAIR1', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_LINEPAIR1', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_LINEPAIR1', $val, 'chaine', 0, '', $conf->entity);
 		}
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_LINEPAIR1'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_LINEPAIR2', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_LINEPAIR2', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_LINEPAIR2', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_TEXTLINK'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_TEXTLINK', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_TEXTLINK', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_TEXTLINK', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_USE_HOVER'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_USE_HOVER', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_USE_HOVER', $conf->entity);
 		} else {
 			dolibarr_set_const($db, "THEME_ELDY_USE_HOVER", $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_USE_CHECKED'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_USE_CHECKED', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_USE_CHECKED', $conf->entity);
 		} else {
 			dolibarr_set_const($db, "THEME_ELDY_USE_CHECKED", $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_BTNACTION'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_BTNACTION', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_BTNACTION', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_BTNACTION', $val, 'chaine', 0, '', $conf->entity);
 		}
 
 		$val = (implode(',', (colorStringToArray(GETPOST('THEME_ELDY_TEXTBTNACTION'), array()))));
 		if ($val == '') {
-			dolibarr_del_const($db, 'THEME_ELDY_TEXTBTNACTION', $conf->entity);
+			zionone_del_const($db, 'THEME_ELDY_TEXTBTNACTION', $conf->entity);
 		} else {
 			dolibarr_set_const($db, 'THEME_ELDY_TEXTBTNACTION', $val, 'chaine', 0, '', $conf->entity);
 		}

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Bu teklifle bağlantılı bir sipariş zaten açık olduğundan otomatik olarak başka bir sipariş oluşturulmadı
 OrdersArea=Müşteri siparişleri alanı
 SuppliersOrdersArea=Tedarikçi siparişleri alanı

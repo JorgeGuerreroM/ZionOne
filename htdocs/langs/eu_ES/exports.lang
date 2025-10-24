@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Inportazioak / Esportazioak
 ExportsArea=Exports
 ImportArea=Inportatu
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Aukeratu inportazio fitxategi formatu gisa erabiliko 
 ChooseFileToImport=Igo fitxategia eta egin klik %s ikonoan fitxategia inportazio fitxategiaren iturburu gisa hautatzeko...
 SourceFileFormat=Iturburu fitxategiaren formatua
 FieldsInSourceFile=Iturburu-fitxategiko eremuak
-FieldsInTargetDatabase=Helburu eremuak Dolibarr datu-basean
+FieldsInTargetDatabase=Helburu eremuak ZionOne datu-basean
 NoFields=Eremurik ez
 MoveField=Mugitu eremuaren zutabe zenbakia %s
 ExampleOfImportFile=Inportazio_fitxategiaren_adibidea

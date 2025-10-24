@@ -18,7 +18,7 @@
 
 /**
  *       \file		htdocs/core/ajax/pingresult.php
- *       \brief		Page called after a ping was done in js to the official dolibarr ping service.
+ *       \brief		Page called after a ping was done in js to the official ZionOne ping service.
  *					This ajax URL is called with parameter 'firstpingok' or 'firstpingko' depending on the result of the ping.
  *					You can use &forceping=1 in parameters to force the ping if the ping was already sent.
  */
@@ -42,7 +42,7 @@ if (!defined('NOREQUIRETRAN')) {
 	define('NOREQUIRETRAN', '1');
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 /**

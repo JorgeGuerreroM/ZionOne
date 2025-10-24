@@ -23,7 +23,7 @@
  *      \brief      Page fiche LDAP members types
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 /**
  * @var Conf $conf

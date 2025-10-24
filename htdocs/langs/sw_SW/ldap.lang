@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Nenosiri la mtumiaji <b> %s </b>  kwenye kikoa <b> %s </b>  lazima ibadilishwe.
 UserMustChangePassNextLogon=Mtumiaji lazima abadilishe nenosiri kwenye kikoa %s
 LDAPInformationsForThisContact=Taarifa katika hifadhidata ya LDAP ya mwasiliani huyu
@@ -22,7 +22,7 @@ GroupSynchronized=Kikundi kimesawazishwa
 MemberSynchronized=Mwanachama amesawazishwa
 MemberTypeSynchronized=Aina ya mwanachama imesawazishwa
 ContactSynchronized=Anwani imesawazishwa
-ForceSynchronize=Lazimisha kulandanisha Dolibarr -> LDAP
+ForceSynchronize=Lazimisha kulandanisha ZionOne -> LDAP
 ErrorFailedToReadLDAP=Imeshindwa kusoma hifadhidata ya LDAP. Angalia usanidi wa moduli ya LDAP na ufikiaji wa hifadhidata.
 PasswordOfUserInLDAP=Nenosiri la mtumiaji katika LDAP
 LDAPPasswordHashType=Nenosiri la aina ya heshi

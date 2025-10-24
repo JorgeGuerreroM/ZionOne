@@ -23,7 +23,7 @@
  *  \brief	  Setup page of product lot module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/product/stock/class/productlot.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
@@ -114,7 +114,7 @@ if ($action == 'updateMaskLot') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('FACTURE_ADDON_PDF') == "$value") {
-			dolibarr_del_const($db, 'FACTURE_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'FACTURE_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'specimen') {
@@ -187,7 +187,7 @@ print dol_get_fiche_head($head, 'settings', $langs->trans("Batch"), -1, 'lot');
 
 
 if (getDolGlobalInt('MAIN_FEATURES_LEVEL') < 2) {
-	// The feature to define the numbering module of lot or serial is no enabled because it is not used anywhere in Dolibarr code: You can set it
+	// The feature to define the numbering module of lot or serial is no enabled because it is not used anywhere in ZionOne code: You can set it
 	// but the numbering module is not used.
 	// TODO Use it on lot creation page, when you create a lot and when the lot number is kept empty to define the lot according
 	// to the selected product.

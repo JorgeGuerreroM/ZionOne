@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Darowizna
 Donations=Darowizny
 DonationRef=Nr referencyjny darowizny
@@ -37,7 +37,7 @@ DonationUseThirdparties=Jako adres dawcy użyj adresu istniejącej strony trzeci
 DonationsStatistics=Statystyki darowizn
 NbOfDonations=Liczba darowizn
 BlankDonationForm=Formularz darowizny publicznej
-BlankDonationFormDesc=Dolibarr może dostarczyć Ci publiczny adres URL/stronę internetową, aby umożliwić zewnętrznym odwiedzającym dokonanie darowizny. Jeśli włączony jest moduł płatności online, formularz płatności może być również automatycznie dostarczony.
+BlankDonationFormDesc=ZionOne może dostarczyć Ci publiczny adres URL/stronę internetową, aby umożliwić zewnętrznym odwiedzającym dokonanie darowizny. Jeśli włączony jest moduł płatności online, formularz płatności może być również automatycznie dostarczony.
 EnablePublicDonationForm=Włącz publiczny formularz darowizn
 EnablePublicDonationList=Włącz publiczną listę darowizn
 ForceDonateurNature = Siła o charakterze donatora (osoba fizyczna lub korporacja)

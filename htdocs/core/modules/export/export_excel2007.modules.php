@@ -48,10 +48,10 @@ class ExportExcel2007 extends ModeleExports
 	public $extension;
 
 	/**
-	 * Dolibarr version of the loaded document
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental'
+	 * ZionOne version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental'
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/** @var string */
 	public $label_lib;
@@ -224,7 +224,7 @@ class ExportExcel2007 extends ModeleExports
 
 		$this->workbook = new Spreadsheet();
 		$this->workbook->getProperties()->setCreator($user->getFullName($outputlangs).' - '.DOL_APPLICATION_TITLE.' '.DOL_VERSION);
-		//$this->workbook->getProperties()->setLastModifiedBy('Dolibarr '.DOL_VERSION);
+		//$this->workbook->getProperties()->setLastModifiedBy('ZionOne '.DOL_VERSION);
 		$this->workbook->getProperties()->setTitle(basename($file));
 		$this->workbook->getProperties()->setSubject(basename($file));
 		$this->workbook->getProperties()->setDescription(DOL_APPLICATION_TITLE.' '.DOL_VERSION);
@@ -460,7 +460,7 @@ class ExportExcel2007 extends ModeleExports
 	public function excel_clean($newvalue)
 	{
 		// phpcs:enable
-		// Rule Dolibarr: No HTML
+		// Rule ZionOne: No HTML
 		$newvalue = dol_string_nohtmltag($newvalue);
 
 		return $newvalue;

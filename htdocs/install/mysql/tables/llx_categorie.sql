@@ -25,7 +25,7 @@ create table llx_categorie
 	entity          integer DEFAULT 1 NOT NULL,			-- Multi company id
 	fk_parent		integer DEFAULT 0 NOT NULL,
 	label 		    varchar(180) NOT NULL,				-- Category ref/name
-	ref_ext			varchar(255),						-- Reference into an external system (not used by dolibarr)
+	ref_ext			varchar(255),						-- Reference into an external system (not used by ZionOne)
 	type	        integer DEFAULT 1 NOT NULL,			-- Category type (0=product, 1=supplier, 2=customer, 3=member, ...). See array $MAP_ID into categorie.class.php for possible values.
 	description 	text,								-- description of the category
     color           varchar(8),                         -- Color

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Számla (a Számlatáblázatból) alapértelmezés szerint a fizetéseknél használt "felhasználók" számára
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=A felhasználói kártyán meghatározott dedikált számla kizárólag Alkönyvelésre szolgál. Ez lesz a főkönyvnél, de az alkönyvi könyvelés alapértelmezett értékeként is használható, ha a felhasználónál nincs dedikált felhasználói fiók.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Alapértelmezés szerint könyvelési számla a bérfizetéshez

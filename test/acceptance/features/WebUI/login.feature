@@ -7,7 +7,7 @@ Feature: user login
     Given the user has browsed to the login page
 
   Scenario: Admin user should be able to login successfully
-    When user logs in with username "dolibarr" and password "password"
+    When user logs in with username "ZionOne" and password "password"
     Then the user should be directed to the homepage
 
   Scenario: Admin user with empty credentials should not be able to login
@@ -20,7 +20,7 @@ Feature: user login
     And error message "Bad value for login or password" should be displayed in the webUI
     Examples:
       | username | password |
-      | dolibarr | pass     |
-      | dolibarr | passw    |
-      | dolibarr |          |
-      | dolibarr | password |
+      | ZionOne | pass     |
+      | ZionOne | passw    |
+      | ZionOne |          |
+      | ZionOne | password |

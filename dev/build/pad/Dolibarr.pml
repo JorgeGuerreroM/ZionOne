@@ -3,7 +3,7 @@
 	<AppVerInfo>PADGen 3.1.1.47</AppVerInfo>
 	<CompanyName />
 	<Program_Info>
-		<Program_Name>Dolibarr</Program_Name>
+		<Program_Name>ZionOne</Program_Name>
 		<Program_Version>3.5.0</Program_Version>
 		<Program_Release_Month>01</Program_Release_Month>
 		<Program_Release_Day>01</Program_Release_Day>
@@ -16,7 +16,7 @@
 		<Program_Install_Support>No Install Support</Program_Install_Support>
 		<Program_OS_Support>Linux,Mac OS X,Mac Other,Unix,Win2000,Win7 x32,Win7 x64,Win98,WinOther,WinServer,WinVista,WinVista x64,WinXP,Other</Program_OS_Support>
 		<Program_Language>English,Arabic,Catalan,Chinese,Danish,Dutch,Finnish,French,German,Greek,Icelandic,Italian,Norwegian,Polish,Portuguese,Romanian,Russian,Slovenian,Spanish,Swedish,Turkish</Program_Language>
-		<Program_Change_Info>http://www.dolibarr.org</Program_Change_Info>
+		<Program_Change_Info>http://www.ZionOne.org</Program_Change_Info>
 		<Program_Specific_Category>Business</Program_Specific_Category>
 		<Program_Category_Class>Business::Accounting &amp; Finance</Program_Category_Class>
 		<Program_System_Requirements>None</Program_System_Requirements>
@@ -37,49 +37,49 @@
 	</Program_Info>
 	<Program_Descriptions>
 		<English>
-			<Keywords>dolibarr, erp, crm, invoices, commercial proposals, orders, accounting, stock, products, agenda, bank, business, company, foundation, management, sme, doliwamp</Keywords>
-			<Char_Desc_45>Dolibarr ERP &amp; CRM</Char_Desc_45>
-			<Char_Desc_80>Dolibarr ERP &amp; CRM, the easy to use open source software to manage your activity</Char_Desc_80>
-			<Char_Desc_250>Dolibarr ERP &amp; CRM, the easy to use open source software to manage your activity (invoices, customers, suppliers, contracts, agenda, emailings...) and any other things a small or mid-sized business or a foundation needs to follow.</Char_Desc_250>
-			<Char_Desc_450>Dolibarr ERP &amp; CRM is a software built by modules addition (you enable only features you need), to manage small or medium companies, freelancers or foundations. We can say Dolibarr is an ERP or CRM. Dolibarr is also available with an auto-installer for Windows users with no technical knowledge to install Dolibarr and all its prerequisites (Apache, Mysql, PHP) with just one auto-exe file. See DoliWamp software for this.</Char_Desc_450>
-			<Char_Desc_2000>Dolibarr ERP &amp; CRM is a software built by modules addition (you enable only features you need), to manage small or mid-sized businesses, freelancers or foundations. We can say Dolibarr is an ERP or CRM (or both depending on activated modules). It's an OpenSource project base on a WAMP, MAMP or LAMP server (Apache, Mysql, PHP for all Operating Systems). Dolibarr differs from other ERP or CRM softwares (like OpenAguila, OpenBravo, OpenERP, Neogia, Compiere, etc) because everything was made to be more simple:
+			<Keywords>ZionOne, erp, crm, invoices, commercial proposals, orders, accounting, stock, products, agenda, bank, business, company, foundation, management, sme, doliwamp</Keywords>
+			<Char_Desc_45>ZionOne ERP &amp; CRM</Char_Desc_45>
+			<Char_Desc_80>ZionOne ERP &amp; CRM, the easy to use open source software to manage your activity</Char_Desc_80>
+			<Char_Desc_250>ZionOne ERP &amp; CRM, the easy to use open source software to manage your activity (invoices, customers, suppliers, contracts, agenda, emailings...) and any other things a small or mid-sized business or a foundation needs to follow.</Char_Desc_250>
+			<Char_Desc_450>ZionOne ERP &amp; CRM is a software built by modules addition (you enable only features you need), to manage small or medium companies, freelancers or foundations. We can say ZionOne is an ERP or CRM. ZionOne is also available with an auto-installer for Windows users with no technical knowledge to install ZionOne and all its prerequisites (Apache, Mysql, PHP) with just one auto-exe file. See DoliWamp software for this.</Char_Desc_450>
+			<Char_Desc_2000>ZionOne ERP &amp; CRM is a software built by modules addition (you enable only features you need), to manage small or mid-sized businesses, freelancers or foundations. We can say ZionOne is an ERP or CRM (or both depending on activated modules). It's an OpenSource project base on a WAMP, MAMP or LAMP server (Apache, Mysql, PHP for all Operating Systems). ZionOne differs from other ERP or CRM softwares (like OpenAguila, OpenBravo, OpenERP, Neogia, Compiere, etc) because everything was made to be more simple:
 Simple to install
 Simple to use
 Simple to develop
-Note that Dolibarr is also available with an auto-installer for Windows or Ubuntu users with no technical knowledge to install Dolibarr and all its prerequisites (Apache, Mysql, PHP) with just one auto-exe file. This version is called DoliWamp (for Windows) or DoliBuntu (for Ubuntu/Debian).</Char_Desc_2000>
+Note that ZionOne is also available with an auto-installer for Windows or Ubuntu users with no technical knowledge to install ZionOne and all its prerequisites (Apache, Mysql, PHP) with just one auto-exe file. This version is called DoliWamp (for Windows) or DoliBuntu (for Ubuntu/Debian).</Char_Desc_2000>
 		</English>
 		<Italian>
 			<Keywords>erp, crm, gestionale, medie imprese, fondazioni</Keywords>
 			<Char_Desc_45>Gestionale open source e gratuito</Char_Desc_45>
 			<Char_Desc_80>Gestionale open source e gratuito per piccole e medie imprese, fondazioni</Char_Desc_80>
-			<Char_Desc_250>Dolibarr è un a gestionale open source e gratuito per piccole e medie imprese, fondazioni e liberi professionisti. Include varie funzionalità per Enterprise Resource Planning e gestione dei clienti (CRM), ma anche ulteriori attività.</Char_Desc_250>
-			<Char_Desc_450>Dolibarr è un programma gestionale open source e gratuito per piccole e medie imprese, fondazioni e liberi professionisti. Include varie funzionalità per Enterprise Resource Planning e gestione dei clienti (CRM), ma anche ulteriori attività. Dolibarr è progettato per poter fornire solo ciò di cui hai bisogno ed essere facile da usare.</Char_Desc_450>
-			<Char_Desc_2000>Dolibarr è un programma gestionale open source e gratuito per piccole e medie imprese, fondazioni e liberi professionisti. Include varie funzionalità per Enterprise Resource Planning e gestione dei clienti (CRM), ma anche ulteriori attività. Dolibarr è progettato per poter fornire solo ciò di cui hai bisogno ed essere facile da usare. Dolibarr è completamente web-based, progettato per poter fornire solo ciò di cui hai bisogno ed essere facile da usare.</Char_Desc_2000>
+			<Char_Desc_250>ZionOne è un a gestionale open source e gratuito per piccole e medie imprese, fondazioni e liberi professionisti. Include varie funzionalità per Enterprise Resource Planning e gestione dei clienti (CRM), ma anche ulteriori attività.</Char_Desc_250>
+			<Char_Desc_450>ZionOne è un programma gestionale open source e gratuito per piccole e medie imprese, fondazioni e liberi professionisti. Include varie funzionalità per Enterprise Resource Planning e gestione dei clienti (CRM), ma anche ulteriori attività. ZionOne è progettato per poter fornire solo ciò di cui hai bisogno ed essere facile da usare.</Char_Desc_450>
+			<Char_Desc_2000>ZionOne è un programma gestionale open source e gratuito per piccole e medie imprese, fondazioni e liberi professionisti. Include varie funzionalità per Enterprise Resource Planning e gestione dei clienti (CRM), ma anche ulteriori attività. ZionOne è progettato per poter fornire solo ciò di cui hai bisogno ed essere facile da usare. ZionOne è completamente web-based, progettato per poter fornire solo ciò di cui hai bisogno ed essere facile da usare.</Char_Desc_2000>
 		</Italian>
 		<French>
-			<Keywords>dolibarr, erp, crm, invoices, commercial proposals, orders, accounting, stock, products, agenda, bank, business, company, foundation, management, sme, doliwamp</Keywords>
-			<Char_Desc_45>Dolibarr ERP &amp; CRM</Char_Desc_45>
-			<Char_Desc_80>Dolibarr ERP &amp; CRM, le gestionnaire simple pour gérer votre activité</Char_Desc_80>
-			<Char_Desc_250>Dolibarr ERP &amp; CRM, le logiciel simple et OpenSource pour gérer votre activité (factures, devis, facturation, commandes, compta, trésorerie, stocks, produits, agenda, comptes bancaires, associations)</Char_Desc_250>
-			<Char_Desc_450>Dolibarr ERP/CRM est un logiciel modulaire (on n'active que les fonctions que l'on désire) de gestions de TPE/PME, d'indépendants, d'entrepreneurs ou d'associations. En terme plus techniques, c'est un ERP et CRM. C'est un projet OpenSource qui s'exécute au sein d'un serveur Web et peut donc être accessible depuis n'importe quel lieu disposant d'une connexion Internet (Projet basé sur un serveur WAMP, MAMP ou LAMP: Apache, MySQL, PHP).</Char_Desc_450>
-			<Char_Desc_2000>Dolibarr ERP/CRM est un logiciel modulaire (on n'active que les fonctions que l'on désire) de gestions de TPE/PME, d'indépendants, d'entrepreneurs ou d'associations. En terme plus techniques, c'est un ERP et CRM. C'est un projet OpenSource qui s'exécute au sein d'un serveur Web et peut donc être accessible depuis n'importe quel lieu disposant d'une connexion Internet (Projet basé sur un serveur WAMP, MAMP ou LAMP: Apache, MySQL, PHP). Dolibarr vient compléter les offres déjà nombreuses de logiciels de cette catégorie (comme OpenBravo, OpenERP, SugarCRM, Neogia, Compiere, etc.) mais se démarque par le fait qu'ici tout est fait pour offrir de la simplicité (règle des 3 S):
+			<Keywords>ZionOne, erp, crm, invoices, commercial proposals, orders, accounting, stock, products, agenda, bank, business, company, foundation, management, sme, doliwamp</Keywords>
+			<Char_Desc_45>ZionOne ERP &amp; CRM</Char_Desc_45>
+			<Char_Desc_80>ZionOne ERP &amp; CRM, le gestionnaire simple pour gérer votre activité</Char_Desc_80>
+			<Char_Desc_250>ZionOne ERP &amp; CRM, le logiciel simple et OpenSource pour gérer votre activité (factures, devis, facturation, commandes, compta, trésorerie, stocks, produits, agenda, comptes bancaires, associations)</Char_Desc_250>
+			<Char_Desc_450>ZionOne ERP/CRM est un logiciel modulaire (on n'active que les fonctions que l'on désire) de gestions de TPE/PME, d'indépendants, d'entrepreneurs ou d'associations. En terme plus techniques, c'est un ERP et CRM. C'est un projet OpenSource qui s'exécute au sein d'un serveur Web et peut donc être accessible depuis n'importe quel lieu disposant d'une connexion Internet (Projet basé sur un serveur WAMP, MAMP ou LAMP: Apache, MySQL, PHP).</Char_Desc_450>
+			<Char_Desc_2000>ZionOne ERP/CRM est un logiciel modulaire (on n'active que les fonctions que l'on désire) de gestions de TPE/PME, d'indépendants, d'entrepreneurs ou d'associations. En terme plus techniques, c'est un ERP et CRM. C'est un projet OpenSource qui s'exécute au sein d'un serveur Web et peut donc être accessible depuis n'importe quel lieu disposant d'une connexion Internet (Projet basé sur un serveur WAMP, MAMP ou LAMP: Apache, MySQL, PHP). ZionOne vient compléter les offres déjà nombreuses de logiciels de cette catégorie (comme OpenBravo, OpenERP, SugarCRM, Neogia, Compiere, etc.) mais se démarque par le fait qu'ici tout est fait pour offrir de la simplicité (règle des 3 S):
 Simple pour l'installation (avec au choix des installeurs clé en main pour ceux qui ignorent comment installer un serveur Web, ou une installation manuelle)
 Simple pour l'utilisation (fonctions modulaires pour ne pas surcharger les menus, informations claires à la saisie)
 Simple pour le développement (pas de frameworks lourds).
-Dolibarr intègre en effet sa propre architecture (design patterns) permettant à tout développeur d'être tout de suite opérationnel sans connaissances particulières autre que le PHP. </Char_Desc_2000>
+ZionOne intègre en effet sa propre architecture (design patterns) permettant à tout développeur d'être tout de suite opérationnel sans connaissances particulières autre que le PHP. </Char_Desc_2000>
 		</French>
 	</Program_Descriptions>
 	<Web_Info>
 		<Application_URLs>
-			<Application_Info_URL>http://www.dolibarr.org</Application_Info_URL>
-			<Application_Order_URL>http://www.dolibarr.org</Application_Order_URL>
-			<Application_Screenshot_URL>http://www.dolibarr.org/images/dolibarr_screenshot1.png</Application_Screenshot_URL>
-			<Application_Icon_URL>http://www.dolibarr.org/images/dolibarr.gif</Application_Icon_URL>
-			<Application_XML_File_URL>http://www.dolibarr.org/files/pad_dolibarr.xml</Application_XML_File_URL>
+			<Application_Info_URL>http://www.ZionOne.org</Application_Info_URL>
+			<Application_Order_URL>http://www.ZionOne.org</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.ZionOne.org/images/dolibarr_screenshot1.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.ZionOne.org/images/ZionOne.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.ZionOne.org/files/pad_dolibarr.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://www.dolibarr.org/files/dolibarr.tgz</Primary_Download_URL>
-			<Secondary_Download_URL>http://www.dolibarr.org/files/dolibarr.tgz</Secondary_Download_URL>
+			<Primary_Download_URL>http://www.ZionOne.org/files/ZionOne.tgz</Primary_Download_URL>
+			<Secondary_Download_URL>http://www.ZionOne.org/files/ZionOne.tgz</Secondary_Download_URL>
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />
 		</Download_URLs>

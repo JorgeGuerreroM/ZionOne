@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=Exports
 ImportArea=Ingiza
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Chagua umbizo la faili la kutumia kama umbizo la kule
 ChooseFileToImport=Pakia faili kisha ubofye %s ikoni ya kuchagua faili kama faili ya kuingiza chanzo...
 SourceFileFormat=Fomati ya faili ya chanzo
 FieldsInSourceFile=Sehemu katika faili ya chanzo
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=Hakuna mashamba
 MoveField=Sogeza nambari ya safu wima ya sehemu %s
 ExampleOfImportFile=Mfano_wa_faili_la_kuagiza

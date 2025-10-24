@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Débese cambiar o contrasinal do usuario <b>%s </b> no dominio <b>%s </b>.
 UserMustChangePassNextLogon=O usuario debe cambiar o contrasinal no dominio %s
 LDAPInformationsForThisContact=Información na base de datos LDAP deste contacto
@@ -22,7 +22,7 @@ GroupSynchronized=Grupo sincronizado
 MemberSynchronized=Membro sincronizado
 MemberTypeSynchronized=Tipo de membro sincronizado
 ContactSynchronized=Contacto sincronizado
-ForceSynchronize=Forzar a sincronización Dolibarr -> LDAP
+ForceSynchronize=Forzar a sincronización ZionOne -> LDAP
 ErrorFailedToReadLDAP=Fallou ao ler a base de datos LDAP. Comprobe a configuración do módulo LDAP e a accesibilidade á base de datos.
 PasswordOfUserInLDAP=Contrasinal do usuario en LDAP
 LDAPPasswordHashType=Tipo hash de contrasinal 

@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=קישורים נכנסים לבדיקה
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=מספר ימים לפני ביטול סטטוס של שותפות כאשר פג תוקף המנוי
 ReferingWebsiteCheck=בדיקת הפניה לאתר
 ReferingWebsiteCheckDesc=אתה יכול להפעיל תכונה כדי לבדוק שהשותפים שלך הוסיפו קישור נכנס לדומיינים של האתר שלך באתר האינטרנט שלהם.
-PublicFormRegistrationPartnerDesc=Dolibarr יכולה לספק לך כתובת אתר/אתר ציבורי כדי לאפשר למבקרים חיצוניים לבקש להיות חלק מתוכנית השותפות.
+PublicFormRegistrationPartnerDesc=ZionOne יכולה לספק לך כתובת אתר/אתר ציבורי כדי לאפשר למבקרים חיצוניים לבקש להיות חלק מתוכנית השותפות.
 
 #
 # Object

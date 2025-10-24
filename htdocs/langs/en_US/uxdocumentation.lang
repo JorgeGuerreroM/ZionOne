@@ -1,6 +1,6 @@
-BackToDolibarr=Go back to Dolibarr
-WelcomeToDocumentation=Welcome to the Dolibarr UI/UX documentation !
-WelcomeToDocumentationDescription=This document aims to guide you through the different components of the Dolibarr user interface and help you use them effectively. Feel free to explore the different chapters of this documentation to discover the components of the Dolibarr interface and to learn how to use them effectively.
+BackToDolibarr=Go back to ZionOne
+WelcomeToDocumentation=Welcome to the ZionOne UI/UX documentation !
+WelcomeToDocumentationDescription=This document aims to guide you through the different components of the ZionOne user interface and help you use them effectively. Feel free to explore the different chapters of this documentation to discover the components of the ZionOne interface and to learn how to use them effectively.
 DocumentationHome=UI Documentation
 DocBasicUsage=Basic usage
 DocLinkSectionResources=Resources
@@ -22,7 +22,7 @@ DocBadgeScaleDescription=Badges scale to match the size of the immediate parent 
 DocBadgeUseOnLinksOrButtons=Badges can be used as part of links or buttons to provide a counter.
 DocBadgeWarningAriaHidden1=Note that depending on how they are used, badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Depending on the specific situation, these badges may seem like random additional words or numbers at the end of a sentence, link, or button.
 DocBadgeWarningAriaHidden2=Unless the context is clear (as with the “Notifications” example, where it is understood that the “4” is the number of notifications), consider including additional context with a visually hidden piece of additional text.
-DocBadgeWarningAriaHidden3=Remember to use aria-label attribute for accessibility in Dolibarr. Don't forget to use aria-hidden on icons included in badges
+DocBadgeWarningAriaHidden3=Remember to use aria-label attribute for accessibility in ZionOne. Don't forget to use aria-hidden on icons included in badges
 DocBadgeContextualVariations=Contextual variations
 DocBadgeContextualVariationsDescription=Add any of the below mentioned modifier classes to change the appearance of a badge.
 DocBadgeContextualVariationsWarning1=Conveying meaning to assistive technologies
@@ -58,7 +58,7 @@ DocTableWithFiltersDescription=You can add a filters row using the following syn
 DocTableBeforeFilters=Use a custom line before cols filters
 DocTableBeforeFiltersDescription=You can add a line before filters with this syntax. <br>Don't forget to use listwithfilterbefore class in your data table.
 DocTableCSSClass=Using CSS Classes
-DocTableCSSClassDescription=There are many classes for tables in Dolibarr, below is a non-exhaustive list.
+DocTableCSSClassDescription=There are many classes for tables in ZionOne, below is a non-exhaustive list.
 DocTableTRCSSClassDescription=<b><u>Class for row element:</u></b>
 DocTableTABLECSSClassDescription=<b><u>Class for table element:</u></b>
 DocTableCSSClass_tagtable=<b>tagtable:</b> Use diplay table
@@ -103,11 +103,11 @@ DocButtonIconsDescriptionLowEmphasis = An icon button with low emphasis is typic
 DocButtonIconsForTitle = Buttons for list title
 
 # Fontawesome icons
-DocIconsTitle = Icons used by Dolibarr
+DocIconsTitle = Icons used by ZionOne
 DocIconsList = List of usable icons
 DocIconsListImgPicto = List of usable icons with img_picto function
 DocIconsListFontAwesome = List of usable icons with Font Awesome
-DocIconsMainDescription = Dolibarr use a part of fontawesome 5 icons
+DocIconsMainDescription = ZionOne use a part of fontawesome 5 icons
 DocIconsFontAwesomeList = List of usable fontawesome icons
 
 #Input
@@ -150,14 +150,14 @@ TableRowIntuitiveSelect = Intuitive table lines selection
 
 #ExperimentalUx
 ExperimentalUx = Experimental UX
-ExperimentalUxTitle = UX Experiments in Dolibarr
+ExperimentalUxTitle = UX Experiments in ZionOne
 ExperimentalUxIntroductionTitle = Introduction
 ExperimentalUxIntroductionMenu = Introduction
-ExperimentalUxIntroductionTxt01 = This section gathers UX experiments that are not yet integrated into Dolibarr but are available only on these dedicated pages. They allow testing different approaches before a possible integration into the <code>develop</code> branch.
+ExperimentalUxIntroductionTxt01 = This section gathers UX experiments that are not yet integrated into ZionOne but are available only on these dedicated pages. They allow testing different approaches before a possible integration into the <code>develop</code> branch.
 ExperimentalUxIntroductionTxt02 = Each experiment is isolated within a well-defined file structure, making future integration easier.
-ExperimentalUxIntroductionTxt03 = <b>Note:</b> To avoid polluting the translation files with temporary text, the documentation for these experiments will be written in English only, without using Dolibarr’s translation system or language files.
+ExperimentalUxIntroductionTxt03 = <b>Note:</b> To avoid polluting the translation files with temporary text, the documentation for these experiments will be written in English only, without using ZionOne’s translation system or language files.
 
-ExperimentalUxContributionTitle = UX Experiments in Dolibarr
+ExperimentalUxContributionTitle = UX Experiments in ZionOne
 ExperimentalUxContributionTxt01 = Each experiment is grouped into a folder corresponding to its specific action. If a UX experiment concerns action "A", it will be stored in the following directory:
 ExperimentalUxContributionTxt02 = The different variants of this experiment will be stored in the assets/ subfolder, following this naming convention:
 ExperimentalUxContributionTxt03 = In some cases, variants may be incompatible with each other. It is often challenging to make different behaviors coexist when they are based on the same interaction. For this reason, it may be necessary to separate the demos in such situations.
@@ -172,7 +172,7 @@ ExperimentalUxInputAjaxFeedback = Input feedback
 DocTitleTitle=Page title
 DocTitleMainDescription=Documentation and examples for page titles.
 DocTitleBasicDescription=Use load_fiche_titre() function if you need to display a title with an icon. There are 3 ways to define your icon:
-DocTitleIconUsageMethod1=Use a dolibarr icon shortcut. <a href="%s">See icons list</a>
+DocTitleIconUsageMethod1=Use a ZionOne icon shortcut. <a href="%s">See icons list</a>
 DocTitleIconUsageMethod2=Use a icon from FontAwesome (use like this: fa-rocket_fas_#b0bb39). <a href="%s">See icons list</a>
 DocTitleIconUsageMethod3=Use your image. You must set the 4th parameter to 1.
 DocTitleMoreContentDescription=You can further customize the headings by adding an ID or CSS class(es), or adding content. See the examples below.

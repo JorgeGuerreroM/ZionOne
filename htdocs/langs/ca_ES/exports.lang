@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Importacions / Exportacions
 ExportsArea=Exportacions
 ImportArea=Importació
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Trieu el format de fitxer que voleu utilitzar com a f
 ChooseFileToImport=Carregueu el fitxer i feu clic a la icona %s per a seleccionar el fitxer com a fitxer d'importació d'origen...
 SourceFileFormat=Format de l'arxiu origen
 FieldsInSourceFile=Camps en el fitxer origen
-FieldsInTargetDatabase=Camps de destinació a la base de dades Dolibarr
+FieldsInTargetDatabase=Camps de destinació a la base de dades ZionOne
 NoFields=Cap camp
 MoveField=Moure camp columna número %s
 ExampleOfImportFile=Exemple_de_fitxer_importacio

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=Área de Gestão de Recursos Humanos
 UserCard=Ficha de usuário
 GroupCard=Ficha de grupo
@@ -57,7 +57,7 @@ LinkedToDolibarrUser=Atalho para usuário
 LinkedToDolibarrThirdParty=Atalho para terceiro
 CreateDolibarrLogin=Criar um usuário
 CreateDolibarrThirdParty=Criar um fornecedor
-PASSWORDInDolibarr=Senha modificada no Dolibarr
+PASSWORDInDolibarr=Senha modificada no ZionOne
 ExportDataset_user_1=Usuários e suas propriedades
 DomainUser=Usuário do domínio %s
 InternalExternalDesc=Um usuário <b>interno</b> é um usuário que faz parte da sua empresa/organização ou é um parceiro usuário externo à sua organização que pode precisar ver mais dados do que os dados relacionados à sua empresa (o sistema de permissões definirá o que ele pode ou não ver ou fazer).<br>Um usuário <b>externo</b> é um cliente, fornecedor ou outro que deve visualizar SOMENTE dados relacionados a si mesmo (a criação de um usuário externo para um terceiro pode ser feita a partir do registro de contato do terceiro).<br><br>Em ambos os casos, você deve conceder permissões nos recursos que o usuário precisa.

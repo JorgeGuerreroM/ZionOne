@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Μια παραγγελία ήταν ήδη ανοιχτή και συνδεδεμένη με αυτήν την προσφορά, επομένως καμία άλλη παραγγελία δεν δημιουργήθηκε αυτόματα
 OrdersArea=Τομέας παραγγελιών πελατών
 SuppliersOrdersArea=Τομέας παραγγελιών αγοράς

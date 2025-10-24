@@ -35,7 +35,7 @@
 /**
  *     	\file       htdocs/public/payment/newpayment.php
  *		\ingroup    core
- *		\brief      File to offer a way to make a payment for a particular Dolibarr object
+ *		\brief      File to offer a way to make a payment for a particular ZionOne object
  */
 
 if (!defined('NOLOGIN')) {
@@ -63,7 +63,7 @@ if (is_numeric($entity)) {
 	define("DOLENTITY", $entity);
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 /**
  * @var Conf $conf
@@ -1036,7 +1036,7 @@ if ($urllogo && !$ws) {
 	print '>';
 	print '</div>';
 	if (!getDolGlobalString('MAIN_HIDE_POWERED_BY')) {
-		print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.dolibarr.org?utm_medium=website&utm_source=poweredby" target="dolibarr" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/dolibarr_logo.svg" width="80px"></a></div>';
+		print '<div class="poweredbypublicpayment opacitymedium right"><a class="poweredbyhref" href="https://www.ZionOne.org?utm_medium=website&utm_source=poweredby" target="ZionOne" rel="noopener">'.$langs->trans("PoweredBy").'<br><img class="poweredbyimg" src="'.DOL_URL_ROOT.'/theme/logo.png" width="80px"></a></div>';
 	}
 	print '</div>';
 } elseif ($creditor && !$ws) {

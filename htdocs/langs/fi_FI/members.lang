@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Jäsenalue
 MemberCard=Jäsen-kortti
 SubscriptionCard=Tilaus-kortti
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Luettelo validoitujen yleisön jäsenet
 ErrorThisMemberIsNotPublic=Tämä jäsen ei ole julkinen
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Toinen jäsen <b>(nimi: %s, kirjautuminen: %s)</b> on jo liitetty kolmasosaa <b>osapuoli %s.</b> Poista tämä ensimmäiseksi, koska kolmas osapuoli ei voi yhdistää vain jäsen (ja päinvastoin).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Turvallisuussyistä sinun täytyy myöntää oikeudet muokata kaikki käyttäjät pystyvät linkki jäsenen käyttäjä, joka ei ole sinun.
-SetLinkToUser=Linkki on Dolibarr käyttäjä
-SetLinkToThirdParty=Linkki on Dolibarr kolmannen osapuolen
+SetLinkToUser=Linkki on ZionOne käyttäjä
+SetLinkToThirdParty=Linkki on ZionOne kolmannen osapuolen
 MemberCountersArePublic=Voimassa olevien jäsenten laskurit ovat julkisia
 MembersCards=Korttien luominen jäsenille
 MembersList=Luettelo jäsenistä
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Haluatko varmasti poistaa tämän panoksen?
 Filehtpasswd=htpasswd tiedosto
 ValidateMember=Validate jäseneksi
 ConfirmValidateMember=Haluatko varmasti vahvistaa tämän jäsenen?
-FollowingLinksArePublic=Seuraavat linkit ovat avoimia sivuja, joita ei ole suojattu millään Dolibarr-luvalla. Ne eivät ole muotoiltuja sivuja, vaan ne on esimerkkinä jäsenten luetteloimisesta tietokanta.
+FollowingLinksArePublic=Seuraavat linkit ovat avoimia sivuja, joita ei ole suojattu millään ZionOne-luvalla. Ne eivät ole muotoiltuja sivuja, vaan ne on esimerkkinä jäsenten luetteloimisesta tietokanta.
 PublicMemberList=Julkiset jäsenluetteloa
 BlankSubscriptionForm=Julkinen ilmoittautumislomake
-BlankSubscriptionFormDesc=Dolibarr voi tarjota sinulle julkisen URL-osoitteen/verkkosivuston, jonka avulla ulkopuoliset vierailijat voivat pyytää liittymään säätiöön. Jos online-moduuli maksu on käytössä, myös maksu-lomake voidaan toimittaa automaattisesti.
+BlankSubscriptionFormDesc=ZionOne voi tarjota sinulle julkisen URL-osoitteen/verkkosivuston, jonka avulla ulkopuoliset vierailijat voivat pyytää liittymään säätiöön. Jos online-moduuli maksu on käytössä, myös maksu-lomake voidaan toimittaa automaattisesti.
 EnablePublicSubscriptionForm=Ota julkinen verkkosivusto käyttöön itsetilauslomakkeella
 ForceMemberType=Pakota jäsentyyppi
 ExportDataset_member_1=Jäsenet ja

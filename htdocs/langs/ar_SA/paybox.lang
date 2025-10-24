@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=إعداد وحدة PayBox
-PayBoxDesc=تقدم هذه الوحدة صفحات للسماح بالدفع على <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> من قبل العملاء. يمكن استخدام هذا للدفع المجاني أو للدفع على شيء Dolibarr معين (فاتورة ، أمر ، ...)
+PayBoxDesc=تقدم هذه الوحدة صفحات للسماح بالدفع على <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> من قبل العملاء. يمكن استخدام هذا للدفع المجاني أو للدفع على شيء ZionOne معين (فاتورة ، أمر ، ...)
 PayBoxDoPayment=ادفع باستخدام Paybox
 YouWillBeRedirectedOnPayBox=سيتم إعادة توجيهك على صفحة Paybox الأمنة لإدخال معلومات بطاقة الائتمان الخاصة بك
 SetupPayBoxToHavePaymentCreatedAutomatically=قم بإعداد Paybox الخاص بك بعنوان url <b> %s </b> حتى يتم إنشاء الدفع تلقائيًا عند التحقق من صحته بواسطة Paybox.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=Digwyddiad adnabod
 Actions=Digwyddiadau
 Agenda=Agenda
@@ -28,10 +28,10 @@ ViewWeek=Golygfa wythnos
 ViewPerUser=Fesul golwg defnyddiwr
 ViewPerType=Golwg fesul math
 AutoActions= Llenwi'n awtomatig
-AgendaAutoActionDesc= Yma gallwch ddiffinio digwyddiadau yr ydych am i Dolibarr eu creu yn awtomatig yn Agenda. Os na chaiff unrhyw beth ei wirio, dim ond gweithredoedd â llaw fydd yn cael eu cynnwys mewn logiau a'u harddangos yn Agenda. Ni fydd tracio awtomatig o weithredoedd busnes a wneir ar wrthrychau (dilysu, newid statws) yn cael ei gadw.
-AgendaSetupOtherDesc= Mae'r dudalen hon yn darparu opsiynau i ganiatáu allforio eich digwyddiadau Dolibarr i galendr allanol (Thunderbird, Google Calendar ac ati...)
-AgendaExtSitesDesc=Mae'r dudalen hon yn caniatáu i chi ddatgan ffynonellau allanol o galendrau i weld eu digwyddiadau ar agenda Dolibarr.
-ActionsEvents=Digwyddiadau y bydd Dolibarr yn creu gweithred ar yr agenda ar eu cyfer yn awtomatig
+AgendaAutoActionDesc= Yma gallwch ddiffinio digwyddiadau yr ydych am i ZionOne eu creu yn awtomatig yn Agenda. Os na chaiff unrhyw beth ei wirio, dim ond gweithredoedd â llaw fydd yn cael eu cynnwys mewn logiau a'u harddangos yn Agenda. Ni fydd tracio awtomatig o weithredoedd busnes a wneir ar wrthrychau (dilysu, newid statws) yn cael ei gadw.
+AgendaSetupOtherDesc= Mae'r dudalen hon yn darparu opsiynau i ganiatáu allforio eich digwyddiadau ZionOne i galendr allanol (Thunderbird, Google Calendar ac ati...)
+AgendaExtSitesDesc=Mae'r dudalen hon yn caniatáu i chi ddatgan ffynonellau allanol o galendrau i weld eu digwyddiadau ar agenda ZionOne.
+ActionsEvents=Digwyddiadau y bydd ZionOne yn creu gweithred ar yr agenda ar eu cyfer yn awtomatig
 EventRemindersByEmailNotEnabled=Ni alluogwyd nodiadau atgoffa digwyddiadau trwy e-bost i osod modiwl %s.
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Trydydd parti %s creu

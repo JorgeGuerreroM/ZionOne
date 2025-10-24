@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=Ngjarja e identitetit
 Actions=Ngjarjet
 Agenda=Rendi i ditës
@@ -29,10 +29,10 @@ ViewWeek=Pamja e javës
 ViewPerUser=Për shikimin e përdoruesit
 ViewPerType=Pamja sipas llojit
 AutoActions= Mbushje automatike
-AgendaAutoActionDesc= Këtu mund të përcaktoni ngjarjet që dëshironi që Dolibarr të krijojë automatikisht në Axhenda. Nëse asgjë nuk kontrollohet, vetëm veprimet manuale do të përfshihen në regjistrat dhe do të shfaqen në Axhendën. Gjurmimi automatik i veprimeve të biznesit të kryera në objekte (vlefshmëria, ndryshimi i statusit) nuk do të ruhet.
-AgendaSetupOtherDesc= Kjo faqe ofron opsione për të lejuar eksportimin e ngjarjeve tuaja Dolibarr në një kalendar të jashtëm (Thunderbird, Google Calendar etj...)
-AgendaExtSitesDesc=Kjo faqe ju lejon të deklaroni burime të jashtme të kalendarëve për të parë ngjarjet e tyre në axhendën e Dolibarr.
-ActionsEvents=Ngjarjet për të cilat Dolibarr do të krijojë automatikisht një veprim në axhendë
+AgendaAutoActionDesc= Këtu mund të përcaktoni ngjarjet që dëshironi që ZionOne të krijojë automatikisht në Axhenda. Nëse asgjë nuk kontrollohet, vetëm veprimet manuale do të përfshihen në regjistrat dhe do të shfaqen në Axhendën. Gjurmimi automatik i veprimeve të biznesit të kryera në objekte (vlefshmëria, ndryshimi i statusit) nuk do të ruhet.
+AgendaSetupOtherDesc= Kjo faqe ofron opsione për të lejuar eksportimin e ngjarjeve tuaja ZionOne në një kalendar të jashtëm (Thunderbird, Google Calendar etj...)
+AgendaExtSitesDesc=Kjo faqe ju lejon të deklaroni burime të jashtme të kalendarëve për të parë ngjarjet e tyre në axhendën e ZionOne.
+ActionsEvents=Ngjarjet për të cilat ZionOne do të krijojë automatikisht një veprim në axhendë
 EventRemindersByEmailNotEnabled=Rikujtuesit e ngjarjeve me email nuk u aktivizuan në konfigurimin e modulit %s.
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Pala e tretë %s u krijua

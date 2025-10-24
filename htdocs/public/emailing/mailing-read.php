@@ -94,7 +94,7 @@ function llxFooter($comment = '', $zone = 'private', $disabledoutputofmessages =
 }
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 /**
  * @var DoliDB $db

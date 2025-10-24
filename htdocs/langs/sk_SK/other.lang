@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Bezpečnostný kód
 NumberingShort=č
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Dobrý deň)__\n\nV prílohe nájdete inte
 PredefinedMailContentLink=Môžete kliknúť na odkaz nižšie a uskutočniť platbu, ak ste tak ešte neurobili.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Dobrý deň)__\n\n__(S úctou)__\n\n__SENDEREMAIL_PODPIS__
 PredefinedMailContentSendActionComm=Pripomenutie udalosti „__EVENT_LABEL__“ dňa __EVENT_DATE__ o __EVENT_TIME__<br><br>Toto je automatická správa, neodpovedajte, prosím.
-DemoDesc=Dolibarr je kompaktný ERP/CRM podporujúci niekoľko obchodných modulov. Ukážka všetkých modulov nemá zmysel, pretože tento scenár sa nikdy nevyskytuje (k dispozícii je niekoľko stoviek). K dispozícii je teda niekoľko demo profilov.
+DemoDesc=ZionOne je kompaktný ERP/CRM podporujúci niekoľko obchodných modulov. Ukážka všetkých modulov nemá zmysel, pretože tento scenár sa nikdy nevyskytuje (k dispozícii je niekoľko stoviek). K dispozícii je teda niekoľko demo profilov.
 DemoDesc2=This is a restricted shared demo, you may prefer to test on your own dedicated instance with a full admin access, to do so, <a href="%s" target="_blank">go here <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Vyberte si demo profil, ktorý najlepšie vyhovuje vašim potrebám...
 ChooseYourDemoProfilMore=...alebo si vytvorte vlastný profil<br>(manuálny výber modulu)
@@ -197,10 +197,10 @@ BugTracker=Hlásenie chýb
 SendNewPasswordDesc=Tento formulár vám umožňuje požiadať o nové heslo. Bude odoslaná na vašu e-mailovú adresu.<br>Zmena nadobudne účinnosť po kliknutí na potvrdzovací odkaz v e-maile.<br> Skontroluj si poštu.
 EnterNewPasswordHere=Tu zadajte svoje nové heslo
 BackToLoginPage=Späť na prihlasovaciu stránku
-AuthenticationDoesNotAllowSendNewPassword=Režim overovania je <b>%s.</b> <br> V tomto režime je možné Dolibarr neviem ani zmeniť heslo. <br> Obráťte sa na správcu systému, či chcete zmeniť heslo.
+AuthenticationDoesNotAllowSendNewPassword=Režim overovania je <b>%s.</b> <br> V tomto režime je možné ZionOne neviem ani zmeniť heslo. <br> Obráťte sa na správcu systému, či chcete zmeniť heslo.
 EnableGDLibraryDesc=Ak chcete použiť túto možnosť, nainštalujte alebo povoľte knižnicu GD vo svojej inštalácii PHP.
 ProfIdShortDesc=<b>Prof Id %s</b> je informácia v závislosti na tretích strán krajiny. <br> Napríklad pre krajiny <b>%s,</b> je to kód <b>%s.</b>
-DolibarrDemo=Dolibarr ERP / CRM demo
+DolibarrDemo=ZionOne ERP / CRM demo
 StatsByAmount=Štatistiky o množstve produktov/služieb
 StatsByAmountProducts=Štatistiky o množstve produktov
 StatsByAmountServices=Štatistiky o množstve služieb
@@ -404,4 +404,4 @@ SetHereATitleForLink = Set a name for the bookmark
 ShowBookmark = Zobraziť záložku
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
-SubscribeToFoundation=Help the Dolibarr project, subscribe to the foundation
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

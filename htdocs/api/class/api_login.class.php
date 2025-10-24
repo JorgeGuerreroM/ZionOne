@@ -106,7 +106,7 @@ class Login
 
 		// Authentication mode
 		if (empty($dolibarr_main_authentication) || $dolibarr_main_authentication == 'openid_connect') {
-			$dolibarr_main_authentication = 'dolibarr';
+			$dolibarr_main_authentication = 'ZionOne';
 		}
 
 		// Authentication mode: forceuser
@@ -163,7 +163,7 @@ class Login
 
 			// We store API token into database
 			$sql = "UPDATE ".MAIN_DB_PREFIX."user";
-			$sql .= " SET api_key = '".$this->db->escape(dolEncrypt($token, '', '', 'dolibarr'))."'";
+			$sql .= " SET api_key = '".$this->db->escape(dolEncrypt($token, '', '', 'ZionOne'))."'";
 			$sql .= " WHERE login = '".$this->db->escape($login)."'";
 
 			dol_syslog(get_class($this)."::login", LOG_DEBUG); // No log
@@ -188,7 +188,7 @@ class Login
 				'code' => 200,
 				'token' => $token,
 				'entity' => $tmpuser->entity,
-				'message' => 'Welcome '.$login.($reset ? ' - Token is new' : ' - This is your token (recorded for your user). You can use it to make any REST API call, or enter it into the DOLAPIKEY field to use the Dolibarr API explorer.')
+				'message' => 'Welcome '.$login.($reset ? ' - Token is new' : ' - This is your token (recorded for your user). You can use it to make any REST API call, or enter it into the DOLAPIKEY field to use the ZionOne API explorer.')
 			)
 		);
 	}

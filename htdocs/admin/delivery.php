@@ -83,7 +83,7 @@ if (isModEnabled('shipping') && !getDolGlobalString('MAIN_SUBMODULE_EXPEDITION')
  }
  if ($action == 'disable_sending')
  {
- dolibarr_del_const($db, "MAIN_SUBMODULE_EXPEDITION",$conf->entity);
+ zionone_del_const($db, "MAIN_SUBMODULE_EXPEDITION",$conf->entity);
  header("Location: confexped.php");
  exit;
  }
@@ -96,7 +96,7 @@ if ($action == 'activate_delivery') {
 	header("Location: delivery.php");
 	exit;
 } elseif ($action == 'disable_delivery') {
-	dolibarr_del_const($db, "MAIN_SUBMODULE_DELIVERY", $conf->entity);
+	zionone_del_const($db, "MAIN_SUBMODULE_DELIVERY", $conf->entity);
 	header("Location: delivery.php");
 	exit;
 }
@@ -182,7 +182,7 @@ if ($action == 'del') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('DELIVERY_ADDON_PDF') == $value) {
-			dolibarr_del_const($db, 'DELIVERY_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'DELIVERY_ADDON_PDF', $conf->entity);
 		}
 	}
 }

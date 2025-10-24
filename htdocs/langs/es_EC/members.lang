@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Área de miembros
 MemberCard=Tarjeta de miembro
 SubscriptionCard=Tarjeta de suscripción
@@ -7,8 +7,8 @@ ThirdpartyNotLinkedToMember=Cliente/Proveedor no vinculado a un miembro
 FundationMembers=Miembros de la Fundación
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Otro miembro (nombre: <b>%s</b>, inicio de sesión: <b>%s</b>) ya está vinculado a un tercero <b>%s</b>. Quite primero este enlace porque un tercero no puede estar vinculado a un solo miembro (y viceversa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Por razones de seguridad, se le deben otorgar permisos para editar todos los usuarios para poder vincular un miembro a un usuario que no es suyo.
-SetLinkToUser=Enlace a un usuario de Dolibarr
-SetLinkToThirdParty=Enlace a un tercero de Dolibarr
+SetLinkToUser=Enlace a un usuario de ZionOne
+SetLinkToThirdParty=Enlace a un tercero de ZionOne
 MembersList=Lista de miembros
 MembersListToValid=Lista de proyectos de miembros (a validar)
 MembersListValid=Lista de miembros válidos
@@ -45,7 +45,7 @@ DeleteSubscription=Eliminar una suscripción
 Filehtpasswd=archivo htpasswd
 ConfirmValidateMember=¿Estás seguro de que quieres validar a este miembro?
 PublicMemberList=Lista de miembros públicos
-BlankSubscriptionFormDesc=Dolibarr puede proporcionarle una URL / sitio web público para que los visitantes externos puedan solicitar suscribirse a la fundación. Si se habilita un módulo de pago en línea, también puede proporcionarse automáticamente un formulario de pago.
+BlankSubscriptionFormDesc=ZionOne puede proporcionarle una URL / sitio web público para que los visitantes externos puedan solicitar suscribirse a la fundación. Si se habilita un módulo de pago en línea, también puede proporcionarse automáticamente un formulario de pago.
 EnablePublicSubscriptionForm=Habilitar el sitio web público con formulario de suscripción automática
 SendingAnEMailToMember=Envío de información de correo electrónico a un miembro
 SendingEmailOnAutoSubscription=Envío de correo electrónico en el registro automático

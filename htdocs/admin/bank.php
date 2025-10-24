@@ -193,7 +193,7 @@ if ($action == 'set') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('BANKADDON_PDF') == "$value") {
-			dolibarr_del_const($db, 'BANKADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'BANKADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'setdoc') {

@@ -19,7 +19,7 @@
 
 /**
  *       \file       htdocs/webservices/server_other.php
- *       \brief      File that is entry point to call Dolibarr WebServices
+ *       \brief      File that is entry point to call ZionOne WebServices
  */
 
 if (!defined('NOCSRFCHECK')) {
@@ -56,14 +56,14 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
  * @var Translate $langs
  */
 
-dol_syslog("Call Dolibarr webservices interfaces");
+dol_syslog("Call ZionOne webservices interfaces");
 
 $langs->load("main");
 
 // Enable and test if module web services is enabled
 if (!getDolGlobalString('MAIN_MODULE_WEBSERVICES')) {
 	$langs->load("admin");
-	dol_syslog("Call Dolibarr webservices interfaces with module webservices disabled");
+	dol_syslog("Call ZionOne webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive", 'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;
@@ -73,7 +73,7 @@ if (!getDolGlobalString('MAIN_MODULE_WEBSERVICES')) {
 $server = new nusoap_server();
 $server->soap_defencoding = 'UTF-8';
 $server->decode_utf8 = false;
-$ns = 'http://www.dolibarr.org/ns/';
+$ns = 'http://www.ZionOne.org/ns/';
 $server->configureWSDL('WebServicesDolibarrOther', $ns);
 
 // $server->wsdl is expected to be a nusoap_xmlschema (default = \wsdl)
@@ -141,7 +141,7 @@ $server->register(
 	// Entry values
 	array('authentication' => 'tns:authentication'),
 	// Exit values
-	array('result' => 'tns:result', 'dolibarr' => 'xsd:string', 'os' => 'xsd:string', 'php' => 'xsd:string', 'webserver' => 'xsd:string'),
+	array('result' => 'tns:result', 'ZionOne' => 'xsd:string', 'os' => 'xsd:string', 'php' => 'xsd:string', 'webserver' => 'xsd:string'),
 	$ns,
 	$ns.'#getVersions',
 	$styledoc,
@@ -169,7 +169,7 @@ $server->register(
  * Full methods code
  *
  * @param	array{login:string,password:string,entity:?int,dolibarrkey:string}	$authentication		Array with authentication information
- * @return	array{result:array{result_code:string,result_label:string},dolibarr?:string,os?:string,php?:string,webserver?:string}	Array of data
+ * @return	array{result:array{result_code:string,result_label:string},ZionOne?:string,os?:string,php?:string,webserver?:string}	Array of data
  */
 function getVersions($authentication)
 {
@@ -192,7 +192,7 @@ function getVersions($authentication)
 
 	if (!$error) {
 		$objectresp['result'] = array('result_code' => 'OK', 'result_label' => '');
-		$objectresp['dolibarr'] = version_dolibarr();
+		$objectresp['ZionOne'] = version_dolibarr();
 		$objectresp['os'] = version_os();
 		$objectresp['php'] = version_php();
 		$objectresp['webserver'] = version_webserver();

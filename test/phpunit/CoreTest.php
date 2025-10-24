@@ -110,10 +110,10 @@ class CoreTest extends CommonClassTest
 		}
 
 		// Case 2:
-		// Test for subdir aaa (that point to dolibarr) in root directory /var/www
+		// Test for subdir aaa (that point to ZionOne) in root directory /var/www
 		// URL: http://localhost/aaa/htdocs/admin/system/phpinfo.php
 		// To prepare this test:
-		// - Create link from dolibarr to /var/www/aaa
+		// - Create link from ZionOne to /var/www/aaa
 		// - Put into conf.php $dolibarr_main_document_root='/var/www/aaa/htdocs';
 		if ($testtodo == 2) {
 			$_SERVER["HTTPS"] = '';
@@ -129,13 +129,13 @@ class CoreTest extends CommonClassTest
 		// a direct document root
 		// URL: http://localhostdolibarrnew/admin/system/phpinfo.php
 		// To prepare this test:
-		// - Create virtual host localhostdolibarrnew that point to /home/ldestailleur/git/dolibarr/htdocs
-		// - Put into conf.php $dolibarr_main_document_root='/home/ldestailleur/git/dolibarr/htdocs';
+		// - Create virtual host localhostdolibarrnew that point to /home/ldestailleur/git/ZionOne/htdocs
+		// - Put into conf.php $dolibarr_main_document_root='/home/ldestailleur/git/ZionOne/htdocs';
 		if ($testtodo == 3) {
 			$_SERVER["HTTPS"] = '';
 			$_SERVER["SERVER_NAME"] = 'localhostdolibarrnew';
 			$_SERVER["SERVER_PORT"] = '80';
-			$_SERVER["DOCUMENT_ROOT"] = '/home/ldestailleur/git/dolibarr/htdocs';
+			$_SERVER["DOCUMENT_ROOT"] = '/home/ldestailleur/git/ZionOne/htdocs';
 			$_SERVER["SCRIPT_NAME"] = '/admin/system/phpinfo.php';
 			$expectedresult = '';
 		}
@@ -148,7 +148,7 @@ class CoreTest extends CommonClassTest
 			$_SERVER["HTTPS"] = '';
 			$_SERVER["SERVER_NAME"] = 'localhostdolibarrnew';
 			$_SERVER["SERVER_PORT"] = '80';
-			$_SERVER["DOCUMENT_ROOT"] = '/var/www/dolibarr';	// This is a link that point to /home/ldestail/workspace/dolibarr/htdocs
+			$_SERVER["DOCUMENT_ROOT"] = '/var/www/ZionOne';	// This is a link that point to /home/ldestail/workspace/ZionOne/htdocs
 			$_SERVER["SCRIPT_NAME"] = '/admin/system/phpinfo.php';
 			$expectedresult = '';
 		}
@@ -157,8 +157,8 @@ class CoreTest extends CommonClassTest
 		// Test for alias /dolibarralias, Test when using nginx, Test when using lighttpd
 		// URL: http://localhost/dolibarralias/admin/system/phpinfo.php
 		// To prepare this test:
-		// - Copy content of dolibarr project into /var/www/dolibarr
-		// - Put into conf.php $dolibarr_main_document_root='/var/www/dolibarr/htdocs';
+		// - Copy content of ZionOne project into /var/www/ZionOne
+		// - Put into conf.php $dolibarr_main_document_root='/var/www/ZionOne/htdocs';
 		// - Put into conf.php $dolibarr_main_url_root='http://localhost/dolibarralias';  (because autodetect will fails in this case)
 		if ($testtodo == 5) {
 			$_SERVER["HTTPS"] = '';

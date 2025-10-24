@@ -1,6 +1,6 @@
 <?php
 /* Copyright (C) 2015   Jean-François Ferry     <jfefe@aternatik.fr>
- * Copyright (C) 2021 	SuperAdmin 				<test@dolibarr.com>
+ * Copyright (C) 2021 	SuperAdmin 				<test@ZionOne.com>
  * Copyright (C) 2025 	Charlene Benke 			<charlent@patas-monkey.com>
  * Copyright (C) 2025	MDW						<mdeweerd@users.noreply.github.com>
  *

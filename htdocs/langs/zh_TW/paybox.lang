@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=PayBox模組設定
 PayBoxDesc=此模組允許客戶以<a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>付款。這可以用於臨時付款或與Dolibarr項目有關的付款（發票，訂單等）。
 PayBoxDoPayment=用Paybox付款

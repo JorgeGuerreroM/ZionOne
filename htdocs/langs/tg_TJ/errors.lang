@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Бе хато, мо содир мекунем
@@ -53,12 +53,12 @@ ErrorWrongDate=Сана дуруст нест!
 ErrorFailedToWriteInDir=Дар феҳристи %s навишта нашуд
 ErrorFailedToBuildArchive=Сохтани файли бойгонии %s натавонист
 ErrorFoundBadEmailInFile=Дар файл синтаксиси нодурусти почтаи электронӣ барои хатҳои %s ёфт (мисоли хати %s бо почтаи электронӣ = %s)
-ErrorUserCannotBeDelete=Корбарро нест кардан мумкин нест. Шояд он бо субъектҳои Dolibarr алоқаманд бошад.
+ErrorUserCannotBeDelete=Корбарро нест кардан мумкин нест. Шояд он бо субъектҳои ZionOne алоқаманд бошад.
 ErrorFieldsRequired=Баъзе майдонҳои зарурӣ холӣ мондаанд.
 ErrorSubjectIsRequired=Мавзӯи почтаи электронӣ лозим аст
 ErrorInAddAttachmentsImageBaseOnMedia=Хатогӣ дар эҷоди файлҳои тасвирӣ дар феҳристи медиа барои замима
 ErrorInAddAttachmentsImageBaseIsSrcData=Хатогӣ дар эҷоди файлҳои тасвирӣ (ҳамчун маълумот пайдо мешавад:) дар директорияи муваққатӣ барои замима
-ErrorFailedToCreateDir=Эҷод кардани директория ноком шуд. Санҷед, ки корбари веб -сервер барои навиштан ба феҳристи ҳуҷҷатҳои Dolibarr иҷозат дорад. Агар параметри <b> safe_mode </b> дар ин PHP фаъол бошад, санҷед, ки файлҳои php Dolibarr ба корбари веб -сервер (ё гурӯҳ) тааллуқ доранд.
+ErrorFailedToCreateDir=Эҷод кардани директория ноком шуд. Санҷед, ки корбари веб -сервер барои навиштан ба феҳристи ҳуҷҷатҳои ZionOne иҷозат дорад. Агар параметри <b> safe_mode </b> дар ин PHP фаъол бошад, санҷед, ки файлҳои php ZionOne ба корбари веб -сервер (ё гурӯҳ) тааллуқ доранд.
 ErrorNoMailDefinedForThisUser=Барои ин корбар почта муайян нашудааст
 ErrorSetupOfEmailsNotComplete=Танзимоти почтаи электронӣ ба анҷом нарасидааст
 ErrorAccountingClosureSetupNotComplete=Танзими ҳисобҳои пӯшида ба анҷом нарасидааст
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Майдони <b>%s</b> наб
 ErrorFieldMustHaveXChar=Майдони <b> %s </b> бояд ҳадди ақал аломатҳои %s дошта бошад.
 ErrorNoAccountancyModuleLoaded=Ягон модули ҳисобдорӣ фаъол карда нашудааст
 ErrorExportDuplicateProfil=Ин профили профил барои ин маҷмӯи содирот аллакай мавҷуд аст.
-ErrorLDAPSetupNotComplete=Ҳамоҳангсозии Dolibarr-LDAP ба анҷом нарасидааст.
+ErrorLDAPSetupNotComplete=Ҳамоҳангсозии ZionOne-LDAP ба анҷом нарасидааст.
 ErrorLDAPMakeManualTest=Файли .ldif дар феҳристи %s тавлид шудааст. Кӯшиш кунед, ки онро аз сатри фармон дастӣ бор кунед, то маълумоти бештар дар бораи хатогиҳо дошта бошед.
 ErrorCantSaveADoneUserWithZeroPercentage=Амалро бо "ҳолати оғоз нашуд" захира кардан мумкин нест, агар майдони "аз ҷониби" низ пур карда шавад.
 ErrorPleaseTypeBankTransactionReportName=Лутфан номи баёнияи бонкро ворид кунед, ки дар он бояд гузориш дода шавад (Формат YYYYMM ё YYYYMMDD)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s ба сеяки дигар таъин шудааст
 ErrorFailedToSendPassword=Парол фиристода нашуд
 ErrorFailedToLoadRSSFile=Барои гирифтани RSS канал ноком шуд. Кӯшиш кунед, ки MAIN_SIMPLEXMLLOAD_DEBUG доимиро илова кунед, агар паёмҳои хато маълумоти кофӣ надошта бошанд.
 ErrorForbidden=Дастраси манъ аст. <br> Шумо кӯшиши дастрасӣ ба саҳифа, минтақа ё хусусияти модули маъюб ё бидуни ҷаласаи тасдиқшуда ё ба корбари шумо иҷозат надоданро доред.
-ErrorForbidden2=Иҷозати ин вурудро мудири Dolibarr аз менюи %s-> %s муайян карда метавонад.
-ErrorForbidden3=Чунин ба назар мерасад, ки Dolibarr тавассути як ҷаласаи тасдиқшуда истифода намешавад. Ба ҳуҷҷатҳои танзимкунии Dolibarr нигаред, то бидонед, ки чӣ тавр идора кардани аутентификатсия (htaccess, mod_auth ё дигар ...).
+ErrorForbidden2=Иҷозати ин вурудро мудири ZionOne аз менюи %s-> %s муайян карда метавонад.
+ErrorForbidden3=Чунин ба назар мерасад, ки ZionOne тавассути як ҷаласаи тасдиқшуда истифода намешавад. Ба ҳуҷҷатҳои танзимкунии ZionOne нигаред, то бидонед, ки чӣ тавр идора кардани аутентификатсия (htaccess, mod_auth ё дигар ...).
 ErrorForbidden4=Эзоҳ: кукиҳои браузери худро тоза кунед, то сессияҳои мавҷудаи ин воридшавиро нест кунед.
 ErrorNoImagickReadimage=Синфи Imagick дар ин PHP ёфт намешавад. Ҳеҷ гуна пешнамоиш дастрас нест. Администраторҳо метавонанд ин ҷадвалро аз менюи Setup - Display намоиш диҳанд.
 ErrorRecordAlreadyExists=Сабт аллакай вуҷуд дорад
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Ҳисоби корбар <b> %s </b>, ки �
 ErrorNoActivatedBarcode=Ягон намуди штрих -код фаъол карда нашудааст
 ErrUnzipFails=%s -ро бо ZipArchive кушодан натавонист
 ErrNoZipEngine=Дар ин PHP ягон муҳаррик барои файли %s zip/unzip нест
-ErrorFileMustBeADolibarrPackage=Файли %s бояд бастаи почтаи Dolibarr бошад
-ErrorModuleFileRequired=Шумо бояд файли бастаи модули Dolibarr -ро интихоб кунед
+ErrorFileMustBeADolibarrPackage=Файли %s бояд бастаи почтаи ZionOne бошад
+ErrorModuleFileRequired=Шумо бояд файли бастаи модули ZionOne -ро интихоб кунед
 ErrorPhpCurlNotInstalled=PHP CURL насб нашудааст, ин барои сӯҳбат бо Paypal муҳим аст
 ErrorFailedToAddToMailmanList=Сабти %s ба рӯйхати почтаи %s ё пойгоҳи SPIP илова карда нашуд
 ErrorFailedToRemoveToMailmanList=Сабти %s ба рӯйхати почтачиён %s ё пойгоҳи SPIP нест карда нашуд
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=Сана бояд аз имрӯз зиёдтар бош�
 ErrorStartDateGreaterEnd=Санаи оғоз аз санаи анҷоми он бузургтар аст
 ErrorPaymentModeDefinedToWithoutSetup=Ҳолати пардохт барои навиштани %s муқаррар карда шуд, аммо танзими модули фактура барои муайян кардани маълумоте, ки барои ин намуди пардохт нишон дода шудааст, ба анҷом нарасидааст.
 ErrorPHPNeedModule=Хато, PHP -и шумо бояд модули <b> %s </b> дошта бошад, то ин хусусиятро истифода барад.
-ErrorOpenIDSetupNotComplete=Шумо файли танзимоти Dolibarr -ро танзим мекунед, то аутентификатсияи OpenID -ро иҷозат диҳед, аммо URL -и хидмати OpenID ба %s доимӣ муайян карда нашудааст
+ErrorOpenIDSetupNotComplete=Шумо файли танзимоти ZionOne -ро танзим мекунед, то аутентификатсияи OpenID -ро иҷозат диҳед, аммо URL -и хидмати OpenID ба %s доимӣ муайян карда нашудааст
 ErrorWarehouseMustDiffers=Анборҳои манбаъ ва ҳадаф бояд фарқ кунанд
 ErrorBadFormat=Формати бад!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Хатогӣ, ин узв ҳанӯз бо ягон шахси сеюм робита надорад. Пеш аз сохтани обуна бо фактура, узвро ба шахси сеюми мавҷуда пайваст кунед ё шахси сеюми нав созед.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Корбари нав бояд почтаи элект�
 ErrorUserClone=Хатогӣ дар категорияҳои клони корбар
 ErrorQtyOrderedLessQtyShipped = Миқдори фармоиш набояд аз миқдори фиристодашуда камтар бошад.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Хатогӣ, эҷоди пардохтҳои гуногун дар суратҳисоби бонкӣ бо асъори гуногун аз асъори ширкат ҳанӯз дастгирӣ намешавад.
-ErrorStreamMustBeEnabled=Ҷараёни PHP %s дастрас нест. Модулҳои PHP ва параметри Dolibarr-и худро санҷед $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=Ҷараёни PHP %s дастрас нест. Модулҳои PHP ва параметри ZionOne-и худро санҷед $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Хато, шумо кӯшиш мекунед, ки ҳисобнома-фактураҳои гуногунро бо асъори гуногун дар як пардохт пардохт кунед
 ErrorLinkNotFoundWithSharedLink=Хатогӣ, пайванд бо ин калиди муштарак ёфт нашуд
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Шумораи нодурусти сатрҳо. Файлҳо бояд ҳадди аққал 2 сатр дошта бошанд (1 сатр барои унвон ва 1 сатр барои маълумот)
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Хатогӣ, арзиш барои ин навъ�
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Параметри PHP -и шумо upload_max_filesize (%s) аз параметрҳои PHP post_max_size (%s) баландтар аст. Ин танзимоти пайдарпай нест.
-WarningPasswordSetWithNoAccount=Барои ин аъзо парол таъин карда шуд. Бо вуҷуди ин, ягон ҳисоби корбарӣ таъсис дода нашудааст. Ҳамин тавр, ин парол нигоҳ дошта мешавад, аммо барои ворид шудан ба Dolibarr наметавонад истифода шавад. Он метавонад аз ҷониби модул/интерфейси беруна истифода шавад, аммо агар ба шумо ягон узвият ё паролро муайян кардан лозим набошад, шумо метавонед имконоти "Идоракунии вуруд барои ҳар як аъзо" -ро аз танзимоти модули аъзо ғайрифаъол кунед. Агар ба шумо лозим аст, ки воридшавиро идора кунед, аммо ба парол ниёз надоред, шумо метавонед ин майдонро холӣ нигоҳ доред, то ин огоҳӣ пешгирӣ карда шавад. Эзоҳ: Почтаи электронӣ инчунин метавонад ҳамчун логин истифода шавад, агар аъзо ба корбар пайванд бошад.
+WarningPasswordSetWithNoAccount=Барои ин аъзо парол таъин карда шуд. Бо вуҷуди ин, ягон ҳисоби корбарӣ таъсис дода нашудааст. Ҳамин тавр, ин парол нигоҳ дошта мешавад, аммо барои ворид шудан ба ZionOne наметавонад истифода шавад. Он метавонад аз ҷониби модул/интерфейси беруна истифода шавад, аммо агар ба шумо ягон узвият ё паролро муайян кардан лозим набошад, шумо метавонед имконоти "Идоракунии вуруд барои ҳар як аъзо" -ро аз танзимоти модули аъзо ғайрифаъол кунед. Агар ба шумо лозим аст, ки воридшавиро идора кунед, аммо ба парол ниёз надоред, шумо метавонед ин майдонро холӣ нигоҳ доред, то ин огоҳӣ пешгирӣ карда шавад. Эзоҳ: Почтаи электронӣ инчунин метавонад ҳамчун логин истифода шавад, агар аъзо ба корбар пайванд бошад.
 WarningMandatorySetupNotComplete=Барои насб кардани параметрҳои асосӣ ин ҷо клик кунед
 WarningEnableYourModulesApplications=Барои фаъол кардани модулҳо ва барномаҳои худ ин ҷо клик кунед
 WarningSafeModeOnCheckExecDir=Огоҳӣ, варианти PHP <b> safe_mode </b> фаъол аст, бинобар ин фармон бояд дар дохили феҳристи бо параметри php эълоншудаи <b> safe_mode_exec_dir </b> нигоҳ дошта шавад.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Огоҳӣ, хондани сур�
 WarningNoDataTransferedInAccountancyYet=Лутфан қайд кунед, ки дар ҷадвали баҳисобгирӣ ягон маълумот мавҷуд нест. Лутфан маълумоти дар ариза сабтшударо ба бахши баҳисобгирии муҳосибӣ интиқол диҳед ё барои таҳлили маълумоти берун аз баҳисобгирии муҳосибӣ сабтшударо тағир диҳед.
 WarningChangingThisMayBreakStopTaskScheduler=Огоҳӣ, тағир додани ин арзиш метавонад нақшасозро хомӯш кунад
 WarningAmountOfFileDiffersFromSumOfLines=Огоҳӣ, миқдори файл (%s) аз маҷмӯи сатрҳо фарқ мекунад (%s)
-WarningModuleAffiliatedToAReportedCompany=Огоҳӣ, ин модул ба Бунёди Долибарр хабар дода шудааст, ки аз ҷониби ширкате бо истифода аз таҷрибаҳои ғайриқонунӣ нашр шудааст (риоя накардан ба қоидаҳои истифодаи бренди Dolibarr, ҷамъоварии маълумоти шумо бе розигии шумо ё ҷойгиркунии нармафзори зараровар).
+WarningModuleAffiliatedToAReportedCompany=Огоҳӣ, ин модул ба Бунёди Долибарр хабар дода шудааст, ки аз ҷониби ширкате бо истифода аз таҷрибаҳои ғайриқонунӣ нашр шудааст (риоя накардан ба қоидаҳои истифодаи бренди ZionOne, ҷамъоварии маълумоти шумо бе розигии шумо ё ҷойгиркунии нармафзори зараровар).
 WarningModuleAffiliatedToAPiratPlatform=Ҳангоми гирифтани модул (пулакӣ ё ройгон) аз платформаи ғайрирасмии шубҳанок ба монанди %s эҳтиёт шавед.
 
 SwissQrOnlyVIR = Ҳисобнома-фактураи SwissQR метавонад танҳо ба ҳисобнома-фактураҳое илова карда шавад, ки бо пардохти интиқоли кредит пардохт карда мешаванд.

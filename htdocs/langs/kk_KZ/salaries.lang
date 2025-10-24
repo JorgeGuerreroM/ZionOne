@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Жалақы бойынша «пайдаланушылар» үшін әдепкі бойынша пайдаланылатын шот (Шот жоспарынан).
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Пайдаланушы картасында анықталған арнайы есептік жазба тек ішкі бухгалтерлік есеп үшін пайдаланылады. Бұл Бас кітап үшін пайдаланылады, сонымен қатар пайдаланушыда арнайы пайдаланушы есептік жазбасы анықталмаған болса, ішкі кітап есебінің әдепкі мәні ретінде де қолданылады.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Жалақы төлеу үшін әдепкі бойынша бухгалтерлік есеп

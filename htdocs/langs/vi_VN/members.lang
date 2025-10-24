@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Khu vực thành viên
 MemberCard=Thẻ thành viên
 SubscriptionCard=Thẻ đăng ký
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Danh sách thành viên công khai hợp lệ
 ErrorThisMemberIsNotPublic=Thành viên này không công khai
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Một thành viên khác (tên: <b>%s</b> , đăng nhập: <b>%s</b> ) đã được liên kết với bên thứ ba <b>%s</b> . Trước tiên, xóa liên kết này vì bên thứ ba không thể được liên kết với chỉ một thành viên (và ngược lại).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Vì lý do bảo mật, bạn phải được cấp quyền chỉnh sửa tất cả người dùng để có thể liên kết thành viên với người dùng không phải của bạn.
-SetLinkToUser=Liên kết với người dùng Dolibarr
-SetLinkToThirdParty=Liên kết với bên thứ ba Dolibarr
+SetLinkToUser=Liên kết với người dùng ZionOne
+SetLinkToThirdParty=Liên kết với bên thứ ba ZionOne
 MemberCountersArePublic=Bộ đếm thành viên hợp lệ được công khai
 MembersCards=Tạo thẻ cho thành viên
 MembersList=Danh sách thành viên
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Bạn có chắc chắn muốn xóa đóng góp này?
 Filehtpasswd=tập tin htpasswd
 ValidateMember=Xác nhận một thành viên
 ConfirmValidateMember=Bạn có chắc chắn muốn xác nhận thành viên này?
-FollowingLinksArePublic=Các liên kết sau đây là các trang mở không được bảo vệ bởi bất kỳ sự cho phép của Dolibarr. Chúng không phải là các trang được định dạng, được cung cấp làm ví dụ để hiển thị cách liệt kê cơ sở dữ liệu thành viên.
+FollowingLinksArePublic=Các liên kết sau đây là các trang mở không được bảo vệ bởi bất kỳ sự cho phép của ZionOne. Chúng không phải là các trang được định dạng, được cung cấp làm ví dụ để hiển thị cách liệt kê cơ sở dữ liệu thành viên.
 PublicMemberList=Danh sách thành viên công khai
 BlankSubscriptionForm=Mẫu tự đăng ký công khai
-BlankSubscriptionFormDesc=Dolibarr có thể cung cấp cho bạn một URL / trang web công khai để cho phép khách truy cập bên ngoài yêu cầu đăng ký vào nền tảng. Nếu một mô-đun thanh toán trực tuyến được bật, một hình thức thanh toán cũng có thể được cung cấp tự động.
+BlankSubscriptionFormDesc=ZionOne có thể cung cấp cho bạn một URL / trang web công khai để cho phép khách truy cập bên ngoài yêu cầu đăng ký vào nền tảng. Nếu một mô-đun thanh toán trực tuyến được bật, một hình thức thanh toán cũng có thể được cung cấp tự động.
 EnablePublicSubscriptionForm=Cho phép trang web công cộng với biểu mẫu tự đăng ký
 ForceMemberType=Ép buộc loại thành viên
 ExportDataset_member_1=Thành viên và đóng góp

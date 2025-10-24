@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=安全碼
 NumberingShort=編號
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(您好)__\n\n隨函附上工作服務單 _
 PredefinedMailContentLink=若尚未付款，請點擊以下連結完成付款：\n\n%s\n\n
 PredefinedMailContentGeneric=__(您好)__\n\n\n__(敬祝 商祺)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=活動提醒「__EVENT_LABEL__」，時間：__EVENT_DATE__ __EVENT_TIME__<br><br>此為系統自動通知，請勿回覆。
-DemoDesc=Dolibarr 為精簡型 ERP/CRM 系統，支援多種業務模組。由於實務上不會同時使用所有模組，示範系統提供多種不同使用情境可供選擇。
+DemoDesc=ZionOne 為精簡型 ERP/CRM 系統，支援多種業務模組。由於實務上不會同時使用所有模組，示範系統提供多種不同使用情境可供選擇。
 DemoDesc2=This is a restricted shared demo, you may prefer to test on your own dedicated instance with a full admin access, to do so, <a href="%s" target="_blank">go here <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=請選擇最符合您需求的示範用戶角色...
 ChooseYourDemoProfilMore=...或建立自訂示範角色<br>(手動選擇模組)
@@ -197,10 +197,10 @@ BugTracker=錯誤回報系統
 SendNewPasswordDesc=此表單可用來申請新密碼，將寄送至您的電子郵件。<br>點擊郵件中的確認連結後，新密碼方可生效。<br>請至您的收件匣查看。
 EnterNewPasswordHere=請於此輸入新密碼
 BackToLoginPage=返回登入頁
-AuthenticationDoesNotAllowSendNewPassword=目前的驗證模式為 <b>%s</b>。<br>此模式下 Dolibarr 無法知道或變更您的密碼。<br>若需要變更密碼，請聯絡系統管理員。
+AuthenticationDoesNotAllowSendNewPassword=目前的驗證模式為 <b>%s</b>。<br>此模式下 ZionOne 無法知道或變更您的密碼。<br>若需要變更密碼，請聯絡系統管理員。
 EnableGDLibraryDesc=如需使用此功能，請在 PHP 中安裝或啟用 GD 函式庫。
 ProfIdShortDesc=<b>專業編號 %s</b> 為依國家而定的合作方資訊欄位。<br>例如，國家 <b>%s</b> 對應的編號代碼為 <b>%s</b>。
-DolibarrDemo=Dolibarr ERP/CRM 示範
+DolibarrDemo=ZionOne ERP/CRM 示範
 StatsByAmount=產品/服務金額統計
 StatsByAmountProducts=產品金額統計
 StatsByAmountServices=服務金額統計

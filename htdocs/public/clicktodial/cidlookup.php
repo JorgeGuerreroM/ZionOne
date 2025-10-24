@@ -21,9 +21,9 @@
  *  \brief      Script to search companies names based on incoming calls, from caller phone number
  *	\remarks    To use this script, your Asterisk must be compiled with CURL, and your dialplan must be something like this:
  *
- *              exten => s,1,Set(CALLERID(name)=${CURL(http://IP-DOLIBARR:80/asterisk/cidlookup.php?phone=${CALLERID(num)}&securitykey=SECURITYKEY)})
+ *              exten => s,1,Set(CALLERID(name)=${CURL(http://IP-ZionOne:80/asterisk/cidlookup.php?phone=${CALLERID(num)}&securitykey=SECURITYKEY)})
  *
- *			    Change IP-DOLIBARR to the IP address of your dolibarr server
+ *			    Change IP-ZionOne to the IP address of your ZionOne server
  *			    Change SECURITYKEY to the value defined into your setup of module ClickToDial
  */
 

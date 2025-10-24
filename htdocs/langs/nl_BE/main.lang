@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# ZionOne language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -38,7 +38,7 @@ GoToWikiHelpPage=Online Help lezen (internettoegang vereist)
 GoToHelpPage=Contacteer helpdesk
 RecordSaved=Tabelregel opgeslagen
 RecordDeleted=Record verwijderd
-DolibarrInHttpAuthenticationSoPasswordUseless=Dolibarr-authenticatiemodus is ingesteld op <b>%s</b> in configuratiebestand <b>conf.php</b>. <br> Dit betekent dat de wachtwoorddatabase extern is van Dolibarr, dus het wijzigen van dit veld heeft mogelijk geen effect.
+ZionOneInHttpAuthenticationSoPasswordUseless=ZionOne-authenticatiemodus is ingesteld op <b>%s</b> in configuratiebestand <b>conf.php</b>. <br> Dit betekent dat de wachtwoorddatabase extern is van ZionOne, dus het wijzigen van dit veld heeft mogelijk geen effect.
 Administrator=Systeembeheerder
 LastConnexion=Laatste login
 AuthenticationMode=Verificatiemodus

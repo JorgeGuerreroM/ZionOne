@@ -327,7 +327,7 @@ class Adherent extends CommonObject
 	 *  	'date', 'datetime', 'timestamp', 'duration',
 	 *  	'boolean', 'checkbox', 'radio', 'array',
 	 *  	'mail', 'phone', 'url', 'password', 'ip'
-	 *		Note: Filter must be a Dolibarr Universal Filter syntax string. Example: "(t.ref:like:'SO-%') or (t.date_creation:<:'20160101') or (t.status:!=:0) or (t.nature:is:NULL)"
+	 *		Note: Filter must be a ZionOne Universal Filter syntax string. Example: "(t.ref:like:'SO-%') or (t.date_creation:<:'20160101') or (t.status:!=:0) or (t.nature:is:NULL)"
 	 *  'length' the length of field. Example: 255, '24,8'
 	 *  'label' the translation key.
 	 *  'alias' the alias used into some old hard coded SQL requests
@@ -2868,7 +2868,7 @@ class Adherent extends CommonObject
 		$this->entity = 1;
 		$this->specimen = 1;
 		$this->civility_id = 'MR';
-		$this->lastname = 'DOLIBARR';
+		$this->lastname = 'ZionOne';
 		$this->firstname = 'SPECIMEN';
 		$this->gender = 'man';
 		$this->login = 'dolibspec';
@@ -3067,7 +3067,7 @@ class Adherent extends CommonObject
 				// Just for the case we use old md5 encryption (deprecated, no more used, kept for compatibility)
 				if (!getDolGlobalString('MAIN_SECURITY_HASH_ALGO') || getDolGlobalString('MAIN_SECURITY_HASH_ALGO') == 'md5') {
 					if ($this->pass_indatabase_crypted && getDolGlobalString('LDAP_MEMBER_FIELD_PASSWORD_CRYPTED')) {
-						// Create OpenLDAP MD5 password from Dolibarr MD5 password
+						// Create OpenLDAP MD5 password from ZionOne MD5 password
 						// Note: This suppose that "pass_indatabase_crypted" is a md5 (this should not happen anymore)"
 						$info[getDolGlobalString('LDAP_MEMBER_FIELD_PASSWORD_CRYPTED')] = dolGetLdapPasswordHash($this->pass_indatabase_crypted, 'md5frommd5');
 					}
@@ -3330,7 +3330,7 @@ class Adherent extends CommonObject
 							$cc = getDolGlobalString('ADHERENT_CC_MAIL_FROM');
 
 							$trackid = 'mem'.$adherent->id;
-							$moreinheader = 'X-Dolibarr-Info: sendReminderForExpiredSubscription'."\r\n";
+							$moreinheader = 'X-ZionOne-Info: sendReminderForExpiredSubscription'."\r\n";
 
 							include_once DOL_DOCUMENT_ROOT.'/core/class/CMailFile.class.php';
 							$cmail = new CMailFile($subject, $to, $from, $msg, array(), array(), array(), $cc, '', 0, 1, '', '', $trackid, $moreinheader);

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nėra klaidos, mes įsipareigojame
@@ -53,12 +53,12 @@ ErrorWrongDate=Data yra neteisinga !
 ErrorFailedToWriteInDir=Nepavyko įrašyti į katalogą %s
 ErrorFailedToBuildArchive=Nepavyko sukurti archyvo failo %s
 ErrorFoundBadEmailInFile=Rasta neteisinga elektroninio pašto sintaksė failo eilutėje %s (eilutės pavyzdys %s su e-paštas=%s)
-ErrorUserCannotBeDelete=Vartotojo negalima ištrinti. Galbūt jis susietas su „Dolibarr“ subjektais.
+ErrorUserCannotBeDelete=Vartotojo negalima ištrinti. Galbūt jis susietas su „ZionOne“ subjektais.
 ErrorFieldsRequired=Kai kurie privalomi laukai buvo palikti tušti.
 ErrorSubjectIsRequired=Būtina nurodyti el. laiško temą
 ErrorInAddAttachmentsImageBaseOnMedia=Klaida kuriant vaizdo failus į medijos katalogą priedui
 ErrorInAddAttachmentsImageBaseIsSrcData=Klaida kuriant vaizdo failus (randama kaip data:) į laikinąjį priedo katalogą
-ErrorFailedToCreateDir=Nepavyko sukurti aplanko. Įsitikinkite, kad web serverio vartotojas turi teisę rašyti į Dolibarr dokumentų aplanką. Jei parametras <b>safe_mode</b> yra įjungtas šio PHP, patikrinkite, ar Dolibarr PHP failai priklauso web serverio vartotojui (ar jų grupei).
+ErrorFailedToCreateDir=Nepavyko sukurti aplanko. Įsitikinkite, kad web serverio vartotojas turi teisę rašyti į ZionOne dokumentų aplanką. Jei parametras <b>safe_mode</b> yra įjungtas šio PHP, patikrinkite, ar ZionOne PHP failai priklauso web serverio vartotojui (ar jų grupei).
 ErrorNoMailDefinedForThisUser=Šiam klientui neapibrėžtas paštas
 ErrorSetupOfEmailsNotComplete=El. pašto adresų sąranka nebaigta
 ErrorAccountingClosureSetupNotComplete=Uždarymo sąskaitų sąranka nebaigta
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Lauke <b>%s</b> negali būti sp
 ErrorFieldMustHaveXChar=Lauke <b>%s</b> turi būti bent %s simbolių.
 ErrorNoAccountancyModuleLoaded=Nėra aktyvaus apskaitos modulio
 ErrorExportDuplicateProfil=Profilio vardas jau egzistuoja šiam eksporto rinkiniui
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP derinimas nėra pilnas
+ErrorLDAPSetupNotComplete=ZionOne-LDAP derinimas nėra pilnas
 ErrorLDAPMakeManualTest=.ldif failas buvo sukurtas aplanke: %s. Pabandykite įkelti jį rankiniu būdu per komandinę eilutę, kad gauti daugiau informacijos apie klaidas
 ErrorCantSaveADoneUserWithZeroPercentage=Negalima išsaugoti veiksmo, kurio būsena yra „nepradėta“, jei taip pat užpildytas laukas „atliko“.
 ErrorPleaseTypeBankTransactionReportName=Įveskite banko išrašo, kuriame turi būti pateiktas įrašas, pavadinimą (MMMM arba MMMMMMDD formatu)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s priskiriamas kitai trečiąjai šaliai
 ErrorFailedToSendPassword=Nepavyko išsiųsti slaptažodžio
 ErrorFailedToLoadRSSFile=Nepavyksta gauti RSS feed. Pabandykite pridėti konstantą MAIN_SIMPLEXMLLOAD_DEBUG, jei klaidų pranešimai nesuteikia pakankamai informacijos.
 ErrorForbidden=Prieiga uždrausta.<br>Bandote pasiekti išjungto modulio puslapį, sritį ar funkciją, nebūdami autentifikuotoje sesijoje arba tai, kas jūsų vartotojui neleidžiama.
-ErrorForbidden2=Leidimas šiam prisijungimo vardui gali būti nustatomas Jūsų Dolibarr administratoriaus iš meniu %s>%s.
-ErrorForbidden3=Atrodo, kad Dolibarr nenaudojamas per patvirtintą sesiją. Pažvelkite į Dolibarr nustatymų dokumentus, norėdami sužinoti, kaip valdyti patvirtinimus (htaccess, mod_auth ar kitas ...).
+ErrorForbidden2=Leidimas šiam prisijungimo vardui gali būti nustatomas Jūsų ZionOne administratoriaus iš meniu %s>%s.
+ErrorForbidden3=Atrodo, kad ZionOne nenaudojamas per patvirtintą sesiją. Pažvelkite į ZionOne nustatymų dokumentus, norėdami sužinoti, kaip valdyti patvirtinimus (htaccess, mod_auth ar kitas ...).
 ErrorForbidden4=Pastaba: išvalykite naršyklės slapukus, kad sunaikintumėte esamas šio prisijungimo sesijas.
 ErrorNoImagickReadimage=Klasė Imagick nerasta šiame PHP. Peržiūra negalima. Administratoriai gali išjungti šią kortelę iš meniu Nustatymai - Ekranas.
 ErrorRecordAlreadyExists=Įrašas jau egzistuoja
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Vartotojo sąskaita <b>%s</b> naudojama web s
 ErrorNoActivatedBarcode=Nėra įjungta brūkšninio kodo tipo
 ErrUnzipFails=Nepavyko išpakuoti %s su ZipArchive
 ErrNoZipEngine=Šiame PHP nėra modulio, kuris suarchyvuotų/išskleistų %s failą
-ErrorFileMustBeADolibarrPackage=Failas %s turi būti Dolibarr zip paketas
-ErrorModuleFileRequired=Turite pasirinkti „Dolibarr“ modulio paketo failą
+ErrorFileMustBeADolibarrPackage=Failas %s turi būti ZionOne zip paketas
+ErrorModuleFileRequired=Turite pasirinkti „ZionOne“ modulio paketo failą
 ErrorPhpCurlNotInstalled=PHP CURL nėra įdiegta, tai yra būtina kalbantis su PayPal
 ErrorFailedToAddToMailmanList=Nepavyko pridėti įrašo %s į Paštininko sąrašą %s arba SPIP bazę
 ErrorFailedToRemoveToMailmanList=Nepavyko pašalinti įrašo %s iš Paštininko sąrašo %s arba SPIP bazės
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=Data turi būti vėlesnė nei šiandien
 ErrorStartDateGreaterEnd=Pradžios data yra vėlesnė nei pabaigos data
 ErrorPaymentModeDefinedToWithoutSetup=Mokėjimo būdo tipas buvo nustatytas %s, bet modulio Sąskaita faktūra nustatymas nebuvo pilnai baigtas mokėjimo būdo informacijos parodymui.
 ErrorPHPNeedModule=Klaida, Jūsų PHP turi turėti modulį <b>%s</b> įdiegtą šios funkcijos naudojimui.
-ErrorOpenIDSetupNotComplete=Nustatyti Dolibarr config failą, kad būtų leidžiama OpenID patvirtinimas, bet OpenID paslaugos URL nėra apibrėžtas kaip konstanta %s.
+ErrorOpenIDSetupNotComplete=Nustatyti ZionOne config failą, kad būtų leidžiama OpenID patvirtinimas, bet OpenID paslaugos URL nėra apibrėžtas kaip konstanta %s.
 ErrorWarehouseMustDiffers=Šaltinio ir paskirties sandėliai privalo skirtis
 ErrorBadFormat=Blogas formatas !
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Klaida, šis narys dar nesusietas su jokia trečiąja šalimi. Susiekite narį su esama trečiąja šalimi arba sukurkite naują trečiąją šalį prieš kurdami prenumeratą su sąskaita faktūra.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Naujas vartotojas privalo turėti el. pašto adresą
 ErrorUserClone=Klaida naudotojų klonų kategorijose
 ErrorQtyOrderedLessQtyShipped = Užsakytas kiekis negali būti mažesnis už išsiųstą kiekį.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Klaida, dar nepalaikoma kurti kitokį mokėjimą banko sąskaitoje, kurios valiuta skiriasi nuo įmonės valiutos.
-ErrorStreamMustBeEnabled=PHP srautas %s nepasiekiamas. Patikrinkite PHP modulius ir „Dolibarr“ parametrą „$dolibarr_main_stream_to_disable“.
+ErrorStreamMustBeEnabled=PHP srautas %s nepasiekiamas. Patikrinkite PHP modulius ir „ZionOne“ parametrą „$dolibarr_main_stream_to_disable“.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Klaida, bandote apmokėti skirtingas sąskaitas faktūras skirtingomis valiutomis vienu mokėjimu
 ErrorLinkNotFoundWithSharedLink=Klaida, nuoroda su šiuo bendrinamu raktu nerasta
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Neteisingas eilučių skaičius. Failuose turi būti bent 2 eilutės (1 eilutė pavadinimui ir 1 eilutė duomenims).
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Klaida, šio tipo lauko reikšmė yra privaloma
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Jūsų PHP parametro „upload_max_filesize“ (%s) vertė yra didesnė nei PHP parametro „post_max_size“ (%s). Tai nėra nuosekli sąranka.
-WarningPasswordSetWithNoAccount=Šiam nariui buvo nustatytas slaptažodis. Tačiau nebuvo sukurta jokia vartotojo paskyra. Taigi šis slaptažodis yra išsaugotas, bet negali būti naudojamas prisijungimui prie „Dolibarr“. Jį gali naudoti išorinis modulis / sąsaja, bet jei jums nereikia apibrėžti jokio nario prisijungimo vardo ar slaptažodžio, galite išjungti parinktį „Tvarkyti kiekvieno nario prisijungimą“ nario modulio nustatymuose. Jei jums reikia tvarkyti prisijungimą, bet nereikia jokio slaptažodžio, galite palikti šį lauką tuščią, kad išvengtumėte šio įspėjimo. Pastaba: el. pašto adresas taip pat gali būti naudojamas kaip prisijungimas, jei narys yra susietas su vartotoju.
+WarningPasswordSetWithNoAccount=Šiam nariui buvo nustatytas slaptažodis. Tačiau nebuvo sukurta jokia vartotojo paskyra. Taigi šis slaptažodis yra išsaugotas, bet negali būti naudojamas prisijungimui prie „ZionOne“. Jį gali naudoti išorinis modulis / sąsaja, bet jei jums nereikia apibrėžti jokio nario prisijungimo vardo ar slaptažodžio, galite išjungti parinktį „Tvarkyti kiekvieno nario prisijungimą“ nario modulio nustatymuose. Jei jums reikia tvarkyti prisijungimą, bet nereikia jokio slaptažodžio, galite palikti šį lauką tuščią, kad išvengtumėte šio įspėjimo. Pastaba: el. pašto adresas taip pat gali būti naudojamas kaip prisijungimas, jei narys yra susietas su vartotoju.
 WarningMandatorySetupNotComplete=Spustelėkite čia, norėdami nustatyti pagrindinius parametrus
 WarningEnableYourModulesApplications=Spustelėkite čia, kad įjungtumėte modulius ir programas
 WarningSafeModeOnCheckExecDir=Įspėjimas, PHP opcija <b>safe_mode</b> yra įjungta, todėl komanda turi būti saugoma viduje aplanko deklaruota php parametro <b>safe_mode_exec_dir</b>.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Įspėjimas, banko sąskaitos skai
 WarningNoDataTransferedInAccountancyYet=Atkreipkite dėmesį, kad apskaitos lentelėje nėra duomenų. Prašome perkelti programoje įrašytus duomenis į apskaitos skyrių arba pakeisti skaičiavimo režimą, kad būtų galima analizuoti ne apskaitos lentelėje įrašytus duomenis.
 WarningChangingThisMayBreakStopTaskScheduler=Įspėjimas: pakeitus šią reikšmę, planuoklė gali būti išjungta.
 WarningAmountOfFileDiffersFromSumOfLines=Įspėjimas, failo dydis (%s) skiriasi nuo eilučių sumos (%s)
-WarningModuleAffiliatedToAReportedCompany=Įspėjimas: apie šį modulį pranešta „Dolibarr“ fondui, kaip apie jį paskelbtą įmonės, naudojančios neteisėtą praktiką (nesilaikančios „Dolibarr“ prekės ženklo naudojimo taisyklių, renkančios jūsų duomenis be jūsų sutikimo arba diegiančios kenkėjiškas programas).
+WarningModuleAffiliatedToAReportedCompany=Įspėjimas: apie šį modulį pranešta „ZionOne“ fondui, kaip apie jį paskelbtą įmonės, naudojančios neteisėtą praktiką (nesilaikančios „ZionOne“ prekės ženklo naudojimo taisyklių, renkančios jūsų duomenis be jūsų sutikimo arba diegiančios kenkėjiškas programas).
 WarningModuleAffiliatedToAPiratPlatform=Būkite atsargūs įsigydami modulį (mokamą ar nemokamą) iš įtartinos neoficialios platformos, tokios kaip %s
 
 SwissQrOnlyVIR = „SwissQR“ sąskaitą faktūrą galima pridėti tik prie sąskaitų faktūrų, kurios bus apmokėtos kredito pavedimu.

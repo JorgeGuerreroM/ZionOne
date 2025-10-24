@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Księgowość
 Accounting=Księgowość
 AccountingAccount=Konto księgowe
@@ -349,7 +349,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Wyłącz powiązanie i przeniesienie w księ
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Wyłącz powiązanie i przeniesienie w księgowości zakupów (faktury dostawcy nie będą brane pod uwagę w księgowości)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Wyłącz powiązanie i przeniesienie w księgowości na zestawieniach wydatków (zestawienia wydatków nie będą brane pod uwagę w księgowości)
 ACCOUNTING_ENABLE_LETTERING=Włącz funkcję literowania w księgowości
-ACCOUNTING_ENABLE_LETTERING_DESC=Gdy ta opcja jest włączona, dla każdego zapisu księgowego można zdefiniować kod, dzięki czemu można grupować różne ruchy księgowe. W przeszłości, gdy różne czasopisma były zarządzane niezależnie, funkcja ta była konieczna do grupowania linii ruchu różnych czasopism. Jednak w przypadku księgowości Dolibarr taki kod śledzenia nosi nazwę „<b>%s</b>” jest już zapisywany automatycznie, więc automatyczne pisanie liter jest już wykonane, bez ryzyka błędu, więc ta funkcja stała się bezużyteczna w powszechnym użyciu. Funkcja ręcznego pisania jest dostępna dla użytkowników końcowych, którzy tak naprawdę nie ufają silnikowi komputera dokonującemu przesyłania danych w księgowości.
+ACCOUNTING_ENABLE_LETTERING_DESC=Gdy ta opcja jest włączona, dla każdego zapisu księgowego można zdefiniować kod, dzięki czemu można grupować różne ruchy księgowe. W przeszłości, gdy różne czasopisma były zarządzane niezależnie, funkcja ta była konieczna do grupowania linii ruchu różnych czasopism. Jednak w przypadku księgowości ZionOne taki kod śledzenia nosi nazwę „<b>%s</b>” jest już zapisywany automatycznie, więc automatyczne pisanie liter jest już wykonane, bez ryzyka błędu, więc ta funkcja stała się bezużyteczna w powszechnym użyciu. Funkcja ręcznego pisania jest dostępna dla użytkowników końcowych, którzy tak naprawdę nie ufają silnikowi komputera dokonującemu przesyłania danych w księgowości.
 EnablingThisFeatureIsNotNecessary=Włączenie tej funkcji nie jest już konieczne do rygorystycznego zarządzania księgowością.
 ACCOUNTING_ENABLE_AUTOLETTERING=Włącz automatyczne pisanie przy przechodzeniu do księgowości
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Kod napisu jest generowany i zwiększany automatycznie i nie jest wybierany przez użytkownika końcowego

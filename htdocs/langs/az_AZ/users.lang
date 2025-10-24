@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=HRM sahəsi
 UserCard=İstifadəçi kartı
 GroupCard=Qrup kartı
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=İstifadəçiyə keçid
 LinkedToDolibarrThirdParty=Üçüncü tərəfə keçid
 CreateDolibarrLogin=İstifadəçi yaradın
 CreateDolibarrThirdParty=Üçüncü tərəf yaradın
-LoginAccountDisableInDolibarr=Dolibarr-da hesab deaktiv edilib
-PASSWORDInDolibarr=Parol Dolibarr-da dəyişdirildi
+LoginAccountDisableInDolibarr=ZionOne-da hesab deaktiv edilib
+PASSWORDInDolibarr=Parol ZionOne-da dəyişdirildi
 UsePersonalValue=Şəxsi dəyərdən istifadə edin
 ExportDataset_user_1=İstifadəçilər və onların xüsusiyyətləri
 ExportDataset_user_2=Təhlükəsizlik hadisələrinin siyahısı

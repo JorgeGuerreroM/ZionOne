@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Configuração do módulo PayPal
 PAYPAL_API_SANDBOX=Modo teste/caixa de areia
 PAYPAL_API_USER=API usuario

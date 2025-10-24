@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Töövoo mooduli seaded
 WorkflowDesc=See moodul pakub mõningaid automaatseid toiminguid. Vaikimisi on töövoog avatud (saate asju teha soovitud järjekorras), kuid siin saate aktiveerida mõned automaatsed toimingud.
 ThereIsNoWorkflowToModify=Aktiveeritud moodulitega pole töövoo muutmine saadaval.

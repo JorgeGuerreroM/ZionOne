@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Configurar módulo de Stripe
-StripeDesc=Ofereça ao seu clientes uma página de pagamento on-line para pagamentos com cartões de crédito/débito via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> . Isso pode ser usado para permitir que seu clientes faça pagamentos ad-hoc ou pagamentos relacionados a um objeto Dolibarr específico (fatura, encomenda, ...)
+StripeDesc=Ofereça ao seu clientes uma página de pagamento on-line para pagamentos com cartões de crédito/débito via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> . Isso pode ser usado para permitir que seu clientes faça pagamentos ad-hoc ou pagamentos relacionados a um objeto ZionOne específico (fatura, encomenda, ...)
 StripeOrCBDoPayment=Pagar com cartão de crédito ou Stripe
 FollowingUrlAreAvailableToMakePayments=As seguintes URL estão disponiveis para permitir a um cliente efectuar um pagamento
 PaymentForm=Forma de pagamento
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL para oferecer uma página de pagame
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL para oferecer uma página de pagamento on-line %s para uma assinatura membro
 ToOfferALinkForOnlinePaymentOnDonation=URL para oferecer uma %s página de pagamento on-line para pagamento de uma doação
 YouCanAddTagOnUrl=Você também pode adicionar o parâmetro de URL <b>&tag=value</b> a qualquer uma dessas URLs (obrigatório apenas para pagamentos não vinculados a um objeto) para adicionar sua própria tag de comentário de pagamento.<br>Para a URL de pagamentos sem objeto existente, você também pode adicionar o parâmetro <strong>&noidempotency=1</strong> para que o mesmo hiperligação, conexão com a mesma tag pode ser usado várias vezes (alguns modos de pagamento podem limitar o pagamento a 1 para cada hiperligação, conexão diferente sem este parâmetro)
-YouCanEmbedOnWebsite=Se você quiser integrar a página de pagamento em um Dolibarr Site da Web, você pode incluir o parâmetro: <b>&ws=website_ref</b>.<br>Além disso, duas páginas chamadas <b>paymentok</b> e <b>paymentko</b> deve ser criado no Site da Web para receber o redirecionamento após um pagamento on-line bem-sucedido ou com falha.
+YouCanEmbedOnWebsite=Se você quiser integrar a página de pagamento em um ZionOne Site da Web, você pode incluir o parâmetro: <b>&ws=website_ref</b>.<br>Além disso, duas páginas chamadas <b>paymentok</b> e <b>paymentko</b> deve ser criado no Site da Web para receber o redirecionamento após um pagamento on-line bem-sucedido ou com falha.
 SetupStripeToHavePaymentCreatedAutomatically=Configure o seu Stripe através do URL <b>%s</b> para que tenha os pagamentos criados automaticamente quando estes forem validades pelo Stripe.
 AccountParameter=Conta parâmetros
 UsageParameter=Parâmetros de uso
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Somente para clientes da Áustria, Bélgica,
 ListOfSupportedHooksToActivate=Lista de ganchos suportados para ativação
 # Paybox
 PayBoxSetup=Configurar módulo PayBox
-PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
 PayBoxDoPayment=Pay with Paybox
 YouWillBeRedirectedOnPayBox=Você será redirecionado para a página Paybox não se esqueça de introduzir a informação do seu cartão de crédito
 SetupPayBoxToHavePaymentCreatedAutomatically=Setup your Paybox with url <b>%s</b> to have payment created automatically when validated by Paybox.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Қауіпсіздік коды
 NumberingShort=N °
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Сәлеметсіз бе)__\n\nҚосым
 PredefinedMailContentLink=Төлем жасау үшін төмендегі сілтемені бассаңыз болады.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Сәлеметсіз бе)__\n\n\n__(Құрметпен)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Оқиғаны еске салатын «__EVENT_LABEL__» __EVENT_DATE__ күні __EVENT_TIME__ <br> <br> Бұл автоматты хабарлама, жауап бермеңіз.
-DemoDesc=Dolibarr - бұл бірнеше бизнес -модульдерді қолдайтын ықшам ERP/CRM. Барлық модульдерді көрсететін демонстрацияның мағынасы жоқ, өйткені бұл сценарий ешқашан болмайды (бірнеше жүз қол жетімді). Сонымен, бірнеше демо профильдер қол жетімді.
+DemoDesc=ZionOne - бұл бірнеше бизнес -модульдерді қолдайтын ықшам ERP/CRM. Барлық модульдерді көрсететін демонстрацияның мағынасы жоқ, өйткені бұл сценарий ешқашан болмайды (бірнеше жүз қол жетімді). Сонымен, бірнеше демо профильдер қол жетімді.
 DemoDesc2=This is a restricted shared demo, you may prefer to test on your own dedicated instance with a full admin access, to do so, <a href="%s" target="_blank">go here <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Сіздің қажеттіліктеріңізге сәйкес келетін демо -профильді таңдаңыз ...
 ChooseYourDemoProfilMore=... немесе өзіңіздің <br> профиліңізді құрыңыз (модульді қолмен таңдау)
@@ -200,7 +200,7 @@ BackToLoginPage=Кіру бетіне оралу
 AuthenticationDoesNotAllowSendNewPassword=Аутентификация режимі - <b> %s </b>. <br> Бұл режимде Долибарр сіздің құпия сөзіңізді біле де алмайды. <br> Егер құпия сөзді өзгерткіңіз келсе, жүйе әкімшісіне хабарласыңыз.
 EnableGDLibraryDesc=Бұл опцияны қолдану үшін PHP қондырғысына GD кітапханасын орнатыңыз немесе қосыңыз.
 ProfIdShortDesc= <b> Prof Id %s </b> - бұл үшінші тарап еліне байланысты ақпарат. <br> Мысалы, <b> %s </b> елі үшін бұл <b> %s a09a4b739f170
-DolibarrDemo=Dolibarr ERP/CRM демонстрациясы
+DolibarrDemo=ZionOne ERP/CRM демонстрациясы
 StatsByAmount=Өнімдердің/қызметтердің көлемі туралы статистика
 StatsByAmountProducts=Өнім көлемінің статистикасы
 StatsByAmountServices=Қызметтер көлемінің статистикасы
@@ -404,4 +404,4 @@ SetHereATitleForLink = Set a name for the bookmark
 ShowBookmark = Show bookmark
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
-SubscribeToFoundation=Help the Dolibarr project, subscribe to the foundation
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

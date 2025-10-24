@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Einstellungen Modul Workflow
 WorkflowDesc=Dieses Modul stellt verschiedene automatische Aktionen bereit. Standardmäßig ist der Workflow offen (Sie können die Dinge in der gewünschten Reihenfolge abarbeiten), aber hier können Sie einige automatische Aktionen aktivieren.
 ThereIsNoWorkflowToModify=Es sind keine Workflow-Änderungen möglich mit den aktivierten Modulen.

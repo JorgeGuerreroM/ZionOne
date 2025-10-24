@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Jumlah dokumen dalam direktori
 ECMSection=Direktori
 ECMSectionManual=Direktori manual
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Jumlah sub-direktori
 ECMNbOfFilesInSubDir=Jumlah file dalam sub-direktori
 ECMCreationUser=Pencipta
 ECMArea=Area DMS / ECM
-ECMAreaDesc=Area DMS / ECM (Sistem Manajemen Dokumen / Manajemen Konten Elektronik) memungkinkan Anda untuk menyimpan, berbagi, dan mencari dengan cepat semua jenis dokumen di Dolibarr.
+ECMAreaDesc=Area DMS / ECM (Sistem Manajemen Dokumen / Manajemen Konten Elektronik) memungkinkan Anda untuk menyimpan, berbagi, dan mencari dengan cepat semua jenis dokumen di ZionOne.
 ECMAreaDesc2a=* Direktori manual dapat digunakan untuk menyimpan dokumen dengan organisasi struktur pohon yang bebas.
 ECMAreaDesc2b=* Direktori otomatis terisi secara otomatis saat menambahkan dokumen dari halaman suatu elemen.
 ECMAreaDesc3=* Direktori publik adalah file dalam subdirektori <b>/medias</b> dari direktori dokumen, yang dapat dibaca oleh semua orang di internet tanpa perlu login dan tidak perlu membagikan file secara eksplisit. Direktori ini digunakan untuk menyimpan file gambar untuk modul email atau situs web misalnya.

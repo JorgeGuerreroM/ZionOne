@@ -36,7 +36,7 @@ if (!defined('NOIPCHECK')) {
 	define('NOIPCHECK', '1'); // Do not check IP defined into conf $dolibarr_main_restrict_ip
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once '../../core/lib/functions2.lib.php';
 /**
@@ -254,7 +254,7 @@ if (GETPOST('action', 'aZ09') == 'gotodemo') {     // Action run when we click o
 
 $head = '';
 $head .= '<meta name="keywords" content="demo,online,demonstration,example,test,erp,crm,demos,web">'."\n";
-$head .= '<meta name="description" content="Dolibarr ERP and CRM demo. You can test here several profiles for Dolibarr ERP and CRM demonstration.">'."\n";
+$head .= '<meta name="description" content="ZionOne ERP and CRM demo. You can test here several profiles for ZionOne ERP and CRM demonstration.">'."\n";
 
 $head .= '
 <script type="text/javascript">
@@ -290,14 +290,14 @@ print "\n";
 
 print '<div class="demoban demobackground">';
 print '<div class="right" style="padding-right: 30px; padding-top: 30px;">';
-print '<a alt="Official portal of your ERP CRM application" targe="_blank" href="https://www.dolibarr.org?utm_medium=website&utm_source=demo"><img class="demologo" src="'.DOL_URL_ROOT.'/theme/dolibarr_logo.svg" alt="Dolibarr logo"></a>';
+print '<a alt="Official portal of your ERP CRM application" targe="_blank" href="https://www.ZionOne.org?utm_medium=website&utm_source=demo"><img class="demologo" src="'.DOL_URL_ROOT.'/theme/logo.png" alt="ZionOne logo"></a>';
 print '</div>';
 print '</div>';
 
 print '<div class="demobantext" style="max-width: 1024px;">';
 print '<div style="font-size: 0.8em; padding: 40px;">';
 print '<div class="hideonsmartphone" style="text-align: justify;">'.$langs->trans("DemoDesc").'<br>';
-print $langs->trans("DemoDesc2", 'https://www.dolibarr.org/onlinedemo');
+print $langs->trans("DemoDesc2", 'https://www.ZionOne.org/onlinedemo');
 print '</div><br>';
 print '<div class="titre"><span style="font-size: 20px">'.$langs->trans("ChooseYourDemoProfil").'</span></div>';
 print '</div>';
@@ -317,7 +317,7 @@ foreach ($demoprofiles as $profilearray) {
 
 		$url = $_SERVER["PHP_SELF"].'?action=gotodemo';
 		$urlwithmod = $url.'&amp;demochoice='.$profilearray['key'];
-		// Should work with DOL_URL_ROOT='' or DOL_URL_ROOT='/dolibarr'
+		// Should work with DOL_URL_ROOT='' or DOL_URL_ROOT='/ZionOne'
 		//print "xx".$_SERVER["PHP_SELF"].' '.DOL_URL_ROOT.'<br>';
 
 		$urlfrom = preg_replace('/^'.preg_quote(DOL_URL_ROOT, '/').'/i', '', $_SERVER["PHP_SELF"]);
@@ -346,7 +346,7 @@ foreach ($demoprofiles as $profilearray) {
 		print '<input type="hidden" name="dol_no_mouse_hover" value="'.$conf->dol_no_mouse_hover.'">'."\n";
 		print '<input type="hidden" name="dol_use_jmobile" value="'.$conf->dol_use_jmobile.'">'."\n";
 
-		print '<div id="div'.$profilearray['key'].'" summary="Dolibarr online demonstration for profile '.$profilearray['label'].'" class="center inline-block CTable CTableRow'.($i % 2 == 0 ? '1' : '0').'">'."\n";
+		print '<div id="div'.$profilearray['key'].'" summary="ZionOne online demonstration for profile '.$profilearray['label'].'" class="center inline-block CTable CTableRow'.($i % 2 == 0 ? '1' : '0').'">'."\n";
 
 
 		print '<div id="a1'.$profilearray['key'].'" class="demobox '.(empty($profilearray['url']) ? 'modulelineshow cursorpointer maxwidth1000' : 'nomodulelines').'">';

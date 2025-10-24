@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Configuración del módulo de Stripe
 StripeOrCBDoPayment=Pague con tarjeta de crédito o Stripe
-FollowingUrlAreAvailableToMakePayments=Las siguientes URL están disponibles para ofrecer una página a un cliente para realizar un pago en objetos de Dolibarr
+FollowingUrlAreAvailableToMakePayments=Las siguientes URL están disponibles para ofrecer una página a un cliente para realizar un pago en objetos de ZionOne
 WelcomeOnPaymentPage=Bienvenido a nuestro servicio de pago en línea.
 ThisScreenAllowsYouToPay=Esta pantalla le permite realizar un pago en línea a%s.
 ThisIsInformationOnPayment=Esta es información sobre el pago a hacer

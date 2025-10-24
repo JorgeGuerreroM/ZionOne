@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=Eneo la HRM
 UserCard=Kadi ya mtumiaji
 GroupCard=Kadi ya kikundi
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Unganisha kwa mtumiaji
 LinkedToDolibarrThirdParty=Unganisha kwa wahusika wengine
 CreateDolibarrLogin=Unda mtumiaji
 CreateDolibarrThirdParty=Unda mtu wa tatu
-LoginAccountDisableInDolibarr=Akaunti imezimwa katika Dolibarr
-PASSWORDInDolibarr=Nenosiri limebadilishwa katika Dolibarr
+LoginAccountDisableInDolibarr=Akaunti imezimwa katika ZionOne
+PASSWORDInDolibarr=Nenosiri limebadilishwa katika ZionOne
 UsePersonalValue=Tumia thamani ya kibinafsi
 ExportDataset_user_1=Watumiaji na mali zao
 ExportDataset_user_2=List of security events

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - modulebuilder
+# ZionOne language file - Source file is en_US - modulebuilder
 ModuleBuilderDesc2=Ruta donde se generan / editan los módulos (primer directorio para módulos externos definidos en %s): <strong>%s</strong>
 ModuleBuilderDesc3=Se encontraron módulos generados/editables: <strong>%s</strong>
 NewObjectInModulebuilder=Nuevo Objeto
@@ -15,7 +15,7 @@ ModuleBuilderDescwidgets=Esta pestaña está dedicada a administrar / construir 
 ModuleBuilderDescbuildpackage=Puede generar aquí un archivo de paquete "listo para distribuir" (un archivo .zip normalizado) de su módulo y un archivo de documentación "listo para distribuir". Simplemente haga clic en el botón para construir el paquete o archivo de documentación.
 EnterNameOfModuleToDeleteDesc=Puedes borrar tu módulo. ADVERTENCIA: ¡Se eliminarán todos los archivos de codificación del módulo (generados o creados manualmente) Y los datos y la documentación estructurados!
 BuildPackage=Paquete de compilación
-BuildPackageDesc=Puede generar un paquete zip de su aplicación para que esté listo para distribuirlo en cualquier Dolibarr. También puede distribuirlo o venderlo en un mercado como <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=Puede generar un paquete zip de su aplicación para que esté listo para distribuirlo en cualquier ZionOne. También puede distribuirlo o venderlo en un mercado como <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Documentación de construcción
 ModuleIsLive=Este módulo ha sido activado. Cualquier cambio puede romper una característica actual en vivo.
 DescriptorFile=Archivo descriptivo del módulo
@@ -66,7 +66,7 @@ DictionariesDefDescTooltip=Los diccionarios proporcionados por su módulo/aplica
 PermissionsDefDescTooltip=Los permisos proporcionados por su módulo / aplicación se definen en la matriz <strong>$ this-&gt; rights</strong> en el archivo descriptor del módulo. Puede editar manualmente este archivo o utilizar el editor incrustado. <br><br> Nota: Una vez definidos (y el módulo se reactiva), los permisos son visibles en la configuración de permisos predeterminada %s.
 SeeIDsInUse=Ver ID en uso en su instalación
 SeeReservedIDsRangeHere=Ver rango de ID reservados
-ToolkitForDevelopers=Toolkit para desarrolladores de Dolibarr
+ToolkitForDevelopers=Toolkit para desarrolladores de ZionOne
 TryToUseTheModuleBuilder=Si tiene conocimientos de SQL y PHP, puede utilizar el asistente de creación de módulos nativos. <br> Habilite el módulo <strong>%s</strong> y use el asistente haciendo clic en <span class="fa fa-bug"></span> en el menú superior derecho. <br> Advertencia: esta es una función avanzada para desarrolladores, ¡ <b>no</b> experimente en su sitio de producción!
 InitStructureFromExistingTable=Construya la cadena de matriz de estructura de una tabla existente
 UseDocFolder=Desactivar la carpeta de documentación.

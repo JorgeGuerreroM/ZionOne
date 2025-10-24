@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Наплата | Плаќање
 TaxModuleSetupToModifyRules=Одете во <a href="%s">Поставување модул за даноци</a> за да ги измените правилата за пресметка
 TaxModuleSetupToModifyRulesLT=Одете во <a href="%s">Поставување на компанијата</a> за да ги измените правилата за пресметка

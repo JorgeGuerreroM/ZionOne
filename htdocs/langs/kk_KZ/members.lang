@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Мүшелер аймағы
 MemberCard=Мүшелік картасы
 SubscriptionCard=Жазылу картасы
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Расталған қоғамдық мүшелер�
 ErrorThisMemberIsNotPublic=Бұл мүше жалпыға қолжетімді емес
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Басқа мүше (аты: <b>%s</b>, логин: <b>%s</b>) үшінші тарапқа әлдеқашан байланыстырылған <b>%s</b>. Алдымен осы сілтемені жойыңыз, себебі үшінші тарапты тек мүшемен байланыстыру мүмкін емес (және керісінше).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Қауіпсіздік мақсатында мүшені сіздікі емес пайдаланушымен байланыстыру үшін барлық пайдаланушыларды өңдеуге рұқсат алуыңыз қажет.
-SetLinkToUser=Dolibarr пайдаланушысына сілтеме
-SetLinkToThirdParty=Dolibarr үшінші тарапқа сілтеме
+SetLinkToUser=ZionOne пайдаланушысына сілтеме
+SetLinkToThirdParty=ZionOne үшінші тарапқа сілтеме
 MemberCountersArePublic=Жарамды мүшелердің есептегіштері жалпыға ортақ
 MembersCards=Мүшелер үшін карталарды құру
 MembersList=Мүшелердің тізімі
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Бұл үлесті шынымен жойғыңыз к
 Filehtpasswd=htpasswd файлы
 ValidateMember=Мүшені растау
 ConfirmValidateMember=Бұл мүшені растағыңыз келетініне сенімдісіз бе?
-FollowingLinksArePublic=Келесі сілтемелер Dolibarr рұқсатымен қорғалмаған ашық беттер болып табылады. Олар мәліметтер базасының мүшелерінің тізімін көрсету үшін мысал ретінде берілген, пішімделген беттер емес.
+FollowingLinksArePublic=Келесі сілтемелер ZionOne рұқсатымен қорғалмаған ашық беттер болып табылады. Олар мәліметтер базасының мүшелерінің тізімін көрсету үшін мысал ретінде берілген, пішімделген беттер емес.
 PublicMemberList=Жалпыға ортақ мүшелер тізімі
 BlankSubscriptionForm=Қоғамдық өзін-өзі тіркеу нысаны
-BlankSubscriptionFormDesc=Dolibarr сізге келушілерге қорға жазылуды сұрауға рұқсат беру үшін ашық URL/веб -сайтты ұсына алады. Егер онлайн төлем модулі қосылған болса, төлем формасы да автоматты түрде берілуі мүмкін.
+BlankSubscriptionFormDesc=ZionOne сізге келушілерге қорға жазылуды сұрауға рұқсат беру үшін ашық URL/веб -сайтты ұсына алады. Егер онлайн төлем модулі қосылған болса, төлем формасы да автоматты түрде берілуі мүмкін.
 EnablePublicSubscriptionForm=Жалпыға қолжетімді веб-сайтты өзіне жазылу формасымен қосыңыз
 ForceMemberType=Мүше түрін мәжбүрлеңіз
 ExportDataset_member_1=Мүшелер мен жарналар

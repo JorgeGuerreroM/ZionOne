@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Beveiligingscode
 NumberingShort=N°
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Hallo)__\n\nIn de bijlage vindt u interven
 PredefinedMailContentLink=Indien u nog niet heeft betaald kunt u op de onderstaande link klikken. %s
 PredefinedMailContentGeneric=__(Hallo)__\n\n\n__(Eerlijk)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Herinnering "__EVENT_LABEL__" op __EVENT_DATE__ om __EVENT_TIME__ <br> <br> Dit is een automatisch bericht, gelieve niet te antwoorden.
-DemoDesc=Dolibarr is een compacte ERP / CRM die verschillende bedrijfsmodules ondersteunt. Een demo met alle modules heeft geen zin omdat dit scenario zich nooit voordoet (enkele honderden beschikbaar). Er zijn dus verschillende demoprofielen beschikbaar.
+DemoDesc=ZionOne is een compacte ERP / CRM die verschillende bedrijfsmodules ondersteunt. Een demo met alle modules heeft geen zin omdat dit scenario zich nooit voordoet (enkele honderden beschikbaar). Er zijn dus verschillende demoprofielen beschikbaar.
 DemoDesc2=Dit is een beperkte gedeelde demo. U kunt er de voorkeur aan geven om te testen op uw eigen speciale exemplaar met volledige beheerdersrechten. Ga hiervoor naar <a href="%s" target="_blank"> en klik hier <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Kies het demoprofiel dat het beste bij u past ...
 ChooseYourDemoProfilMore=... of bouw je eigen profiel <br> (handmatige moduleselectie)
@@ -197,10 +197,10 @@ BugTracker=Bug tracker
 SendNewPasswordDesc=Met dit formulier kunt u een nieuw wachtwoord aanvragen. Het wordt naar uw e-mailadres verzonden. <br> De wijziging wordt van kracht zodra u op de bevestigingslink in de e-mail klikt. <br> Controleer je inbox.
 EnterNewPasswordHere=Vul hier je nieuwe wachtwoord in
 BackToLoginPage=Terug naar de inlogpagina
-AuthenticationDoesNotAllowSendNewPassword=Authenticatiemodus is <b>%s</b>.<br>In deze modus kan Dolibarr uw wachtwoord niet weten of wijzigen.<br>Neem contact op met uw systeembeheerder als u uw wachtwoord  wilt wijzigen.
+AuthenticationDoesNotAllowSendNewPassword=Authenticatiemodus is <b>%s</b>.<br>In deze modus kan ZionOne uw wachtwoord niet weten of wijzigen.<br>Neem contact op met uw systeembeheerder als u uw wachtwoord  wilt wijzigen.
 EnableGDLibraryDesc=Installeer of schakel GD-bibliotheek op uw PHP-installatie in om deze optie te gebruiken.
 ProfIdShortDesc=Prof. id <b>%s</b> is een gegeven afhankelijk van het land.<br>Voor land <b>%s</b>, is de code bijvoorbeeld <b>%s</b>.
-DolibarrDemo=Dolibarr ERP / CRM demonstratie
+DolibarrDemo=ZionOne ERP / CRM demonstratie
 StatsByAmount=Statistieken over hoeveelheid producten/diensten
 StatsByAmountProducts=Statistieken over de hoeveelheid producten
 StatsByAmountServices=Statistieken over het aantal diensten
@@ -404,4 +404,4 @@ SetHereATitleForLink = Stel een naam in voor de bladwijzer
 ShowBookmark = Toon weblink
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Gebruik een externe/absolute link (https://externalurl.com) of een interne/relatieve link (/mypage.php). U kunt ook een telefoon gebruiken zoals tel: 0123456.
-SubscribeToFoundation=Help het Dolibarr-project, abonneer je op de stichting
+SubscribeToFoundation=Help het ZionOne-project, abonneer je op de stichting

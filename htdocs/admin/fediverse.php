@@ -30,7 +30,7 @@
  *      \brief      Page to setup fedivers in module Socialnetworks
  */
 
-//load Dolibarr environment
+//load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/socialnetwork.lib.php';
@@ -169,7 +169,7 @@ if ($action == 'confirm_delete' && GETPOST('confirm') == 'yes') {
 		dol_print_error($db, "sql=".$sql);
 		exit;
 	} else {
-		$result = dolibarr_del_const($db, "SOCIAL_NETWORKS_DATA_".$name, $conf->entity);
+		$result = zionone_del_const($db, "SOCIAL_NETWORKS_DATA_".$name, $conf->entity);
 		if ($result) {
 			$db->commit();
 			header("Location: ".$_SERVER["PHP_SELF"]);

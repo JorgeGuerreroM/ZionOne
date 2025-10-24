@@ -28,7 +28,7 @@
  *	\brief      Setup page to configure company social networks
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 
@@ -78,8 +78,8 @@ if (($action == 'update' && !GETPOST("cancel", 'alpha'))) {
 				}
 				dolibarr_set_const($db, $networkconstid, GETPOST($key, 'alpha'), 'chaine', 0, '', $conf->entity);
 			} else {
-				dolibarr_del_const($db, $networkconstname, $conf->entity);
-				dolibarr_del_const($db, $networkconstid, $conf->entity);
+				zionone_del_const($db, $networkconstname, $conf->entity);
+				zionone_del_const($db, $networkconstid, $conf->entity);
 			}
 		}
 	}

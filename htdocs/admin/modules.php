@@ -34,7 +34,7 @@ if (!defined('CSRFCHECK_WITH_TOKEN') && (empty($_GET['action']) || $_GET['action
 	define('CSRFCHECK_WITH_TOKEN', '1'); // Force use of CSRF protection with tokens even for GET
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
@@ -988,7 +988,7 @@ if ($mode == 'common' || $mode == 'commonkanban') {
 		}
 
 		if ($objMod->isCoreOrExternalModule() == 'external' && $action == 'checklastversion' && !getDolGlobalString('DISABLE_CHECK_ON_MALWARE_MODULES')) {
-			$checkRes = $objMod->checkForCompliance();	// Check if module is reported as non compliant with Dolibarr rules and law
+			$checkRes = $objMod->checkForCompliance();	// Check if module is reported as non compliant with ZionOne rules and law
 			if (!is_numeric($checkRes) && $checkRes != '') {
 				$langs->load("errors");
 				setEventMessages($objMod->getName().' : '.$langs->trans($checkRes), null, 'errors');
@@ -1170,7 +1170,7 @@ if ($mode == 'common' || $mode == 'commonkanban') {
 			// Picto + Name of module
 			print '  <td class="tdoverflowmax200 minwidth200imp" title="'.dol_escape_htmltag($objMod->getName()).'">';
 			$alttext = '';
-			//if (is_array($objMod->need_dolibarr_version)) $alttext.=($alttext?' - ':'').'Dolibarr >= '.join('.',$objMod->need_dolibarr_version);
+			//if (is_array($objMod->need_dolibarr_version)) $alttext.=($alttext?' - ':'').'ZionOne >= '.join('.',$objMod->need_dolibarr_version);
 			//if (is_array($objMod->phpmin)) $alttext.=($alttext?' - ':'').'PHP >= '.join('.',$objMod->phpmin);
 			if (!empty($objMod->picto)) {
 				if (preg_match('/^\//i', $objMod->picto)) {
@@ -1306,11 +1306,11 @@ if ($mode == 'marketplace') {
 	print '</td>';
 	print '</tr>';
 
-	$url = 'https://github.com/Dolibarr/dolibarr-community-modules';
+	$url = 'https://github.com/ZionOne/ZionOne-community-modules';
 
 	// Community
 	print '<tr class="oddeven">'."\n";
-	print '<td class="hideonsmartphone center width150 nopaddingleftimp nopaddingrightimp"><a href="'.$url.'" target="_blank" rel="noopener noreferrer external"><img border="0" class="imgautosize imgmaxwidth100" src="'.DOL_URL_ROOT.'/theme/dolibarr_logo.svg"></a></td>';
+	print '<td class="hideonsmartphone center width150 nopaddingleftimp nopaddingrightimp"><a href="'.$url.'" target="_blank" rel="noopener noreferrer external"><img border="0" class="imgautosize imgmaxwidth100" src="'.DOL_URL_ROOT.'/theme/logo.png"></a></td>';
 	print '<td><span class="opacitymedium">'.$langs->trans("CommunityModulesDesc").'</span><br>';
 	print img_picto('', 'url', 'class="pictofixedwidth"').'<a href="'.$url.'" target="_blank" rel="noopener noreferrer external">'.$url.'</a></td>';
 	print '<td>';
@@ -1604,7 +1604,7 @@ if ($mode == 'develop') {
 	print '</tr>';
 
 	print '<tr class="oddeven" height="80">'."\n";
-	$url = 'https://partners.dolibarr.org';
+	$url = 'https://partners.ZionOne.org';
 	print '<td class="center">';
 	print'<a href="'.$url.'" target="_blank" rel="noopener noreferrer external"><img border="0" class="imgautosize imgmaxwidth180" src="'.DOL_URL_ROOT.'/theme/dolibarr_preferred_partner.png"></a>';
 	print '</td>';

@@ -21,9 +21,9 @@
  * 	\file       htdocs/public/fichinter/calendarexport.php
  * 	\ingroup    fichinter
  * 	\brief      Page to export fichinter agenda into a vcal, ical or rss
- * 				http://127.0.0.1/dolibarr/public/fichinter/calendarexport.php?format=vcal&exportkey=cle
- * 				http://127.0.0.1/dolibarr/public/fichinter/calendarexport.php?format=ical&type=event&exportkey=cle
- * 				http://127.0.0.1/dolibarr/public/fichinter/calendarexport.php?format=rss&exportkey=cle
+ * 				http://127.0.0.1/ZionOne/public/fichinter/calendarexport.php?format=vcal&exportkey=cle
+ * 				http://127.0.0.1/ZionOne/public/fichinter/calendarexport.php?format=ical&type=event&exportkey=cle
+ * 				http://127.0.0.1/ZionOne/public/fichinter/calendarexport.php?format=rss&exportkey=cle
  *              Other parameters into url are:
  *              &notolderthan=99
  *              &year=2015
@@ -62,7 +62,7 @@ if (is_numeric($entity)) {
 	define("DOLENTITY", $entity);
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/fichinter/class/fichinter.class.php';
 /**
@@ -686,16 +686,16 @@ function build_exportfile($format, $type, $cachedelay, $filename, $filters)
 		}
 		if ($more) {
 			if (empty($title)) {
-				$title = 'Dolibarr actions '.$mysoc->name.' - '.$more;
+				$title = 'ZionOne actions '.$mysoc->name.' - '.$more;
 			}
 			$desc = $more;
-			$desc .= ' ('.$mysoc->name.' - built by Dolibarr)';
+			$desc .= ' ('.$mysoc->name.' - built by ZionOne)';
 		} else {
 			if (empty($title)) {
-				$title = 'Dolibarr actions '.$mysoc->name;
+				$title = 'ZionOne actions '.$mysoc->name;
 			}
 			$desc = $langs->transnoentities('ListOfActions');
-			$desc .= ' ('.$mysoc->name.' - built by Dolibarr)';
+			$desc .= ' ('.$mysoc->name.' - built by ZionOne)';
 		}
 
 		// Create temp file

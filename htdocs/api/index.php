@@ -130,7 +130,7 @@ if (getDolGlobalString('MAIN_NGINX_FIX')) {
 // Enable and test if module Api is enabled
 if (!isModEnabled('api')) {
 	$langs->load("admin");
-	dol_syslog("Call of Dolibarr API interfaces with module API REST are disabled");
+	dol_syslog("Call of ZionOne API interfaces with module API REST are disabled");
 	print $langs->trans("WarningModuleNotActive", 'Api').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	//session_destroy();
@@ -140,7 +140,7 @@ if (!isModEnabled('api')) {
 // Test if explorer is not disabled
 if (preg_match('/api\/index\.php\/explorer/', $url) && getDolGlobalString('API_EXPLORER_DISABLED')) {
 	$langs->load("admin");
-	dol_syslog("Call Dolibarr API interfaces with module API REST disabled");
+	dol_syslog("Call ZionOne API interfaces with module API REST disabled");
 	print $langs->trans("WarningAPIExplorerDisabled").'.<br><br>';
 	//session_destroy();
 	exit(0);

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kod
 WebsiteName=Veb-sayt nomi
 WebsiteSetupDesc=Bu erda siz foydalanmoqchi bo'lgan veb-saytlarni yarating. Keyin ularni tahrirlash uchun veb-saytlar menyusiga o'ting.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Ushbu veb-saytni jonli ravishda joyla
 SetHereVirtualHost= <u> Apache/NGinx/bilan ishlatish ... </u> <br> Veb -serveringizda (Apache, Nginx, ...) PHP yoqilgan maxsus Virtual Xost PHP bilan va Root direktoriyada <br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Apache virtual xostini o'rnatishda foydalanish uchun misol:
 YouCanAlsoTestWithPHPS=<u>Use with PHP embedded server</u><br>On develop environment, you may prefer to test the site with the PHP embedded web server by running
-YouCanAlsoDeployToAnotherWHP=<u>Run your web site inside a Dolibarr web Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another Dolibarr instance provided by another Dolibarr hosting provider that provide full integration with the Website module. You can find a list of some Dolibarr hosting providers on <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Run your web site inside a ZionOne web Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another ZionOne instance provided by another ZionOne hosting provider that provide full integration with the Website module. You can find a list of some ZionOne hosting providers on <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Virtual xost foydalanuvchisi (masalan, www-data) <strong> %s </strong> fayllariga <br> a0e7843947c064az0c a0e7843947c064010c a0e7843947fz0 </strong> ruxsati borligini ham tekshiring.
 ReadPerm=O'qing
 WritePerm=Yozing
 TestDeployOnWeb=Internetda sinov / tarqatish
 PreviewSiteServedByWebServer= <u> %s ni yangi varaqda ko'rib chiqish. </u> <br> <br> %s tashqi veb -server tomonidan xizmat ko'rsatiladi (Apache, Nginx, IIS kabi). Siz ushbu serverni o'rnatishingiz va sozlashingiz kerak:<br><strong>%s</strong><br>URL serverda yo'rdamchi server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Dolibarr server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Dolibarr.<br>URL served by Dolibarr:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
+PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by ZionOne server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your ZionOne.<br>URL served by ZionOne:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
 VirtualHostUrlNotDefined=Tashqi veb-server tomonidan xizmat ko'rsatiladigan virtual xost manzili aniqlanmagan
 NoPageYet=Hali sahifalar yo'q
 YouCanCreatePageOrImportTemplate=Siz yangi sahifa yaratishingiz yoki to'liq veb-sayt shablonini import qilishingiz mumkin
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Tez orada buyurtma tafsilotlari sahifasiga yo'nal
 WebPortalSetupNotComplete=Veb-portalni sozlash tugallanmagan
 DeleteWebsiteAccount=Veb-sayt hisobini o'chirish
 ConfirmDeleteWebsiteAccount=Haqiqatan ham bu hisobni oʻchirib tashlamoqchimisiz.
-ConfirmDeleteWebsiteAccount2=Agar bu akkauntdan umumiy portalga yoki Dolibarr tomonidan boshqariladigan boshqa veb-saytga kirish uchun foydalanilgan bo'lsa, tizimga kirish imkoni bo'lmasligi mumkin.
+ConfirmDeleteWebsiteAccount2=Agar bu akkauntdan umumiy portalga yoki ZionOne tomonidan boshqariladigan boshqa veb-saytga kirish uchun foydalanilgan bo'lsa, tizimga kirish imkoni bo'lmasligi mumkin.
 ContentSecurityPolicy=Veb-sayt HTTP "Kontent-Xavfsizlik-Siyosat"
 WebsiteSecurityForceRP=Veb-sayt HTTP "Referer-Policy"
 WebsiteSecurityForceSTS=Veb-sayt HTTP "Transport-Xavfsizlik qat'iy"

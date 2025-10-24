@@ -39,7 +39,7 @@ $database = isset($argv[4]) ? $argv[4] : '';
 $loginbase = isset($argv[5]) ? $argv[5] : '';
 $passwordbase = isset($argv[6]) ? $argv[6] : '';
 
-// Include Dolibarr environment
+// Include ZionOne environment
 $res = 0;
 if (!$res && file_exists($path."../../master.inc.php")) {
 	$res = @include $path."../../master.inc.php";
@@ -57,10 +57,10 @@ if (!$res && file_exists("../../../master.inc.php")) {
 	$res = @include "../../../master.inc.php";
 }
 if (!$res && preg_match('/\/nltechno([^\/]*)\//', $_SERVER["PHP_SELF"], $reg)) {
-	$res = @include $path."../../../dolibarr".$reg[1]."/htdocs/master.inc.php"; // Used on dev env only
+	$res = @include $path."../../../ZionOne".$reg[1]."/htdocs/master.inc.php"; // Used on dev env only
 }
 if (!$res && preg_match('/\/nltechno([^\/]*)\//', $_SERVER["PHP_SELF"], $reg)) {
-	$res = @include "../../../dolibarr".$reg[1]."/htdocs/master.inc.php"; // Used on dev env only
+	$res = @include "../../../ZionOne".$reg[1]."/htdocs/master.inc.php"; // Used on dev env only
 }
 if (!$res) {
 	die("Failed to include master.inc.php file\n");

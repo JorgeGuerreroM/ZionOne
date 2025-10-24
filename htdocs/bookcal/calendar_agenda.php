@@ -23,7 +23,7 @@
  *  \brief      Tab of events on Calendar
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';

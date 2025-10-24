@@ -27,7 +27,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/security/generate/modules_genpassw
 
 
 /**
- *	Class to generate a password according to a dolibarr standard rule (12 random chars)
+ *	Class to generate a password according to a ZionOne standard rule (12 random chars)
  */
 class modGeneratePassStandard extends ModeleGenPassword
 {

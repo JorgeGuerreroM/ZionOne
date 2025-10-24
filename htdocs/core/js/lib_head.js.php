@@ -67,7 +67,7 @@ if (!defined('MAIN_ALREADY_INCLUDED')) {
 if (!defined('MAIN_ALREADY_INCLUDED')) {
 	// Define javascript type
 	top_httphead('text/javascript; charset=UTF-8');
-	// Important: Following code is to avoid page request by browser and PHP CPU at each Dolibarr page access.
+	// Important: Following code is to avoid page request by browser and PHP CPU at each ZionOne page access.
 	if (empty($dolibarr_nocache)) {
 		header('Cache-Control: max-age=10800, public, must-revalidate');
 	} else {
@@ -151,7 +151,7 @@ if ($thousand == 'Space') {
 }
 
 ?>
-// Javascript libraries for Dolibarr ERP CRM (https://www.dolibarr.org)
+// Javascript libraries for ZionOne ERP CRM (https://www.ZionOne.org)
 
 
 // To start/stop Block UI
@@ -309,7 +309,7 @@ function dpChangeDay(dateFieldID, format)
  * Hour (1-12) | hh (2 digits) Hour (0-23) | HH (2 digits)
  * Minute | mm (2 digits)
  * Second | ss (2 digits)
- * Author: Laurent Destailleur Author: Matelli (see http://matelli.fr/showcases/patchs-dolibarr/update-date-input-in-action-form.html)
+ * Author: Laurent Destailleur Author: Matelli (see http://matelli.fr/showcases/patchs-ZionOne/update-date-input-in-action-form.html)
  * Licence: GPL
  * ==================================================================
  */
@@ -1362,7 +1362,7 @@ function dolroundjs(number, decimals) { return +(Math.round(number + "e+" + deci
  * @param  {number|string} amount    The amount to show
  * @param  {string} mode             'MT' or 'MU'
  * @param  {string} currency_code    ISO code of currency (empty by default)
- * @param  {string} force_locale     ISO code locale to use (if empty, will use Dolibarr's current locale code)
+ * @param  {string} force_locale     ISO code locale to use (if empty, will use ZionOne's current locale code)
  * @return {string}                  The amount with digits
  *
  */
@@ -1396,7 +1396,7 @@ function pricejs(amount, mode = 'MT', currency_code = '', force_locale = '') {
 		return Intl.NumberFormat(locale_code.replace('_', '-'), formattingOptions).format(amount);
 	}
 
-	// No Intl -> attempt to format the number in a way similar to Dolibarr PHP's `price()` function
+	// No Intl -> attempt to format the number in a way similar to ZionOne PHP's `price()` function
 	amountAsLocalizedString = amount.toFixed(nDigits).replace(
 		/((?!^)(?:\d{3})*)(?:\.(\d+))?$/,
 		(fullMatch, digitsByThree, decimals) =>

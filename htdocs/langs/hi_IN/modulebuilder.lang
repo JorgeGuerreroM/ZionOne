@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= मॉड्यूल आईडी
 ModuleBuilderDesc=इस उपकरण का उपयोग केवल अनुभवी उपयोगकर्ताओं या डेवलपर्स द्वारा ही किया जाना चाहिए। यह आपके स्वयं के मॉड्यूल को बनाने या संपादित करने के लिए उपयोगिताएँ प्रदान करता है। वैकल्पिक <a href="%s" target="_blank" rel="noopener noreferrer">मैन्युअल विकास के लिए दस्तावेज़ यहाँ है</a>।
 EnterNameOfModuleDesc=बिना किसी स्पेस के बनाए जाने वाले मॉड्यूल/एप्लिकेशन का नाम दर्ज करें। शब्दों को अलग करने के लिए बड़े अक्षरों का उपयोग करें (उदाहरण के लिए: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=आप अपना मॉड्यूल हट�
 EnterNameOfObjectToDeleteDesc=आप किसी ऑब्जेक्ट को हटा सकते हैं। चेतावनी: ऑब्जेक्ट से संबंधित सभी कोडिंग फ़ाइलें (मैन्युअल रूप से जेनरेट या बनाई गई) हटा दी जाएंगी!
 DangerZone=खतरा क्षेत्र
 BuildPackage=पैकेज बनाएँ
-BuildPackageDesc=आप अपने एप्लिकेशन का ज़िप पैकेज बना सकते हैं ताकि आप इसे किसी भी Dolibarr पर वितरित करने के लिए तैयार हों। आप इसे <a href="https://www.dolistore.com">DoliStore.com</a> जैसे मार्केटप्लेस पर वितरित या बेच भी सकते हैं।
+BuildPackageDesc=आप अपने एप्लिकेशन का ज़िप पैकेज बना सकते हैं ताकि आप इसे किसी भी ZionOne पर वितरित करने के लिए तैयार हों। आप इसे <a href="https://www.dolistore.com">DoliStore.com</a> जैसे मार्केटप्लेस पर वितरित या बेच भी सकते हैं।
 BuildDocumentation=दस्तावेज़ बनाएँ
 ModuleIsNotActive=यह मॉड्यूल अभी सक्रिय नहीं है। इसे लाइव करने के लिए %s पर जाएं या यहां क्लिक करें
 ModuleIsLive=यह मॉड्यूल सक्रिय कर दिया गया है। कोई भी परिवर्तन वर्तमान लाइव सुविधा को बाधित कर सकता है।

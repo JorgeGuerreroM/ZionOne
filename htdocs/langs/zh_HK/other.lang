@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=安全碼
 NumberingShort=編號
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nPlease find intervention __REF
 PredefinedMailContentLink=如果尚未完成付款，您可以點擊下面的連結進行付款。\n\n%s\n\n
 PredefinedMailContentGeneric=__（你好）__\n\n\n__（真誠地）__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=活動提醒「__EVENT_LABEL__」於__EVENT_DATE__ __EVENT_TIME__<br><br>這是一則自動訊息，請勿回覆。
-DemoDesc=Dolibarr 是一個緊湊的 ERP/CRM，支持多個業務模塊。展示所有模塊的演示沒有任何意義，因為這種情況永遠不會發生（有數百個可用）。因此，有幾個演示配置文件可用。
+DemoDesc=ZionOne 是一個緊湊的 ERP/CRM，支持多個業務模塊。展示所有模塊的演示沒有任何意義，因為這種情況永遠不會發生（有數百個可用）。因此，有幾個演示配置文件可用。
 DemoDesc2=This is a restricted shared demo, you may prefer to test on your own dedicated instance with a full admin access, to do so, <a href="%s" target="_blank">go here <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=選擇最適合您需求的演示配置文件...
 ChooseYourDemoProfilMore=...或建立您自己的設定檔<br>（手動模組選擇）
@@ -197,10 +197,10 @@ BugTracker=錯誤追踪器
 SendNewPasswordDesc=此表格允許您請求新密碼。它將發送到您的電子郵件地址。 <br> 單擊電子郵件中的確認連接後，更改將生效。 <br> 檢查你的收件箱。
 EnterNewPasswordHere=在此輸入您的新密碼
 BackToLoginPage=返回登錄頁面
-AuthenticationDoesNotAllowSendNewPassword=身份驗證模式為 <b> %s </b> 。 <br> 在此模式下，Dolibarr 無法知道也無法更改您的密碼。 <br> 如果您想更改密碼，請聯絡您的系統管理員。
+AuthenticationDoesNotAllowSendNewPassword=身份驗證模式為 <b> %s </b> 。 <br> 在此模式下，ZionOne 無法知道也無法更改您的密碼。 <br> 如果您想更改密碼，請聯絡您的系統管理員。
 EnableGDLibraryDesc=在 PHP 安裝上安裝或啟用 GD 庫以使用此選項。
 ProfIdShortDesc= <b> 教授 ID %s </b>  是取決於第三方國家的信息。 <br> 例如，對於國家/地區 <b> %s </b> ，它的代碼是<b> %s </b> 。
-DolibarrDemo=Dolibarr ERP/CRM 演示
+DolibarrDemo=ZionOne ERP/CRM 演示
 StatsByAmount=產品/服務數量統計
 StatsByAmountProducts=產品數量統計
 StatsByAmountServices=服務數量統計
@@ -404,4 +404,4 @@ SetHereATitleForLink = Set a name for the bookmark
 ShowBookmark = Show bookmark
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = 使用 外部 / 絕對 連接 (https://externalurl.com) 或 內部 / 相對 連接 (/mypage.php)。您也可以使用電話，如電話：0123456。
-SubscribeToFoundation=Help the Dolibarr project, subscribe to the foundation
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

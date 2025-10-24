@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=ການຕັ້ງຄ່າໂມດູນເສັ້ນດ່າງ
-StripeDesc=ສະເໜີໃຫ້ລູກຄ້າຂອງທ່ານມີໜ້າການຈ່າຍເງິນອອນໄລນ໌ສຳລັບການຈ່າຍເງິນດ້ວຍບັດເຄຣດິດ/ເດບິດຜ່ານ <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. ນີ້ສາມາດຖືກນໍາໃຊ້ເພື່ອໃຫ້ລູກຄ້າຂອງທ່ານສາມາດຊໍາລະແບບສະເພາະຫຼືສໍາລັບການຈ່າຍເງິນທີ່ກ່ຽວຂ້ອງກັບວັດຖຸ Dolibarr ໂດຍສະເພາະ (ໃບແຈ້ງຫນີ້, ຄໍາສັ່ງຊື້, ... )
+StripeDesc=ສະເໜີໃຫ້ລູກຄ້າຂອງທ່ານມີໜ້າການຈ່າຍເງິນອອນໄລນ໌ສຳລັບການຈ່າຍເງິນດ້ວຍບັດເຄຣດິດ/ເດບິດຜ່ານ <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. ນີ້ສາມາດຖືກນໍາໃຊ້ເພື່ອໃຫ້ລູກຄ້າຂອງທ່ານສາມາດຊໍາລະແບບສະເພາະຫຼືສໍາລັບການຈ່າຍເງິນທີ່ກ່ຽວຂ້ອງກັບວັດຖຸ ZionOne ໂດຍສະເພາະ (ໃບແຈ້ງຫນີ້, ຄໍາສັ່ງຊື້, ... )
 StripeOrCBDoPayment=ຈ່າຍດ້ວຍບັດເຄຣດິດຫຼື Stripe
-FollowingUrlAreAvailableToMakePayments=URLs ຕໍ່ໄປນີ້ແມ່ນມີຢູ່ເພື່ອສະ ເໜີ ໜ້າ ໃຫ້ລູກຄ້າເພື່ອຊໍາລະເງິນກັບວັດຖຸ Dolibarr
+FollowingUrlAreAvailableToMakePayments=URLs ຕໍ່ໄປນີ້ແມ່ນມີຢູ່ເພື່ອສະ ເໜີ ໜ້າ ໃຫ້ລູກຄ້າເພື່ອຊໍາລະເງິນກັບວັດຖຸ ZionOne
 PaymentForm=ແບບຟອມການຊໍາລະເງິນ
 WelcomeOnPaymentPage=ຍິນດີຕ້ອນຮັບສູ່ການບໍລິການຊໍາລະເງິນອອນໄລນຂອງພວກເຮົາ
 ThisScreenAllowsYouToPay=ໜ້າ ຈໍນີ້ຊ່ວຍໃຫ້ເຈົ້າສາມາດຊໍາລະເງິນອອນໄລນ to ຫາ %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL ເພື່ອສະ ເໜີ %s 
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL ເພື່ອສະ ເໜີ %s ໜ້າ ການຊໍາລະເງິນອອນໄລນ for ສໍາລັບການສະmemberັກສະມາຊິກ
 ToOfferALinkForOnlinePaymentOnDonation=URL ເພື່ອສະ ເໜີ %s ໜ້າ ການຊໍາລະເງິນອອນໄລນ for ສໍາລັບການຊໍາລະເງິນບໍລິຈາກ
 YouCanAddTagOnUrl=You can also add url parameter <b>&tag=value</b> to any of those URL (mandatory only for payment not linked to an object) to add your own payment comment tag.<br>For the URL of payments with no existing object, you may also add the parameter <strong>&noidempotency=1</strong> so the same link with same tag can be used several times (some payment mode may limit the payment to 1 for each different link without this parameter)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=ຕັ້ງຄ່າ Stripe ຂອງເຈົ້າດ້ວຍ url <b> %s </b> ເພື່ອໃຫ້ມີການຊໍາລະເງິນໂດຍອັດຕະໂນມັດເມື່ອຖືກກວດສອບໂດຍ Stripe.
 AccountParameter=ຕົວກໍານົດການບັນຊີ
 UsageParameter=ຕົວກໍານົດການນໍາໃຊ້

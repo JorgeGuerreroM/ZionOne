@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= ID modula
 ModuleBuilderDesc=Ovaj alat smiju koristiti samo iskusni korisnici ili programeri. Pruža pomoćne programe za izgradnju ili uređivanje vlastitog modula. Dokumentacija za alternativni <a href="%s" target="_blank" rel="noopener noreferrer"> ručni razvoj je ovdje </a>.
 EnterNameOfModuleDesc=Unesite naziv modula/aplikacije u izradi bez razmaka. Koristite velika slova za odvajanje riječi (Na primjer: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -110,7 +110,7 @@ HooksDefDesc=Definirajte u svojstvu <b>module_parts['hooks']</b>, u datoteci des
 TriggerDefDesc=U datoteci okidača definirajte kod koji želite izvršiti kada se izvrši poslovni događaj izvan vašeg modula (događaji koje pokreću drugi moduli).
 SeeIDsInUse=Pogledajte ID-ove koji se koriste u vašoj instalaciji
 SeeReservedIDsRangeHere=Pogledajte raspon rezerviranih ID-ova
-ToolkitForDevelopers=Alati za Dolibarr programere
+ToolkitForDevelopers=Alati za ZionOne programere
 TryToUseTheModuleBuilder=Ako poznajete SQL i PHP, možete koristiti izvorni čarobnjak za izradu modula.<br>Omogućite modul <strong>%s</strong> i koristite čarobnjaka klikom na <span class="fa fa-bug"></span> u gornjem desnom izborniku.<br>Upozorenje : Ovo je napredna značajka za razvojne programere, <b>nemojte</b> eksperimentirati na svojoj produkcijskoj stranici!
 SeeTopRightMenu=Pogledajte <span class="fa fa-bug"></span> u gornjem desnom izborniku
 AddLanguageFile=Dodajte jezičnu datoteku

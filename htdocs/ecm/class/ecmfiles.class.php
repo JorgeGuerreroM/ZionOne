@@ -163,7 +163,7 @@ class EcmFiles extends CommonObject
 		'label' => array('type' => 'varchar(128)', 'label' => 'Label', 'enabled' => 1, 'position' => 30, 'notnull' => 0, 'visible' => -1, 'searchall' => 1, 'css' => 'minwidth300', 'cssview' => 'wordbreak', 'showoncombobox' => 2, 'validate' => 1, 'comment' => "contains hash of file content"),
 		'share' => array('type' => 'varchar(128)', 'label' => 'Share', 'enabled' => 1, 'position' => 40, 'notnull' => 0, 'visible' => -1, 'searchall' => 1, 'css' => 'minwidth300', 'cssview' => 'wordbreak', 'showoncombobox' => 2, 'validate' => 1, 'comment' => "contains hash for file sharing"),
 		'entity' => array('type' => 'integer', 'label' => 'Entity', 'default' => '1', 'enabled' => 1, 'visible' => -2, 'notnull' => -1, 'position' => 50, 'index' => 1),
-		'filepath' => array('type' => 'varchar(255)', 'label' => 'FilePath', 'enabled' => 1, 'position' => 60, 'notnull' => 0, 'visible' => 0, 'searchall' => 0, 'css' => 'minwidth300', 'cssview' => 'wordbreak', 'showoncombobox' => 2, 'validate' => 1,'comment' => "relative to dolibarr document dir. Example module/def"),
+		'filepath' => array('type' => 'varchar(255)', 'label' => 'FilePath', 'enabled' => 1, 'position' => 60, 'notnull' => 0, 'visible' => 0, 'searchall' => 0, 'css' => 'minwidth300', 'cssview' => 'wordbreak', 'showoncombobox' => 2, 'validate' => 1,'comment' => "relative to ZionOne document dir. Example module/def"),
 		'filename' => array('type' => 'varchar(255)', 'label' => 'FileName', 'enabled' => 1, 'position' => 70, 'notnull' => 0, 'visible' => 1, 'searchall' => 1, 'css' => 'minwidth300', 'cssview' => 'wordbreak', 'showoncombobox' => 2, 'validate' => 1,'comment' => "file name only without any directory"),
 		'src_object_type' => array('type' => 'varchar(64)', 'label' => 'SourceType', 'enabled' => 1, 'position' => 80, 'notnull' => 0, 'visible' => 0, 'searchall' => 1, 'css' => 'minwidth300', 'cssview' => 'wordbreak', 'showoncombobox' => 2, 'validate' => 1,'comment' => "Source object type ('proposal', 'invoice', ...)"),
 		'src_object_id' => array('type' => 'integer', 'label' => 'SourceID', 'default' => '1', 'enabled' => 1, 'visible' => 0, 'notnull' => 1, 'position' => 90, 'index' => 1, 'comment' => "Source object id"),
@@ -449,7 +449,7 @@ class EcmFiles extends CommonObject
 		$sql .= " t.agenda_id";
 		$sql .= ' FROM '.MAIN_DB_PREFIX.$this->table_element.' as t';
 		$sql .= ' WHERE 1 = 1';
-		/* Fetching this table depends on filepath+filename, it must not depends on entity because filesystem on disk does not know what is Dolibarr entities
+		/* Fetching this table depends on filepath+filename, it must not depends on entity because filesystem on disk does not know what is ZionOne entities
 		 if (isModEnabled('multicompany')) {
 		 $sql .= " AND entity IN (" . getEntity('ecmfiles') . ")";
 		 }*/

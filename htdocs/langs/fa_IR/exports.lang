@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=صادرات
 ImportArea=واردات
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=انتخاب نوع فایل برای استفاده 
 ChooseFileToImport=فایل را بالاگذاری کرده و سپس روی نشانک %s کلیک کرده تا به‌عنوان فایل منبع واردات استفاده شود.
 SourceFileFormat=نوع فایل منبع
 FieldsInSourceFile=بخش‌های فایل منبع
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=بخشی وجود ندارد
 MoveField=جابجائی شماره ستون بخش %s
 ExampleOfImportFile=Example_of_import_file

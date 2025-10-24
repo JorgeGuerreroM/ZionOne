@@ -1,11 +1,11 @@
-# Dolibarr language file - Source file is en_US - cashdesk
+# ZionOne language file - Source file is en_US - cashdesk
 PrintReport=Imprimer le rapport
 PrintReportNoDetail=Imprimer le rapport (sans détail)
 SendTicket=Envoyer un ticket
 NoVAT=Pas de TVA (TAXE) pour cette vente
 BankToPay=Compte pour le paiement
 UserNeedPermissionToEditStockToUsePos=Vous demandez de diminuer le stock lors de la création de la facture, donc l'utilisateur qui utilise le POS doit avoir l'autorisation de modifier le stock.
-DolibarrReceiptPrinter=Imprimante de reçu Dolibarr
+DolibarrReceiptPrinter=Imprimante de reçu ZionOne
 PointOfSale=Point de vente
 Floors=Étages
 Floor=Étage
@@ -20,7 +20,7 @@ AmountAtEndOfPeriod=Montant à la fin de la période (jour, mois ou année)
 CashFence=Fermeture de la caisse
 Paymentnumpad=Type de bloc pour saisir le paiement
 BillsCoinsPad=Bloc de pièces et billets
-DolistorePosCategory=Modules TakePOS et autres solutions POS pour Dolibarr
+DolistorePosCategory=Modules TakePOS et autres solutions POS pour ZionOne
 TakeposNeedsCategories=TakePOS a besoin d'au moins une catégorie de produit pour fonctionner
 TakeposNeedsAtLeastOnSubCategoryIntoParentCategory=TakePOS a besoin d'au moins 1 sous-catégorie sous la catégorie de produit <b>%s</b> pour fonctionner
 OrderNotes=Vous pouvez ajouter des notes à chaque article commandé

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Mã
 WebsiteName=Tên của trang web
 WebsiteSetupDesc=Tạo ở đây các trang web bạn muốn sử dụng. Sau đó vào menu Trang web để chỉnh sửa chúng.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Để triển khai trang web này tr�
 SetHereVirtualHost=<u>Sử dụng với Apache/NGinx/...</u><br>Tạo trên máy chủ web của bạn (Apache, Nginx, ...) Máy chủ ảo chuyên dụng có bật PHP và thư mục gốc trên<br><strong> %s</strong>
 ExampleToUseInApacheVirtualHostConfig=Ví dụ để sử dụng trong thiết lập máy chủ ảo Apache:
 YouCanAlsoTestWithPHPS=<u>Sử dụng với máy chủ nhúng PHP</u><br>Trên môi trường phát triển, bạn có thể muốn thử nghiệm trang web với máy chủ web nhúng PHP bằng cách chạy
-YouCanAlsoDeployToAnotherWHP=<u>Chạy trang web của bạn bên trong nhà cung cấp dịch vụ lưu trữ web Dolibarr</u><br>Nếu bạn không có máy chủ web như Apache hoặc NGinx trên internet, bạn có thể xuất và nhập trang web của mình vào một phiên bản Dolibarr khác do nhà cung cấp dịch vụ lưu trữ Dolibarr khác cung cấp, cung cấp khả năng tích hợp đầy đủ với mô-đun Trang web. Bạn có thể tìm thấy danh sách một số nhà cung cấp dịch vụ lưu trữ Dolibarr trên <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Chạy trang web của bạn bên trong nhà cung cấp dịch vụ lưu trữ web ZionOne</u><br>Nếu bạn không có máy chủ web như Apache hoặc NGinx trên internet, bạn có thể xuất và nhập trang web của mình vào một phiên bản ZionOne khác do nhà cung cấp dịch vụ lưu trữ ZionOne khác cung cấp, cung cấp khả năng tích hợp đầy đủ với mô-đun Trang web. Bạn có thể tìm thấy danh sách một số nhà cung cấp dịch vụ lưu trữ ZionOne trên <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Đọc
 WritePerm=Viết
 TestDeployOnWeb=Kiểm tra / triển khai trên web
 PreviewSiteServedByWebServer=<u>Xem trước %s trong một tab mới.</u> <br><br> %s sẽ được phục vụ bởi một máy chủ web bên ngoài (như Apache, Nginx, IIS). Bạn phải cài đặt và thiết lập máy chủ này trước khi trỏ đến thư mục: <br> <strong>%s</strong> <br> URL được phục vụ bởi máy chủ bên ngoài: <br> <strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Xem trước %s trong một tab mới.</u><br><br>%s sẽ được phục vụ bởi máy chủ Dolibarr nên không cần cài đặt bất kỳ máy chủ web bổ sung nào (như Apache, Nginx, IIS).<br>Điều bất tiện là URL của các trang không thân thiện với người dùng và bắt đầu bằng đường dẫn Dolibarr của bạn.<br>URL do Dolibarr cung cấp:<br><strong>%s</strong><br><br>Để triển khai hoặc thử nghiệm bằng máy chủ web bên ngoài của riêng bạn (như Apache, Nginx, Lighttp), hãy sử dụng liên kết "%s".
+PreviewSiteServedByDolibarr=<u>Xem trước %s trong một tab mới.</u><br><br>%s sẽ được phục vụ bởi máy chủ ZionOne nên không cần cài đặt bất kỳ máy chủ web bổ sung nào (như Apache, Nginx, IIS).<br>Điều bất tiện là URL của các trang không thân thiện với người dùng và bắt đầu bằng đường dẫn ZionOne của bạn.<br>URL do ZionOne cung cấp:<br><strong>%s</strong><br><br>Để triển khai hoặc thử nghiệm bằng máy chủ web bên ngoài của riêng bạn (như Apache, Nginx, Lighttp), hãy sử dụng liên kết "%s".
 VirtualHostUrlNotDefined=URL của máy chủ ảo được cung cấp bởi máy chủ web bên ngoài không được xác định
 NoPageYet=Chưa có trang nào
 YouCanCreatePageOrImportTemplate=Bạn có thể tạo một trang mới hoặc nhập một mẫu trang web đầy đủ
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Bạn sẽ sớm được chuyển hướng đế
 WebPortalSetupNotComplete=Thiết lập cổng thông tin web chưa hoàn tất
 DeleteWebsiteAccount=Xóa tài khoản trang web
 ConfirmDeleteWebsiteAccount=Bạn có chắc chắn muốn xóa tài khoản này không?
-ConfirmDeleteWebsiteAccount2=Nếu tài khoản này được sử dụng để đăng nhập vào cổng thông tin công cộng hoặc bất kỳ trang web nào khác do Dolibarr cung cấp, việc đăng nhập có thể không còn thực hiện được nữa.
+ConfirmDeleteWebsiteAccount2=Nếu tài khoản này được sử dụng để đăng nhập vào cổng thông tin công cộng hoặc bất kỳ trang web nào khác do ZionOne cung cấp, việc đăng nhập có thể không còn thực hiện được nữa.
 ContentSecurityPolicy=Trang web HTTP "Nội dung-Bảo mật-Chính sách"
 WebsiteSecurityForceRP=Trang web HTTP "Chính sách giới thiệu"
 WebsiteSecurityForceSTS=Trang web HTTP "Strict-Transport-Security"

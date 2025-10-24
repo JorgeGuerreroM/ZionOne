@@ -20,7 +20,7 @@
 -- ===========================================================================
 
 --
--- Table for constants used to store Dolibarr setup
+-- Table for constants used to store ZionOne setup
 --
 
 create table llx_const

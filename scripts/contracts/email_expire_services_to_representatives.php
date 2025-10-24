@@ -24,7 +24,7 @@
 /**
  * \file scripts/contracts/email_expire_services_to_representatives.php
  * \ingroup contracts
- * \brief Script to send a mail to dolibarr users linked to companies with services to expire
+ * \brief Script to send a mail to ZionOne users linked to companies with services to expire
  */
 
 if (!defined('NOSESSION')) {
@@ -179,7 +179,7 @@ if ($resql) {
 			}
 		}
 	} else {
-		print "No services to expire (for companies linked to a particular commercial dolibarr user) found\n";
+		print "No services to expire (for companies linked to a particular commercial ZionOne user) found\n";
 	}
 
 	exit(0);

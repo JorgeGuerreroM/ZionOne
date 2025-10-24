@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=HRM sectie
 UserCard=Gebruikersdetails
 GroupCard=Groepsdetails
@@ -63,10 +63,10 @@ LinkToCompanyContact=Derden link/contact
 LinkedToDolibarrMember=Link Lidmaatschap
 LinkedToDolibarrUser=Link naar gebruiker
 LinkedToDolibarrThirdParty=Link naar relatie
-CreateDolibarrLogin=Maak Dolibarr account
+CreateDolibarrLogin=Maak ZionOne account
 CreateDolibarrThirdParty=Creëer nieuwe klant
-LoginAccountDisableInDolibarr=Account uitgeschakeld in Dolibarr
-PASSWORDInDolibarr=Wachtwoord aangepast in Dolibarr
+LoginAccountDisableInDolibarr=Account uitgeschakeld in ZionOne
+PASSWORDInDolibarr=Wachtwoord aangepast in ZionOne
 UsePersonalValue=Gebruik persoonlijke waarde
 ExportDataset_user_1=Gebruikers en hun eigenschappen
 ExportDataset_user_2=Lijst met beveiligingsgebeurtenissen

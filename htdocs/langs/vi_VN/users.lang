@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=Khu vực HRM
 UserCard=Thẻ người dùng
 GroupCard=Thẻ Nhóm
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Liên kết với người dùng
 LinkedToDolibarrThirdParty=Liên kết với bên thứ ba
 CreateDolibarrLogin=Tạo một người dùng
 CreateDolibarrThirdParty=Tạo một bên thứ ba
-LoginAccountDisableInDolibarr=Tài khoản bị vô hiệu hóa trong Dolibarr
-PASSWORDInDolibarr=Mật khẩu được sửa đổi trong Dolibarr
+LoginAccountDisableInDolibarr=Tài khoản bị vô hiệu hóa trong ZionOne
+PASSWORDInDolibarr=Mật khẩu được sửa đổi trong ZionOne
 UsePersonalValue=Dùng giá trị cá nhân
 ExportDataset_user_1=Người dùng và các tính chất của họ
 ExportDataset_user_2=Danh sách các sự kiện bảo mật

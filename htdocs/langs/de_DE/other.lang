@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Sicherheitsschlüssel
 NumberingShort=Nr.
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Hello)__,\n\nanbei senden wir Ihnen den Ar
 PredefinedMailContentLink=Sie können den folgenden Link anklicken um die Zahlung auszuführen, falls sie noch nicht getätigt wurde.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__,\n\n__(Sincerely)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Ereigniserinnerung "__EVENT_LABEL__" am __EVENT_DATE__ um __EVENT_TIME__ <br> <br> Dies ist eine automatische Nachricht. Bitte antworten Sie nicht.
-DemoDesc=Dolibarr ist eine Management-Software die mehrere Business-Module anbietet. Eine Demo, die alle Module beinhaltet ist nicht sinnvoll , weil der Fall nie existiert (Hunderte von verfügbaren Module). Es stehen auch einige Demo-Profile Typen zur Verfügung.
+DemoDesc=ZionOne ist eine Management-Software die mehrere Business-Module anbietet. Eine Demo, die alle Module beinhaltet ist nicht sinnvoll , weil der Fall nie existiert (Hunderte von verfügbaren Module). Es stehen auch einige Demo-Profile Typen zur Verfügung.
 DemoDesc2=Dies ist eine eingeschränkte, öffentlich genutzte Demo. Sie möchten möglicherweise lieber auf Ihrer eigenen dedizierten Instanz mit vollem Administrator-Zugriff testen. Gehen Sie hierzu zu <a href="%s" target="_blank"> <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Bitte wählen Sie das Demo-Profil das Ihrem Anwendgsfall am ehesten entspricht
 ChooseYourDemoProfilMore=...oder bauen Sie Ihr eigenes Profil <br> (manuelle Auswahl der Module)
@@ -200,7 +200,7 @@ BackToLoginPage=Zurück zur Anmeldeseite
 AuthenticationDoesNotAllowSendNewPassword=Im derzeit gewählten Authentifizierungsmodus <b>(%s)</b> kann das System nicht auf Ihre Passwortdaten zugreifen und diese auch nicht ändern.<br> Wenden Sie sich hierzu bitte an den Systemadministrator.
 EnableGDLibraryDesc=Installiere oder aktiviere die GD Bibliothek in der PHP Installtion um dieses Option zu verwenden.
 ProfIdShortDesc=<b>Prof ID %s</b> dient zur Speicherung landesabhängiger Partnerdaten. <br> Für das Land <b>%s</b> ist dies beispielsweise Code <b>%s</b>.
-DolibarrDemo=Dolibarr ERP/CRM-Demo
+DolibarrDemo=ZionOne ERP/CRM-Demo
 StatsByAmount=Statistik über die Menge der Produkte/Dienstleistungen
 StatsByAmountProducts=Statistik der Produktmengen
 StatsByAmountServices=Statistik der Anzahl Leistungen
@@ -404,4 +404,4 @@ SetHereATitleForLink = Erfassen Sie hier einen Namen für das Lesezeichen
 ShowBookmark = Zeige Lesezeichen
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Verwenden Sie einen externen/absoluten Link (https://externalurl.com) oder einen internen/relativen Link (/mypage.php). Sie können auch eine Telefonnummer wie tel:0123456 verwenden.
-SubscribeToFoundation=Helfen auch Sie dem Dolibarr-Projekt und unterstützen uns mit einer Spende.
+SubscribeToFoundation=Helfen auch Sie dem ZionOne-Projekt und unterstützen uns mit einer Spende.

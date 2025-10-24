@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Configuration du module Stripe
-StripeDesc=Proposez à vos clients une page de paiement en ligne pour les paiements par carte bancaire via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Cela peut être utilisé pour permettre à vos clients d'effectuer des paiements ponctuels ou pour des paiements liés à un objet Dolibarr particulier (facture, commande, ...)
+StripeDesc=Proposez à vos clients une page de paiement en ligne pour les paiements par carte bancaire via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Cela peut être utilisé pour permettre à vos clients d'effectuer des paiements ponctuels ou pour des paiements liés à un objet ZionOne particulier (facture, commande, ...)
 StripeOrCBDoPayment=Payer avec carte de crédit ou Stripe
-FollowingUrlAreAvailableToMakePayments=Les URL suivantes sont disponibles pour offrir une page à un client pour effectuer un paiement sur les objets Dolibarr
+FollowingUrlAreAvailableToMakePayments=Les URL suivantes sont disponibles pour offrir une page à un client pour effectuer un paiement sur les objets ZionOne
 ThisScreenAllowsYouToPay=Cet écran vous permet de faire un paiement en ligne à %s.
 ThisIsInformationOnPayment=Il s'agit d'informations sur le paiement à effectuer
 ToComplete=Compléter
@@ -20,7 +20,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL pour proposer une page de paiement 
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL pour proposer une page de paiement en ligne %s pour un abonnement membre
 ToOfferALinkForOnlinePaymentOnDonation=URL pour proposer une page de paiement en ligne %s pour le règlement d'un don
 YouCanAddTagOnUrl=Vous pouvez également ajouter le paramètre d'URL <b>&tag=value</b> à l'une de ces URL (obligatoire uniquement pour les paiements non liés à un objet) pour ajouter votre propre balise de commentaire de paiement.<br>Pour l'URL des paiements sans objet existant, vous pouvez également ajouter le paramètre <strong>&noidempotency=1</strong> afin que le même lien avec la même balise puisse être utilisé plusieurs fois (certains modes de paiement peuvent limiter le paiement à 1 pour chaque lien différent sans ce paramètre)
-YouCanEmbedOnWebsite=Si vous souhaitez intégrer la page de paiement dans un site Dolibarr, vous pouvez inclure le paramètre : <b>&ws=website_ref</b>.<br>De plus, deux pages nommées <b>paymentok</b> et <b>paymentko</b> doivent être créé sur le site Web pour recevoir la redirection après un paiement en ligne réussi ou échoué.
+YouCanEmbedOnWebsite=Si vous souhaitez intégrer la page de paiement dans un site ZionOne, vous pouvez inclure le paramètre : <b>&ws=website_ref</b>.<br>De plus, deux pages nommées <b>paymentok</b> et <b>paymentko</b> doivent être créé sur le site Web pour recevoir la redirection après un paiement en ligne réussi ou échoué.
 SetupStripeToHavePaymentCreatedAutomatically=Configurez votre Stripe avec url <b> %s</b> pour que le paiement soit créé automatiquement lorsqu'il est validé par Stripe.
 InformationToFindParameters=Aidez-nous à trouver vos informations sur le compte %s
 STRIPE_CGI_URL_V2=Url of Stripe CGI module de paiement

@@ -24,7 +24,7 @@ jobs:
         - 32574:3306
 
     steps:
-    # git clone dolibarr into GITHUB_WORKSPACE = /home/runner/work/dolibarr/dolibarr
+    # git clone ZionOne into GITHUB_WORKSPACE = /home/runner/work/ZionOne/ZionOne
     - uses: actions/checkout@v3
       with:
         fetch-depth: 1
@@ -108,10 +108,10 @@ jobs:
 
         mysql --host 127.0.0.1 --port 32574 -uroot -ppassword -D travis -e "UPDATE llx_const set value = '0666' WHERE name = 'MAIN_UMASK';"
 
-    - name: Generate Dolibarr conf file
+    - name: Generate ZionOne conf file
       run: |
         export CONF_FILE=$GITHUB_WORKSPACE/htdocs/conf/conf.php
-        echo "Setting up Dolibarr $CONF_FILE"
+        echo "Setting up ZionOne $CONF_FILE"
         echo '<?php' > $CONF_FILE
         echo '$'dolibarr_main_url_root=\'http://127.0.0.1\'';' >> $CONF_FILE
         echo '$'dolibarr_main_document_root=\'/var/www/html\'';' >> $CONF_FILE
@@ -123,12 +123,12 @@ jobs:
         echo '$'dolibarr_main_instance_unique_id=\'travis1234567890\'';' >> $CONF_FILE
         echo '$'dolibarr_main_db_type=\'mysqli\'';' >> $CONF_FILE
         echo '$'dolibarr_main_db_port=\'32574\'';' >> $CONF_FILE
-        echo '$'dolibarr_main_authentication=\'dolibarr\'';' >> $CONF_FILE
+        echo '$'dolibarr_main_authentication=\'ZionOne\'';' >> $CONF_FILE
         cat $CONF_FILE
     - name: Generate install.forced.php file to test installation
       run: |
         export INSTALL_FORCED_FILE=$GITHUB_WORKSPACE/htdocs/install/install.forced.php
-        echo "Setting up Dolibarr $INSTALL_FORCED_FILE to test installation"
+        echo "Setting up ZionOne $INSTALL_FORCED_FILE to test installation"
         # Ensure we catch errors
         set +e
         echo '<?php' > $INSTALL_FORCED_FILE
@@ -152,8 +152,8 @@ jobs:
         # and admin/temp subdirectory needed for unit tests
         sudo mkdir -p /var/www/html/documents/admin/temp
         sudo chmod -R a+rwx /var/www/html/documents
-        sudo echo "***** First line of dolibarr.log" > /var/www/html/documents/dolibarr.log
-        sudo chmod a+rwx /var/www/html/documents/dolibarr.log
+        sudo echo "***** First line of ZionOne.log" > /var/www/html/documents/ZionOne.log
+        sudo chmod a+rwx /var/www/html/documents/ZionOne.log
 
     - name: Copy app into /var/www
       run: |
@@ -197,7 +197,7 @@ jobs:
         set +e
         ls /var/log/apache2
         #wget -O - --debug http://127.0.0.1/robots.txt
-        # The wget should return a page with line '<meta name="generator" content="Dolibarr installer">
+        # The wget should return a page with line '<meta name="generator" content="ZionOne installer">
         wget -O - --debug http://127.0.0.1 > $GITHUB_WORKSPACE/test.html 2>&1
         head -n 200 $GITHUB_WORKSPACE/test.html
 
@@ -208,7 +208,7 @@ jobs:
         sudo cat /var/log/apache2/other_vhosts_access.log
         set +e
 
-    - name: Upgrading Dolibarr
+    - name: Upgrading ZionOne
       run: |
         # Ensure we catch errors. Set this to +e if you want to go to the end to see log files.
         set -e
@@ -304,7 +304,7 @@ jobs:
 
     - name: Unit testing
       run: |
-        # Ensure we catch errors. Set this to +e instead of -e if you want to go to the end to see dolibarr.log file.
+        # Ensure we catch errors. Set this to +e instead of -e if you want to go to the end to see ZionOne.log file.
         set -e
         cd /var/www/html
         sudo chmod -R a+rwx /var/www/html/documents

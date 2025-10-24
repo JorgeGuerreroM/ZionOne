@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Τα στοιχεία επικοινωνίας σας έχουν καταγραφεί. Θα επικοινωνήσουμε μαζί σας σύντομα...
 ContactUsDesc=Αυτή η φόρμα σάς δίνει τη δυνατοτητα να μας στείλετε ένα μήνυμα για μια πρώτη επαφή.
 ErrorCompanyNameAlreadyExists=Το όνομα τις εταιρίας %s υπάρχει ήδη. Επιλέξτε κάποιο άλλο.

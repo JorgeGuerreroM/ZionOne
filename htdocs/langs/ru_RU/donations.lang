@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Пожертвование
 Donations=Пожертвования
 DonationRef=Пожертвование ссылка.
@@ -37,7 +37,7 @@ DonationUseThirdparties=Используйте адрес существующе
 DonationsStatistics=Пожертвование Статистика
 NbOfDonations=номер пожертвований
 BlankDonationForm=Публичное пожертвование форма
-BlankDonationFormDesc=Dolibarr может предоставить вам публичный URL/веб-сайт, чтобы внешние посетители могли сделать пожертвование. Если включен онлайновый платеж модуль, платеж форма также может быть предоставлен автоматически.
+BlankDonationFormDesc=ZionOne может предоставить вам публичный URL/веб-сайт, чтобы внешние посетители могли сделать пожертвование. Если включен онлайновый платеж модуль, платеж форма также может быть предоставлен автоматически.
 EnablePublicDonationForm=Включить публичное пожертвование форма
 EnablePublicDonationList=Включить публичное пожертвование Список
 ForceDonateurNature = Принудительный донор Природа (частное лицо или корпорация)

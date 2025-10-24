@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Lexoni punën e planifikuar
 Permission23102 = Krijo/përditëso punë të planifikuar
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Çaktivizo
 CronTaskInactive=Kjo punë është e çaktivizuar (jo e planifikuar)
 CronId=Id
 CronClassFile=Emri i skedarit me klasën
-CronModuleHelp=Name of Dolibarr module directory (also work with external Dolibarr module). <BR> For example to call the fetch method of Dolibarr Product object /htdocs/<u>product</u>/class/product.class.php, the value for module is<br><i>product</i>
-CronClassFileHelp=The relative path and file name to load (path is relative to web server root directory). <BR> For example to call the fetch method of Dolibarr Product object htdocs/product/class/<u>product.class.php</u>, the value for class file name is<br><i>product/class/product.class.php</i>
-CronObjectHelp=Emri i objektit për t'u ngarkuar. <BR> Për shembull për të thirrur metodën e marrjes së Dolibarr Produkt objekt /htdocs/product/class/product.class.php, vlera për emrin e skedarit të klasës është <br><i>Produkt</i>
-CronMethodHelp=Metoda e objektit për të nisur. <BR> Për shembull, për të thirrur metodën e marrjes së Dolibarr Produkt objekt /htdocs/product/class/product.class.php, vlera për metodën është  <br><i>marr</i>
-CronArgsHelp=Argumentet e metodës. <BR> Për shembull, për të thirrur metodën e marrjes së Dolibarr Produkt objekt /htdocs/product/class/product.class.php, vlera për parametrat mund të jetë <br><i>0, ProductRef</i>
+CronModuleHelp=Name of ZionOne module directory (also work with external ZionOne module). <BR> For example to call the fetch method of ZionOne Product object /htdocs/<u>product</u>/class/product.class.php, the value for module is<br><i>product</i>
+CronClassFileHelp=The relative path and file name to load (path is relative to web server root directory). <BR> For example to call the fetch method of ZionOne Product object htdocs/product/class/<u>product.class.php</u>, the value for class file name is<br><i>product/class/product.class.php</i>
+CronObjectHelp=Emri i objektit për t'u ngarkuar. <BR> Për shembull për të thirrur metodën e marrjes së ZionOne Produkt objekt /htdocs/product/class/product.class.php, vlera për emrin e skedarit të klasës është <br><i>Produkt</i>
+CronMethodHelp=Metoda e objektit për të nisur. <BR> Për shembull, për të thirrur metodën e marrjes së ZionOne Produkt objekt /htdocs/product/class/product.class.php, vlera për metodën është  <br><i>marr</i>
+CronArgsHelp=Argumentet e metodës. <BR> Për shembull, për të thirrur metodën e marrjes së ZionOne Produkt objekt /htdocs/product/class/product.class.php, vlera për parametrat mund të jetë <br><i>0, ProductRef</i>
 CronCommandHelp=Linja e komandës së sistemit për të ekzekutuar.
 CronCreateJob=Krijo një punë të re të planifikuar
 CronFrom=Nga

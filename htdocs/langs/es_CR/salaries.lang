@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Cuenta contable por defecto para pago de sueldos
 CREATE_NEW_SALARY_WITHOUT_AUTO_PAYMENT=Por defecto, deje vacía la opción "Crear automáticamente un pago total" al crear un salario.
 Salary=Sueldo

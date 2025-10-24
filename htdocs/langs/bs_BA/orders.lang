@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Narudžba je već bila otvorena povezana s ovim prijedlogom, tako da nijedna druga narudžba nije kreirana automatski
 OrdersArea=Područje narudžbi kupaca
 SuppliersOrdersArea=Područje za narudžbenice

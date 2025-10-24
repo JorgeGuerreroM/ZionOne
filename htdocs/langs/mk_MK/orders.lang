@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Веќе беше отворена нарачка поврзана со овој предлог, така што ниедна друга нарачка не беше креирана автоматски
 OrdersArea=Областа за нарачки на клиентите
 SuppliersOrdersArea=Област за нарачки за купување

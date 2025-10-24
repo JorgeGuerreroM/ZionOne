@@ -75,7 +75,7 @@ class FilesLibMoveDirTest extends CommonClassTest
 		// Create a temporary destination directory
 		mkdir($this->destinationDir);
 
-		$this->nbLinesToShow = 0;  // Nothing useful in the dolibarr log for debugging.
+		$this->nbLinesToShow = 0;  // Nothing useful in the ZionOne log for debugging.
 	}
 
 	/**

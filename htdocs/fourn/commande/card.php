@@ -37,7 +37,7 @@
  */
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/categories/class/categorie.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/doleditor.class.php';
@@ -2912,7 +2912,7 @@ if ($action == 'create') {
 			$error_occurred = false;
 
 			// NS and Authentication parameters
-			$ws_ns = 'http://www.dolibarr.org/ns/';
+			$ws_ns = 'http://www.ZionOne.org/ns/';
 			$ws_authentication = array(
 				'dolibarrkey' => $ws_key,
 				'sourceapplication' => 'DolibarrWebServiceClient',
@@ -3025,8 +3025,8 @@ if ($action == 'create') {
 
 
 							// Ensure that price is equal and warn user if it's not
-							$supplier_price = price($result_product["product"]["price_net"]); //Price of client tab in supplier dolibarr
-							$local_price = null; //Price of supplier as stated in product suppliers tab on this dolibarr, NULL if not found
+							$supplier_price = price($result_product["product"]["price_net"]); //Price of client tab in supplier ZionOne
+							$local_price = null; //Price of supplier as stated in product suppliers tab on this ZionOne, NULL if not found
 
 							$product_fourn = new ProductFournisseur($db);
 							$product_fourn_list = $product_fourn->list_product_fournisseur_price($line->fk_product);

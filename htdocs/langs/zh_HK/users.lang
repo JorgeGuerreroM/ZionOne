@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=人力資源管理領域
 UserCard=用戶卡
 GroupCard=團體卡
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=連結至用戶
 LinkedToDolibarrThirdParty=連結至第三方
 CreateDolibarrLogin=創建用戶
 CreateDolibarrThirdParty=創建第三方
-LoginAccountDisableInDolibarr=帳戶在 Dolibarr 被禁用
-PASSWORDInDolibarr=在 Dolibarr 中修改了密碼
+LoginAccountDisableInDolibarr=帳戶在 ZionOne 被禁用
+PASSWORDInDolibarr=在 ZionOne 中修改了密碼
 UsePersonalValue=利用個人價值
 ExportDataset_user_1=用戶及其屬性
 ExportDataset_user_2=List of security events

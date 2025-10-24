@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Фактури | Плащания
 TaxModuleSetupToModifyRules=Отидете в <a href="%s">Настройка на модула за данъци</a>, за да промените правилата за изчисляване
 TaxModuleSetupToModifyRulesLT=Отидете в <a href="%s">Настройка на фирма / организация</a>, за да промените правилата за изчисляване

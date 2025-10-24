@@ -25,7 +25,7 @@ Edit composer.json to change version to "x.y.z"
 	composer -v update --root-reqs --no-dev --ignore-platform-reqs [--no-autoloader] [--dry-run] ccampbell/chromephp
 
 
-* To upgrade a lib with composer using the composer.json of Dolibarr:
+* To upgrade a lib with composer using the composer.json of ZionOne:
 
 Remove entry in composer.lock
 

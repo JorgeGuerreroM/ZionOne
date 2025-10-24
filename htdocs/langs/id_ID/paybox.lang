@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Pengaturan modul PayBox
-PayBoxDesc=Modul ini menawarkan halaman untuk memungkinkan pembayaran di <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> oleh pelanggan. Ini dapat digunakan untuk pembayaran gratis atau untuk pembayaran objek Dolibarr tertentu (faktur, pesanan, ...)
+PayBoxDesc=Modul ini menawarkan halaman untuk memungkinkan pembayaran di <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> oleh pelanggan. Ini dapat digunakan untuk pembayaran gratis atau untuk pembayaran objek ZionOne tertentu (faktur, pesanan, ...)
 PayBoxDoPayment=Bayar dengan Paybox
 YouWillBeRedirectedOnPayBox=Anda akan diarahkan ke halaman Paybox aman untuk memasukkan informasi kartu kredit Anda
 SetupPayBoxToHavePaymentCreatedAutomatically=Siapkan Paybox Anda dengan url<b>%s</b>agar pembayaran dibuat secara otomatis saat divalidasi oleh Paybox.

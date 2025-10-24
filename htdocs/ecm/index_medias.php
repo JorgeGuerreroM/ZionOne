@@ -25,7 +25,7 @@
  *	\brief      Main page for ECM section of public media directories area
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 /**
  * @var Conf $conf

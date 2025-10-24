@@ -29,7 +29,7 @@
 /**
  *     	\file       htdocs/public/website/index.php
  *		\ingroup    website
- *		\brief      Wrapper to output pages when website is powered by Dolibarr instead of a native web server
+ *		\brief      Wrapper to output pages when website is powered by ZionOne instead of a native web server
  */
 
 if (!defined('NOTOKENRENEWAL')) {
@@ -210,7 +210,7 @@ global $dolibarr_main_data_root;
 
 if ($pageid == 'css') {   // No more used ?
 	header('Content-type: text/css');
-	// Important: Following code is to avoid page request by browser and PHP CPU at each Dolibarr page access.
+	// Important: Following code is to avoid page request by browser and PHP CPU at each ZionOne page access.
 	//if (empty($dolibarr_nocache)) header('Cache-Control: max-age=3600, public, must-revalidate');
 	//else
 	header('Cache-Control: no-cache');
@@ -262,7 +262,7 @@ if (!file_exists($original_file_osencoded)) {
 // Output page content
 define('USEDOLIBARRSERVER', 1);
 if (!isset($originalcontentonly)) {
-	print '<!-- Page content '.$original_file.' rendered with DOLIBARR SERVER : Html with CSS link and html header + Body that was saved into tpl dir -->'."\n";
+	print '<!-- Page content '.$original_file.' rendered with ZionOne SERVER : Html with CSS link and html header + Body that was saved into tpl dir -->'."\n";
 }
 include_once $original_file_osencoded; // Note: The pageXXX.tpl.php showed here contains a formatage with dolWebsiteOutput() at end of page.
 

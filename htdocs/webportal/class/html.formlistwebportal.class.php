@@ -157,7 +157,7 @@ class FormListWebPortal
 				$search[$key] = GETPOST('search_' . $key, 'alpha');
 			}
 			if (preg_match('/^(date|timestamp|datetime)/', $val['type'])) {
-				/* Fix: this is not compatible with multilangage date format, replaced with dolibarr method
+				/* Fix: this is not compatible with multilangage date format, replaced with ZionOne method
 				$postDateStart = GETPOST('search_' . $key . '_dtstart', 'alphanohtml');
 				$postDateEnd = GETPOST('search_' . $key . '_dtend', 'alphanohtml');
 				// extract date YYYY-MM-DD for year, month and day

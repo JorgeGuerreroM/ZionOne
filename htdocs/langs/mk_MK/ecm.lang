@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Број на документи во именикот
 ECMSection=Директориум
 ECMSectionManual=Рачен директориум
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Број на поддиректориуми
 ECMNbOfFilesInSubDir=Број на датотеки во поддиректориуми
 ECMCreationUser=Создател
 ECMArea=DMS/ECM област
-ECMAreaDesc=Областа DMS/ECM (Систем за управување со документи / Електронско управување со содржина) ви овозможува брзо зачувување, споделување и пребарување на сите видови документи во Dolibarr.
+ECMAreaDesc=Областа DMS/ECM (Систем за управување со документи / Електронско управување со содржина) ви овозможува брзо зачувување, споделување и пребарување на сите видови документи во ZionOne.
 ECMAreaDesc2a=* Рачни директориуми може да се користат за зачувување документи со бесплатна организација на структурата на дрвото.
 ECMAreaDesc2b=* Автоматските директориуми се пополнуваат автоматски кога се додаваат документи од страницата на елементот.
 ECMAreaDesc3=* Public directories are files into the subdirectory <b>/medias</b> of the documents directory, readable by everybody on internet with no need to be logged and no need to have the file shared explicitly. It is used to store image files for the emailing or website module for example.

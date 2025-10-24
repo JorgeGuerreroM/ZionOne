@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=PayPal modul beállítása
-PaypalDesc=Ez a modul lehetővé teszi az ügyfelek számára a <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> keresztül történő fizetést. Ez felhasználható eseti vagy Dolibarr objektumhoz kapcsolódó fizetésre (számla, megrendelés, ...)
+PaypalDesc=Ez a modul lehetővé teszi az ügyfelek számára a <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> keresztül történő fizetést. Ez felhasználható eseti vagy ZionOne objektumhoz kapcsolódó fizetésre (számla, megrendelés, ...)
 PaypalOrCBDoPayment=Fizetés PayPal-lal (kártya vagy PayPal)
 PaypalDoPayment=Fizetés PayPal-lal
 PAYPAL_API_SANDBOX=Mód teszt/sandbox

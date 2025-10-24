@@ -1,9 +1,9 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=No. de documentos en directorio
 ECMCreationDate=Fecha de creación
 ECMNbOfFilesInSubDir=Número de archivos en subdirectorios
 ECMArea=Área de DMS / ECM
-ECMAreaDesc=El área de SAD/ACE (Sistema de Administración de Documentos / Administración de Contenido Electrónico) te permite guardar, compartir y rápidamente buscar todo tipo de documentos en Dolibarr.
+ECMAreaDesc=El área de SAD/ACE (Sistema de Administración de Documentos / Administración de Contenido Electrónico) te permite guardar, compartir y rápidamente buscar todo tipo de documentos en ZionOne.
 ECMAreaDesc2a=Los directorios manuales se pueden usar para guardar documentos con una organización libre de la estructura del árbol
 ECMSectionWasRemoved=El directorio <b>%s</b> ha sido borrado.
 ECMNoDirectoryYet=Ningún directorio creado

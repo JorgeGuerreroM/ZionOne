@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=การบริจาค
 Donations=การบริจาค
 DonationRef=อ้างอิงบริจาค
@@ -37,7 +37,7 @@ DonationUseThirdparties=ใช้ที่อยู่ของบุคคล�
 DonationsStatistics=สถิติการบริจาค
 NbOfDonations=จำนวนการบริจาค
 BlankDonationForm=แบบฟอร์มการบริจาคเพื่อประชาชน
-BlankDonationFormDesc=Dolibarr สามารถให้ URL/เว็บไซต์สาธารณะแก่คุณเพื่อให้ผู้เยี่ยมชมภายนอกสามารถบริจาคเงินได้ หากเปิดใช้งานโมดูลการชำระเงินออนไลน์ ระบบอาจให้แบบฟอร์มการชำระเงินโดยอัตโนมัติด้วย
+BlankDonationFormDesc=ZionOne สามารถให้ URL/เว็บไซต์สาธารณะแก่คุณเพื่อให้ผู้เยี่ยมชมภายนอกสามารถบริจาคเงินได้ หากเปิดใช้งานโมดูลการชำระเงินออนไลน์ ระบบอาจให้แบบฟอร์มการชำระเงินโดยอัตโนมัติด้วย
 EnablePublicDonationForm=เปิดใช้งานแบบฟอร์มบริจาคสาธารณะ
 EnablePublicDonationList=เปิดใช้งานรายการบริจาคสาธารณะ
 ForceDonateurNature = แรงบริจาคธรรมชาติ (บุคคลหรือบริษัท)

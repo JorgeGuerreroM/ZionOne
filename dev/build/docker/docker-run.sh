@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script used by the Dockerfile.
-# See README.md to know how to create a Dolibarr env with docker
+# See README.md to know how to create a ZionOne env with docker
 
 if [ "${PHP_INI_DIR}" == "" ]; then
 	echo
@@ -23,8 +23,8 @@ fi
 echo "[docker-run] => Set Permission to www-data for /var/www/documents"
 chown -R www-data:www-data /var/www/documents
 
-echo "[docker-run] => update '${PHP_INI_DIR}/conf.d/dolibarr-php.ini'"
-cat <<EOF > "${PHP_INI_DIR}/conf.d/dolibarr-php.ini"
+echo "[docker-run] => update '${PHP_INI_DIR}/conf.d/ZionOne-php.ini'"
+cat <<EOF > "${PHP_INI_DIR}/conf.d/ZionOne-php.ini"
 date.timezone = ${PHP_INI_DATE_TIMEZONE:-UTC}
 memory_limit = ${PHP_INI_MEMORY_LIMIT:-256M}
 EOF

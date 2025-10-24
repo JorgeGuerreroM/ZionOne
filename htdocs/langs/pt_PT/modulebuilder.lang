@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= módulo Id.
 ModuleBuilderDesc=Esta ferramenta deve ser usada apenas por usuários ou desenvolvedores experientes. Ele fornece utilitários para criar ou editar seu próprio módulo. A documentação para <a href="%s" target="_blank" rel="noopener noreferrer">desenvolvimento manual alternativo está aqui</a>.
 EnterNameOfModuleDesc=Insira o nome do módulo/Aplicação para criar sem espaços. Use letras maiúsculas para separar palavras (por exemplo: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Você pode eliminar, apagar seu módulo. AVISO: To
 EnterNameOfObjectToDeleteDesc=Você pode eliminar, apagar um objeto. AVISO: Todos os arquivos de codificação (gerados ou criados manualmente) relacionados ao objeto serão excluídos!
 DangerZone=Zona de perigo
 BuildPackage=Pacote de construção
-BuildPackageDesc=Você pode gerar um pacote zip do seu Aplicação para estar pronto para distribuí-lo em qualquer Dolibarr. Você também pode distribuí-lo ou vendê-lo no mercado como <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=Você pode gerar um pacote zip do seu Aplicação para estar pronto para distribuí-lo em qualquer ZionOne. Você também pode distribuí-lo ou vendê-lo no mercado como <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Criar documentação
 ModuleIsNotActive=Este módulo ainda não está ativado. Vá para %s para disponibilizá-lo ou clique aqui
 ModuleIsLive=Este módulo foi ativado. Qualquer alteração pode interromper um recurso ativo atual.
@@ -110,7 +110,7 @@ HooksDefDesc=Defina na propriedade <b>module_parts['hooks']</b>, no módulo desc
 TriggerDefDesc=Defina no gatilho ficheiro o Código que você deseja executar quando um evento de negócios externo ao seu módulo é executado (eventos acionados por outro módulos).
 SeeIDsInUse=Veja os códigos em uso na sua instalação
 SeeReservedIDsRangeHere=Veja o intervalo de IDs reservados
-ToolkitForDevelopers=Toolkit para desenvolvedores do Dolibarr
+ToolkitForDevelopers=Toolkit para desenvolvedores do ZionOne
 TryToUseTheModuleBuilder=Se você tem conhecimento de SQL e PHP, você pode usar o assistente do construtor de módulo nativo. <br> Habilite o módulo <strong> %s </ strong> e use o assistente clicando no <span class = "fa-bug"> </ span> no menu superior direito. <br> Aviso: este é um recurso de desenvolvedor avançado, não <b> experimente </ b> em seu site de produção!
 SeeTopRightMenu=Veja <span class = "fa fa-bug"> </ span> no menu superior direito
 AddLanguageFile=Adicionar ficheiro de idiomas

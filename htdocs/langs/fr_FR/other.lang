@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Code sécurité
 NumberingShort=N°
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Hello)__\n\nVeuillez trouver, ci-joint, la
 PredefinedMailContentLink=Vous pouvez cliquer sur le lien ci-dessous pour effectuer votre paiement si ce n'est déjà fait.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hello)__\n\n\n__(Sincerely)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Rappel de l'événement "__EVENT_LABEL__" le __EVENT_DATE__ à __EVENT_TIME__<br> <br>Ceci est un message automatique. Veuillez ne pas y répondre.
-DemoDesc=Dolibarr est un logiciel de gestion proposant plusieurs modules métiers. Une démonstration qui inclut tous ces modules n'a pas de sens car ce cas n'existe jamais (plusieurs centaines de modules disponibles). Aussi, quelques profils type de démo sont disponibles.
+DemoDesc=ZionOne est un logiciel de gestion proposant plusieurs modules métiers. Une démonstration qui inclut tous ces modules n'a pas de sens car ce cas n'existe jamais (plusieurs centaines de modules disponibles). Aussi, quelques profils type de démo sont disponibles.
 DemoDesc2=Il s'agit d'une démo partagée restreinte, vous préférerez peut-être tester sur votre propre instance dédiée avec un accès complet à Administrateur, pour ce faire, <a href="%s" target="_blank">cliquez ici <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Veuillez choisir le profil de démonstration qui correspond le mieux à votre activité…
 ChooseYourDemoProfilMore=...ou construisez votre propre profil<br>(sélection manuelle des modules)
@@ -197,10 +197,10 @@ BugTracker=Suivi de tickets
 SendNewPasswordDesc=Ce formulaire permet de faire une demande pour un nouveau mot de passe. Elle sera envoyée à votre adresse email.<br>La modification du mot de passe ne sera effective qu'après avoir cliqué sur le lien de confirmation dans cet email.<br>Surveillez votre messagerie.
 EnterNewPasswordHere=Entrez votre nouveau mot de passe ici
 BackToLoginPage=Retour page de connexion
-AuthenticationDoesNotAllowSendNewPassword=Le mode d'authentification de Dolibarr est configuré à "<b>%s</b>".<br>Dans ce mode, Dolibarr n'a pas la possibilité de connaître ni de modifier votre mot de passe.<br>Contactez votre administrateur pour connaitre les modalités de changement.
+AuthenticationDoesNotAllowSendNewPassword=Le mode d'authentification de ZionOne est configuré à "<b>%s</b>".<br>Dans ce mode, ZionOne n'a pas la possibilité de connaître ni de modifier votre mot de passe.<br>Contactez votre administrateur pour connaitre les modalités de changement.
 EnableGDLibraryDesc=Vous devez activer ou installer la librairie GD avec votre PHP pour pouvoir activer cette option.
 ProfIdShortDesc=<b>Id prof. %s</b> est une information qui dépend du pays du tiers.<br>Par exemple, pour le pays <b>%s</b>, il s'agit du code <b>%s</b>.
-DolibarrDemo=Démonstration de Dolibarr ERP/CRM
+DolibarrDemo=Démonstration de ZionOne ERP/CRM
 StatsByAmount=Statistiques sur la quantité de produits/services
 StatsByAmountProducts=Statistiques sur le montant des produits
 StatsByAmountServices=Statistiques sur le montant des services
@@ -404,4 +404,4 @@ SetHereATitleForLink = Saisir ici un titre pour le marque-page
 ShowBookmark = Afficher marque-page
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Utilisez un lien externe/absolu (https://externalurl.com) ou un lien interne/relatif (/mapage.php). Vous pouvez également utiliser un lien de téléphone comme tel:0123456.
-SubscribeToFoundation=Aidez le projet Dolibarr, adhérez à l'association Dolibarr
+SubscribeToFoundation=Aidez le projet ZionOne, adhérez à l'association ZionOne

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=<b> %s a09a4b730f17f டொமைனில் <b> %s </b>க்கான கடவுச்சொல் மாற்றப்பட வேண்டும்.
 UserMustChangePassNextLogon=பயனர் %s டொமைனில் கடவுச்சொல்லை மாற்ற வேண்டும்
 LDAPInformationsForThisContact=இந்தத் தொடர்புக்கான LDAP தரவுத்தளத்தில் உள்ள தகவல்
@@ -22,7 +22,7 @@ GroupSynchronized=குழு ஒத்திசைக்கப்பட்ட�
 MemberSynchronized=உறுப்பினர் ஒத்திசைக்கப்பட்டது
 MemberTypeSynchronized=உறுப்பினர் வகை ஒத்திசைக்கப்பட்டது
 ContactSynchronized=தொடர்பு ஒத்திசைக்கப்பட்டது
-ForceSynchronize=Dolibarr -> LDAPஐ கட்டாயமாக ஒத்திசைக்கவும்
+ForceSynchronize=ZionOne -> LDAPஐ கட்டாயமாக ஒத்திசைக்கவும்
 ErrorFailedToReadLDAP=LDAP தரவுத்தளத்தைப் படிக்க முடியவில்லை. LDAP தொகுதி அமைவு மற்றும் தரவுத்தள அணுகலைச் சரிபார்க்கவும்.
 PasswordOfUserInLDAP=LDAP இல் பயனரின் கடவுச்சொல்
 LDAPPasswordHashType=கடவுச்சொல் ஹாஷ் வகை

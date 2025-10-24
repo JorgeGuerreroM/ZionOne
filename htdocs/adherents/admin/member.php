@@ -33,7 +33,7 @@
  *		\brief      Page to setup the module Foundation
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/member.lib.php';
@@ -85,7 +85,7 @@ if ($action == 'set_default') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('MEMBER_ADDON_PDF_ODT') == "$value") {
-			dolibarr_del_const($db, 'MEMBER_ADDON_PDF_ODT', $conf->entity);
+			zionone_del_const($db, 'MEMBER_ADDON_PDF_ODT', $conf->entity);
 		}
 	}
 	$res = true;
@@ -109,7 +109,7 @@ if ($action == 'set_default') {
 	}
 } elseif (preg_match('/del_([a-z0-9_\-]+)/i', $action, $reg)) {
 	$code = $reg[1];
-	if (dolibarr_del_const($db, $code, $conf->entity) > 0) {
+	if (zionone_del_const($db, $code, $conf->entity) > 0) {
 		header("Location: ".$_SERVER["PHP_SELF"]);
 		exit;
 	} else {
@@ -219,7 +219,7 @@ if ($action == 'set') {
 
 // Action to disable a submodule of the adherent module
 if ($action == 'unset') {
-	$result = dolibarr_del_const($db, GETPOST('name', 'alpha'), $conf->entity);
+	$result = zionone_del_const($db, GETPOST('name', 'alpha'), $conf->entity);
 	if ($result < 0) {
 		print $db->error();
 	}

@@ -23,7 +23,7 @@
  *       \brief      Home page for top menu tools
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 /**

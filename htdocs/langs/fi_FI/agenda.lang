@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID-tapahtuma
 Actions=Tapahtumat
 Agenda=Agenda
@@ -30,9 +30,9 @@ ViewPerUser=Käyttäjäkohtaisesti
 ViewPerType=Tyyppikohtaisesti
 AutoActions= Automaattinen täyttö
 AgendaAutoActionDesc= Täällä voit määrittää tapahtumat, jotka haluat Dolibarrin luo automaattisesti Agendassa. Jos mitään ei ole valittu, vain manuaaliset toimenpiteet sisällytetään Agendassa näkyviin lokeihin ja. Objekteille tehtyjen liiketoimintojen automaattista seurantaa (validointi, tilanmuutos) ei tallenneta.
-AgendaSetupOtherDesc= Tällä sivulla on vaihtoehtoja, joilla voit sallia Dolibarr-tapahtumiesi viennin ulkoiseen kalenteriin (Thunderbird, Google-kalenteri jne.)
-AgendaExtSitesDesc=Tällä sivulla voit ilmoittaa ulkoisten kalenterien näkemään tapahtumiin otetaan Dolibarr asialistalle.
-ActionsEvents=Tapahtumat, joista Dolibarr luo toimia agenda tapahtuman automaattisesti
+AgendaSetupOtherDesc= Tällä sivulla on vaihtoehtoja, joilla voit sallia ZionOne-tapahtumiesi viennin ulkoiseen kalenteriin (Thunderbird, Google-kalenteri jne.)
+AgendaExtSitesDesc=Tällä sivulla voit ilmoittaa ulkoisten kalenterien näkemään tapahtumiin otetaan ZionOne asialistalle.
+ActionsEvents=Tapahtumat, joista ZionOne luo toimia agenda tapahtuman automaattisesti
 EventRemindersByEmailNotEnabled=Sähköpostitse lähetettyjä tapahtumamuistutuksia ei otettu käyttöön %s-moduulin asetuksissa.
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Kolmas osapuoli %s luotu

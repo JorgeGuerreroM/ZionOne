@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=الحساب (من مخطط الحسابات) المستخدم افتراضيًا لـ "المستخدمين" في الرواتب
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=سيتم استخدام الحساب المخصص المحدد على بطاقة المستخدم للمحاسبة في دفتر الأستاذ الفرعي فقط. سيتم استخدام هذا الحساب للمحاسبة في دفتر الأستاذ العام، ولكن أيضًا كقيمة افتراضية للمحاسبة في دفتر الأستاذ الفرعي إذا لم يتم تحديد حساب محاسبة مستخدم مخصص على المستخدم.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=حساب المحاسبة بشكل افتراضي لمدفوعات الأجور

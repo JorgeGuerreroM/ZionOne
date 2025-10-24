@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= รหัสโมดูล
 ModuleBuilderDesc=เครื่องมือนี้ต้องใช้โดยผู้ใช้หรือนักพัฒนาที่มีประสบการณ์เท่านั้น มียูทิลิตี้สำหรับสร้างหรือแก้ไขโมดูลของคุณเอง เอกสารประกอบสำหรับ <a href="%s" target="_blank" rel="noopener noreferrer">การพัฒนาด้วยตนเองทางเลือกอยู่ที่นี่</a>
 EnterNameOfModuleDesc=ป้อนชื่อของโมดูล/แอปพลิเคชันที่จะสร้างโดยไม่มีช่องว่าง ใช้ตัวพิมพ์ใหญ่เพื่อแยกคำ (เช่น MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=คุณสามารถลบโมดูล�
 EnterNameOfObjectToDeleteDesc=คุณสามารถลบวัตถุได้ คำเตือน: ไฟล์การเข้ารหัสทั้งหมด (ที่สร้างหรือสร้างด้วยตนเอง) ที่เกี่ยวข้องกับวัตถุจะถูกลบ!
 DangerZone=พื้นที่อันตราย
 BuildPackage=สร้างแพ็คเกจ
-BuildPackageDesc=คุณสามารถสร้างแพ็คเกจ zip ของแอปพลิเคชันของคุณเพื่อให้คุณพร้อมที่จะแจกจ่ายบน Dolibarr ใดก็ได้ คุณยังสามารถจัดจำหน่ายหรือขายในตลาดกลางได้ เช่น <a href="https://www.dolistore.com">DoliStore.com</a>
+BuildPackageDesc=คุณสามารถสร้างแพ็คเกจ zip ของแอปพลิเคชันของคุณเพื่อให้คุณพร้อมที่จะแจกจ่ายบน ZionOne ใดก็ได้ คุณยังสามารถจัดจำหน่ายหรือขายในตลาดกลางได้ เช่น <a href="https://www.dolistore.com">DoliStore.com</a>
 BuildDocumentation=สร้างเอกสาร
 ModuleIsNotActive=โมดูลนี้ยังไม่ได้เปิดใช้งาน ไปที่ %s เพื่อเผยแพร่หรือคลิกที่นี่
 ModuleIsLive=โมดูลนี้ถูกเปิดใช้งานแล้ว การเปลี่ยนแปลงใดๆ อาจทำให้ฟีเจอร์ที่ใช้งานอยู่ในปัจจุบันเสียหายได้
@@ -110,7 +110,7 @@ HooksDefDesc=กำหนดในคุณสมบัติ <b>module_parts['h
 TriggerDefDesc=กำหนดในไฟล์ทริกเกอร์โค้ดที่คุณต้องการดำเนินการเมื่อมีการดำเนินการเหตุการณ์ทางธุรกิจภายนอกโมดูลของคุณ (เหตุการณ์ที่ถูกทริกเกอร์โดยโมดูลอื่น)
 SeeIDsInUse=ดู ID ที่ใช้ในการติดตั้งของคุณ
 SeeReservedIDsRangeHere=ดูช่วงรหัสที่สงวนไว้
-ToolkitForDevelopers=ชุดเครื่องมือสำหรับนักพัฒนา Dolibarr
+ToolkitForDevelopers=ชุดเครื่องมือสำหรับนักพัฒนา ZionOne
 TryToUseTheModuleBuilder=หากคุณมีความรู้เกี่ยวกับ SQL และ PHP คุณสามารถใช้วิซาร์ดตัวสร้างโมดูลดั้งเดิมได้<br>เปิดใช้งานโมดูล <strong>%s</strong> และใช้วิซาร์ดโดยคลิกที่ <span class="fa fa-bug"></span> ที่เมนูด้านขวาบน<br>คำเตือน: นี่คือคุณลักษณะขั้นสูงสำหรับนักพัฒนาซอฟต์แวร์ <b>ไม่ใช่</b> ทดลองบนไซต์ที่ใช้งานจริงของคุณ!
 SeeTopRightMenu=ดู <span class="fa fa-bug"></span> ที่เมนูด้านขวาบน
 AddLanguageFile=เพิ่มไฟล์ภาษา

@@ -54,7 +54,7 @@ function save_db_cache() (
 	VERSIONS+=("4.0.0")
 	# Next versions are automatic
 
-	# Append versions up to the current dolibarr version
+	# Append versions up to the current ZionOne version
 	last_version=${VERSIONS[-1]}
 
 	target_major=${target_version%%.*}
@@ -88,7 +88,7 @@ if [ -r "${CONF_FILE}" ] ; then
 	echo "'${CONF_FILE} exists, not overwriting!"
 
 else
-	echo "Setting up Dolibarr '$CONF_FILE'"
+	echo "Setting up ZionOne '$CONF_FILE'"
 	{
 		echo '<?php'
 		echo 'error_reporting(E_ALL);'
@@ -113,7 +113,7 @@ else
 		if [ "${DB_PREFIX}" != '' ]; then
 			echo '$'"dolibarr_main_db_prefix='${DB_PREFIX}'"';'
 		fi
-		echo '$'dolibarr_main_authentication=\'dolibarr\'';'
+		echo '$'dolibarr_main_authentication=\'ZionOne\'';'
 		echo '$'force_install_createuser=true';'
 		echo '$'"dolibarr_main_db_collation='utf8_unicode_ci'"';'
 	} > "$CONF_FILE"
@@ -225,7 +225,7 @@ fi
 
 
 export INSTALL_FORCED_FILE="${TRAVIS_BUILD_DIR}/htdocs/install/install.forced.php"
-echo "Setting up Dolibarr '$INSTALL_FORCED_FILE' to test installation"
+echo "Setting up ZionOne '$INSTALL_FORCED_FILE' to test installation"
 # Ensure we catch errors
 set +e
 {

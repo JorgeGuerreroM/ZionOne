@@ -19,11 +19,11 @@ Then, you must edit you conf.php file to change the value of
 parameter to set it to :
  mypasschecker
 
-Once this is done, when you log in to Dolibarr, the function 
+Once this is done, when you log in to ZionOne, the function 
 check_user_mypasschecker in this file is called.
 If the function return true and login exists, login is accepted.
 
 
 
-See page https://wiki.dolibarr.org/index.php?title=Authentication,_SSO_and_SSL for more information.
+See page https://wiki.ZionOne.org/index.php?title=Authentication,_SSO_and_SSL for more information.
 

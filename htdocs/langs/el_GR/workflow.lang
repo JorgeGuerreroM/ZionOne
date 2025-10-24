@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Ρύθμιση ενότητας Ροής Εργασιών
 WorkflowDesc=Αυτή η ενότητα παρέχει ορισμένες αυτόματες ενέργειες. Από προεπιλογή, η ροή εργασιών είναι ανοιχτή (μπορείτε να κάνετε πράγματα με τη σειρά που θέλετε), αλλά εδώ μπορείτε να ενεργοποιήσετε ορισμένες αυτόματες ενέργειες.
 ThereIsNoWorkflowToModify=Δεν υπάρχουν διαθέσιμες τροποποιήσεις ροής εργασιών με τις ενεργοποιημένες ενότητες.

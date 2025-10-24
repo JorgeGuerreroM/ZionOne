@@ -32,7 +32,7 @@ class mod_contract_serpis extends ModelNumRefContracts
 {
 	// variables inherited from ModelNumRefContracts class
 	public $name = 'Serpis';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	// variables not inherited
 

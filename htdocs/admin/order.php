@@ -32,7 +32,7 @@
  *	\brief      Setup page of module Order
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/pdf.lib.php';
@@ -133,7 +133,7 @@ if ($action == 'updateMask') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('COMMANDE_ADDON_PDF') == $value) {
-			dolibarr_del_const($db, 'COMMANDE_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'COMMANDE_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'setdoc') {
@@ -215,7 +215,7 @@ if ($action == 'updateMask') {
 	}
 } elseif (preg_match('/del_(.*)/', $action, $reg)) {
 	$code = $reg[1];
-	$res = dolibarr_del_const($db, $code, $conf->entity);
+	$res = zionone_del_const($db, $code, $conf->entity);
 
 	if (!($res > 0)) {
 		$error++;

@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=PayBox moduluaren konfigurazioa
-PayBoxDesc=Modulu honek bezeroek <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>-en ordainketa egin ahal izateko orrialdeak eskaintzen ditu. Hau doako ordainketa baterako edo Dolibarr objektu jakin baten ordainketarako erabil daiteke (faktura, eskaera, ...).
+PayBoxDesc=Modulu honek bezeroek <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>-en ordainketa egin ahal izateko orrialdeak eskaintzen ditu. Hau doako ordainketa baterako edo ZionOne objektu jakin baten ordainketarako erabil daiteke (faktura, eskaera, ...).
 PayBoxDoPayment=Ordaindu Paybox-ekin
 YouWillBeRedirectedOnPayBox=Zure kreditu txartelaren informazioa sartzeko Paybox orrialde seguru batera birbideratuko zaitugu.
 SetupPayBoxToHavePaymentCreatedAutomatically=Konfiguratu zure Paybox <b>%s</b> URLarekin, Paybox-ek baliozkotzean ordainketa automatikoki sortzeko.

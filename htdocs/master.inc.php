@@ -30,7 +30,7 @@
 /**
  *	\file       htdocs/master.inc.php
  * 	\ingroup	core
- *  \brief      File that defines environment for all Dolibarr process (pages or scripts)
+ *  \brief      File that defines environment for all ZionOne process (pages or scripts)
  * 				This script reads the conf file, init $lang, $db and an empty $user
  */
 
@@ -114,13 +114,13 @@ $conf->file->main_limit_users = $dolibarr_main_limit_users;
 $conf->file->mailing_limit_sendbyweb = empty($dolibarr_mailing_limit_sendbyweb) ? 0 : $dolibarr_mailing_limit_sendbyweb;
 $conf->file->mailing_limit_sendbycli = empty($dolibarr_mailing_limit_sendbycli) ? 0 : $dolibarr_mailing_limit_sendbycli;
 $conf->file->mailing_limit_sendbyday = empty($dolibarr_mailing_limit_sendbyday) ? 0 : $dolibarr_mailing_limit_sendbyday;
-$conf->file->main_authentication = empty($dolibarr_main_authentication) ? 'dolibarr' : $dolibarr_main_authentication; // Identification mode
+$conf->file->main_authentication = empty($dolibarr_main_authentication) ? 'ZionOne' : $dolibarr_main_authentication; // Identification mode
 $conf->file->main_force_https = empty($dolibarr_main_force_https) ? '' : $dolibarr_main_force_https; // Force https
 $conf->file->strict_mode = empty($dolibarr_strict_mode) ? '' : $dolibarr_strict_mode; // Force php strict mode (for debug)
 $conf->file->instance_unique_id = empty($dolibarr_main_instance_unique_id) ? (empty($dolibarr_main_cookie_cryptkey) ? '' : $dolibarr_main_cookie_cryptkey) : $dolibarr_main_instance_unique_id; // Unique id of instance
 $conf->file->dol_main_url_root = $dolibarr_main_url_root;	// Define url inside the config file
 $conf->file->dol_document_root = array('main' => (string) DOL_DOCUMENT_ROOT); // Define an array of document root directories ('/home/htdocs')
-$conf->file->dol_url_root = array('main' => (string) DOL_URL_ROOT); // Define an array of url root path ('' or '/dolibarr')
+$conf->file->dol_url_root = array('main' => (string) DOL_URL_ROOT); // Define an array of url root path ('' or '/ZionOne')
 if (!empty($dolibarr_main_document_root_alt)) {
 	// dolibarr_main_document_root_alt can contains several directories
 	$values = preg_split('/[;,]/', $dolibarr_main_document_root_alt);
@@ -265,7 +265,7 @@ if (!defined('NOREQUIRETRAN')) {
 }
 
 
-// Create object $mysoc (A thirdparty object that contains properties of companies managed by Dolibarr.
+// Create object $mysoc (A thirdparty object that contains properties of companies managed by ZionOne.
 if (!defined('NOREQUIREDB') && !defined('NOREQUIRESOC') && $db != null) {
 	require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
 

@@ -33,7 +33,7 @@
  *  MEMBER_NEWFORM_AMOUNT               Default amount for auto-subscribe form
  *  MEMBER_MIN_AMOUNT                   Minimum amount
  *  MEMBER_NEWFORM_PAYONLINE            Suggest payment with 'all', 'paypal', 'paybox', 'stripe', ...
- *  MEMBER_NEWFORM_DOLIBARRTURNOVER     Show field turnover (specific for dolibarr foundation)
+ *  MEMBER_NEWFORM_DOLIBARRTURNOVER     Show field turnover (specific for ZionOne foundation)
  *  MEMBER_URL_REDIRECT_SUBSCRIPTION    Url to redirect once registration form has been submitted (hidden option, by default we just show a message on same page or redirect to the payment page)
  *  MEMBER_NEWFORM_FORCETYPE            Force type of member
  *  MEMBER_NEWFORM_FORCEMORPHY          Force nature of member (mor/phy)
@@ -60,7 +60,7 @@ define("DOLENTITY", $entity);
 // }
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/payments.lib.php';
@@ -173,7 +173,7 @@ function llxFooterVierge()  // @phan-suppress-current-line PhanRedefineFunction
 	printCommonFooter('public');
 
 	if (!empty($conf->use_javascript_ajax)) {
-		print "\n".'<!-- Includes JS Footer of Dolibarr -->'."\n";
+		print "\n".'<!-- Includes JS Footer of ZionOne -->'."\n";
 		print '<script src="'.DOL_URL_ROOT.'/core/js/lib_foot.js.php?lang='.$langs->defaultlang.'"></script>'."\n";
 	}
 
@@ -393,7 +393,7 @@ if (empty($reshook) && $action == 'add') {	// Test on permission not required he
 					$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnValid()), $substitutionarray, $outputlangs);
 
 					if ($subjecttosend && $texttosend) {
-						$moreinheader = 'X-Dolibarr-Info: send_an_email by public/members/new.php'."\r\n";
+						$moreinheader = 'X-ZionOne-Info: send_an_email by public/members/new.php'."\r\n";
 
 						$result = $object->sendEmail($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 					}
@@ -811,7 +811,7 @@ if (getDolGlobalString('MEMBER_SKIP_TABLE') || getDolGlobalString('MEMBER_NEWFOR
 	print '<td class="tdtop"><textarea name="note_private" id="note_private" wrap="soft" class="quatrevingtpercent" rows="'.ROWS_3.'">'.dol_escape_htmltag(GETPOST('note_private', 'restricthtml'), 0, 1).'</textarea></td>';
 	print '</tr>'."\n";
 
-	// Add specific fields used by Dolibarr foundation for example
+	// Add specific fields used by ZionOne foundation for example
 	// TODO Move this into generic feature.
 	if (getDolGlobalString('MEMBER_NEWFORM_DOLIBARRTURNOVER')) {
 		$arraybudget = array('50' => '<= 100 000', '100' => '<= 200 000', '200' => '<= 500 000', '300' => '<= 1 500 000', '600' => '<= 3 000 000', '1000' => '<= 5 000 000', '2000' => '5 000 000+');

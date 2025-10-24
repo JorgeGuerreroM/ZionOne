@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Référence produit
 ProductLabel=Désignation du produit
 ProductLabelTranslated=Etiquette du produit traduit
@@ -202,7 +202,7 @@ ComposedProductIncDecStock=Augmenter / diminuer le stock sur le changement de pa
 ComposedProduct=Produits pour enfants
 MinSupplierPrice=Prix minimum d'achat
 DynamicPriceConfiguration=Configuration de prix dynamique
-DynamicPriceDesc=Vous pouvez définir des formules mathématiques pour calculer les prix Client ou Fournisseur. Ces formules peuvent utiliser tous les opérateurs mathématiques, certaines constantes et variables. Vous pouvez définir ici les variables que vous souhaitez utiliser. Si la variable nécessite une mise à jour automatique, vous pouvez définir l'URL externe pour permettre à Dolibarr de mettre à jour la valeur automatiquement.
+DynamicPriceDesc=Vous pouvez définir des formules mathématiques pour calculer les prix Client ou Fournisseur. Ces formules peuvent utiliser tous les opérateurs mathématiques, certaines constantes et variables. Vous pouvez définir ici les variables que vous souhaitez utiliser. Si la variable nécessite une mise à jour automatique, vous pouvez définir l'URL externe pour permettre à ZionOne de mettre à jour la valeur automatiquement.
 AddVariable=Ajouter une variable
 AddUpdater=Ajouter une mise à jour
 GlobalVariableUpdaters=Mises à jour externes pour les variables
@@ -254,7 +254,7 @@ ApplyToAllPriceImpactLevelHelp=En cliquant ici vous définissez le même impact 
 NewProductAttributeValue=Nouvelle valeur d'attribut
 ErrorCreatingProductAttributeValue=Une erreur s'est produite lors de la création de la valeur de l'attribut. Ce pourrait être parce qu'il existe déjà une valeur existante avec cette référence
 ProductCombinationGeneratorWarning=Si vous continuez, avant de générer de nouvelles variantes, toutes les précédentes seront supprimées. Les éléments déjà existants seront mis à jour avec les nouvelles valeurs
-TooMuchCombinationsWarning=La génération de nombreuses variantes peut entraîner une CPU élevée, une utilisation de la mémoire et Dolibarr pas capable de les créer. L'activation de l'option "%s" peut aider à réduire l'utilisation de la mémoire.
+TooMuchCombinationsWarning=La génération de nombreuses variantes peut entraîner une CPU élevée, une utilisation de la mémoire et ZionOne pas capable de les créer. L'activation de l'option "%s" peut aider à réduire l'utilisation de la mémoire.
 DoNotRemovePreviousCombinations=Ne supprimez pas les variantes précédentes
 UsePercentageVariations=Variations en pourcentage d'utilisation
 PercentageVariation=Variation en pourcentage

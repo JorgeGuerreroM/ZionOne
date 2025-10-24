@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Usanidi wa moduli ya PayBox
-PayBoxDesc=Sehemu hii inatoa kurasa za kuruhusu malipo kwenye <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>  na wateja. Hii inaweza kutumika kwa malipo ya bure au kwa malipo ya kitu fulani cha Dolibarr (ankara, agizo, ...)
+PayBoxDesc=Sehemu hii inatoa kurasa za kuruhusu malipo kwenye <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>  na wateja. Hii inaweza kutumika kwa malipo ya bure au kwa malipo ya kitu fulani cha ZionOne (ankara, agizo, ...)
 PayBoxDoPayment=Lipa kwa Paybox
 YouWillBeRedirectedOnPayBox=Utaelekezwa kwingine kwenye ukurasa wa Paybox uliolindwa ili kuingiza maelezo ya kadi ya mkopo
 SetupPayBoxToHavePaymentCreatedAutomatically=Sanidi Paybox yako kwa url <b> %s </b>  ili malipo yaundwe kiotomatiki yakithibitishwa na Paybox.

@@ -41,7 +41,7 @@ class mod_sn_free extends ModeleNumRefBatch
 
 	// variables inherited from ModeleNumRefBatch class
 	public $name = 'sn_free';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 *	Constructor

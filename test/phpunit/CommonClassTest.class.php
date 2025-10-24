@@ -38,7 +38,7 @@ require_once dirname(__FILE__).'/../../htdocs/master.inc.php';
 
 
 // Delete the log file to avoid problem of writing permission on it
-@unlink(DOL_DATA_ROOT.'/dolibarr.log');
+@unlink(DOL_DATA_ROOT.'/ZionOne.log');
 
 
 if (empty($user->id)) {
@@ -65,7 +65,7 @@ abstract class CommonClassTest extends TestCase
 	protected $savdb;
 
 	/**
-	 * Number of Dolibarr log lines to show in case of error
+	 * Number of ZionOne log lines to show in case of error
 	 *
 	 * @var integer
 	 */
@@ -74,7 +74,7 @@ abstract class CommonClassTest extends TestCase
 	/**
 	 * Log file from which to extract lines in case of failing test
 	 */
-	public $logfile = DOL_DATA_ROOT.'/dolibarr.log';
+	public $logfile = DOL_DATA_ROOT.'/ZionOne.log';
 
 	/**
 	 * Log file size before a test started (=in setUp() call)
@@ -191,13 +191,13 @@ abstract class CommonClassTest extends TestCase
 			$newLines = count($last_lines);
 			if ($newLines > 0) {
 				// Show partial log file contents when requested.
-				print "## Show last ".count($last_lines)." lines of dolibarr.log file -----".PHP_EOL;
+				print "## Show last ".count($last_lines)." lines of ZionOne.log file -----".PHP_EOL;
 				foreach ($last_lines as $line) {
 					print $line.PHP_EOL;
 				}
-				print "## end of dolibarr.log for $className::$failedTestMethod".PHP_EOL;
+				print "## end of ZionOne.log for $className::$failedTestMethod".PHP_EOL;
 			} else {
-				print "## No new lines in 'dolibarr.log' since start of this test.".PHP_EOL;
+				print "## No new lines in 'ZionOne.log' since start of this test.".PHP_EOL;
 			}
 		}
 		print "##[endgroup]".PHP_EOL;
@@ -356,7 +356,7 @@ abstract class CommonClassTest extends TestCase
 	/**
 	 * Map module names to the 'class' name (the class is: mod<CLASSNAME>)
 	 * Value is null when the module is not internal to the default
-	 * Dolibarr setup.
+	 * ZionOne setup.
 	 */
 	const VALID_MODULE_MAPPING = array(
 		'accounting' => 'Accounting',

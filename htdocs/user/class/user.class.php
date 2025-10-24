@@ -44,7 +44,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/commonpeople.class.php';
 
 
 /**
- *	Class to manage Dolibarr users
+ *	Class to manage ZionOne users
  */
 class User extends CommonObject
 {
@@ -2222,7 +2222,7 @@ class User extends CommonObject
 		$sql .= ", national_registration_number = '".$this->db->escape($this->national_registration_number)."'";
 		$sql .= ", employee = ".(int) $this->employee;
 		$sql .= ", login = '".$this->db->escape($this->login)."'";
-		$sql .= ", api_key = ".($this->api_key ? "'".$this->db->escape(dolEncrypt($this->api_key, '', '', 'dolibarr'))."'" : "null");
+		$sql .= ", api_key = ".($this->api_key ? "'".$this->db->escape(dolEncrypt($this->api_key, '', '', 'ZionOne'))."'" : "null");
 		$sql .= ", gender = ".($this->gender != -1 ? "'".$this->db->escape($this->gender)."'" : "null"); // 'man' or 'woman' or 'other'
 		$sql .= ", birth=".(strval($this->birth) != '' ? "'".$this->db->idate($this->birth, 'tzserver')."'" : 'null');
 		if (!empty($user->admin)) {
@@ -3533,7 +3533,7 @@ class User extends CommonObject
 				// Just for the default MD5 !
 				if (!getDolGlobalString('MAIN_SECURITY_HASH_ALGO')) {
 					if ($this->pass_indatabase_crypted && getDolGlobalString('LDAP_FIELD_PASSWORD_CRYPTED')) {
-						$info[getDolGlobalString('LDAP_FIELD_PASSWORD_CRYPTED')] = dolGetLdapPasswordHash($this->pass_indatabase_crypted, 'md5frommd5'); // Create OpenLDAP MD5 password from Dolibarr MD5 password
+						$info[getDolGlobalString('LDAP_FIELD_PASSWORD_CRYPTED')] = dolGetLdapPasswordHash($this->pass_indatabase_crypted, 'md5frommd5'); // Create OpenLDAP MD5 password from ZionOne MD5 password
 					}
 				}
 			} elseif (!empty($this->pass_indatabase)) {
@@ -3611,7 +3611,7 @@ class User extends CommonObject
 		$this->specimen = 1;
 		$this->user_creation_id = $user->id;
 
-		$this->lastname = 'DOLIBARR';
+		$this->lastname = 'ZionOne';
 		$this->firstname = 'SPECIMEN';
 		$this->gender = 'man';
 		$this->note_public = 'This is a note public';

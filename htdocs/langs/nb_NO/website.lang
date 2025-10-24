@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kode
 WebsiteName=Navn på nettstedet
 WebsiteSetupDesc=Opprett de nettstedene du ønsker å bruke her. Deretter går du inn i meny Nettsteder for å redigere dem.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=For å sette denne nettsiden live, ha
 SetHereVirtualHost=<u>Bruk med Apache/NGinx/...</u><br>Opprett på webserveren din (Apache, Nginx, ...) en dedikert virtuell vert med PHP aktivert og en rotkatalog på <br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Eksempel på Apache virtuelt vertsoppsett:
 YouCanAlsoTestWithPHPS=<u>Bruk med PHP innebygd server</u><br>I utviklingsmiljø kan du teste nettstedet med den innebygde PHP-nettserveren ved å kjøre
-YouCanAlsoDeployToAnotherWHP=<u>Kjør nettstedet ditt i en Dolibarr-nettvertsleverandør</u><br>Hvis du ikke har en nettserver som Apache eller NGinx tilgjengelig på internett, kan du eksportere og importere nettstedet ditt til en annen Dolibarr-instans levert av en annen Dolibarr-vertsleverandør som gir full integrasjon med Nettsidemodulen. Du kan finne en liste over noen Dolibarr-vertsleverandører på <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Kjør nettstedet ditt i en ZionOne-nettvertsleverandør</u><br>Hvis du ikke har en nettserver som Apache eller NGinx tilgjengelig på internett, kan du eksportere og importere nettstedet ditt til en annen ZionOne-instans levert av en annen ZionOne-vertsleverandør som gir full integrasjon med Nettsidemodulen. Du kan finne en liste over noen ZionOne-vertsleverandører på <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Sjekk også at den virtuelle vertsbrukeren (for eksempel www-data) har <strong>%s</strong> tillatelser på filer i<br><strong>%s</strong>
 ReadPerm=Les
 WritePerm=Skriv
 TestDeployOnWeb=Test/distribuer på nett
 PreviewSiteServedByWebServer=<u> Forhåndsvis %s i en ny fane. </u><br><br>%s vil bli servet av en ekstern webserver (som Apache, Nginx, IIS). Du må installere og sette opp denne serveren før du peker på katalogen:<br><strong>%s</strong><br>URL servet av ekstern server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Forhåndsvis  i en ny fane.</u><br><br>%s vil bli servet av Dolibarr-serveren, så den trenger ikke noen ekstra webserver (som Apache, Nginx, IIS) som skal installeres.<br>Det ubeleilige er at nettadressene til sidene ikke er brukervennlige og starter med banen til Dolibarr.<br>URL servet av Dolibarr:<br><strong>%s</strong><br><br>For å distribuere eller teste ved hjelp av din egen eksterne webserver (som Apache, Nginx, Lighttp), bruk linken "%s".
+PreviewSiteServedByDolibarr=<u>Forhåndsvis  i en ny fane.</u><br><br>%s vil bli servet av ZionOne-serveren, så den trenger ikke noen ekstra webserver (som Apache, Nginx, IIS) som skal installeres.<br>Det ubeleilige er at nettadressene til sidene ikke er brukervennlige og starter med banen til ZionOne.<br>URL servet av ZionOne:<br><strong>%s</strong><br><br>For å distribuere eller teste ved hjelp av din egen eksterne webserver (som Apache, Nginx, Lighttp), bruk linken "%s".
 VirtualHostUrlNotDefined=URL til ekstern webserver ikke definert
 NoPageYet=Ingen sider ennå
 YouCanCreatePageOrImportTemplate=Du kan opprette en ny side eller importere en full nettsidemal
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Du vil straks bli omdirigert til ordredetaljer-si
 WebPortalSetupNotComplete=Nettportaloppsettet er ikke fullført
 DeleteWebsiteAccount=Slett nettstedskonto
 ConfirmDeleteWebsiteAccount=Er du sikker på at du vil slette denne kontoen?
-ConfirmDeleteWebsiteAccount2=Hvis denne kontoen ble brukt til å logge inn på den offentlige portalen eller et annet nettsted drevet av Dolibarr, er det ikke sikkert at innlogging lenger er mulig.
+ConfirmDeleteWebsiteAccount2=Hvis denne kontoen ble brukt til å logge inn på den offentlige portalen eller et annet nettsted drevet av ZionOne, er det ikke sikkert at innlogging lenger er mulig.
 ContentSecurityPolicy=Nettsted HTTP "Innholdssikkerhetspolicy"
 WebsiteSecurityForceRP=Nettsted HTTP "Referer-policy"
 WebsiteSecurityForceSTS=Nettsted HTTP "Strict-Transport-Security"

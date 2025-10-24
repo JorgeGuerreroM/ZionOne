@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=PayBox mooduli seadistamine
 PayBoxDesc=See moodul pakub lehti, mis võimaldavad klientidel maksta <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">maksekasti </a> kaudu. Seda saab kasutada tasuta makseks või makseks konkreetse Dolibarri objekti (arve, tellimus jne) eest.
 PayBoxDoPayment=Maksa Payboxiga

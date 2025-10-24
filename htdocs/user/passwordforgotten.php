@@ -27,7 +27,7 @@
 
 define("NOLOGIN", 1); // This means this output page does not require to be logged.
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/usergroups.lib.php';
@@ -236,21 +236,21 @@ if (!$username) {
 // Show logo (search in order: small company logo, large company logo, theme logo, common logo)
 $width = 0;
 $rowspan = 2;
-$urllogo = DOL_URL_ROOT.'/theme/common/login_logo.png';
+$urllogo = DOL_URL_ROOT.'/theme/common/logo.png';
 if (!empty($mysoc->logo_small) && is_readable($conf->mycompany->dir_output.'/logos/thumbs/'.$mysoc->logo_small)) {
 	$urllogo = DOL_URL_ROOT.'/viewimage.php?cache=1&amp;modulepart=mycompany&amp;file='.urlencode('logos/thumbs/'.$mysoc->logo_small);
 } elseif (!empty($mysoc->logo_small) && is_readable($conf->mycompany->dir_output.'/logos/'.$mysoc->logo)) {
 	$urllogo = DOL_URL_ROOT.'/viewimage.php?cache=1&amp;modulepart=mycompany&amp;file='.urlencode('logos/'.$mysoc->logo);
 	$width = 128;
-} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/'.$conf->theme.'/img/dolibarr_logo.svg')) {
-	$urllogo = DOL_URL_ROOT.'/theme/'.$conf->theme.'/img/dolibarr_logo.svg';
-} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/dolibarr_logo.svg')) {
-	$urllogo = DOL_URL_ROOT.'/theme/dolibarr_logo.svg';
+} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/'.$conf->theme.'/img/logo.png')) {
+	$urllogo = DOL_URL_ROOT.'/theme/'.$conf->theme.'/img/logo.png';
+} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/logo.png')) {
+	$urllogo = DOL_URL_ROOT.'/theme/logo.png';
 }
 
 // Send password button enabled ?
 $disabled = 'disabled';
-if (preg_match('/dolibarr/i', $mode)) {
+if (preg_match('/ZionOne/i', $mode)) {
 	$disabled = '';
 }
 if (getDolGlobalString('MAIN_SECURITY_ENABLE_SENDPASSWORD')) {

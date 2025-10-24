@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - multicurrency
+# ZionOne language file - Source file is en_US - multicurrency
 MultiCurrency=多幣種
 ErrorAddRateFail=新增匯率時出錯
 ErrorAddCurrencyFail=新增貨幣時出錯

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Côd
 WebsiteName=Enw'r wefan
 WebsiteSetupDesc=Crëwch yma y gwefannau yr hoffech eu defnyddio. Yna ewch i wefannau dewislen i'w golygu.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=To deploy this website live, you have
 SetHereVirtualHost= <u> Defnyddiwch gydag Apache/NGinx/... </u> <br> Creu ar eich gweinydd gwe (Apache, Nginx, ...) Gwesteiwr Rhithwir pwrpasol gyda PHP wedi'i alluogi a chyfeiriadur Root ar a0342fccfda19bz87807fcfda19b8070607 a0342fccfda19bz80z0707fc a0342fccfda19bz80z07607 a0342fccfda19bz80z0707fcf a0342fccfda19b8070607 a0342fccfda19bz80z0707fccf
 ExampleToUseInApacheVirtualHostConfig=Enghraifft i'w defnyddio yn setup gwesteiwr rhithwir Apache:
 YouCanAlsoTestWithPHPS=<u>Use with PHP embedded server</u><br>On develop environment, you may prefer to test the site with the PHP embedded web server by running
-YouCanAlsoDeployToAnotherWHP=<u>Run your web site inside a Dolibarr web Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another Dolibarr instance provided by another Dolibarr hosting provider that provide full integration with the Website module. You can find a list of some Dolibarr hosting providers on <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Run your web site inside a ZionOne web Hosting provider</u><br>If you don't have a web server like Apache or NGinx available on internet, you can export and import your web site onto another ZionOne instance provided by another ZionOne hosting provider that provide full integration with the Website module. You can find a list of some ZionOne hosting providers on <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Gwiriwch hefyd fod gan y defnyddiwr gwesteiwr rhithwir (er enghraifft www-data) ganiatadau <strong> %s </strong> ar ffeiliau i mewn i <br> <strong>a7006fcdfz01047c06bz0 %s </strong>
 ReadPerm=Darllen
 WritePerm=Ysgrifennu
 TestDeployOnWeb=Profi/defnyddio ar y we
 PreviewSiteServedByWebServer= <u> Rhagolwg %s mewn tab newydd. </u> <br> <br> Bydd yr %s yn cael ei wasanaethu gan weinydd gwe allanol (fel Apache, Nginx, IIS). Mae'n rhaid i chi osod a gosod y gweinydd hwn o'r blaen i bwyntio at y cyfeiriadur: <br> <strong> %s </strong> URL a wasanaethir gan weinydd allanol: a0397bfcf a0342603 a0342bz03 a0342bfcf a03470604 a0342bz03606fcf a0342bz0
-PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Dolibarr server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Dolibarr.<br>URL served by Dolibarr:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
+PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by ZionOne server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your ZionOne.<br>URL served by ZionOne:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
 VirtualHostUrlNotDefined=URL y gwesteiwr rhithwir a wasanaethir gan weinydd gwe allanol heb ei ddiffinio
 NoPageYet=Dim tudalennau eto
 YouCanCreatePageOrImportTemplate=Gallwch greu tudalen newydd neu fewnforio templed gwefan llawn
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=You will be redirected to the order details page 
 WebPortalSetupNotComplete=Web portal setup is not complete
 DeleteWebsiteAccount=Delete website account
 ConfirmDeleteWebsiteAccount=Are you sure you want to delete this account.
-ConfirmDeleteWebsiteAccount2=If this account was used to login on the public portal or any otherweb site powered by Dolibarr, the login may be no more possible.
+ConfirmDeleteWebsiteAccount2=If this account was used to login on the public portal or any otherweb site powered by ZionOne, the login may be no more possible.
 ContentSecurityPolicy=Website HTTP "Content-Security-Policy"
 WebsiteSecurityForceRP=Website HTTP "Referer-Policy"
 WebsiteSecurityForceSTS=Website HTTP "Strict-Transport-Security"

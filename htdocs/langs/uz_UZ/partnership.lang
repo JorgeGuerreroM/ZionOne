@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Tekshirish uchun qayta bog'lanishlar
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Obuna muddati tugashi bilan hamkorlik holatini bekor qilishdan bir kun oldin
 ReferingWebsiteCheck=Veb-saytga yo'naltirilganligini tekshiring
 ReferingWebsiteCheckDesc=Siz o'zingizning veb-saytingizda sheriklaringizning veb-sayt domenlariga orqa bog'lanishni qo'shganligini tekshirish uchun xususiyatni yoqishingiz mumkin.
-PublicFormRegistrationPartnerDesc=Dolibarr sizga tashqi tashrif buyuruvchilarga hamkorlik dasturining bir qismi bo'lishni so'rashiga ruxsat berish uchun sizga umumiy URL/veb-sayt taqdim etishi mumkin.
+PublicFormRegistrationPartnerDesc=ZionOne sizga tashqi tashrif buyuruvchilarga hamkorlik dasturining bir qismi bo'lishni so'rashiga ruxsat berish uchun sizga umumiy URL/veb-sayt taqdim etishi mumkin.
 # Object
 DeletePartnership=Hamkorlikni o'chirib tashlang
 PartnershipDedicatedToThisThirdParty=Ushbu uchinchi tomonga bag'ishlangan hamkorlik

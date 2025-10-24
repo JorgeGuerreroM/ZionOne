@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=必须更改域 <b>%s</b> 上的 用户 <b>%s</b> 的密码。
 UserMustChangePassNextLogon=用户必须更改密码的域%s
 LDAPInformationsForThisContact=在此LDAP数据库信息联系

@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe modul inställning
-StripeDesc=Erbjud dina kunder en onlinebetalningssida för betalningar med kredit-/betalkort via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Detta kan användas för att låta dina kunder göra ad-hoc-betalningar eller för betalningar relaterade till ett visst Dolibarr-objekt (faktura, order, ...)
+StripeDesc=Erbjud dina kunder en onlinebetalningssida för betalningar med kredit-/betalkort via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Detta kan användas för att låta dina kunder göra ad-hoc-betalningar eller för betalningar relaterade till ett visst ZionOne-objekt (faktura, order, ...)
 StripeOrCBDoPayment=Betala med kreditkort eller Stripe
-FollowingUrlAreAvailableToMakePayments=Följande webbadresser finns att erbjuda en sida till en kund att göra en förskottsbetalning Dolibarr objekt
+FollowingUrlAreAvailableToMakePayments=Följande webbadresser finns att erbjuda en sida till en kund att göra en förskottsbetalning ZionOne objekt
 PaymentForm=Inbetalningskort
 WelcomeOnPaymentPage=Välkommen till vår online betalningstjänst
 ThisScreenAllowsYouToPay=Denna skärm tillåter dig att göra en online-betalning till %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL för att erbjuda en %s onlinebetaln
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL för att erbjuda en %s onlinebetalningssida för ett medlemsabonnemang
 ToOfferALinkForOnlinePaymentOnDonation=URL för att erbjuda en %s onlinebetalningssida för betalning av en donation
 YouCanAddTagOnUrl=Du kan också lägga till URL-parametern <b>&tag=value</b> till någon av dessa URL:er (obligatoriskt endast för betalningar som inte är länkade till ett objekt) för att lägga till din egen kommentarstagg för betalningen.<br>För URL:er för betalningar utan befintligt objekt kan du också lägga till parametern <strong>&noidempotency=1</strong> så att samma länk med samma tagg kan användas flera gånger (vissa betalningsmetoder kan begränsa betalningen till 1). för varje annan länk utan denna parameter)
-YouCanEmbedOnWebsite=Om du vill integrera betalningssidan i en Dolibarr-webbplats kan du inkludera parametern: <b>&ws=website_ref</b>.<br>Dessutom finns det två sidor med namnet <b>paymentok</b> och <b>paymentko</b> måste skapas på webbplatsen för att omdirigeringen ska kunna skickas efter en lyckad eller misslyckad onlinebetalning.
+YouCanEmbedOnWebsite=Om du vill integrera betalningssidan i en ZionOne-webbplats kan du inkludera parametern: <b>&ws=website_ref</b>.<br>Dessutom finns det två sidor med namnet <b>paymentok</b> och <b>paymentko</b> måste skapas på webbplatsen för att omdirigeringen ska kunna skickas efter en lyckad eller misslyckad onlinebetalning.
 SetupStripeToHavePaymentCreatedAutomatically=Ställ in din Stripe med url <b> %s </b> för att få betalning skapad automatiskt när bekräftat av Stripe.
 AccountParameter=Tagen parametrar
 UsageParameter=Användning parametrar
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Endast för kunder från Österrike, Belgien
 ListOfSupportedHooksToActivate=Lista över krokar som stöds för aktivering
 # Paybox
 PayBoxSetup=Inställningar för PayBox-modulen
-PayBoxDesc=Denna modul erbjuder sidor för att tillåta betalning via <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">PayBox</a> för kunder. Detta kan användas för exempelvis en betalning på ett visst Dolibarr-objekt (faktura, order, ...)
+PayBoxDesc=Denna modul erbjuder sidor för att tillåta betalning via <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">PayBox</a> för kunder. Detta kan användas för exempelvis en betalning på ett visst ZionOne-objekt (faktura, order, ...)
 PayBoxDoPayment=Betala med PayBox
 YouWillBeRedirectedOnPayBox=Du kommer att omdirigeras till PayBox säkra sida där du kan ange ditt kortnummer
 SetupPayBoxToHavePaymentCreatedAutomatically=Konfigurera din PayBox med url <b>%s</b> för att få betalningar automatiskt bekräftade hos PayBox.

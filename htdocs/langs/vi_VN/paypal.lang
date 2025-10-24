@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Thiết lập mô-đun PayPal
-PaypalDesc=Mô-đun này cho phép khách hàng thanh toán qua <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Điều này có thể được sử dụng để thanh toán không dự tính trước hoặc thanh toán liên quan đến đối tượng Dolibarr (hóa đơn, đơn đặt hàng, ...)
+PaypalDesc=Mô-đun này cho phép khách hàng thanh toán qua <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Điều này có thể được sử dụng để thanh toán không dự tính trước hoặc thanh toán liên quan đến đối tượng ZionOne (hóa đơn, đơn đặt hàng, ...)
 PaypalOrCBDoPayment=Thanh toán bằng PayPal (Thẻ hoặc PayPal)
 PaypalDoPayment=Thanh toán bằng PayPal
 PAYPAL_API_SANDBOX=Chế độ kiểm tra / hộp cát

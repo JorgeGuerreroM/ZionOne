@@ -29,7 +29,7 @@
  *  \brief      Page to setup project module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/project.lib.php';
@@ -185,14 +185,14 @@ if ($action == 'updateMaskTask') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('PROJECT_ADDON_PDF') == "$value") {
-			dolibarr_del_const($db, 'PROJECT_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'PROJECT_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'deltask') {
 	$ret = delDocumentModel($value, 'project_task');
 	if ($ret > 0) {
 		if (getDolGlobalString('PROJECT_TASK_ADDON_PDF') == "$value") {
-			dolibarr_del_const($db, 'PROJECT_TASK_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'PROJECT_TASK_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'setdoc') {
@@ -206,7 +206,7 @@ if ($action == 'updateMaskTask') {
 	}
 } elseif ($action == 'unsetdoc') {
 	// Set default model
-	dolibarr_del_const($db, "PROJECT_ADDON_PDF", $conf->entity);
+	zionone_del_const($db, "PROJECT_ADDON_PDF", $conf->entity);
 } elseif ($action == 'setdoctask') {
 	if (dolibarr_set_const($db, "PROJECT_TASK_ADDON_PDF", $value, 'chaine', 0, '', $conf->entity)) {
 		// La constante qui a ete lue en avant du nouveau set
@@ -221,7 +221,7 @@ if ($action == 'updateMaskTask') {
 	}
 } elseif ($action == 'unsetdoctask') {
 	// Set default model
-	dolibarr_del_const($db, "PROJECT_TASK_ADDON_PDF", $conf->entity);
+	zionone_del_const($db, "PROJECT_TASK_ADDON_PDF", $conf->entity);
 } elseif ($action == 'setmod') {
 	// TODO Verifier si module numerotation choisi peut etre active
 	// par appel methode canBeActivated

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=חיוב | תַשְׁלוּם
 TaxModuleSetupToModifyRules=עבור אל <a href="%s">הגדרת מודול מסים</a> כדי לשנות כללים לחישוב
 TaxModuleSetupToModifyRulesLT=עבור אל <a href="%s">הגדרת חברה</a> כדי לשנות כללים לחישוב

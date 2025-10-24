@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Soldatapeko "erabiltzaileentzat" lehenespenez erabiltzen den kontua (Kontuen Planetik)
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Erabiltzaile-txartelean definitutako kontu dedikatua Kontabilitate Nagusirako soilik erabiliko da. Hau Kontabilitate Nagusirako erabiliko da, baina baita Kontabilitate Nagusiaren balio lehenetsi gisa ere, erabiltzailean kontabilitate-kontu dedikaturik definituta ez badago.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Soldata-ordainketetarako kontabilitate-kontua lehenespenez

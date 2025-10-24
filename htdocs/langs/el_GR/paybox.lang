@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Ρύθμιση ενότητας PayBox
-PayBoxDesc=Αυτή η ενότητα προσφέρει σελίδες που επιτρέπουν την πληρωμή στο <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> από πελάτες. Αυτό μπορεί να χρησιμοποιηθεί για ελεύθερη πληρωμή ή για πληρωμή σε συγκεκριμένο αντικείμενο του Dolibarr (τιμολόγιο, παραγγελία, ...)
+PayBoxDesc=Αυτή η ενότητα προσφέρει σελίδες που επιτρέπουν την πληρωμή στο <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> από πελάτες. Αυτό μπορεί να χρησιμοποιηθεί για ελεύθερη πληρωμή ή για πληρωμή σε συγκεκριμένο αντικείμενο του ZionOne (τιμολόγιο, παραγγελία, ...)
 PayBoxDoPayment=Πληρώστε με Paybox
 YouWillBeRedirectedOnPayBox=Θα ανακατευθυνθείτε σε ασφαλή σελίδα του Paybox για να εισαγάγετε τα στοιχεία της πιστωτικής σας κάρτας
 SetupPayBoxToHavePaymentCreatedAutomatically=Ρυθμίστε το Paybox σας με τη διεύθυνση url <b>%s</b> για την αυτόματη δημιουργία πληρωμής όταν γίνεται επικύρωση από το Paybox.

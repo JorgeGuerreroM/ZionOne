@@ -1,11 +1,11 @@
-# hurling Dolibarr
+# hurling ZionOne
 
 ## What’s Hurl?
 Hurl is an Open Source command line tool that makes http requests. https://hurl.dev/
 
 ### Why
 
-We can use hurl to make (thorough and comprehensive) **automatic tests** for Dolibarr to ensure that our changes do not unintended break stuff. We can and should test both the API, as well as the GUI part of Dolibarr. Doing this will allow us to release faster and better quality software. It will also allow us to do **test driven development** where we write the (hurl) tests before we write our code to satisfy the (hurl) tests, which again will allow us to release faster and better quality software.
+We can use hurl to make (thorough and comprehensive) **automatic tests** for ZionOne to ensure that our changes do not unintended break stuff. We can and should test both the API, as well as the GUI part of ZionOne. Doing this will allow us to release faster and better quality software. It will also allow us to do **test driven development** where we write the (hurl) tests before we write our code to satisfy the (hurl) tests, which again will allow us to release faster and better quality software.
 
 ### Getting hurl
 
@@ -21,15 +21,15 @@ Hurl tests should be run **early and often** to give the maximum value - and all
 
 ### Locally on your _development_ computer
 
-**!! DO NOT RUN AGAINST YOUR PRODUCTION DOLIBARR !!**
+**!! DO NOT RUN AGAINST YOUR PRODUCTION ZionOne !!**
 
-At some time in the future you should preferably as a Dolibarr developer, tester, engineer, QA, ... have run these hurl tests before you make a commit, but we are not there yet!
+At some time in the future you should preferably as a ZionOne developer, tester, engineer, QA, ... have run these hurl tests before you make a commit, but we are not there yet!
 
-The hurl tests may very well **be destructive**, in fact some **are destructive** because we do need to test all the functionality of Dolibarr, including **breaking and deleting** stuff, so please be careful about the target Dolibarr you run it against.
+The hurl tests may very well **be destructive**, in fact some **are destructive** because we do need to test all the functionality of ZionOne, including **breaking and deleting** stuff, so please be careful about the target ZionOne you run it against.
 
 #### Using hurl for health/configuration testing
 
-You may want to look into using hurl to regularly test the integrity, health and configuration of your production Dolibarr, but that is something you would have to write yourself, and perhaps avoid destructive tests? In the future we may provide a hurl configuration to get started.
+You may want to look into using hurl to regularly test the integrity, health and configuration of your production ZionOne, but that is something you would have to write yourself, and perhaps avoid destructive tests? In the future we may provide a hurl configuration to get started.
 
 ### During CI/CD
 
@@ -37,7 +37,7 @@ At some time in the future we should run these hurl tests as part of the CI/CD c
 
 ## Timeline
 
-This is a prelininary timeline for hurling Dolibarr
+This is a prelininary timeline for hurling ZionOne
 
 ### Pre 2026
 
@@ -45,7 +45,7 @@ We discuss and try out hurl for manual testing pre commit.
 
 ### 2026
 
-During the various developer camps we introduce hurl to devcamp participants and they help expand the tests so we collectively get a thorough and comprehensive automatic test suite for Dolibarr.
+During the various developer camps we introduce hurl to devcamp participants and they help expand the tests so we collectively get a thorough and comprehensive automatic test suite for ZionOne.
 
 Perhaps we starting using it as part of the CI/CD chain, though probably only as a warning. Maybe it is run against releases only?
 
@@ -63,7 +63,7 @@ We start exploring the duration part of hurl to do performance improvements.
 
 ### 2028
 
-We have a very thorough and comprehensive automatic QA test for each and every part of Dolibarr.
+We have a very thorough and comprehensive automatic QA test for each and every part of ZionOne.
 
 All changes and new development must come with thorough and comprehensive hurl tests.
 
@@ -73,7 +73,7 @@ DoliStore modules must come with hurl tests.
 
 1. Create the .settings/ directory
 
-2. Set these environment variables to know how to authenticate and where to reach your Dolibarr installation
+2. Set these environment variables to know how to authenticate and where to reach your ZionOne installation
 
    DOLAPIKEY="DOLAPIKEY: _replace_with_your_Dolibarr_Token_for_API_"
 
@@ -81,7 +81,7 @@ DoliStore modules must come with hurl tests.
 
    DOLIPORT="8080"
 
-   DOLISUBURL="/dolibarr" # if your dolibarr is available at / - no need to set it
+   DOLISUBURL="/ZionOne" # if your ZionOne is available at / - no need to set it
 
    DOLIUSERNAME="foobar" # for GUI tests - if omitted, it will ask you
 
@@ -91,7 +91,7 @@ DoliStore modules must come with hurl tests.
 
    On Windows? Please test and submit a PR on this file documenting how to run it on Windows incl. a script like run.sh - but just for Windows.
 
-4. Write new hurl tests during your development and submit using a PR - preferably using the very same PR that submits your changes, improvements and refinements of Dolibarr.
+4. Write new hurl tests during your development and submit using a PR - preferably using the very same PR that submits your changes, improvements and refinements of ZionOne.
 
 ## Directory and file structure for hurl tests
 
@@ -152,6 +152,6 @@ _ was chosen as separator, because it is more readable than .
 
 ## Translations and Number separator
 
-Given that Dolibarr may respond differently depending on the language configuration of Dolibarr and/or the language configuration of the webbrowser, we should have that in mind when writing out hurl test files, such that they **must** be able to be used on any Dolibarr language configuration.
+Given that ZionOne may respond differently depending on the language configuration of ZionOne and/or the language configuration of the webbrowser, we should have that in mind when writing out hurl test files, such that they **must** be able to be used on any ZionOne language configuration.
 
-Thus the check in `public/payment/00_payment_newpayment.hurl` might fail on your Dolibarr installation, if so, please submit a PR with a fix.
+Thus the check in `public/payment/00_payment_newpayment.hurl` might fail on your ZionOne installation, if so, please submit a PR with a fix.

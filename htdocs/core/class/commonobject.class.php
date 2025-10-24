@@ -159,7 +159,7 @@ abstract class CommonObject
 	 *  	'date', 'datetime', 'timestamp', 'duration',
 	 *  	'boolean', 'checkbox', 'radio', 'array',
 	 *  	'email', 'phone', 'url', 'password', 'ip'
-	 *		Note: Filter must be a Dolibarr Universal Filter syntax string. Example: "(t.ref:like:'SO-%') or (t.date_creation:<:'20160101') or (t.status:!=:0) or (t.nature:is:NULL)"
+	 *		Note: Filter must be a ZionOne Universal Filter syntax string. Example: "(t.ref:like:'SO-%') or (t.date_creation:<:'20160101') or (t.status:!=:0) or (t.nature:is:NULL)"
 	 * 'length' the length of field. Example: 255, '24,8'
 	 * 'label' the translation key.
 	 * 'langfile' the key of the language file for translation.
@@ -6847,7 +6847,7 @@ abstract class CommonObject
 								//var_dump('algo='.$algo.' '.$this->oldcopy->array_options[$key].' -> '.$this->array_options[$key]);
 								if (isset($this->oldcopy->array_options[$key]) && $this->array_options[$key] == $this->oldcopy->array_options[$key]) {
 									// If old value encrypted in database is same than submitted new value, it means we don't change it, so we don't update.
-									if ($algo == 'dolcrypt') {	// dolibarr reversible encryption
+									if ($algo == 'dolcrypt') {	// ZionOne reversible encryption
 										if (!preg_match('/^dolcrypt:/', $this->array_options[$key])) {
 											$new_array_options[$key] = dolEncrypt($this->array_options[$key]);	// warning, must be called when on the master
 										} else {
@@ -6858,7 +6858,7 @@ abstract class CommonObject
 									}
 								} else {
 									// If value has changed
-									if ($algo == 'dolcrypt') {	// dolibarr reversible encryption
+									if ($algo == 'dolcrypt') {	// ZionOne reversible encryption
 										if (!preg_match('/^dolcrypt:/', $this->array_options[$key])) {
 											$new_array_options[$key] = dolEncrypt($this->array_options[$key]);	// warning, must be called when on the master
 										} else {
@@ -6871,7 +6871,7 @@ abstract class CommonObject
 							} else {
 								//var_dump('jjj'.$algo.' '.$this->oldcopy->array_options[$key].' -> '.$this->array_options[$key]);
 								// If this->oldcopy is not defined, we can't know if we change attribute or not, so we must keep value
-								if ($algo == 'dolcrypt' && !preg_match('/^dolcrypt:/', $this->array_options[$key])) {	// dolibarr reversible encryption
+								if ($algo == 'dolcrypt' && !preg_match('/^dolcrypt:/', $this->array_options[$key])) {	// ZionOne reversible encryption
 									$new_array_options[$key] = dolEncrypt($this->array_options[$key]);	// warning, must be called when on the master
 								} else {
 									$new_array_options[$key] = $this->array_options[$key]; // Value is kept
@@ -7323,7 +7323,7 @@ abstract class CommonObject
 							if (is_object($this->oldcopy)) {		// If this->oldcopy is not defined, we can't know if we change attribute or not, so we must keep value
 								//var_dump($this->oldcopy->array_options["options_".$key]); var_dump($this->array_options["options_".$key]);
 								if (isset($this->oldcopy->array_options["options_".$key]) && $this->array_options["options_".$key] == $this->oldcopy->array_options["options_".$key]) {	// If old value encrypted in database is same than submitted new value, it means we don't change it, so we don't update.
-									if ($algo == 'dolcrypt') {	// dolibarr reversible encryption
+									if ($algo == 'dolcrypt') {	// ZionOne reversible encryption
 										if (!preg_match('/^dolcrypt:/', $this->array_options["options_".$key])) {
 											$new_array_options["options_".$key] = dolEncrypt($this->array_options["options_".$key]);	// warning, must be called when on the master
 										} else {
@@ -7333,7 +7333,7 @@ abstract class CommonObject
 										$new_array_options["options_".$key] = $this->array_options["options_".$key]; // Value is kept
 									}
 								} else {
-									if ($algo == 'dolcrypt') {	// dolibarr reversible encryption
+									if ($algo == 'dolcrypt') {	// ZionOne reversible encryption
 										if (!preg_match('/^dolcrypt:/', $this->array_options["options_".$key])) {
 											$new_array_options["options_".$key] = dolEncrypt($this->array_options["options_".$key]);
 										} else {
@@ -7344,7 +7344,7 @@ abstract class CommonObject
 									}
 								}
 							} else {
-								if ($algo == 'dolcrypt' && !preg_match('/^dolcrypt:/', $this->array_options["options_".$key])) {	// dolibarr reversible encryption
+								if ($algo == 'dolcrypt' && !preg_match('/^dolcrypt:/', $this->array_options["options_".$key])) {	// ZionOne reversible encryption
 									$new_array_options["options_".$key] = dolEncrypt($this->array_options["options_".$key]);	// warning, must be called when on the master
 								} else {
 									$new_array_options["options_".$key] = $this->array_options["options_".$key]; // Value is kept
@@ -8818,9 +8818,9 @@ abstract class CommonObject
 					$c->fetch($obj->rowid);
 					$ways = $c->print_all_ways(); // $ways[0] = "ccc2 >> ccc2a >> ccc2a1" with html formatted text
 					foreach ($ways as $way) {
-						$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories"' . ($c->color ? ' style="background: #' . $c->color . ';"' : ' style="background: #aaa"') . '>' . img_object('', 'category') . ' ' . $way . '</li>';
+						$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories"' . ($c->color ? ' style="background: #' . $c->color . ';"' : ' style="background: #aaa"') . '>' . img_object('', 'category') . ' ' . $way . '</li>';
 					}
-					$value = '<div class="select2-container-multi-dolibarr" style="width: 90%;"><ul class="select2-choices-dolibarr">'.implode(' ', $toprint).'</ul></div>';
+					$value = '<div class="select2-container-multi-ZionOne" style="width: 90%;"><ul class="select2-choices-ZionOne">'.implode(' ', $toprint).'</ul></div>';
 				}
 			} else {
 				dol_syslog(get_class($this).'::showOutputField error '.$this->db->lasterror(), LOG_WARNING);
@@ -8834,11 +8834,11 @@ abstract class CommonObject
 				$toprint = array();
 				foreach ($value_arr as $keyval => $valueval) {
 					if (!empty($valueval)) {
-						$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories" style="background: #bbb">' . $param['options'][$valueval] . '</li>';
+						$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories" style="background: #bbb">' . $param['options'][$valueval] . '</li>';
 					}
 				}
 				if (!empty($toprint)) {
-					$value = '<div class="select2-container-multi-dolibarr" style="width: 90%;"><ul class="select2-choices-dolibarr">' . implode(' ', $toprint) . '</ul></div>';
+					$value = '<div class="select2-container-multi-ZionOne" style="width: 90%;"><ul class="select2-choices-ZionOne">' . implode(' ', $toprint) . '</ul></div>';
 				}
 			}
 		} elseif ($type == 'chkbxlst') {
@@ -8893,9 +8893,9 @@ abstract class CommonObject
 										$translabel = $langs->trans($obj->$field_toshow);
 									}
 									if ($translabel != $field_toshow) {
-										$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories" style="background: #bbb">' . dol_trunc($translabel, 18) . '</li>';
+										$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories" style="background: #bbb">' . dol_trunc($translabel, 18) . '</li>';
 									} else {
-										$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories" style="background: #bbb">' . $obj->$field_toshow . '</li>';
+										$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories" style="background: #bbb">' . $obj->$field_toshow . '</li>';
 									}
 								}
 							} else {
@@ -8904,9 +8904,9 @@ abstract class CommonObject
 									$translabel = $langs->trans($obj->{$InfoFieldList[1]});
 								}
 								if ($translabel != $obj->{$InfoFieldList[1]}) {
-									$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories" style="background: #bbb">' . dol_trunc($translabel, 18) . '</li>';
+									$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories" style="background: #bbb">' . dol_trunc($translabel, 18) . '</li>';
 								} else {
-									$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories" style="background: #bbb">' . $obj->{$InfoFieldList[1]} . '</li>';
+									$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories" style="background: #bbb">' . $obj->{$InfoFieldList[1]} . '</li>';
 								}
 							}
 						}
@@ -8921,12 +8921,12 @@ abstract class CommonObject
 							$c->fetch($obj->rowid);
 							$ways = $c->print_all_ways(); // $ways[0] = "ccc2 >> ccc2a >> ccc2a1" with html formatted text
 							foreach ($ways as $way) {
-								$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories"' . ($c->color ? ' style="background: #' . $c->color . ';"' : ' style="background: #aaa"') . '>' . img_object('', 'category') . ' ' . $way . '</li>';
+								$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories"' . ($c->color ? ' style="background: #' . $c->color . ';"' : ' style="background: #aaa"') . '>' . img_object('', 'category') . ' ' . $way . '</li>';
 							}
 						}
 					}
 				}
-				$value = '<div class="select2-container-multi-dolibarr" style="width: 90%;"><ul class="select2-choices-dolibarr">'.implode(' ', $toprint).'</ul></div>';
+				$value = '<div class="select2-container-multi-ZionOne" style="width: 90%;"><ul class="select2-choices-ZionOne">'.implode(' ', $toprint).'</ul></div>';
 			} else {
 				dol_syslog(get_class($this).'::showOutputField error '.$this->db->lasterror(), LOG_WARNING);
 			}
@@ -8959,7 +8959,7 @@ abstract class CommonObject
 					dol_include_once($InfoFieldList[1]);
 
 					if ($classname && !class_exists($classname)) {
-						// from V19 of Dolibarr, In some cases link use element instead of class, example project_task
+						// from V19 of ZionOne, In some cases link use element instead of class, example project_task
 						// TODO use newObjectByElement() introduce in V20 by PR #30036 for better errors management
 						$element_prop = getElementProperties($classname);
 						if ($element_prop) {
@@ -9274,7 +9274,7 @@ abstract class CommonObject
 			if (!$validate->isFetchable((int) $fieldValue, $classname, $classpath)) {
 				$lastIsFetchableError = $validate->error;
 
-				// from V19 of Dolibarr, In some cases link use element instead of class, example project_task
+				// from V19 of ZionOne, In some cases link use element instead of class, example project_task
 				if ($validate->isFetchableElement((int) $fieldValue, $classname)) {
 					return true;
 				}

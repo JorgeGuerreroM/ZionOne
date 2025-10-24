@@ -29,7 +29,7 @@
  *		\brief      Page to setup the module MailmanSpip (SPIP)
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/mailmanspip.lib.php';
@@ -97,7 +97,7 @@ if ($action == 'set') {
 
 // Action deactivation d'un sous module du module adherent
 if ($action == 'unset') {
-	$result = dolibarr_del_const($db, GETPOST("name", 'aZ09'), $conf->entity);
+	$result = zionone_del_const($db, GETPOST("name", 'aZ09'), $conf->entity);
 	if ($result < 0) {
 		dol_print_error($db);
 	}

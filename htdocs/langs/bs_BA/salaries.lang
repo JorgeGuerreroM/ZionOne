@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Račun (iz kontnog plana) koji se koristi po zadanim postavkama za "korisnike" na platama
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Namjenski račun definiran na korisničkoj kartici koristit će se samo za pomoćno računovodstvo. Ovaj račun će se koristiti za glavnu knjigu, ali i kao zadana vrijednost pomoćnog računovodstva ako za korisnika nije definiran namjenski korisnički računovodstveni račun.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Računovodstveni račun po defaultu za isplate plata

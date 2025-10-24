@@ -24,7 +24,7 @@
  *		\brief      Page to create/edit/view calendar
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 /**
  * @var Conf $conf

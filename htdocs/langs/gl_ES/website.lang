@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Código
 WebsiteName=Nome do sitio web
 WebsiteSetupDesc=​​ Cree aquí os sitios web que desexa usar. Despois vaia ao menú de sitios web para editalos.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Para implementar este sitio web en vi
 SetHereVirtualHost=<u> Usar con Apache/NGinx/... </u> <br> Cree no seu servidor web (Apache, Nginx, ...) un host virtual adicado con PHP habilitado e un directorio raíz en <br > <strong>%s </strong>
 ExampleToUseInApacheVirtualHostConfig=Exemplo para usar na configuración do host virtual Apache:
 YouCanAlsoTestWithPHPS=<u>Utilizar co servidor PHP incorporado</u><br>No entorno de desenvolvemento, pode que prefira probar o sitio co servidor web incorporado executando PHP
-YouCanAlsoDeployToAnotherWHP=<u>Execute o seu sitio web nun fornecedor de hospedaxe web Dolibarr</u><br> Se non ten un servidor web como Apache ou NGinx dispoñible en Internet, pode exportar e importar o seu sitio web noutra instancia de Dolibarr proporcionada por outro provedor de hospedaxe de Dolibarr que permita unha integración total co módulo do sitio web. Pode atopar unha listaxe dalgúns provedores de hospedaxe de Dolibarr en <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Execute o seu sitio web nun fornecedor de hospedaxe web ZionOne</u><br> Se non ten un servidor web como Apache ou NGinx dispoñible en Internet, pode exportar e importar o seu sitio web noutra instancia de ZionOne proporcionada por outro provedor de hospedaxe de ZionOne que permita unha integración total co módulo do sitio web. Pode atopar unha listaxe dalgúns provedores de hospedaxe de ZionOne en <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Comprobe tamén que o usuario do host virtual (por exemplo, www-data) ten permisos de <strong>%s</strong> nos ficheiros en <br><strong>%s</strong>
 ReadPerm=Ler
 WritePerm=Escribir
 TestDeployOnWeb=Probar/despregar na web
 PreviewSiteServedByWebServer=<u> Previsualizar %s nunha nova pestana. </u> <br> <br> O %s será servido por un servidor web externo (como Apache, Nginx, IIS). Debe instalar e configurar este servidor antes para apuntar ao directorio: <br> <strong>%s </strong> <br> URL ofrecido por un servidor externo: <br> <strong>%s </strong>
-PreviewSiteServedByDolibarr=<u>Vista previa de %s nunha nova lapela.</u><br><br>O %s será servido polo servidor Dolibarr polo que non precisa instalar ningún servidor web adicional (como Apache, Nginx, IIS) .<br>O inconveniente é que os URL das páxinas non son fáciles de usar e comezan polo camiño do seu Dolibarr.<br>URL ofrecido por Dolibarr:<br><strong> %s</strong><br><br>Para implementar ou probar usando o seu propio  servidor web externo (como Apache, Nginx, Lighttp) use a ligazón "%s".
+PreviewSiteServedByDolibarr=<u>Vista previa de %s nunha nova lapela.</u><br><br>O %s será servido polo servidor ZionOne polo que non precisa instalar ningún servidor web adicional (como Apache, Nginx, IIS) .<br>O inconveniente é que os URL das páxinas non son fáciles de usar e comezan polo camiño do seu ZionOne.<br>URL ofrecido por ZionOne:<br><strong> %s</strong><br><br>Para implementar ou probar usando o seu propio  servidor web externo (como Apache, Nginx, Lighttp) use a ligazón "%s".
 VirtualHostUrlNotDefined=O URL do host virtual ofrecido por un servidor web externo non está definido
 NoPageYet=Aínda non hai páxinas
 YouCanCreatePageOrImportTemplate=Pode crear unha nova páxina ou importar un modelo de sitio web completo
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Será redirixido/a á páxina de detalles do pedi
 WebPortalSetupNotComplete=A configuración do portal web non está completa
 DeleteWebsiteAccount=Eliminar a conta do sitio web
 ConfirmDeleteWebsiteAccount=Está certo de querer eliminar esta conta?
-ConfirmDeleteWebsiteAccount2=Se esta conta se utilizou para iniciar sesión no portal público ou en calquera outro sitio web impulsado por Dolibarr, é posible que o inicio de sesión non sexa máis posible.
+ConfirmDeleteWebsiteAccount2=Se esta conta se utilizou para iniciar sesión no portal público ou en calquera outro sitio web impulsado por ZionOne, é posible que o inicio de sesión non sexa máis posible.
 WebsiteSecurityOptions=Opcións de seguridade do sitio web
 ContentSecurityPolicy=Sitio web HTTP "Política de seguridade de contidos"
 WebsiteSecurityForceRP=Sitio web HTTP "Política de referencia"

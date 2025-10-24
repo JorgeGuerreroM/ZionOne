@@ -6133,7 +6133,7 @@ tr.visible {
 .websiteformtoolbar {
 	position: sticky;
 	top: <?php echo empty($dol_hide_topmenu) ? ($disableimages ? '32px' : '52px') : '0'; ?>;
-	z-index: 1002;	/* Dolibarr menu is 1001, Website menu is 1002 */
+	z-index: 1002;	/* ZionOne menu is 1001, Website menu is 1002 */
 }
 
 .exampleapachesetup {
@@ -7529,7 +7529,7 @@ span#select2-boxbookmark-container {
 }
 
 /* To emulate select 2 style */
-.select2-container-multi-dolibarr .select2-choices-dolibarr .select2-search-choice-dolibarr {
+.select2-container-multi-ZionOne .select2-choices-ZionOne .select2-search-choice-ZionOne {
   padding: 3px 5px 3px 5px;
   margin: 0 0 2px 3px;
   position: relative;
@@ -7551,17 +7551,17 @@ span#select2-boxbookmark-container {
   background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
   background-image: linear-gradient(to bottom, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
 }
-.mytooltip .select2-container-multi-dolibarr .select2-choices-dolibarr .select2-search-choice-dolibarr {
+.mytooltip .select2-container-multi-ZionOne .select2-choices-ZionOne .select2-search-choice-ZionOne {
   padding: 1px 3px 1px 3px;
 }
-.select2-container-multi-dolibarr .select2-choices-dolibarr .select2-search-choice-dolibarr a {
+.select2-container-multi-ZionOne .select2-choices-ZionOne .select2-search-choice-ZionOne a {
 	font-weight: normal;
 }
-.select2-container-multi-dolibarr .select2-choices-dolibarr li {
+.select2-container-multi-ZionOne .select2-choices-ZionOne li {
   float: <?php echo $left; ?>;
   list-style: none;
 }
-.select2-container-multi-dolibarr .select2-choices-dolibarr {
+.select2-container-multi-ZionOne .select2-choices-ZionOne {
   height: auto !important;
   height: 1%;
   margin: 0;

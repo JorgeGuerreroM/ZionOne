@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Танзими модули PayBox
-PayBoxDesc=Ин модул саҳифаҳоеро пешниҳод мекунад, ки ба муштариён пардохт дар <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> иҷозат диҳад. Ин метавонад барои пардохти ройгон ё пардохт дар объекти мушаххаси Dolibarr (инвойс, фармоиш, ...) истифода шавад.
+PayBoxDesc=Ин модул саҳифаҳоеро пешниҳод мекунад, ки ба муштариён пардохт дар <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> иҷозат диҳад. Ин метавонад барои пардохти ройгон ё пардохт дар объекти мушаххаси ZionOne (инвойс, фармоиш, ...) истифода шавад.
 PayBoxDoPayment=Бо Paybox пардохт кунед
 YouWillBeRedirectedOnPayBox=Шумо барои ворид кардани маълумоти корти кредитӣ ба саҳифаи боэътимоди Paybox равона карда мешавед
 SetupPayBoxToHavePaymentCreatedAutomatically=Паёмдони худро бо url <b> %s </b> танзим кунед, то пардохт ҳангоми тасдиқи Paybox ба таври худкор эҷод карда шавад.

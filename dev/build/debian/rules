@@ -27,7 +27,7 @@ override_dh_builddeb:
 #	dh_compress --no-act -X.png
 
 # We disable this for png file because it modify content of original file so make
-# the dolibarr signature not valid.
+# the ZionOne signature not valid.
 override_dh_strip_nondeterminism:
 	dh_strip_nondeterminism -X.png
 
@@ -117,14 +117,14 @@ override_dh_install:
 	rm -f  htdocs/includes/tcpdf/LICENSE.TXT
 
 	# Drop unwanted executable permissions
-	find debian/dolibarr/usr/share/dolibarr/htdocs -type f -print0 | \
+	find debian/ZionOne/usr/share/ZionOne/htdocs -type f -print0 | \
 	     xargs -0 chmod 644
 	# Add missing executable permissions
-	find debian/dolibarr/usr/share/dolibarr/scripts -type f -name '*.php' -print0 | \
+	find debian/ZionOne/usr/share/ZionOne/scripts -type f -name '*.php' -print0 | \
 	     xargs -0 chmod 755
 
 override_dh_fixperms:
 	dh_fixperms
 	# Give rights to the webserver on the upload directory
-	chown www-data:www-data debian/dolibarr/var/lib/dolibarr/documents
-	chmod 2775 debian/dolibarr/var/lib/dolibarr/documents
+	chown www-data:www-data debian/ZionOne/var/lib/ZionOne/documents
+	chmod 2775 debian/ZionOne/var/lib/ZionOne/documents

@@ -29,7 +29,7 @@
  *  \brief      Wrapper to download data files
  *  \remarks    Call of this wrapper is made with URL:
  * 				DOL_URL_ROOT.'/document.php?modulepart=repfichierconcerne&file=relativepathoffile'
- * 				DOL_URL_ROOT.'/document.php?modulepart=logs&file=dolibarr.log'
+ * 				DOL_URL_ROOT.'/document.php?modulepart=logs&file=ZionOne.log'
  * 				DOL_URL_ROOT.'/document.php?hashp=sharekey'
  */
 

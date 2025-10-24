@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=代碼
 WebsiteName=網站名稱
 WebsiteSetupDesc=於此建立你要使用的網站，然後可進入網站選單進行編輯。
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=部署網站上線有三種方式...
 SetHereVirtualHost=<u>使用 Apache/Nginx/…</u><br>在你的網頁伺服器 (Apache, Nginx, ...) 建立虛擬主機，PHP 啟用並將 Root 目錄指向<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Apache 虛擬主機範例設定：
 YouCanAlsoTestWithPHPS=<u>使用 PHP 內建伺服器</u><br>於開發環境，可使用 PHP 內建伺服器測試網站
-YouCanAlsoDeployToAnotherWHP=<u>部署至 Dolibarr 網站代管服務</u><br>若無 Apache/Nginx，可將網站匯出後，於其他提供完整 Website 模組支援的 Dolibarr 代管服務導入。可於 <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a> 查看部分服務商。
+YouCanAlsoDeployToAnotherWHP=<u>部署至 ZionOne 網站代管服務</u><br>若無 Apache/Nginx，可將網站匯出後，於其他提供完整 Website 模組支援的 ZionOne 代管服務導入。可於 <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a> 查看部分服務商。
 CheckVirtualHostPerms=請確認虛擬主機使用者(例如 www-data)對<br><strong>%s</strong> 擁有 <strong>%s</strong> 權限
 ReadPerm=讀取
 WritePerm=寫入
 TestDeployOnWeb=網頁測試/部署
 PreviewSiteServedByWebServer=<u>於新分頁預覽 %s。</u><br><br>%s 將由外部網頁伺服器(如 Apache, Nginx, IIS)提供服務。請先安裝並設定伺服器至目錄：<br><strong>%s</strong><br>外部伺服器 URL：<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>於新分頁預覽 %s。</u><br><br>%s 將由 Dolibarr 伺服器提供，不需安裝其他伺服器。但 URL 將包含 Dolibarr 路徑，非 SEO 友善。<br>Dolibarr 提供的 URL：<br><strong>%s</strong><br><br>若需以外部伺服器部署，請使用「%s」連結。
+PreviewSiteServedByDolibarr=<u>於新分頁預覽 %s。</u><br><br>%s 將由 ZionOne 伺服器提供，不需安裝其他伺服器。但 URL 將包含 ZionOne 路徑，非 SEO 友善。<br>ZionOne 提供的 URL：<br><strong>%s</strong><br><br>若需以外部伺服器部署，請使用「%s」連結。
 VirtualHostUrlNotDefined=未定義外部伺服器虛擬主機 URL
 NoPageYet=尚無頁面
 YouCanCreatePageOrImportTemplate=可建立新頁面或匯入完整網站範本
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=即將導向訂單詳情頁。
 WebPortalSetupNotComplete=網站入口設定尚未完成
 DeleteWebsiteAccount=刪除網站帳號
 ConfirmDeleteWebsiteAccount=確定要刪除此帳號嗎？
-ConfirmDeleteWebsiteAccount2=若此帳號用於公共入口或 Dolibarr 支援的其他網站登入，登入功能將不再可用。
+ConfirmDeleteWebsiteAccount2=若此帳號用於公共入口或 ZionOne 支援的其他網站登入，登入功能將不再可用。
 ContentSecurityPolicy=網站 HTTP「內容安全政策(Content-Security-Policy)」
 WebsiteSecurityForceRP=網站 HTTP「來源政策(Referer-Policy)」
 WebsiteSecurityForceSTS=網站 HTTP「嚴格傳輸安全(Strict-Transport-Security)」

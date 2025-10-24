@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 WebsiteSetupDesc=Crea aquí los sitios web que deseas utilizar. A continuación, vaya a los sitios web de menú para editarlos.
 WEBSITE_PAGENAME=Nombre de página/alias
 WEBSITE_ALIASALTDesc=Utilice aquí la lista de otros nombres/alias para que también se pueda acceder a la página usando estos otros nombres/alias (por ejemplo, el nombre anterior después de cambiar el nombre del alias para mantener el enlace posterior en funcionamiento). La sintaxis es:<br> alternativename1, alternativename2, ...

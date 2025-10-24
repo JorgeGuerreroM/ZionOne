@@ -42,7 +42,7 @@ class ModeleBoxes // Can't be abstract as it is instantiated to build "empty" bo
 	/**
 	 * Must be defined in the box class
 	 *
-	 * @var ''|'development'|'experimental'|'dolibarr'
+	 * @var ''|'development'|'experimental'|'ZionOne'
 	 */
 	public $version;
 

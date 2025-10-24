@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Faturamento | Forma de pagamento
 TaxModuleSetupToModifyRules=Vá para <a href="%s">configuração do módulo Impostos</a> para modificar regras de cálculo
 TaxModuleSetupToModifyRulesLT=Vá até <a href="%s">Configuração >> Empresa</a> para modificar as regras de cálculo

@@ -34,10 +34,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/barcode.lib.php'; // This is to includ
 class modTcpdfbarcode extends ModeleBarCode
 {
 	/**
-	 * Dolibarr version of the loaded document
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z''development'|'experimental'|'dolibarr'
+	 * ZionOne version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z''development'|'experimental'|'ZionOne'
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 * @var string Error code (or message)
@@ -235,7 +235,7 @@ class modTcpdfbarcode extends ModeleBarCode
 	/**
 	 *	get available output_modes for tcpdf class with its translated description
 	 *
-	 * @param	string $dolEncodingType dolibarr barcode encoding type
+	 * @param	string $dolEncodingType ZionOne barcode encoding type
 	 * @return	string tcpdf encoding type
 	 */
 	public function getTcpdfEncodingType($dolEncodingType)

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=सदस्य क्षेत्र
 MemberCard=सदस्य कार्ड
 SubscriptionCard=सदस्यता कार्ड
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=मान्य सार्वजनिक सद�
 ErrorThisMemberIsNotPublic=यह सदस्य सार्वजनिक नहीं है
 ErrorMemberIsAlreadyLinkedToThisThirdParty=एक अन्य सदस्य (नाम: <b>%s</b>, लॉगिन: <b>%s</b>) पहले से ही किसी तीसरे पक्ष से जुड़ा हुआ है <b>%s</b>। सबसे पहले इस लिंक को हटाएँ क्योंकि किसी तीसरे पक्ष को केवल एक सदस्य से ही नहीं जोड़ा जा सकता (और इसके विपरीत)।
 ErrorUserPermissionAllowsToLinksToItselfOnly=सुरक्षा कारणों से, आपको सभी उपयोगकर्ताओं को संपादित करने की अनुमति दी जानी चाहिए ताकि आप किसी सदस्य को किसी अन्य उपयोगकर्ता से लिंक कर सकें।
-SetLinkToUser=Dolibarr उपयोगकर्ता से लिंक करें
-SetLinkToThirdParty=Dolibarr तृतीय पक्ष से लिंक करें
+SetLinkToUser=ZionOne उपयोगकर्ता से लिंक करें
+SetLinkToThirdParty=ZionOne तृतीय पक्ष से लिंक करें
 MemberCountersArePublic=वैध सदस्यों के काउंटर सार्वजनिक हैं
 MembersCards=सदस्यों के लिए कार्ड बनाना
 MembersList=सदस्यों की सूची
@@ -114,7 +114,7 @@ ConfirmDeleteSubscription=क्या आप वाकई इस योगद�
 Filehtpasswd=htpasswd फ़ाइल
 ValidateMember=सदस्य को मान्य करें
 ConfirmValidateMember=क्या आप वाकई इस सदस्य को मान्य करना चाहते हैं?
-FollowingLinksArePublic=निम्नलिखित लिंक खुले पृष्ठ हैं जो किसी भी Dolibarr अनुमति द्वारा संरक्षित नहीं हैं। वे प्रारूपित पृष्ठ नहीं हैं, उदाहरण के तौर पर यह दिखाने के लिए प्रदान किए गए हैं कि सदस्यों के डेटाबेस को कैसे सूचीबद्ध किया जाए।
+FollowingLinksArePublic=निम्नलिखित लिंक खुले पृष्ठ हैं जो किसी भी ZionOne अनुमति द्वारा संरक्षित नहीं हैं। वे प्रारूपित पृष्ठ नहीं हैं, उदाहरण के तौर पर यह दिखाने के लिए प्रदान किए गए हैं कि सदस्यों के डेटाबेस को कैसे सूचीबद्ध किया जाए।
 PublicMemberList=सार्वजनिक सदस्य सूची
 BlankSubscriptionForm=सार्वजनिक स्व-पंजीकरण प्रपत्र
 BlankSubscriptionFormDesc=डोलिबार आपको एक सार्वजनिक यूआरएल/वेबसाइट प्रदान कर सकता है, जिससे बाहरी आगंतुक फाउंडेशन की सदस्यता लेने के लिए पूछ सकें। यदि कोई ऑनलाइन भुगतान मॉड्यूल सक्षम है, तो भुगतान फ़ॉर्म भी स्वचालित रूप से प्रदान किया जा सकता है।

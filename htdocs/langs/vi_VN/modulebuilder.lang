@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Id mô-đun
 ModuleBuilderDesc=Công cụ này chỉ được sử dụng bởi người dùng hoặc nhà phát triển có kinh nghiệm. Nó cung cấp các tiện ích để xây dựng hoặc chỉnh sửa mô-đun của riêng bạn. Tài liệu về cách phát triển thủ công <a href="%s" target="_blank" rel="noopener noreferrer">thay thế có tại đây</a>.
 EnterNameOfModuleDesc=Nhập tên module/ứng dụng cần tạo không có dấu cách. Sử dụng chữ hoa để phân tách các từ (Ví dụ: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Bạn có thể xóa mô-đun của bạn. CẢNH 
 EnterNameOfObjectToDeleteDesc=Bạn có thể xóa một đối tượng. CẢNH BÁO: Tất cả các tệp mã hóa (được tạo hoặc tạo thủ công) liên quan đến đối tượng sẽ bị xóa!
 DangerZone=Khu vực nguy hiểm
 BuildPackage=Xây dựng gói
-BuildPackageDesc=Bạn có thể tạo gói zip của ứng dụng để bạn sẵn sàng phân phối nó trên bất kỳ Dolibarr nào. Bạn cũng có thể phân phối hoặc bán nó trên thị trường như <a href="https://www.dolistore.com">DoliStore.com</a> .
+BuildPackageDesc=Bạn có thể tạo gói zip của ứng dụng để bạn sẵn sàng phân phối nó trên bất kỳ ZionOne nào. Bạn cũng có thể phân phối hoặc bán nó trên thị trường như <a href="https://www.dolistore.com">DoliStore.com</a> .
 BuildDocumentation=Xây dựng tài liệu
 ModuleIsNotActive=Mô-đun này chưa được kích hoạt. Đi tới %s để phát trực tiếp hoặc nhấp vào đây
 ModuleIsLive=Mô-đun này đã được kích hoạt. Bất kỳ thay đổi có thể phá vỡ một tính năng sống hiện tại.
@@ -110,7 +110,7 @@ HooksDefDesc=Xác định trong thuộc tính <b>module_parts['hooks']</b>, tron
 TriggerDefDesc=Xác định trong tệp kích hoạt mã mà bạn muốn thực thi khi một sự kiện kinh doanh bên ngoài mô-đun của bạn được thực thi (các sự kiện được kích hoạt bởi các mô-đun khác).
 SeeIDsInUse=Xem ID được sử dụng trong cài đặt của bạn
 SeeReservedIDsRangeHere=Xem phạm vi ID dành riêng
-ToolkitForDevelopers=Bộ công cụ dành cho nhà phát triển Dolibarr
+ToolkitForDevelopers=Bộ công cụ dành cho nhà phát triển ZionOne
 TryToUseTheModuleBuilder=Nếu bạn có kiến thức về SQL và PHP, bạn có thể sử dụng trình hướng dẫn xây dựng mô-đun gốc. <br> Kích hoạt mô-đun <strong>%s</strong> và sử dụng trình hướng dẫn bằng cách nhấp vào <span class="fa fa-bug"></span> trên menu trên cùng bên phải. <br> Cảnh báo: Đây là một tính năng dành cho nhà phát triển nâng cao, <b>không</b> thử nghiệm trên trang web sản xuất của bạn!
 SeeTopRightMenu=Xem <span class="fa fa-bug"></span> trên menu bên phải
 AddLanguageFile=Thêm tập tin ngôn ngữ

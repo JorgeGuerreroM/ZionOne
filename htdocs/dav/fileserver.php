@@ -134,7 +134,7 @@ $authBackend = new \Sabre\DAV\Auth\Backend\BasicCallBack(
 
 		// Authentication mode
 		if (empty($dolibarr_main_authentication) || $dolibarr_main_authentication == 'openid_connect') {
-			$dolibarr_main_authentication = 'dolibarr';
+			$dolibarr_main_authentication = 'ZionOne';
 		}
 
 		// Authentication mode: forceuser
@@ -209,12 +209,12 @@ if (isModEnabled('ecm') && getDolGlobalString('DAV_ALLOW_ECM_DIR')) {
 
 
 // Principals Backend
-//$principalBackend = new \Sabre\DAVACL\PrincipalBackend\Dolibarr($user,$db);
+//$principalBackend = new \Sabre\DAVACL\PrincipalBackend\ZionOne($user,$db);
 // /principals
 //$nodes[] = new \Sabre\DAVACL\PrincipalCollection($principalBackend);
 // CardDav & CalDav Backend
-//$carddavBackend   = new \Sabre\CardDAV\Backend\Dolibarr($user,$db,$langs);
-//$caldavBackend    = new \Sabre\CalDAV\Backend\Dolibarr($user,$db,$langs, $cdavLib);
+//$carddavBackend   = new \Sabre\CardDAV\Backend\ZionOne($user,$db,$langs);
+//$caldavBackend    = new \Sabre\CalDAV\Backend\ZionOne($user,$db,$langs, $cdavLib);
 // /addressbook
 //$nodes[] = new \Sabre\CardDAV\AddressBookRoot($principalBackend, $carddavBackend);
 // /calendars

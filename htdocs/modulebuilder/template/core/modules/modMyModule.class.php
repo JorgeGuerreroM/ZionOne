@@ -46,8 +46,8 @@ class modMyModule extends DolibarrModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Dolibarr for list of used modules id).
-		$this->numero = 500000; // TODO Go on page https://wiki.dolibarr.org/index.php/List_of_modules_id to reserve an id number for your module
+		// Use here a free id (See in Home -> System information -> ZionOne for list of used modules id).
+		$this->numero = 500000; // TODO Go on page https://wiki.ZionOne.org/index.php/List_of_modules_id to reserve an id number for your module
 
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'mymodule';
@@ -75,7 +75,7 @@ class modMyModule extends DolibarrModules
 		$this->editor_url = 'https://www.example.com';		// Must be an external online web site
 		$this->editor_squarred_logo = '';					// Must be image filename into the module/img directory followed with @modulename. Example: 'myimage.png@mymodule'
 
-		// Possible values for version are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated', 'experimental_deprecated' or a version string like 'x.y.z'
+		// Possible values for version are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated', 'experimental_deprecated' or a version string like 'x.y.z'
 		$this->version = '1.0';
 		// Url to the file with your last numberversion of this module
 		//$this->url_last_version = 'http://www.example.com/versionmodule.txt';
@@ -158,8 +158,8 @@ class modMyModule extends DolibarrModules
 		// Prerequisites
 		$this->phpmin = array(7, 1); // Minimum version of PHP required by module
 		// $this->phpmax = array(8, 0); // Maximum version of PHP required by module
-		$this->need_dolibarr_version = array(19, -3); // Minimum version of Dolibarr required by module
-		// $this->max_dolibarr_version = array(19, -3); // Maximum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(19, -3); // Minimum version of ZionOne required by module
+		// $this->max_dolibarr_version = array(19, -3); // Maximum version of ZionOne required by module
 		$this->need_javascript_ajax = 0;
 
 		// Messages at activation
@@ -460,7 +460,7 @@ class modMyModule extends DolibarrModules
 
 	/**
 	 *  Function called when module is enabled.
-	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into ZionOne database.
 	 *  It also creates data directories
 	 *
 	 *  @param      string  $options    Options when enabling module ('', 'noboxes')
@@ -528,7 +528,7 @@ class modMyModule extends DolibarrModules
 
 	/**
 	 *	Function called when module is disabled.
-	 *	Remove from database constants, boxes and permissions from Dolibarr database.
+	 *	Remove from database constants, boxes and permissions from ZionOne database.
 	 *	Data directories are not deleted
 	 *
 	 *	@param	string		$options	Options when enabling module ('', 'noboxes')

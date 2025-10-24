@@ -98,7 +98,7 @@ class Functions2LibTest extends CommonClassTest
 		$result = isValidMailDomain($mail);
 		$this->assertEquals(0, $result, 'Email isValidMailDomain('.$mail.') should return 0 (not valid) but returned '.$result);
 
-		$mail = 'bidon@dolibarr.org';
+		$mail = 'bidon@ZionOne.org';
 		$result = isValidMailDomain($mail);
 		$this->assertEquals(1, $result, 'Email isValidMailDomain('.$mail.') should return 1 (valid) but returned '.$result);
 	}

@@ -43,7 +43,7 @@
 
 /**
  *	\file			htdocs/core/lib/functions.lib.php
- *	\brief			A set of functions for Dolibarr
+ *	\brief			A set of functions for ZionOne
  *					This file contains all frequently used functions.
  */
 
@@ -125,12 +125,12 @@ if (!function_exists('str_contains')) {
  * Return the full path of the directory where a module (or an object of a module) stores its files.
  * Path may depends on the entity if a multicompany module is enabled.
  *
- * @param 	CommonObject 	$object 	Dolibarr common object.
+ * @param 	CommonObject 	$object 	ZionOne common object.
  * @param 	string 			$module 	Override object element, for example to use 'mycompany' instead of 'societe'
  * @param	int				$forobject	Return the more complete path for the given object instead of for the module only.
  * @param	string			$mode		'output' (full main dir) or 'outputrel' (relative dir) or 'temp' (full dir for temporary files) or 'version' (full dir for archived files)
  * @return 	string|null					The path of the relative directory of the module, ending with /
- * @since Dolibarr V18
+ * @since ZionOne V18
  */
 function getMultidirOutput($object, $module = '', $forobject = 0, $mode = 'output')
 {
@@ -192,7 +192,7 @@ function getMultidirOutput($object, $module = '', $forobject = 0, $mode = 'outpu
  * Return the full path of the directory where a module (or an object of a module) stores its temporary files.
  * Path may depends on the entity if a multicompany module is enabled.
  *
- * @param 	CommonObject 	$object 	Dolibarr common object
+ * @param 	CommonObject 	$object 	ZionOne common object
  * @param 	string 			$module 	Override object element, for example to use 'mycompany' instead of 'societe'
  * @param	int				$forobject	Return the more complete path for the given object instead of for the module only.
  * @return 	string|null					The path of the relative temp directory of the module
@@ -206,7 +206,7 @@ function getMultidirTemp($object, $module = '', $forobject = 0)
  * Return the full path of the directory where a module (or an object of a module) stores its versioned files.
  * Path may depends on the entity if a multicompany module is enabled.
  *
- * @param 	CommonObject 	$object 	Dolibarr common object
+ * @param 	CommonObject 	$object 	ZionOne common object
  * @param 	string 			$module 	Override object element, for example to use 'mycompany' instead of 'societe'
  * @param	int				$forobject	Return the more complete path for the given object instead of for the module only.
  * @return string|null					The path of the relative version directory of the module
@@ -218,7 +218,7 @@ function getMultidirVersion($object, $module = '', $forobject = 0)
 
 
 /**
- * Return a Dolibarr global constant string value
+ * Return a ZionOne global constant string value
  *
  * @param 	string 				$key 		Key to return value, return $default if not set
  * @param 	string|int|float 	$default 	Value to return if not defined
@@ -232,7 +232,7 @@ function getDolGlobalString($key, $default = '')
 }
 
 /**
- * Return a Dolibarr global constant int value.
+ * Return a ZionOne global constant int value.
  * The constants $conf->global->xxx are loaded by the script master.inc.php included at begin of any PHP page.
  *
  * @param string 	$key 		Key to return value, return $default if not set
@@ -247,7 +247,7 @@ function getDolGlobalInt($key, $default = 0)
 }
 
 /**
- * Return a Dolibarr global constant float value.
+ * Return a ZionOne global constant float value.
  * The constants $conf->global->xxx are loaded by the script master.inc.php included at begin of any PHP page.
  *
  * @param string 	$key 		Key to return value, return $default if not set
@@ -262,7 +262,7 @@ function getDolGlobalFloat($key, $default = 0)
 }
 
 /**
- * Return a Dolibarr global constant boolean value.
+ * Return a ZionOne global constant boolean value.
  * The constants $conf->global->xxx are loaded by the script master.inc.php included at begin of any PHP page.
  *
  * @param string 	$key 		Key to return value, return $default if not set
@@ -276,7 +276,7 @@ function getDolGlobalBool($key, $default = false)
 }
 
 /**
- * Return Dolibarr user constant string value
+ * Return ZionOne user constant string value
  *
  * @param string 			$key 		Key to return value, return '' if not set
  * @param string|int|float 	$default 	Value to return
@@ -295,7 +295,7 @@ function getDolUserString($key, $default = '', $tmpuser = null)
 }
 
 /**
- * Return Dolibarr user constant int value
+ * Return ZionOne user constant int value
  *
  * @param string 	$key 			Key to return value, return 0 if not set
  * @param int 		$default 		Value to return
@@ -349,7 +349,7 @@ define(
 );
 
 /**
- * Is Dolibarr module enabled
+ * Is ZionOne module enabled
  *
  * @param 	string 	$module 	Module name to check
  * @return 	boolean				True if module is enabled
@@ -1150,7 +1150,7 @@ function GETPOST($paramname, $check = 'alphanohtml', $method = 0, $filter = null
 		do {
 			$oldstringtoclean = $out;
 			$out = str_ireplace(array('javascript', 'vbscript', '&colon', '&#'), '', $out);
-			$out = preg_replace(array('/^[^\?]*%/'), '', $out);				// We remove any % chars before the ?. Example in url: '/product/stock/card.php?action=create&backtopage=%2Fdolibarr_dev%2Fhtdocs%2Fpro%25duct%2Fcard.php%3Fid%3Dabc'
+			$out = preg_replace(array('/^[^\?]*%/'), '', $out);				// We remove any % chars before the ?. Example in url: '/product/stock/card.php?action=create&backtopage=%2FZionOne_dev%2Fhtdocs%2Fpro%25duct%2Fcard.php%3Fid%3Dabc'
 			$out = preg_replace(array('/^[a-z]*\/\s*\/+/i'), '', $out);		// We remove schema*// to remove external URL
 		} while ($oldstringtoclean != $out);
 	}
@@ -1194,7 +1194,7 @@ function GETPOSTINT($paramname, $method = 0)
  *  @param  string          $paramname      Name of the $_GET or $_POST parameter
  *	@param	''|'MU'|'MT'|'MS'|'CU'|'CT'|int	$rounding	Type of rounding ('', 'MU', 'MT, 'MS', 'CU', 'CT', integer) {@see price2num()}
  *  @return float                           Value converted into float
- *  @since	Dolibarr V20
+ *  @since	ZionOne V20
  */
 function GETPOSTFLOAT($paramname, $rounding = '')
 {
@@ -1203,7 +1203,7 @@ function GETPOSTFLOAT($paramname, $rounding = '')
 }
 
 /**
- * Helper function that combines values of a dolibarr DatePicker (such as Form::selectDate) for year, month, day (and
+ * Helper function that combines values of a ZionOne DatePicker (such as Form::selectDate) for year, month, day (and
  * optionally hour, minute, second) fields to return a timestamp.
  *
  * @param 	string 		$prefix 		Prefix used to build the date selector (for instance using Form::selectDate). Example: 'select_datec'
@@ -1442,21 +1442,21 @@ function sanitizeVal($out = '', $check = 'alphanohtml', $filter = null, $options
  */
 function dolSetCookie(string $cookiename, string $cookievalue, int $expire = -1)
 {
-	global $dolibarr_main_force_https;
+	global $ZionOne_main_force_https;
 
 	if ($expire == -1) {
 		$expire = (time() + (86400 * 354));	// keep cookie 1 year.
 	}
 
 	if (PHP_VERSION_ID < 70300) {
-		setcookie($cookiename, empty($cookievalue) ? '' : $cookievalue, empty($cookievalue) ? 0 : $expire, '/', '', !(empty($dolibarr_main_force_https) && isHTTPS() === false), true); // add tag httponly
+		setcookie($cookiename, empty($cookievalue) ? '' : $cookievalue, empty($cookievalue) ? 0 : $expire, '/', '', !(empty($ZionOne_main_force_https) && isHTTPS() === false), true); // add tag httponly
 	} else {
 		// Only available for php >= 7.3
 		$cookieparams = array(
 			'expires' => empty($cookievalue) ? 0 : $expire,
 			'path' => '/',
 			//'domain' => '.mywebsite.com', // the dot at the beginning allows compatibility with subdomains
-			'secure' => !(empty($dolibarr_main_force_https) && isHTTPS() === false),
+			'secure' => !(empty($ZionOne_main_force_https) && isHTTPS() === false),
 			'httponly' => true,
 			'samesite' => 'Lax'	// None || Lax  || Strict
 		);
@@ -1469,7 +1469,7 @@ function dolSetCookie(string $cookiename, string $cookievalue, int $expire = -1)
 
 if (!function_exists('dol_getprefix')) {
 	/**
-	 *  Return a prefix to use for this Dolibarr instance, for session/cookie names or email id.
+	 *  Return a prefix to use for this ZionOne instance, for session/cookie names or email id.
 	 *  The prefix is unique for instance and avoid conflict between multi-instances, even when having two instances with same root dir
 	 *  or two instances in same virtual servers.
 	 *  This function must not use dol_hash (that is used for password hash) and need to have all context $conf loaded.
@@ -1494,7 +1494,7 @@ if (!function_exists('dol_getprefix')) {
 
 			// The recommended value if MAIL_PREFIX_FOR_EMAIL_ID is not defined (may be not defined for old versions)
 			if (!empty($conf->file->instance_unique_id)) {
-				return sha1('dolibarr' . $conf->file->instance_unique_id);
+				return sha1('ZionOne' . $conf->file->instance_unique_id);
 			}
 
 			// For backward compatibility when instance_unique_id is not set
@@ -1502,12 +1502,12 @@ if (!function_exists('dol_getprefix')) {
 		}
 
 		// If prefix is for session (no need to have $conf loaded)
-		global $dolibarr_main_instance_unique_id, $dolibarr_main_cookie_cryptkey;	// This is loaded by filefunc.inc.php
-		$tmp_instance_unique_id = empty($dolibarr_main_instance_unique_id) ? (empty($dolibarr_main_cookie_cryptkey) ? '' : $dolibarr_main_cookie_cryptkey) : $dolibarr_main_instance_unique_id; // Unique id of instance
+		global $ZionOne_main_instance_unique_id, $ZionOne_main_cookie_cryptkey;	// This is loaded by filefunc.inc.php
+		$tmp_instance_unique_id = empty($ZionOne_main_instance_unique_id) ? (empty($ZionOne_main_cookie_cryptkey) ? '' : $ZionOne_main_cookie_cryptkey) : $ZionOne_main_instance_unique_id; // Unique id of instance
 
 		// The recommended value (may be not defined for old versions)
 		if (!empty($tmp_instance_unique_id)) {
-			return sha1('dolibarr' . $tmp_instance_unique_id);
+			return sha1('ZionOne' . $tmp_instance_unique_id);
 		}
 
 		// For backward compatibility when instance_unique_id is not set
@@ -1554,7 +1554,7 @@ function dol_include_once($relpath, $classname = '')
  *  @param	int		$type						0=Used for a Filesystem path,
  *  											1=Used for an URL path (output relative),
  *  											2=Used for an URL path (output full path using same host that current url),
- *  											3=Used for an URL path (output full path using host defined into $dolibarr_main_url_root of conf file, for an access from internet)
+ *  											3=Used for an URL path (output full path using host defined into $ZionOne_main_url_root of conf file, for an access from internet)
  *  @param	int		$returnemptyifnotfound		0:If $type==0 and if file was not found into alternate dir, return default path into main dir (no test on it)
  *  											1:If $type==0 and if file was not found into alternate dir, return empty string
  *  											2:If $type==0 and if file was not found into alternate dir, test into main dir, return default path if found, empty string if not found
@@ -1609,7 +1609,7 @@ function dol_buildpath($path, $type = 0, $returnemptyifnotfound = 0)
 		foreach ($conf->file->dol_document_root as $key => $dirroot) {	// ex: array(["main"]=>"/home/main/htdocs", ["alt0"]=>"/home/dirmod/htdocs", ...)
 			if ($key == 'main') {
 				if ($type == 3) {
-					/*global $dolibarr_main_url_root;*/
+					/*global $ZionOne_main_url_root;*/
 
 					// Define $urlwithroot
 					$urlwithouturlroot = preg_replace('/' . preg_quote(DOL_URL_ROOT, '/') . '$/i', '', trim($conf->file->dol_main_url_root));
@@ -1631,7 +1631,7 @@ function dol_buildpath($path, $type = 0, $returnemptyifnotfound = 0)
 					} elseif ($type == 2) {
 						$res = (preg_match('/^http/i', $conf->file->dol_url_root[$key]) ? '' : DOL_MAIN_URL_ROOT) . $conf->file->dol_url_root[$key] . '/' . $path;
 					} elseif ($type == 3) {
-						/*global $dolibarr_main_url_root;*/
+						/*global $ZionOne_main_url_root;*/
 
 						// Define $urlwithroot
 						$urlwithouturlroot = preg_replace('/' . preg_quote(DOL_URL_ROOT, '/') . '$/i', '', trim($conf->file->dol_main_url_root));
@@ -2605,7 +2605,7 @@ function getCallerInfoString()
  *
  * 	@param  string		$message				Line to log. ''=Show nothing
  *  @param  int<0,7>	$level					Log level
- *												On Windows LOG_ERR=4, LOG_WARNING=5, LOG_NOTICE=LOG_INFO=6, LOG_DEBUG=6 if define_syslog_variables ou PHP 5.3+, 7 if dolibarr
+ *												On Windows LOG_ERR=4, LOG_WARNING=5, LOG_NOTICE=LOG_INFO=6, LOG_DEBUG=6 if define_syslog_variables ou PHP 5.3+, 7 if ZionOne
  *												On Linux   LOG_ERR=3, LOG_WARNING=4, LOG_NOTICE=5, LOG_INFO=6, LOG_DEBUG=7
  *  @param	int<-1,1>	$ident					1=Increase ident of 1 (after log), -1=Decrease ident of 1 (before log)
  *  @param	string		$suffixinfilename		When output is a file, append this suffix into default log filename. Example '_stripe', '_mail'
@@ -2624,7 +2624,7 @@ function dol_syslog($message, $level = LOG_INFO, $ident = 0, $suffixinfilename =
 	}
 
 	// Check if we are into execution of code of a website
-	if (defined('USEEXTERNALSERVER') && !defined('USEDOLIBARRSERVER') && !defined('USEDOLIBARREDITOR')) {
+	if (defined('USEEXTERNALSERVER') && !defined('USEZionOneSERVER') && !defined('USEZionOneEDITOR')) {
 		global $website, $websitekey;
 		if (is_object($website) && !empty($website->ref)) {
 			$suffixinfilename .= '_website_' . $website->ref;
@@ -5147,7 +5147,7 @@ function isValidEmail($address, $acceptsupervisorkey = 0, $acceptuserkey = 0)
  *	Return if the domain name has a valid MX record.
  *  WARNING: This need function idn_to_ascii, checkdnsrr and getmxrr
  *
- *	@param	    string		$domain	    			Domain name (Ex: "yahoo.com", "yhaoo.com", "dolibarr.fr")
+ *	@param	    string		$domain	    			Domain name (Ex: "yahoo.com", "yhaoo.com", "ZionOne.fr")
  *	@return     int     							-1 if error (function not available), 0=Not valid, 1=Valid
  *  @see isValidEmail()
  *  @suppress PhanDeprecatedFunctionInternal Error in Phan plugins incorrectly tags some functions here
@@ -6100,7 +6100,7 @@ function getImgPictoNameList()
 }
 
 /**
- * Get array to convert the Dolibarr picto keys into font awesome keys
+ * Get array to convert the ZionOne picto keys into font awesome keys
  *
  * @param	string		$mode		'fa' to get conversion array for Font-Awesome
  * @return 	string[]				Array of conversion
@@ -6110,7 +6110,7 @@ function getImgPictoConv($mode = 'fa')
 {
 	global $conf;
 
-	// Array when the fa picto key is different than the Dolibarr picto key.
+	// Array when the fa picto key is different than the ZionOne picto key.
 	$arrayconvpictotofa = array(
 		'account' => 'university',
 		'accounting_account' => 'clipboard-list',
@@ -6960,7 +6960,7 @@ function info_admin($text, $infoonimgalt = 0, $nodiv = 0, $admin = '1', $morecss
 function dol_print_error($db = null, $error = '', $errors = null)
 {
 	global $conf, $langs, $user, $argv;
-	global $dolibarr_main_prod;
+	global $ZionOne_main_prod;
 
 	$out = '';
 	$syslog = '';
@@ -6976,14 +6976,14 @@ function dol_print_error($db = null, $error = '', $errors = null)
 	$langs->loadLangs(array('main', 'errors'));
 
 	if ($_SERVER['DOCUMENT_ROOT']) {    // Mode web
-		$out .= $langs->trans("DolibarrHasDetectedError") . ".<br>\n";
+		$out .= $langs->trans("ZionOneHasDetectedError") . ".<br>\n";
 		if (getDolGlobalInt('MAIN_FEATURES_LEVEL') > 0) {
 			$out .= "You use an experimental or develop level of features, so please do NOT report any bugs or vulnerability, except if problem is confirmed after moving option MAIN_FEATURES_LEVEL back to 0.<br>\n";
 		}
 		$out .= $langs->trans("InformationToHelpDiagnose") . ":<br>\n";
 
 		$out .= "<b>" . $langs->trans("Date") . ":</b> " . dol_print_date(time(), 'dayhourlog') . "<br>\n";
-		$out .= "<b>" . $langs->trans("Dolibarr") . ":</b> " . DOL_VERSION . " - https://www.dolibarr.org<br>\n";
+		$out .= "<b>" . $langs->trans("ZionOne") . ":</b> " . DOL_VERSION . " - https://www.ZionOne.org<br>\n";
 		if (isset($conf->global->MAIN_FEATURES_LEVEL)) {
 			$out .= "<b>" . $langs->trans("LevelOfFeature") . ":</b> " . getDolGlobalInt('MAIN_FEATURES_LEVEL') . "<br>\n";
 		}
@@ -7062,7 +7062,7 @@ function dol_print_error($db = null, $error = '', $errors = null)
 			$syslog .= ", msg=" . $msg;
 		}
 	}
-	if (empty($dolibarr_main_prod) && $_SERVER['DOCUMENT_ROOT'] && function_exists('xdebug_print_function_stack') && function_exists('xdebug_call_file')) {
+	if (empty($ZionOne_main_prod) && $_SERVER['DOCUMENT_ROOT'] && function_exists('xdebug_print_function_stack') && function_exists('xdebug_call_file')) {
 		xdebug_print_function_stack();
 		$out .= '<b>XDebug information:</b>' . "<br>\n";
 		$out .= 'File: ' . xdebug_call_file() . "<br>\n";
@@ -7080,7 +7080,7 @@ function dol_print_error($db = null, $error = '', $errors = null)
 		http_response_code(202);		// If we use 202, this is not really an error message, but this allow to output message on command line tools
 	}
 
-	if (empty($dolibarr_main_prod)) {
+	if (empty($ZionOne_main_prod)) {
 		print $out;
 	} else {
 		if (empty($langs->defaultlang)) {
@@ -7089,8 +7089,8 @@ function dol_print_error($db = null, $error = '', $errors = null)
 		$langs->loadLangs(array("main", "errors")); // Reload main because language may have been set only on previous line so we have to reload files we need.
 		// This should not happen, except if there is a bug somewhere. Enabled and check log in such case.
 		print 'This website or feature is currently temporarily not available or failed after a technical error.<br><br>This may be due to a maintenance operation. Current status of operation (' . dol_print_date(dol_now(), 'dayhourrfc') . ') are on next line...<br><br>' . "\n";
-		print $langs->trans("DolibarrHasDetectedError") . '. ';
-		print $langs->trans("YouCanSetOptionDolibarrMainProdToZero");
+		print $langs->trans("ZionOneHasDetectedError") . '. ';
+		print $langs->trans("YouCanSetOptionZionOneMainProdToZero");
 		if (!defined("MAIN_CORE_ERROR")) {
 			define("MAIN_CORE_ERROR", 1);
 		}
@@ -7900,9 +7900,9 @@ function price2num($amount, $rounding = '', $option = 0)
 			$amount = str_replace($thousand, '', $amount);
 		}
 
-		// Convert amount to format with dolibarr dec and thousand (this is because PHP convert a number
-		// to format defined by LC_NUMERIC after a calculation and we want source format to be like defined by Dolibarr setup.
-		// So if number was already a good number, it is converted into local Dolibarr setup.
+		// Convert amount to format with ZionOne dec and thousand (this is because PHP convert a number
+		// to format defined by LC_NUMERIC after a calculation and we want source format to be like defined by ZionOne setup.
+		// So if number was already a good number, it is converted into local ZionOne setup.
 		if (is_numeric($amount)) {
 			// We put in temps value of decimal ("0.00001"). Works with 0 and 2.0E-5 and 9999.10
 			$temps = sprintf("%10.10F", $amount - intval($amount)); // temps=0.0000000000 or 0.0000200000 or 9999.1000000000
@@ -7972,14 +7972,14 @@ function price2num($amount, $rounding = '', $option = 0)
 		}
 		//print ' SS'.$amount.' - '.$nbofdec.' - '.$dec.' - '.$thousand.' - '.$nbofdectoround.'<br>';
 
-		// Convert amount to format with dolibarr dec and thousand (this is because PHP convert a number
-		// to format defined by LC_NUMERIC after a calculation and we want source format to be defined by Dolibarr setup.
+		// Convert amount to format with ZionOne dec and thousand (this is because PHP convert a number
+		// to format defined by LC_NUMERIC after a calculation and we want source format to be defined by ZionOne setup.
 		if (is_numeric($amount)) {
 			// We put in temps value of decimal ("0.00001"). Works with 0 and 2.0E-5 and 9999.10
 			$temps = sprintf("%10.10F", $amount - intval($amount)); // temps=0.0000000000 or 0.0000200000 or 9999.1000000000
 			$temps = preg_replace('/([\.1-9])0+$/', '\\1', $temps); // temps=0. or 0.00002 or 9999.1
 			$nbofdec = max(0, dol_strlen($temps) - 2); // -2 to remove "0."
-			$amount = number_format($amount, min($nbofdec, $nbofdectoround), $dec, $thousand); // Convert amount to format with dolibarr dec and thousand
+			$amount = number_format($amount, min($nbofdec, $nbofdectoround), $dec, $thousand); // Convert amount to format with ZionOne dec and thousand
 		}
 		//print "TT".$amount.'<br>';
 
@@ -11895,7 +11895,7 @@ function dol_eval_new($s)
 		'dol_contctdesc',
 		'executeCLI',
 		'verifCond',
-		'GETPOST', // Native Dolibarr functions
+		'GETPOST', // Native ZionOne functions
 		'create_function',
 		'assert',
 		'mb_ereg_replace',
@@ -11906,7 +11906,7 @@ function dol_eval_new($s)
 		'dol_delete_dir',
 		'dol_delete_dir_recursive',
 		'dol_copy',
-		'archiveOrBackupFile', // more dolibarr functions
+		'archiveOrBackupFile', // more ZionOne functions
 		'fopen',
 		'file_put_contents',
 		'fputs',
@@ -12180,16 +12180,16 @@ function dol_eval_standard($s, $returnvalue = 1, $hideerrors = 1, $onlysimplestr
 
 		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("require", "include", "require_once", "include_once"));
 		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("exec", "passthru", "shell_exec", "system", "proc_open", "popen"));
-		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("dol_eval", "dol_eval_new", "dol_eval_standard", "dol_concatdesc", "executeCLI", "verifCond", "GETPOST"));	// native dolibarr functions
+		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("dol_eval", "dol_eval_new", "dol_eval_standard", "dol_concatdesc", "executeCLI", "verifCond", "GETPOST"));	// native ZionOne functions
 		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("eval", "create_function", "assert", "mb_ereg_replace")); // function with eval capabilities
 		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("readline_completion_function", "readline_callback_handler_install"));
-		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("dol_compress_dir", "dol_decode", "dol_delete_file", "dol_delete_dir", "dol_delete_dir_recursive", "dol_copy", "archiveOrBackupFile")); // more dolibarr functions
+		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("dol_compress_dir", "dol_decode", "dol_delete_file", "dol_delete_dir", "dol_delete_dir_recursive", "dol_copy", "archiveOrBackupFile")); // more ZionOne functions
 		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("fopen", "file_put_contents", "fputs", "fputscsv", "fwrite", "fpassthru", "mkdir", "rmdir", "symlink", "touch", "unlink", "umask"));
 		$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("require", "include"));
 		if (getDolGlobalString('MAIN_DISALLOW_STRING_OBFUSCATION_IN_DOL_EVAL')) {	// We disabllow all function that allow to obfuscate the real name of a function
 			// @phpcs:ignore
 			$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("base64" . "_" . "decode", "rawurl" . "decode", "url" . "decode", "str" . "_rot13", "hex" . "2bin")); // name of forbidden functions are split to avoid false positive
-			$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("dol_concatdesc"));	// native dolibarr functions
+			$forbiddenphpfunctions = array_merge($forbiddenphpfunctions, array("dol_concatdesc"));	// native ZionOne functions
 		}
 
 		$forbiddenphpmethods = array('invoke', 'invokeArgs');	// Method of ReflectionFunction to execute a function
@@ -15170,7 +15170,7 @@ function isAFileWithExecutableContent($filename)
  * Return the value of token currently saved into session with name 'newtoken'.
  * This token must be send by any POST as it will be used by next page for comparison with value in session.
  *
- * @since Dolibarr v10.0.7
+ * @since ZionOne v10.0.7
  * @return  string
  */
 function newToken()
@@ -15182,7 +15182,7 @@ function newToken()
  * Return the value of token currently saved into session with name 'token'.
  * For ajax call, you must use this token as a parameter of the call into the js calling script (the called ajax php page must also set constant NOTOKENRENEWAL).
  *
- * @since Dolibarr v10.0.7
+ * @since ZionOne v10.0.7
  * @return  string
  */
 function currentToken()
@@ -15212,7 +15212,7 @@ function getNonce()
  * Start a table with headers and a optional clickable number (don't forget to use "finishSimpleTable()" after the last table row)
  *
  * @param string	$header			The first left header of the table (automatic translated)
- * @param string	$link			(optional) The link to a internal dolibarr page, where to go on clicking on the number or the ... (without the first "/")
+ * @param string	$link			(optional) The link to a internal ZionOne page, where to go on clicking on the number or the ... (without the first "/")
  * @param string	$arguments		(optional) Additional arguments for the link (e.g. "search_status=0")
  * @param integer	$emptyColumns	(optional) Number of empty columns to add after the first column
  * @param integer	$number			(optional) The number that is shown right after the first header, when -1 the link is shown as '...'
@@ -15627,7 +15627,7 @@ function dolCheckFilters($sqlfilters, &$error = '', &$parenthesislevel = 0)
 }
 
 /**
- * Function to forge a SQL criteria from a Dolibarr filter syntax string.
+ * Function to forge a SQL criteria from a ZionOne filter syntax string.
  * This method is called by forgeSQLFromUniversalSearchCriteria()
  *
  * @param  string[]	$matches       Array of found string by regex search. Example: "t.ref:like:'SO-%'" or "t.date_creation:<:'20160101'" or "t.nature:is:NULL"
@@ -16650,7 +16650,7 @@ function show_actions_messaging($conf, $langs, $db, $filterobj, $objcon = null, 
 }
 
 /**
- * Helper function that combines values of a dolibarr DatePicker (such as Form::selectDate) for year, month, day (and
+ * Helper function that combines values of a ZionOne DatePicker (such as Form::selectDate) for year, month, day (and
  * optionally hour, minute, second) fields to return a portion of URL reproducing the values from the current HTTP
  * request.
  *
@@ -16691,7 +16691,7 @@ function buildParamDate($prefix, $timestamp = null, $hourTime = '', $gm = 'auto'
  * @param int<0,1> 	$printfooter Determines if the page footer should be printed (1 = yes, 0 = no).
  * @param int<0,1> 	$showonlymessage If set to 1, only the error message is displayed without any additional information or hooks.
  * @param mixed 	$params Optional parameters to pass to hooks for further processing or customization.
- * @global Conf $conf Dolibarr configuration object (global)
+ * @global Conf $conf ZionOne configuration object (global)
  * @global DoliDB $db Database connection object (global)
  * @global Translate $langs Language translation object, initialized within the function if not already.
  * @global HookManager $hookmanager Hook manager object, initialized within the function if not already for executing hooks.

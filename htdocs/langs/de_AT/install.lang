@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - install
+# ZionOne language file - Source file is en_US - install
 Server=Host
 DatabaseName=Datenbankname
-GoToDolibarr=Zu dolibarr
+GoToZionOne=Zu ZionOne
 GoToUpgradePage=Zur Aktualisierungsseite
 DBSortingCollation=Reihenfolge der Zeichensortierung (Collation)
 MigrationActioncommElement=Update-Daten über die Maßnahmen

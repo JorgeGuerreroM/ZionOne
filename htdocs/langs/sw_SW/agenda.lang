@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=Tukio la kitambulisho
 Actions=Matukio
 Agenda=Ajenda
@@ -28,10 +28,10 @@ ViewWeek=Mtazamo wa wiki
 ViewPerUser=Kwa mtazamo wa mtumiaji
 ViewPerType=Kwa mwonekano wa aina
 AutoActions= Kujaza moja kwa moja
-AgendaAutoActionDesc= Hapa unaweza kufafanua matukio ambayo ungependa Dolibarr iunde kiotomatiki katika Agenda. Ikiwa hakuna kitakachoangaliwa, ni vitendo vya mikono pekee ndivyo vitajumuishwa kwenye kumbukumbu na kuonyeshwa kwenye Agenda. Ufuatiliaji otomatiki wa vitendo vya biashara vinavyofanywa kwenye vitu (uthibitishaji, mabadiliko ya hali) hautahifadhiwa.
-AgendaSetupOtherDesc= Ukurasa huu unatoa chaguzi za kuruhusu usafirishaji wa matukio yako ya Dolibarr hadi kwenye kalenda ya nje (Thunderbird, Kalenda ya Google n.k...)
-AgendaExtSitesDesc=Ukurasa huu unaruhusu kutangaza vyanzo vya nje vya kalenda ili kuona matukio yao kwenye ajenda ya Dolibarr.
-ActionsEvents=Matukio ambayo Dolibarr itaunda kitendo katika ajenda kiotomatiki
+AgendaAutoActionDesc= Hapa unaweza kufafanua matukio ambayo ungependa ZionOne iunde kiotomatiki katika Agenda. Ikiwa hakuna kitakachoangaliwa, ni vitendo vya mikono pekee ndivyo vitajumuishwa kwenye kumbukumbu na kuonyeshwa kwenye Agenda. Ufuatiliaji otomatiki wa vitendo vya biashara vinavyofanywa kwenye vitu (uthibitishaji, mabadiliko ya hali) hautahifadhiwa.
+AgendaSetupOtherDesc= Ukurasa huu unatoa chaguzi za kuruhusu usafirishaji wa matukio yako ya ZionOne hadi kwenye kalenda ya nje (Thunderbird, Kalenda ya Google n.k...)
+AgendaExtSitesDesc=Ukurasa huu unaruhusu kutangaza vyanzo vya nje vya kalenda ili kuona matukio yao kwenye ajenda ya ZionOne.
+ActionsEvents=Matukio ambayo ZionOne itaunda kitendo katika ajenda kiotomatiki
 EventRemindersByEmailNotEnabled=Vikumbusho vya tukio kupitia barua pepe havikuwashwa kwenye %s usanidi wa moduli.
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Mtu wa tatu %s kuundwa

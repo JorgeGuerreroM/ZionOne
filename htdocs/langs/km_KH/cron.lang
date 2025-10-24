@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = អានការងារដែលបានគ្រោងទុក
 Permission23102 = បង្កើត/ធ្វើបច្ចុប្បន្នភាពការងារដែលបានគ្រោងទុក
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=បិទ
 CronTaskInactive=ការងារនេះត្រូវបានបិទ (មិនកំណត់ពេល)
 CronId=លេខសម្គាល់
 CronClassFile=ឈ្មោះឯកសារជាមួយថ្នាក់
-CronModuleHelp=ឈ្មោះរបស់ថតម៉ូឌុល Dolibarr (ក៏ដំណើរការជាមួយម៉ូឌុល Dolibarr ខាងក្រៅផងដែរ) ។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ Dolibarr Product object /htdocs/<u>productb0aaa878fdca4d /class/product.class.php តម្លៃសម្រាប់ម៉ូឌុលគឺ<br><i>product</i>
-CronClassFileHelp=ផ្លូវទាក់ទង និងឈ្មោះឯកសារដែលត្រូវផ្ទុក (ផ្លូវគឺទាក់ទងទៅនឹងថត root ម៉ាស៊ីនមេបណ្តាញ) ។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ Dolibarr Product object htdocs/product/class/<u>product.class.php</u> តម្លៃសម្រាប់ឈ្មោះឯកសារថ្នាក់គឺ<br><i>product/class/product .class.php</i>
-CronObjectHelp=ឈ្មោះវត្ថុដែលត្រូវផ្ទុក។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ Dolibarr Product object /htdocs/product/class/product.class.php តម្លៃសម្រាប់ឈ្មោះឯកសារថ្នាក់គឺ<br><i>ផលិតផល</i>
-CronMethodHelp=វិធីសាស្រ្តវត្ថុដើម្បីបើកដំណើរការ។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ Dolibarr Product object /htdocs/product/class/product.class.php តម្លៃសម្រាប់ method គឺ <br><i>fetch</i>
-CronArgsHelp=អាគុយម៉ង់វិធីសាស្រ្ត។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ Dolibarr Product object /htdocs/product/class/product.class.php តម្លៃសម្រាប់ប៉ារ៉ាម៉ែត្រអាចជា <br><i>0, ProductRef</i>
+CronModuleHelp=ឈ្មោះរបស់ថតម៉ូឌុល ZionOne (ក៏ដំណើរការជាមួយម៉ូឌុល ZionOne ខាងក្រៅផងដែរ) ។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ ZionOne Product object /htdocs/<u>productb0aaa878fdca4d /class/product.class.php តម្លៃសម្រាប់ម៉ូឌុលគឺ<br><i>product</i>
+CronClassFileHelp=ផ្លូវទាក់ទង និងឈ្មោះឯកសារដែលត្រូវផ្ទុក (ផ្លូវគឺទាក់ទងទៅនឹងថត root ម៉ាស៊ីនមេបណ្តាញ) ។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ ZionOne Product object htdocs/product/class/<u>product.class.php</u> តម្លៃសម្រាប់ឈ្មោះឯកសារថ្នាក់គឺ<br><i>product/class/product .class.php</i>
+CronObjectHelp=ឈ្មោះវត្ថុដែលត្រូវផ្ទុក។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ ZionOne Product object /htdocs/product/class/product.class.php តម្លៃសម្រាប់ឈ្មោះឯកសារថ្នាក់គឺ<br><i>ផលិតផល</i>
+CronMethodHelp=វិធីសាស្រ្តវត្ថុដើម្បីបើកដំណើរការ។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ ZionOne Product object /htdocs/product/class/product.class.php តម្លៃសម្រាប់ method គឺ <br><i>fetch</i>
+CronArgsHelp=អាគុយម៉ង់វិធីសាស្រ្ត។ <BR> ឧទាហរណ៍ដើម្បីហៅវិធីសាស្ត្រទៅយករបស់ ZionOne Product object /htdocs/product/class/product.class.php តម្លៃសម្រាប់ប៉ារ៉ាម៉ែត្រអាចជា <br><i>0, ProductRef</i>
 CronCommandHelp=បន្ទាត់ពាក្យបញ្ជាប្រព័ន្ធដែលត្រូវប្រតិបត្តិ។
 CronCreateJob=បង្កើតការងារដែលបានគ្រោងទុកថ្មី។
 CronFrom=ពី

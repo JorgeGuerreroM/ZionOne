@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=conta (do Gráfico de conta) usado por padrão para "usuários" com salários
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=O conta dedicado definido no cartão utilizador será usado apenas para livro auxiliar Contabilista. Este será usado para livro razão, mas também como o valor padrão de livro auxiliar Contabilista se nenhum utilizador Contabilista conta dedicado for definido no utilizador.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Conta contabilística usada por defeito para pagamentos de salários

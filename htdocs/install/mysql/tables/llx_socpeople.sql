@@ -26,7 +26,7 @@ create table llx_socpeople
   tms				timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   fk_soc			integer,									-- lien vers la societe
   entity			integer DEFAULT 1 NOT NULL,					-- multi company id
-  ref_ext           varchar(255),                               -- reference into an external system (not used by dolibarr)
+  ref_ext           varchar(255),                               -- reference into an external system (not used by ZionOne)
   name_alias        varchar(255),
   fk_parent         integer NULL,
 

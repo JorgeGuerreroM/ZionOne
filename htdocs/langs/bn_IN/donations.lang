@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=দান
 Donations=দান
 DonationRef=দান রেফ.
@@ -37,7 +37,7 @@ DonationUseThirdparties=দাতার ঠিকানা হিসাবে �
 DonationsStatistics=অনুদানের পরিসংখ্যান
 NbOfDonations=অনুদানের সংখ্যা
 BlankDonationForm=জনসাধারণের অনুদানের ফর্ম
-BlankDonationFormDesc=Dolibarr আপনাকে একটি পাবলিক URL/ওয়েবসাইট প্রদান করতে পারে যাতে বহিরাগত দর্শনার্থীরা অনুদান দিতে পারেন। যদি একটি অনলাইন পেমেন্ট মডিউল সক্রিয় থাকে, তাহলে একটি পেমেন্ট ফর্ম স্বয়ংক্রিয়ভাবে প্রদান করা হতে পারে।
+BlankDonationFormDesc=ZionOne আপনাকে একটি পাবলিক URL/ওয়েবসাইট প্রদান করতে পারে যাতে বহিরাগত দর্শনার্থীরা অনুদান দিতে পারেন। যদি একটি অনলাইন পেমেন্ট মডিউল সক্রিয় থাকে, তাহলে একটি পেমেন্ট ফর্ম স্বয়ংক্রিয়ভাবে প্রদান করা হতে পারে।
 EnablePublicDonationForm=পাবলিক ডোনেশন ফর্ম সক্রিয় করুন
 EnablePublicDonationList=জনসাধারণের অনুদানের তালিকা সক্রিয় করুন
 ForceDonateurNature = জোর করে দাতা প্রকৃতি (ব্যক্তি বা কর্পোরেশন)

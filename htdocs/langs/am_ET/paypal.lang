@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=የ PayPal ሞጁል ማዋቀር
 PaypalDesc=ይህ ሞጁል በደንበኞች በ<a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> በኩል ክፍያ ይፈቅዳል። ይህ ለማስታወቂያ-ሆክ ክፍያ ወይም ከዶሊባርር ነገር ጋር ለተዛመደ ክፍያ (ክፍያ መጠየቂያ፣ ትዕዛዝ፣ ...) ጥቅም ላይ ሊውል ይችላል።
 PaypalOrCBDoPayment=በ PayPal (ካርድ ወይም PayPal) ይክፈሉ

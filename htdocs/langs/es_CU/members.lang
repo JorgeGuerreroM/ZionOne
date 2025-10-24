@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Área de miembros
 MemberCard=tarjeta de miembro
 SubscriptionCard=tarjeta de suscripción
@@ -8,8 +8,8 @@ MembersTickets=Hoja de dirección de membresía
 FundationMembers=miembros de la fundación
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Otro miembro (nombre: <b> %s </b>, inicio de sesión: <b> %s </b>) ya está vinculado a un tercero b0aee83365837fz 0 %s </b> . Elimine este enlace primero porque un tercero no se puede vincular solo con un miembro (y viceversa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Por razones de seguridad, debe tener permisos para editar todos los usuarios para poder vincular un miembro a un usuario que no es suyo.
-SetLinkToUser=Enlace a un usuario de Dolibarr
-SetLinkToThirdParty=Enlace a un tercero de Dolibarr
+SetLinkToUser=Enlace a un usuario de ZionOne
+SetLinkToThirdParty=Enlace a un tercero de ZionOne
 MembersList=Lista de miembros
 MembersListToValid=Lista de miembros en borrador (por validar)
 MembersListValid=Lista de miembros válidos
@@ -71,10 +71,10 @@ DeleteSubscription=Eliminar una suscripción
 ConfirmDeleteSubscription=¿Está seguro de que desea eliminar esta contribución?
 Filehtpasswd=archivo htpasswd
 ConfirmValidateMember=¿Está seguro de que desea validar este miembro?
-FollowingLinksArePublic=Los siguientes enlaces son páginas abiertas que no están protegidas por ningún permiso de Dolibarr. No son páginas formateadas, se proporcionan como ejemplo para mostrar cómo enumerar la base de datos de miembros.
+FollowingLinksArePublic=Los siguientes enlaces son páginas abiertas que no están protegidas por ningún permiso de ZionOne. No son páginas formateadas, se proporcionan como ejemplo para mostrar cómo enumerar la base de datos de miembros.
 PublicMemberList=Lista de miembros públicos
 BlankSubscriptionForm=Formulario público de autorregistro
-BlankSubscriptionFormDesc=Dolibarr puede proporcionarle una URL/sitio web público para permitir que los visitantes externos soliciten suscribirse a la fundación. Si se habilita un módulo de pago en línea, también se puede proporcionar automáticamente un formulario de pago.
+BlankSubscriptionFormDesc=ZionOne puede proporcionarle una URL/sitio web público para permitir que los visitantes externos soliciten suscribirse a la fundación. Si se habilita un módulo de pago en línea, también se puede proporcionar automáticamente un formulario de pago.
 EnablePublicSubscriptionForm=Habilitar el sitio web público con formulario de autosuscripción
 ExportDataset_member_1=Miembros y contribuciones
 LastMembersModified=Últimos miembros %s modificados

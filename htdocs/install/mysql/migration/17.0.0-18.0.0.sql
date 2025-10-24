@@ -444,7 +444,7 @@ ALTER TABLE llx_c_invoice_subtype ADD UNIQUE INDEX uk_c_invoice_subtype (entity,
 
 ALTER TABLE llx_projet ADD COLUMN fk_project integer DEFAULT NULL;
 
--- Upgrade default PDF models to the 'new' ones (eproved since 4 dolibarr versions from now)
+-- Upgrade default PDF models to the 'new' ones (eproved since 4 ZionOne versions from now)
 --UPDATE llx_const SET value='eratosthene' WHERE name='COMMANDE_ADDON_PDF' and value='einstein';
 --UPDATE llx_const SET value='sponge' WHERE name='FACTURE_ADDON_PDF' and value='crabe';
 --UPDATE llx_const SET value='espadon' WHERE name='EXPEDITION_ADDON_PDF' and value='merou';
@@ -502,13 +502,13 @@ ALTER TABLE llx_societe_rib ADD COLUMN ext_payment_site varchar(128);
 ALTER TABLE llx_commande_fournisseur ADD UNIQUE INDEX uk_commande_fournisseur_ref (ref, entity);
 
 -- Drop the composite unique index that exists on llx_actioncomm to rebuild a new one without unique feature.
--- The old design introduced a deadlock over traffic intense Dolibarr instance.
+-- The old design introduced a deadlock over traffic intense ZionOne instance.
 -- VMYSQL4.1 DROP INDEX uk_actioncomm_ref on llx_actioncomm;
 -- VPGSQL8.2 DROP INDEX uk_actioncomm_ref;
 ALTER TABLE llx_actioncomm ADD INDEX idx_actioncomm_ref (ref, entity);
 
 -- Bump llx_reception.ref_supplier to allow up to 255 characters to match llx_commande_fournisseur.ref_supplier.
--- See: https://github.com/Dolibarr/dolibarr/pull/25034
+-- See: https://github.com/ZionOne/ZionOne/pull/25034
 ALTER TABLE llx_reception MODIFY COLUMN ref_supplier varchar(255);
 
 insert into llx_c_chargesociales (fk_pays, id, libelle, deductible, active, code) values ( 102, 10201, 'Αναλυτική Περιοδική Δήλωση (ΑΠΔ)', 1, 1, 'ΑΠΔ');

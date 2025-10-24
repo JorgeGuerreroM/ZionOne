@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Code
 WebsiteName=Name der Website
 WebsiteSetupDesc=Erstellen Sie hier die Websites, die Sie verwenden möchten. Dann gehen Sie in das Menü Websites, um sie zu bearbeiten.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Um diese Website live zu schalten, st
 SetHereVirtualHost=<u>Verwendung mit Apache/Nginx/... </u> <br> Erstellen Sie auf Ihrem Webserver (Apache, Nginx, ...) einen dedizierten virtuellen Host mit aktiviertem PHP und einem Stammverzeichnis unter <br> <strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Beispiel für die Einrichtung eines virtuellen Apache-Hosts
 YouCanAlsoTestWithPHPS=<u>Verwendung mit eingebettetem PHP-Server</u><br>In der Entwicklungsumgebung können Sie die Site auch mit dem eingebetteten PHP-Webserver testen, indem Sie
-YouCanAlsoDeployToAnotherWHP=<u>Betreiben Sie Ihre Website bei einem Dolibarr-Webhosting-Anbieter. </u><br>Wenn Sie im Internet keinen Web-Server wie Apache oder NGinx haben, können Sie Ihre Website exportieren und und in eine andere Dolibarr-Instanz importieren, die von einem anderen Dolibarr-Hosting-Anbieter bereitgestellt wird, der eine vollständige Integration mit dem Website-Modul anbietet. Eine Liste Liste einiger Dolibarr-Hosting-Anbieter finden Sie unter <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Betreiben Sie Ihre Website bei einem ZionOne-Webhosting-Anbieter. </u><br>Wenn Sie im Internet keinen Web-Server wie Apache oder NGinx haben, können Sie Ihre Website exportieren und und in eine andere ZionOne-Instanz importieren, die von einem anderen ZionOne-Hosting-Anbieter bereitgestellt wird, der eine vollständige Integration mit dem Website-Modul anbietet. Eine Liste Liste einiger ZionOne-Hosting-Anbieter finden Sie unter <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Überprüfen Sie auch, ob der User des virtuellen Hosts (z.B. www-data) über die Berechtigungen <strong>%s</strong> für Dateien in <br> <strong>%s</strong> verfügt.
 ReadPerm=Lesen
 WritePerm=Schreiben
 TestDeployOnWeb=Test/Bereitstellung im Web
 PreviewSiteServedByWebServer=Die <u>Vorschau %s in einem neuen Tab</u><br><br>%s wird durch einen externen Webserver (Wie Apache, Nginx, IIS) ausgeliefert. Dieser Server muss installiert und eingerichtet sein, bevor Sie den Verzeichnis <br><strong>%s</strong> anzeigen können.<br> URL, die von dem externen Server bereitgestellt wird: <br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Vorschau %s in einem neuen Tab.</u><br><br>Die %s wird von Dolibarr Server bereitgestellt, sod ass kein zusätzliches Web Server (wie Apache, Nginx, IIS) installiert werden muss.<br>Der Nachteil besteht darin, dass die URLs der Seiten nicht benutzerfreundlich sind und mit dem Pfad Ihrer Dolibarr-Installation beginnen.<br>Von Dolibarr bereitgestellte URL:<br><strong>%s</strong><br><br>Um die Bereitstellung oder den Test mit Ihrem eigenen externen Web-Server (wie Apache, Nginx, Lighttp) durchzuführen, verwenden Sie den Link "%s".
+PreviewSiteServedByDolibarr=<u>Vorschau %s in einem neuen Tab.</u><br><br>Die %s wird von ZionOne Server bereitgestellt, sod ass kein zusätzliches Web Server (wie Apache, Nginx, IIS) installiert werden muss.<br>Der Nachteil besteht darin, dass die URLs der Seiten nicht benutzerfreundlich sind und mit dem Pfad Ihrer ZionOne-Installation beginnen.<br>Von ZionOne bereitgestellte URL:<br><strong>%s</strong><br><br>Um die Bereitstellung oder den Test mit Ihrem eigenen externen Web-Server (wie Apache, Nginx, Lighttp) durchzuführen, verwenden Sie den Link "%s".
 VirtualHostUrlNotDefined=Die URL des virtuellen Hosts, der von einem externen Webserver bereit gestellt wird, ist nicht definiert
 NoPageYet=Noch keine Seiten
 YouCanCreatePageOrImportTemplate=Sie können eine neue Seite erstellen oder eine komplette Website-Vorlage importieren
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Sie werden in Kürze zur Detailseite Ihrer Bestel
 WebPortalSetupNotComplete=Die Webportal-Konfiguration ist nicht vollständig
 DeleteWebsiteAccount=Website-Konto löschen
 ConfirmDeleteWebsiteAccount=Sind Sie sicher, dass Sie dieses Konto löschen wollen?
-ConfirmDeleteWebsiteAccount2=Wenn dieses Konto für die Anmeldung beim öffentlichen Portal oder einer anderen von Dolibarr betriebenen Website verwendet wurde, ist die Anmeldung möglicherweise nicht mehr möglich.
+ConfirmDeleteWebsiteAccount2=Wenn dieses Konto für die Anmeldung beim öffentlichen Portal oder einer anderen von ZionOne betriebenen Website verwendet wurde, ist die Anmeldung möglicherweise nicht mehr möglich.
 WebsiteSecurityOptions=Website-Sicherheitsoptionen
 ContentSecurityPolicy=Website HTTP "Content-Security-Policy“
 WebsiteSecurityForceRP=Website HTTP "Referrer-Policy"

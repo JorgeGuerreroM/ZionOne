@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - accountancy
+# ZionOne language file - Source file is en_US - accountancy
 ACCOUNTING_EXPORT_PIECE=Exportar el número de pieza
 ACCOUNTING_EXPORT_PREFIX_SPEC=Especifique el prefijo para el nombre del archivo
 DefaultForService=Predeterminado para servicio

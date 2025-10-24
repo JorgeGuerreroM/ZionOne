@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe'i mooduli seadistamine
 StripeDesc=Pakkuge oma klientidele veebipõhist makselehte krediit-/deebetkaardimakseteks <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe'i</a> kaudu. Seda saab kasutada selleks, et võimaldada teie klientidel teha ühekordseid makseid või makseid, mis on seotud konkreetse Dolibarri objektiga (arve, tellimus jne).
 StripeOrCBDoPayment=Maksa krediitkaardi või Stripe'iga
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Ainult klientidele Austriast, Belgiast, Saks
 ListOfSupportedHooksToActivate=Toetatud konksude loend aktiveerimiseks
 # Paybox
 PayBoxSetup=PayBox mooduli seadistamine
-PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
 PayBoxDoPayment=Pay with Paybox
 YouWillBeRedirectedOnPayBox=Teid suunatakse turvalisele Payboxi lehele krediitkaardi info sisestamiseks
 SetupPayBoxToHavePaymentCreatedAutomatically=Setup your Paybox with url <b>%s</b> to have payment created automatically when validated by Paybox.

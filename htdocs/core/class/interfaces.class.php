@@ -65,7 +65,7 @@ class Interfaces
 
 	// phpcs:disable PEAR.NamingConventions.ValidFunctionName.ScopeNotCamelCaps
 	/**
-	 *   Function called when a Dolibarr business event occurs
+	 *   Function called when a ZionOne business event occurs
 	 *   This function call all qualified triggers.
 	 *
 	 *   @param		string		$action     Trigger event code

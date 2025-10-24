@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID události
 Actions=Události
 Agenda=Agenda
@@ -30,9 +30,9 @@ ViewPerUser=Zobrazení za uživatele
 ViewPerType=Podle zobrazení typu
 AutoActions= Automatické naplnění
 AgendaAutoActionDesc= Zde můžete definovat události, které chcete vytvořit v programu Agenda automaticky. Pokud nic není zaškrtnuto, budou do protokolů zahrnuty pouze ruční akce a zobrazeny v Agendě. Automatické sledování obchodních akcí prováděných na objektech (ověřování, změna stavu) nebude uloženo.
-AgendaSetupOtherDesc= Tato stránka obsahuje možnosti umožňující export událostí Dolibarr do externího kalendáře (Thunderbird, Kalendář Google atd.)
+AgendaSetupOtherDesc= Tato stránka obsahuje možnosti umožňující export událostí ZionOne do externího kalendáře (Thunderbird, Kalendář Google atd.)
 AgendaExtSitesDesc=Tato stránka umožňuje deklarovat externí zdroje kalendářů pro možnost vidět své akce v agendách programu.
-ActionsEvents=Události, pro které Dolibarr vytvoří akci v programu automaticky
+ActionsEvents=Události, pro které ZionOne vytvoří akci v programu automaticky
 EventRemindersByEmailNotEnabled=Připomenutí událostí e-mailem nebyla povolena do %snastavení modulu .
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Subjekt %s vytvořen

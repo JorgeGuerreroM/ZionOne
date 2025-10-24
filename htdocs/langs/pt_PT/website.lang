@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Código
 WebsiteName=Nome do Site da Web
 WebsiteSetupDesc=Crie aqui os sites que você deseja usar. Em seguida, vá para o menu Websites para editá-los.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Para implantar este Site da Web ao vi
 SetHereVirtualHost=<u>Usar com Apache/NGinx/...</u><br>Criar em seu servidor web (Apache, Nginx, ...) um virtual dedicado anfitrião, hospedeiro com PHP habilitado e uma raiz diretoria em<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Exemplo para usar na configuração anfitrião, hospedeiro virtual do Apache:
 YouCanAlsoTestWithPHPS=<u>Usar com servidor PHP embarcado</u><br>No ambiente de desenvolvimento, você pode preferir testar o site com o servidor web PHP embarcado executando
-YouCanAlsoDeployToAnotherWHP=<u>Execute seu site dentro de um provedor de hospedagem Dolibarr</u><br>Se você não tiver um servidor web como Apache ou NGinx disponível na internet, você pode exportar e importar seu site para outra instância Dolibarr fornecida por outro provedor de hospedagem Dolibarr que forneça integração total com o Site da Web módulo. Você pode encontrar uma lista de alguns provedores de hospedagem Dolibarr em <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external"> https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Execute seu site dentro de um provedor de hospedagem ZionOne</u><br>Se você não tiver um servidor web como Apache ou NGinx disponível na internet, você pode exportar e importar seu site para outra instância ZionOne fornecida por outro provedor de hospedagem ZionOne que forneça integração total com o Site da Web módulo. Você pode encontrar uma lista de alguns provedores de hospedagem ZionOne em <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external"> https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=verificar também que o anfitrião, hospedeiro utilizador (por exemplo www-data) tem permissões <strong>%s</strong> em arquivos em<br><strong>%s</strong>
 ReadPerm=Ler
 WritePerm=Escrever
 TestDeployOnWeb=Testar/implantar na web
 PreviewSiteServedByWebServer=<u> Pré-visualize %s num novo separador. </ u> <br> <br> O %s será servido por um servidor Web externo (como Apache, Nginx, IIS). Você deve instalar e configurar este servidor antes de apontar para o diretório: <br> <strong> %s </ strong> <br> URL fornecida pelo servidor externo: <br> <strong> %s </ strong>
-PreviewSiteServedByDolibarr=<u>Visualize %s em uma nova aba.</u><br><br>O %s será servido pelo servidor Dolibarr, portanto, não precisa de nenhum servidor web extra (como Apache, Nginx, IIS) instalado.<br>O inconveniente é que as URLs das páginas não são utilizador amigáveis e comece com o caminho do seu Dolibarr.<br>URL servida pelo Dolibarr:<br><strong>%s</strong><br><br>Para implantar ou testar usando seu próprio servidor web externo (como Apache, Nginx, Lighttp), use o hiperligação, conexão "%s".
+PreviewSiteServedByDolibarr=<u>Visualize %s em uma nova aba.</u><br><br>O %s será servido pelo servidor ZionOne, portanto, não precisa de nenhum servidor web extra (como Apache, Nginx, IIS) instalado.<br>O inconveniente é que as URLs das páginas não são utilizador amigáveis e comece com o caminho do seu ZionOne.<br>URL servida pelo ZionOne:<br><strong>%s</strong><br><br>Para implantar ou testar usando seu próprio servidor web externo (como Apache, Nginx, Lighttp), use o hiperligação, conexão "%s".
 VirtualHostUrlNotDefined=URL do host virtual servido pelo servidor da web externo não definido
 NoPageYet=Ainda sem páginas
 YouCanCreatePageOrImportTemplate=Você pode criar uma nova página ou importar um modelo de site completo
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Você será redirecionado para a página de detal
 WebPortalSetupNotComplete=A configuração do portal da Web não está concluída
 DeleteWebsiteAccount=eliminar, apagar Site da Web conta
 ConfirmDeleteWebsiteAccount=Tem a certeza que pretende para eliminar, apagar este conta.
-ConfirmDeleteWebsiteAccount2=Se este conta foi usado para efetuar login no portal público ou em qualquer outro site fornecido pela Dolibarr, o login pode não ser mais possível.
+ConfirmDeleteWebsiteAccount2=Se este conta foi usado para efetuar login no portal público ou em qualquer outro site fornecido pela ZionOne, o login pode não ser mais possível.
 ContentSecurityPolicy=Site da Web HTTP "Política de Segurança de Conteúdo"
 WebsiteSecurityForceRP=Site da Web HTTP "Política de Referência"
 WebsiteSecurityForceSTS=Site da Web HTTP "Segurança de Transporte Estrita"

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Donatie
 Donations=Donaties
 DonationRef=Gift ref.
@@ -37,7 +37,7 @@ DonationUseThirdparties=Gebruik het adres van een bestaande derde partij als adr
 DonationsStatistics=Donatiestatistieken
 NbOfDonations=Aantal donaties
 BlankDonationForm=Openbaar donatieformulier
-BlankDonationFormDesc=Dolibarr kan u een openbare URL/website aanbieden zodat externe bezoekers een donatie kunnen doen. Als een online betaalmodule is ingeschakeld, kan er ook automatisch een betaalformulier worden aangemaakt.
+BlankDonationFormDesc=ZionOne kan u een openbare URL/website aanbieden zodat externe bezoekers een donatie kunnen doen. Als een online betaalmodule is ingeschakeld, kan er ook automatisch een betaalformulier worden aangemaakt.
 EnablePublicDonationForm=Het openbare donatieformulier inschakelen
 EnablePublicDonationList=De openbare donatielijst inschakelen
 ForceDonateurNature = Kracht van de schenker (natuurlijke persoon of rechtspersoon)

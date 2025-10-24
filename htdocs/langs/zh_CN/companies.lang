@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=您的联系方式已被记录。我们会尽快回复您...
 ContactUsDesc=通过此表单，您可以向我们发送首次联系的消息。
 ErrorCompanyNameAlreadyExists=公司名称%s已经存在。请使用其它名称。

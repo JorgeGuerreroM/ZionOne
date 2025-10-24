@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID evento
 Actions=Eventi
 Agenda=Agenda
@@ -28,9 +28,9 @@ ViewWeek=Vista settimanale
 ViewPerUser=Visualizzazione per utente
 ViewPerType=Visualizza per tipo
 AutoActions= Riempimento automatico
-AgendaAutoActionDesc= Here you may define events which you want Dolibarr to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
-AgendaSetupOtherDesc= This page provides options to allow the export of your Dolibarr events into an external calendar (Thunderbird, Google Calendar etc...)
-AgendaExtSitesDesc=Questa pagina consente di configurare i calendari esterni da includere nell'agenda di dolibarr.
+AgendaAutoActionDesc= Here you may define events which you want ZionOne to create automatically  in Agenda. If nothing is checked, only manual actions will be included in logs and displayed in Agenda. Automatic tracking of business actions done on objects (validation, status change) will not be saved.
+AgendaSetupOtherDesc= This page provides options to allow the export of your ZionOne events into an external calendar (Thunderbird, Google Calendar etc...)
+AgendaExtSitesDesc=Questa pagina consente di configurare i calendari esterni da includere nell'agenda di ZionOne.
 ActionsEvents=Eventi per i quali creare un'azione
 EventRemindersByEmailNotEnabled=I promemoria degli eventi via e-mail non sono stati abilitati nell'impostazione del modulo %s.
 ##### Agenda event labels #####

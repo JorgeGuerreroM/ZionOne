@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = 读取计划任务
 Permission23102 = 创建/更新计划任务
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=禁用
 CronTaskInactive=该任务已禁用（未安排）
 CronId=ID
 CronClassFile=类文件名
-CronModuleHelp=Dolibarr 模块的目录名称（也适用于外部 Dolibarr 模块）。 <BR> 例如要调用 Dolibarr Product 对象 /htdocs/<u>product</u>/class/product.class.php 的 fetch 方法，模块的值为<br><i>product</i>
+CronModuleHelp=ZionOne 模块的目录名称（也适用于外部 ZionOne 模块）。 <BR> 例如要调用 ZionOne Product 对象 /htdocs/<u>product</u>/class/product.class.php 的 fetch 方法，模块的值为<br><i>product</i>
 CronClassFileHelp=要加载的相对路径和文件名（路径相对于 Web 服务器根目录）。 <BR> 例如调用Dolibarr  Product 对象 htdocs/product/class/<u>product.class.php</u> 的 fetch 方法，类文件名的值为<br><i>product/class/product .class.php</i>
-CronObjectHelp=要加载的对象名称。 <BR> 例如调用 Dolibarr Product 对象 /htdocs/product/class/product.class.php 的 fetch 方法，类文件名的值为<br><i>Product</i>
-CronMethodHelp=要启动的对象方法。 <BR> 例如调用 Dolibarr Product 对象 /htdocs/product/class/product.class.php 的 fetch 方法，方法的值为 <br><i>fetch</i>
-CronArgsHelp=The method arguments. <BR> For example to call the fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value for parameters can be<br><i>0, ProductRef</i>
+CronObjectHelp=要加载的对象名称。 <BR> 例如调用 ZionOne Product 对象 /htdocs/product/class/product.class.php 的 fetch 方法，类文件名的值为<br><i>Product</i>
+CronMethodHelp=要启动的对象方法。 <BR> 例如调用 ZionOne Product 对象 /htdocs/product/class/product.class.php 的 fetch 方法，方法的值为 <br><i>fetch</i>
+CronArgsHelp=The method arguments. <BR> For example to call the fetch method of ZionOne Product object /htdocs/product/class/product.class.php, the value for parameters can be<br><i>0, ProductRef</i>
 CronCommandHelp=要执行的系统命令行。
 CronCreateJob=创建新的计划任务
 CronFrom=From

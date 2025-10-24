@@ -26,7 +26,7 @@
  *	\brief      Setup page for logs module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 
@@ -114,7 +114,7 @@ if ($action == 'set') {
 			}
 			foreach ($module->configure() as $option) {
 				if (GETPOSTISSET($option['constant'])) {
-					dolibarr_del_const($db, $option['constant'], -1);
+					zionone_del_const($db, $option['constant'], -1);
 					dolibarr_set_const($db, $option['constant'], trim(GETPOST($option['constant'])), 'chaine', 0, '', 0);
 				}
 			}
@@ -123,7 +123,7 @@ if ($action == 'set') {
 
 	$activeModules = $newActiveModules;
 
-	dolibarr_del_const($db, 'SYSLOG_HANDLERS', -1); // To be sure there is not a setup into another entity
+	zionone_del_const($db, 'SYSLOG_HANDLERS', -1); // To be sure there is not a setup into another entity
 	dolibarr_set_const($db, 'SYSLOG_HANDLERS', json_encode($activeModules), 'chaine', 0, '', 0);
 	$error = 0;
 	$errors = [];
@@ -196,7 +196,7 @@ if (!$defaultsyslogfacility) {
 	$defaultsyslogfacility = 'LOG_USER';
 }
 if (!$defaultsyslogfile) {
-	$defaultsyslogfile = 'dolibarr.log';
+	$defaultsyslogfile = 'ZionOne.log';
 }
 $optionmc = '';
 if (isModEnabled('multicompany') && $user->entity) {

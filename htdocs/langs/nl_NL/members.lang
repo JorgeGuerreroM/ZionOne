@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Ledenoverzicht
 MemberCard=Lidkaart
 SubscriptionCard=Inschrijvingskaart
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Lijst van gevalideerde openbare leden
 ErrorThisMemberIsNotPublic=Dit lid is niet openbaar
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Een ander lid <b>(naam: %s, login: %s)</b> is al gekoppeld aan een derde partij <b>%s</b>. Verwijder deze link eerst omdat een derde partij niet kan worden gekoppeld aan slechts een lid (en vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Om veiligheidsredenen, moeten aan u rechten worden verleend voor het bewerken van alle gebruikers om in staat te zijn een lid te koppelen aan een gebruiker die niet van u is.
-SetLinkToUser=Link aaneen Dolibarr gebruiker
-SetLinkToThirdParty=Link naar een derde partij in Dolibarr
+SetLinkToUser=Link aaneen ZionOne gebruiker
+SetLinkToThirdParty=Link naar een derde partij in ZionOne
 MemberCountersArePublic=Tellers van geldige leden zijn openbaar
 MembersCards=Genereren van lidkaarten
 MembersList=Ledenlijst
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Ben je zeker dat je deze bijdrage wilt verwijderen?
 Filehtpasswd=htpasswd bestand
 ValidateMember=Valideer een lid
 ConfirmValidateMember=Weet u zeker dat u dit lid wilt valideren?
-FollowingLinksArePublic=De volgende links zijn open pagina&#39;s die niet worden beschermd door enige Dolibarr-toestemming. Het zijn geen opgemaakte pagina&#39;s, die als voorbeeld worden gegeven om te laten zien hoe de ledendatabase moet worden weergegeven.
+FollowingLinksArePublic=De volgende links zijn open pagina&#39;s die niet worden beschermd door enige ZionOne-toestemming. Het zijn geen opgemaakte pagina&#39;s, die als voorbeeld worden gegeven om te laten zien hoe de ledendatabase moet worden weergegeven.
 PublicMemberList=Publieke ledenlijst
 BlankSubscriptionForm=Openbaar inschrijvingsformulier
-BlankSubscriptionFormDesc=Dolibarr kan u een openbare URL / website bieden waarmee externe bezoekers kunnen vragen zich te abonneren op de stichting. Als een online betaalmodule is ingeschakeld, kan ook automatisch een betaalformulier worden verstrekt.
+BlankSubscriptionFormDesc=ZionOne kan u een openbare URL / website bieden waarmee externe bezoekers kunnen vragen zich te abonneren op de stichting. Als een online betaalmodule is ingeschakeld, kan ook automatisch een betaalformulier worden verstrekt.
 EnablePublicSubscriptionForm=Gebruik openbare website met inschrijvingsformlier
 ForceMemberType=Forceer het lidtype
 ExportDataset_member_1=Leden en bijdragen

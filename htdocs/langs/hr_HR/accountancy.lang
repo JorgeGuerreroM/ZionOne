@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Računovodstvo
 Accounting=Računovodstvo
 AccountingAccount=Obračunski račun
@@ -349,7 +349,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Onemogućite vezanje i prijenos u računovod
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Onemogući vezanje i prijenos u računovodstvu pri kupnji (računi dobavljača neće biti uzeti u obzir u računovodstvu)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Onemogući uvezivanje i prijenos u računovodstvu na izvještajima o troškovima (izvješća o troškovima neće biti uzeta u obzir u računovodstvu)
 ACCOUNTING_ENABLE_LETTERING=Uključite funkciju slova u računovodstvu
-ACCOUNTING_ENABLE_LETTERING_DESC=Kada je ova opcija omogućena, za svaki računovodstveni unos možete definirati šifru tako da možete zajedno grupirati različita računovodstvena kretanja. U prošlosti, kada se različitim dnevnikima upravljalo neovisno, ova je značajka bila neophodna za grupiranje redova kretanja različitih dnevnika zajedno. Međutim, uz Dolibarr accountancy, takav kod za praćenje pod nazivom "<b>%s</b>" već je automatski spremljeno, tako da je automatsko ispisivanje slova već napravljeno, bez rizika od pogreške, tako da je ova značajka postala beskorisna za uobičajenu upotrebu. Značajka ručnog ispisivanja slova predviđena je za krajnje korisnike koji stvarno nemaju povjerenja u računalni mehanizam koji vrši prijenos podataka u računovodstvu.
+ACCOUNTING_ENABLE_LETTERING_DESC=Kada je ova opcija omogućena, za svaki računovodstveni unos možete definirati šifru tako da možete zajedno grupirati različita računovodstvena kretanja. U prošlosti, kada se različitim dnevnikima upravljalo neovisno, ova je značajka bila neophodna za grupiranje redova kretanja različitih dnevnika zajedno. Međutim, uz ZionOne accountancy, takav kod za praćenje pod nazivom "<b>%s</b>" već je automatski spremljeno, tako da je automatsko ispisivanje slova već napravljeno, bez rizika od pogreške, tako da je ova značajka postala beskorisna za uobičajenu upotrebu. Značajka ručnog ispisivanja slova predviđena je za krajnje korisnike koji stvarno nemaju povjerenja u računalni mehanizam koji vrši prijenos podataka u računovodstvu.
 EnablingThisFeatureIsNotNecessary=Omogućavanje ove značajke više nije potrebno za rigorozno upravljanje računovodstvom.
 ACCOUNTING_ENABLE_AUTOLETTERING=Omogućite automatsko ispisivanje slova prilikom prijenosa u računovodstvo
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Kôd za natpis automatski se generira i inkrementirano i ne odabire krajnji korisnik

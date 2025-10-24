@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= মডিউল আইডি
 ModuleBuilderDesc=এই টুলটি শুধুমাত্র অভিজ্ঞ ব্যবহারকারী বা ডেভেলপারদের দ্বারা ব্যবহার করা আবশ্যক। এটি আপনার নিজস্ব মডিউল তৈরি বা সম্পাদনা করার জন্য ইউটিলিটি প্রদান করে। বিকল্প <a href="%s" target="_blank" rel="noopener noreferrer">ম্যানুয়াল ডেভেলপমেন্টের জন্য ডকুমেন্টেশন এখানে আছে</a>।
 EnterNameOfModuleDesc=কোনো স্পেস ছাড়াই তৈরি করতে মডিউল/অ্যাপ্লিকেশনের নাম লিখুন। শব্দ আলাদা করতে বড় হাতের অক্ষর ব্যবহার করুন (উদাহরণস্বরূপ: MyModule, EcommerceForShop, SyncWithMySystem...)

@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Retroenllaços per a comprovar
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nombre de dies abans de l'anul·lació de l'estat d'una associació quan una subscripció ha caducat
 ReferingWebsiteCheck=Comprovació de referència del lloc web
 ReferingWebsiteCheckDesc=Podeu activar una funció per a comprovar que els vostres socis hagin afegit un retroenllaç als dominis del vostre lloc web al seu propi lloc web.
-PublicFormRegistrationPartnerDesc=Dolibarr us pot proporcionar un URL/lloc web públic per a permetre que els visitants externs sol·licitin formar part del programa d'associació.
+PublicFormRegistrationPartnerDesc=ZionOne us pot proporcionar un URL/lloc web públic per a permetre que els visitants externs sol·licitin formar part del programa d'associació.
 # Object
 DeletePartnership=Suprimiu una associació
 PartnershipDedicatedToThisThirdParty=Associació dedicada a aquest tercer

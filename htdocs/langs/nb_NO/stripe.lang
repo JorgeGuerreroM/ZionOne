@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe-moduloppsett
-StripeDesc=Tilby kundene dine en online betalingsside for betalinger med kreditt-/debetkort via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Dette kan brukes til å la kundene dine foreta ad-hoc-betalinger eller for betalinger relatert til et bestemt Dolibarr-objekt (faktura, ordre, ...)
+StripeDesc=Tilby kundene dine en online betalingsside for betalinger med kreditt-/debetkort via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Dette kan brukes til å la kundene dine foreta ad-hoc-betalinger eller for betalinger relatert til et bestemt ZionOne-objekt (faktura, ordre, ...)
 StripeOrCBDoPayment=Betal med kredittkort eller Stripe
-FollowingUrlAreAvailableToMakePayments=Følgende nettadresser er tilgjengelige for kundene til å foreta betalinger for Dolibarr objekter
+FollowingUrlAreAvailableToMakePayments=Følgende nettadresser er tilgjengelige for kundene til å foreta betalinger for ZionOne objekter
 PaymentForm=Betalingskjema
 WelcomeOnPaymentPage=Velkommen til vår online betalingstjeneste
 ThisScreenAllowsYouToPay=I detteskjermbildet kan du foreta en online betaling til %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL for å tilby en %s online betalings
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL for å tilby en %s online betalingsside for et medlemsabonnement
 ToOfferALinkForOnlinePaymentOnDonation=URL for å tilby en %s online betalingsside for betaling av en donasjon
 YouCanAddTagOnUrl=Du kan også legge til url-parameteren <b>&tag=value</b> disse nettadressene (kun obligatorisk for betaling som ikke er knyttet til et objekt) for å legge til din egen betalingskommentar-etikett.<br>For nettadressen av betalinger uten eksisterende objekt, kan du også legge til parameteren <strong>&noidempotency=1</strong> så den samme lenken med samme merke kan brukes flere ganger (noen betalingsmoduser kan begrense betalingen til 1 for hver annen lenke uten denne parameteren)
-YouCanEmbedOnWebsite=Hvis du ønsker å integrere betalingssiden i et Dolibarr-nettsted, kan du inkludere parameteren: <b>&ws=website_ref</b>.<br>I tillegg, to sider som heter <b>paymentok</b>og<b>paymentko</b> må opprettes på nettstedet for å motta omdirigeringen på nettet etter en vellykket eller mislykket innbetaling.
+YouCanEmbedOnWebsite=Hvis du ønsker å integrere betalingssiden i et ZionOne-nettsted, kan du inkludere parameteren: <b>&ws=website_ref</b>.<br>I tillegg, to sider som heter <b>paymentok</b>og<b>paymentko</b> må opprettes på nettstedet for å motta omdirigeringen på nettet etter en vellykket eller mislykket innbetaling.
 SetupStripeToHavePaymentCreatedAutomatically=Sett opp Stripe med url <b> %s</b> for å få betaling opprettet automatisk når den er validert av Stripe.
 AccountParameter=Kontoparametre
 UsageParameter=Parametre for bruk
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Bare for kunder fra Østerrike, Belgia, Tysk
 ListOfSupportedHooksToActivate=Liste over støttede hooks som skal aktiveres
 # Paybox
 PayBoxSetup=Oppsett av PayBox-modul
-PayBoxDesc=Denne modulen tilbyr sider for å tillate betaling fra kunder på <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> . Dette kan brukes for en gratis betaling eller for en betaling på et bestemt Dolibarr-objekt (faktura, ordre, ...)
+PayBoxDesc=Denne modulen tilbyr sider for å tillate betaling fra kunder på <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> . Dette kan brukes for en gratis betaling eller for en betaling på et bestemt ZionOne-objekt (faktura, ordre, ...)
 PayBoxDoPayment=Betal med Paybox
 YouWillBeRedirectedOnPayBox=Du vil bli omdirigert til den sikrede Paybox siden for innlegging av kredittkortinformasjon
 SetupPayBoxToHavePaymentCreatedAutomatically=Oppsett din Paybox med url <b> %s </b> for å få betaling opprettet automatisk når den er validert av Paybox.

@@ -4,7 +4,7 @@
 #
 # Laurent Destailleur - eldy@users.sourceforge.net
 #------------------------------------------------------
-# Usage: txpull.sh (all|xx_XX) [-r dolibarr.file] [-f]
+# Usage: txpull.sh (all|xx_XX) [-r ZionOne.file] [-f]
 #------------------------------------------------------
 
 # shellcheck disable=2006,2044,2086,2164,2268
@@ -20,7 +20,7 @@ then
 	echo "       Using -f will overwrite local file (does not work with 'all')."
 	echo "       Using -s will force fetching of source file (avoid it, use en_US as language instead)."
 	echo "       Using en_US as language parameter will update source language from transifex (en_US is excluded from 'all')."
-	echo "Usage: ./dev/translation/txpull.sh (all|en_US|xx_XX) [-r dolibarr.file] [-f] [-s]"
+	echo "Usage: ./dev/translation/txpull.sh (all|en_US|xx_XX) [-r ZionOne.file] [-f] [-s]"
 	exit
 fi
 

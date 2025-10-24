@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Liens de retour à vérifier
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb de jours avant l'annulation d'un partenariat lorsque la cotisation a expiré.
 ReferingWebsiteCheck=Vérification du site référent
 ReferingWebsiteCheckDesc=Vous pouvez activer une fonctionnalité pour vérifier que vos partenaires ont ajouté un rétrolien vers les domaines de votre site Web sur leur propre site Web.
-PublicFormRegistrationPartnerDesc=Dolibarr peut vous fournir une URL/un site Web public pour permettre aux visiteurs externes de demander à faire partie du programme de partenariat.
+PublicFormRegistrationPartnerDesc=ZionOne peut vous fournir une URL/un site Web public pour permettre aux visiteurs externes de demander à faire partie du programme de partenariat.
 # Object
 DeletePartnership=Supprimer un partenariat
 PartnershipDedicatedToThisThirdParty=Partenariat dédié à ce tiers

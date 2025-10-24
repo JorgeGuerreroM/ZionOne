@@ -20,7 +20,7 @@
 
 /**
  *       \file       htdocs/webservices/server_project.php
- *       \brief      File that is entry point to call Dolibarr WebServices
+ *       \brief      File that is entry point to call ZionOne WebServices
  */
 
 if (!defined('NOCSRFCHECK')) {
@@ -58,14 +58,14 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';
  * @var Translate $langs
  */
 
-dol_syslog("Call Dolibarr webservices interfaces");
+dol_syslog("Call ZionOne webservices interfaces");
 
 $langs->load("main");
 
 // Enable and test if module web services is enabled
 if (!getDolGlobalString('MAIN_MODULE_WEBSERVICES')) {
 	$langs->load("admin");
-	dol_syslog("Call Dolibarr webservices interfaces with module webservices disabled");
+	dol_syslog("Call ZionOne webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive", 'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;
@@ -93,7 +93,7 @@ $listofreferent = array(
 $server = new nusoap_server();
 $server->soap_defencoding = 'UTF-8';
 $server->decode_utf8 = false;
-$ns = 'http://www.dolibarr.org/ns/';
+$ns = 'http://www.ZionOne.org/ns/';
 $server->configureWSDL('WebServicesDolibarrOther', $ns);
 $server->wsdl->schemaTargetNamespace = $ns;
 

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 Notify_BILL_VALIDATE=Factura de cliente validada
 Notify_BILL_PAYED=Factura de cliente pagada
 SeeModuleSetup=Ver la configuración del módulo %s
@@ -20,4 +20,4 @@ OpenANewWindow =Abrir en nueva pestaña
 ReplaceWindow =Reemplazar pestaña actual
 SetHereATitleForLink =Elegir un nombre para el favorito
 ShowBookmark =Mostrar favorito
-SubscribeToFoundation=Contribuye al proyecto Dolibarr, suscríbete a la fundación
+SubscribeToFoundation=Contribuye al proyecto ZionOne, suscríbete a la fundación

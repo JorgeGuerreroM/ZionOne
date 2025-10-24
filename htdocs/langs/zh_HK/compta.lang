@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=賬單 | 支付
 TaxModuleSetupToModifyRules=轉到<a href="%s"> 稅收模塊設置</a>  修改計算規則
 TaxModuleSetupToModifyRulesLT=轉到<a href="%s"> 公司設置</a>  修改計算規則

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Рамз
 WebsiteName=Номи вебсайт
 WebsiteSetupDesc=Дар ин ҷо вебсайтҳое, ки мехоҳед истифода баред, эҷод кунед. Сипас ба менюи Вебсайтҳо ворид шавед, то онҳоро таҳрир кунед.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Барои ҷойгиркунии и�
 SetHereVirtualHost=<u>Истифода бо Apache/NGinx/...</u><br> дарCreate сервери веби шумо (Apache, Nginx, ...) як ҳости махсуси виртуалӣ бо PHP фаъол ва феҳристи решавӣ дар<br><strong> %s</strong>
 ExampleToUseInApacheVirtualHostConfig=Намуна барои истифода дар танзими мизбони виртуалии Apache:
 YouCanAlsoTestWithPHPS=<u>Истифода бо сервери дарунсохт PHP</u><u> метавонад муҳити атрофро инкишоф диҳад барои санҷидани сайт бо веб-сервери дарунсохташудаи PHP тавассути иҷро
-YouCanAlsoDeployToAnotherWHP=<u>Веб-сайти худро дар дохили провайдери веб-хостинги Dolibarr иҷро кунед</u>>>1a823cca-TXPROTECT-34b2CT шумо веб-сервере ба мисли Apache ё NGinx дар интернет надоред, шумо метавонед вебсайти худро ба дигар намунаи Dolibarr, ки аз ҷониби провайдери хостинги дигари Dolibarr пешниҳод шудааст, содир ва ворид кунед, ки ҳамгироии пурраро бо модули вебсайт таъмин мекунад. Шумо метавонед рӯйхати баъзе провайдерҳои хостинги Dolibarr-ро дар <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a> пайдо кунед.
+YouCanAlsoDeployToAnotherWHP=<u>Веб-сайти худро дар дохили провайдери веб-хостинги ZionOne иҷро кунед</u>>>1a823cca-TXPROTECT-34b2CT шумо веб-сервере ба мисли Apache ё NGinx дар интернет надоред, шумо метавонед вебсайти худро ба дигар намунаи ZionOne, ки аз ҷониби провайдери хостинги дигари ZionOne пешниҳод шудааст, содир ва ворид кунед, ки ҳамгироии пурраро бо модули вебсайт таъмин мекунад. Шумо метавонед рӯйхати баъзе провайдерҳои хостинги ZionOne-ро дар <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a> пайдо кунед.
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Хондан
 WritePerm=Нависед
 TestDeployOnWeb=Санҷиш/густариш дар веб
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Dolibarr server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Dolibarr.<br>URL served by Dolibarr:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
+PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by ZionOne server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your ZionOne.<br>URL served by ZionOne:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
 VirtualHostUrlNotDefined=URL -и мизбони маҷозӣ, ки аз ҷониби веб -сервери беруна хидмат мекунад, муайян нашудааст
 NoPageYet=Ҳоло ягон саҳифа нест
 YouCanCreatePageOrImportTemplate=Шумо метавонед як саҳифаи нав эҷод кунед ё як қолаби пурраи вебсайтро ворид кунед
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Шумо ба зудӣ ба саҳифаи таф
 WebPortalSetupNotComplete=Насби портали веб ба анҷом нарасидааст
 DeleteWebsiteAccount=Ҳисоби вебсайтро нест кунед
 ConfirmDeleteWebsiteAccount=Оё мутмаин ҳастед, ки мехоҳед ин ҳисобро нест кунед.
-ConfirmDeleteWebsiteAccount2=Агар ин ҳисоб барои ворид шудан ба портали ҷамъиятӣ ё ягон вебсайти дигаре, ки аз ҷониби Dolibarr таҳия шудааст, истифода шуда бошад, воридшавӣ дигар имконнопазир аст.
+ConfirmDeleteWebsiteAccount2=Агар ин ҳисоб барои ворид шудан ба портали ҷамъиятӣ ё ягон вебсайти дигаре, ки аз ҷониби ZionOne таҳия шудааст, истифода шуда бошад, воридшавӣ дигар имконнопазир аст.
 ContentSecurityPolicy=Вебсайти HTTP "Content-Security-Policy"
 WebsiteSecurityForceRP=Вебсайти HTTP "Referer-Policy"
 WebsiteSecurityForceSTS=Вебсайти HTTP "Strict-Transport-Security"

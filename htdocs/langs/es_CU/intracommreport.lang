@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - intracommreport
+# ZionOne language file - Source file is en_US - intracommreport
 Module68000Name =Informe de intracomunicación
 Module68000Desc =Gestión de informes de Intracomm (Soporte para formato francés DEB/DES)
 IntracommReportSetup =Configuración del módulo de informes de intracomm

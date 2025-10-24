@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=目錄中的文檔數量
 ECMSection=目錄
 ECMSectionManual=手冊目錄
@@ -16,7 +16,7 @@ ECMNbOfSubDir=子目錄數量
 ECMNbOfFilesInSubDir=子目錄中的文件數量
 ECMCreationUser=創作者
 ECMArea=DMS/ECM 區域
-ECMAreaDesc=DMS/ECM（文檔管理系統/電子內容管理）區域允許您在 Dolibarr 中快速保存、共享和搜索所有類型的文檔。
+ECMAreaDesc=DMS/ECM（文檔管理系統/電子內容管理）區域允許您在 ZionOne 中快速保存、共享和搜索所有類型的文檔。
 ECMAreaDesc2a=* 手動目錄可用於自由組織樹狀結構以保存文件。
 ECMAreaDesc2b=* 當從元素頁面添加文件時，自動目錄會自動填充。
 ECMAreaDesc3=* 公共目錄是文件目錄下<b>/medias</b> 子目錄中的文件，任何人都可以在互聯網上查看，無需登錄，也無需顯式共享文件。例如，用於存儲電子郵件或網站模組的圖像文件。

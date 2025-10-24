@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Bogføring
 Accounting=Regnskab
 AccountingAccount=Regnskabskonto
@@ -349,7 +349,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Deaktiver binding og overførsel i regnskab 
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Deaktiver binding og overførsel i regnskab ved køb (leverandørfakturaer tages ikke med i regnskabet)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Deaktiver binding og overførsel i regnskab på udgiftsrapporter (udgiftsrapporter tages ikke med i regnskabet)
 ACCOUNTING_ENABLE_LETTERING=Aktiver bogstavfunktionen i regnskabet
-ACCOUNTING_ENABLE_LETTERING_DESC=Når denne indstilling er aktiveret, kan du på hver regnskabspost definere en kode, så du kan gruppere forskellige regnskabsbevægelser sammen. Tidligere, hvor forskellige tidsskrifter blev administreret uafhængigt, var denne funktion nødvendig for at gruppere bevægelseslinjer i forskellige tidsskrifter sammen. Men med Dolibarr-regnskab er en sådan sporingskode, kaldet " <b> %s </b> " allerede gemt automatisk, så en automatisk skrift er allerede udført uden risiko for fejl, så denne funktion er blevet ubrugelig til almindelig brug. Manuel bogstavfunktion er tilvejebragt for slutbrugere, der virkelig ikke har tillid til computermotoren, der foretager overførsel af data i bogføring.
+ACCOUNTING_ENABLE_LETTERING_DESC=Når denne indstilling er aktiveret, kan du på hver regnskabspost definere en kode, så du kan gruppere forskellige regnskabsbevægelser sammen. Tidligere, hvor forskellige tidsskrifter blev administreret uafhængigt, var denne funktion nødvendig for at gruppere bevægelseslinjer i forskellige tidsskrifter sammen. Men med ZionOne-regnskab er en sådan sporingskode, kaldet " <b> %s </b> " allerede gemt automatisk, så en automatisk skrift er allerede udført uden risiko for fejl, så denne funktion er blevet ubrugelig til almindelig brug. Manuel bogstavfunktion er tilvejebragt for slutbrugere, der virkelig ikke har tillid til computermotoren, der foretager overførsel af data i bogføring.
 EnablingThisFeatureIsNotNecessary=Aktivering af denne funktion er ikke længere nødvendig for en stringent regnskabsstyring.
 ACCOUNTING_ENABLE_AUTOLETTERING=Aktiver den automatiske bogstaver ved overførsel til regnskab
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Koden til bogstaverne genereres automatisk og øges og vælges ikke af slutbrugeren

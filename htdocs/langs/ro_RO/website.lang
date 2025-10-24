@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Cod
 WebsiteName=Nume site web
 WebsiteSetupDesc=Creați aici site-urile pe care doriți să le utilizați. Apoi intrați în meniul Site-uri pentru a le edita.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Pentru a implementa acest site web î
 SetHereVirtualHost=<u>Utilizați cu Apache/NGinx/...</u><br> Creați pe serverul dvs. web (Apache, Nginx, ...) un vhost dedicat cu PHP activat și un director Root activat pentru<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Exemplu configuraţie utilizabilă vhost Apache:
 YouCanAlsoTestWithPHPS=<u>Utilizezi serverul PHP încorporat</u><br> În mediul de dezvoltare, este posibil să preferi să testezi site-ul cu serverul web încorporat PHP rulând
-YouCanAlsoDeployToAnotherWHP=<u>Rulezi site-ul tău web la un furnizor de găzduire web Dolibarr</u><br> Dacă nu ai un server web precum Apache sau NGinx disponibil pe internet, poți exporta și importa site-ul tău web într-o altă instanță Dolibarr furnizată de un alt furnizor de găzduire Dolibarr care oferă o integrare completă cu modulul Site web. Poți găsi o listă a unor furnizori de găzduire Dolibarr pe <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Rulezi site-ul tău web la un furnizor de găzduire web ZionOne</u><br> Dacă nu ai un server web precum Apache sau NGinx disponibil pe internet, poți exporta și importa site-ul tău web într-o altă instanță ZionOne furnizată de un alt furnizor de găzduire ZionOne care oferă o integrare completă cu modulul Site web. Poți găsi o listă a unor furnizori de găzduire ZionOne pe <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Verificați, de asemenea, dacă utilizatorul gazdă virtuală (de exemplu, www-data) are permisiuni <strong>%s</strong> pentru fișiere în <br><strong>%s</strong>
 ReadPerm=Citire
 WritePerm=Scriere
 TestDeployOnWeb=Testare/implementare pe web
 PreviewSiteServedByWebServer=<u>Previzualizați %s într-o filă nouă. </u> <br> <br> %s va fi deservit de un server web extern (cum ar fi Apache, Nginx, IIS). Trebuie să instalați și să configurați acest server înainte să indicați directorul: <br> <strong> %s </strong> <br> URL server extern: <br> <strong> %s </strong>
-PreviewSiteServedByDolibarr=<u>Previzualizare %s într-o filă nouă.</u><br><br>%s va fi servit de serverul Dolibarr, așa că nu are nevoie de niciun server web suplimentar (cum ar fi Apache, Nginx, IIS) pentru a fi instalat.<br> Inconveninetul este că adresele URL ale paginilor nu sunt ușor de utilizat și încep cu calea Dolibarr.<br> URL-ul tău deservit de Dolibarr:<br><strong>%s</strong><br><br> Pentru a implementa sau testa folosind propriul tău server web extern (cum ar fi Apache, Nginx, Lighttp) utilizează link-ul "%s".
+PreviewSiteServedByDolibarr=<u>Previzualizare %s într-o filă nouă.</u><br><br>%s va fi servit de serverul ZionOne, așa că nu are nevoie de niciun server web suplimentar (cum ar fi Apache, Nginx, IIS) pentru a fi instalat.<br> Inconveninetul este că adresele URL ale paginilor nu sunt ușor de utilizat și încep cu calea ZionOne.<br> URL-ul tău deservit de ZionOne:<br><strong>%s</strong><br><br> Pentru a implementa sau testa folosind propriul tău server web extern (cum ar fi Apache, Nginx, Lighttp) utilizează link-ul "%s".
 VirtualHostUrlNotDefined=URL virtualhost server web extern nu este definit
 NoPageYet=Nicio pagină încă
 YouCanCreatePageOrImportTemplate=Puteți să creați o pagină nouă sau să importați un șablon de site complet
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Vei fi redirecționat în scurt timp către pagin
 WebPortalSetupNotComplete=Configurarea Portal web nu este finalizată
 DeleteWebsiteAccount=Șterge cont site web
 ConfirmDeleteWebsiteAccount=Sigur vrei să ștergi acest cont.
-ConfirmDeleteWebsiteAccount2=Dacă acest cont a fost folosit pentru a te autentifica pe portalul public sau pe orice alt site web alimentat de Dolibarr, este posibil ca autentificarea să nu mai fie posibilă.
+ConfirmDeleteWebsiteAccount2=Dacă acest cont a fost folosit pentru a te autentifica pe portalul public sau pe orice alt site web alimentat de ZionOne, este posibil ca autentificarea să nu mai fie posibilă.
 WebsiteSecurityOptions=Opțiuni de securitate website
 ContentSecurityPolicy=HTTP "Content-Security-Policy" website
 WebsiteSecurityForceRP=HTTP "Referer-Policy" website

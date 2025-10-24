@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=برآمدات
 ImportArea=درآمد کریں۔
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=اسے منتخب کرنے کے لیے %s آئیکن 
 ChooseFileToImport=فائل اپ لوڈ کریں پھر %s آئیکن پر کلک کریں تاکہ فائل کو سورس امپورٹ فائل کے طور پر منتخب کیا جا سکے۔
 SourceFileFormat=ماخذ فائل کی شکل
 FieldsInSourceFile=سورس فائل میں فیلڈز
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=کوئی فیلڈز نہیں۔
 MoveField=فیلڈ کالم نمبر %s منتقل کریں۔
 ExampleOfImportFile=امپورٹ_فائل کی_مثال

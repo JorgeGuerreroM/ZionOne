@@ -27,7 +27,7 @@
  *		\brief      File of main public page for member module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
@@ -96,12 +96,12 @@ if ($action == 'update') {
 	$res = dolibarr_set_const($db, "MEMBER_HIDE_VOTE_ALLOWED", $showvoteallowed ? 0 : 1, 'chaine', 0, '', $conf->entity); // Logic is reversed for retrocompatibility: "hide -> show"
 	$res = dolibarr_set_const($db, "MEMBER_NEWFORM_PAYONLINE", $payonline, 'chaine', 0, '', $conf->entity);
 	if ($forcetype < 0) {
-		$res = dolibarr_del_const($db, "MEMBER_NEWFORM_FORCETYPE", $conf->entity);
+		$res = zionone_del_const($db, "MEMBER_NEWFORM_FORCETYPE", $conf->entity);
 	} else {
 		$res = dolibarr_set_const($db, "MEMBER_NEWFORM_FORCETYPE", $forcetype, 'chaine', 0, '', $conf->entity);
 	}
 	if ($forcemorphy == '-1') {
-		$res = dolibarr_del_const($db, "MEMBER_NEWFORM_FORCEMORPHY", $conf->entity);
+		$res = zionone_del_const($db, "MEMBER_NEWFORM_FORCEMORPHY", $conf->entity);
 	} else {
 		$res = dolibarr_set_const($db, "MEMBER_NEWFORM_FORCEMORPHY", $forcemorphy, 'chaine', 0, '', $conf->entity);
 	}
@@ -270,7 +270,7 @@ if (getDolGlobalString('MEMBER_ENABLE_PUBLIC')) {
 	print $form->selectyesno("MEMBER_COUNTERS_ARE_PUBLIC", getDolGlobalInt('MEMBER_COUNTERS_ARE_PUBLIC'), 1, false, 0, 1);
 	print "</td></tr>\n";
 
-	// Show the table of all available membership types. If not, show a form (as the default was for Dolibarr <=16.0)
+	// Show the table of all available membership types. If not, show a form (as the default was for ZionOne <=16.0)
 	$skiptable = getDolGlobalInt('MEMBER_SKIP_TABLE');
 	print '<tr class="oddeven" id="tredit"><td>';
 	print $langs->trans("MembersShowMembershipTypesTable");

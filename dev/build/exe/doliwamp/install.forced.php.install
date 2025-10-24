@@ -1,5 +1,5 @@
 <?php
-// File to force Dolibarr wizard installer choices.
+// File to force ZionOne wizard installer choices.
 //
 // This file must be present into htdocs/install directory
 // during install process to be used.
@@ -12,7 +12,7 @@ $force_install_main_data_root='WAMPROOT/dolibarr_documents';
 $force_install_type='mysqli';
 $force_install_dbserver='localhost';
 $force_install_port='WAMPMYSQLPORT';
-$force_install_database='dolibarr';
+$force_install_database='ZionOne';
 $force_install_createdatabase='1';
 $force_install_databaselogin='dolibarrmysql';
 $force_install_databasepass='WAMPMYSQLNEWPASSWORD';

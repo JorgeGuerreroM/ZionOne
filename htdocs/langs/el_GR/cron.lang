@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Ανάγνωση Προγραμματισμένης εργασίας
 Permission23102 = Δημιουργία/ενημέρωση προγραμματισμένης εργασίας
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Απενεργοποίηση
 CronTaskInactive=Αυτή η εργασία είναι απενεργοποιημένη (δεν έχει προγραμματιστεί)
 CronId=Id
 CronClassFile=Όνομα αρχείου με κλάση
-CronModuleHelp=Όνομα του καταλόγου ενοτήτων Dolibarr (επίσης λειτουργούν με εξωτερική ενότητα Dolibarr). <BR> Για παράδειγμα, για να καλέσουμε τη μέθοδο fetch του αντικειμένου προϊόντος Dolibarr / htdocs / <u>product</u> / class / product.class.php, η τιμή για την ενότητα είναι <br> <i>προϊόν</i>
-CronClassFileHelp=Η σχετική διαδρομή και το όνομα του αρχείου για φόρτωση (η διαδρομή είναι σχετική με τον κεντρικό κατάλογο διακομιστή ιστού). <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο fetch του αντικειμένου προϊόντος Dolibarr htdocs/product/class/<u>product.class.php</u> , η τιμή για το όνομα αρχείου κλάσης είναι <br> <i>product/class/product.class.php</i>
-CronObjectHelp=Το όνομα αντικειμένου που θα φορτωθεί. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο fetch του αντικειμένου προϊόντος Dolibarr /htdocs/product/class/product.class.php, η τιμή για το όνομα του αρχείου κλάσης είναι <br> <i>Product</i>
-CronMethodHelp=Η μέθοδος αντικειμένου για την εκκίνηση. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο fetch του αντικειμένου προϊόντος Dolibarr /htdocs/product/class/product.class.php, η τιμή για τη μέθοδο είναι <br> <i>fetch</i>
-CronArgsHelp=Οι παράμετροι της μεθόδου. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο fetch του αντικειμένου προϊόν του Dolibarr  /htdocs/product/class/product.class.php, η τιμή για τις παραμέτρους μπορεί να είναι <br> <i>0, ProductRef</i>
+CronModuleHelp=Όνομα του καταλόγου ενοτήτων ZionOne (επίσης λειτουργούν με εξωτερική ενότητα ZionOne). <BR> Για παράδειγμα, για να καλέσουμε τη μέθοδο fetch του αντικειμένου προϊόντος ZionOne / htdocs / <u>product</u> / class / product.class.php, η τιμή για την ενότητα είναι <br> <i>προϊόν</i>
+CronClassFileHelp=Η σχετική διαδρομή και το όνομα του αρχείου για φόρτωση (η διαδρομή είναι σχετική με τον κεντρικό κατάλογο διακομιστή ιστού). <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο fetch του αντικειμένου προϊόντος ZionOne htdocs/product/class/<u>product.class.php</u> , η τιμή για το όνομα αρχείου κλάσης είναι <br> <i>product/class/product.class.php</i>
+CronObjectHelp=Το όνομα αντικειμένου που θα φορτωθεί. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο fetch του αντικειμένου προϊόντος ZionOne /htdocs/product/class/product.class.php, η τιμή για το όνομα του αρχείου κλάσης είναι <br> <i>Product</i>
+CronMethodHelp=Η μέθοδος αντικειμένου για την εκκίνηση. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο fetch του αντικειμένου προϊόντος ZionOne /htdocs/product/class/product.class.php, η τιμή για τη μέθοδο είναι <br> <i>fetch</i>
+CronArgsHelp=Οι παράμετροι της μεθόδου. <BR> Για παράδειγμα, για να καλέσετε τη μέθοδο fetch του αντικειμένου προϊόν του ZionOne  /htdocs/product/class/product.class.php, η τιμή για τις παραμέτρους μπορεί να είναι <br> <i>0, ProductRef</i>
 CronCommandHelp=Γραμμή εντολών του συστήματος προς εκτέλεση.
 CronCreateJob=Δημιουργία νέας προγραμματισμένης εργασίας
 CronFrom=Από

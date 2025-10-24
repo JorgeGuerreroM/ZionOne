@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Настройка модуля PayPal
-PaypalDesc=Этот модуль позволяет клиентам осуществлять платежи через <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Это можно использовать для специального платежа или для платежа, связанного с объектом Dolibarr (счет, заказ, ...)
+PaypalDesc=Этот модуль позволяет клиентам осуществлять платежи через <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Это можно использовать для специального платежа или для платежа, связанного с объектом ZionOne (счет, заказ, ...)
 PaypalOrCBDoPayment=Оплата через PayPal (карта или PayPal)
 PaypalDoPayment=Оплата с PayPal
 PAYPAL_API_SANDBOX=Режим тестирования / песочницы

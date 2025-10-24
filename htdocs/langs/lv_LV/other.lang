@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Drošības kods
 NumberingShort=N°
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Sveiki)__\n\nLūdzu, skatiet pievienoto in
 PredefinedMailContentLink=Jūs varat noklikšķināt uz zemāk esošās saites, lai veiktu maksājumu, ja tas vēl nav izdarīts.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Sveiki)__\n\n\n__(Ar cieņu)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Notikuma atgādinājums "__EVENT_LABEL__" __EVENT_DATE__ plkst. __EVENT_TIME__ <br> <br> Šis ir automātisks ziņojums, lūdzu, neatbildiet.
-DemoDesc=Dolibarr ir kompakts ERP / CRM, kas atbalsta vairākus biznesa moduļus. Demonstrācija, kas demonstrē visus moduļus, nav jēga, jo šis scenārijs nekad nenotiek (pieejami vairāki simti). Tātad, ir pieejami vairāki demo profili.
+DemoDesc=ZionOne ir kompakts ERP / CRM, kas atbalsta vairākus biznesa moduļus. Demonstrācija, kas demonstrē visus moduļus, nav jēga, jo šis scenārijs nekad nenotiek (pieejami vairāki simti). Tātad, ir pieejami vairāki demo profili.
 DemoDesc2=This is a restricted shared demo, you may prefer to test on your own dedicated instance with a full admin access, to do so, <a href="%s" target="_blank">go here <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Izvēlies demo profilu, kas vislabāk atbilst jūsu vajadzībām ...
 ChooseYourDemoProfilMore=... vai izveidojiet savu profilu <br> (manuālā moduļa izvēle)
@@ -197,10 +197,10 @@ BugTracker=Kļūdu meklētājs
 SendNewPasswordDesc=Šī veidlapa ļauj pieprasīt jaunu paroli. Tas tiks nosūtīts uz jūsu e-pasta adresi. <br> Mainīšana stāsies spēkā pēc tam, kad noklikšķināsit uz e-pasta ziņojuma apstiprinājuma saites. <br> Pārbaudiet savu iesūtni.
 EnterNewPasswordHere=Šeit ievadiet savu jauno paroli
 BackToLoginPage=Atpakaļ uz autorizācijas lapu
-AuthenticationDoesNotAllowSendNewPassword=Autentifikācijas režīms ir <b>%s.</b> <br> Šajā režīmā, Dolibarr nevar zināt, ne nomainīt savu paroli. <br> Sazinieties ar sistēmas administratoru, ja jūs vēlaties mainīt savu paroli.
+AuthenticationDoesNotAllowSendNewPassword=Autentifikācijas režīms ir <b>%s.</b> <br> Šajā režīmā, ZionOne nevar zināt, ne nomainīt savu paroli. <br> Sazinieties ar sistēmas administratoru, ja jūs vēlaties mainīt savu paroli.
 EnableGDLibraryDesc=Instalējiet vai iespējojiet GD bibliotēku savā PHP instalācijā, lai izmantotu šo opciju.
 ProfIdShortDesc=<b>Prof ID %s</b> ir informācija, atkarībā no trešās puses valstīm. <br> Piemēram, attiecībā uz valstu <b>%s,</b> tas ir kods <b>%s.</b>
-DolibarrDemo=Dolibarr ERP/CRM demo
+DolibarrDemo=ZionOne ERP/CRM demo
 StatsByAmount=Statistika par preču/pakalpojumu apjomu
 StatsByAmountProducts=Statistika par produktu daudzumu
 StatsByAmountServices=Statistika par pakalpojumu apjomu
@@ -404,4 +404,4 @@ SetHereATitleForLink = Ierakstiet grāmatzīmes nosaukumu
 ShowBookmark = Rādīt grāmatzīmi
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
-SubscribeToFoundation=Help the Dolibarr project, subscribe to the foundation
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

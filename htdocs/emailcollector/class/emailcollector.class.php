@@ -2108,9 +2108,9 @@ class EmailCollector extends CommonObject
 
 				// Analyze TrackId in field References (already analyzed previously into the "To:" and "Message-Id").
 				// For example:
-				// References: <1542377954.SMTPs-dolibarr-thi649@8f6014fde11ec6cdec9a822234fc557e>
-				// References: <1542377954.SMTPs-dolibarr-tic649@8f6014fde11ec6cdec9a822234fc557e>
-				// References: <1542377954.SMTPs-dolibarr-abc649@8f6014fde11ec6cdec9a822234fc557e>
+				// References: <1542377954.SMTPs-ZionOne-thi649@8f6014fde11ec6cdec9a822234fc557e>
+				// References: <1542377954.SMTPs-ZionOne-tic649@8f6014fde11ec6cdec9a822234fc557e>
+				// References: <1542377954.SMTPs-ZionOne-abc649@8f6014fde11ec6cdec9a822234fc557e>
 				$trackid = '';
 				$objectid = 0;
 				$objectemail = null;
@@ -2137,14 +2137,14 @@ class EmailCollector extends CommonObject
 						$reg[1] = $trackidfoundintomsgidtype;
 						$reg[2] = $trackidfoundintomsgidid;
 					} else {
-						$resultsearchtrackid = preg_match('/dolibarr-([a-z]+)([0-9]+)@'.preg_quote($host, '/').'/', $reference, $reg);	// trackid found or not
+						$resultsearchtrackid = preg_match('/ZionOne-([a-z]+)([0-9]+)@'.preg_quote($host, '/').'/', $reference, $reg);	// trackid found or not
 						if (empty($resultsearchtrackid) && getDolGlobalString('EMAIL_ALTERNATIVE_HOST_SIGNATURE')) {
-							$resultsearchtrackid = preg_match('/dolibarr-([a-z]+)([0-9]+)@'.preg_quote(getDolGlobalString('EMAIL_ALTERNATIVE_HOST_SIGNATURE'), '/').'/', $reference, $reg);	// trackid found
+							$resultsearchtrackid = preg_match('/ZionOne-([a-z]+)([0-9]+)@'.preg_quote(getDolGlobalString('EMAIL_ALTERNATIVE_HOST_SIGNATURE'), '/').'/', $reference, $reg);	// trackid found
 						}
 					}
 
 					if (!empty($resultsearchtrackid)) {
-						// We found a tracker (in recipient email or msgid or into a Reference matching the Dolibarr server)
+						// We found a tracker (in recipient email or msgid or into a Reference matching the ZionOne server)
 						$trackid = $reg[1].$reg[2];
 
 						$objectid = $reg[2];
@@ -2181,7 +2181,7 @@ class EmailCollector extends CommonObject
 						}
 						if ($reg[1] == 'proj') {   // Project
 							$objectemail = new Project($this->db);
-							$projectfoundby = 'TrackID dolibarr-'.$trackid.'@...';
+							$projectfoundby = 'TrackID ZionOne-'.$trackid.'@...';
 						}
 						if ($reg[1] == 'tas') {   // Task
 							$objectemail = new Task($this->db);
@@ -2194,11 +2194,11 @@ class EmailCollector extends CommonObject
 						}
 						if ($reg[1] == 'tic') {   // Ticket
 							$objectemail = new Ticket($this->db);
-							$ticketfoundby = 'TrackID dolibarr-'.$trackid.'@...';
+							$ticketfoundby = 'TrackID ZionOne-'.$trackid.'@...';
 						}
 						if ($reg[1] == 'recruitmentcandidature') {   // Recruiting Candidate
 							$objectemail = new RecruitmentCandidature($this->db);
-							$candidaturefoundby = 'TrackID dolibarr-'.$trackid.'@...';
+							$candidaturefoundby = 'TrackID ZionOne-'.$trackid.'@...';
 						}
 						if ($reg[1] == 'mem') {   // Member
 							$objectemail = new Adherent($this->db);
@@ -2437,7 +2437,7 @@ class EmailCollector extends CommonObject
 
 						// Make Operation
 						dol_syslog("Execute action ".$operation['type']." actionparam=".$operation['actionparam'].' thirdpartystatic->id='.$thirdpartystatic->id.' contactstatic->id='.$contactstatic->id.' projectstatic->id='.$projectstatic->id);
-						dol_syslog("Execute action fk_element_id=".$fk_element_id." fk_element_type=".$fk_element_type);	// If a Dolibarr tracker id is found, we should now the id of object
+						dol_syslog("Execute action fk_element_id=".$fk_element_id." fk_element_type=".$fk_element_type);	// If a ZionOne tracker id is found, we should now the id of object
 
 						// Try to guess if this is an email in or out.
 						$actioncode = 'EMAIL_IN';

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - multicurrency
+# ZionOne language file - Source file is en_US - multicurrency
 ErrorAddRateFail=Error en tasa agregada
 ErrorAddCurrencyFail=Error en la moneda agregada
 ErrorDeleteCurrencyFail=Error al eliminar fallar

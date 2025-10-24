@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Read Scheduled job
 Permission23102 = Create/update Scheduled job
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Deaktiver
 CronTaskInactive=Dette job er deaktiveret (ikke planlagt)
 CronId=Id
 CronClassFile=Filename with class
-CronModuleHelp=Navn på Dolibarr modul bibliotek (også arbejde med ekstern Dolibarr modul). <BR> For eksempel for at kalde hentningsmetoden for Dolibarr Product-objektet /htdocs/<u>product</u>/class/product.class.php, er værdien for modulet <i> produkt </i>
-CronClassFileHelp=Den relative sti og filnavn, der skal indlæses (stien er i forhold til webserverens rodmappe). <BR> For eksempel for at kalde hentningsmetoden for Dolibarr Produktobjekt htdocs / product / class / <u> product.class.php </u> er værdien for klassefilenavnet <br> <i> produkt / klasse / product.class.php </i>
-CronObjectHelp=Objektnavnet, der skal indlæses. <BR> For at f.eks. Kalde hentningsmetoden for Dolibarr Product-objektet /htdocs/product/class/product.class.php, er værdien for klassefilenavnet <br> <i> Produkt </ i>
-CronMethodHelp=Objektmetoden til at starte. <BR> For at f.eks. Kalde hentningsmetoden for Dolibarr Product-objektet /htdocs/product/class/product.class.php, er værdien for metoden <i> hent </ i>
-CronArgsHelp=Metodens argumenter. <BR> For at kalde hentemetoden for Dolibarr-produktobjektet /htdocs/product/class/product.class.php kan værdien for parametre f.eks. være<br><i>0, ProductRef</i>
+CronModuleHelp=Navn på ZionOne modul bibliotek (også arbejde med ekstern ZionOne modul). <BR> For eksempel for at kalde hentningsmetoden for ZionOne Product-objektet /htdocs/<u>product</u>/class/product.class.php, er værdien for modulet <i> produkt </i>
+CronClassFileHelp=Den relative sti og filnavn, der skal indlæses (stien er i forhold til webserverens rodmappe). <BR> For eksempel for at kalde hentningsmetoden for ZionOne Produktobjekt htdocs / product / class / <u> product.class.php </u> er værdien for klassefilenavnet <br> <i> produkt / klasse / product.class.php </i>
+CronObjectHelp=Objektnavnet, der skal indlæses. <BR> For at f.eks. Kalde hentningsmetoden for ZionOne Product-objektet /htdocs/product/class/product.class.php, er værdien for klassefilenavnet <br> <i> Produkt </ i>
+CronMethodHelp=Objektmetoden til at starte. <BR> For at f.eks. Kalde hentningsmetoden for ZionOne Product-objektet /htdocs/product/class/product.class.php, er værdien for metoden <i> hent </ i>
+CronArgsHelp=Metodens argumenter. <BR> For at kalde hentemetoden for ZionOne-produktobjektet /htdocs/product/class/product.class.php kan værdien for parametre f.eks. være<br><i>0, ProductRef</i>
 CronCommandHelp=The system command line to execute.
 CronCreateJob=Create new Scheduled Job
 CronFrom=Fra

@@ -232,7 +232,7 @@ abstract class ActionsContactCardCommon
 				$i++;
 			}
 
-			// Dolibarr user
+			// ZionOne user
 			if ($this->object->user_id) {
 				$dolibarr_user = new User($this->db);
 				$result = $dolibarr_user->fetch($this->object->user_id);

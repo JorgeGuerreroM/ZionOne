@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Рамзи амниятӣ
 NumberingShort=N °
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Салом)__\n\nЛутфан дахола
 PredefinedMailContentLink=Шумо метавонед ба истиноди зер клик кунед, то пардохти худро пардохт накунед, агар он аллакай иҷро нашуда бошад.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Салом)__\n\n\n__(Эҳтиром)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Ёдраскунандаи ҳодиса "__EVENT_LABEL__" санаи __EVENT_DATE__ дар __EVENT_TIME__ <br> <br> Ин паёми автоматӣ аст, лутфан ҷавоб надиҳед.
-DemoDesc=Dolibarr як ERP/CRM -и паймонест, ки якчанд модулҳои тиҷоратиро дастгирӣ мекунад. Демо, ки ҳама модулҳоро нишон медиҳад, маъно надорад, зеро ин сенария ҳеҷ гоҳ рух намедиҳад (чандсад дастрас). Ҳамин тариқ, якчанд профилҳои намоишӣ дастрасанд.
+DemoDesc=ZionOne як ERP/CRM -и паймонест, ки якчанд модулҳои тиҷоратиро дастгирӣ мекунад. Демо, ки ҳама модулҳоро нишон медиҳад, маъно надорад, зеро ин сенария ҳеҷ гоҳ рух намедиҳад (чандсад дастрас). Ҳамин тариқ, якчанд профилҳои намоишӣ дастрасанд.
 DemoDesc2=This is a restricted shared demo, you may prefer to test on your own dedicated instance with a full admin access, to do so, <a href="%s" target="_blank">go here <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Профили демоеро интихоб кунед, ки ба эҳтиёҷоти шумо мувофиқ бошад ...
 ChooseYourDemoProfilMore=... ё сохтани профили худ <br> (интихоби модули дастӣ)
@@ -200,7 +200,7 @@ BackToLoginPage=Бозгашт ба саҳифаи воридшавӣ
 AuthenticationDoesNotAllowSendNewPassword=Ҳолати тасдиқкунӣ <b> %s </b> аст. <br> Дар ин режим, Долибарр наметавонад пароли шуморо донад ва тағир диҳад. <br> Агар шумо пароли худро тағир додан хоҳед, бо администратори система тамос гиред.
 EnableGDLibraryDesc=Китобхонаи GD -ро дар насби PHP -и худ насб кунед ё фаъол созед, то ин хосиятро истифода баред.
 ProfIdShortDesc= <b> Prof Id %s </b> иттилооте вобаста ба кишвари сеюм аст. <br> Масалан, барои кишвар <b> %s </b>, он рамзи <b> %s a09a4b739f
-DolibarrDemo=Намоиши Dolibarr ERP/CRM
+DolibarrDemo=Намоиши ZionOne ERP/CRM
 StatsByAmount=Омори ҳаҷми маҳсулот/хизматрасонӣ
 StatsByAmountProducts=Статистика оид ба микдори махсулот
 StatsByAmountServices=Маълумоти оморӣ оид ба ҳаҷми хизматрасонӣ
@@ -404,4 +404,4 @@ SetHereATitleForLink = Set a name for the bookmark
 ShowBookmark = Show bookmark
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
-SubscribeToFoundation=Help the Dolibarr project, subscribe to the foundation
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

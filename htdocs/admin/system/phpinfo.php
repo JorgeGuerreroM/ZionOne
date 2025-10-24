@@ -26,7 +26,7 @@
  *		\brief      Page des infos systeme de php
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
@@ -242,7 +242,7 @@ print "<td>".$name."</td>";
 print getResultColumn($name, $activatedExtensions, $loadedExtensions, $functions, $langs->trans("Optional"));
 print "</tr>";
 
-// bcmath is used only by swiftmailer for NTLM authentication that is not implemented by Dolibarr core for the moment, so i comment this.
+// bcmath is used only by swiftmailer for NTLM authentication that is not implemented by ZionOne core for the moment, so i comment this.
 /*
 $functions = array();
 $name = "bcmath";

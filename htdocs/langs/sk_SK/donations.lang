@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Dar
 Donations=Dary
 DonationRef=Darovanie čj.
@@ -37,7 +37,7 @@ DonationUseThirdparties=Ako adresu darcu použite adresu existujúcej tretej str
 DonationsStatistics=Štatistika darcovstva
 NbOfDonations=Počet darov
 BlankDonationForm=Formulár pre verejný dar
-BlankDonationFormDesc=Dolibarr vám môže poskytnúť verejnú URL adresu/webovú stránku, aby mohli externí návštevníci prispieť. Ak je povolený modul online platieb, môže sa automaticky zobraziť aj platobný formulár.
+BlankDonationFormDesc=ZionOne vám môže poskytnúť verejnú URL adresu/webovú stránku, aby mohli externí návštevníci prispieť. Ak je povolený modul online platieb, môže sa automaticky zobraziť aj platobný formulár.
 EnablePublicDonationForm=Povoliť verejný formulár na darovanie
 EnablePublicDonationList=Povoliť verejný zoznam darov
 ForceDonateurNature = Povaha darcu sily (jednotlivec alebo spoločnosť)

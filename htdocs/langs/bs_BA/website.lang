@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kod
 WebsiteName=Naziv web stranice
 WebsiteSetupDesc=Kreirajte ovdje web stranice koje želite koristiti. Zatim idite u meni Websites da ih uredite.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Za objavljivanje ove web stranice ima
 SetHereVirtualHost=<u>Koristite sa Apache/NGinx/...</u><br>Kreirajte na vaš web server (Apache, Nginx, ...) namjenski virtuelni host sa omogućenim PHP i korijenski direktorij na<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Primjer za korištenje u Apache postavci virtualnog hosta:
 YouCanAlsoTestWithPHPS=<u>Koristite sa ugrađenim PHP serverom</u><br>U razvojnom okruženju, možda biste željeli testirati stranicu sa ugrađenim PHP web serverom pokretanjem
-YouCanAlsoDeployToAnotherWHP=<u>Pokrenite svoju web stranicu unutar Dolibarr web hosting provajdera</u><br>Ako nemate web server poput Apachea ili NGinxa dostupan na internetu, možete izvesti i ili uvesti svoju web stranicu na drugu Dolibarr instancu koju pruža drugi Dolibarr hosting provajder koji pruža potpunu integraciju s modulom za web stranicu. Spisak nekih Dolibarr provajdera hostinga možete pronaći na <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Pokrenite svoju web stranicu unutar ZionOne web hosting provajdera</u><br>Ako nemate web server poput Apachea ili NGinxa dostupan na internetu, možete izvesti i ili uvesti svoju web stranicu na drugu ZionOne instancu koju pruža drugi ZionOne hosting provajder koji pruža potpunu integraciju s modulom za web stranicu. Spisak nekih ZionOne provajdera hostinga možete pronaći na <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Check also that the virtual host user (for example www-data) has <strong>%s</strong> permissions on files into<br><strong>%s</strong>
 ReadPerm=Pročitaj
 WritePerm=Pisati
 TestDeployOnWeb=Testirajte / implementirajte na webu
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Pregledajte %s u novoj kartici.</u><br><br>%s će biti opslužen od strane Dolibarr servera tako da nije potrebna instalacija dodatnog web servera (kao što su Apache, Nginx, IIS).<br>Nezgodno je što URL-ovi stranica nisu jednostavni za korištenje i počinju putanjom vašeg Dolibarra.<br>URL koji pruža Dolibarr:<br><strong>%s</strong><br><br>Za implementaciju ili testiranje pomoću vlastitog eksternog web servera (kao što su Apache, Nginx, Lighttp) koristite link "%s".
+PreviewSiteServedByDolibarr=<u>Pregledajte %s u novoj kartici.</u><br><br>%s će biti opslužen od strane ZionOne servera tako da nije potrebna instalacija dodatnog web servera (kao što su Apache, Nginx, IIS).<br>Nezgodno je što URL-ovi stranica nisu jednostavni za korištenje i počinju putanjom vašeg Dolibarra.<br>URL koji pruža ZionOne:<br><strong>%s</strong><br><br>Za implementaciju ili testiranje pomoću vlastitog eksternog web servera (kao što su Apache, Nginx, Lighttp) koristite link "%s".
 VirtualHostUrlNotDefined=URL virtuelnog hosta kojeg opslužuje vanjski web server nije definiran
 NoPageYet=Još nema stranica
 YouCanCreatePageOrImportTemplate=Možete kreirati novu stranicu ili uvesti cijeli predložak web stranice
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Uskoro ćete biti preusmjereni na stranicu s deta
 WebPortalSetupNotComplete=Postavljanje web portala nije završeno
 DeleteWebsiteAccount=Izbriši račun na web stranici
 ConfirmDeleteWebsiteAccount=Jeste li sigurni da želite izbrisati ovaj račun?
-ConfirmDeleteWebsiteAccount2=Ako je ovaj račun korišten za prijavu na javni portal ili bilo koju drugu web stranicu koju pokreće Dolibarr, prijava možda više neće biti moguća.
+ConfirmDeleteWebsiteAccount2=Ako je ovaj račun korišten za prijavu na javni portal ili bilo koju drugu web stranicu koju pokreće ZionOne, prijava možda više neće biti moguća.
 ContentSecurityPolicy=HTTP "Pravila o sigurnosti sadržaja" web stranice
 WebsiteSecurityForceRP=Pravila o referencama za HTTP web stranicu
 WebsiteSecurityForceSTS=HTTP protokol web stranice "Strict-Transport-Security"

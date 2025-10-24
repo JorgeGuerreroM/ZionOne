@@ -44,7 +44,7 @@ if (!defined('NOREQUIREHTML')) {
 	define('NOREQUIREHTML', '1');
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 /**

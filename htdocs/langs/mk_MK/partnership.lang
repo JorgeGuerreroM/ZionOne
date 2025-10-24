@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Врски за проверка
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Напомена на денови пред откажување на статусот на партнерство кога претплатата е истечена
 ReferingWebsiteCheck=Проверка на упатување на веб-страницата
 ReferingWebsiteCheckDesc=Можете да овозможите функција за да проверите дали вашите партнери додале повратна врска до домените на вашата веб-локација на нивната сопствена веб-локација.
-PublicFormRegistrationPartnerDesc=Dolibarr може да ви обезбеди јавна URL/веб-страница за да им овозможи на надворешните посетители да побараат да бидат дел од програмата за партнерство.
+PublicFormRegistrationPartnerDesc=ZionOne може да ви обезбеди јавна URL/веб-страница за да им овозможи на надворешните посетители да побараат да бидат дел од програмата за партнерство.
 # Object
 DeletePartnership=Избришете партнерство
 PartnershipDedicatedToThisThirdParty=Партнерство посветено на оваа трета страна

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Konto (z planu kont) używane domyślnie dla „użytkowników” na wynagrodzeniach
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Dedykowane konto zdefiniowane na karcie użytkownika będzie używane tylko do księgowości Subledger. To konto będzie używane do księgi głównej, ale także jako domyślna wartość księgowości Subledger, jeśli nie zdefiniowano dla użytkownika dedykowanego konta księgowego.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Domyślne konto księgowe dla płatności wynagrodzenia

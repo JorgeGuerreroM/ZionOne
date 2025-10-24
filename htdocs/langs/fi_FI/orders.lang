@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Tähän tarjous linkitetty tilaus oli jo auki, joten muuta tilausta ei luotu automaattisesti
 OrdersArea=Asiakkaiden tilausalue
 SuppliersOrdersArea=Ostotilaukset

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Kitambulisho cha moduli
 ModuleBuilderDesc=Chombo hiki lazima kitumike tu na watumiaji wenye uzoefu au wasanidi. Inatoa huduma za kujenga au kuhariri moduli yako mwenyewe. Hati mbadala za <a href="%s" target="_blank" rel="noopener noreferrer"> utayarishaji wa mikono yako hapa </a> .
 EnterNameOfModuleDesc=Weka jina la moduli/programu ili kuunda bila nafasi. Tumia herufi kubwa kutenganisha maneno (Kwa mfano: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Unaweza kufuta moduli yako. ONYO: Faili zote za us
 EnterNameOfObjectToDeleteDesc=You can delete an object. WARNING: All coding files (generated or created manually) related to the object will be deleted!
 DangerZone=Eneo la hatari
 BuildPackage=Jenga kifurushi
-BuildPackageDesc=Unaweza kutengeneza kifurushi cha zip cha programu yako ili uwe tayari kukisambaza kwenye Dolibarr yoyote. Unaweza pia kuisambaza au kuiuza sokoni kama <a href="https://www.dolistore.com"> DoliStore.com </a> .
+BuildPackageDesc=Unaweza kutengeneza kifurushi cha zip cha programu yako ili uwe tayari kukisambaza kwenye ZionOne yoyote. Unaweza pia kuisambaza au kuiuza sokoni kama <a href="https://www.dolistore.com"> DoliStore.com </a> .
 BuildDocumentation=Kujenga nyaraka
 ModuleIsNotActive=Moduli hii bado haijaamilishwa. Nenda kwenye %s ili kuifanya moja kwa moja au bonyeza hapa
 ModuleIsLive=Moduli hii imeamilishwa. Mabadiliko yoyote yanaweza kuvunja kipengele cha sasa cha moja kwa moja.
@@ -110,7 +110,7 @@ HooksDefDesc=Define in the property <b>module_parts['hooks']</b>, in the module 
 TriggerDefDesc=Bainisha katika faili ya kichochezi msimbo ambao ungependa kutekeleza wakati tukio la biashara nje ya sehemu yako linapotekelezwa (matukio yaliyoanzishwa na moduli zingine).
 SeeIDsInUse=Angalia vitambulisho vinavyotumika katika usakinishaji wako
 SeeReservedIDsRangeHere=Angalia anuwai ya vitambulisho vilivyohifadhiwa
-ToolkitForDevelopers=Zana kwa watengenezaji wa Dolibarr
+ToolkitForDevelopers=Zana kwa watengenezaji wa ZionOne
 TryToUseTheModuleBuilder=Ikiwa una ujuzi wa SQL na PHP, unaweza kutumia mchawi asilia wa kujenga moduli. <br> Washa sehemu ya <strong> %s </strong>  na utumie mchawi kwa kubofya <span class="fa fa-bug">  </span>  kwenye menyu ya juu kulia. <br> Onyo: Hiki ni kipengele cha hali ya juu cha msanidi programu, fanya <b> si </b>  jaribu kwenye tovuti yako ya uzalishaji!
 SeeTopRightMenu=Angalia <span class="fa fa-bug">  </span>  kwenye menyu ya juu kulia
 AddLanguageFile=Ongeza faili ya lugha

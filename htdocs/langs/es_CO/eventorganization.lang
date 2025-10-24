@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - eventorganization
+# ZionOne language file - Source file is en_US - eventorganization
 ModuleEventOrganizationName =Organización del evento
 EventOrganizationDescriptionLong=Gestionar la organización de un evento (espectáculo, conferencias, asistentes o ponentes, con páginas públicas para sugerencia, voto o registro)
 EVENTORGANIZATION_TASK_LABELTooltip =When you validate an event to organize, some tasks can be automatically created in the project <br>  <br> For example:  <br> Send Call for Conferences <br> Send Call for Booths <br> Validate suggestions of Conferences <br> Validate application for Booths <br> Open subscriptions to the event for attendees <br> Enviar un recordatorio del evento a los oradores <br> Enviar un recordatorio del evento a los anfitriones del stand <br> Enviar un recordatorio del evento a los asistentes

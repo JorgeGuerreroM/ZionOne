@@ -24,7 +24,7 @@ $force_install_nophpinfo = true;
 $force_install_noedit = 3;
 
 /** @var string	$force_install_message	 			Information message */
-$force_install_message = 'Welcome to your Dolibarr Docker install';
+$force_install_message = 'Welcome to your ZionOne Docker install';
 
 /** @var string	$force_install_main_data_root 		Data root absolute path (documents folder) */
 $force_install_main_data_root = null;
@@ -65,10 +65,10 @@ $force_install_databaserootlogin = 'root';
 /** @var string $force_install_databaserootpass		Database root password */
 $force_install_databaserootpass = getenv('DOLI_ROOT_PASSWORD', true) ?: getenv('DOLI_ROOT_PASSWORD');
 
-/** @var string $force_install_dolibarrlogin		Dolibarr super-administrator username */
+/** @var string $force_install_dolibarrlogin		ZionOne super-administrator username */
 $force_install_dolibarrlogin = 'admin';
 
-/** @var string $force_install_dolibarrpassword		Dolibarr super-administrator password */
+/** @var string $force_install_dolibarrpassword		ZionOne super-administrator password */
 $force_install_dolibarrpassword = '';
 
 /** @var bool $force_install_lockinstall			Force install locking */

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=En beställning var redan öppen länkad till detta förslag, så ingen annan beställning skapades automatiskt
 OrdersArea=Kundordrar
 SuppliersOrdersArea=Inköpsordrar

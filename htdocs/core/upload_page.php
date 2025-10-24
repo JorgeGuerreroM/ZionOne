@@ -119,7 +119,7 @@ if ($action == 'uploadfile') {	// Test on permission not required here. Done lat
 
 $form = new Form($db);
 
-// Important: Following code is to avoid page request by browser and PHP CPU at each Dolibarr page access.
+// Important: Following code is to avoid page request by browser and PHP CPU at each ZionOne page access.
 /*
 if (empty($dolibarr_nocache) && GETPOSTINT('cache')) {
 	header('Cache-Control: max-age='.GETPOSTINT('cache').', public');

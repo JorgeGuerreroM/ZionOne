@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Configuración del módulo de bandas
-StripeDesc=Ofrezca a sus clientes una página de pago en línea para pagos con tarjetas de crédito/débito a través de <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>. Esto se puede utilizar para permitir que sus clientes realicen pagos ad-hoc o pagos relacionados con un objeto particular de Dolibarr (factura, pedido, ...)
+StripeDesc=Ofrezca a sus clientes una página de pago en línea para pagos con tarjetas de crédito/débito a través de <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>. Esto se puede utilizar para permitir que sus clientes realicen pagos ad-hoc o pagos relacionados con un objeto particular de ZionOne (factura, pedido, ...)
 StripeOrCBDoPayment=Paga con tarjeta de crédito o Stripe
-FollowingUrlAreAvailableToMakePayments=Las siguientes URL están disponibles para ofrecer una página a un cliente para realizar un pago en objetos Dolibarr
+FollowingUrlAreAvailableToMakePayments=Las siguientes URL están disponibles para ofrecer una página a un cliente para realizar un pago en objetos ZionOne
 WelcomeOnPaymentPage=Bienvenido a nuestro servicio de pago en línea
 ThisScreenAllowsYouToPay=Esta pantalla le permite realizar un pago en línea a %s.
 ThisIsInformationOnPayment=Esta es la información sobre el pago a hacer

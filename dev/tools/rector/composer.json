@@ -1,5 +1,5 @@
 {
-  "name": "dolibarr/rector",
+  "name": "ZionOne/rector",
   "type": "project",
   "license": "GplV3",
   "authors": [
@@ -13,7 +13,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Dolibarr\\Rector\\": "./src"
+      "ZionOne\\Rector\\": "./src"
     }
   }
 }

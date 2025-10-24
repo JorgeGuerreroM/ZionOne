@@ -53,7 +53,7 @@ then
 	DIALOG="$DIALOG --ascii-lines"
 	fichtemp=`tempfile 2>/dev/null` || fichtemp=/tmp/test$$
 	trap "rm -f $fichtemp" 0 1 2 5 15
-	$DIALOG --title "Save Dolibarr with demo values" --clear \
+	$DIALOG --title "Save ZionOne with demo values" --clear \
 		--inputbox "Output dump file :" 16 55 $dumpfile 2> $fichtemp
 	valret=$?
 	case $valret in
@@ -70,7 +70,7 @@ then
 	DIALOG="$DIALOG --ascii-lines"
 	fichtemp=`tempfile 2>/dev/null` || fichtemp=/tmp/test$$
 	trap "rm -f $fichtemp" 0 1 2 5 15
-	$DIALOG --title "Save Dolibarr with demo values" --clear \
+	$DIALOG --title "Save ZionOne with demo values" --clear \
 		--inputbox "Mysql database name :" 16 55 dolibarrdemo 2> $fichtemp
 	valret=$?
 	case $valret in
@@ -86,7 +86,7 @@ then
 	DIALOG=${DIALOG=dialog}
 	fichtemp=`tempfile 2>/dev/null` || fichtemp=/tmp/test$$
 	trap "rm -f $fichtemp" 0 1 2 5 15
-	$DIALOG --title "Save Dolibarr with demo values" --clear \
+	$DIALOG --title "Save ZionOne with demo values" --clear \
 		--inputbox "Mysql port (ex: 3306):" 16 55 3306 2> $fichtemp
 
 	valret=$?
@@ -104,7 +104,7 @@ then
 	DIALOG=${DIALOG=dialog}
 	fichtemp=`tempfile 2>/dev/null` || fichtemp=/tmp/test$$
 	trap "rm -f $fichtemp" 0 1 2 5 15
-	$DIALOG --title "Save Dolibarr with demo values" --clear \
+	$DIALOG --title "Save ZionOne with demo values" --clear \
 		--inputbox "Mysql root login (ex: root):" 16 55 root 2> $fichtemp
 
 	valret=$?
@@ -122,7 +122,7 @@ then
 	DIALOG=${DIALOG=dialog}
 	fichtemp=`tempfile 2>/dev/null` || fichtemp=/tmp/test$$
 	trap "rm -f $fichtemp" 0 1 2 5 15
-	$DIALOG --title "Save Dolibarr with demo values" --clear \
+	$DIALOG --title "Save ZionOne with demo values" --clear \
 		--passwordbox "Password for Mysql root login :" 16 55 2> $fichtemp
 
 	valret=$?
@@ -140,8 +140,8 @@ then
 	#DIALOG=${DIALOG=dialog}
 	#fichtemp=`tempfile 2>/dev/null` || fichtemp=/tmp/test$$
 	#trap "rm -f $fichtemp" 0 1 2 5 15
-	#$DIALOG --title "Save Dolibarr with demo values" --clear \
-		#        --inputbox "Full path to documents directory (ex: /var/www/dolibarr/documents)- no / at end :" 16 55 2> $fichtemp
+	#$DIALOG --title "Save ZionOne with demo values" --clear \
+		#        --inputbox "Full path to documents directory (ex: /var/www/ZionOne/documents)- no / at end :" 16 55 2> $fichtemp
 
 	#valret=$?
 
@@ -156,7 +156,7 @@ then
 
 	# ---------------------------- confirmation
 	DIALOG=${DIALOG=dialog}
-	$DIALOG --title "Save Dolibarr with demo values" --clear \
+	$DIALOG --title "Save ZionOne with demo values" --clear \
 		--yesno "Do you confirm ? \n Dump file : '$dumpfile' \n Dump dir : '$mydir' \n Mysql database : '$base' \n Mysql port : '$port' \n Mysql login: '$admin' \n Mysql password : --hidden--" 15 55
 
 	case $? in

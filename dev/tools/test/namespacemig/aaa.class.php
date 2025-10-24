@@ -1,6 +1,6 @@
 <?php
 
-namespace Dolibarr;
+namespace ZionOne;
 
 global $globalaaa;
 $globalaaa = 'globalaaa';

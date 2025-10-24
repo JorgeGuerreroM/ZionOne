@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=ወደ ውጭ መላክ
 ImportArea=አስመጣ
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=እሱን ለመምረጥ የ%s አዶን ጠቅ በ�
 ChooseFileToImport=ፋይሉን ስቀል ከዚያም የ%s አዶን ጠቅ በማድረግ ፋይሉን እንደ ምንጭ አስመጪ ፋይል ለመምረጥ...
 SourceFileFormat=የምንጭ ፋይል ቅርጸት
 FieldsInSourceFile=በምንጭ ፋይል ውስጥ ያሉ መስኮች
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=ምንም መስኮች የሉም
 MoveField=የመስክ አምድ ቁጥር %s አንቀሳቅስ
 ExampleOfImportFile=የማስመጣት_ፋይል_ምሳሌ

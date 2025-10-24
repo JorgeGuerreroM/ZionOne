@@ -26,7 +26,7 @@ if (! defined('CSRFCHECK_WITH_TOKEN')) {
 	define('CSRFCHECK_WITH_TOKEN', '1');		// Force use of CSRF protection with tokens even for GET
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 include_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
 
@@ -112,7 +112,7 @@ if (isModEnabled('syslog')) {
 	print '<input type="radio" name="choice" id="choicelogfile" value="logfile"';
 	print ($choice && $choice == 'logfile') ? ' checked' : '';
 	$filelogparam = $filelog;
-	if ($user->admin && preg_match('/^dolibarr.*\.log$/', basename($filelog))) {
+	if ($user->admin && preg_match('/^ZionOne.*\.log$/', basename($filelog))) {
 		$filelogparam = '<a class="wordbreak" href="'.DOL_URL_ROOT.'/document.php?modulepart=logs&file=';
 		$filelogparam .= basename($filelog);
 		$filelogparam .= '">'.$filelog.'</a>';

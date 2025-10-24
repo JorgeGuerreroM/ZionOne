@@ -29,7 +29,7 @@
  *   \brief      Page to create/edit/view Tickets
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/ticket/class/actions_ticket.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formticket.class.php';
@@ -952,7 +952,7 @@ if ($action == 'create' || $action == 'presend') {
 
 		$createdfrompublicticket = 0;
 		$createdfromemailcollector = 0;
-		if (!empty($object->origin_email) && (empty($object->email_msgid) || preg_match('/dolibarr\-tic\d+/', $object->email_msgid))) {
+		if (!empty($object->origin_email) && (empty($object->email_msgid) || preg_match('/ZionOne\-tic\d+/', $object->email_msgid))) {
 			// If ticket create from public interface - TODO Add a more robust test to know if created by public interface
 			$createdfrompublicticket = 1;
 		} elseif (!empty($object->email_msgid)) {

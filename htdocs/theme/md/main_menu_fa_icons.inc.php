@@ -71,16 +71,16 @@ div.mainmenu.generic4::before {
 	font-size: 0.9em;
 }
 
-/* Define square Dolibarr logo in pure CSS */
+/* Define square ZionOne logo in pure CSS */
 
-.fa-dolibarr-css{
+.fa-ZionOne-css{
 	color: #235481;
 	background: currentColor;
 	height: 150px;
 	width: 150px;
 	position: relative;
 }
-.fa-dolibarr-css:before{
+.fa-ZionOne-css:before{
 	content: '';
 	position: absolute;
 	left: 19%;
@@ -90,7 +90,7 @@ div.mainmenu.generic4::before {
 	border: solid 30px white;
 	border-radius: 0% 200% 200% 0% / 0% 180% 180% 0%;
 }
-.fa-dolibarr-css:after{
+.fa-ZionOne-css:after{
 	content: '';
 	position: absolute;
 	left: 19%;

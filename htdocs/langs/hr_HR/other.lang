@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Sigurnosni kod
 NumberingShort=br
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Zdravo)__\n\nU prilogu pronađite interven
 PredefinedMailContentLink=Možete kliknuti na poveznicu u nastavku da izvršite uplatu ako već nije učinjena.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Zdravo)__\n\n\n__(Iskreno)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Podsjetnik na događaj "__EVENT_LABEL__" __EVENT_DATE__ u __EVENT_TIME__<br><br>Ovo je automatska poruka, nemojte odgovarati.
-DemoDesc=Dolibarr je kompaktni ERP/CRM koji podržava nekoliko poslovnih modula. Demo koji prikazuje sve module nema smisla jer se ovaj scenarij nikada ne događa (dostupno nekoliko stotina). Dakle, dostupno je nekoliko demo profila.
+DemoDesc=ZionOne je kompaktni ERP/CRM koji podržava nekoliko poslovnih modula. Demo koji prikazuje sve module nema smisla jer se ovaj scenarij nikada ne događa (dostupno nekoliko stotina). Dakle, dostupno je nekoliko demo profila.
 DemoDesc2=This is a restricted shared demo, you may prefer to test on your own dedicated instance with a full admin access, to do so, <a href="%s" target="_blank">go here <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Odaberite demo profil koji najbolje odgovara vašim potrebama...
 ChooseYourDemoProfilMore=...ili napravite vlastiti profil <br> (ručni odabir modula)
@@ -197,10 +197,10 @@ BugTracker=Praćenje bugova
 SendNewPasswordDesc=This form allows you to request a new password. It will be sent to your email address.<br>Change will become effective once you click on the confirmation link in the email.<br>Check your inbox.
 EnterNewPasswordHere=Unesite svoju novu lozinku ovdje
 BackToLoginPage=Povratak na stranicu za prijavu
-AuthenticationDoesNotAllowSendNewPassword=Ovjera vjerodostojnosti način je <b>%s</b> .<br>U ovom načinu rada Dolibarr ne može znati niti promijeniti vašu lozinku.<br>Obratite se svom administratoru sustava ako želite promijeniti lozinku.
+AuthenticationDoesNotAllowSendNewPassword=Ovjera vjerodostojnosti način je <b>%s</b> .<br>U ovom načinu rada ZionOne ne može znati niti promijeniti vašu lozinku.<br>Obratite se svom administratoru sustava ako želite promijeniti lozinku.
 EnableGDLibraryDesc=Instalirajte ili omogućite GD knjižnicu na svojoj PHP instalaciji da biste koristili ovu opciju.
 ProfIdShortDesc=<b>Prof Id %s</b> je podatak ovisan o državi komitenta. <br> Na primjer, za zemlju <b>%s</b>, kod je <b>%s</b>.
-DolibarrDemo=Dolibarr ERP/CRM demo
+DolibarrDemo=ZionOne ERP/CRM demo
 StatsByAmount=Statistika o količini proizvoda/usluga
 StatsByAmountProducts=Statistika o količini proizvoda
 StatsByAmountServices=Statistika o količini usluga
@@ -404,4 +404,4 @@ SetHereATitleForLink = Postavite naziv za oznaku
 ShowBookmark = Prikaži zabilješku
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Koristite vanjsku/apsolutnu vezu (https://externalurl.com) ili internu/relativnu vezu (/mypage.php). Također možete koristiti telefon kao što je tel:0123456.
-SubscribeToFoundation=Pomognite Dolibarr projektu, prijavite se u zakladu
+SubscribeToFoundation=Pomognite ZionOne projektu, prijavite se u zakladu

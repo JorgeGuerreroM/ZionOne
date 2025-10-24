@@ -499,7 +499,7 @@ class ProductCustomerPrice extends CommonObject
 	 * @param 	int 			$offset 	offset
 	 * @param 	string|array<string,string> $filter		Filter USF.
 	 * @return 	int 						Return integer <0 if KO, >0 if OK
-	 * @since dolibarr v17
+	 * @since ZionOne v17
 	 */
 	public function fetchAll($sortorder = '', $sortfield = '', $limit = 0, $offset = 0, $filter = '')
 	{

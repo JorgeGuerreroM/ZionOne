@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=אין טעות, אנו מתחייבים
@@ -52,12 +52,12 @@ ErrorWrongDate=התאריך לא נכון!
 ErrorFailedToWriteInDir=נכשל כתיבה בספרייה %s
 ErrorFailedToBuildArchive=בניית קובץ הארכיון נכשלה %s
 ErrorFoundBadEmailInFile=Found incorrect email syntax for %s lines in file (example line %s with email=%s)
-ErrorUserCannotBeDelete=לא ניתן למחוק את המשתמש. אולי זה משויך לישויות Dolibarr.
+ErrorUserCannotBeDelete=לא ניתן למחוק את המשתמש. אולי זה משויך לישויות ZionOne.
 ErrorFieldsRequired=כמה שדות חובה נותרו ריקים.
 ErrorSubjectIsRequired=נושא הדוא"ל נדרש
 ErrorInAddAttachmentsImageBaseOnMedia=Error in creating image files into media directory for attachment
 ErrorInAddAttachmentsImageBaseIsSrcData=Error in creating image files (found as data:) into temp directory for attachment
-ErrorFailedToCreateDir=יצירת ספרייה נכשלה. בדוק שלמשתמש שרת האינטרנט יש הרשאות לכתוב לתוך ספריית המסמכים של Dolibarr. אם הפרמטר <b>safe_mode</b> מופעל ב-PHP הזה, בדוק שקובצי php של Dolibarr הם הבעלים של משתמש (או קבוצה) של שרת האינטרנט.
+ErrorFailedToCreateDir=יצירת ספרייה נכשלה. בדוק שלמשתמש שרת האינטרנט יש הרשאות לכתוב לתוך ספריית המסמכים של ZionOne. אם הפרמטר <b>safe_mode</b> מופעל ב-PHP הזה, בדוק שקובצי php של ZionOne הם הבעלים של משתמש (או קבוצה) של שרת האינטרנט.
 ErrorNoMailDefinedForThisUser=לא הוגדר דואר עבור משתמש זה
 ErrorSetupOfEmailsNotComplete=הגדרת המיילים לא הושלמה
 ErrorAccountingClosureSetupNotComplete=Setup of closure accounts not complete
@@ -88,7 +88,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=השדה <b>%s</b> אינו י�
 ErrorFieldMustHaveXChar=השדה <b>%s</b> חייב להכיל לפחות %s תווים.
 ErrorNoAccountancyModuleLoaded=לא הופעל מודול הנהלת חשבונות
 ErrorExportDuplicateProfil=שם הפרופיל הזה כבר קיים עבור ערכת ייצוא זו.
-ErrorLDAPSetupNotComplete=התאמת Dolibarr-LDAP לא הושלמה.
+ErrorLDAPSetupNotComplete=התאמת ZionOne-LDAP לא הושלמה.
 ErrorLDAPMakeManualTest=קובץ .ldif נוצר בספרייה %s. נסה לטעון אותו ידנית משורת הפקודה כדי לקבל מידע נוסף על שגיאות.
 ErrorCantSaveADoneUserWithZeroPercentage=לא ניתן לשמור פעולה עם "סטטוס לא התחיל" אם גם השדה "בוצע על ידי" ממולא.
 ErrorPleaseTypeBankTransactionReportName=נא להזין את שם דף חשבון הבנק שבו יש לדווח על הרישום (פורמט YYYYMM או YYYYMMDD)
@@ -122,8 +122,8 @@ ErrorProdIdAlreadyExist=%s מוקצה לשליש נוסף
 ErrorFailedToSendPassword=שליחת הסיסמה נכשלה
 ErrorFailedToLoadRSSFile=לא מצליח לקבל עדכון RSS. נסה להוסיף קבוע MAIN_SIMPLEXMLLOAD_DEBUG אם הודעות השגיאה אינן מספקות מספיק מידע.
 ErrorForbidden=הגישה נדחתה.<br>אתה מנסה לגשת לדף, אזור או תכונה של מודול מושבת או מבלי להיות בהפעלה מאומתת או שאינו מורשה למשתמש שלך.
-ErrorForbidden2=הרשאה לכניסה זו יכולה להיות מוגדרת על ידי מנהל Dolibarr שלך מתפריט %s->%s.
-ErrorForbidden3=נראה שלא נעשה שימוש ב-Dolibarr דרך הפעלה מאומתת. עיין בתיעוד ההגדרות של Dolibarr כדי לדעת איך לנהל אימות (htaccess, mod_auth או אחר...).
+ErrorForbidden2=הרשאה לכניסה זו יכולה להיות מוגדרת על ידי מנהל ZionOne שלך מתפריט %s->%s.
+ErrorForbidden3=נראה שלא נעשה שימוש ב-ZionOne דרך הפעלה מאומתת. עיין בתיעוד ההגדרות של ZionOne כדי לדעת איך לנהל אימות (htaccess, mod_auth או אחר...).
 ErrorForbidden4=הערה: נקה את קובצי ה-cookie של הדפדפן שלך כדי להרוס הפעלות קיימות עבור התחברות זו.
 ErrorNoImagickReadimage=Class Imagick לא נמצא ב-PHP הזה. לא יכולה להיות תצוגה מקדימה זמינה. מנהלי מערכת יכולים להשבית כרטיסייה זו מתפריט הגדרות - תצוגה.
 ErrorRecordAlreadyExists=הרשומה כבר קיימת
@@ -147,8 +147,8 @@ ErrorWebServerUserHasNotPermission=לחשבון המשתמש <b>%s</b> המשמ�
 ErrorNoActivatedBarcode=לא הופעל סוג ברקוד
 ErrUnzipFails=פתיחת הדפוס של %s עם ZipArchive נכשלה
 ErrNoZipEngine=אין מנוע לדחוס/לפתוח קובץ %s ב-PHP הזה
-ErrorFileMustBeADolibarrPackage=הקובץ %s חייב להיות חבילת zip של Dolibarr
-ErrorModuleFileRequired=עליך לבחור קובץ חבילת מודול Dolibarr
+ErrorFileMustBeADolibarrPackage=הקובץ %s חייב להיות חבילת zip של ZionOne
+ErrorModuleFileRequired=עליך לבחור קובץ חבילת מודול ZionOne
 ErrorPhpCurlNotInstalled=ה-PHP CURL אינו מותקן, זה חיוני כדי לדבר עם Paypal
 ErrorFailedToAddToMailmanList=נכשל הוספת הרשומה %s לרשימת Mailman %s או לבסיס SPIP
 ErrorFailedToRemoveToMailmanList=נכשלה הסרת הרשומה %s לרשימת Mailman %s או לבסיס SPIP
@@ -161,7 +161,7 @@ ErrorDateMustBeInFuture=התאריך חייב להיות גדול מהיום
 ErrorStartDateGreaterEnd=תאריך ההתחלה גדול מתאריך הסיום
 ErrorPaymentModeDefinedToWithoutSetup=מצב תשלום הוגדר לסוג %s אך ההגדרה של חשבונית מודול לא הושלמה כדי להגדיר מידע שיוצג עבור מצב תשלום זה.
 ErrorPHPNeedModule=שגיאה, ב-PHP שלך חייב להיות מותקן <b>%s</b> כדי להשתמש בזה תכונה.
-ErrorOpenIDSetupNotComplete=אתה מגדיר את קובץ התצורה של Dolibarr כדי לאפשר אימות OpenID, אך כתובת האתר של שירות OpenID אינה מוגדרת בקבוע %s
+ErrorOpenIDSetupNotComplete=אתה מגדיר את קובץ התצורה של ZionOne כדי לאפשר אימות OpenID, אך כתובת האתר של שירות OpenID אינה מוגדרת בקבוע %s
 ErrorWarehouseMustDiffers=מחסני המקור והיעד חייבים להיות שונים
 ErrorBadFormat=פורמט גרוע!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=שגיאה, חבר זה עדיין לא מקושר לצד שלישי כלשהו. קשר חבר לצד שלישי קיים או צור צד שלישי חדש לפני יצירת מנוי עם חשבונית.
@@ -348,11 +348,11 @@ ErrorNoCloneWithoutEmail=The new user must have an email
 ErrorUserClone=Error in user clone categories
 ErrorQtyOrderedLessQtyShipped = The quantity ordered cannot be less than the quantity shipped.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Error, creating a various payment on a bank account with a currency different than the currency of the company is not yet supported.
-ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and Dolibarr parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and ZionOne parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, you try to pay different invoices with different currencies in the same payment
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=פרמטר PHP שלך upload_max_filesize (%s) גבוה יותר מפרמטר PHP post_max_size (%s). זו לא הגדרה עקבית.
-WarningPasswordSetWithNoAccount=הוגדרה סיסמה לחבר זה. עם זאת, לא נוצר חשבון משתמש. אז הסיסמה הזו מאוחסנת אבל לא ניתן להשתמש בה כדי להיכנס ל-Dolibarr. זה עשוי לשמש על ידי מודול/ממשק חיצוני, אבל אם אינך צריך להגדיר שום כניסה או סיסמה עבור חבר, אתה יכול לבטל את האפשרות "נהל התחברות עבור כל חבר" מהגדרת מודול חבר. אם אתה צריך לנהל התחברות אבל לא צריך שום סיסמה, אתה יכול להשאיר שדה זה ריק כדי להימנע מהאזהרה זו. הערה: דואר אלקטרוני יכול לשמש גם ככניסה אם החבר מקושר למשתמש.
+WarningPasswordSetWithNoAccount=הוגדרה סיסמה לחבר זה. עם זאת, לא נוצר חשבון משתמש. אז הסיסמה הזו מאוחסנת אבל לא ניתן להשתמש בה כדי להיכנס ל-ZionOne. זה עשוי לשמש על ידי מודול/ממשק חיצוני, אבל אם אינך צריך להגדיר שום כניסה או סיסמה עבור חבר, אתה יכול לבטל את האפשרות "נהל התחברות עבור כל חבר" מהגדרת מודול חבר. אם אתה צריך לנהל התחברות אבל לא צריך שום סיסמה, אתה יכול להשאיר שדה זה ריק כדי להימנע מהאזהרה זו. הערה: דואר אלקטרוני יכול לשמש גם ככניסה אם החבר מקושר למשתמש.
 WarningMandatorySetupNotComplete=לחץ כאן כדי להגדיר פרמטרים עיקריים
 WarningEnableYourModulesApplications=לחץ כאן כדי להפעיל את המודולים והיישומים שלך
 WarningSafeModeOnCheckExecDir=אזהרה, אפשרות PHP <b>safe_mode</b> מופעלת ולכן הפקודה חייבת להיות מאוחסנת בתוך ספרייה המוצהרת על ידי פרמטר php <b>safe_mode_exec_dir</b>.
@@ -399,7 +399,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Warning, reading bank account is a
 WarningNoDataTransferedInAccountancyYet=Please note, there is no data in the accounting table. Please transfer your data recorded in the application to the accounting section or change the calculation mode to analyze the data recorded outside of accounting.
 WarningChangingThisMayBreakStopTaskScheduler=Warning, changing this value may disable the scheduler
 WarningAmountOfFileDiffersFromSumOfLines=Warning, amount of file (%s) differs from the sum of lines (%s)
-WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the Dolibarr foundation as being published by a company using illegal practices (non-compliance with the rules for using the Dolibarr brand, collecting your data without your consent or deploying malware).
+WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the ZionOne foundation as being published by a company using illegal practices (non-compliance with the rules for using the ZionOne brand, collecting your data without your consent or deploying malware).
 WarningModuleAffiliatedToAPiratPlatform=Be careful when getting a module (paid or free) from a suspicious non official platform like %s
 
 SwissQrOnlyVIR = ניתן להוסיף חשבונית SwissQR רק בחשבוניות המוגדרות לתשלום באמצעות תשלומי העברה אשראי.

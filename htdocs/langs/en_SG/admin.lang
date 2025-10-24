@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - admin
+# ZionOne language file - Source file is en_US - admin
 HideAnyVATInformationOnPDF=Hide all information related to GST / Sales Tax
 PDFRulesForSalesTax=Rules for GST / Sales Tax
 HideLocalTaxOnPDF=Hide %s rate in column GST /  Sale Tax

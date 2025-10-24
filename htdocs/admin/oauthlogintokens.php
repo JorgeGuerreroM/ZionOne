@@ -24,7 +24,7 @@
  * \brief       Setup page to configure oauth access to login information
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/oauth.lib.php';
@@ -144,7 +144,7 @@ if ($action == 'refreshtoken' && $user->admin) {
 
 	$keyforparamtenant = 'OAUTH_'.strtoupper(empty($supportedoauth2array[$keyforsupportedoauth2array]['callbackfile']) ? 'Unknown' : $supportedoauth2array[$keyforsupportedoauth2array]['callbackfile']).($keyforprovider ? '-'.$keyforprovider : '').'_TENANT';
 
-	// Dolibarr storage
+	// ZionOne storage
 	$storage = new DoliStorage($db, $conf, $keyforprovider, getDolGlobalString($keyforparamtenant));
 	try {
 		// $OAUTH_SERVICENAME is for example 'Google-keyforprovider'
@@ -338,7 +338,7 @@ if ($mode == 'setup' && $user->admin) {
 			$tokenobj = null;
 			// Token
 			require_once DOL_DOCUMENT_ROOT.'/includes/OAuth/bootstrap.php';
-			// Dolibarr storage
+			// ZionOne storage
 			$storage = new DoliStorage($db, $conf, $keyforprovider, getDolGlobalString($keyforparamtenant));
 			try {
 				// $OAUTH_SERVICENAME is for example 'Google-keyforprovider'

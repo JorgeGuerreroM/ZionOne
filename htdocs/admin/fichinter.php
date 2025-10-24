@@ -30,7 +30,7 @@
  *	\brief      Setup page of module Interventions
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/pdf.lib.php';
@@ -130,7 +130,7 @@ if ($action == 'updateMask') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('FICHEINTER_ADDON_PDF') == "$value") {
-			dolibarr_del_const($db, 'FICHEINTER_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'FICHEINTER_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'setdoc') {

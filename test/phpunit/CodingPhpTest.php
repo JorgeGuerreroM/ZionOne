@@ -346,7 +346,7 @@ class CodingPhpTest extends CommonClassTest
 			//if ($reg[0] != 'db') $ok=false;
 		}
 		//print __METHOD__." Result for checking we don't have non escaped string in sql requests for file ".$file."\n";
-		$this->assertTrue($ok, 'Found a forged SQL string that contains the function NOW() in file '.$file['relativename'].' Using this SQL function is forbidden. See https://wiki.dolibarr.org/index.php?title=Language_and_development_rules#SQL_Coding_rules');
+		$this->assertTrue($ok, 'Found a forged SQL string that contains the function NOW() in file '.$file['relativename'].' Using this SQL function is forbidden. See https://wiki.ZionOne.org/index.php?title=Language_and_development_rules#SQL_Coding_rules');
 		//exit;
 
 		// Check bad casting on forge sql

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Sikkerhetskode
 NumberingShort=Nr
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Hallo)__\n\nIntervensjon __REF__ vedlagt\n
 PredefinedMailContentLink=Du kan klikke på linken under for å utføre betalingen din, hvis det ikke allerede er gjort.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Hei)__\n\n\n__(Vennlig hilsen)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Hendelsespåminnelse "__EVENT_LABEL__" den __EVENT_DATE__ kl. __EVENT_TIME__ <br> <br> Dette er en automatisk melding. Ikke svar.
-DemoDesc=Dolibarr er en kompakt ERP/CRM med støtte for flere forretningsmoduler. En demo som viser alle moduler gir ingen mening da dette scenariet aldri skjer (flere hundre tilgjengelig). Derforer flere demoprofiler er tilgjengelig.
+DemoDesc=ZionOne er en kompakt ERP/CRM med støtte for flere forretningsmoduler. En demo som viser alle moduler gir ingen mening da dette scenariet aldri skjer (flere hundre tilgjengelig). Derforer flere demoprofiler er tilgjengelig.
 DemoDesc2=Dette er en begrenset delt demo. Du foretrekker kanskje å teste på din egen dedikerte instans med full administratortilgang. For å gjøre det, <a href="%s" target="_blank">gå hit <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Velg en demoprofil som passer best til dine krav
 ChooseYourDemoProfilMore=... eller bygg din egen profil<br>(manuell utvelgelse av moduler)
@@ -197,10 +197,10 @@ BugTracker=Feilsporing (bugtracker)
 SendNewPasswordDesc=Dette skjemaet lar deg be om et nytt passord. Det vil bli sendt til din e-postadresse. <br> Endring skjer når du klikker på bekreftelseslinken i e-posten. <br> Sjekk innboksen din.
 EnterNewPasswordHere=Skriv inn ditt nye passord her
 BackToLoginPage=Tilbake til innloggingssiden
-AuthenticationDoesNotAllowSendNewPassword=Autensitering er satt til <b>%s</b>.<br>Det betyr at Dolibarr ikke kan vite eller endre passordet ditt.<br>Kontakt systemadministrator hvis du vil endre passordet ditt.
+AuthenticationDoesNotAllowSendNewPassword=Autensitering er satt til <b>%s</b>.<br>Det betyr at ZionOne ikke kan vite eller endre passordet ditt.<br>Kontakt systemadministrator hvis du vil endre passordet ditt.
 EnableGDLibraryDesc=Installer eller aktiver GD-bibliotek i din PHP-installasjon for å bruke denne opsjonen.
 ProfIdShortDesc=<b>Prof-ID %s</b> er avhengig av tredjepartens land.<br>For eksempel er det for <b>%s</b>, koden <b>%s</b>.
-DolibarrDemo=Dolibarr ERP/CRM demo
+DolibarrDemo=ZionOne ERP/CRM demo
 StatsByAmount=Statistikk over mengde varer/tjenester
 StatsByAmountProducts=Statistikk over varermengde
 StatsByAmountServices=Statistikk over antall tjenester
@@ -404,4 +404,4 @@ SetHereATitleForLink = Angi et navn for bokmerket
 ShowBookmark = Vis bokmerke
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Bruk en ekstern/absolutt lenke (https://externalurl.com) eller en intern/relativ lenke (/mypage.php). Du kan også bruke telefon som tlf:0123456.
-SubscribeToFoundation=Hjelp Dolibarr-prosjektet, bli en abonnent
+SubscribeToFoundation=Hjelp ZionOne-prosjektet, bli en abonnent

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Termék hiv.
 ProductLabel=Termékcímke
 ProductLabelTranslated=Lefordított termékcímke
@@ -299,7 +299,7 @@ MinSupplierPrice=Minimális vételár
 MinCustomerPrice=Minimális eladási ár
 NoDynamicPrice=Nincs dinamikus ár
 DynamicPriceConfiguration=Dinamikus árkonfiguráció
-DynamicPriceDesc=Matematikai képleteket határozhat meg az Ügyfél vagy Beszállítói árak kiszámításához. Az ilyen képletek használhatnak minden matematikai operátort, néhány állandót és változót. Itt adhatja meg a használni kívánt változókat. Ha a változó automatikus frissítést igényel, megadhatja a külső URL-t, hogy a Dolibarr automatikusan frissítse az értéket.
+DynamicPriceDesc=Matematikai képleteket határozhat meg az Ügyfél vagy Beszállítói árak kiszámításához. Az ilyen képletek használhatnak minden matematikai operátort, néhány állandót és változót. Itt adhatja meg a használni kívánt változókat. Ha a változó automatikus frissítést igényel, megadhatja a külső URL-t, hogy a ZionOne automatikusan frissítse az értéket.
 AddVariable=Változó hozzáadása
 AddUpdater=Frissítő hozzáadása
 GlobalVariables=Globális változók
@@ -387,7 +387,7 @@ NewProductAttribute=Új attribútum
 NewProductAttributeValue=Új attribútumérték
 ErrorCreatingProductAttributeValue=Hiba történt az attribútumérték létrehozásakor. Ez azért lehet, mert már létezik egy érték ezzel a hivatkozással
 ProductCombinationGeneratorWarning=Ha folytatja, az új változatok létrehozása előtt az összes korábbi TÖRLŐDIK. A már meglévők az új értékekkel frissülnek.
-TooMuchCombinationsWarning=Sok változat generálása magas CPU- és memóriahasználatot eredményezhet, és a Dolibarr nem tudja létrehozni ezeket. Az „%s” opció engedélyezése csökkentheti a memóriahasználatot.
+TooMuchCombinationsWarning=Sok változat generálása magas CPU- és memóriahasználatot eredményezhet, és a ZionOne nem tudja létrehozni ezeket. Az „%s” opció engedélyezése csökkentheti a memóriahasználatot.
 DoNotRemovePreviousCombinations=Ne távolítsa el a korábbi változatokat
 UsePercentageVariations=Használjon százalékos eltéréseket
 PercentageVariation=Százalékos eltérés

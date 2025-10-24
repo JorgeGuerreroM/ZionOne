@@ -40,7 +40,7 @@ error_reporting(E_ALL & ~E_DEPRECATED);
 define('PRODUCT', "apstats");
 define('VERSION', "1.0");
 
-// Include Dolibarr environment
+// Include ZionOne environment
 if (!is_readable("{$path}../../htdocs/config/config.php")) {
 	define("DOL_DOCUMENT_ROOT", __DIR__."/../../htdocs");
 } else {
@@ -54,7 +54,7 @@ print '***** '.constant('PRODUCT').' - '.constant('VERSION').' *****'."\n";
 if (empty($argv[1])) {
 	print 'You must run this tool at the root of the project.'."\n";
 	print 'Usage:   '.constant('PRODUCT').'.php  pathto/outputfile.html  [--dir-scc=pathtoscc|disabled] [--dir-phpstan=pathtophpstan|disabled] [--dir-phan=path/to/phan|disabled]'."\n";
-	print 'Example: '.constant('PRODUCT').'.php  documents/apstats/index.html --dir-scc=/snap/bin --dir-phpstan=~/git/phpstan/htdocs/includes/bin --dir-phan=~/vendor/bin/phan --url-site=https://www.dolibarr.org';
+	print 'Example: '.constant('PRODUCT').'.php  documents/apstats/index.html --dir-scc=/snap/bin --dir-phpstan=~/git/phpstan/htdocs/includes/bin --dir-phan=~/vendor/bin/phan --url-site=https://www.ZionOne.org';
 	exit(0);
 }
 
@@ -118,7 +118,7 @@ if (!is_readable($PHAN_CONFIG)) {
 $timestart = time();
 
 // Retrieve the .git information
-$urlgit = 'https://github.com/Dolibarr/dolibarr/blob/develop/';
+$urlgit = 'https://github.com/ZionOne/ZionOne/blob/develop/';
 
 // Count lines of code of application
 $output_arrproj = array();
@@ -376,9 +376,9 @@ $html = '<html>'."\n";
 $html .= '<meta charset="utf-8">'."\n";
 $html .= '<meta http-equiv="refresh" content="300">'."\n";
 $html .= '<meta name="viewport" content="width=device-width, initial-scale=1.0">'."\n";
-$html .= '<meta name="keywords" content="erp, crm, dolibarr, statistics, project, security alerts">'."\n";
-$html .= '<meta name="title" content="Dolibarr project statistics">'."\n";
-$html .= '<meta name="description" content="Statistics about the Dolibarr ERP CRM Open Source project (lines of code, contributions, security alerts, technical debt...">'."\n";
+$html .= '<meta name="keywords" content="erp, crm, ZionOne, statistics, project, security alerts">'."\n";
+$html .= '<meta name="title" content="ZionOne project statistics">'."\n";
+$html .= '<meta name="description" content="Statistics about the ZionOne ERP CRM Open Source project (lines of code, contributions, security alerts, technical debt...">'."\n";
 $html .= '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />'."\n";
 $html .= '<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>'."\n";
 $html .= '<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">';
@@ -551,7 +551,7 @@ $html .= '<body>'."\n";
 $html .= '<header>'."\n";
 $html .= '<h1>Advanced Project Status</h1>'."\n";
 $currentDate = date("Y-m-d H:i:s"); // Format: Year-Month-Day Hour:Minute:Second
-$html .= '<span class="opacitymedium">Generated on '.$currentDate.' in '.($timeend - $timestart).' seconds by <a target="_blank" href="https://github.com/Dolibarr/dolibarr/blob/develop/dev/tools/apstats.php">apstats</a></span>'."\n";
+$html .= '<span class="opacitymedium">Generated on '.$currentDate.' in '.($timeend - $timestart).' seconds by <a target="_blank" href="https://github.com/ZionOne/ZionOne/blob/develop/dev/tools/apstats.php">apstats</a></span>'."\n";
 $html .= '</header>'."\n";
 
 
@@ -642,7 +642,7 @@ $html .= <<<END
 <a href="https://next.ossinsight.io/widgets/official/analyze-repo-loc-per-month?repo_id=1957456" target="_blank" style="display: block" align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-loc-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=dark" width="721" height="auto">
-<img alt="Lines of Code Changes of Dolibarr/dolibarr" src="https://next.ossinsight.io/widgets/official/analyze-repo-loc-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=light" width="721" height="auto">
+<img alt="Lines of Code Changes of ZionOne/ZionOne" src="https://next.ossinsight.io/widgets/official/analyze-repo-loc-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=light" width="721" height="auto">
 </picture>
 </a>
 
@@ -667,7 +667,7 @@ $html .= <<<END
 <a href="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=1957456" target="_blank" style="display: block" align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=dark" width="721" height="auto">
-<img alt="Pushes and Commits of Dolibarr/dolibarr" src="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=light" width="721" height="auto">
+<img alt="Pushes and Commits of ZionOne/ZionOne" src="https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=light" width="721" height="auto">
 </picture>
 </a>
 
@@ -679,7 +679,7 @@ $html .= <<<END
 <a href="https://next.ossinsight.io/widgets/official/analyze-repo-pull-requests-size-per-month?repo_id=1957456" target="_blank" style="display: block" align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-pull-requests-size-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=dark" width="721" height="auto">
-    <img alt="Pull Request Size of Dolibarr/dolibarr" src="https://next.ossinsight.io/widgets/official/analyze-repo-pull-requests-size-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=light" width="721" height="auto">
+    <img alt="Pull Request Size of ZionOne/ZionOne" src="https://next.ossinsight.io/widgets/official/analyze-repo-pull-requests-size-per-month/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=light" width="721" height="auto">
   </picture>
 </a>
 
@@ -703,7 +703,7 @@ $html .= '<div class="boxallwidth">'."\n";
 $html .= <<<END
 <center><br>Thumbs of most active contributors<br>
 <br>
-<a href="https://github.com/Dolibarr/dolibarr/graphs/contributors"><img src="https://opencollective.com/dolibarr/contributors.svg?width=890&button=false" alt="Dolibarr" data-canonical-src="https://opencollective.com/dolibarr/contributors.svg?width=890&amp;button=false" style="max-width: 100%;"></a>
+<a href="https://github.com/ZionOne/ZionOne/graphs/contributors"><img src="https://opencollective.com/ZionOne/contributors.svg?width=890&button=false" alt="ZionOne" data-canonical-src="https://opencollective.com/ZionOne/contributors.svg?width=890&amp;button=false" style="max-width: 100%;"></a>
 </center>
 <br>
 END;
@@ -715,7 +715,7 @@ $html .= <<<END
 <a href="https://next.ossinsight.io/widgets/official/compose-contributors?repo_id=1957456&limit=200" target="_blank" style="display: block" align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-contributors/thumbnail.png?repo_id=1957456&limit=200&image_size=auto&color_scheme=dark" width="655" height="auto">
-<img alt="Contributors of Dolibarr/dolibarr" src="https://next.ossinsight.io/widgets/official/compose-contributors/thumbnail.png?repo_id=1957456&limit=200&image_size=auto&color_scheme=light" width="655" height="auto">
+<img alt="Contributors of ZionOne/ZionOne" src="https://next.ossinsight.io/widgets/official/compose-contributors/thumbnail.png?repo_id=1957456&limit=200&image_size=auto&color_scheme=light" width="655" height="auto">
 </picture>
 </a>
 
@@ -730,7 +730,7 @@ $html .= <<<END
 <a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history?repo_id=1957456" target="_blank" style="display: block" align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=dark" width="721" height="auto">
-<img alt="Star History of Dolibarr/dolibarr" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=light" width="721" height="auto">
+<img alt="Star History of ZionOne/ZionOne" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=1957456&image_size=auto&color_scheme=light" width="721" height="auto">
 </picture>
 </a>
 
@@ -841,13 +841,13 @@ $html .= '<h2><span class="fas fa-code pictofixedwidth"></span>'.$title_security
 $html .= '<div class="boxallwidth">'."\n";
 $html .= '<div class="div-table-responsive">'."\n";
 $html .= '<table class="list_technical_debt centpercent">'."\n";
-$html .= '<tr class="trgroup"><td>Commit ID</td><td>Date</td><td style="white-space: nowrap">Reported on<br>Yogosha</td><td style="white-space: nowrap">Reported on<br>GIT</td><td style="white-space: nowrap"><a href="https://www.cve.org/CVERecord/SearchResults?query=dolibarr">Reported on<br>CVE</a></td><td>Title</td><td>Branch of fix</td></tr>'."\n";
+$html .= '<tr class="trgroup"><td>Commit ID</td><td>Date</td><td style="white-space: nowrap">Reported on<br>Yogosha</td><td style="white-space: nowrap">Reported on<br>GIT</td><td style="white-space: nowrap"><a href="https://www.cve.org/CVERecord/SearchResults?query=ZionOne">Reported on<br>CVE</a></td><td>Title</td><td>Branch of fix</td></tr>'."\n";
 foreach ($arrayofalerts as $key => $alert) {
 	$cve = '';
 	$yogosha = empty($alert['issueidyogosha']) ? '' : $alert['issueidyogosha'];
-	$arrayofalerts[$key]['url_commit'] = 'https://github.com/Dolibarr/dolibarr/commit/'.$alert['commitid'];
+	$arrayofalerts[$key]['url_commit'] = 'https://github.com/ZionOne/ZionOne/commit/'.$alert['commitid'];
 	if (!empty($alert['issueid'])) {
-		$arrayofalerts[$key]['url_issue'] = 'https://github.com/Dolibarr/dolibarr/issues/'.$alert['issueid'];
+		$arrayofalerts[$key]['url_issue'] = 'https://github.com/ZionOne/ZionOne/issues/'.$alert['issueid'];
 	}
 	if (!empty($alert['issueidcve'])) {
 		$cve = preg_replace('/\s+/', '-', trim($alert['issueidcve']));
@@ -868,8 +868,8 @@ foreach ($arrayofalerts as $key => $alert) {
 	if (!empty($alert['commitidbis'])) {
 		$html .= ' <div class="more inline"><span class="seeothercommit badge">+</span><div class="morediv hidden">';
 		foreach ($alert['commitidbis'] as $tmpcommitidbis) {
-			$html .= '<a target="_blank" href="https://github.com/Dolibarr/dolibarr/commit/'.$tmpcommitidbis.'">'.dol_trunc($tmpcommitidbis, 8).'</a><br>';
-			$arrayofalerts[$key]['description'] .= "\n<br>".'Commit ID: <a href="https://github.com/Dolibarr/dolibarr/commit/'.$tmpcommitidbis.'">'.dol_trunc($tmpcommitidbis, 8).'</a>';
+			$html .= '<a target="_blank" href="https://github.com/ZionOne/ZionOne/commit/'.$tmpcommitidbis.'">'.dol_trunc($tmpcommitidbis, 8).'</a><br>';
+			$arrayofalerts[$key]['description'] .= "\n<br>".'Commit ID: <a href="https://github.com/ZionOne/ZionOne/commit/'.$tmpcommitidbis.'">'.dol_trunc($tmpcommitidbis, 8).'</a>';
 		}
 		$html .= '</div></div>';
 	}
@@ -954,19 +954,19 @@ if ($fh) {
 	fwrite($fh, '<channel>'."\n");
 	fwrite($fh, '<title>' . htmlspecialchars($title_security) . '</title>'."\n");
 	fwrite($fh, '<description>' . htmlspecialchars("Feed of the latest security reports on the project") . '</description>'."\n");
-	//fwrite($fh, '<atom:link href="https://cti.dolibarr.org/index-security.rss" rel="self" type="application/rss+xml" />'."\n");
+	//fwrite($fh, '<atom:link href="https://cti.ZionOne.org/index-security.rss" rel="self" type="application/rss+xml" />'."\n");
 	fwrite($fh, '<language>en-US</language>'."\n");
 	fwrite($fh, '<lastBuildDate>'.date('r').'</lastBuildDate>'."\n");
 	/*
 	<lastBuildDate>Mon, 29 Apr 2024 11:33:54 +0000</lastBuildDate>
-	<atom:link href="https://cti.dolibarr.org/security-index.rss" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cti.ZionOne.org/security-index.rss" rel="self" type="application/rss+xml" />
 	*/
 	if ($url_site) {
 		fwrite($fh, '<link>' . htmlspecialchars($url_site) . '</link>'."\n");
 	}
 	// Image
 	fwrite($fh, '<image>'."\n");
-	fwrite($fh, '<url>https://www.dolibarr.org/medias/image/www.dolibarr.org/badge-openssf.png</url>'."\n");
+	fwrite($fh, '<url>https://www.ZionOne.org/medias/image/www.ZionOne.org/badge-openssf.png</url>'."\n");
 	fwrite($fh, '<title>' . htmlspecialchars($title_security) . '</title>'."\n");
 	if ($url_site) {
 		fwrite($fh, '<link>' . htmlspecialchars($url_site) . '</link>'."\n");
@@ -974,7 +974,7 @@ if ($fh) {
 	fwrite($fh, '</image>'."\n");
 
 	foreach ($arrayofalerts as $alert) {
-		$alert['url_commit'] = 'https://github.com/Dolibarr/dolibarr/commit/'.$alert['commitid'];
+		$alert['url_commit'] = 'https://github.com/ZionOne/ZionOne/commit/'.$alert['commitid'];
 
 		fwrite($fh, '<item>'."\n");
 		fwrite($fh, '<title>' . htmlspecialchars($alert['title']) . '</title>'."\n");

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Atsiskaitymas | Mokėjimas
 TaxModuleSetupToModifyRules=Eiti į <a href="%s"> Mokesčių modulio nustatymus</a>pakeisti skaičiavimo taisykles
 TaxModuleSetupToModifyRulesLT=Norėdami modifikuoti skaičiavimo taisykles, eikite į <a href="%s">Įmonės nustatymai</a>

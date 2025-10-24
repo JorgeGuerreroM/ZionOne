@@ -45,7 +45,7 @@ class modIncoterm extends DolibarrModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Dolibarr for list of used modules id).
+		// Use here a free id (See in Home -> System information -> ZionOne for list of used modules id).
 		$this->numero = 62000;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'incoterm';
@@ -54,7 +54,7 @@ class modIncoterm extends DolibarrModules
 		$this->family = "srm";
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Incoterm management";
-		$this->version = 'dolibarr';
+		$this->version = 'ZionOne';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'incoterm';
@@ -70,7 +70,7 @@ class modIncoterm extends DolibarrModules
 		$this->requiredby = array(); // List of module ids to disable if this one is disabled
 		$this->conflictwith = array(); // List of module class names as string this module is in conflict with
 		$this->phpmin = array(7, 0); // Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(3, 0); // Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(3, 0); // Minimum version of ZionOne required by module
 		$this->langfiles = array("incoterm");
 
 		$this->const = array(

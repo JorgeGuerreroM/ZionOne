@@ -29,7 +29,7 @@
  *  \brief      Setup to admin supplier invoices
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/pdf.lib.php';
@@ -147,7 +147,7 @@ if ($action == 'specimen') {  // For invoices
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('INVOICE_SUPPLIER_ADDON_PDF') == "$value") {
-			dolibarr_del_const($db, 'INVOICE_SUPPLIER_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'INVOICE_SUPPLIER_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'setdoc') {
@@ -164,7 +164,7 @@ if ($action == 'specimen') {  // For invoices
 		$ret = addDocumentModel($value, $type, $label, $scandir);
 	}
 } elseif ($action == 'unsetdoc') {
-	dolibarr_del_const($db, "INVOICE_SUPPLIER_ADDON_PDF", $conf->entity);
+	zionone_del_const($db, "INVOICE_SUPPLIER_ADDON_PDF", $conf->entity);
 }
 
 if ($action == 'setmod') {

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ticket
+# ZionOne language file - Source file is en_US - ticket
 Permission56005=Vea los tickets de todos los cliente/proveedor (no es efectivo para usuarios externos, siempre se limita al cliente/proveedor del que dependen)
 TicketDictType=Ticket - Tipos
 TicketDictSeverity=Ticket - Gravedad
@@ -29,7 +29,7 @@ ShowTicket=Ver Ticket
 CloseTicket=Cerrar | Resolver
 ConfirmCloseAticket=Confirmar el cierre del Ticket
 TicketMessageMailIntroText=Hola,<br>Una nueva respuesta ha sido agregada a un ticket que   sigue. Aquí está el mensaje:<br>
-TicketMessageMailIntroHelpAdmin=Este texto se insertará antes la respuesta al responder a un ticket de Dolibarr
+TicketMessageMailIntroHelpAdmin=Este texto se insertará antes la respuesta al responder a un ticket de ZionOne
 TicketMessageHelp=Solo este texto se guardará en la lista de mensajes en la tarjeta de Tickets.
 TicketTimeToRead=Tiempo transcurrido antes de leer
 TicketContacts=Ticket de contactos

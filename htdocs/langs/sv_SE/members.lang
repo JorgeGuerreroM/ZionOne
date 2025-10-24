@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Medlemsområde
 MemberCard=Medlemskort
 SubscriptionCard=Abonnemangskort
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Förteckning över bekräftades, offentliga medlemm
 ErrorThisMemberIsNotPublic=Denna medlem är inte offentlig
 ErrorMemberIsAlreadyLinkedToThisThirdParty=En annan ledamot (namn: <b>%s,</b> login: <b>%s)</b> är redan kopplad till en tredje part <b>%s.</b> Ta bort denna länk först, eftersom en tredje part inte kan kopplas till endast en ledamot (och vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Av säkerhetsskäl måste du beviljas behörighet att redigera alla användare att kunna koppla en medlem till en användare som inte är din.
-SetLinkToUser=Koppla till en Dolibarr användare
-SetLinkToThirdParty=Koppla till en Dolibarr tredje part
+SetLinkToUser=Koppla till en ZionOne användare
+SetLinkToThirdParty=Koppla till en ZionOne tredje part
 MemberCountersArePublic=Räknare för giltiga medlemmar är offentliga
 MembersCards=Generering av kort för medlemmar
 MembersList=Förteckning över medlemmar
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Är du säker på att du vill ta bort detta bidrag?
 Filehtpasswd=htpasswd fil
 ValidateMember=Bekräfta en medlem
 ConfirmValidateMember=Är du säker på att du vill bekräfta den här medlemmen?
-FollowingLinksArePublic=Följande länkar är öppna sidor som inte skyddas av något Dolibarr-tillstånd. De är inte formaterade sidor, som ett exempel som visar hur man listar medlemmarnas databas.
+FollowingLinksArePublic=Följande länkar är öppna sidor som inte skyddas av något ZionOne-tillstånd. De är inte formaterade sidor, som ett exempel som visar hur man listar medlemmarnas databas.
 PublicMemberList=Offentliga medlemslista
 BlankSubscriptionForm=Offentlig självregistreringsblankett
-BlankSubscriptionFormDesc=Dolibarr kan ge dig en allmän webbadress / hemsida för att tillåta externa besökare att be om att prenumerera på stiftelsen. Om en online betalningsmodul är aktiverad kan en betalningsblankett också automatiskt tillhandahållas.
+BlankSubscriptionFormDesc=ZionOne kan ge dig en allmän webbadress / hemsida för att tillåta externa besökare att be om att prenumerera på stiftelsen. Om en online betalningsmodul är aktiverad kan en betalningsblankett också automatiskt tillhandahållas.
 EnablePublicSubscriptionForm=Aktivera den offentliga webbplatsen med självformulär
 ForceMemberType=Tvinga medlemstypen
 ExportDataset_member_1=Medlemmar och bidrag

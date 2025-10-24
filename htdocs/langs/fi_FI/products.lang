@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Tuote nro.
 ProductLabel=Tuotenimi
 ProductLabelTranslated=Käännetty tuotenimike
@@ -299,7 +299,7 @@ MinSupplierPrice=Minimi ostohinta
 MinCustomerPrice=Minimi myyntihinta
 NoDynamicPrice=Ei dynaamista hintaa
 DynamicPriceConfiguration=Dynaaminen hintakonfiguraatio
-DynamicPriceDesc=Voit määrittää matemaattisia kaavoja myynti tai osto -hintojen laskemiseksi. Tällaisissa kaavoissa voidaan käyttää kaikkia matemaattisia operaattoreita, joitain vakioita ja muuttujia. Tässä voit määrittää muuttujat, joita haluat käyttää. Jos muuttuja tarvitsee automaattisen päivityksen, voit määrittää ulkoisen URL-osoitteen, jotta Dolibarr voi päivittää arvon automaattisesti.
+DynamicPriceDesc=Voit määrittää matemaattisia kaavoja myynti tai osto -hintojen laskemiseksi. Tällaisissa kaavoissa voidaan käyttää kaikkia matemaattisia operaattoreita, joitain vakioita ja muuttujia. Tässä voit määrittää muuttujat, joita haluat käyttää. Jos muuttuja tarvitsee automaattisen päivityksen, voit määrittää ulkoisen URL-osoitteen, jotta ZionOne voi päivittää arvon automaattisesti.
 AddVariable=Lisää muuttuja
 AddUpdater=Lisää Updater
 GlobalVariables=Globaalit muuttujat
@@ -387,7 +387,7 @@ NewProductAttribute=Uusi attribuutti
 NewProductAttributeValue=Uuden attribuutin arvo
 ErrorCreatingProductAttributeValue=Attribuutin arvon luomisessa tapahtui virhe. Se voi johtua siitä, että kyseisellä viitteellä on jo olemassa arvo
 ProductCombinationGeneratorWarning=Jos jatkat, kaikki aiemmat POISTETAAN ennen uusien varianttien luomista. Olemassa olevat arvot päivitetään uusilla arvoilla
-TooMuchCombinationsWarning=Useiden muunnelmien luominen voi johtaa korkeaan suorittimen ja muistin käyttöön, eikä Dolibarr pysty luomaan niitä. Vaihtoehto "%s" voi auttaa vähentämään muistin käyttöä.
+TooMuchCombinationsWarning=Useiden muunnelmien luominen voi johtaa korkeaan suorittimen ja muistin käyttöön, eikä ZionOne pysty luomaan niitä. Vaihtoehto "%s" voi auttaa vähentämään muistin käyttöä.
 DoNotRemovePreviousCombinations=Älä poista aikaisempia variantteja
 UsePercentageVariations=Käytä prosentuaalisia vaihteluita
 PercentageVariation=Prosentuaalinen vaihtelu

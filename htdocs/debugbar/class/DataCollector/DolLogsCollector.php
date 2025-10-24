@@ -130,8 +130,8 @@ class DolLogsCollector extends MessagesCollector
 	 */
 	public function getLogsFile()
 	{
-		// default dolibarr log file
-		$path = DOL_DATA_ROOT.'/dolibarr.log';
+		// default ZionOne log file
+		$path = DOL_DATA_ROOT.'/ZionOne.log';
 		return $path;
 	}
 

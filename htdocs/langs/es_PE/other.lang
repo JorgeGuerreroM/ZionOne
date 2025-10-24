@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 ExternalSiteSetup=Configurar enlace al sitio web externo
 ExternalSiteModuleNotComplete=El modulo Sitio Web Externo no esta configurado apropiadamente
 ExampleMyMenuEntry=Mi entrada al menú
@@ -11,4 +11,4 @@ NoBookmarks =Marcador no definido
 OpenANewWindow =Abrir en una pestaña nueva
 ReplaceWindow =Reemplazar pestaña actual
 ShowBookmark =Mostrar marcador
-SubscribeToFoundation=Ayuda al proyecto Dolibarr, suscríbete a la fundación
+SubscribeToFoundation=Ayuda al proyecto ZionOne, suscríbete a la fundación

@@ -32,7 +32,7 @@
  *		\brief      Page of project referrers
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/projet/class/project.class.php';
 require_once DOL_DOCUMENT_ROOT.'/projet/class/task.class.php';
@@ -982,7 +982,7 @@ foreach ($listofreferent as $key => $value) {
 					}
 					$total_ttc_by_line = price2num($total_ht_by_line * (1 + ((float) $defaultvat / 100)), 'MT');
 				} elseif ($key == 'loan') {
-					$total_ttc_by_line = $total_ht_by_line; // For loan there is actually no taxe managed in Dolibarr
+					$total_ttc_by_line = $total_ht_by_line; // For loan there is actually no taxe managed in ZionOne
 				} else {
 					$total_ttc_by_line = $element->total_ttc;
 				}

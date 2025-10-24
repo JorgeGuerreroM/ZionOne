@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe 模組設定
-StripeDesc=提供您的合作方一個使用 <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> 信用卡/金融卡付款的線上付款頁面。可用於一般臨時付款，或與 Dolibarr 對應對象(發票、訂單…)相關的付款。
+StripeDesc=提供您的合作方一個使用 <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> 信用卡/金融卡付款的線上付款頁面。可用於一般臨時付款，或與 ZionOne 對應對象(發票、訂單…)相關的付款。
 StripeOrCBDoPayment=使用信用卡或 Stripe 付款
-FollowingUrlAreAvailableToMakePayments=以下 URL 可用於向合作方提供 Dolibarr 對象的付款頁面
+FollowingUrlAreAvailableToMakePayments=以下 URL 可用於向合作方提供 ZionOne 對象的付款頁面
 PaymentForm=付款表單
 WelcomeOnPaymentPage=歡迎使用我們的線上付款服務
 ThisScreenAllowsYouToPay=此頁面允許您向 %s 進行線上付款。
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=提供任意金額(無關聯對象)%s �
 ToOfferALinkForOnlinePaymentOnMemberSubscription=提供會員訂閱 %s 線上付款頁面的 URL
 ToOfferALinkForOnlinePaymentOnDonation=提供捐款 %s 線上付款頁面的 URL
 YouCanAddTagOnUrl=您也可於 URL 加上參數 <b>&tag=value</b> 作為付款備註標籤(僅在付款未關聯對象時為必填)。對於無對象的付款 URL，亦可加參數 <strong>&noidempotency=1</strong> 以允許同一連結多次使用(部分付款方式限制每不同連結僅可付款一次，除非加入此參數)。
-YouCanEmbedOnWebsite=若要將付款頁面整合至 Dolibarr 網站，可加入參數：<b>&ws=website_ref</b>。<br>此外，網站中須建立兩個頁面 <b>paymentok</b> 與 <b>paymentko</b> 用於付款成功或失敗後的重新導向。
+YouCanEmbedOnWebsite=若要將付款頁面整合至 ZionOne 網站，可加入參數：<b>&ws=website_ref</b>。<br>此外，網站中須建立兩個頁面 <b>paymentok</b> 與 <b>paymentko</b> 用於付款成功或失敗後的重新導向。
 SetupStripeToHavePaymentCreatedAutomatically=請於 Stripe 中設定 URL <b>%s</b> 以在 Stripe 驗證完成後自動建立付款紀錄。
 AccountParameter=帳戶參數
 UsageParameter=使用參數

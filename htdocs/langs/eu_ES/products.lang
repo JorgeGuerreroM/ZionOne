@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Produktuaren erreferentzia
 ProductLabel=Produktuaren etiketa
 ProductLabelTranslated=Produktuaren etiketa itzulia
@@ -299,7 +299,7 @@ MinSupplierPrice=Erosketa prezio minimoa
 MinCustomerPrice=Gutxieneko salmenta prezioa
 NoDynamicPrice=Prezio dinamikorik ez
 DynamicPriceConfiguration=Prezioen konfigurazio dinamikoa
-DynamicPriceDesc=Bezeroen edo Saltzaileen prezioak kalkulatzeko formula matematikoak defini ditzakezu. Formula horiek operadore matematiko guztiak, konstante batzuk eta aldagaiak erabil ditzakete. Hemen defini ditzakezu erabili nahi dituzun aldagaiak. Aldagaiak automatikoki eguneratzea behar badu, kanpoko URLa defini dezakezu Dolibarr-ek balioa automatikoki eguneratzeko aukera izan dezan.
+DynamicPriceDesc=Bezeroen edo Saltzaileen prezioak kalkulatzeko formula matematikoak defini ditzakezu. Formula horiek operadore matematiko guztiak, konstante batzuk eta aldagaiak erabil ditzakete. Hemen defini ditzakezu erabili nahi dituzun aldagaiak. Aldagaiak automatikoki eguneratzea behar badu, kanpoko URLa defini dezakezu ZionOne-ek balioa automatikoki eguneratzeko aukera izan dezan.
 AddVariable=Gehitu aldagaia
 AddUpdater=Gehitu eguneratzailea
 GlobalVariables=Aldagai globalak
@@ -387,7 +387,7 @@ NewProductAttribute=Atributu berria
 NewProductAttributeValue=Atributu-balio berria
 ErrorCreatingProductAttributeValue=Errore bat gertatu da atributuaren balioa sortzean. Baliteke erreferentzia horrekin dagoeneko balio bat egotea.
 ProductCombinationGeneratorWarning=Jarraitzen baduzu, aldaera berriak sortu aurretik, aurreko guztiak EZABATUKO dira. Daudenak balio berriekin eguneratuko dira.
-TooMuchCombinationsWarning=Aldaera asko sortzeak CPU eta memoria erabilera handia ekar dezake eta Dolibarr-ek ezin izango ditu horiek sortu. "%s" aukera gaitzeak memoria erabilera murrizten lagun dezake.
+TooMuchCombinationsWarning=Aldaera asko sortzeak CPU eta memoria erabilera handia ekar dezake eta ZionOne-ek ezin izango ditu horiek sortu. "%s" aukera gaitzeak memoria erabilera murrizten lagun dezake.
 DoNotRemovePreviousCombinations=Ez kendu aurreko aldaerak
 UsePercentageVariations=Erabili ehuneko aldaerak
 PercentageVariation=Ehuneko aldakuntza

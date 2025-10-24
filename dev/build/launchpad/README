@@ -38,33 +38,33 @@ If you want to build or test package locally:
     sudo pbuilder create [--distribution sid|squeeze]
 
 
-# Push/declare Dolibarr sources to Launchpad
+# Push/declare ZionOne sources to Launchpad
 #----------------------------------
-- From Launchpad project (https://launchpad.net/dolibarr), register a series:
+- From Launchpad project (https://launchpad.net/ZionOne), register a series:
     Call it 'trunk' or 'stable'
     Use branch (dev):
-    https://launchpad.net/~eldy/dolibarr/develop
-    https://launchpad.net/~eldy/dolibarr/stable
+    https://launchpad.net/~eldy/ZionOne/develop
+    https://launchpad.net/~eldy/ZionOne/stable
     or
     Use URL pattern (stable):
-    For stable: http://www.dolibarr.org/files/lastbuild/package_debian-ubuntu/dolibarr_x.z.*.tar.gz
+    For stable: http://www.ZionOne.org/files/lastbuild/package_debian-ubuntu/dolibarr_x.z.*.tar.gz
 
 - For Dev, you can also add link series to GIT HEAD.
 - For stable, you can init from command line
-	cd bzr/dolibarr-stable
+	cd bzr/ZionOne-stable
     bzr init
     bzr add
     bzr commit -m "Init"
-    bzr push lp:~yourlogin/dolibarr/stable
+    bzr push lp:~yourlogin/ZionOne/stable
 
-- List of series are visible here: https://launchpad.net/dolibarr/+series
+- List of series are visible here: https://launchpad.net/ZionOne/+series
 
-# To update Dolibarr into launchpad (when remote repository for sources already exists)
+# To update ZionOne into launchpad (when remote repository for sources already exists)
 #----------------------------------
 	# create local repository
 	cd bzr
-	bzr branch lp:~yourlogin/dolibarr/[develop|stable] dolibarr-[dev|stable]
-    cd dolibarr-[dev|stable]
+	bzr branch lp:~yourlogin/ZionOne/[develop|stable] ZionOne-[dev|stable]
+    cd ZionOne-[dev|stable]
     # Update
     bzr update
 	-- Update files here: Remove all (except .bzr dir) and overwrite --
@@ -109,27 +109,27 @@ If you want to build or test package locally:
 
 # Define a recipe into launchpad (a rule to build packages into a PPA)
 #----------------------------------
-- Create a file dolibarr-[beta|stable].recipe with content
+- Create a file ZionOne-[beta|stable].recipe with content
     cd bzr
-    vi dolibarr-[beta|stable].recipe
+    vi ZionOne-[beta|stable].recipe
     	For beta/dev:
 	    # bzr-builder format 0.3 deb-version {debupstream}-0~{revno}
-		lp:dolibarr
+		lp:ZionOne
 		merge packaging lp:~yourlogin/+junk/debian-dev
     	For stable:
 	    # bzr-builder format 0.3 deb-version {debupstream}-2~{revno}
-		lp:dolibarr/stable
+		lp:ZionOne/stable
 		merge packaging lp:~yourlogin/+junk/debian-stable
 - Run command
     cd bzr
-    bzr dailydeb dolibarr-[beta|stable].recipe working-dir
-  This will create a directory "working-dir" with dolibarr sources and will add sources from ~yourlogin/+junk/debian-[dev|stable]
+    bzr dailydeb ZionOne-[beta|stable].recipe working-dir
+  This will create a directory "working-dir" with ZionOne sources and will add sources from ~yourlogin/+junk/debian-[dev|stable]
 - Test package sources
     sudo pbuilder build <working-dir>/<project>_<version>.dsc
 
 List of recipes created
-https://code.launchpad.net/~eldy/+recipe/dolibarr-dev
-https://code.launchpad.net/~eldy/+recipe/dolibarr-stable
+https://code.launchpad.net/~eldy/+recipe/ZionOne-dev
+https://code.launchpad.net/~eldy/+recipe/ZionOne-stable
 
 
 # To get/download package from PPA:
@@ -139,16 +139,16 @@ https://code.launchpad.net/~eldy/+recipe/dolibarr-stable
 > gpg --keyserver keyserver.ubuntu.com --recv-key A38BF8FD
 > sudo apt-key add ~/.gnupg/pubring.gpg
 
-- Add Dolibarr Launchpad repository to your system setup by adding the two lines to /etc/apt/sources.list
+- Add ZionOne Launchpad repository to your system setup by adding the two lines to /etc/apt/sources.list
 For the development snapshot version:
-deb http://ppa.launchpad.net/yourlogin/dolibarr-dev/ubuntu precise main
-deb-src http://ppa.launchpad.net/yourlogin/dolibarr-dev/ubuntu precise main
+deb http://ppa.launchpad.net/yourlogin/ZionOne-dev/ubuntu precise main
+deb-src http://ppa.launchpad.net/yourlogin/ZionOne-dev/ubuntu precise main
 For the stable version:
-deb http://ppa.launchpad.net/yourlogin/dolibarr-stable/ubuntu precise main
-deb-src http://ppa.launchpad.net/yourlogin/dolibarr-stable/ubuntu precise main
+deb http://ppa.launchpad.net/yourlogin/ZionOne-stable/ubuntu precise main
+deb-src http://ppa.launchpad.net/yourlogin/ZionOne-stable/ubuntu precise main
 
 - Update your package cache:
 > apt-get update
 
-- Install Dolibarr:
-> apt-get install dolibarr
+- Install ZionOne:
+> apt-get install ZionOne

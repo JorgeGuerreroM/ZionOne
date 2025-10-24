@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# ZionOne language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -44,8 +44,8 @@ ErrorNoRequestInError=Ninguna solicitud por error
 ErrorServiceUnavailableTryLater=Servicio no disponible en este momento. Vuelva a intentarlo más tarde.
 ErrorDuplicateField=Valor duplicado en un campo único
 ErrorSomeErrorWereFoundRollbackIsDone=Se encontraron algunos errores. Los cambios se han revertido.
-ErrorConfigParameterNotDefined=El parámetro <b> %s </b> no está definido en el archivo de configuración de Dolibarr <b> conf.php </b>.
-ErrorCantLoadUserFromDolibarrDatabase=No se pudo encontrar el usuario <b> %s </b> en la base de datos de Dolibarr.
+ErrorConfigParameterNotDefined=El parámetro <b> %s </b> no está definido en el archivo de configuración de ZionOne <b> conf.php </b>.
+ErrorCantLoadUserFromZionOneDatabase=No se pudo encontrar el usuario <b> %s </b> en la base de datos de ZionOne.
 ErrorNoVATRateDefinedForSellerCountry=Error, no se han definido tasas de IVA para el país '%s'.
 ErrorNoSocialContributionForSellerCountry=Error, no se definió ningún tipo de impuestos sociales/fiscales para el país '%s'.
 ErrorFailedToSaveFile=Error, no se pudo guardar el archivo.
@@ -68,7 +68,7 @@ NbOfEntries=Numero de entradas
 GoToWikiHelpPage=Lea la ayuda en línea (se necesita acceso a Internet)
 GoToHelpPage=Leer la ayuda
 LevelOfFeature=Nivel de características
-DolibarrInHttpAuthenticationSoPasswordUseless=El modo de autenticación de Dolibarr se establece en <b> %s </b> en el archivo de configuración <b> conf.php </b>. <br> Esto significa que la base de datos de contraseñas es externa a Dolibarr, por lo que cambiar este campo puede no tener efecto.
+ZionOneInHttpAuthenticationSoPasswordUseless=El modo de autenticación de ZionOne se establece en <b> %s </b> en el archivo de configuración <b> conf.php </b>. <br> Esto significa que la base de datos de contraseñas es externa a ZionOne, por lo que cambiar este campo puede no tener efecto.
 Undefined=Indefinido
 PasswordForgotten=¿Contraseña olvidada?
 SeeAbove=Véase más arriba
@@ -82,11 +82,11 @@ DatabaseTypeManager=Tipo de base de datos
 RequestLastAccessInError=Información para el último error de solicitud de acceso a la base de datos
 ReturnCodeLastAccessInError=Código de respuesta para el último error de solicitud de acceso a la base de datos
 InformationLastAccessInError=Información para el último error de solicitud de acceso a la base de datos
-YouCanSetOptionDolibarrMainProdToZero=Puede leer el archivo de registro o establecer la opción $dolibarr_main_prod en '0' en su archivo de configuración para obtener más información.
-InformationToHelpDiagnose=Esta información puede ser útil para fines de diagnóstico (puede establecer la opción $dolibarr_main_prod en '1' para ocultar información confidencial)
+YouCanSetOptionZionOneMainProdToZero=Puede leer el archivo de registro o establecer la opción $ZionOne_main_prod en '0' en su archivo de configuración para obtener más información.
+InformationToHelpDiagnose=Esta información puede ser útil para fines de diagnóstico (puede establecer la opción $ZionOne_main_prod en '1' para ocultar información confidencial)
 TechnicalID=Identificación técnica
 LineID=Identificación de línea
-PrecisionUnitIsLimitedToXDecimals=Dolibarr se configuró para limitar la precisión de los precios unitarios a <b> %s </b> decimales.
+PrecisionUnitIsLimitedToXDecimals=ZionOne se configuró para limitar la precisión de los precios unitarios a <b> %s </b> decimales.
 DoTest=Prueba
 WarningYouHaveAtLeastOneTaskLate=Advertencia, tiene al menos un elemento que ha excedido el tiempo de tolerancia.
 yes=Sí
@@ -280,7 +280,7 @@ FilterOnInto=Criterios de búsqueda ' <strong> %s </strong> ' en campos %s
 RemoveFilter=Quitar filtro
 ChartGenerated=Gráfico generado
 GeneratedOn=Construir sobre %s
-DolibarrWorkBoard=Artículos abiertos
+ZionOneWorkBoard=Artículos abiertos
 NoOpenedElementToProcess=Ningún elemento abierto para procesar
 NotYetAvailable=No disponible aún
 Categories=Etiquetas/categorías
@@ -412,7 +412,7 @@ Documents=Archivos vinculados
 UploadDisabled=Subir deshabilitado
 MenuAgendaGoogle=agenda de google
 MenuTaxesAndSpecialExpenses=Impuestos | gastos especiales
-ThisLimitIsDefinedInSetup=Límite Dolibarr (Menú inicio-configuración-seguridad): %s Kb, Límite PHP: %s Kb
+ThisLimitIsDefinedInSetup=Límite ZionOne (Menú inicio-configuración-seguridad): %s Kb, Límite PHP: %s Kb
 NoFileFound=No se han subido documentos
 CurrentTheme=tema actual
 CurrentMenuManager=Administrador de menú actual
@@ -429,7 +429,7 @@ DocumentModelStandardPDF=Plantilla PDF estándar
 PrintContentArea=Mostrar página para imprimir el área de contenido principal
 MenuManager=Administrador de menús
 WarningYouAreInMaintenanceMode=Advertencia, está en modo de mantenimiento: solo el inicio de sesión <b> %s </b> puede usar la aplicación en este modo.
-CoreErrorMessage=Disculpe, ocurrió un error. Comuníquese con el administrador de su sistema para verificar los registros o deshabilite $dolibarr_main_prod=1 para obtener más información.
+CoreErrorMessage=Disculpe, ocurrió un error. Comuníquese con el administrador de su sistema para verificar los registros o deshabilite $ZionOne_main_prod=1 para obtener más información.
 FieldsWithAreMandatory=Los campos con <b> %s </b> son obligatorios
 FieldsWithIsForPublic=Los campos con <b> %s </b> se muestran en la lista pública de miembros. Si no desea esto, desmarque la casilla "público".
 AccordingToGeoIPDatabase=(según conversión GeoIP)
@@ -510,7 +510,7 @@ NotAllExportedMovementsCouldBeRecordedAsExported=No todos los movimientos export
 Miscellaneous=Misceláneas
 GroupBy=Agrupar por...
 ViewSubAccountList=Ver libro mayor de subcuentas
-SomeTranslationAreUncomplete=Algunos de los idiomas ofrecidos pueden estar traducidos solo parcialmente o pueden contener errores. Ayude a corregir su idioma registrándose en <a href="https://transifex.com/projects/p/dolibarr/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/dolibarr/ </a> para agregar sus mejoras.
+SomeTranslationAreUncomplete=Algunos de los idiomas ofrecidos pueden estar traducidos solo parcialmente o pueden contener errores. Ayude a corregir su idioma registrándose en <a href="https://transifex.com/projects/p/ZionOne/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/ZionOne/ </a> para agregar sus mejoras.
 PublicDownloadLinkDesc=Solo se requiere el enlace para descargar el archivo.
 PrivateDownloadLinkDesc=Debe iniciar sesión y necesita permisos para ver o descargar el archivo.
 DownloadDocument=Descargar documento

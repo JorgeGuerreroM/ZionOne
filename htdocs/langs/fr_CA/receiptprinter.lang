@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receiptprinter
+# ZionOne language file - Source file is en_US - receiptprinter
 PrinterAdded=L'imprimante %s a ajouté
 PrinterUpdated=Imprimante %s mise à jour
 PrinterDeleted=Imprimante %s supprimé

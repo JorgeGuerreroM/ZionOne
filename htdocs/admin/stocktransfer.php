@@ -25,7 +25,7 @@
  * \brief   StockTransfer setup page.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 // Libraries
@@ -134,7 +134,7 @@ if ($action == 'updateMask') {
 	if ($ret > 0) {
 		$constforval = strtoupper($tmpobjectkey).'_ADDON_PDF';
 		if (getDolGlobalString($constforval) == "$value") {
-			dolibarr_del_const($db, $constforval, $conf->entity);
+			zionone_del_const($db, $constforval, $conf->entity);
 		}
 	}
 } elseif ($action == 'setdoc') { // Set default model

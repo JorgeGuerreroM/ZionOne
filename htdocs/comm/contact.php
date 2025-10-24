@@ -26,7 +26,7 @@
  *      \brief      Liste des contacts
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 /**

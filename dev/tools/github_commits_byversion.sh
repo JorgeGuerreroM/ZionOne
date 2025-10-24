@@ -11,14 +11,14 @@ echo "Copy script into /tmp/github_commits_byversion.sh"
 cp "$0" /tmp/github_commits_perversion.sh
 
 TEMP_DIR=/tmp/git
-DOL_GIT="$TEMP_DIR/dolibarr"
+DOL_GIT="$TEMP_DIR/ZionOne"
 if ! git rev-parse ; then
 	echo "Delete $TEMP_DIR"
 	rm -fr "$TEMP_DIR"
 	echo "Create '$TEMP_DIR' and cd to it"
 	mkdir "$TEMP_DIR"
 	cd "$TEMP_DIR" || exit
-	git clone https://github.com/Dolibarr/dolibarr.git
+	git clone https://github.com/ZionOne/ZionOne.git
 	cd "${DOL_GIT}" || exit
 else
 	if [ -r "${DOL_GIT}" ] ; then

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=פרטי הקשר שלך נרשמו. אנחנו נחזור אליך בקרוב...
 ContactUsDesc=טופס זה מאפשר לך לשלוח לנו הודעה ליצירת קשר ראשון.
 ErrorCompanyNameAlreadyExists=שם החברה %s כבר קיים. בחר אחד אחר.

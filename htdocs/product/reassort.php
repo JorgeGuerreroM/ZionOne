@@ -28,7 +28,7 @@
  *  \brief      Page to list stocks
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/product/class/product.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formother.class.php';
@@ -85,7 +85,7 @@ if (GETPOSTISSET('catid')) {
 	$search_categ = GETPOSTINT('search_categ');
 }
 
-// Get object canvas (By default, this is not defined, so standard usage of dolibarr)
+// Get object canvas (By default, this is not defined, so standard usage of ZionOne)
 $canvas = GETPOST("canvas");
 $objcanvas = null;
 if (!empty($canvas)) {

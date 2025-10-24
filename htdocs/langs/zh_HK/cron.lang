@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = 查看預定工作
 Permission23102 = 創建 / 更新 預定工作
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=禁用
 CronTaskInactive=該工作已禁用（未安排）
 CronId=ID
 CronClassFile=帶類的文件名
-CronModuleHelp=Dolibarr 模組目錄的名稱（也適用於外部 Dolibarr 模組）。 <BR> 例如呼叫 Dolibarr Product 物件 /htdocs/<u>product</u>/class/product.class.php 的 fetch 方法，module 的值為<br><i>product</i>
+CronModuleHelp=ZionOne 模組目錄的名稱（也適用於外部 ZionOne 模組）。 <BR> 例如呼叫 ZionOne Product 物件 /htdocs/<u>product</u>/class/product.class.php 的 fetch 方法，module 的值為<br><i>product</i>
 CronClassFileHelp=要載入的相對路徑和檔案名稱（路徑相對於 Web 伺服器根目錄）。 <BR> 例如呼叫Dolibarr Product物件htdocs/product/class/<u>product.class.php</u>的fetch方法，類別檔案名稱值為<br><i>product/class/產品.class.php </i>
-CronObjectHelp=要加載的對象名稱。 <BR>  例如調用 Dolibarr Product 對象 /htdocs/product/class/product.class.php 的 fetch 方法，類文件名的值為 <br>  <i> 產品</i>
-CronMethodHelp=要啟動的對象方法。 <BR>  例如調用 Dolibarr Product 對象 /htdocs/product/class/product.class.php 的 fetch 方法，method 的值為 <br>  <i> 獲取</i>
-CronArgsHelp=方法參數。 <BR> 例如呼叫 Dolibarr Product 物件 /htdocs/product/class/product.class.php 的 fetch 方法，參數值可以是<br><i>0, ProductRef</i>
+CronObjectHelp=要加載的對象名稱。 <BR>  例如調用 ZionOne Product 對象 /htdocs/product/class/product.class.php 的 fetch 方法，類文件名的值為 <br>  <i> 產品</i>
+CronMethodHelp=要啟動的對象方法。 <BR>  例如調用 ZionOne Product 對象 /htdocs/product/class/product.class.php 的 fetch 方法，method 的值為 <br>  <i> 獲取</i>
+CronArgsHelp=方法參數。 <BR> 例如呼叫 ZionOne Product 物件 /htdocs/product/class/product.class.php 的 fetch 方法，參數值可以是<br><i>0, ProductRef</i>
 CronCommandHelp=要執行的系統命令行。
 CronCreateJob=建立新的定時工作
 CronFrom=從

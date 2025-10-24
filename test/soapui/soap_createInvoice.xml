@@ -1,6 +1,6 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
    <SOAP-ENV:Body>
-      <ns1160:createInvoice xmlns:ns1160="http://www.Dolibarr.org/ns/">
+      <ns1160:createInvoice xmlns:ns1160="http://www.ZionOne.org/ns/">
          <authentication>
             <dolibarrkey xsi:type="xsd:string">dolibarrkey</dolibarrkey>
             <sourceapplication xsi:type="xsd:string">PRESTASHOP</sourceapplication>

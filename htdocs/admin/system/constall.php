@@ -21,10 +21,10 @@
 
 /**
  *		\file 		htdocs/admin/system/constall.php
- *		\brief      Page to show all Dolibarr setup (config file and database constants)
+ *		\brief      Page to show all ZionOne setup (config file and database constants)
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 /**

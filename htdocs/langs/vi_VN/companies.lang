@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Chi tiết liên lạc của bạn đã được ghi lại. Chúng tôi sẽ lấy lại cho bạn sớm...
 ContactUsDesc=Biểu mẫu này cho phép bạn gửi tin nhắn cho chúng tôi về lần liên hệ đầu tiên.
 ErrorCompanyNameAlreadyExists=Tên công ty %s đã tồn tại. Chọn tên khác khác.

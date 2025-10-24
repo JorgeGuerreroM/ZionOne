@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Liczba dokumentów w katalogu
 ECMSection=Katalog
 ECMSectionManual=Katalog manualny
@@ -16,7 +16,7 @@ ECMNbOfSubDir=ilość podkatalogów
 ECMNbOfFilesInSubDir=Liczba plików w podkatalogach
 ECMCreationUser=Kreator
 ECMArea=Obszar DMS / ECM
-ECMAreaDesc=Obszar DMS / ECM (system zarządzania dokumentami / elektroniczne zarządzanie treścią) umożliwia szybkie zapisywanie, udostępnianie i wyszukiwanie wszelkiego rodzaju dokumentów w Dolibarr.
+ECMAreaDesc=Obszar DMS / ECM (system zarządzania dokumentami / elektroniczne zarządzanie treścią) umożliwia szybkie zapisywanie, udostępnianie i wyszukiwanie wszelkiego rodzaju dokumentów w ZionOne.
 ECMAreaDesc2a=* W katalogach ręcznych można zapisywać dokumenty przy dowolnej organizacji struktury drzewiastej.
 ECMAreaDesc2b=* Automatyczne katalogi wypełniają się automatycznie podczas dodawania dokumentów ze strony elementu.
 ECMAreaDesc3=* Katalogi publiczne to pliki w podkatalogu <b>/medias</b> katalogu dokumentów, które mogą być odczytywane przez każdego w internecie bez konieczności logowania i jawnego udostępniania pliku. Służy on do przechowywania plików graficznych na przykład do modułu poczty e-mail lub witryny internetowej.

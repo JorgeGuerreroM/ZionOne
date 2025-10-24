@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=產品參考號
 ProductLabel=產品標籤
 ProductLabelTranslated=售價不可低於此產品的最低允許價格（%s 不含稅）。如果您輸入的折扣過大，也可能會出現此訊息。
@@ -299,7 +299,7 @@ MinSupplierPrice=最低採購價格
 MinCustomerPrice=最低銷售價格
 NoDynamicPrice=無動態價格
 DynamicPriceConfiguration=動態價格配置
-DynamicPriceDesc=您可以定義數學公式來計算客戶或供應商價格。這些公式可以使用所有數學運算符、一些常數和變數。您可以在此處定義要使用的變數。如果變數需要自動更新，您可以定義外部 URL 以允許 Dolibarr 自動更新值。
+DynamicPriceDesc=您可以定義數學公式來計算客戶或供應商價格。這些公式可以使用所有數學運算符、一些常數和變數。您可以在此處定義要使用的變數。如果變數需要自動更新，您可以定義外部 URL 以允許 ZionOne 自動更新值。
 AddVariable=添加變數
 AddUpdater=添加更新器
 GlobalVariables=全域變數
@@ -387,7 +387,7 @@ NewProductAttribute=新屬性
 NewProductAttributeValue=新屬性值
 ErrorCreatingProductAttributeValue=創建屬性值時出錯。可能是因為已存在具有該參考值的屬性值。
 ProductCombinationGeneratorWarning=如果您繼續，在生成新變體之前，所有以前的變體都將被刪除。 已經存在的變體將使用新值更新。
-TooMuchCombinationsWarning=生成大量變體可能會導致 CPU 和内存使用率過高，並且 Dolibarr 可能無法創建它們。 啟用選項 "%s" 可能有助於減少内存使用量。
+TooMuchCombinationsWarning=生成大量變體可能會導致 CPU 和内存使用率過高，並且 ZionOne 可能無法創建它們。 啟用選項 "%s" 可能有助於減少内存使用量。
 DoNotRemovePreviousCombinations=不要移除之前的變體
 UsePercentageVariations=使用百分比變化
 PercentageVariation=百分比變化

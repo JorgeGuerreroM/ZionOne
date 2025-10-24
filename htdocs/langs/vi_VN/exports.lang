@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Nhập khẩu / Xuất khẩu
 ExportsArea=Xuất dữ liệu
 ImportArea=Nhập dữ liệu
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Chọn định dạng tệp để sử dụng làm đ
 ChooseFileToImport=Tải lên tệp sau đó nhấp vào biểu tượng %s để lựa chọn tệp là tệp nguồn nhập
 SourceFileFormat=Định dạng tệp nguồn
 FieldsInSourceFile=Các trường trong tệp nguồn
-FieldsInTargetDatabase=Các trường mục tiêu trong cơ sở dữ liệu Dolibarr
+FieldsInTargetDatabase=Các trường mục tiêu trong cơ sở dữ liệu ZionOne
 NoFields=Không có trường
 MoveField=Di chuyển số cột trường %s
 ExampleOfImportFile=Example_of_import_file

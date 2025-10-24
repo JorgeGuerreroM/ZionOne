@@ -17,7 +17,7 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/agpl-3.0.html>.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../../main.inc.php';
 
 /**

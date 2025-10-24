@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Configuration du module PayPal
-PaypalDesc=Ce module permet le paiement des clients via <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Cela peut être utilisé pour un paiement ponctuel ou pour un paiement lié à un objet Dolibarr (facture, commande, ...)
+PaypalDesc=Ce module permet le paiement des clients via <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Cela peut être utilisé pour un paiement ponctuel ou pour un paiement lié à un objet ZionOne (facture, commande, ...)
 PaypalOrCBDoPayment=Payer avec PayPal (Carte ou PayPal)
 PaypalDoPayment=Payer avec PayPal
 PAYPAL_API_SANDBOX=Mode test / sandbox

@@ -26,7 +26,7 @@
  *  \brief      Activation page for the subtotals module in the other modules
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT . '/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT . '/core/lib/doleditor.lib.php';

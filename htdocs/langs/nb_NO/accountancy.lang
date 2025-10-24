@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Regnskap
 Accounting=Regnskap
 AccountingAccount=Regnskapskonto
@@ -349,7 +349,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Deaktiver binding og overføring til regnska
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Deaktiver binding og overføring til regnskap ved kjøp (leverandørfakturaer blir ikke tatt med i regnskapet)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Deaktiver binding og overføring til regnskap på utgiftsrapporter (utgiftsrapporter blir ikke tatt med i regnskapet)
 ACCOUNTING_ENABLE_LETTERING=Aktiver bokstavfunksjonen i regnskapet
-ACCOUNTING_ENABLE_LETTERING_DESC=Når dette alternativet er aktivert, kan du definere, på hver regnskapspost, en kode slik at du kan gruppere ulike regnskapsbevegelser sammen. Tidligere, når forskjellige journaler ble administrert uavhengig, var denne funksjonen nødvendig for å gruppere bevegelseslinjer for forskjellige tidsskrifter sammen. Men med Dolibarr-regnskap, er en slik sporingskode, kalt " <b> %s </b> " allerede lagret automatisk, så en automatisk registrering er allerede utført, uten risiko for feil, så denne funksjonen har blitt ubrukelig for vanlig bruk. Manuell registreringsfunksjon er gitt for sluttbrukere som virkelig ikke stoler på datamotoren som overfører data i regnskap.
+ACCOUNTING_ENABLE_LETTERING_DESC=Når dette alternativet er aktivert, kan du definere, på hver regnskapspost, en kode slik at du kan gruppere ulike regnskapsbevegelser sammen. Tidligere, når forskjellige journaler ble administrert uavhengig, var denne funksjonen nødvendig for å gruppere bevegelseslinjer for forskjellige tidsskrifter sammen. Men med ZionOne-regnskap, er en slik sporingskode, kalt " <b> %s </b> " allerede lagret automatisk, så en automatisk registrering er allerede utført, uten risiko for feil, så denne funksjonen har blitt ubrukelig for vanlig bruk. Manuell registreringsfunksjon er gitt for sluttbrukere som virkelig ikke stoler på datamotoren som overfører data i regnskap.
 EnablingThisFeatureIsNotNecessary=Aktivering av denne funksjonen er ikke lenger nødvendig for en streng regnskapsføring.
 ACCOUNTING_ENABLE_AUTOLETTERING=Aktiver automatisk skriving ved overføring til regnskap
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Koden for nummereringen genereres automatisk og inkrementert og ikke valgt av sluttbrukeren

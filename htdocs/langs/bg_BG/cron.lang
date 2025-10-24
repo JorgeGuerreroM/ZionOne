@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Преглед на планирани задачи
 Permission23102 = Създаване / промяна на планирани задачи
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Деактивиране
 CronTaskInactive=Тази задача е деактивирана (не е планирана)
 CronId=Идентификатор
 CronClassFile=Име на файл с клас
-CronModuleHelp=Име на Dolibarr директорията с модули (работи и с външен Dolibarr модул).<BR>Например, за да извикате метода на извличане от Dolibarr продуктов обект /htdocs/<u>product</u>/class/product.class.php, стойността за модула е<br><i>product</i>
-CronClassFileHelp=Относителният път и името на файла за зареждане (пътят е относителен към основната директория на уеб сървъра).<BR>Например, за да извикате метода на извличане на Dolibarr продуктов обект htdocs/product/class/<u>product.class.php</u>, стойността за файлово име на класът е<br><i>product/class/product.class.php</i>
-CronObjectHelp=Името на обекта за зареждане.<BR>Например, за да извикате метода на извличане от Dolibarr продуктов обект /htdocs/product/class/product.class.php, стойността на файловото име на класът е<br><i>Product</i>
-CronMethodHelp=Методът на обекта за стартиране.<BR>Например, за да извикате метода на извличане от Dolibarr продуктов обект /htdocs/product/class/product.class.php, стойността за метода е<br><i>fetch</i>
-CronArgsHelp=Аргументите на метода. <BR> Например за извикване на метода за извличане на обекта на Dolibarr Product /htdocs/product/class/product.class.php, стойността за параметрите може да бъде<br><i>0, ProductRef</i>
+CronModuleHelp=Име на ZionOne директорията с модули (работи и с външен ZionOne модул).<BR>Например, за да извикате метода на извличане от ZionOne продуктов обект /htdocs/<u>product</u>/class/product.class.php, стойността за модула е<br><i>product</i>
+CronClassFileHelp=Относителният път и името на файла за зареждане (пътят е относителен към основната директория на уеб сървъра).<BR>Например, за да извикате метода на извличане на ZionOne продуктов обект htdocs/product/class/<u>product.class.php</u>, стойността за файлово име на класът е<br><i>product/class/product.class.php</i>
+CronObjectHelp=Името на обекта за зареждане.<BR>Например, за да извикате метода на извличане от ZionOne продуктов обект /htdocs/product/class/product.class.php, стойността на файловото име на класът е<br><i>Product</i>
+CronMethodHelp=Методът на обекта за стартиране.<BR>Например, за да извикате метода на извличане от ZionOne продуктов обект /htdocs/product/class/product.class.php, стойността за метода е<br><i>fetch</i>
+CronArgsHelp=Аргументите на метода. <BR> Например за извикване на метода за извличане на обекта на ZionOne Product /htdocs/product/class/product.class.php, стойността за параметрите може да бъде<br><i>0, ProductRef</i>
 CronCommandHelp=Системният команден ред за изпълнение.
 CronCreateJob=Създаване на нова планирана задача
 CronFrom=От

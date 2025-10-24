@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Ütemezett feladat olvasása
 Permission23102 = Ütemezett feladat létrehozása/frissítése
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Letiltás
 CronTaskInactive=Ez a feladat le van tiltva (nincs ütemezve)
 CronId=Id
 CronClassFile=Fájlnév osztállyal
-CronModuleHelp=A Dolibarr modul könyvtárának neve (külső Dolibarr modullal is működik). <BR> Például a Dolibarr Product objektum /htdocs/<u>product</u>/class/product.class.php lekérési metódusának meghívásához a modul értéke<br><i>product</i>
-CronClassFileHelp=A betöltendő relatív elérési út és fájlnév (az elérési út a webszerver gyökérkönyvtárához viszonyítva). <BR> Például a Dolibarr Product objektum htdocs/product/class/<u>product.class.php</u> lekérési metódusának meghívásához az osztályfájlnév értéke:<br><i>product/class/ termék.osztály.php</i>
-CronObjectHelp=A betöltendő objektum neve. <BR> Például a /htdocs/product/class/product.class.php Dolibarr Product objektum lekérési metódusának meghívásához az osztályfájlnév értéke<br><i>Termék</i>
-CronMethodHelp=Az indítandó objektum metódus. <BR> Például a /htdocs/product/class/product.class.php Dolibarr Product objektum lekérési metódusának meghívásához a metódus értéke<br><i>fetch</i>
-CronArgsHelp=A metódus argumentumai. <BR> Például a /htdocs/product/class/product.class.php Dolibarr Product objektum lekérési metódusának meghívásához a paraméterek értéke a következő lehet:<br><i>0, ProductRef</i>
+CronModuleHelp=A ZionOne modul könyvtárának neve (külső ZionOne modullal is működik). <BR> Például a ZionOne Product objektum /htdocs/<u>product</u>/class/product.class.php lekérési metódusának meghívásához a modul értéke<br><i>product</i>
+CronClassFileHelp=A betöltendő relatív elérési út és fájlnév (az elérési út a webszerver gyökérkönyvtárához viszonyítva). <BR> Például a ZionOne Product objektum htdocs/product/class/<u>product.class.php</u> lekérési metódusának meghívásához az osztályfájlnév értéke:<br><i>product/class/ termék.osztály.php</i>
+CronObjectHelp=A betöltendő objektum neve. <BR> Például a /htdocs/product/class/product.class.php ZionOne Product objektum lekérési metódusának meghívásához az osztályfájlnév értéke<br><i>Termék</i>
+CronMethodHelp=Az indítandó objektum metódus. <BR> Például a /htdocs/product/class/product.class.php ZionOne Product objektum lekérési metódusának meghívásához a metódus értéke<br><i>fetch</i>
+CronArgsHelp=A metódus argumentumai. <BR> Például a /htdocs/product/class/product.class.php ZionOne Product objektum lekérési metódusának meghívásához a paraméterek értéke a következő lehet:<br><i>0, ProductRef</i>
 CronCommandHelp=A rendszer végrehajtandó parancssora.
 CronCreateJob=Új ütemezett feladat létrehozása
 CronFrom=Feladó

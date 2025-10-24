@@ -41,7 +41,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php'; // Load $user and permissions
 require '../../core/modules/barcode/doc/tcpdfbarcode.modules.php';
 

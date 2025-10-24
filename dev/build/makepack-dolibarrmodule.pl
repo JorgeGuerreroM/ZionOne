@@ -66,7 +66,7 @@ if (! $TEMP || ! -d $TEMP) {
     sleep 2;
     exit 2;
 }
-$BUILDROOT="$TEMP/dolibarr-buildroot";
+$BUILDROOT="$TEMP/ZionOne-buildroot";
 
 
 my $copyalreadydone=0;
@@ -128,7 +128,7 @@ foreach my $PROJECT (@PROJECTLIST) {
 	    print "Error: can't open conf file makepack-".$PROJECT.".conf\n";
 		print "\n";
 		print "For help on building a module package, see web page\n";
-		print "http://wiki.dolibarr.org/index.php/Module_development#Create_a_package_to_distribute_and_install_your_module\n";
+		print "http://wiki.ZionOne.org/index.php/Module_development#Create_a_package_to_distribute_and_install_your_module\n";
 		print "makepack-dolibarrmodule.pl aborted.\n";
 	    sleep 2;
 	    exit 2;
@@ -176,7 +176,7 @@ foreach my $PROJECT (@PROJECTLIST) {
 
 	# Choose package targets
 	#-----------------------
-	$target="ZIP";    # Dolibarr modules are this format
+	$target="ZIP";    # ZionOne modules are this format
 	$CHOOSEDTARGET{uc($target)}=1;
 
 

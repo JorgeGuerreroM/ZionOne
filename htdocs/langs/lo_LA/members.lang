@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=ພື້ນທີ່ສະມາຊິກ
 MemberCard=ບັດສະມາຊິກ
 SubscriptionCard=ບັດສະັກໃຊ້
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=ລາຍຊື່ສະມາຊິກສາທາ
 ErrorThisMemberIsNotPublic=ສະມາຊິກນີ້ບໍ່ແມ່ນສາທາລະນະ
 ErrorMemberIsAlreadyLinkedToThisThirdParty=ສະມາຊິກອື່ນ (ຊື່: <b>%s</b>, ເຂົ້າສູ່ລະບົບ: <b>%s</b>) ໄດ້ຖືກເຊື່ອມຕໍ່ແລ້ວກັບພາກສ່ວນທີສາມ <b>%s</b>. ເອົາລິ້ງນີ້ອອກກ່ອນ ເພາະວ່າພາກສ່ວນທີສາມບໍ່ສາມາດເຊື່ອມຕໍ່ຫາສະມາຊິກໄດ້ (ແລະໃນທາງກັບກັນ).
 ErrorUserPermissionAllowsToLinksToItselfOnly=ດ້ວຍເຫດຜົນດ້ານຄວາມປອດໄພ, ເຈົ້າຕ້ອງໄດ້ຮັບການອະນຸຍາດໃຫ້ແກ້ໄຂຜູ້ໃຊ້ທຸກຄົນເພື່ອສາມາດເຊື່ອມໂຍງສະມາຊິກກັບຜູ້ໃຊ້ທີ່ບໍ່ແມ່ນຂອງເຈົ້າ.
-SetLinkToUser=ເຊື່ອມຕໍ່ກັບຜູ້ໃຊ້ Dolibarr
-SetLinkToThirdParty=ເຊື່ອມຕໍ່ຫາພາກສ່ວນທີສາມຂອງ Dolibarr
+SetLinkToUser=ເຊື່ອມຕໍ່ກັບຜູ້ໃຊ້ ZionOne
+SetLinkToThirdParty=ເຊື່ອມຕໍ່ຫາພາກສ່ວນທີສາມຂອງ ZionOne
 MemberCountersArePublic=ເຄົາເຕີຂອງສະມາຊິກທີ່ຖືກຕ້ອງແມ່ນສາທາລະນະ
 MembersCards=ການສ້າງບັດໃຫ້ສະມາຊິກ
 MembersList=ລາຍຊື່ສະມາຊິກ
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອ
 Filehtpasswd=ໄຟລ ht htpasswd
 ValidateMember=ກວດສອບສະມາຊິກ
 ConfirmValidateMember=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການກວດສອບສະມາຊິກນີ້?
-FollowingLinksArePublic=ລິ້ງຕໍ່ໄປນີ້ແມ່ນ ໜ້າ ເປີດທີ່ບໍ່ໄດ້ຮັບການປົກປ້ອງໂດຍການອະນຸຍາດ Dolibarr ໃດ. ພວກມັນບໍ່ໄດ້ຖືກຈັດຮູບແບບ ໜ້າ ເວັບ, ສະ ໜອງ ໃຫ້ເປັນຕົວຢ່າງເພື່ອສະແດງວິທີການເຮັດບັນຊີຖານຂໍ້ມູນສະມາຊິກ.
+FollowingLinksArePublic=ລິ້ງຕໍ່ໄປນີ້ແມ່ນ ໜ້າ ເປີດທີ່ບໍ່ໄດ້ຮັບການປົກປ້ອງໂດຍການອະນຸຍາດ ZionOne ໃດ. ພວກມັນບໍ່ໄດ້ຖືກຈັດຮູບແບບ ໜ້າ ເວັບ, ສະ ໜອງ ໃຫ້ເປັນຕົວຢ່າງເພື່ອສະແດງວິທີການເຮັດບັນຊີຖານຂໍ້ມູນສະມາຊິກ.
 PublicMemberList=ລາຍຊື່ສະມາຊິກສາທາລະນະ
 BlankSubscriptionForm=ແບບຟອມລົງທະບຽນຕົນເອງສາທາລະນະ
-BlankSubscriptionFormDesc=Dolibarr ສາມາດສະ ໜອງ URL/ເວັບໄຊທ public ສາທາລະນະໃຫ້ເຈົ້າເພື່ອອະນຸຍາດໃຫ້ນັກທ່ອງທ່ຽວພາຍນອກຖາມເພື່ອສະsubscribeັກໃຊ້ພື້ນຖານ. ຖ້າເປີດໃຊ້ໂມດູນການຊໍາລະເງິນທາງອອນໄລນ,, ແບບຟອມການຊໍາລະອາດຈະຖືກສະ ໜອງ ໃຫ້ໂດຍອັດຕະໂນມັດ.
+BlankSubscriptionFormDesc=ZionOne ສາມາດສະ ໜອງ URL/ເວັບໄຊທ public ສາທາລະນະໃຫ້ເຈົ້າເພື່ອອະນຸຍາດໃຫ້ນັກທ່ອງທ່ຽວພາຍນອກຖາມເພື່ອສະsubscribeັກໃຊ້ພື້ນຖານ. ຖ້າເປີດໃຊ້ໂມດູນການຊໍາລະເງິນທາງອອນໄລນ,, ແບບຟອມການຊໍາລະອາດຈະຖືກສະ ໜອງ ໃຫ້ໂດຍອັດຕະໂນມັດ.
 EnablePublicSubscriptionForm=ເປີດໃຊ້ເວັບໄຊທ public ສາທາລະນະດ້ວຍແບບຟອມສະselfັກໃຊ້ດ້ວຍຕົນເອງ
 ForceMemberType=ບັງຄັບປະເພດສະມາຊິກ
 ExportDataset_member_1=ສະມາຊິກແລະການປະກອບສ່ວນ

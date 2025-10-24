@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Thiết lập mô-đun cổng thanh toán Stripe
-StripeDesc=Cung cấp cho khách hàng của bạn trang thanh toán trực tuyến để thanh toán bằng thẻ tín dụng/thẻ ghi nợ qua <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> . Điều này có thể được sử dụng để cho phép khách hàng của bạn thực hiện thanh toán đặc biệt hoặc thanh toán liên quan đến một đối tượng Dolibarr cụ thể (hóa đơn, đơn đặt hàng, ...)
+StripeDesc=Cung cấp cho khách hàng của bạn trang thanh toán trực tuyến để thanh toán bằng thẻ tín dụng/thẻ ghi nợ qua <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> . Điều này có thể được sử dụng để cho phép khách hàng của bạn thực hiện thanh toán đặc biệt hoặc thanh toán liên quan đến một đối tượng ZionOne cụ thể (hóa đơn, đơn đặt hàng, ...)
 StripeOrCBDoPayment=Thanh toán bằng thẻ tín dụng hoặc Stripe
-FollowingUrlAreAvailableToMakePayments=Các URL sau có sẵn để cung cấp một trang cho khách hàng để thanh toán trên các đối tượng Dolibarr
+FollowingUrlAreAvailableToMakePayments=Các URL sau có sẵn để cung cấp một trang cho khách hàng để thanh toán trên các đối tượng ZionOne
 PaymentForm=Hình thức thanh toán
 WelcomeOnPaymentPage=Chào mừng bạn đến với dịch vụ thanh toán trực tuyến của chúng tôi
 ThisScreenAllowsYouToPay=Màn hình này cho phép bạn thực hiện thanh toán trực tuyến tới %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL để cung cấp trang thanh toán 
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL để cung cấp trang thanh toán trực tuyến %s cho đăng ký thành viên
 ToOfferALinkForOnlinePaymentOnDonation=URL để cung cấp trang thanh toán trực tuyến %s để thanh toán một khoản đóng góp
 YouCanAddTagOnUrl=Bạn cũng có thể thêm tham số url <b>&tag=value</b> vào bất kỳ URL nào trong số các URL đó (chỉ bắt buộc đối với thanh toán không được liên kết với một đối tượng) để thêm thẻ bình luận thanh toán của riêng bạn.<br>Đối với URL của các khoản thanh toán không có đối tượng hiện có, bạn cũng có thể thêm tham số <strong>&noidempotency=1</strong> để cùng một liên kết với cùng một thẻ có thể được sử dụng nhiều lần (một số chế độ thanh toán có thể giới hạn thanh toán thành 1 cho mỗi liên kết khác nhau không có tham số này)
-YouCanEmbedOnWebsite=Nếu bạn muốn tích hợp trang thanh toán vào trang web Dolibarr, bạn có thể bao gồm tham số: <b>&ws=website_ref</b>.<br>Ngoài ra, hai trang có tên <b>paymentok</b> và <b>paymentko</b> phải được tạo trên trang web để nhận được chuyển hướng sau khi thanh toán trực tuyến thành công hoặc không thành công thanh toán.
+YouCanEmbedOnWebsite=Nếu bạn muốn tích hợp trang thanh toán vào trang web ZionOne, bạn có thể bao gồm tham số: <b>&ws=website_ref</b>.<br>Ngoài ra, hai trang có tên <b>paymentok</b> và <b>paymentko</b> phải được tạo trên trang web để nhận được chuyển hướng sau khi thanh toán trực tuyến thành công hoặc không thành công thanh toán.
 SetupStripeToHavePaymentCreatedAutomatically=Thiết lập Stripe của bạn với url <b>%s</b> để thanh toán được tạo tự động khi được xác thực bởi Stripe.
 AccountParameter=Thông số tài khoản
 UsageParameter=Thông số sử dụng
@@ -94,7 +94,7 @@ ExampleOnlyForATBEDEITNLESCustomers=Chỉ dành cho khách hàng từ Áo, Bỉ,
 ListOfSupportedHooksToActivate=Danh sách các hook được hỗ trợ để kích hoạt
 # Paybox
 PayBoxSetup=Thiết lập mô-đun PayBox
-PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
 PayBoxDoPayment=Thanh toán bằng Paybox
 YouWillBeRedirectedOnPayBox=Bạn sẽ được chuyển hướng trên trang Paybox được bảo mật để nhập thông tin thẻ tín dụng của bạn
 SetupPayBoxToHavePaymentCreatedAutomatically=Thiết lập Paybox của bạn với url <b>%s</b> để thanh toán được tạo tự động khi được xác thực bởi Paybox.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Password for user <b>%s</b> on the domain <b>%s</b> must be changed.
 UserMustChangePassNextLogon=ተጠቃሚው ጎራ ላይ የይለፍ ቃል መቀየር አለበት %s
 LDAPInformationsForThisContact=ለዚህ እውቂያ በኤልዲኤፒ ዳታቤዝ ውስጥ ያለ መረጃ
@@ -22,7 +22,7 @@ GroupSynchronized=ቡድን ተመሳስሏል።
 MemberSynchronized=አባል ተመሳስሏል።
 MemberTypeSynchronized=የአባል አይነት ተመሳስሏል።
 ContactSynchronized=እውቂያ ተመሳስሏል።
-ForceSynchronize=Dolibarr -> LDAPን ማመሳሰል ያስገድድ
+ForceSynchronize=ZionOne -> LDAPን ማመሳሰል ያስገድድ
 ErrorFailedToReadLDAP=የኤልዲኤፒ ዳታቤዝ ማንበብ አልተሳካም። የኤልዲኤፒ ሞጁል ማዋቀር እና የውሂብ ጎታ ተደራሽነትን ያረጋግጡ።
 PasswordOfUserInLDAP=በኤልዲኤፒ ውስጥ የተጠቃሚ ይለፍ ቃል
 LDAPPasswordHashType=የይለፍ ቃል ሃሽ አይነት

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=conto (dalla tabella di conto) utilizzato da default per "utenti " su stipendi
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=La carta conto dedicata definita sulla scheda utente verrà utilizzata per sottoconto Contabilità. Questo verrà utilizzato per il valore libro contabile generale, ma anche come valore default di sottoconto Contabilità se non c'è utente dedicato Contabilità conto è definito su utente.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Codice contabile predefinito per i pagamenti degli stipendi

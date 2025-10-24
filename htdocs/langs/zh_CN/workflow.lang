@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=工作流模块设置
 WorkflowDesc=该模块提供了一些自动操作。默认情况下，工作流是开启的（您可以按想要的顺序执行操作），但在这里您可以激活一些自动操作。
 ThereIsNoWorkflowToModify=已激活的模块没有可用的工作流修改。

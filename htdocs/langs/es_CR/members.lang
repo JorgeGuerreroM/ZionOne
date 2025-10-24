@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Area de miembros
 MemberCard=Ficha de miembro
 SubscriptionCard=Ficha de la suscripción
@@ -7,7 +7,7 @@ ThirdpartyNotLinkedToMember=Tercero no vinculado a un miembro
 FundationMembers=Miembros de la fundación
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Otro miembro (nombre: <b> %s </b>, acceso: <b> %s </b>) ya está vinculado a un tercero <b>%s</b>. Primero elimine este enlace porque un tercero no puede estar vinculado solo a un miembro (y viceversa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Por motivos de seguridad, debe tener permisos para editar todos los usuarios para poder vincular a un miembro a un usuario que no sea suyo.
-SetLinkToThirdParty=Vincular a un tercedo de Dolibarr
+SetLinkToThirdParty=Vincular a un tercedo de ZionOne
 MembersCards=Generar cartas de presentación para todos los miembros.
 MembersList=Lista de miembros
 MembersListToValid=Lista de miembros en estado borrador (a ser validados)
@@ -50,7 +50,7 @@ ConfirmDeleteSubscription=¿Está seguro de querer eliminar esta contribución?
 Filehtpasswd=archivo htpasswd
 ConfirmValidateMember=¿Estás seguro que quieres validar a este miembro?
 PublicMemberList=Lista pública de miembros
-BlankSubscriptionFormDesc=Dolibarr puede proporcionarte una URL/sitio web público para permitir que los visitantes externos puedan solicitar suscribirse a la fundación. Si se habilita un módulo de pago en línea, también se puede proporcionar automáticamente un formulario para este fin.
+BlankSubscriptionFormDesc=ZionOne puede proporcionarte una URL/sitio web público para permitir que los visitantes externos puedan solicitar suscribirse a la fundación. Si se habilita un módulo de pago en línea, también se puede proporcionar automáticamente un formulario para este fin.
 EnablePublicSubscriptionForm=Habilite el sitio público con el formulario de auto suscripción
 LastMembersModified=Últimos %smiembros modificados
 SendingAnEMailToMember=Enviar correo con información al miembro

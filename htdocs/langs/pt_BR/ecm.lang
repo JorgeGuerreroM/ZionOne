@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=N°. de documentos na pasta
 ECMSection=Pasta
 ECMSectionManual=Pasta manual
@@ -15,7 +15,7 @@ ECMNbOfSubDir=Número de subpastas
 ECMNbOfFilesInSubDir=Numero de arquivos nas subpastas
 ECMCreationUser=Criado por
 ECMArea=Área DMS / ECM
-ECMAreaDesc=A área DMS / ECM (Sistema de Gerenciamento de Documentos / Gerenciamento de Conteúdo Eletrônico) permite salvar, compartilhar e pesquisar rapidamente todos os tipos de documentos no Dolibarr.
+ECMAreaDesc=A área DMS / ECM (Sistema de Gerenciamento de Documentos / Gerenciamento de Conteúdo Eletrônico) permite salvar, compartilhar e pesquisar rapidamente todos os tipos de documentos no ZionOne.
 ECMAreaDesc2a=* Pastas manuais podem ser usados para salvar documentos com uma organização livre da estrutura em árvore.
 ECMAreaDesc2b=* Pastas automáticas são preenchidas automaticamente ao adicionar documentos da página de um elemento.
 ECMAreaDesc3=* Pastas públicas são arquivos na subpasta <b>/medias</b> da pasta de documentos, legíveis por qualquer pessoa na internet, sem necessidade de login e sem compartilhamento explícito. É usado para armazenar arquivos de imagem para envio por e-mail ou para o Módulo de Sites por exemplo.

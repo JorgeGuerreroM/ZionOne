@@ -26,7 +26,7 @@
 
 /**
  *	\file			htdocs/core/lib/functions2.lib.php
- *	\brief			A set of functions for Dolibarr
+ *	\brief			A set of functions for ZionOne
  *					This file contains all rare functions.
  */
 
@@ -308,7 +308,7 @@ function dol_print_object_info($object, $usetable = 0)
 		} else {
 			print ': ';
 		}
-		// user_approve is not defined in Dolibarr code @phan-suppress-next-line PhanUndeclaredProperty
+		// user_approve is not defined in ZionOne code @phan-suppress-next-line PhanUndeclaredProperty
 		if (!empty($object->user_approve) && is_object($object->user_approve)) {
 			if ($object->user_approve->id) {  // @phan-suppress-current-line PhanUndeclaredProperty
 				// @phan-suppress-next-line PhanUndeclaredProperty,PhanPluginUnknownObjectMethodCall
@@ -494,7 +494,7 @@ function dol_print_object_info($object, $usetable = 0)
 			}
 		}
 
-		if (!empty($object->date_rappro)) {	// Note: date_rappro is not found on Dolibarr classes
+		if (!empty($object->date_rappro)) {	// Note: date_rappro is not found on ZionOne classes
 			print ' - ';
 			print '<div class="valignmiddle inline-block">';
 			print dol_print_date($object->date_rappro, 'dayhour', 'tzserver');  // @phan-suppress-current-line PhanUndeclaredProperty
@@ -658,7 +658,7 @@ function isValidVATID($company)
  */
 function clean_url($url, $http = 1)
 {
-	// Fixed by Matelli (see http://matelli.fr/showcases/patch%73-dolibarr/fix-cleaning-url.html)
+	// Fixed by Matelli (see http://matelli.fr/showcases/patch%73-ZionOne/fix-cleaning-url.html)
 	// To include the minus sign in a char class, we must not escape it but put it at the end of the class
 	// Also, there's no need of escape a dot sign in a class
 	$regs = array();
@@ -1698,7 +1698,7 @@ function weight_convert($weight, &$from_unit, $to_unit)
  *	@param	array<string,string|int>	$tab        Array (key=>value) with all parameters to save/update
  *	@return int         		Return integer <0 if KO, >0 if OK
  *
- *	@see		dolibarr_get_const(), dolibarr_set_const(), dolibarr_del_const()
+ *	@see		dolibarr_get_const(), dolibarr_set_const(), zionone_del_const()
  */
 function dol_set_user_param($db, $conf, &$user, $tab)
 {
@@ -1826,9 +1826,9 @@ function version_db()
 }
 
 /**
- * 	Return Dolibarr version
+ * 	Return ZionOne version
  *
- * 	@return		string			Dolibarr version
+ * 	@return		string			ZionOne version
  *  @see		versiondolibarrarray(), versioncompare()
  */
 function version_dolibarr()
@@ -3074,7 +3074,7 @@ function csvClean($newvalue, $charset = '', $separator = '')
 	$newvalue = $langs->convToOutputCharset($newvalue, 'UTF-8', $charset); // newvalue is now encoded into $charset
 
 
-	// Rule Dolibarr: No HTML
+	// Rule ZionOne: No HTML
 	//print $charset.' '.$newvalue."\n";
 	//$newvalue=dol_string_nohtmltag($newvalue,0,$charset);
 	$newvalue = dol_htmlcleanlastbr($newvalue);

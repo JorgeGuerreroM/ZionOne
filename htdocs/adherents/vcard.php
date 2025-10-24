@@ -26,7 +26,7 @@
  *		\brief      Vcard tab of a member
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/adherents/class/adherent.class.php';
 require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
@@ -93,9 +93,9 @@ if ($object->socid) {
 
 // We create VCard
 $v = new vCard();
-$v->setProdId('Dolibarr '.DOL_VERSION);
+$v->setProdId('ZionOne '.DOL_VERSION);
 
-$v->setUid('DOLIBARR-ADHERENTID-'.$object->id);
+$v->setUid('ZionOne-ADHERENTID-'.$object->id);
 $v->setName($object->lastname, $object->firstname, "", (string) $object->civility, "");
 $v->setFormattedName($object->getFullName($langs, 1));
 

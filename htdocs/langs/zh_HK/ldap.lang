@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=用戶密碼 <b>%s</b> 在域上 <b>%s</b> 必須改變。
 UserMustChangePassNextLogon=用戶必須更改域密碼 %s
 LDAPInformationsForThisContact=LDAP 數據庫中此聯繫人的信息
@@ -22,7 +22,7 @@ GroupSynchronized=群組同步
 MemberSynchronized=會員已同步
 MemberTypeSynchronized=成員類型已同步
 ContactSynchronized=聯絡人已同步
-ForceSynchronize=強制同步 Dolibarr -> LDAP
+ForceSynchronize=強制同步 ZionOne -> LDAP
 ErrorFailedToReadLDAP=無法讀取 LDAP 數據庫。檢查 LDAP 模塊設置和數據庫可訪問性。
 PasswordOfUserInLDAP=LDAP 用戶密碼
 LDAPPasswordHashType=密碼hash類型

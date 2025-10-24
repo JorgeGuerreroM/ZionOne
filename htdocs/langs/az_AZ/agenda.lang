@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=şəxsiyyət hadisəsi
 Actions=Hadisələr
 Agenda=Gündəlik
@@ -29,9 +29,9 @@ ViewWeek=Həftə görünüşü
 ViewPerUser=İstifadəçi baxışına görə
 ViewPerType=Növə görə görünüş
 AutoActions= Avtomatik doldurma
-AgendaAutoActionDesc= Burada Dolibarr-ın Agenda-da avtomatik olaraq yaratmasını istədiyiniz hadisələri təyin edə bilərsiniz. Heç bir şey yoxlanılmazsa, yalnız əl hərəkətləri qeydlərə daxil ediləcək və Gündəlikdə göstəriləcək. Obyektlərdə görülən biznes əməliyyatlarının avtomatik izlənməsi (təsdiqləmə, statusun dəyişdirilməsi) yadda saxlanmayacaq.
-AgendaSetupOtherDesc= Bu səhifə Dolibarr hadisələrinizin xarici təqvimə (Thunderbird, Google Calendar və s...) ixracına icazə vermək üçün seçimlər təqdim edir.
-AgendaExtSitesDesc=Bu səhifə təqvimlərin xarici mənbələrini elan etməyə imkan verir ki, onların hadisələri Dolibarr gündəliyinə daxil olsun.
+AgendaAutoActionDesc= Burada ZionOne-ın Agenda-da avtomatik olaraq yaratmasını istədiyiniz hadisələri təyin edə bilərsiniz. Heç bir şey yoxlanılmazsa, yalnız əl hərəkətləri qeydlərə daxil ediləcək və Gündəlikdə göstəriləcək. Obyektlərdə görülən biznes əməliyyatlarının avtomatik izlənməsi (təsdiqləmə, statusun dəyişdirilməsi) yadda saxlanmayacaq.
+AgendaSetupOtherDesc= Bu səhifə ZionOne hadisələrinizin xarici təqvimə (Thunderbird, Google Calendar və s...) ixracına icazə vermək üçün seçimlər təqdim edir.
+AgendaExtSitesDesc=Bu səhifə təqvimlərin xarici mənbələrini elan etməyə imkan verir ki, onların hadisələri ZionOne gündəliyinə daxil olsun.
 ActionsEvents=Dolibarrın avtomatik olaraq gündəmdə hərəkət yaradacağı hadisələr
 EventRemindersByEmailNotEnabled=E-poçt vasitəsilə tədbir xatırlatmaları %s modul quraşdırmasında aktiv edilmədi.
 ##### Agenda event labels #####

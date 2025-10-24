@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - printing
+# ZionOne language file - Source file is en_US - printing
 PrintingSetup=Configuración del sistema de impresión de un clic
 PrintingDriverDesc=Variables de configuración del controlador de impresión.
 ListDrivers=Lista de conductores

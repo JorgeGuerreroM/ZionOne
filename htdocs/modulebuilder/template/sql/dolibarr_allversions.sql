@@ -1,3 +1,3 @@
 --
--- Script run when an upgrade of Dolibarr is done. Whatever is the Dolibarr version.
+-- Script run when an upgrade of ZionOne is done. Whatever is the ZionOne version.
 --

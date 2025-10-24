@@ -27,7 +27,7 @@
 /**
  *       \file       htdocs/install/fileconf.php
  *       \ingroup    install
- *       \brief      Ask all information required to build Dolibarr htdocs/conf/conf.php file (will be written to disk on next page step1)
+ *       \brief      Ask all information required to build ZionOne htdocs/conf/conf.php file (will be written to disk on next page step1)
  */
 
 include_once 'inc.php';
@@ -85,7 +85,7 @@ $langs->loadLangs(array("install", "errors", "admin"));
 
 dolibarr_install_syslog("- fileconf: entering fileconf.php page");
 
-// You can force preselected values of the config step of Dolibarr by adding a file
+// You can force preselected values of the config step of ZionOne by adding a file
 // install.forced.php into directory htdocs/install (This is the case with some wizard
 // installer like DoliWamp, DoliMamp or DoliBuntu).
 // We first init "forced values" to nothing.
@@ -125,8 +125,8 @@ if (!isset($force_install_databaserootpass)) {
 // Now we load forced values from install.forced.php file.
 $useforcedwizard = false;
 $forcedfile = "./install.forced.php";
-if ($conffile == "/etc/dolibarr/conf.php") {
-	$forcedfile = "/etc/dolibarr/install.forced.php"; // Must be after inc.php
+if ($conffile == "/etc/ZionOne/conf.php") {
+	$forcedfile = "/etc/ZionOne/install.forced.php"; // Must be after inc.php
 }
 if (@file_exists($forcedfile)) {
 	$useforcedwizard = true;
@@ -207,8 +207,8 @@ if (!empty($force_install_noedit)) {
 		print $langs->trans("Examples").":<br>";
 		?>
 		<ul>
-			<li>/var/www/dolibarr/htdocs</li>
-			<li>C:/wwwroot/dolibarr/htdocs</li>
+			<li>/var/www/ZionOne/htdocs</li>
+			<li>C:/wwwroot/ZionOne/htdocs</li>
 		</ul>
 		</td>
 	</tr>
@@ -241,8 +241,8 @@ if (!empty($force_install_noedit)) {
 		print $langs->trans("Examples").":<br>";
 		?>
 		<ul>
-			<li>/var/lib/dolibarr/documents</li>
-			<li>C:/My Documents/dolibarr/documents</li>
+			<li>/var/lib/ZionOne/documents</li>
+			<li>C:/My Documents/ZionOne/documents</li>
 		</ul>
 		</td>
 	</tr>
@@ -271,7 +271,7 @@ if (!empty($force_install_noedit)) {
 		<td class="comment"><?php print $langs->trans("Examples").":<br>"; ?>
 		<ul>
 			<li>http://localhost/</li>
-			<li>http://www.myserver.com:8180/dolibarr</li>
+			<li>http://www.myserver.com:8180/ZionOne</li>
 			<li>https://www.myvirtualfordolibarr.com/</li>
 		</ul>
 		</td>
@@ -302,7 +302,7 @@ if (!empty($force_install_noedit)) {
 	}
 	?>
 
-	<!-- Dolibarr database -->
+	<!-- ZionOne database -->
 
 	<tr>
 		<td colspan="3" class="label"><br>
@@ -316,7 +316,7 @@ if (!empty($force_install_noedit)) {
 			<input type="text"
 				   id="db_name"
 				   name="db_name"
-				   value="<?php echo (!empty($dolibarr_main_db_name)) ? $dolibarr_main_db_name : ($force_install_database ? $force_install_database : 'dolibarr'); ?>"
+				   value="<?php echo (!empty($dolibarr_main_db_name)) ? $dolibarr_main_db_name : ($force_install_database ? $force_install_database : 'ZionOne'); ?>"
 				<?php if (($force_install_noedit == 2 || $force_install_noedit == 3) && $force_install_database !== null) {
 					print ' disabled';
 				} ?>

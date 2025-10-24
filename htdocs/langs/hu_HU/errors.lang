@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nincs hiba, véglegesítjük
@@ -53,12 +53,12 @@ ErrorWrongDate=Nem helyes a dátum!
 ErrorFailedToWriteInDir=Nem sikerült írni a %s könyvtárba
 ErrorFailedToBuildArchive=Nem sikerült létrehozni a(z) %s archív fájlt
 ErrorFoundBadEmailInFile=Hibás e-mail szintaxist találtunk a fájl %s sorához (példa: %s, email=%s)
-ErrorUserCannotBeDelete=A felhasználó nem törölhető. Talán a Dolibarr entitásokhoz kapcsolódik.
+ErrorUserCannotBeDelete=A felhasználó nem törölhető. Talán a ZionOne entitásokhoz kapcsolódik.
 ErrorFieldsRequired=Néhány kötelező mező üresen maradt.
 ErrorSubjectIsRequired=Az e-mail tárgya kötelező
 ErrorInAddAttachmentsImageBaseOnMedia=Hiba történt a képfájlok médiakönyvtárba történő létrehozása során csatolás céljából
 ErrorInAddAttachmentsImageBaseIsSrcData=Hiba történt a képfájlok (adatként találva:) létrehozásakor a csatolt ideiglenes könyvtárba
-ErrorFailedToCreateDir=Nem sikerült létrehozni egy könyvtárat. Ellenőrizze, hogy a webszerver-felhasználó jogosult-e írni a Dolibarr dokumentumok könyvtárába. Ha a <b>safe_mode</b> paraméter engedélyezve van ezen a PHP-n, ellenőrizze, hogy a Dolibarr php fájlok a webszerver felhasználójához (vagy csoportjához) tartoznak-e.
+ErrorFailedToCreateDir=Nem sikerült létrehozni egy könyvtárat. Ellenőrizze, hogy a webszerver-felhasználó jogosult-e írni a ZionOne dokumentumok könyvtárába. Ha a <b>safe_mode</b> paraméter engedélyezve van ezen a PHP-n, ellenőrizze, hogy a ZionOne php fájlok a webszerver felhasználójához (vagy csoportjához) tartoznak-e.
 ErrorNoMailDefinedForThisUser=Nincs levél definiálva ehhez a felhasználóhoz
 ErrorSetupOfEmailsNotComplete=Az e-mailek beállítása nem fejeződött be
 ErrorAccountingClosureSetupNotComplete=A lezárási számlák beállítása nem fejeződött be.
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=A <b>%s</b> mező nem tartalmaz
 ErrorFieldMustHaveXChar=A <b>%s</b> mezőnek legalább %s karakterből kell állnia.
 ErrorNoAccountancyModuleLoaded=Nincs aktiválva könyvelési modul
 ErrorExportDuplicateProfil=Ez a profilnév már létezik ehhez az exportkészlethez.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP egyeztetés nem fejeződött be.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP egyeztetés nem fejeződött be.
 ErrorLDAPMakeManualTest=Egy .ldif fájl jött létre a %s könyvtárban. Próbálja meg manuálisan betölteni a parancssorból, hogy több információhoz jusson a hibákról.
 ErrorCantSaveADoneUserWithZeroPercentage=Nem lehet elmenteni egy műveletet "az állapot nem indult el", ha a "készült" mező is kitöltve van.
 ErrorPleaseTypeBankTransactionReportName=Kérjük, adja meg a bankszámlakivonat nevét, ahol a bejegyzést jelenteni kell (ÉÉÉÉHH vagy ÉÉÉÉHHNN formátum)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s egy másik harmadhoz van hozzárendelve
 ErrorFailedToSendPassword=Nem sikerült elküldeni a jelszót
 ErrorFailedToLoadRSSFile=Nem sikerült lekérni az RSS hírfolyamot. Próbálja meg hozzáadni a MAIN_SIMPLEXMLLOAD_DEBUG állandót, ha a hibaüzenetek nem adnak elegendő információt.
 ErrorForbidden=Hozzáférés megtagadva.<br>Egy letiltott modul oldalához, területéhez vagy szolgáltatásához próbál hozzáférni, vagy anélkül, hogy hitelesített munkamenetben lenne, vagy amely nem engedélyezett a felhasználó számára.
-ErrorForbidden2=Ennek a bejelentkezésnek az engedélyét a Dolibarr rendszergazdája határozhatja meg a %s->%s menüben.
-ErrorForbidden3=Úgy tűnik, hogy a Dolibarr nem hitelesített munkameneten keresztül történik. Tekintse meg a Dolibarr beállítási dokumentációját, hogy megtudja, hogyan kezelheti a hitelesítéseket (htaccess, mod_auth vagy egyéb...).
+ErrorForbidden2=Ennek a bejelentkezésnek az engedélyét a ZionOne rendszergazdája határozhatja meg a %s->%s menüben.
+ErrorForbidden3=Úgy tűnik, hogy a ZionOne nem hitelesített munkameneten keresztül történik. Tekintse meg a ZionOne beállítási dokumentációját, hogy megtudja, hogyan kezelheti a hitelesítéseket (htaccess, mod_auth vagy egyéb...).
 ErrorForbidden4=Megjegyzés: törölje a böngésző cookie-jait, hogy megsemmisítse a meglévő munkameneteket ehhez a bejelentkezéshez.
 ErrorNoImagickReadimage=A Class Imagick nem található ebben a PHP-ben. Nem érhető el előnézet. A rendszergazdák letilthatják ezt a lapot a Beállítás - Megjelenítés menüben.
 ErrorRecordAlreadyExists=Már létezik rekord
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=A webszerver végrehajtásához használt <b>
 ErrorNoActivatedBarcode=Nincs aktivált vonalkód típus
 ErrUnzipFails=Nem sikerült kicsomagolni %s a ZipArchive segítségével
 ErrNoZipEngine=Nincs motor a %s fájl tömörítésére/kicsomagolására ebben a PHP-ben
-ErrorFileMustBeADolibarrPackage=A %s fájlnak Dolibarr zip csomagnak kell lennie
-ErrorModuleFileRequired=Ki kell választania egy Dolibarr modul csomagfájlt
+ErrorFileMustBeADolibarrPackage=A %s fájlnak ZionOne zip csomagnak kell lennie
+ErrorModuleFileRequired=Ki kell választania egy ZionOne modul csomagfájlt
 ErrorPhpCurlNotInstalled=A PHP CURL nincs telepítve, ez elengedhetetlen a Paypallal való beszélgetéshez
 ErrorFailedToAddToMailmanList=Nem sikerült hozzáadni a(z) %s rekordot a(z) %s levelezőlistához vagy a SPIP-bázishoz
 ErrorFailedToRemoveToMailmanList=Nem sikerült eltávolítani a(z) %s rekordot a(z) %s levelezőlistából vagy a SPIP-bázisból
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=A dátumnak nagyobbnak kell lennie a mainál
 ErrorStartDateGreaterEnd=A kezdő dátum nagyobb, mint a befejezés dátuma
 ErrorPaymentModeDefinedToWithoutSetup=A fizetési mód %s típusúra lett állítva, de a Számla modul beállítása nem fejeződött be az ehhez a fizetési módhoz megjelenítendő információk meghatározásához.
 ErrorPHPNeedModule=Hiba, a funkció használatához a PHP-ben telepítve kell lennie a(z) <b>%s</b> modulnak.
-ErrorOpenIDSetupNotComplete=A Dolibarr konfigurációs fájlját úgy állította be, hogy engedélyezze az OpenID hitelesítést, de az OpenID szolgáltatás URL-je nincs megadva %s konstansban
+ErrorOpenIDSetupNotComplete=A ZionOne konfigurációs fájlját úgy állította be, hogy engedélyezze az OpenID hitelesítést, de az OpenID szolgáltatás URL-je nincs megadva %s konstansban
 ErrorWarehouseMustDiffers=A forrás és a cél raktáraknak különbözniük kell
 ErrorBadFormat=Rossz formátum!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Hiba, ez a tag még nem kapcsolódik harmadik félhez. Kapcsolja össze a tagot egy meglévő harmadik féllel, vagy hozzon létre egy új harmadik felet, mielőtt számlás előfizetést hoz létre.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Az új felhasználónak rendelkeznie kell e-mail címme
 ErrorUserClone=Hiba a felhasználói klónozási kategóriákban
 ErrorQtyOrderedLessQtyShipped = A megrendelt mennyiség nem lehet kevesebb a kiszállított mennyiségnél.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Hiba, a vállalat pénznemétől eltérő pénznemben indított bankszámlára történő különféle fizetések létrehozása még nem támogatott.
-ErrorStreamMustBeEnabled=A(z) %s PHP adatfolyam nem érhető el. Ellenőrizd a PHP moduljaidat és a $dolibarr_main_stream_to_disable Dolibarr paramétert.
+ErrorStreamMustBeEnabled=A(z) %s PHP adatfolyam nem érhető el. Ellenőrizd a PHP moduljaidat és a $dolibarr_main_stream_to_disable ZionOne paramétert.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Hiba, különböző számlákat próbálsz kifizetni különböző pénznemekben ugyanazon fizetés keretében.
 ErrorLinkNotFoundWithSharedLink=Hiba, nem található link ezzel a megosztott kulccsal
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Hibás sorszám. A fájloknak legalább 2 sorból kell állniuk (1 sor a címnek és 1 sor az adatoknak).
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Hiba, az ilyen típusú mezők kitöltése kötele
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=A PHP paraméter upload_max_filesize (%s) magasabb, mint a PHP post_max_size (%s) paramétere. Ez nem következetes beállítás.
-WarningPasswordSetWithNoAccount=Jelszó lett beállítva ehhez a taghoz. Felhasználói fiók azonban nem jött létre. Tehát ez a jelszó tárolva van, de nem használható a Dolibarr-ba való bejelentkezéshez. Külső modul/interfész használhatja, de ha nem kell bejelentkezési nevet vagy jelszót megadnia egy taghoz, akkor letilthatja a "Bejelentkezés kezelése minden taghoz" opciót a Tagmodul beállításainál. Ha kezelnie kell a bejelentkezést, de nincs szüksége jelszóra, a figyelmeztetés elkerülése érdekében hagyja üresen ezt a mezőt. Megjegyzés: Az e-mail bejelentkezésként is használható, ha a tag egy felhasználóhoz kapcsolódik.
+WarningPasswordSetWithNoAccount=Jelszó lett beállítva ehhez a taghoz. Felhasználói fiók azonban nem jött létre. Tehát ez a jelszó tárolva van, de nem használható a ZionOne-ba való bejelentkezéshez. Külső modul/interfész használhatja, de ha nem kell bejelentkezési nevet vagy jelszót megadnia egy taghoz, akkor letilthatja a "Bejelentkezés kezelése minden taghoz" opciót a Tagmodul beállításainál. Ha kezelnie kell a bejelentkezést, de nincs szüksége jelszóra, a figyelmeztetés elkerülése érdekében hagyja üresen ezt a mezőt. Megjegyzés: Az e-mail bejelentkezésként is használható, ha a tag egy felhasználóhoz kapcsolódik.
 WarningMandatorySetupNotComplete=Kattintson ide a fő paraméterek beállításához
 WarningEnableYourModulesApplications=Kattintson ide a modulok és alkalmazások engedélyezéséhez
 WarningSafeModeOnCheckExecDir=Figyelem, a PHP <b>safe_mode</b> opciója be van kapcsolva, ezért a parancsot a <b>safe_mode_exec_dir</b> php paraméter által deklarált könyvtárban kell tárolni.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Figyelem, a bankszámla leolvasás
 WarningNoDataTransferedInAccountancyYet=Felhívjuk figyelmét, hogy a számviteli táblában nincsenek adatok. Kérjük, hogy az alkalmazásban rögzített adatait helyezze át a számviteli részlegbe, vagy változtassa meg a számítási módot a könyvelésen kívül rögzített adatok elemzéséhez.
 WarningChangingThisMayBreakStopTaskScheduler=Figyelem, ennek az értéknek a megváltoztatása letilthatja az ütemezőt
 WarningAmountOfFileDiffersFromSumOfLines=Figyelmeztetés, a fájl mérete (%s) eltér a sorok összegétől (%s)
-WarningModuleAffiliatedToAReportedCompany=Figyelem, ezt a modult jelentették a Dolibarr alapítványnak, mivel egy illegális gyakorlatokat alkalmazó vállalat tette közzé (a Dolibarr márka használatára vonatkozó szabályok be nem tartása, az Ön hozzájárulása nélküli adatgyűjtés vagy rosszindulatú programok telepítése).
+WarningModuleAffiliatedToAReportedCompany=Figyelem, ezt a modult jelentették a ZionOne alapítványnak, mivel egy illegális gyakorlatokat alkalmazó vállalat tette közzé (a ZionOne márka használatára vonatkozó szabályok be nem tartása, az Ön hozzájárulása nélküli adatgyűjtés vagy rosszindulatú programok telepítése).
 WarningModuleAffiliatedToAPiratPlatform=Legyen óvatos, amikor gyanús, nem hivatalos platformról, például a %s-ról szerez be modult (fizetős vagy ingyenes)
 
 SwissQrOnlyVIR = A SwissQR számla csak átutalással fizetendő számlákhoz adható hozzá.

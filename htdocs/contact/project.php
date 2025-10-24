@@ -23,7 +23,7 @@
  *  \brief      Page of third party projects
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 /**
  * @var Conf $conf

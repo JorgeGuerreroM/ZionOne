@@ -311,7 +311,7 @@ class Paiement extends CommonObject
 		global $conf, $langs;
 
 		$error = 0;
-		$way = $this->getWay();	// 'dolibarr' to use amount, 'customer' to use foreign multicurrency amount
+		$way = $this->getWay();	// 'ZionOne' to use amount, 'customer' to use foreign multicurrency amount
 
 		$now = dol_now();
 
@@ -320,7 +320,7 @@ class Paiement extends CommonObject
 		$totalamount_converted = 0;
 		$atleastonepaymentnotnull = 0;
 
-		if ($way == 'dolibarr') {	// Payments were entered into the column of main currency
+		if ($way == 'ZionOne') {	// Payments were entered into the column of main currency
 			$amounts = &$this->amounts;
 			$amounts_to_update = &$this->multicurrency_amounts;
 		} else {					// Payments were entered into the column of foreign currency
@@ -341,9 +341,9 @@ class Paiement extends CommonObject
 			$invoice_multicurrency_tx = $tmparray['invoice_multicurrency_tx'];
 			$invoice_multicurrency_code = $tmparray['invoice_multicurrency_code'];
 
-			// $key is id of invoice, $value is amount, $way is 'dolibarr' if amount is in main currency, 'customer' if in foreign currency
+			// $key is id of invoice, $value is amount, $way is 'ZionOne' if amount is in main currency, 'customer' if in foreign currency
 			if ($invoice_multicurrency_tx) {
-				if ($way == 'dolibarr') {
+				if ($way == 'ZionOne') {
 					$value_converted = (float) price2num($value * $invoice_multicurrency_tx, 'MU');
 				} else {
 					$value_converted = (float) price2num($value / $invoice_multicurrency_tx, 'MU');
@@ -448,7 +448,7 @@ class Paiement extends CommonObject
 			$this->ref_ext = '';
 		}
 
-		if ($way == 'dolibarr') {
+		if ($way == 'ZionOne') {
 			$total = $totalamount;
 			$mtotal = $totalamount_converted;
 		} else {
@@ -1332,11 +1332,11 @@ class Paiement extends CommonObject
 	/**
 	 * 	get the right way of payment
 	 *
-	 * 	@return 	string 	'dolibarr' if standard comportment or paid in main currency, 'customer' if payment received from multicurrency inputs
+	 * 	@return 	string 	'ZionOne' if standard comportment or paid in main currency, 'customer' if payment received from multicurrency inputs
 	 */
 	public function getWay()
 	{
-		$way = 'dolibarr';
+		$way = 'ZionOne';
 		if (isModEnabled('multicurrency')) {
 			foreach ($this->multicurrency_amounts as $value) {
 				if (!empty($value)) { // one value found into multicurrency_amounts so payment is in invoice currency

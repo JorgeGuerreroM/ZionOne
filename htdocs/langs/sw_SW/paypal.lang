@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Usanidi wa moduli ya PayPal
-PaypalDesc=Sehemu hii inaruhusu malipo kwa wateja kupitia <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Hii inaweza kutumika kwa malipo ya dharula au kwa malipo yanayohusiana na kitu cha Dolibarr (ankara, agizo, ...)
+PaypalDesc=Sehemu hii inaruhusu malipo kwa wateja kupitia <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Hii inaweza kutumika kwa malipo ya dharula au kwa malipo yanayohusiana na kitu cha ZionOne (ankara, agizo, ...)
 PaypalOrCBDoPayment=Lipa kwa PayPal (Kadi au PayPal)
 PaypalDoPayment=Lipa kwa PayPal
 PAYPAL_API_SANDBOX=Mtihani wa modi/sanduku la mchanga

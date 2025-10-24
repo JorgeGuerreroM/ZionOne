@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=বিলিং | পেমেন্ট
 TaxModuleSetupToModifyRules=গণনার নিয়ম পরিবর্তন করতে <a href="%s">ট্যাক্স মডিউল সেটআপ</a> এ যান
 TaxModuleSetupToModifyRulesLT=গণনার নিয়ম পরিবর্তন করতে <a href="%s">কোম্পানি সেটআপ</a> এ যান

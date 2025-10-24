@@ -19,8 +19,8 @@ body:
   - type: input
     id: environment-version
     attributes:
-      label: Dolibarr Version
-      description: Affected Dolibarr version(s)
+      label: ZionOne Version
+      description: Affected ZionOne version(s)
       placeholder: 19.0, develop, ...
 
   - type: input
@@ -45,4 +45,4 @@ body:
     id: files
     attributes:
       label: Attached files
-      description: Screenshots, screencasts, dolibarr.log, debugging information
+      description: Screenshots, screencasts, ZionOne.log, debugging information

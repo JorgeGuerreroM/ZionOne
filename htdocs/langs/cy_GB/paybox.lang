@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Gosod modiwl PayBox
-PayBoxDesc=Mae'r modiwl hwn yn cynnig tudalennau i ganiatáu taliad ar <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> gan gwsmeriaid. Gellir defnyddio hwn ar gyfer taliad am ddim neu am daliad ar wrthrych penodol Dolibarr (anfoneb, archeb, ...)
+PayBoxDesc=Mae'r modiwl hwn yn cynnig tudalennau i ganiatáu taliad ar <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> gan gwsmeriaid. Gellir defnyddio hwn ar gyfer taliad am ddim neu am daliad ar wrthrych penodol ZionOne (anfoneb, archeb, ...)
 PayBoxDoPayment=Talu gyda Paybox
 YouWillBeRedirectedOnPayBox=Byddwch yn cael eich ailgyfeirio ar dudalen Paybox ddiogel i fewnbynnu gwybodaeth cerdyn credyd i chi
 SetupPayBoxToHavePaymentCreatedAutomatically=Gosodwch eich Blwch Talu gydag url <b> %s </b> i greu taliad yn awtomatig pan gaiff ei ddilysu gan Paybox.

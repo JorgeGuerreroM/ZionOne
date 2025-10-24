@@ -1,10 +1,10 @@
-# Dolibarr language file - Source file is en_US - install
-InstallEasy=Wir haben uns bemüht, die Installation von Dolibarr so einfach wie möglich zu gestalten. \nBefolgen Sie einfach die Schritte auf dem Bildschirm.
+# ZionOne language file - Source file is en_US - install
+InstallEasy=Wir haben uns bemüht, die Installation von ZionOne so einfach wie möglich zu gestalten. \nBefolgen Sie einfach die Schritte auf dem Bildschirm.
 PHPSupportPOSTGETOk=Ihre PHP unterstützt GET und POST Variablen.
 ErrorDatabaseAlreadyExists=Eine Datenbank mit dem Namen '%s' exisitiert bereits.
 IfDatabaseExistsGoBackAndCheckCreate=Sollte die Datebank bereits existieren, gehen Sie bitte zurück und deaktivieren Sie das Kontrollkästchen "Datenbank erstellen".
-AdminLoginCreatedSuccessfuly=Das dolibarr-Administratorkonto '<b>%s</b>' wurde erfolgreich erstellt.
-GoToDolibarr=Zu dolibarr wechseln
+AdminLoginCreatedSuccessfuly=Das ZionOne-Administratorkonto '<b>%s</b>' wurde erfolgreich erstellt.
+GoToZionOne=Zu ZionOne wechseln
 GoToUpgradePage=Noch einmal zur Aktualisierungsseite
 ChoosedMigrateScript=Migrationsskript auswählen
 ChooseYourSetupMode=Wählen Sie Ihre Installationsart und klicken Sie anschliessend auf "Start"...

@@ -1,4 +1,4 @@
-Functional tests for Dolibarr
+Functional tests for ZionOne
 =============================
 A.k.a. end-to-end or acceptance tests.
 
@@ -7,9 +7,9 @@ Prerequisites
 
 ### Web server
 
-Any web server compatible with Dolibarr will do.
+Any web server compatible with ZionOne will do.
 
-For the full test, it should be configured for serving Dolibarr's htdocs directory at `https://dev.dolibarr.org` with SSL/TLS enabled.
+For the full test, it should be configured for serving ZionOne's htdocs directory at `https://dev.ZionOne.org` with SSL/TLS enabled.
 
 If you want to test at another address and/or without SSL/TLS, you will have to alter the test configuration.
 
@@ -25,7 +25,7 @@ The database used for the test is `dolibarr_test`.
 This database will be dropped before and after the test.  
 Make sure you don't hold any valuable information in it!
 
-A user called `dolibarr` with a password `dolibarr` will be created as part of the test.
+A user called `ZionOne` with a password `ZionOne` will be created as part of the test.
 
 You can alter the test configuration to use another host, users and/or database.
 
@@ -72,6 +72,6 @@ Usage
 
 Make sure your servers (web, database and browser automation) are started.
 
-Then from Dolibarr's root directory, run:
+Then from ZionOne's root directory, run:
 
 ```htdocs/includes/bin/phpunit test/phpunit/functional```

@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for dolibarr
+# postinst script for ZionOne
 
 # shellcheck disable=1091,2086,2154
 
@@ -22,24 +22,24 @@ fi
 
 setup_empty_conf() {
 	echo Create empty file $config
-	mkdir -p /etc/dolibarr
-	touch /etc/dolibarr/conf.php
-	chown root:www-data /etc/dolibarr/conf.php
-	chmod 660 /etc/dolibarr/conf.php
+	mkdir -p /etc/ZionOne
+	touch /etc/ZionOne/conf.php
+	chown root:www-data /etc/ZionOne/conf.php
+	chmod 660 /etc/ZionOne/conf.php
 }
 
 is_new_upstream_version() {
 	# $1 can be empty (not installed) and will result in a true value
 	# for the check
 	old_version=$(echo "$1" | sed -e 's/-[^-]*$//' -e 's/^[0-9]*://')
-	new_version=$(dpkg-query -f '${Version}' -W dolibarr | \
+	new_version=$(dpkg-query -f '${Version}' -W ZionOne | \
 		sed -e 's/-[^-]*$//' -e 's/^[0-9]*://')
 	test "$old_version" != "$new_version"
 }
 
 enable_install_upgrade_wizard() {
 	echo Enable install wizard by removing install.lock file if present
-	rm -f /var/lib/dolibarr/documents/install.lock
+	rm -f /var/lib/ZionOne/documents/install.lock
 }
 
 
@@ -60,23 +60,23 @@ apache_install() {
 		a2enmod alias
 	fi
 
-	# Enable dolibarr conf
+	# Enable ZionOne conf
 	if which a2enconf >/dev/null 2>&1 ;then
 		# a2enconf exists for ubuntu only
 		echo "Enable link for Apache config file with a2enconf"
-		a2enconf dolibarr
+		a2enconf ZionOne
 	else
-		if [ -d /etc/$webserver/conf.d ] && [ ! -e /etc/$webserver/conf.d/dolibarr.conf ]; then
+		if [ -d /etc/$webserver/conf.d ] && [ ! -e /etc/$webserver/conf.d/ZionOne.conf ]; then
 			echo "Add link for Apache config file"
-			ln -s /etc/$webserver/conf-available/dolibarr.conf /etc/$webserver/conf.d/dolibarr.conf
+			ln -s /etc/$webserver/conf-available/ZionOne.conf /etc/$webserver/conf.d/ZionOne.conf
 		fi
 	fi
 }
 
 lighttpd_install() {
 	if which lighty-enable-mod >/dev/null 2>&1 ; then
-		echo "Enable lighttpd link for dolibarr config file"
-		lighty-enable-mod dolibarr fastcgi-php
+		echo "Enable lighttpd link for ZionOne config file"
+		lighty-enable-mod ZionOne fastcgi-php
 	else
 		echo "Lighttpd not installed, skipping"
 	fi
@@ -89,14 +89,14 @@ lighttpd_install() {
 db_version 2.0
 
 
-echo Run the dolibarr postinst script
+echo Run the ZionOne postinst script
 
 
 # Define vars
-docdir='/var/lib/dolibarr/documents'
-installfileorig="/etc/dolibarr/install.forced.php.install"
-installconfig="/etc/dolibarr/install.forced.php"
-config="/etc/dolibarr/conf.php"
+docdir='/var/lib/ZionOne/documents'
+installfileorig="/etc/ZionOne/install.forced.php.install"
+installconfig="/etc/ZionOne/install.forced.php"
+config="/etc/ZionOne/conf.php"
 
 
 case "$1" in
@@ -159,7 +159,7 @@ case "$1" in
 			#grep -q -c "dolibarr_font_DOL_DEFAULT_TTF_BOLD" $config || echo "<?php \$dolibarr_font_DOL_DEFAULT_TTF_BOLD='/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Bold.ttf'; ?>" >> $config
 		fi
 
-		db_get dolibarr/reconfigure-webserver
+		db_get ZionOne/reconfigure-webserver
 
 		webservers="$RET"
 
@@ -182,7 +182,7 @@ case "$1" in
 			echo Web user.group used is $webuser.$webgroup
 
 			# Set permissions to web server
-			chown -R $webuser:$webgroup /usr/share/dolibarr
+			chown -R $webuser:$webgroup /usr/share/ZionOne
 			chown -R root:$webgroup $config
 		done
 
@@ -211,7 +211,7 @@ case "$1" in
 
 
 		echo ----------
-		echo "Call Dolibarr page http://localhost/dolibarr/ to complete the setup and use Dolibarr."
+		echo "Call ZionOne page http://localhost/ZionOne/ to complete the setup and use ZionOne."
 		echo ----------
 		;;
 

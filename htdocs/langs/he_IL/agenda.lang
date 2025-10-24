@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=אירוע מזהה
 Actions=אירועים
 Agenda=סדר היום
@@ -28,10 +28,10 @@ ViewWeek=תצוגת שבוע
 ViewPerUser=לכל תצוגת משתמש
 ViewPerType=תצוגה לפי סוג
 AutoActions= מילוי אוטומטי
-AgendaAutoActionDesc= כאן אתה יכול להגדיר אירועים שאתה רוצה ש-Dolibarr תיצור אוטומטית ב-Agenda. אם שום דבר לא מסומן, רק פעולות ידניות ייכללו ביומנים ויוצגו באג'נדה. מעקב אוטומטי אחר פעולות עסקיות שנעשו על אובייקטים (אימות, שינוי סטטוס) לא יישמר.
-AgendaSetupOtherDesc= דף זה מספק אפשרויות לאפשר ייצוא של אירועי Dolibarr שלך ללוח שנה חיצוני (Thunderbird, Google Calendar וכו'...)
-AgendaExtSitesDesc=דף זה מאפשר להכריז על מקורות חיצוניים של לוחות שנה כדי לראות את האירועים שלהם בסדר היום של Dolibarr.
-ActionsEvents=אירועים שעבורם Dolibarr תיצור פעולה באג'נדה באופן אוטומטי
+AgendaAutoActionDesc= כאן אתה יכול להגדיר אירועים שאתה רוצה ש-ZionOne תיצור אוטומטית ב-Agenda. אם שום דבר לא מסומן, רק פעולות ידניות ייכללו ביומנים ויוצגו באג'נדה. מעקב אוטומטי אחר פעולות עסקיות שנעשו על אובייקטים (אימות, שינוי סטטוס) לא יישמר.
+AgendaSetupOtherDesc= דף זה מספק אפשרויות לאפשר ייצוא של אירועי ZionOne שלך ללוח שנה חיצוני (Thunderbird, Google Calendar וכו'...)
+AgendaExtSitesDesc=דף זה מאפשר להכריז על מקורות חיצוניים של לוחות שנה כדי לראות את האירועים שלהם בסדר היום של ZionOne.
+ActionsEvents=אירועים שעבורם ZionOne תיצור פעולה באג'נדה באופן אוטומטי
 EventRemindersByEmailNotEnabled=תזכורות לאירועים באימייל לא הופעלו בהגדרת המודול %s.
 ##### Agenda event labels #####
 NewCompanyToDolibarr=צד שלישי %s נוצר

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Раздел участников
 MemberCard=Карточка участника
 SubscriptionCard=Карточка подписки
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Список проверенных обществ�
 ErrorThisMemberIsNotPublic=Этот член не является государственным
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Еще один член (имя и <b>%s</b>, логин: <b>%s</b>) уже связан с третьей стороной <b>%s</b>. Удалить эту ссылку первых, потому третья сторона не может быть связан только один член (и наоборот).
 ErrorUserPermissionAllowsToLinksToItselfOnly=По соображениям безопасности, вы должны получить разрешение, чтобы изменить все пользователи должны иметь доступ к ссылке члена к пользователю, что это не твое.
-SetLinkToUser=Ссылка на Dolibarr пользователя
-SetLinkToThirdParty=Ссылка на Dolibarr третья сторона
+SetLinkToUser=Ссылка на ZionOne пользователя
+SetLinkToThirdParty=Ссылка на ZionOne третья сторона
 MemberCountersArePublic=Счетчики действительных участников являются публичными
 MembersCards=Генерация карточек для участников
 MembersList=Список участников
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Вы уверены, что хотите удалит�
 Filehtpasswd=htpasswd файл
 ValidateMember=Проверка членов
 ConfirmValidateMember=Вы уверены, что хотите подтвердить этого участника?
-FollowingLinksArePublic=Следующие ссылки являются открытыми страницами, не защищенными никакими разрешениями Dolibarr. Это не отформатированные страницы, которые приведены в качестве примера, чтобы показать, как составить список членов базы данных.
+FollowingLinksArePublic=Следующие ссылки являются открытыми страницами, не защищенными никакими разрешениями ZionOne. Это не отформатированные страницы, которые приведены в качестве примера, чтобы показать, как составить список членов базы данных.
 PublicMemberList=Общественная член списка
 BlankSubscriptionForm=Публичная форма саморегистрации
-BlankSubscriptionFormDesc=Dolibarr может предоставить вам общедоступный URL-адрес/веб-сайт, чтобы внешние посетители могли попросить подписаться на фонд. Если включен модуль онлайн-платежей, форма оплаты также может быть предоставлена автоматически.
+BlankSubscriptionFormDesc=ZionOne может предоставить вам общедоступный URL-адрес/веб-сайт, чтобы внешние посетители могли попросить подписаться на фонд. Если включен модуль онлайн-платежей, форма оплаты также может быть предоставлена автоматически.
 EnablePublicSubscriptionForm=Включите общедоступный веб-сайт с помощью формы самостоятельной подписки
 ForceMemberType=Заставить тип элемента
 ExportDataset_member_1=Члены и взносы

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Financera
 TaxModuleSetupToModifyRules=Aneu a <a href="%s"> Configuració del mòdul Impostos </a> per a modificar les regles de càlcul
 TaxModuleSetupToModifyRulesLT=Aneu a <a href="%s">Configuració de l'empresa</a> per a modificar les regles de càlcul

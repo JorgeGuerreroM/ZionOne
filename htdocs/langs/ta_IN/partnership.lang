@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=சரிபார்க்க பின்னி
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb of days before canceling status of a partnership when a subscription has expired
 ReferingWebsiteCheck=இணையதளம் குறிப்பிடுவதை சரிபார்க்கவும்
 ReferingWebsiteCheckDesc=உங்கள் பங்குதாரர்கள் தங்கள் சொந்த இணையதளத்தில் உங்கள் இணையதள டொமைன்களில் பின்னிணைப்பைச் சேர்த்துள்ளார்களா என்பதைச் சரிபார்க்க ஒரு அம்சத்தை நீங்கள் இயக்கலாம்.
-PublicFormRegistrationPartnerDesc=Dolibarr can provide you a public URL/website to allow external visitors to request to be part of the partnership program.
+PublicFormRegistrationPartnerDesc=ZionOne can provide you a public URL/website to allow external visitors to request to be part of the partnership program.
 
 #
 # Object

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxDoPayment=Mit Paybox bezahlen
 SetupPayBoxToHavePaymentCreatedAutomatically=Paybox mit der URL <b>%s</b> einrichten, um die Zahlung automatisch auszuführen, sobald von Paybox frei gegeben.
 YourPaymentHasBeenRecorded=Diese Seite bestätigt, dass Ihre Zahlung erfasst wurde. Vielen Dank.

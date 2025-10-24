@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Contabilità
 Accounting=Contabilità
 AccountingAccount=Conto di contabilità
@@ -349,7 +349,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Disabilita vincolante e trasferimento in con
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Disabilita vincolante e trasferimento in contabilità sugli acquisti (le fatture fornitore non verranno prese in considerazione in contabilità)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Disabilita binding e trasferimento in contabilità sulle note spese (le note spese non verranno prese in considerazione in contabilità)
 ACCOUNTING_ENABLE_LETTERING=Abilita la funzione caratteri nel Contabilità
-ACCOUNTING_ENABLE_LETTERING_DESC=Quando questa opzione è abilitata, puoi definire, su ciascuna voce Contabilità, una voce codice in modo da poter gruppo diversi Contabilità movimenti insieme. In passato, quando diverse riviste erano gestite in modo indipendente, questo funzionalità era necessario per gruppo movimento  linee di diverse riviste insieme. Tuttavia, con la contabilità Dolibarr, tale monitoraggio codice, chiamato "<b>%s</b>" è già salvato automaticamente, quindi una scritta automatica è già stata eseguita, senza rischio di errore, quindi questa funzionalità è diventato inutile per un uso comune. La scritta manuale funzionalità è fornita per gli utenti finali che non si fidano davvero del motore del computer che effettua il trasferimento dei dati in contabilità.
+ACCOUNTING_ENABLE_LETTERING_DESC=Quando questa opzione è abilitata, puoi definire, su ciascuna voce Contabilità, una voce codice in modo da poter gruppo diversi Contabilità movimenti insieme. In passato, quando diverse riviste erano gestite in modo indipendente, questo funzionalità era necessario per gruppo movimento  linee di diverse riviste insieme. Tuttavia, con la contabilità ZionOne, tale monitoraggio codice, chiamato "<b>%s</b>" è già salvato automaticamente, quindi una scritta automatica è già stata eseguita, senza rischio di errore, quindi questa funzionalità è diventato inutile per un uso comune. La scritta manuale funzionalità è fornita per gli utenti finali che non si fidano davvero del motore del computer che effettua il trasferimento dei dati in contabilità.
 EnablingThisFeatureIsNotNecessary=Abilitare questo funzionalità non è più necessario per una rigorosa gestione Contabilità.
 ACCOUNTING_ENABLE_AUTOLETTERING=Abilita i caratteri automatici durante il trasferimento a Contabilità
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Il codice per il carattere è automaticamente generato e incrementato e non scelto alla fine utente

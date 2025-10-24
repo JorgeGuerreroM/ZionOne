@@ -29,7 +29,7 @@
  *		\brief      Page to setup user module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/usergroups.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
@@ -78,7 +78,7 @@ if ($action == 'set_default') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString("USER_ADDON_PDF_ODT") == "$value") {
-			dolibarr_del_const($db, 'USER_ADDON_PDF_ODT', $conf->entity);
+			zionone_del_const($db, 'USER_ADDON_PDF_ODT', $conf->entity);
 		}
 	}
 	$res = true;
@@ -98,7 +98,7 @@ if ($action == 'set_default') {
 	$res = true;
 } elseif ($action == 'unsetdoc') {
 	// We disable the template
-	dolibarr_del_const($db, "USER_ADDON_PDF_ODT", $conf->entity);
+	zionone_del_const($db, "USER_ADDON_PDF_ODT", $conf->entity);
 } elseif (preg_match('/set_([a-z0-9_\-]+)/i', $action, $reg)) {
 	$code = $reg[1];
 	if (dolibarr_set_const($db, $code, 1, 'chaine', 0, '', $conf->entity) > 0) {
@@ -109,7 +109,7 @@ if ($action == 'set_default') {
 	}
 } elseif (preg_match('/del_([a-z0-9_\-]+)/i', $action, $reg)) {
 	$code = $reg[1];
-	if (dolibarr_del_const($db, $code, $conf->entity) > 0) {
+	if (zionone_del_const($db, $code, $conf->entity) > 0) {
 		header("Location: ".$_SERVER["PHP_SELF"]);
 		exit;
 	} else {

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Spende
 Donations=Spenden
 DonationRef=Spenden Referenz
@@ -37,7 +37,7 @@ DonationUseThirdparties=Die Adresse eines bestehenden Geschäftspartners als Adr
 DonationsStatistics=Statistik zu Spenden
 NbOfDonations=Zahl der Spenden
 BlankDonationForm=Öffentliches Spendenformular
-BlankDonationFormDesc=Dolibarr kann Ihnen eine öffentliche URL/Website zur Verfügung stellen, über die externe Besucher spenden können. Wenn ein Online-Zahlungsmodul aktiviert ist, kann auch ein Zahlungsformular automatisch bereitgestellt werden.
+BlankDonationFormDesc=ZionOne kann Ihnen eine öffentliche URL/Website zur Verfügung stellen, über die externe Besucher spenden können. Wenn ein Online-Zahlungsmodul aktiviert ist, kann auch ein Zahlungsformular automatisch bereitgestellt werden.
 EnablePublicDonationForm=Öffentliches Spendenformular aktivieren
 EnablePublicDonationList=Öffentliche Spendenliste aktivieren
 ForceDonateurNature = Spenderart vorgeben (Einzelperson oder Unternehmen)

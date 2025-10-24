@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=ຕັ້ງຄ່າໂມດູນ PayBox
-PayBoxDesc=ໂມດູນນີ້ສະເໜີໃຫ້ໜ້າເພື່ອອະນຸຍາດໃຫ້ຈ່າຍເງິນໃນ <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> ໂດຍລູກຄ້າ. ນີ້ສາມາດຖືກນໍາໃຊ້ສໍາລັບການຈ່າຍເງິນຟຣີຫຼືສໍາລັບການຈ່າຍເງິນໃນວັດຖຸ Dolibarr ໂດຍສະເພາະ (ໃບແຈ້ງຫນີ້, ຄໍາສັ່ງຊື້, ... )
+PayBoxDesc=ໂມດູນນີ້ສະເໜີໃຫ້ໜ້າເພື່ອອະນຸຍາດໃຫ້ຈ່າຍເງິນໃນ <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> ໂດຍລູກຄ້າ. ນີ້ສາມາດຖືກນໍາໃຊ້ສໍາລັບການຈ່າຍເງິນຟຣີຫຼືສໍາລັບການຈ່າຍເງິນໃນວັດຖຸ ZionOne ໂດຍສະເພາະ (ໃບແຈ້ງຫນີ້, ຄໍາສັ່ງຊື້, ... )
 PayBoxDoPayment=ຈ່າຍດ້ວຍ Paybox
 YouWillBeRedirectedOnPayBox=ເຈົ້າຈະຖືກປ່ຽນເສັ້ນທາງໄປທີ່ ໜ້າ Paybox ທີ່ປອດໄພເພື່ອປ້ອນຂໍ້ມູນບັດເຄຣດິດເຂົ້າເຈົ້າ
 SetupPayBoxToHavePaymentCreatedAutomatically=ຕັ້ງຄ່າກ່ອງຈ່າຍເງິນຂອງເຈົ້າດ້ວຍ url <b> %s </b> ເພື່ອໃຫ້ມີການຊໍາລະເງິນໂດຍອັດຕະໂນມັດເມື່ອຖືກຢືນຢັນໂດຍ Paybox.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Вече беше отворена поръчка, свързана с това предложение, така че не беше създадена друга поръчка автоматично
 OrdersArea=Секция с поръчки за продажба
 SuppliersOrdersArea=Секция с поръчки за покупка

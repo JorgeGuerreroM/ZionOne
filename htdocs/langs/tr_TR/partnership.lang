@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Kontrol edilecek geri bağlantılar
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Aboneliğin süresi dolduğunda ortaklık durumunun iptal edilmesinden önceki gün sayısı
 ReferingWebsiteCheck=Yönlendiren web sitesinin kontrolü
 ReferingWebsiteCheckDesc=Ortaklarınızın kendi web sitelerinde web sitenizin alan adlarına bir geri bağlantı ekleyip eklemediğini kontrol etmek için bir özelliği etkinleştirebilirsiniz.
-PublicFormRegistrationPartnerDesc=Dolibarr, harici ziyaretçilerin ortaklık programının bir parçası olmayı talep etmelerine olanak sağlamak için size genel bir URL/web sitesi sağlayabilir.
+PublicFormRegistrationPartnerDesc=ZionOne, harici ziyaretçilerin ortaklık programının bir parçası olmayı talep etmelerine olanak sağlamak için size genel bir URL/web sitesi sağlayabilir.
 # Object
 DeletePartnership=Ortaklığı silme
 PartnershipDedicatedToThisThirdParty=Bu üçüncü tarafa adanmış ortaklık

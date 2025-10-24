@@ -28,7 +28,7 @@
  *       \brief      Page to setup PDF options
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formother.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formadmin.class.php';
@@ -96,7 +96,7 @@ if ($action == 'update') {
 	}
 	if (GETPOSTISSET('SALES_ORDER_SHOW_SHIPPING_ADDRESS')) {
 		dolibarr_set_const($db, "SALES_ORDER_SHOW_SHIPPING_ADDRESS", GETPOSTINT("SALES_ORDER_SHOW_SHIPPING_ADDRESS"), 'chaine', 0, '', $conf->entity);
-		dolibarr_del_const($db, "SALES_ORDER_SHOW_SHIPPING_ADDRESS", $conf->entity);
+		zionone_del_const($db, "SALES_ORDER_SHOW_SHIPPING_ADDRESS", $conf->entity);
 	}
 	if (GETPOSTISSET('MAIN_GENERATE_DOCUMENTS_SUPPLIER_PROPOSAL_WITHOUT_UNIT_PRICE')) {
 		dolibarr_set_const($db, "MAIN_GENERATE_DOCUMENTS_SUPPLIER_PROPOSAL_WITHOUT_UNIT_PRICE", GETPOST("MAIN_GENERATE_DOCUMENTS_SUPPLIER_PROPOSAL_WITHOUT_UNIT_PRICE"), 'chaine', 0, '', $conf->entity);
@@ -125,19 +125,19 @@ if ($action == 'update') {
 	if (GETPOSTISSET('INVOICE_ADD_ZATCA_QR_CODE')) {
 		dolibarr_set_const($db, "INVOICE_ADD_ZATCA_QR_CODE", GETPOSTINT("INVOICE_ADD_ZATCA_QR_CODE"), 'chaine', 0, '', $conf->entity);
 		if (GETPOSTINT('INVOICE_ADD_ZATCA_QR_CODE') == 1) {
-			dolibarr_del_const($db, "INVOICE_ADD_SWISS_QR_CODE", $conf->entity);
+			zionone_del_const($db, "INVOICE_ADD_SWISS_QR_CODE", $conf->entity);
 		}
 	}
 	if (GETPOSTISSET('INVOICE_ADD_EPC_QR_CODE')) {
 		dolibarr_set_const($db, "INVOICE_ADD_EPC_QR_CODE", GETPOST("INVOICE_ADD_EPC_QR_CODE", 'int'), 'chaine', 0, '', $conf->entity);
 		if (GETPOSTINT('INVOICE_ADD_EPC_QR_CODE') == 1) {
-			dolibarr_del_const($db, "INVOICE_ADD_EPC_QR_CODE", $conf->entity);
+			zionone_del_const($db, "INVOICE_ADD_EPC_QR_CODE", $conf->entity);
 		}
 	}
 	if (GETPOSTISSET('INVOICE_ADD_SWISS_QR_CODE')) {
 		dolibarr_set_const($db, "INVOICE_ADD_SWISS_QR_CODE", GETPOST("INVOICE_ADD_SWISS_QR_CODE", 'alpha'), 'chaine', 0, '', $conf->entity);
 		if (GETPOST('INVOICE_ADD_SWISS_QR_CODE', 'alpha') != '0') {
-			dolibarr_del_const($db, "INVOICE_ADD_ZATCA_QR_CODE", $conf->entity);
+			zionone_del_const($db, "INVOICE_ADD_ZATCA_QR_CODE", $conf->entity);
 		}
 	}
 	if (GETPOSTISSET('INVOICE_CATEGORY_OF_OPERATION')) {
@@ -145,15 +145,15 @@ if ($action == 'update') {
 	}
 	if (GETPOSTISSET('INVOICE_SHOW_SHIPPING_ADDRESS')) {
 		dolibarr_set_const($db, "INVOICE_SHOW_SHIPPING_ADDRESS", GETPOSTINT("INVOICE_SHOW_SHIPPING_ADDRESS"), 'chaine', 0, '', $conf->entity);
-		dolibarr_del_const($db, "INVOICE_SHOW_SHIPPING_ADDRESS", $conf->entity);
+		zionone_del_const($db, "INVOICE_SHOW_SHIPPING_ADDRESS", $conf->entity);
 	}
 	if (GETPOSTISSET('PDF_INVOICE_SHOW_VAT_ANALYSIS')) {
 		dolibarr_set_const($db, "PDF_INVOICE_SHOW_VAT_ANALYSIS", GETPOSTINT("PDF_INVOICE_SHOW_VAT_ANALYSIS"), 'chaine', 0, '', $conf->entity);
-		dolibarr_del_const($db, "PDF_INVOICE_SHOW_VAT_ANALYSIS", $conf->entity);
+		zionone_del_const($db, "PDF_INVOICE_SHOW_VAT_ANALYSIS", $conf->entity);
 	}
 	if (GETPOSTISSET('PDF_INVOICE_SHOW_BALANCE_SUMMARY')) {
 		dolibarr_set_const($db, "PDF_INVOICE_SHOW_BALANCE_SUMMARY", GETPOSTINT("PDF_INVOICE_SHOW_BALANCE_SUMMARY"), 'chaine', 0, '', $conf->entity);
-		dolibarr_del_const($db, "PDF_INVOICE_SHOW_BALANCE_SUMMARY", $conf->entity);
+		zionone_del_const($db, "PDF_INVOICE_SHOW_BALANCE_SUMMARY", $conf->entity);
 	}
 	if (GETPOSTISSET('INVOICE_HIDE_LINKED_OBJECT')) {
 		dolibarr_set_const($db, "INVOICE_HIDE_LINKED_OBJECT", GETPOSTINT("INVOICE_HIDE_LINKED_OBJECT"), 'chaine', 0, '', $conf->entity);
@@ -207,7 +207,7 @@ if ($action == 'removetermsofsale') {
 		$file = dol_sanitizePathName($diroffile).'/'.dol_sanitizeFileName($filename);
 		dol_delete_file($file);
 	}
-	dolibarr_del_const($db, $varname, $conf->entity);
+	zionone_del_const($db, $varname, $conf->entity);
 }
 
 
@@ -252,7 +252,7 @@ if (isModEnabled('propal')) {
 	print '<table summary="more" class="noborder centpercent">';
 	print '<tr class="liste_titre"><td class="titlefieldmiddle">'.$langs->trans("Parameter").'</td><td width="200px"></td></tr>';
 
-	/* This feature seems not yet used into Dolibarr. So option is kept hidden and enabled by default
+	/* This feature seems not yet used into ZionOne. So option is kept hidden and enabled by default
 	print '<tr class="oddeven"><td>';
 	print $form->textwithpicto($langs->trans("MAIN_PDF_PROPAL_USE_ELECTRONIC_SIGNING"), '');
 	print '</td><td>';

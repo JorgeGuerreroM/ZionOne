@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=የሚስጥር መለያ ቁጥር
 NumberingShort=N°
@@ -197,7 +197,7 @@ BugTracker=የሳንካ መከታተያ
 SendNewPasswordDesc=ይህ ቅጽ አዲስ የይለፍ ቃል እንዲጠይቁ ያስችልዎታል። ወደ ኢሜል አድራሻዎ ይላካል።<br>ለውጡ ውጤታማ የሚሆነው በኢሜል ውስጥ ያለውን የማረጋገጫ አገናኝ ጠቅ ካደረጉ በኋላ ነው።<br> የገቢ መልእክት ሳጥንዎን ያረጋግጡ።
 EnterNewPasswordHere=አዲሱን የይለፍ ቃልዎን እዚህ ያስገቡ
 BackToLoginPage=ወደ የመግቢያ ገጽ ተመለስ
-AuthenticationDoesNotAllowSendNewPassword=የማረጋገጫ ሁነታ <b>%s</b> ነው:: ><br>በዚህ ሁነታ Dolibarr የይለፍ ቃልህን ማወቅም ሆነ መለወጥ አይችልም።<br>የይለፍ ቃልህን መለወጥ ከፈለክ የስርዓት አስተዳዳሪህን አግኝ።
+AuthenticationDoesNotAllowSendNewPassword=የማረጋገጫ ሁነታ <b>%s</b> ነው:: ><br>በዚህ ሁነታ ZionOne የይለፍ ቃልህን ማወቅም ሆነ መለወጥ አይችልም።<br>የይለፍ ቃልህን መለወጥ ከፈለክ የስርዓት አስተዳዳሪህን አግኝ።
 EnableGDLibraryDesc=ይህንን አማራጭ ለመጠቀም በPHP ጭነትዎ ላይ የጂዲ ቤተ-መጽሐፍትን ጫን ወይም አንቃ።
 ProfIdShortDesc=<b>Prof Id %s</b> is an information depending on third party country.<br>For example, for country <b>%s</b>, it's code <b>%s</b>.
 DolibarrDemo=ዶሊባርር ኢአርፒ/CRM ማሳያ
@@ -404,4 +404,4 @@ SetHereATitleForLink = Set a name for the bookmark
 ShowBookmark = Show bookmark
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
-SubscribeToFoundation=Help the Dolibarr project, subscribe to the foundation
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

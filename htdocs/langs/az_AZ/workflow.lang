@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=İş axını modulunun qurulması
 WorkflowDesc=Bu modul bəzi avtomatik hərəkətləri təmin edir. Varsayılan olaraq, iş axını açıqdır (istədiyiniz ardıcıllıqla işlər görə bilərsiniz), lakin burada bəzi avtomatik hərəkətləri aktivləşdirə bilərsiniz.
 ThereIsNoWorkflowToModify=Aktivləşdirilmiş modullarla heç bir iş axını modifikasiyası mövcud deyil.

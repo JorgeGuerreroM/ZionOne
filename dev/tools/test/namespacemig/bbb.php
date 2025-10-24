@@ -2,10 +2,10 @@
 
 //use \Aaa as Aaa;
 
-use Dolibarr\Aaa as Aaa;
-use function Dolibarr\faaa as faaa; // Need php 5.6+
+use ZionOne\Aaa as Aaa;
+use function ZionOne\faaa as faaa; // Need php 5.6+
 
-//use const Dolibarr\AAA;
+//use const ZionOne\AAA;
 
 //use Bbb as Bbb;
 

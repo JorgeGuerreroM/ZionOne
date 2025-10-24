@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= የሞዱል መታወቂያ
 ModuleBuilderDesc=ይህ መሳሪያ ልምድ ባላቸው ተጠቃሚዎች ወይም ገንቢዎች ብቻ መጠቀም አለበት። የእራስዎን ሞጁል ለመገንባት ወይም ለማረም መገልገያዎችን ያቀርባል. ለአማራጭ <a href="%s" target="_blank" rel="noopener noreferrer">የእጅ ልማት ሰነድ እዚህ አለ</a>።
 EnterNameOfModuleDesc=ባዶ ቦታ ለመፍጠር የሞጁሉን/መተግበሪያውን ስም ያስገቡ። ቃላትን ለመለየት አቢይ ሆሄ ይጠቀሙ (ለምሳሌ፡ MyModule፣ EcommerceForShop፣ SyncWithMySystem...)
@@ -110,7 +110,7 @@ HooksDefDesc=በንብረቱ ውስጥ ይግለጹ <b>module_parts['hooks']</b>
 TriggerDefDesc=ከሞጁልዎ ውጪ የሆነ የንግድ ክስተት ሲፈፀም (በሌሎች ሞጁሎች የተቀሰቀሱ ክስተቶች) ለማስፈጸም የሚፈልጉትን ኮድ በመቀስቀሻ ፋይሉ ውስጥ ይግለጹ።
 SeeIDsInUse=በእርስዎ ጭነት ላይ ጥቅም ላይ የዋሉ መታወቂያዎችን ይመልከቱ
 SeeReservedIDsRangeHere=የተያዙ መታወቂያዎችን ክልል ይመልከቱ
-ToolkitForDevelopers=ለ Dolibarr ገንቢዎች መሣሪያ ስብስብ
+ToolkitForDevelopers=ለ ZionOne ገንቢዎች መሣሪያ ስብስብ
 TryToUseTheModuleBuilder=If you have knowledge of SQL and PHP, you may use the native module builder wizard.<br>Enable the module <strong>%s</strong> and use the wizard by clicking the <span class="fa fa-bug"></span> on the top right menu.<br>Warning: This is an advanced developer feature, do <b>not</b> experiment on your production site!
 SeeTopRightMenu=ከላይ በቀኝ ሜኑ ላይ <span class="fa fa-bug"></span>ን ይመልከቱ
 AddLanguageFile=የቋንቋ ፋይል ያክሉ

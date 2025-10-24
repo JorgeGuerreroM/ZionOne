@@ -17,7 +17,7 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../../main.inc.php';
 
 /**
@@ -94,7 +94,7 @@ $documentation->showSidebar(); ?>
 				' * along with this program. If not, see <https://www.gnu.org/licenses/>.',
 				' */',
 				'',
-				'// Load Dolibarr environment',
+				'// Load ZionOne environment',
 				'require \'../../../../main.inc.php\';',
 				'',
 				'/**',

@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=PayPal moduuli setup
-PaypalDesc=Tämä moduuli sallii maksu:n asiakkaat kautta <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPalin</a>. Tätä voidaan käyttää ad hoc maksu tai maksu, joka liittyy Dolibarr-objektiin (lasku, tilaus, .. .)
+PaypalDesc=Tämä moduuli sallii maksu:n asiakkaat kautta <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPalin</a>. Tätä voidaan käyttää ad hoc maksu tai maksu, joka liittyy ZionOne-objektiin (lasku, tilaus, .. .)
 PaypalOrCBDoPayment=Maksa PayPalilla (kortti tai PayPal)
 PaypalDoPayment=Maksa PayPalilla
 PAYPAL_API_SANDBOX=Tila testi / hiekkalaatikko

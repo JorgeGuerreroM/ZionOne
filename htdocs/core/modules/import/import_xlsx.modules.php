@@ -51,10 +51,10 @@ class ImportXlsx extends ModeleImports
 	public $id;
 
 	/**
-	 * Dolibarr version of driver
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental'
+	 * ZionOne version of driver
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental'
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 * @var string
@@ -175,7 +175,7 @@ class ImportXlsx extends ModeleImports
 		// phpcs:enable
 		global $user, $conf, $langs, $file;
 		// create a temporary object, the final output will be generated in footer
-		$this->workbook->getProperties()->setCreator($user->getFullName($outputlangs) . ' - Dolibarr ' . DOL_VERSION);
+		$this->workbook->getProperties()->setCreator($user->getFullName($outputlangs) . ' - ZionOne ' . DOL_VERSION);
 		$this->workbook->getProperties()->setTitle($outputlangs->trans("Import") . ' - ' . $file);
 		$this->workbook->getProperties()->setSubject($outputlangs->trans("Import") . ' - ' . $file);
 		$this->workbook->getProperties()->setDescription($outputlangs->trans("Import") . ' - ' . $file);
@@ -1141,7 +1141,7 @@ class ImportXlsx extends ModeleImports
 								$resql = $this->db->query($sql);
 								if ($resql) {
 									if (!$is_table_category_link) {
-										$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that child tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in Dolibarr).
+										$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that child tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in ZionOne).
 									}
 									$insertdone = true;
 								} else {

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Password for user <b>%s</b> on the domain <b>%s</b> must be changed.
 UserMustChangePassNextLogon=Përdoruesi duhet të ndryshojë fjalëkalimin në domenin %s
 LDAPInformationsForThisContact=Informacion në bazën e të dhënave LDAP për këtë kontakt
@@ -22,7 +22,7 @@ GroupSynchronized=Grupi i sinkronizuar
 MemberSynchronized=Anëtari u sinkronizua
 MemberTypeSynchronized=Lloji i anëtarit i sinkronizuar
 ContactSynchronized=Kontakti u sinkronizua
-ForceSynchronize=Forco sinkronizimin e Dolibarr -> LDAP
+ForceSynchronize=Forco sinkronizimin e ZionOne -> LDAP
 ErrorFailedToReadLDAP=Leximi i bazës së të dhënave LDAP dështoi. Kontrolloni konfigurimin e modulit LDAP dhe aksesueshmërinë e bazës së të dhënave.
 PasswordOfUserInLDAP=Fjalëkalimi i përdoruesit në LDAP
 LDAPPasswordHashType=Lloji hash i fjalëkalimit

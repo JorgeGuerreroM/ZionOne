@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=ការដំឡើងម៉ូឌុល PayPal
-PaypalDesc=ម៉ូឌុលនេះអនុញ្ញាតឱ្យមានការទូទាត់ដោយអតិថិជនតាមរយៈ <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>។ នេះអាចត្រូវបានប្រើសម្រាប់ការទូទាត់តាមផ្នែក ឬសម្រាប់ការទូទាត់ទាក់ទងនឹងវត្ថុ Dolibarr (វិក្កយបត្រ ការបញ្ជាទិញ ...)
+PaypalDesc=ម៉ូឌុលនេះអនុញ្ញាតឱ្យមានការទូទាត់ដោយអតិថិជនតាមរយៈ <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>។ នេះអាចត្រូវបានប្រើសម្រាប់ការទូទាត់តាមផ្នែក ឬសម្រាប់ការទូទាត់ទាក់ទងនឹងវត្ថុ ZionOne (វិក្កយបត្រ ការបញ្ជាទិញ ...)
 PaypalOrCBDoPayment=បង់ជាមួយ PayPal (កាត ឬ PayPal)
 PaypalDoPayment=បង់ជាមួយ PayPal
 PAYPAL_API_SANDBOX=របៀបសាកល្បង/ប្រអប់ខ្សាច់

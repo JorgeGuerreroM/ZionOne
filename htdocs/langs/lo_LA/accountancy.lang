@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=ການບັນຊີ
 Accounting=ບັນ​ຊີ
 AccountingAccount=Accounting account
@@ -349,7 +349,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=ປິດໃຊ້ງານການຜູ�
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=ປິດໃຊ້ງານການຜູກມັດແລະການໂອນບັນຊີຢູ່ໃນການຊື້ (ໃບເກັບເງິນຂອງຜູ້ຂາຍຈະບໍ່ຖືກເອົາເຂົ້າໃນບັນຊີ)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=ປິດໃຊ້ງານການຜູກມັດແລະການໂອນບັນຊີຢູ່ໃນລາຍງານລາຍຈ່າຍ (ບົດລາຍງານຄ່າໃຊ້ຈ່າຍຈະບໍ່ຖືກເອົາເຂົ້າໃນບັນຊີ)
 ACCOUNTING_ENABLE_LETTERING=ເປີດໃຊ້ຟັງຊັນຕົວອັກສອນໃນການບັນຊີ
-ACCOUNTING_ENABLE_LETTERING_DESC=When this options is enabled, you can define, on each accounting entry, a code so you can group different accounting movements together. In the past, when different journals was managed independently, this feature was necessary to group movement lines of different journals together. However, with Dolibarr accountancy, such a tracking code, called "<b>%s</b>" is already saved automatically, so an automatic lettering is already done, with no risk of error so this feature has become useless for a common usage. Manual lettering feature is provided for end users that really don't trust the computer engine making the transfer of data in accountancy.
+ACCOUNTING_ENABLE_LETTERING_DESC=When this options is enabled, you can define, on each accounting entry, a code so you can group different accounting movements together. In the past, when different journals was managed independently, this feature was necessary to group movement lines of different journals together. However, with ZionOne accountancy, such a tracking code, called "<b>%s</b>" is already saved automatically, so an automatic lettering is already done, with no risk of error so this feature has become useless for a common usage. Manual lettering feature is provided for end users that really don't trust the computer engine making the transfer of data in accountancy.
 EnablingThisFeatureIsNotNecessary=ການເປີດໃຊ້ຄຸນສົມບັດນີ້ບໍ່ຈໍາເປັນສໍາລັບການຄຸ້ມຄອງບັນຊີທີ່ເຂັ້ມງວດ.
 ACCOUNTING_ENABLE_AUTOLETTERING=ເປີດໃຊ້ຕົວອັກສອນອັດຕະໂນມັດເມື່ອໂອນເຂົ້າບັນຊີ
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=ລະ​ຫັດ​ສໍາ​ລັບ​ຕົວ​ອັກ​ສອນ​ໄດ້​ຖືກ​ສ້າງ​ຂຶ້ນ​ອັດ​ຕະ​ໂນ​ມັດ​ແລະ​ເພີ່ມ​ຂຶ້ນ​ແລະ​ບໍ່​ໄດ້​ຮັບ​ຄັດ​ເລືອກ​ໂດຍ​ຜູ້​ໃຊ້​ສຸດ​ທ້າຍ​

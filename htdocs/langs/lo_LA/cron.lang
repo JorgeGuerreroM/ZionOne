@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = ອ່ານວຽກທີ່ ກຳ ນົດເວລາໄວ້
 Permission23102 = ສ້າງ/ອັບເດດວຽກທີ່ ກຳ ນົດເວລາໄວ້
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=ປິດການນຳໃຊ້
 CronTaskInactive=ວຽກນີ້ຖືກປິດການ ນຳ ໃຊ້ (ບໍ່ໄດ້ ກຳ ນົດເວລາ)
 CronId=ໄອດີ
 CronClassFile=ຊື່ໄຟລ with ກັບຫ້ອງຮຽນ
-CronModuleHelp=ຊື່ຂອງລະບົບໂມດູນ Dolibarr (ຍັງເຮັດວຽກກັບໂມດູນ Dolibarr ພາຍນອກ). <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການດຶງຂໍ້ມູນຂອງວັດຖຸຜະລິດຕະພັນ Dolibarr /htdocs /<u> ຜະລິດຕະພັນ </u> /class/product.class.php, ຄ່າຂອງໂມດູນແມ່ນ <br> a04927164
-CronClassFileHelp=ເສັ້ນທາງທີ່ກ່ຽວຂ້ອງແລະຊື່ໄຟລທີ່ຈະໂຫຼດ (ເສັ້ນທາງແມ່ນກ່ຽວຂ້ອງກັບລະບົບຮາກຂອງເຊີບເວີເວັບ). <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການດຶງຂໍ້ມູນຂອງວັດຖຸຜະລິດຕະພັນ Dolibarr htdocs/product/class/<u> product.class.php </u>, ມູນຄ່າສໍາລັບຊື່ແຟ້ມຊັ້ນແມ່ນ <br> a04927188333c84c04c84c04c84c04c084 ae43c84c084 73 ae43c84c04c04c84 ae43c84c04 a83c8c04 a33 a723c08c084c084c084c04c84c04c8c33c84c04c33c08c33c84c08c33c8c ມີຊື່ຂອງພວກເຮົາ
-CronObjectHelp=ຊື່ອອບເຈັກທີ່ຈະໂຫລດ. <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການເອີ້ນເອົາວັດຖຸຂອງຜະລິດຕະພັນ Dolibarr
-CronMethodHelp=ວິທີອອບເຈັກເພື່ອເປີດຕົວ. <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການດຶງເອົາວັດຖຸຜະລິດຕະພັນຂອງ Dolibarr /htdocs/product/class/product.class.php, ຄ່າຂອງວິທີການແມ່ນ <br> <i> fetch </i>
-CronArgsHelp=ການໂຕ້ຖຽງວິທີການ. <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການດຶງຂໍ້ມູນຂອງ Dolibarr Product object /htdocs/product/class/product.class.php, ຄ່າຂອງພາລາມິເຕີສາມາດເປັນ <br><i>0, ProductRef</i>
+CronModuleHelp=ຊື່ຂອງລະບົບໂມດູນ ZionOne (ຍັງເຮັດວຽກກັບໂມດູນ ZionOne ພາຍນອກ). <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການດຶງຂໍ້ມູນຂອງວັດຖຸຜະລິດຕະພັນ ZionOne /htdocs /<u> ຜະລິດຕະພັນ </u> /class/product.class.php, ຄ່າຂອງໂມດູນແມ່ນ <br> a04927164
+CronClassFileHelp=ເສັ້ນທາງທີ່ກ່ຽວຂ້ອງແລະຊື່ໄຟລທີ່ຈະໂຫຼດ (ເສັ້ນທາງແມ່ນກ່ຽວຂ້ອງກັບລະບົບຮາກຂອງເຊີບເວີເວັບ). <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການດຶງຂໍ້ມູນຂອງວັດຖຸຜະລິດຕະພັນ ZionOne htdocs/product/class/<u> product.class.php </u>, ມູນຄ່າສໍາລັບຊື່ແຟ້ມຊັ້ນແມ່ນ <br> a04927188333c84c04c84c04c84c04c084 ae43c84c084 73 ae43c84c04c04c84 ae43c84c04 a83c8c04 a33 a723c08c084c084c084c04c84c04c8c33c84c04c33c08c33c84c08c33c8c ມີຊື່ຂອງພວກເຮົາ
+CronObjectHelp=ຊື່ອອບເຈັກທີ່ຈະໂຫລດ. <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການເອີ້ນເອົາວັດຖຸຂອງຜະລິດຕະພັນ ZionOne
+CronMethodHelp=ວິທີອອບເຈັກເພື່ອເປີດຕົວ. <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການດຶງເອົາວັດຖຸຜະລິດຕະພັນຂອງ ZionOne /htdocs/product/class/product.class.php, ຄ່າຂອງວິທີການແມ່ນ <br> <i> fetch </i>
+CronArgsHelp=ການໂຕ້ຖຽງວິທີການ. <BR> ຕົວຢ່າງເພື່ອເອີ້ນວິທີການດຶງຂໍ້ມູນຂອງ ZionOne Product object /htdocs/product/class/product.class.php, ຄ່າຂອງພາລາມິເຕີສາມາດເປັນ <br><i>0, ProductRef</i>
 CronCommandHelp=ເສັ້ນ ຄຳ ສັ່ງຂອງລະບົບເພື່ອປະຕິບັດ.
 CronCreateJob=ສ້າງວຽກໃhed່ຕາມ ກຳ ນົດເວລາ
 CronFrom=ຈາກ

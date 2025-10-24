@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Produkto nuoroda
 ProductLabel=Produkto etiketė
 ProductLabelTranslated=Išversta produkto etiketė
@@ -299,7 +299,7 @@ MinSupplierPrice=Minimali pirkimo kaina
 MinCustomerPrice=Minimali pardavimo kaina
 NoDynamicPrice=Nėra dinaminės kainos
 DynamicPriceConfiguration=Dinaminė kainų konfigūracija
-DynamicPriceDesc=Galite apibrėžti matematines formules klientų arba tiekėjų kainoms apskaičiuoti. Tokiose formulėse gali būti naudojami visi matematiniai operatoriai, kai kurios konstantos ir kintamieji. Čia galite apibrėžti norimus naudoti kintamuosius. Jei kintamajam reikia automatinio atnaujinimo, galite apibrėžti išorinį URL, kad „Dolibarr“ galėtų automatiškai atnaujinti reikšmę.
+DynamicPriceDesc=Galite apibrėžti matematines formules klientų arba tiekėjų kainoms apskaičiuoti. Tokiose formulėse gali būti naudojami visi matematiniai operatoriai, kai kurios konstantos ir kintamieji. Čia galite apibrėžti norimus naudoti kintamuosius. Jei kintamajam reikia automatinio atnaujinimo, galite apibrėžti išorinį URL, kad „ZionOne“ galėtų automatiškai atnaujinti reikšmę.
 AddVariable=Pridėti kintamąjį
 AddUpdater=Pridėti atnaujinimo programą
 GlobalVariables=Globalūs kintamieji
@@ -387,7 +387,7 @@ NewProductAttribute=Naujas atributas
 NewProductAttributeValue=Nauja atributo reikšmė
 ErrorCreatingProductAttributeValue=Kuriant atributo reikšmę įvyko klaida. Gali būti, kad reikšmė su ta nuoroda jau yra.
 ProductCombinationGeneratorWarning=Jei tęsite, prieš generuojant naujus variantus, visi ankstesni bus IŠTRINTI. Jau esami bus atnaujinti naujomis reikšmėmis.
-TooMuchCombinationsWarning=Daugybės variantų generavimas gali lemti didelį procesoriaus ir atminties naudojimą, todėl „Dolibarr“ negalės jų sukurti. Įjungus parinktį „%s“, galima sumažinti atminties naudojimą.
+TooMuchCombinationsWarning=Daugybės variantų generavimas gali lemti didelį procesoriaus ir atminties naudojimą, todėl „ZionOne“ negalės jų sukurti. Įjungus parinktį „%s“, galima sumažinti atminties naudojimą.
 DoNotRemovePreviousCombinations=Nepašalinkite ankstesnių variantų
 UsePercentageVariations=Naudokite procentinius variantus
 PercentageVariation=Procentinis pokytis

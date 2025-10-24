@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Tài trợ
 Donations=Tài trợ
 DonationRef=Mã tài trợ
@@ -37,7 +37,7 @@ DonationUseThirdparties=Sử dụng địa chỉ của bên thứ ba hiện có 
 DonationsStatistics=Thống kê quyên góp
 NbOfDonations=Số lượng quyên góp
 BlankDonationForm=Biểu mẫu quyên góp công khai
-BlankDonationFormDesc=Dolibarr có thể cung cấp cho bạn URL/trang web công khai để cho phép khách truy cập bên ngoài quyên góp. Nếu mô-đun thanh toán trực tuyến được bật, biểu mẫu thanh toán cũng có thể được cung cấp tự động.
+BlankDonationFormDesc=ZionOne có thể cung cấp cho bạn URL/trang web công khai để cho phép khách truy cập bên ngoài quyên góp. Nếu mô-đun thanh toán trực tuyến được bật, biểu mẫu thanh toán cũng có thể được cung cấp tự động.
 EnablePublicDonationForm=Kích hoạt biểu mẫu quyên góp công khai
 EnablePublicDonationList=Kích hoạt danh sách quyên góp công khai
 ForceDonateurNature = Bản chất của người hiến tặng (Cá nhân hoặc Tập đoàn)

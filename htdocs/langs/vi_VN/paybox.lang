@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Thiết lập mô-đun PayBox
-PayBoxDesc=Mô-đun này cung cấp các trang cho phép thanh toán trên <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> của khách hàng. Điều này có thể được sử dụng cho thanh toán miễn phí hoặc cho thanh toán trên một đối tượng Dolibarr cụ thể (hóa đơn, đơn đặt hàng, ...)
+PayBoxDesc=Mô-đun này cung cấp các trang cho phép thanh toán trên <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> của khách hàng. Điều này có thể được sử dụng cho thanh toán miễn phí hoặc cho thanh toán trên một đối tượng ZionOne cụ thể (hóa đơn, đơn đặt hàng, ...)
 PayBoxDoPayment=Thanh toán bằng Paybox
 YouWillBeRedirectedOnPayBox=Bạn sẽ được chuyển hướng trên trang Paybox được bảo mật để nhập thông tin thẻ tín dụng của bạn
 SetupPayBoxToHavePaymentCreatedAutomatically=Thiết lập Paybox của bạn với url <b>%s</b> để thanh toán được tạo tự động khi được xác thực bởi Paybox.

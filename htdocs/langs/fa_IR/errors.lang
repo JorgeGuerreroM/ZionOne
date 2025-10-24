@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=خطائی نیست، حرکت می‌کنیم
@@ -52,12 +52,12 @@ ErrorWrongDate=تاریخ، صحیح نمی‌باشد!
 ErrorFailedToWriteInDir=امکان نوشتن در پوشۀ %s وجود ندارد
 ErrorFailedToBuildArchive=Failed to build archive file %s
 ErrorFoundBadEmailInFile=برای %s سطر در فایل روش‌اشتباه درج رایانامه پیدا شد (مثلا سطر %s با email=%s)
-ErrorUserCannotBeDelete=امکان حذف کاربر وجود ندارد. ممکن است با سایر اجزای Dolibarr در ارتباط باشد.
+ErrorUserCannotBeDelete=امکان حذف کاربر وجود ندارد. ممکن است با سایر اجزای ZionOne در ارتباط باشد.
 ErrorFieldsRequired=Some required fields have been left blank.
 ErrorSubjectIsRequired=The email subject is required
 ErrorInAddAttachmentsImageBaseOnMedia=Error in creating image files into media directory for attachment
 ErrorInAddAttachmentsImageBaseIsSrcData=Error in creating image files (found as data:) into temp directory for attachment
-ErrorFailedToCreateDir=ایجاد یک پوشه با شکست مواجه شد. بررسی کنید، کاربر سرور وب، دارای مجوزهای نوشتاری بر روی پوشۀ documents مربوط به Dolibarr باشد در صورتی که مؤلفۀ <b>safe_mode</b> روی این نسخه از PHP فعال باشد، بررسی کنید فایل‌های PHP مربوط به Dolibarr متعلق به کاربر سرور وب (یا گروه مربوطه) باشد.
+ErrorFailedToCreateDir=ایجاد یک پوشه با شکست مواجه شد. بررسی کنید، کاربر سرور وب، دارای مجوزهای نوشتاری بر روی پوشۀ documents مربوط به ZionOne باشد در صورتی که مؤلفۀ <b>safe_mode</b> روی این نسخه از PHP فعال باشد، بررسی کنید فایل‌های PHP مربوط به ZionOne متعلق به کاربر سرور وب (یا گروه مربوطه) باشد.
 ErrorNoMailDefinedForThisUser=نشانی رایانامه برای این کاربر تعریف نشده است
 ErrorSetupOfEmailsNotComplete=Setup of emails is not complete
 ErrorFeatureNeedJavascript=This feature needs JavaScript to be activated to work. Change this in setup - display.
@@ -86,7 +86,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=The field <b>%s</b> must not co
 ErrorFieldMustHaveXChar=بخش <b>%s</b> حداقل باید %s نویسه داشته باشد.
 ErrorNoAccountancyModuleLoaded=هیچ واحد حساب‌داری فعال نیست
 ErrorExportDuplicateProfil=این نام نمایه برای این مجموعۀ صادرات قبلا وجود داشته باشد
-ErrorLDAPSetupNotComplete=تطبیق Dolibarr-LDAP کامل نیست.
+ErrorLDAPSetupNotComplete=تطبیق ZionOne-LDAP کامل نیست.
 ErrorLDAPMakeManualTest=یک فایل .ldif در پوشۀ  %s تولید شد. تلاش کنید آن را از خط فرمان به شکل دستی اجرا کنید تا اطلاعات بیشتری در مورد خطاها داشته باشید.
 ErrorCantSaveADoneUserWithZeroPercentage=در صورتی که بخش "انجام شده توسط" هم پر شده باشد، امکان ذخیرۀ یک کنش با "وضعیت شروع نشده" نیست.
 ErrorPleaseTypeBankTransactionReportName=لطفا نام اطلاعیۀ بانک را در خصوص چگونگی گزارش ورودی وارد کنید (حالت YYYYMM  یا YYYYMMDD)
@@ -120,8 +120,8 @@ ErrorProdIdAlreadyExist=%s به یک‌سوم دیگر اختصاص داده ش�
 ErrorFailedToSendPassword=ارسال گذرواژه موفقیت‌آمیز نبو
 ErrorFailedToLoadRSSFile=دریافت خوراک RSS ممکن نبود. در صورتی که پیام خطا اطلاعات کافی ارائه نمی‌دهد، تلاش کنید مقدارثابت MAIN_SIMPLEXMLLOAD_DEBUG  را فعال کنید.
 ErrorForbidden=دسترسی بسته است. <br> شما در تلاشید به صفحه، بخش یا قابلیتی از یک واحد غیرفعال مراجعه نموده یا این‌که این تلاش برای دسترسی توسط یک نشست بدون مجوز که برای نام کاربری شما مجاز نیست انجام می‌شود.
-ErrorForbidden2=مجوزهای این کاربر از فهرست %s->%s از صفحۀ مدیر Dolibarr قابل تعیین کردن است.
-ErrorForbidden3=به نظر می‌رسد Dolibarr از طریق یک نشست تصدیق شده مورد استفاده قرار نگرفته است. نگاهی به مستندات راهنمای برپاسازی Dolibarr نموده تا چگونگی مدیریت تصدیق‌ها را بدانید (htaccess، mod_auth یا غیره...).
+ErrorForbidden2=مجوزهای این کاربر از فهرست %s->%s از صفحۀ مدیر ZionOne قابل تعیین کردن است.
+ErrorForbidden3=به نظر می‌رسد ZionOne از طریق یک نشست تصدیق شده مورد استفاده قرار نگرفته است. نگاهی به مستندات راهنمای برپاسازی ZionOne نموده تا چگونگی مدیریت تصدیق‌ها را بدانید (htaccess، mod_auth یا غیره...).
 ErrorForbidden4=Note: clear your browser cookies to destroy existing sessions for this login.
 ErrorNoImagickReadimage=کلاس Imagick در این نسخۀ PHP یافت نشد. امکان ارائۀ پیش‌نمایش وجود ندارد. مدیران می‌توانند این زبانه را از فهرست برپاسازی - نمایش غیرفعال کنند.
 ErrorRecordAlreadyExists=این ردیف قبلا وجود داشته است
@@ -144,8 +144,8 @@ ErrorWebServerUserHasNotPermission=حساب کاربری <b>%s</b> برای اج
 ErrorNoActivatedBarcode=هیچ نوع بارکدی فعال نشده
 ErrUnzipFails=امکان استخراج و unzip %s توسط ZipArchive وجود نداشت
 ErrNoZipEngine=هیچ موتوری برای فایل zip/unzip %s در این PHP وجود ندارد
-ErrorFileMustBeADolibarrPackage=فایل %s باید یک بستۀ zip از Dolibarr باشد
-ErrorModuleFileRequired=شما باید یک بستۀ واحد Dolibarr انتخاب کرده باشید
+ErrorFileMustBeADolibarrPackage=فایل %s باید یک بستۀ zip از ZionOne باشد
+ErrorModuleFileRequired=شما باید یک بستۀ واحد ZionOne انتخاب کرده باشید
 ErrorPhpCurlNotInstalled=PHP CURL نصب نشده است، برای صحبت با Paypal ضروری است.
 ErrorFailedToAddToMailmanList=اضافه کردن ردیف %s به فهرست Mailman %s یا پایگاه SPIP مقدور نبود
 ErrorFailedToRemoveToMailmanList=حذف ردیف %s از فهرست Mailman %s یا پایگاه SPIP مقدور نبود
@@ -158,7 +158,7 @@ ErrorDateMustBeInFuture=The date must be greater than today
 ErrorStartDateGreaterEnd=The start date is greater than the end date
 ErrorPaymentModeDefinedToWithoutSetup=حالت پرداخت به %s تنظیم شده اما برپاسازی واحد صورت‌حساب کامل نیست تا اطلاعات مربوط به این حالت پرداخت را تعریف کرده و نمایش دهد.
 ErrorPHPNeedModule=خطا، برای استفاده از این قابلیت روی PHP شما باید واحد <b>%s</b> نصب شده باشد.
-ErrorOpenIDSetupNotComplete=شما تنظیمات Dolibarr را پیکربندی کرده‌اید تا تصدیق ورود OpenID  را مجاز کنید، اما نشانی خدمات openID در مقدارثابت %s تعریف نشده است
+ErrorOpenIDSetupNotComplete=شما تنظیمات ZionOne را پیکربندی کرده‌اید تا تصدیق ورود OpenID  را مجاز کنید، اما نشانی خدمات openID در مقدارثابت %s تعریف نشده است
 ErrorWarehouseMustDiffers=انبار مبدأ و مقصد باید متفاوت باشند
 ErrorBadFormat=شکل بد!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=خطا، این عضو هنوز به هیچ شخص سوم موجودی متصل نشده است. این کار را بکنید یا این که قبل از ساخت یک عضویت با صورت‌حساب، یک شخص سوم جدید بسازید.
@@ -342,7 +342,7 @@ ErrorTooManyLinesToProcessPleaseUseAMoreSelectiveFilter=Too many lines to proces
 ErrorEmptyValueForQty=Quantity cannot be zero.
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Your PHP parameter upload_max_filesize (%s) is higher than PHP parameter post_max_size (%s). This is not a consistent setup.
-WarningPasswordSetWithNoAccount=یک گذرواژه برای این عضو تنظیم شده است. با این‌حال هیچ حساب کاربری‌ای ساخته نشده است. بنابراین این گذرواژه برای ورود به Dolibarr قابل استفاده نیست. ممکن است برای یک رابط/واحد بیرونی قابل استفاده باشد، اما اگر شما نخواهید هیچ نام کاربری ورود و گذرواژه‌ای برای یک عضو استفاده کنید، شما می‌توانید گزینۀ "ایجاد یک نام‌ورد برای هر عضو" را از برپاسازی واحد اعضاء غیرفعال کنید. در صورتی که نیاز دارید که نام‌ورود داشته باشید اما گذرواژه نداشته باشید، می‌توانید این بخش را خالی گذاشته تا از این هشدار بر حذر باشید. نکته: همچنین نشانی رایانامه می‌تواند در صورتی که عضو به یک‌کاربر متصل باشد، می‌‌تواند مورد استفاده قرار گیرد
+WarningPasswordSetWithNoAccount=یک گذرواژه برای این عضو تنظیم شده است. با این‌حال هیچ حساب کاربری‌ای ساخته نشده است. بنابراین این گذرواژه برای ورود به ZionOne قابل استفاده نیست. ممکن است برای یک رابط/واحد بیرونی قابل استفاده باشد، اما اگر شما نخواهید هیچ نام کاربری ورود و گذرواژه‌ای برای یک عضو استفاده کنید، شما می‌توانید گزینۀ "ایجاد یک نام‌ورد برای هر عضو" را از برپاسازی واحد اعضاء غیرفعال کنید. در صورتی که نیاز دارید که نام‌ورود داشته باشید اما گذرواژه نداشته باشید، می‌توانید این بخش را خالی گذاشته تا از این هشدار بر حذر باشید. نکته: همچنین نشانی رایانامه می‌تواند در صورتی که عضو به یک‌کاربر متصل باشد، می‌‌تواند مورد استفاده قرار گیرد
 WarningMandatorySetupNotComplete=Click here to setup main parameters
 WarningEnableYourModulesApplications=این گزینه را برای فعال کردن واحدها و برنامه‌های مختلف کلیک کنید
 WarningSafeModeOnCheckExecDir=هشدار، قابلیت <b>safe_mode</b> در PHP روشن است، بنابراین این دستور باید درون یک پوشه که با استفاده از مؤلفۀ PHP با عنوان <b>safe_mode_exec_dir</b> تعریف شده است، قرار گیرد.

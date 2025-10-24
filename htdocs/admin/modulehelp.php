@@ -32,7 +32,7 @@ if (!defined('NOTOKENRENEWAL')) {
 }
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
@@ -294,7 +294,7 @@ if ($ip) {
 	$text .= $ip;
 }
 $lastactivationversion = (empty($tmp['lastactivationversion']) ? '' : $tmp['lastactivationversion']);
-if ($lastactivationversion && $lastactivationversion != 'dolibarr') {
+if ($lastactivationversion && $lastactivationversion != 'ZionOne') {
 	$text .= '<br><span class="opacitymedium">'.$langs->trans("LastActivationVersion").':</span> ';
 	$text .= $lastactivationversion;
 }
@@ -374,15 +374,15 @@ if ($mode == 'desc') {
 			$textexternal .= img_picto($langs->trans("DownloadOfModuleFileDisallowed"), 'download', 'class="opacitymedium paddingleft"');
 		}
 
-		if ($objMod->editor_name != 'dolibarr') {
+		if ($objMod->editor_name != 'ZionOne') {
 			$textexternal .= '<br><span class="opacitymedium">'.$langs->trans("Publisher").':</span> '.(empty($objMod->editor_name) ? $langs->trans("Unknown") : $objMod->editor_name);
 		}
 		$editor_url = $objMod->editor_url;
 		if (!preg_match('/^http/', $editor_url)) {
 			$editor_url = 'http://'.$editor_url;
 		}
-		if (!empty($objMod->editor_url) && !preg_match('/dolibarr\.org/i', $objMod->editor_url)) {
-			$textexternal .= ($objMod->editor_name != 'dolibarr' ? ' - ' : '').img_picto('', 'globe').' <a href="'.$editor_url.'" target="_blank" rel="noopener noreferrer external">'.$objMod->editor_url.'</a>';
+		if (!empty($objMod->editor_url) && !preg_match('/ZionOne\.org/i', $objMod->editor_url)) {
+			$textexternal .= ($objMod->editor_name != 'ZionOne' ? ' - ' : '').img_picto('', 'globe').' <a href="'.$editor_url.'" target="_blank" rel="noopener noreferrer external">'.$objMod->editor_url.'</a>';
 		}
 		$text .= $textexternal;
 	} else {

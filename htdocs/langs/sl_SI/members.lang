@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Področje članstva
 MemberCard=Članska kartica
 SubscriptionCard=Naročniška kartica
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Seznam potrjenih javnih članov
 ErrorThisMemberIsNotPublic=Ta član ni javen
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Drug član (ime: <b>%s</b>, uporabniško ime: <b>%s</b>) je že povezan s partnerjem <b>%s</b>. Najprej odstranite to povezavo, ker partner ne more biti povezan samo s članom (in obratno).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Zaradi varnostnih razlogov, morate imeti dovoljenje za urejanje vseh uporabnikov, če želite povezati člana z uporabnikom, ki ni vaš.
-SetLinkToUser=Povezava z Dolibarr uporabnikom
-SetLinkToThirdParty=Povezava z Dolibarr partnerjem
+SetLinkToUser=Povezava z ZionOne uporabnikom
+SetLinkToThirdParty=Povezava z ZionOne partnerjem
 MemberCountersArePublic=Števci veljavnih članov so javni
 MembersCards=Izdelava izkaznic za člane
 MembersList=Seznam članov
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Ali ste prepričani, da želite izbrisati ta prispevek
 Filehtpasswd=Datoteka htpasswd
 ValidateMember=Potrdi člana
 ConfirmValidateMember=Ali ste prepričani, da želite potrditi tega člana?
-FollowingLinksArePublic=Naslednje povezave so odprte strani, ki niso zaščitene z nobenim dovoljenjem Dolibarr. Niso oblikovane strani, podane so kot primer, ki prikazuje, kako navesti bazo podatkov članov.
+FollowingLinksArePublic=Naslednje povezave so odprte strani, ki niso zaščitene z nobenim dovoljenjem ZionOne. Niso oblikovane strani, podane so kot primer, ki prikazuje, kako navesti bazo podatkov članov.
 PublicMemberList=Javni seznam članov
 BlankSubscriptionForm=Javni obrazec za samoprijavo
-BlankSubscriptionFormDesc=Dolibarr vam lahko zagotovi javni URL/spletno mesto, ki zunanjim obiskovalcem omogoča, da zahtevajo naročnino na fundacijo. Če je omogočen spletni plačilni modul, se lahko samodejno zagotovi tudi plačilni obrazec.
+BlankSubscriptionFormDesc=ZionOne vam lahko zagotovi javni URL/spletno mesto, ki zunanjim obiskovalcem omogoča, da zahtevajo naročnino na fundacijo. Če je omogočen spletni plačilni modul, se lahko samodejno zagotovi tudi plačilni obrazec.
 EnablePublicSubscriptionForm=Omogočite javno spletno stran s samoprijavnico
 ForceMemberType=Vsili vrsto člana
 ExportDataset_member_1=Člani in prispevki

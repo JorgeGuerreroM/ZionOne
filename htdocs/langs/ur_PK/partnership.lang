@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=چیک کرنے کے لیے بیک لنکس
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=سبسکرپشن کی میعاد ختم ہونے پر شراکت کی حیثیت کو منسوخ کرنے سے پہلے دن کا نوٹ
 ReferingWebsiteCheck=ویب سائٹ کا حوالہ دیتے ہوئے چیک کریں۔
 ReferingWebsiteCheckDesc=آپ یہ چیک کرنے کے لیے ایک خصوصیت کو فعال کر سکتے ہیں کہ آپ کے شراکت داروں نے اپنی ویب سائٹ پر آپ کی ویب سائٹ کے ڈومینز میں بیک لنک شامل کیا ہے۔
-PublicFormRegistrationPartnerDesc=Dolibarr آپ کو ایک عوامی URL/ویب سائٹ فراہم کر سکتا ہے تاکہ بیرونی زائرین کو پارٹنرشپ پروگرام کا حصہ بننے کی درخواست کر سکے۔
+PublicFormRegistrationPartnerDesc=ZionOne آپ کو ایک عوامی URL/ویب سائٹ فراہم کر سکتا ہے تاکہ بیرونی زائرین کو پارٹنرشپ پروگرام کا حصہ بننے کی درخواست کر سکے۔
 # Object
 DeletePartnership=شراکت کو حذف کریں۔
 PartnershipDedicatedToThisThirdParty=شراکت داری اس تیسرے فریق کے لیے وقف ہے۔

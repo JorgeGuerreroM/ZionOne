@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=PayBox moduļa iestatīšana
-PayBoxDesc=Šis modulis piedāvā lapas, kas ļauj klientiem veikt maksājumus <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>. To var izmantot bezmaksas maksājumam vai maksājumam par konkrētu Dolibarr objektu (rēķins, pasūtījums, ...)
+PayBoxDesc=Šis modulis piedāvā lapas, kas ļauj klientiem veikt maksājumus <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a>. To var izmantot bezmaksas maksājumam vai maksājumam par konkrētu ZionOne objektu (rēķins, pasūtījums, ...)
 PayBoxDoPayment=Maksājiet ar Paybox
 YouWillBeRedirectedOnPayBox=Jums tiks novirzīts uz drošu Paybox lapā, lai ievadi kredītkartes informāciju
 SetupPayBoxToHavePaymentCreatedAutomatically=Izveidojiet savu Paybox ar URL <b> %s </b>, lai maksājums tiktu izveidots automātiski, ja to apstiprina Paybox.

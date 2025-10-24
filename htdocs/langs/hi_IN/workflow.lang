@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=वर्कफ़्लो मॉड्यूल सेटअप
 WorkflowDesc=यह मॉड्यूल कुछ स्वचालित क्रियाएँ प्रदान करता है। डिफ़ॉल्ट रूप से, वर्कफ़्लो खुला रहता है (आप अपनी इच्छानुसार क्रम में कार्य कर सकते हैं) लेकिन यहाँ आप कुछ स्वचालित क्रियाएँ सक्रिय कर सकते हैं।
 ThereIsNoWorkflowToModify=सक्रिय मॉड्यूल के साथ कोई वर्कफ़्लो संशोधन उपलब्ध नहीं है।

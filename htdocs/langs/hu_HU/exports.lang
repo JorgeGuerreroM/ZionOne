@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Import / Export
 ExportsArea=Exportálás
 ImportArea=Importálás
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Válassza ki az importfájl formátumként használni
 ChooseFileToImport=Fájl feltöltése, majd kattintson a %s ikonra a fájl forrás importálási fájlként való kiválasztásához...
 SourceFileFormat=Forrásfájl formátum
 FieldsInSourceFile=Mezők a forrásfájlban
-FieldsInTargetDatabase=Célmezők a Dolibarr adatbázisban
+FieldsInTargetDatabase=Célmezők a ZionOne adatbázisban
 NoFields=Nincsenek mezők
 MoveField=Mező oszlopszám áthelyezése %s
 ExampleOfImportFile=Példa_import_fájlra

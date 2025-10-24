@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Üzvlər sahəsi
 MemberCard=Üzv kartı
 SubscriptionCard=Abunə kartı
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Təsdiqlənmiş ictimai üzvlərin siyahısı
 ErrorThisMemberIsNotPublic=Bu üzv ictimai deyil
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Digər üzv (ad: <b>%s</b>, giriş: <b>%s</b>) artıq üçüncü tərəflə əlaqələndirilib <b>%s</b>. Əvvəlcə bu linki silin, çünki üçüncü tərəf yalnız üzvlə əlaqələndirilə bilməz (və əksinə).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Təhlükəsizliyə görə, üzvü sizin olmayan istifadəçi ilə əlaqələndirə bilmək üçün sizə bütün istifadəçiləri redaktə etmək icazəsi verilməlidir.
-SetLinkToUser=Dolibarr istifadəçisinə keçid
-SetLinkToThirdParty=Dolibarr üçüncü tərəfə keçid
+SetLinkToUser=ZionOne istifadəçisinə keçid
+SetLinkToThirdParty=ZionOne üçüncü tərəfə keçid
 MemberCountersArePublic=Etibarlı üzvlərin sayğacları açıqdır
 MembersCards=Üzvlər üçün kartların yaradılması
 MembersList=Üzvlərin siyahısı
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Bu töhfəni silmək istədiyinizə əminsiniz?
 Filehtpasswd=htpasswd faylı
 ValidateMember=Üzvü təsdiq edin
 ConfirmValidateMember=Bu üzvü doğrulamaq istədiyinizə əminsiniz?
-FollowingLinksArePublic=Aşağıdakı linklər heç bir Dolibarr icazəsi ilə qorunmayan açıq səhifələrdir. Onlar formatlaşdırılmış səhifələr deyil, üzvlərin verilənlər bazasını necə siyahıya alacağını göstərmək üçün nümunə kimi təqdim olunur.
+FollowingLinksArePublic=Aşağıdakı linklər heç bir ZionOne icazəsi ilə qorunmayan açıq səhifələrdir. Onlar formatlaşdırılmış səhifələr deyil, üzvlərin verilənlər bazasını necə siyahıya alacağını göstərmək üçün nümunə kimi təqdim olunur.
 PublicMemberList=İctimai üzv siyahısı
 BlankSubscriptionForm=İctimai özünü qeydiyyat forması
-BlankSubscriptionFormDesc=Dolibarr xarici ziyarətçilərin fonda abunə olmağı xahiş etməsinə icazə vermək üçün sizə ictimai URL/veb-sayt təqdim edə bilər. Onlayn ödəniş modulu işə salınarsa, ödəniş forması da avtomatik olaraq təqdim edilə bilər.
+BlankSubscriptionFormDesc=ZionOne xarici ziyarətçilərin fonda abunə olmağı xahiş etməsinə icazə vermək üçün sizə ictimai URL/veb-sayt təqdim edə bilər. Onlayn ödəniş modulu işə salınarsa, ödəniş forması da avtomatik olaraq təqdim edilə bilər.
 EnablePublicSubscriptionForm=Öz-özünə abunə forması ilə ictimai veb saytı aktivləşdirin
 ForceMemberType=Üzv növünü məcbur edin
 ExportDataset_member_1=Üzvlər və töhfələr

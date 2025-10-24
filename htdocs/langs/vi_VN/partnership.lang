@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Liên kết ngược để kiểm tra
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb ngày trước khi hủy trạng thái hợp tác khi đăng ký đã hết hạn
 ReferingWebsiteCheck=Kiểm tra trang web giới thiệu
 ReferingWebsiteCheckDesc=Bạn có thể bật tính năng để kiểm tra xem đối tác của bạn đã thêm liên kết ngược vào tên miền trang web của bạn trên trang web riêng của họ chưa.
-PublicFormRegistrationPartnerDesc=Dolibarr có thể cung cấp cho bạn URL/trang web công khai để cho phép khách truy cập bên ngoài yêu cầu tham gia chương trình hợp tác.
+PublicFormRegistrationPartnerDesc=ZionOne có thể cung cấp cho bạn URL/trang web công khai để cho phép khách truy cập bên ngoài yêu cầu tham gia chương trình hợp tác.
 # Object
 DeletePartnership=Xóa quan hệ đối tác
 PartnershipDedicatedToThisThirdParty=Quan hệ đối tác dành riêng cho bên thứ ba này

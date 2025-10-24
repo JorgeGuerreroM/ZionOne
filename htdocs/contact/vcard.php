@@ -26,7 +26,7 @@
  *		\brief      Onglet vcard d'un contact
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';
 require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
@@ -63,9 +63,9 @@ if ($contact->socid) {
 
 // We create VCard
 $v = new vCard();
-$v->setProdId('Dolibarr '.DOL_VERSION);
+$v->setProdId('ZionOne '.DOL_VERSION);
 
-$v->setUid('DOLIBARR-CONTACTID-'.$contact->id);
+$v->setUid('ZionOne-CONTACTID-'.$contact->id);
 $v->setName($contact->lastname, $contact->firstname, "", $contact->civility, "");
 $v->setFormattedName($contact->getFullName($langs, 1));
 

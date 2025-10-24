@@ -257,12 +257,12 @@ class Ldap
 	const SYNCHRO_NONE = 0;
 
 	/**
-	 * @var int Dolibarr to LDAP synchronization
+	 * @var int ZionOne to LDAP synchronization
 	 */
 	const SYNCHRO_DOLIBARR_TO_LDAP = 1;
 
 	/**
-	 * @var int LDAP to Dolibarr synchronization
+	 * @var int LDAP to ZionOne synchronization
 	 */
 	const SYNCHRO_LDAP_TO_DOLIBARR = 2;
 

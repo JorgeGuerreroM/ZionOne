@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# ZionOne language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -42,7 +42,7 @@ FileSaved=Le fichier a été enregistré avec succès
 FileTransferComplete=Fichier(s) téléchargé(s) avec succès
 NbOfEntries=Nombre d'entrées
 GoToWikiHelpPage=Lire l'aide en ligne (accès Internet nécessaire)
-DolibarrInHttpAuthenticationSoPasswordUseless=Le mode d'authentification Dolibarr est défini sur <b>%s</b> dans le fichier de configuration <b>conf.php</b>.<br> Cela signifie que la base de données de mots de passe est externe à Dolibarr, donc changer ce champ peut ne pas avoir d'effet .
+ZionOneInHttpAuthenticationSoPasswordUseless=Le mode d'authentification ZionOne est défini sur <b>%s</b> dans le fichier de configuration <b>conf.php</b>.<br> Cela signifie que la base de données de mots de passe est externe à ZionOne, donc changer ce champ peut ne pas avoir d'effet .
 AdministratorDesc=Administrateur système (peut administrer les utilisateurs, les autorisations mais également la configuration du système et des modules)
 PasswordForgotten=Mot de passe oublié?
 AuthenticationMode=Mode d'authentification
@@ -50,8 +50,8 @@ RequestedUrl=URL requise
 RequestLastAccessInError=Erreur de demande d'accès à la base de données la plus récente
 ReturnCodeLastAccessInError=Code de retour pour la dernière erreur de demande d'accès à la base de données
 InformationLastAccessInError=Informations pour la dernière erreur de demande d'accès à la base de données
-YouCanSetOptionDolibarrMainProdToZero=Vous pouvez lire le fichier journal ou définir l'option $dolibarr_main_prod sur « 0 » dans votre fichier de configuration pour obtenir plus d'informations.
-InformationToHelpDiagnose=Ces informations peuvent être utiles à des fins de diagnostic (vous pouvez définir l'option $dolibarr_main_prod sur « 1 » pour masquer les informations sensibles)
+YouCanSetOptionZionOneMainProdToZero=Vous pouvez lire le fichier journal ou définir l'option $ZionOne_main_prod sur « 0 » dans votre fichier de configuration pour obtenir plus d'informations.
+InformationToHelpDiagnose=Ces informations peuvent être utiles à des fins de diagnostic (vous pouvez définir l'option $ZionOne_main_prod sur « 1 » pour masquer les informations sensibles)
 LineID=ID de ligne
 WarningYouHaveAtLeastOneTaskLate=Attention, vous avez au moins un élément qui a dépassé le temps de tolérance.
 MediaBrowser=Navigateur multimédia
@@ -163,8 +163,8 @@ ActionsOnContract=Evénements pour ce contrat
 ActionsOnProduct=Événements autour de ce produit
 Completed=Complété
 FilterOnInto=Critères de recherche '<strong>%s</strong>' dans les champs %s
-DolibarrStateBoard=Statistiques de la base de données
-DolibarrWorkBoard=Articles ouverts
+ZionOneStateBoard=Statistiques de la base de données
+ZionOneWorkBoard=Articles ouverts
 SelectTheTagsToAssign=Sélectionnez les balises/catégories à attribuer
 FromDate=De
 FromLocation=De
@@ -208,7 +208,7 @@ YouCanChangeValuesForThisListFromDictionarySetup=Vous pouvez modifier les valeur
 YouCanChangeValuesForThisListFrom=Vous pouvez modifier les valeurs de cette liste dans le menu %s
 MenuAccountancy=Compte
 MenuTaxesAndSpecialExpenses=Impôts | Dépenses spéciales
-ThisLimitIsDefinedInSetupAt=Limite Dolibarr (Menu %s): %s Ko, limite PHP (Param %s): %s Ko
+ThisLimitIsDefinedInSetupAt=Limite ZionOne (Menu %s): %s Ko, limite PHP (Param %s): %s Ko
 NoFileFound=Aucun document téléchargé
 Layout=Disposition
 Screen=Écran
@@ -217,7 +217,7 @@ FreeLineOfType=Élément de texte libre, type
 ReGeneratePDF=Régénérer le PDF
 Merge=Fusion
 WarningYouAreInMaintenanceMode=Attention, vous êtes en mode maintenance : seul le login <b>%s</b> est autorisé à utiliser l'application dans ce mode.
-CoreErrorMessage=Désolé, une erreur s'est produite. Contactez votre administrateur système pour vérifier les journaux ou désactiver $ dolibarr_main_prod = 1 pour obtenir plus d'informations.
+CoreErrorMessage=Désolé, une erreur s'est produite. Contactez votre administrateur système pour vérifier les journaux ou désactiver $ ZionOne_main_prod = 1 pour obtenir plus d'informations.
 CreditOrDebitCard=Carte de crédit ou de débit
 FieldsWithIsForPublic=Les champs avec <b>%s</b> sont affichés dans la liste publique des membres. Si vous ne le souhaitez pas, décochez la case « public ».
 AccordingToGeoIPDatabase=(selon la conversion GeoIP)
@@ -270,7 +270,7 @@ GroupByX=Regrouper par %s
 ViewFlatList=Afficher la liste forfaitaire
 ViewSubAccountList=Afficher le grand livre des sous-comptes
 RemoveString=Supprimer la chaîne '%s'
-SomeTranslationAreUncomplete=Certaines des langues proposées peuvent être partiellement traduites ou contenir des erreurs. Aidez-nous à corriger votre langue en vous inscrivant sur <a href="https://transifex.com/projects/p/dolibarr/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/dolibarr/</a> pour apporter vos améliorations.
+SomeTranslationAreUncomplete=Certaines des langues proposées peuvent être partiellement traduites ou contenir des erreurs. Aidez-nous à corriger votre langue en vous inscrivant sur <a href="https://transifex.com/projects/p/ZionOne/" target="_blank" rel="noopener noreferrer external">https://transifex.com/projects/p/ZionOne/</a> pour apporter vos améliorations.
 PrivateDownloadLinkDesc=Vous devez être connecté et vous avez besoin d'autorisations pour afficher ou télécharger le fichier
 Download=Télécharger
 Fiscalyear=Année fiscale
@@ -359,7 +359,7 @@ DeleteFileText=Voulez-vous vraiment supprimer ce fichier ?
 ShowOtherLanguages=Afficher d'autres langues
 SwitchInEditModeToAddTranslation=Passez en mode édition pour ajouter des traductions pour cette langue
 AmountMustBePositive=Le montant doit être positif
-CREATEInDolibarr=Enregistrement %s créé
+CREATEInZionOne=Enregistrement %s créé
 DefaultMailModel=Modèle de courrier par défaut
 PublicVendorName=Nom public du vendeur
 SecurityTokenHasExpiredSoActionHasBeenCanceledPleaseRetry=Le jeton de sécurité a expiré, l'action a donc été annulée. Veuillez réessayer.

@@ -17,7 +17,7 @@
  * Copyright (C) 2019-2020	Josep Lluís Amador			<joseplluis@lliuretic.cat>
  * Copyright (C) 2019-2025  Frédéric France				<frederic.france@free.fr>
  * Copyright (C) 2020		Open-Dsi					<support@open-dsi.fr>
- * Copyright (C) 2022		ButterflyOfFire				<butterflyoffire+dolibarr@protonmail.com>
+ * Copyright (C) 2022		ButterflyOfFire				<butterflyoffire+ZionOne@protonmail.com>
  * Copyright (C) 2023-2024	Alexandre Janniaux			<alexandre.janniaux@gmail.com>
  * Copyright (C) 2024		William Mead				<william.mead@manchenumerique.fr>
  * Copyright (C) 2024-2025	MDW							<mdeweerd@users.noreply.github.com>
@@ -1039,7 +1039,7 @@ class Societe extends CommonObject
 
 		$this->db->begin();
 
-		// For automatic creation during create action (not used by Dolibarr GUI, can be used by scripts)
+		// For automatic creation during create action (not used by ZionOne GUI, can be used by scripts)
 		if ($this->code_client == -1 || $this->code_client === 'auto') {
 			$this->get_codeclient($this, 0);
 		}
@@ -1896,7 +1896,7 @@ class Societe extends CommonObject
 	 *
 	 *    @param	int		$rowid			Id of third party to load
 	 *    @param    string	$ref			Reference of third party, name (Warning, this can return several records)
-	 *    @param    string	$ref_ext       	External reference of third party (Warning, this information is a free field not provided by Dolibarr)
+	 *    @param    string	$ref_ext       	External reference of third party (Warning, this information is a free field not provided by ZionOne)
 	 *    @param    string	$barcode       	Barcode of third party to load
 	 *    @param    string	$idprof1		Prof id 1 of third party (Warning, this can return several records)
 	 *    @param    string	$idprof2		Prof id 2 of third party (Warning, this can return several records)
@@ -2224,7 +2224,7 @@ class Societe extends CommonObject
 	 *
 	 *    @param	int		$rowid			Id of third party
 	 *    @param    string	$ref			Reference of third party, name (Warning, this can return several records)
-	 *    @param    string	$ref_ext       	External reference of third party (Warning, this information is a free field not provided by Dolibarr)
+	 *    @param    string	$ref_ext       	External reference of third party (Warning, this information is a free field not provided by ZionOne)
 	 *    @param    string	$barcode       	Barcode of third party to load
 	 *    @param    string	$idprof1		Prof id 1 of third party (Warning, this can return several records)
 	 *    @param    string	$idprof2		Prof id 2 of third party (Warning, this can return several records)
@@ -2555,7 +2555,7 @@ class Societe extends CommonObject
 	 *  Define third party as a customer
 	 *
 	 *	@return		int		Return integer <0 if KO, >0 if OK
-	 *  @since dolibarr v19
+	 *  @since ZionOne v19
 	 */
 	public function setAsCustomer()
 	{

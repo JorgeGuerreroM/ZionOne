@@ -56,7 +56,7 @@ class InterfaceActionsAuto extends DolibarrTriggers
 	}
 
 	/**
-	 * Function called when a Dolibarr business event is done.
+	 * Function called when a ZionOne business event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
 	 *
 	 * Following properties may be set before calling trigger. The may be completed by this trigger to be used for writing the event into database:
@@ -1623,7 +1623,7 @@ class InterfaceActionsAuto extends DolibarrTriggers
 
 		// Fields defined when action is an email (content should be into object->actionmsg to be added into event note, subject should be into object->actionmsg2 to be added into event label)
 		if (!property_exists($object, 'email_fields_no_propagate_in_actioncomm') || empty($object->email_fields_no_propagate_in_actioncomm)) {
-			'@phan-var-force ActionComm $object';  // TODO: None of the dolibarr classes has all the fields, check class type or properties (email_date)
+			'@phan-var-force ActionComm $object';  // TODO: None of the ZionOne classes has all the fields, check class type or properties (email_date)
 			// If event is to record a message after an email received, we use the date of email as date of event.
 			if (!empty($object->email_date) && $actioncomm->type_code === 'AC_TICKET_CREATE') {
 				$actioncomm->datep         = $object->email_date;
@@ -1673,7 +1673,7 @@ class InterfaceActionsAuto extends DolibarrTriggers
 		if ($ret > 0 && getDolGlobalString('MAIN_COPY_FILE_IN_EVENT_AUTO')) {
 			// @phan-suppress-next-line PhanUndeclaredProperty
 			if (property_exists($object, 'attachedfiles') && is_array($object->attachedfiles) && array_key_exists('paths', $object->attachedfiles) && count($object->attachedfiles['paths']) > 0) {
-				// Note: None of the dolibarr classes seem to have an attachedfiles property
+				// Note: None of the ZionOne classes seem to have an attachedfiles property
 				// Get directory of object
 				$tmpelems = getElementProperties($object->element.($object->module ? '@'.$object->module : ''));
 				$destdir = $tmpelems['dir_output'].'/'.$ret;

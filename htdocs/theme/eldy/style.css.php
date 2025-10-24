@@ -155,7 +155,7 @@ if (empty($user->id) && !empty($_SESSION['dol_login'])) {
 
 // Define css type
 top_httphead('text/css');
-// Important: Following code is to avoid page request by browser and PHP CPU at each Dolibarr page access.
+// Important: Following code is to avoid page request by browser and PHP CPU at each ZionOne page access.
 if (empty($dolibarr_nocache)) {
 	header('Cache-Control: max-age=10800, public, must-revalidate');
 } else {
@@ -413,6 +413,40 @@ print 'toolTipBgColor='.$toolTipBgColor."\n";
 print 'toolTipFontColor='.$toolTipFontColor."\n";
 print 'getDolGlobalString("THEME_SATURATE_RATIO")='.getDolGlobalString('THEME_SATURATE_RATIO')." (must be between 0 and 1)\n";
 print '*/'."\n";
+/* ==================== LOGIN CUSTOM GREEN THEME ==================== */
+print "
+/* Fondo del login */
+body.login {
+    background-color: rgb($colorbackbody) !important;
+}
+
+/* Caja central del login */
+div.logincenter {
+    background-color: rgb($colorbacktabcard1) !important;
+    border: 1px solid rgb($colorbacklinebreak) !important;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Botón login */
+input.button {
+    background-color: rgba($butactionbg) !important;
+    color: rgb($textbutaction) !important;
+    border: 1px solid rgb($colorbackvmenu1) !important;
+    border-radius: 4px;
+}
+
+/* Hover del botón */
+input.button:hover {
+    background-color: rgb($colorbacklinepairhover) !important;
+}
+
+/* Inputs de usuario y contraseña */
+input[type=text], input[type=password] {
+    border: 1px solid rgb($colorbacklinepair1) !important;
+    background-color: rgb($colorbackbody) !important;
+}
+";
 
 
 // Include the global.inc.php that include the badges, btn, info-box, dropdown, progress...
@@ -421,3 +455,4 @@ require __DIR__.'/global.inc.php';
 if (is_object($db)) {
 	$db->close();
 }
+

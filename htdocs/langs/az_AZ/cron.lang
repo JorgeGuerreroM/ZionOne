@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Planlaşdırılmış işi oxuyun
 Permission23102 = Planlaşdırılmış işi yaradın/yeniləyin
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Deaktiv edin
 CronTaskInactive=Bu iş deaktiv edilib (planlaşdırılmayıb)
 CronId=İd
 CronClassFile=Sinif ilə fayl adı
-CronModuleHelp=Dolibarr modul kataloqunun adı (həmçinin xarici Dolibarr modulu ilə işləyir). <BR> Məsələn, Dolibarr Məhsul obyektinin /htdocs/<u>məhsulunun gətirmə metoduna zəng etmək üçünb0aacaa80d /class/product.class.php, modul üçün dəyər<br><i>məhsul</i>
-CronClassFileHelp=Yüklənəcək nisbi yol və fayl adı (yol veb serverin kök kataloquna nisbətəndir). <BR> Məsələn, Dolibarr Məhsul obyektinin gətirmə metoduna zəng etmək üçün htdocs/product/class/<u>product.class.php</u>, sinif fayl adı üçün dəyər<br><i>product/class/product/class .class.php</i>
-CronObjectHelp=The object name to load. <BR> For example to call the fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value for class file name is<br><i>Product</i>
-CronMethodHelp=Başlamaq üçün obyekt metodu. <BR> Məsələn, Dolibarr Məhsul obyektinin /htdocs/product/class/product.class.php gətirmə metoduna zəng etmək üçün, metodun dəyəridir. <br><i>getch</i>
-CronArgsHelp=The method arguments. <BR> For example to call the fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value for parameters can be<br><i>0, ProductRef</i>
+CronModuleHelp=ZionOne modul kataloqunun adı (həmçinin xarici ZionOne modulu ilə işləyir). <BR> Məsələn, ZionOne Məhsul obyektinin /htdocs/<u>məhsulunun gətirmə metoduna zəng etmək üçünb0aacaa80d /class/product.class.php, modul üçün dəyər<br><i>məhsul</i>
+CronClassFileHelp=Yüklənəcək nisbi yol və fayl adı (yol veb serverin kök kataloquna nisbətəndir). <BR> Məsələn, ZionOne Məhsul obyektinin gətirmə metoduna zəng etmək üçün htdocs/product/class/<u>product.class.php</u>, sinif fayl adı üçün dəyər<br><i>product/class/product/class .class.php</i>
+CronObjectHelp=The object name to load. <BR> For example to call the fetch method of ZionOne Product object /htdocs/product/class/product.class.php, the value for class file name is<br><i>Product</i>
+CronMethodHelp=Başlamaq üçün obyekt metodu. <BR> Məsələn, ZionOne Məhsul obyektinin /htdocs/product/class/product.class.php gətirmə metoduna zəng etmək üçün, metodun dəyəridir. <br><i>getch</i>
+CronArgsHelp=The method arguments. <BR> For example to call the fetch method of ZionOne Product object /htdocs/product/class/product.class.php, the value for parameters can be<br><i>0, ProductRef</i>
 CronCommandHelp=İcra etmək üçün sistem əmr xətti.
 CronCreateJob=Yeni Planlaşdırılmış İş yaradın
 CronFrom=From

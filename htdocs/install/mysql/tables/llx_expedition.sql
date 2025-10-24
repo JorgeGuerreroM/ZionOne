@@ -29,7 +29,7 @@ create table llx_expedition
   fk_soc                integer            NOT NULL,
   fk_projet  		    integer  DEFAULT NULL,
 
-  ref_ext               varchar(255),					-- reference into an external system (not used by dolibarr)
+  ref_ext               varchar(255),					-- reference into an external system (not used by ZionOne)
   ref_customer          varchar(255),					-- customer number
   date_creation         datetime,						-- date of creation
   fk_user_author        integer,						-- author of creation

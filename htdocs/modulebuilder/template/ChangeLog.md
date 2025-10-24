@@ -1,4 +1,4 @@
-# CHANGELOG MODULE MYMODULE FOR [DOLIBARR ERP CRM](https://www.dolibarr.org)
+# CHANGELOG MODULE MYMODULE FOR [ZionOne ERP CRM](https://www.ZionOne.org)
 
 ## 1.0
 

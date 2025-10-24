@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Arveldamine | Makse
 TaxModuleSetupToModifyRules=Mine <a href="%s">Maksude mooduli seadistusse</a> arvutusreeglite muutmiseks
 TaxModuleSetupToModifyRulesLT=Arvutusreeglite muutmiseks minge ettevõtte seadistusse <a href="%s">.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=匯出
 ImportArea=匯入
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=通過點選%s圖示選擇要匯入的檔案格式...
 ChooseFileToImport=上傳檔案，然後點擊%s圖示以選擇要匯入的檔案...
 SourceFileFormat=來源檔案格式
 FieldsInSourceFile=來源檔案欄位
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=沒有欄位
 MoveField=移動欄位行號 %s
 ExampleOfImportFile=匯入檔案的範例

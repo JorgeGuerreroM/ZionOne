@@ -57,7 +57,7 @@ abstract class ModeleCaptcha
 	public $db;
 
 	/**
-	 * @var Conf dolibarr conf
+	 * @var Conf ZionOne conf
 	 */
 	public $conf;
 

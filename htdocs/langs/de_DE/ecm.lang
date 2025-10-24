@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Anzahl der Dokumente im Verzeichnis
 ECMSection=Verzeichnis
 ECMSectionManual=Manueller Ordner
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Anzahl Unterverzeichnisse
 ECMNbOfFilesInSubDir=Anzahl der Dateien in Unterverzeichnissen
 ECMCreationUser=Autor
 ECMArea=DMS/ECM Bereich
-ECMAreaDesc=Der Bereich DMS/ECM (Document Management System / Electronic Content Management) ermöglicht Ihnen das schnelle Speichern, Teilen und Durchsuchen von Dokumenten aller Art in Dolibarr.
+ECMAreaDesc=Der Bereich DMS/ECM (Document Management System / Electronic Content Management) ermöglicht Ihnen das schnelle Speichern, Teilen und Durchsuchen von Dokumenten aller Art in ZionOne.
 ECMAreaDesc2a=* Manuelle Verzeichnisse können zum Speichern von Dokumenten mit freier Organisation der Speicherhierarchie verwendet werden.
 ECMAreaDesc2b=* Automatische Verzeichnisse werden automatisch gefüllt, wenn Dokumente von der Seite eines Elements hinzugefügt werden.
 ECMAreaDesc3=* Öffentliche Verzeichnisse sind Dateien im Unterverzeichnis <b>/medias</b> des Dokumentenverzeichnisses, die von jedem im Internet gelesen werden können und keine Anmeldung erfordern. Es ist nicht erforderlich Dateien explizit freizugeben. Es wird zum Speichern von Bilddateien zum Beispiel für E-Mails oder das Website-Modul verwendet.

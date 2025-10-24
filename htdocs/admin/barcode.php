@@ -26,7 +26,7 @@
  *	\brief      Page to setup barcode module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formbarcode.class.php';
@@ -65,7 +65,7 @@ if ($action == 'setbarcodeproducton') {
 		$res = dolibarr_set_const($db, "BARCODE_STANDARD_PRODUCT_MASK", '04{0000000000}', 'chaine', 0, '', $conf->entity);
 	}
 } elseif ($action == 'setbarcodeproductoff') {
-	$res = dolibarr_del_const($db, "BARCODE_PRODUCT_ADDON_NUM", $conf->entity);
+	$res = zionone_del_const($db, "BARCODE_PRODUCT_ADDON_NUM", $conf->entity);
 }
 
 if ($action == 'setbarcodethirdpartyon') {
@@ -75,7 +75,7 @@ if ($action == 'setbarcodethirdpartyon') {
 		$res = dolibarr_set_const($db, "BARCODE_STANDARD_THIRDPARTY_MASK", '04{0000000000}', 'chaine', 0, '', $conf->entity);
 	}
 } elseif ($action == 'setbarcodethirdpartyoff') {
-	$res = dolibarr_del_const($db, "BARCODE_THIRDPARTY_ADDON_NUM", $conf->entity);
+	$res = zionone_del_const($db, "BARCODE_THIRDPARTY_ADDON_NUM", $conf->entity);
 }
 
 if ($action == 'setcoder') {

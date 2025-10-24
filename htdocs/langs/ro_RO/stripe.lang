@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Configurare modul Stripe
 StripeDesc=Oferiți clienților o pagină de plată online pentru plăți cu carduri de credit/debit via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Aceasta poate fi folosită pentru a permite clienților să efectueze plăți ad-hoc sau pentru plăți legate de un anumit obiect din sistem (factură, comandă, ...) 
 StripeOrCBDoPayment=Plătiți cu cardul de credit sau Stripe
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL oferit pentru %s plată online pent
 ToOfferALinkForOnlinePaymentOnMemberSubscription= URL oferit pentru %s plată online pentru o cotizaţie de membru
 ToOfferALinkForOnlinePaymentOnDonation= URL oferit pentru %s plată online pentru o achitare sau donaţie
 YouCanAddTagOnUrl=De asemenea, poți adăuga parametrul URL <b>&tag=value</b> la oricare dintre acele adrese URL (obligatoriu numai pentru plata care nu este legată de un obiect) pentru a adăuga propria etichetă de comentariu de plată.<br> Pentru adresa URL a plăților fără obiect existent, poți adăuga și parametrul <strong>&noidempotency=1</strong>, astfel încât aceeași legătură cu aceeași etichetă poate fi folosită de mai multe ori (unele moduri de plată pot limita plata la 1 pentru fiecare link diferit fără acest parametru)
-YouCanEmbedOnWebsite=Dacă vrei să integrezi pagina de plată într-un site web Dolibarr, poți include parametrul: <b>&ws=website_ref</b>. <br>În plus, două pagini denumite <b>paymentok</b> și <b>paymentko</b> trebuie să fie create pe site pentru a primi redirecționarea după o plată online cu succes sau eșuată.
+YouCanEmbedOnWebsite=Dacă vrei să integrezi pagina de plată într-un site web ZionOne, poți include parametrul: <b>&ws=website_ref</b>. <br>În plus, două pagini denumite <b>paymentok</b> și <b>paymentko</b> trebuie să fie create pe site pentru a primi redirecționarea după o plată online cu succes sau eșuată.
 SetupStripeToHavePaymentCreatedAutomatically=Configurare Stripe cu URL <b> %s </b> pentru a avea o plată creată automat când este validată de Stripe.
 AccountParameter=Parametri cont
 UsageParameter=Parametri de utilizare

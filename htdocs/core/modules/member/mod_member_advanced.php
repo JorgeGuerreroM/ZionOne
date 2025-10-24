@@ -34,7 +34,7 @@ class mod_member_advanced extends ModeleNumRefMembers
 {
 	// variables inherited from ModeleNumRefMembers class
 	public $name = 'Advanced';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	// variables not inherited
 

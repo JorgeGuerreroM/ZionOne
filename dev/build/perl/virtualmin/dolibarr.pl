@@ -1,6 +1,6 @@
 #----------------------------------------------------------------------------
-# \file         dolibarr.pl
-# \brief        Dolibarr script install for Virtualmin Pro
+# \file         ZionOne.pl
+# \brief        ZionOne script install for Virtualmin Pro
 # \author       (c)2009-2020 Regis Houssin  <regis.houssin@inodbox.com>
 #----------------------------------------------------------------------------
 
@@ -8,7 +8,7 @@
 # script_dolibarr_desc()
 sub script_dolibarr_desc
 {
-return "Dolibarr";
+return "ZionOne";
 }
 
 sub script_dolibarr_uses
@@ -19,7 +19,7 @@ return ( "php" );
 # script_dolibarr_longdesc()
 sub script_dolibarr_longdesc
 {
-return "Dolibarr ERP/CRM is a powerful Open Source software to manage a professional or foundation activity (small and medium enterprises, freelancers).";
+return "ZionOne ERP/CRM is a powerful Open Source software to manage a professional or foundation activity (small and medium enterprises, freelancers).";
 }
 
 sub script_dolibarr_author
@@ -74,7 +74,7 @@ if ($ver >= 3.6) {
 		push(@rv, "Could not work out exact PHP version");
 		}
 	elsif ($phpv < 5.3) {
-		push(@rv, "Dolibarr requires PHP version 5.3 or later");
+		push(@rv, "ZionOne requires PHP version 5.3 or later");
 		}
 	}
 if ($ver >= 12.0) {
@@ -84,7 +84,7 @@ if ($ver >= 12.0) {
 		push(@rv, "Could not work out exact PHP version");
 		}
 	elsif ($phpv < 5.6) {
-		push(@rv, "Dolibarr requires PHP version 5.6 or later");
+		push(@rv, "ZionOne requires PHP version 5.6 or later");
 		}
 	}
 
@@ -92,7 +92,7 @@ return @rv;
 }
 
 # script_dolibarr_params(&domain, version, &upgrade-info)
-# Returns HTML for table rows for options for installing dolibarr
+# Returns HTML for table rows for options for installing ZionOne
 sub script_dolibarr_params
 {
 local ($d, $ver, $upgrade) = @_;
@@ -101,7 +101,7 @@ local $hdir = &public_html_dir($d, 1);
 if ($upgrade) {
 	# Options are fixed when upgrading
 	local ($dbtype, $dbname) = split(/_/, $upgrade->{'opts'}->{'db'}, 2);
-	$rv .= &ui_table_row("Database for Dolibarr tables", $dbname);
+	$rv .= &ui_table_row("Database for ZionOne tables", $dbname);
 	local $dir = $upgrade->{'opts'}->{'dir'};
 	$dir =~ s/^$d->{'home'}\///;
 	$rv .= &ui_table_row("Install directory", $dir);
@@ -109,10 +109,10 @@ if ($upgrade) {
 else {
 	# Show editable install options
 	local @dbs = &domain_databases($d, [ "mysql"]);
-	$rv .= &ui_table_row("Database for Dolibarr tables",
-		     &ui_database_select("db", undef, \@dbs, $d, "dolibarr"));
+	$rv .= &ui_table_row("Database for ZionOne tables",
+		     &ui_database_select("db", undef, \@dbs, $d, "ZionOne"));
 	$rv .= &ui_table_row("Install sub-directory under <tt>$hdir</tt>",
-			     &ui_opt_textbox("dir", &substitute_scriptname_template("dolibarr", $d), 30, "At top level"));
+			     &ui_opt_textbox("dir", &substitute_scriptname_template("ZionOne", $d), 30, "At top level"));
 	if ($d->{'ssl'} && $ver >= 3.0) {
 		$rv .= &ui_table_row("Force https connection?",
 				     &ui_yesno_radio("forcehttps", 0));
@@ -152,23 +152,23 @@ local ($d, $ver, $opts, $upgrade) = @_;
 $opts->{'dir'} =~ /^\// || return "Missing or invalid install directory";
 $opts->{'db'} || return "Missing database";
 if (-r "$opts->{'dir'}/conf/conf.php") {
-	return "Dolibarr appears to be already installed in the selected directory";
+	return "ZionOne appears to be already installed in the selected directory";
 	}
 local ($dbtype, $dbname) = split(/_/, $opts->{'db'}, 2);
 local $clash = &find_database_table($dbtype, $dbname, "llx_.*");
-$clash && return "Dolibarr appears to be already using the selected database (table $clash)";
+$clash && return "ZionOne appears to be already using the selected database (table $clash)";
 return undef;
 }
 
 # script_dolibarr_files(&domain, version, &opts, &upgrade-info)
-# Returns a list of files needed by dolibarr, each of which is a hash ref
+# Returns a list of files needed by ZionOne, each of which is a hash ref
 # containing a name, filename and URL
 sub script_dolibarr_files
 {
 local ($d, $ver, $opts, $upgrade) = @_;
 local @files = ( { 'name' => "source",
 	   'file' => "Dolibarr_$ver.tar.gz",
-	   'url' => "http://prdownloads.sourceforge.net/dolibarr/dolibarr-$ver.tgz" } );
+	   'url' => "http://prdownloads.sourceforge.net/ZionOne/ZionOne-$ver.tgz" } );
 return @files;
 }
 
@@ -178,7 +178,7 @@ return ("tar", "gunzip");
 }
 
 # script_dolibarr_install(&domain, version, &opts, &files, &upgrade-info)
-# Actually installs dolibarr, and returns either 1 and an informational
+# Actually installs ZionOne, and returns either 1 and an informational
 # message, or 0 and an error
 sub script_dolibarr_install
 {
@@ -201,7 +201,7 @@ return (0, "Database connection failed : $dberr") if ($dberr);
 # Extract tar file to temp dir and copy to target
 local $temp = &transname();
 local $err = &extract_script_archive($files->{'source'}, $temp, $d,
-			     $opts->{'dir'}, "dolibarr-$ver/htdocs");
+			     $opts->{'dir'}, "ZionOne-$ver/htdocs");
 $err && return (0, "Failed to extract source : $err");
 
 # Add config file
@@ -259,7 +259,7 @@ if ($upgrade) {
 			  [ "versionto", $ver ],
 	 		 );
 	local $err = &call_dolibarr_wizard_page(\@params, "upgrade", $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "ZionOne wizard failed : $err") if ($err);
 
 	# Second page (Migrate some data)
 	local @params = ( [ "action", "upgrade" ],
@@ -267,7 +267,7 @@ if ($upgrade) {
 			  [ "versionto", $ver ],
 			 );
 	local $err = &call_dolibarr_wizard_page(\@params, "upgrade2", $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "ZionOne wizard failed : $err") if ($err);
 
 	# Third page (Update version number)
 	local @params = ( [ "action", "upgrade" ],
@@ -277,7 +277,7 @@ if ($upgrade) {
 			 );
 	local $p = $ver >= 3.8 ? "step5" : "etape5";
 	local $err = &call_dolibarr_wizard_page(\@params, $p, $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "ZionOne wizard failed : $err") if ($err);
 
 	# Remove the installation directory. (deprecated)
 	# local $dinstall = "$opts->{'dir'}/install";
@@ -304,13 +304,13 @@ else {
 			 );
 	local $p = $ver >= 3.8 ? "step1" : "etape1";
 	local $err = &call_dolibarr_wizard_page(\@params, $p, $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "ZionOne wizard failed : $err") if ($err);
 
 	# Second page (Populate database)
 	local @params = ( [ "action", "set" ] );
 	local $p = $ver >= 3.8 ? "step2" : "etape2";
 	local $err = &call_dolibarr_wizard_page(\@params, $p, $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "ZionOne wizard failed : $err") if ($err);
 
 	# Third page (Add administrator account)
 	local @params = ( [ "action", "set" ],
@@ -321,7 +321,7 @@ else {
 	 		 );
 	local $p = $ver >= 3.8 ? "step5" : "etape5";
 	local $err = &call_dolibarr_wizard_page(\@params, $p, $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "ZionOne wizard failed : $err") if ($err);
 
 	# Remove the installation directory (deprecated)
 	# local $dinstall = "$opts->{'dir'}/install";
@@ -337,7 +337,7 @@ else {
 local $rp = $opts->{'dir'};
 $rp =~ s/^$d->{'home'}\///;
 local $adminurl = $url;
-return (1, "Dolibarr installation complete. Go to <a target=_new href='$url'>$url</a> to use it.", "Under $rp using $dbtype database $dbname", $url, 'admin', $dompass);
+return (1, "ZionOne installation complete. Go to <a target=_new href='$url'>$url</a> to use it.", "Under $rp using $dbtype database $dbname", $url, 'admin', $dompass);
 }
 
 # call_dolibarr_wizard_page(&parameters, step-no, &domain, &opts)
@@ -355,7 +355,7 @@ return undef;
 }
 
 # script_dolibarr_uninstall(&domain, version, &opts)
-# Un-installs a dolibarr installation, by deleting the directory.
+# Un-installs a ZionOne installation, by deleting the directory.
 # Returns 1 on success and a message, or 0 on failure and an error
 sub script_dolibarr_uninstall
 {
@@ -376,7 +376,7 @@ if ($opts->{'newdb'}) {
         &delete_script_database($d, $opts->{'db'});
         }
 
-return (1, "Dolibarr directory and tables deleted.");
+return (1, "ZionOne directory and tables deleted.");
 }
 
 # script_dolibarr_realversion(&domain, &opts)
@@ -399,32 +399,32 @@ return undef;
 sub script_dolibarr_check_latest
 {
 local ($ver) = @_;
-local @vers = &osdn_package_versions("dolibarr",
-				$ver >= 14.0 ? "dolibarr\\-(12\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 13.0 ? "dolibarr\\-(12\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 12.0 ? "dolibarr\\-(12\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 11.0 ? "dolibarr\\-(11\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 10.0 ? "dolibarr\\-(10\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 9.0 ? "dolibarr\\-(9\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 8.0 ? "dolibarr\\-(8\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 7.0 ? "dolibarr\\-(7\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 6.0 ? "dolibarr\\-(6\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 5.0 ? "dolibarr\\-(5\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 4.0 ? "dolibarr\\-(4\\.0\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 3.9 ? "dolibarr\\-(3\\.9\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 3.8 ? "dolibarr\\-(3\\.8\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 3.7 ? "dolibarr\\-(3\\.7\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 3.6 ? "dolibarr\\-(3\\.6\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 3.5 ? "dolibarr\\-(3\\.5\\.[0-9\\.]+)\\.tgz" :
-				$ver >= 2.9 ? "dolibarr\\-(2\\.9\\.[0-9\\.]+)\\.tgz" :
-                              "dolibarr\\-(2\\.8\\.[0-9\\.]+)\\.tgz");
+local @vers = &osdn_package_versions("ZionOne",
+				$ver >= 14.0 ? "ZionOne\\-(12\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 13.0 ? "ZionOne\\-(12\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 12.0 ? "ZionOne\\-(12\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 11.0 ? "ZionOne\\-(11\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 10.0 ? "ZionOne\\-(10\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 9.0 ? "ZionOne\\-(9\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 8.0 ? "ZionOne\\-(8\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 7.0 ? "ZionOne\\-(7\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 6.0 ? "ZionOne\\-(6\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 5.0 ? "ZionOne\\-(5\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 4.0 ? "ZionOne\\-(4\\.0\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 3.9 ? "ZionOne\\-(3\\.9\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 3.8 ? "ZionOne\\-(3\\.8\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 3.7 ? "ZionOne\\-(3\\.7\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 3.6 ? "ZionOne\\-(3\\.6\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 3.5 ? "ZionOne\\-(3\\.5\\.[0-9\\.]+)\\.tgz" :
+				$ver >= 2.9 ? "ZionOne\\-(2\\.9\\.[0-9\\.]+)\\.tgz" :
+                              "ZionOne\\-(2\\.8\\.[0-9\\.]+)\\.tgz");
 return "Failed to find versions" if (!@vers);
 return $ver eq $vers[0] ? undef : $vers[0];
 }
 
 sub script_dolibarr_site
 {
-return 'https://www.dolibarr.org/';
+return 'https://www.ZionOne.org/';
 }
 
 sub script_dolibarr_passmode

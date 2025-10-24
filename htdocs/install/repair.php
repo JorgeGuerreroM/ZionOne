@@ -1797,7 +1797,7 @@ if ($ok && GETPOST('rebuild_sequences', 'alpha')) {
 //
 if ($ok && GETPOST('repair_link_dispatch_lines_supplier_order_lines')) {
 	/*
-	 * This script is meant to be run when upgrading from a dolibarr version < 3.8
+	 * This script is meant to be run when upgrading from a ZionOne version < 3.8
 	 * to a newer version.
 	 *
 	 * Version 3.8 introduces a new column in llx_commande_fournisseur_dispatch, which
@@ -1806,7 +1806,7 @@ if ($ok && GETPOST('repair_link_dispatch_lines_supplier_order_lines')) {
 	 * which line were dispatched where).
 	 *
 	 * However when migrating, the new column has a default value of 0, which means that
-	 * old supplier orders whose lines were dispatched using the old dolibarr version
+	 * old supplier orders whose lines were dispatched using the old ZionOne version
 	 * have unspecific dispatch lines, which are not taken into account by the new version,
 	 * thus making the order look like it was never dispatched at all.
 	 *

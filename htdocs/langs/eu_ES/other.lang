@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 # THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=Segurtasun kodea
 NumberingShort=Zenb.
@@ -117,7 +117,7 @@ PredefinedMailContentSendFichInter=__(Kaixo)__\n\nEsku-hartzea __REF__ erantsita
 PredefinedMailContentLink=Beheko estekan klik egin dezakezu ordainketa egiteko, oraindik egin ez bada.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Kaixo)__\n\n__(Zintzotasunez)__\n\n__BIDALEAREN_EMAIL_SINADURA__
 PredefinedMailContentSendActionComm="__EVENT_LABEL__" gertaeraren abisua __EVENT_DATE__-n, __EVENT_TIME__-n<br><br>Mezu automatikoa da hau, mesedez ez erantzun.
-DemoDesc=Dolibarr hainbat negozio-modulu onartzen dituen ERP/CRM trinkoa da. Modulu guztiak erakusten dituen demo batek ez du zentzurik, egoera hau ez baita inoiz gertatzen (ehunka batzuk eskuragarri). Beraz, hainbat demo-profil daude eskuragarri.
+DemoDesc=ZionOne hainbat negozio-modulu onartzen dituen ERP/CRM trinkoa da. Modulu guztiak erakusten dituen demo batek ez du zentzurik, egoera hau ez baita inoiz gertatzen (ehunka batzuk eskuragarri). Beraz, hainbat demo-profil daude eskuragarri.
 DemoDesc2=This is a restricted shared demo, you may prefer to test on your own dedicated instance with a full admin access, to do so, <a href="%s" target="_blank">go here <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Aukeratu zure beharretara hobekien egokitzen den demo profila...
 ChooseYourDemoProfilMore=...edo sortu zure profila<br>(moduluaren eskuzko hautaketa)
@@ -200,7 +200,7 @@ BackToLoginPage=Saioa hasteko orrialdera itzuli
 AuthenticationDoesNotAllowSendNewPassword=Autentifikazio modua <b>%s</b> da.<br>Modu honetan, Dolibarrek ezin du zure pasahitza ezagutu edo aldatu.<br>Jarri harremanetan zure sistemaren administratzailearekin zure pasahitza aldatu nahi baduzu.
 EnableGDLibraryDesc=Aukera hau erabiltzeko, instalatu edo gaitu GD liburutegia zure PHP instalazioan.
 ProfIdShortDesc=<b>Profesionalaren IDa %s</b> hirugarrenen herrialdearen araberako informazioa da.<br>Adibidez, <b>%s</b> herrialdearentzat, <b>%s</b>.
-DolibarrDemo=Dolibarr ERP/CRM demoa
+DolibarrDemo=ZionOne ERP/CRM demoa
 StatsByAmount=Produktu/zerbitzu kopuruaren estatistikak
 StatsByAmountProducts=Produktu kopuruaren estatistikak
 StatsByAmountServices=Zerbitzu kopuruari buruzko estatistikak
@@ -404,4 +404,4 @@ SetHereATitleForLink = Set a name for the bookmark
 ShowBookmark = Erakutsi laster-marka
 UrlOrLink = URL
 UseAnExternalHttpLinkOrRelativeDolibarrLink = Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
-SubscribeToFoundation=Help the Dolibarr project, subscribe to the foundation
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

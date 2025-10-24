@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 ActionsOwnedBy=Evento propiedad de
 ListOfActions=Lista de eventos
 EventOnFullDay=Evento todo el día(s)
@@ -9,10 +9,10 @@ ViewCal=Vista de mes
 ViewDay=Vista del día
 ViewWeek=Vista de semana
 AutoActions=Llenado automático
-AgendaAutoActionDesc=Aquí puede definir eventos que desea que Dolibarr cree automáticamente en Agenda. Si no se marca nada, solo las acciones manuales se incluirán en los registros y se mostrarán en la Agenda. El seguimiento automático de las acciones comerciales realizadas en los objetos (validación, cambio de estado) no se guardará.
-AgendaSetupOtherDesc=Esta página ofrece opciones para permitir la exportación de sus eventos Dolibarr a un calendario externo (Thunderbird, Google Calendar, etc.)
-AgendaExtSitesDesc=Esta página permite declarar fuentes externas de calendarios para ver sus eventos en la agenda de Dolibarr.
-ActionsEvents=Eventos para los que Dolibarr creará automáticamente una acción en agenda
+AgendaAutoActionDesc=Aquí puede definir eventos que desea que ZionOne cree automáticamente en Agenda. Si no se marca nada, solo las acciones manuales se incluirán en los registros y se mostrarán en la Agenda. El seguimiento automático de las acciones comerciales realizadas en los objetos (validación, cambio de estado) no se guardará.
+AgendaSetupOtherDesc=Esta página ofrece opciones para permitir la exportación de sus eventos ZionOne a un calendario externo (Thunderbird, Google Calendar, etc.)
+AgendaExtSitesDesc=Esta página permite declarar fuentes externas de calendarios para ver sus eventos en la agenda de ZionOne.
+ActionsEvents=Eventos para los que ZionOne creará automáticamente una acción en agenda
 EventRemindersByEmailNotEnabled=Los recordatorios de eventos por correo electrónico no se habilitaron en la %s configuración del módulo.
 NewCompanyToDolibarr=Cliente/Proveedor %s creado
 COMPANY_DELETEInDolibarr=Cliente/Proveedor %s eliminado

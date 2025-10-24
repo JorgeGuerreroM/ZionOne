@@ -49,10 +49,10 @@ repos:
       # Check that shell files are executables
       - id: check-shebang-scripts-are-executable
         exclude:
-          (?x)^( dev/tools/dolibarr-postgres2mysql.php |test/other/test_serialize.php
+          (?x)^( dev/tools/ZionOne-postgres2mysql.php |test/other/test_serialize.php
           |test/phpunit/textutf8.txt |test/phpunit/textiso.txt |htdocs/includes/.*
-          |htdocs/modulebuilder/template/.* |dev/build/debian/dolibarr.postrm |dev/build/debian/dolibarr.postinst
-          |dev/build/debian/dolibarr.config )$
+          |htdocs/modulebuilder/template/.* |dev/build/debian/ZionOne.postrm |dev/build/debian/ZionOne.postinst
+          |dev/build/debian/ZionOne.config )$
       # Fix the first UTF8 byte
       - id: fix-byte-order-marker
       # Check that there are no files that have are the same when uppercased (conflict on windows)
@@ -155,7 +155,7 @@ repos:
             --report=emacs,
             --severity=5,
             --no-colors,
-            --cache=.cache/pre-commit/dolibarr-php-cs.cache,
+            --cache=.cache/pre-commit/ZionOne-php-cs.cache,
             .,
           ]
         pass_filenames: false # Run on all files

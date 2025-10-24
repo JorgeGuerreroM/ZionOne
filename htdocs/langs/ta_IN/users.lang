@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=HRM பகுதி
 UserCard=பயனர் அட்டை
 GroupCard=குழு அட்டை
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=பயனருக்கான இணைப்பு
 LinkedToDolibarrThirdParty=மூன்றாம் தரப்பினருக்கான இணைப்பு
 CreateDolibarrLogin=ஒரு பயனரை உருவாக்கவும்
 CreateDolibarrThirdParty=மூன்றாம் தரப்பை உருவாக்கவும்
-LoginAccountDisableInDolibarr=Account disabled in Dolibarr
-PASSWORDInDolibarr=Password modified in Dolibarr
+LoginAccountDisableInDolibarr=Account disabled in ZionOne
+PASSWORDInDolibarr=Password modified in ZionOne
 UsePersonalValue=தனிப்பட்ட மதிப்பைப் பயன்படுத்தவும்
 ExportDataset_user_1=பயனர்கள் மற்றும் அவர்களின் பண்புகள்
 ExportDataset_user_2=List of security events

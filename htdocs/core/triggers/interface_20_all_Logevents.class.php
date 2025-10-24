@@ -70,7 +70,7 @@ class InterfaceLogevents extends DolibarrTriggers
 		parent::__construct($db);
 
 		$this->family 		= "core";
-		$this->description  = "Triggers of this module allows to add security event records inside Dolibarr.";
+		$this->description  = "Triggers of this module allows to add security event records inside ZionOne.";
 		$this->version 		= self::VERSIONS['prod'];
 		$this->picto 		= 'technic';
 		$this->event_label 	= '';
@@ -79,7 +79,7 @@ class InterfaceLogevents extends DolibarrTriggers
 	}
 
 	/**
-	 * Function called when a Dolibarr security audit event is done.
+	 * Function called when a ZionOne security audit event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
 	 *
 	 * @param	string		$action	Event action code

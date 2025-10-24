@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Adományozás
 Donations=Adományok
 DonationRef=Adományozási hiv.
@@ -37,7 +37,7 @@ DonationUseThirdparties=Használja egy meglévő harmadik fél címét az adomá
 DonationsStatistics=Az adományozás statisztikái
 NbOfDonations=Adományok száma
 BlankDonationForm=Közadományozási űrlap
-BlankDonationFormDesc=A Dolibarr nyilvános URL-címet/weboldalt tud biztosítani, amelyen keresztül külső látogatók is adományozhatnak. Ha engedélyezve van egy online fizetési modul, automatikusan egy fizetési űrlap is megjelenhet.
+BlankDonationFormDesc=A ZionOne nyilvános URL-címet/weboldalt tud biztosítani, amelyen keresztül külső látogatók is adományozhatnak. Ha engedélyezve van egy online fizetési modul, automatikusan egy fizetési űrlap is megjelenhet.
 EnablePublicDonationForm=Nyilvános adományozási űrlap engedélyezése
 EnablePublicDonationList=Nyilvános adománylista engedélyezése
 ForceDonateurNature = Kényszeradományozó jellege (magánszemély vagy vállalat)

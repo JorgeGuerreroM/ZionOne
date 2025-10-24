@@ -358,7 +358,7 @@ ALTER TABLE llx_societe_commerciaux ADD CONSTRAINT fk_societe_commerciaux_fk_soc
 ALTER TABLE llx_societe_commerciaux ADD CONSTRAINT fk_societe_commerciaux_fk_user FOREIGN KEY (fk_user)  REFERENCES llx_user(rowid);
 
 
--- element_element, see https://github.com/Dolibarr/dolibarr/pull/29329
+-- element_element, see https://github.com/ZionOne/ZionOne/pull/29329
 
 ALTER TABLE llx_element_element ADD COLUMN relationtype	varchar(64) DEFAULT NULL AFTER targettype;
 

@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Backlinks ដើម្បីពិនិត្យ
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb នៃថ្ងៃមុនពេលលុបចោលស្ថានភាពនៃភាពជាដៃគូនៅពេលដែលការជាវបានផុតកំណត់
 ReferingWebsiteCheck=ពិនិត្យគេហទំព័រយោង
 ReferingWebsiteCheckDesc=អ្នកអាចបើកមុខងារមួយដើម្បីពិនិត្យមើលថាដៃគូរបស់អ្នកបានបន្ថែម backlink ទៅកាន់ដែនគេហទំព័ររបស់អ្នកនៅលើគេហទំព័ររបស់ពួកគេផ្ទាល់។
-PublicFormRegistrationPartnerDesc=Dolibarr អាចផ្តល់ឱ្យអ្នកនូវ URL/គេហទំព័រសាធារណៈ ដើម្បីអនុញ្ញាតឱ្យអ្នកទស្សនាខាងក្រៅស្នើសុំឱ្យជាផ្នែកមួយនៃកម្មវិធីភាពជាដៃគូ។
+PublicFormRegistrationPartnerDesc=ZionOne អាចផ្តល់ឱ្យអ្នកនូវ URL/គេហទំព័រសាធារណៈ ដើម្បីអនុញ្ញាតឱ្យអ្នកទស្សនាខាងក្រៅស្នើសុំឱ្យជាផ្នែកមួយនៃកម្មវិធីភាពជាដៃគូ។
 # Object
 DeletePartnership=លុបភាពជាដៃគូ
 PartnershipDedicatedToThisThirdParty=ភាពជាដៃគូឧទ្ទិសដល់ភាគីទីបីនេះ។

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Sučelje članova
 MemberCard=Kartica člana
 SubscriptionCard=Kartica pretplate
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Popis ovjerenih javnih članova
 ErrorThisMemberIsNotPublic=Ovaj član nije javni
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Drugi član (ime: <b>%s</b>, login: <b>%s</b>) je već povezan s komitentom <b>%s</b>. Obrišite prije taj link jer komitent ne može biti povezan samo na jednog člana (i obrnuto).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Iz sigurnosnih razloga, morate dodjeliti dozvole svim korisnicima da mogu povezivati članove s korisnicima koji nisu vaši.
-SetLinkToUser=Poveži s Dolibarr korisnikom
-SetLinkToThirdParty=Veza na Dolibarr komitenta
+SetLinkToUser=Poveži s ZionOne korisnikom
+SetLinkToThirdParty=Veza na ZionOne komitenta
 MemberCountersArePublic=Brojači valjanih članovi su javni
 MembersCards=Generiranje kartica za članovi
 MembersList=Popis članova
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Jeste li sigurni da želite izbrisati ovu pretplatu?
 Filehtpasswd=htpasswd datoteka
 ValidateMember=Ovjeri člana
 ConfirmValidateMember=Jeste li sigurni da želite potvrditi ovog člana?
-FollowingLinksArePublic=Sljedeće veze su otvorene stranice koje nisu zaštićene nikakvom Dolibarr dopuštenjem. To nisu formatirane stranice, dane su kao primjer da pokažu kako navesti bazu podataka članova.
+FollowingLinksArePublic=Sljedeće veze su otvorene stranice koje nisu zaštićene nikakvom ZionOne dopuštenjem. To nisu formatirane stranice, dane su kao primjer da pokažu kako navesti bazu podataka članova.
 PublicMemberList=Javni popis članova
 BlankSubscriptionForm=Javna pristupnica
-BlankSubscriptionFormDesc=Dolibarr vam može dati javni URL/web stranicu kako bi vanjskim posjetiteljima omogućio da zatraže pretplatu na zakladu. Ako je omogućen modul za online plaćanje, obrazac za plaćanje također se može automatski dostaviti.
+BlankSubscriptionFormDesc=ZionOne vam može dati javni URL/web stranicu kako bi vanjskim posjetiteljima omogućio da zatraže pretplatu na zakladu. Ako je omogućen modul za online plaćanje, obrazac za plaćanje također se može automatski dostaviti.
 EnablePublicSubscriptionForm=Omogućite javnu web stranicu s obrascem za samopretplatu
 ForceMemberType=Forsiraj tip člana
 ExportDataset_member_1=Članovi i pretplate
