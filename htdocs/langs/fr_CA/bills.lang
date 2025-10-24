@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# ZionOne language file - Source file is en_US - bills
 BillsSuppliers=Factures fournisseurs
 BillsCustomersUnpaidForCompany=Les factures des clients non payées pour %s
 BillsSuppliersUnpaidForCompany=Factures fournisseurs impayées pour %s

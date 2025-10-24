@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Podešavanje PayPal modula
-PaypalDesc=Ovaj modul omogućava plaćanje od strane kupaca putem <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Ovo se može koristiti za ad-hoc plaćanje ili za plaćanje povezano s Dolibarr objektom (faktura, narudžba,...)
+PaypalDesc=Ovaj modul omogućava plaćanje od strane kupaca putem <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Ovo se može koristiti za ad-hoc plaćanje ili za plaćanje povezano s ZionOne objektom (faktura, narudžba,...)
 PaypalOrCBDoPayment=Platite PayPal-om (karticom ili PayPal-om)
 PaypalDoPayment=Platite PayPal-om
 PAYPAL_API_SANDBOX=Mod test/sandbox

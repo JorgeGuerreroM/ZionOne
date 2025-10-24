@@ -34,7 +34,7 @@ class mod_holiday_immaculate extends ModelNumRefHolidays
 {
 	// variables inherited from ModelNumRefHolidays class
 	public $name = 'Immaculate';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 *	Constructor

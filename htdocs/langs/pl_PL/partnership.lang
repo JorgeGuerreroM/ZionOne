@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Linki wsteczne do sprawdzenia
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Liczba dni przed anulowaniem statusu partnerstwa po wygaśnięciu subskrypcji
 ReferingWebsiteCheck=Sprawdzenie odsyłającej strony internetowej
 ReferingWebsiteCheckDesc=Możesz włączyć funkcję, aby sprawdzić, czy Twoi partnerzy dodali link zwrotny do domen Twojej witryny we własnej witrynie.
-PublicFormRegistrationPartnerDesc=Dolibarr może udostępnić Ci publiczny adres URL/stronę internetową, aby umożliwić odwiedzającym z zewnątrz złożenie wniosku o dołączenie do programu partnerskiego.
+PublicFormRegistrationPartnerDesc=ZionOne może udostępnić Ci publiczny adres URL/stronę internetową, aby umożliwić odwiedzającym z zewnątrz złożenie wniosku o dołączenie do programu partnerskiego.
 # Object
 DeletePartnership=Usuń partnerstwo
 PartnershipDedicatedToThisThirdParty=Partnerstwo dedykowane tej stronie trzeciej

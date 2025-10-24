@@ -28,7 +28,7 @@
  *	\brief      Page to setup accountancy module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 
@@ -108,7 +108,7 @@ if ($action == 'update') {
 		}
 	}
 	if ($report_include_varpay == 'no') {
-		if (!dolibarr_del_const($db, 'ACCOUNTING_REPORTS_INCLUDE_VARPAY', $conf->entity)) {
+		if (!zionone_del_const($db, 'ACCOUNTING_REPORTS_INCLUDE_VARPAY', $conf->entity)) {
 			$error++;
 		}
 	}
@@ -122,7 +122,7 @@ if ($action == 'update') {
 		}
 	}
 	if ($report_include_loan == 'no') {
-		if (!dolibarr_del_const($db, 'ACCOUNTING_REPORTS_INCLUDE_LOAN', $conf->entity)) {
+		if (!zionone_del_const($db, 'ACCOUNTING_REPORTS_INCLUDE_LOAN', $conf->entity)) {
 			$error++;
 		}
 	}

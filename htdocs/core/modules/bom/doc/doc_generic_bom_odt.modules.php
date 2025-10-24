@@ -48,9 +48,9 @@ class doc_generic_bom_odt extends ModelePDFBom
 	public $phpmin = array(7, 0);
 
 	/**
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental' Dolibarr version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental' ZionOne version of the loaded document
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 
 	/**

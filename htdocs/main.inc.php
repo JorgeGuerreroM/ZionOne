@@ -36,7 +36,7 @@
 /**
  *	\file       htdocs/main.inc.php
  *	\ingroup	core
- *	\brief      File that defines environment for Dolibarr GUI pages only (file not required by scripts)
+ *	\brief      File that defines environment for ZionOne GUI pages only (file not required by scripts)
  */
 
 //@ini_set('memory_limit', '128M');	// This may be useless if memory is hard limited by your PHP
@@ -65,7 +65,7 @@ if (defined('NOREQUIREUSER') && !defined('NOREQUIREMENU')) {
 	exit;
 }
 
-// This is to make Dolibarr working with Plesk
+// This is to make ZionOne working with Plesk
 if (!empty($_SERVER['DOCUMENT_ROOT']) && substr($_SERVER['DOCUMENT_ROOT'], -6) !== 'htdocs') {
 	set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 }
@@ -107,7 +107,7 @@ if (!empty($php_session_save_handler) && $php_session_save_handler == 'db') {
 	require_once 'core/lib/phpsessionin'.$php_session_save_handler.'.lib.php';
 }
 
-// Init session. Name of session is specific to Dolibarr instance.
+// Init session. Name of session is specific to ZionOne instance.
 // Must be done after the include of filefunc.inc.php so global variables of conf file are defined (like $dolibarr_main_instance_unique_id or $dolibarr_main_force_https).
 // Note: the function dol_getprefix() is defined into functions.lib.php but may have been defined to return a different key to manage another area to protect.
 $prefix = dol_getprefix('');
@@ -220,7 +220,7 @@ if (GETPOSTINT('textbrowser') || (!empty($conf->browser->name) && $conf->browser
 	$conf->global->MAIN_OPTIMIZEFORTEXTBROWSER = 2;
 }
 
-// Force HTTPS if required ($conf->file->main_force_https is 0/1 or 'https dolibarr root url')
+// Force HTTPS if required ($conf->file->main_force_https is 0/1 or 'https ZionOne root url')
 // $_SERVER["HTTPS"] is 'on' when link is https, otherwise $_SERVER["HTTPS"] is empty or 'off'
 if (!empty($conf->file->main_force_https) && !isHTTPS() && !defined('NOHTTPSREDIRECT')) {
 	$newurl = '';
@@ -475,14 +475,14 @@ $login = '';
 $error = 0;
 if (!defined('NOLOGIN')) {
 	// $authmode lists the different method of identification to be tested in order of preference.
-	// Example: 'http', 'dolibarr', 'ldap', 'http,forceuser', '...'
+	// Example: 'http', 'ZionOne', 'ldap', 'http,forceuser', '...'
 
 	if (defined('MAIN_AUTHENTICATION_MODE')) {
 		$dolibarr_main_authentication = constant('MAIN_AUTHENTICATION_MODE');
 	} else {
 		// Authentication mode
 		if (empty($dolibarr_main_authentication)) {
-			$dolibarr_main_authentication = 'dolibarr';
+			$dolibarr_main_authentication = 'ZionOne';
 		}
 		// Authentication mode: forceuser
 		if ($dolibarr_main_authentication == 'forceuser' && empty($dolibarr_auto_user)) {
@@ -677,9 +677,9 @@ if (!defined('NOLOGIN')) {
 		// Validation of login/pass/entity
 		// If ok, the variable login will be returned
 		// If error, we will put error message in session under the name dol_loginmesg
-		if ($test && $goontestloop && GETPOST('actionlogin', 'aZ09') != 'disabled' && (GETPOST('actionlogin', 'aZ09') == 'login' || $dolibarr_main_authentication != 'dolibarr')) {
+		if ($test && $goontestloop && GETPOST('actionlogin', 'aZ09') != 'disabled' && (GETPOST('actionlogin', 'aZ09') == 'login' || $dolibarr_main_authentication != 'ZionOne')) {
 			// Loop on each test mode defined into $authmode
-			// $authmode is an array for example: array('0'=>'dolibarr', '1'=>'googleoauth');
+			// $authmode is an array for example: array('0'=>'ZionOne', '1'=>'googleoauth');
 			$oauthmodetotestarray = array('google');
 			foreach ($oauthmodetotestarray as $oauthmodetotest) {
 				if (in_array($oauthmodetotest.'oauth', $authmode)) {	// This is an authmode that is currently qualified. Do we have to remove it ?
@@ -1609,7 +1609,7 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 		print '<meta charset="utf-8">'."\n";
 		print '<meta name="robots" content="'.($disablenoindex ? 'index' : 'noindex').($disablenofollow ? ',follow' : ',nofollow').'">'."\n"; // Do not index
 		print '<meta name="viewport" content="width=device-width, initial-scale=1.0">'."\n"; // Scale for mobile device
-		print '<meta name="author" content="Dolibarr Development Team">'."\n";
+		print '<meta name="author" content="ZionOne Development Team">'."\n";
 		print '<meta name="anti-csrf-newtoken" content="'.newToken().'">'."\n";
 		print '<meta name="anti-csrf-currenttoken" content="'.currentToken().'">'."\n";
 		if (getDolGlobalInt('MAIN_FEATURES_LEVEL')) {
@@ -1766,7 +1766,7 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 		}
 
 		if (!defined('DISABLE_CSS_DEFAULT_THEME')) {
-			print '<!-- Includes CSS for Dolibarr theme -->'."\n";
+			print '<!-- Includes CSS for ZionOne theme -->'."\n";
 			print '<link rel="stylesheet" type="text/css" href="' . $themepath . $themeparam . '">' . "\n";
 		}
 
@@ -1927,13 +1927,13 @@ function top_htmlhead($head, $title = '', $disablejs = 0, $disablehead = 0, $arr
 					$enablebrowsernotif = false;
 				}
 				if ($enablebrowsernotif) {
-					print '<!-- Includes JS of Dolibarr (browser layout = '.$conf->browser->layout.')-->'."\n";
+					print '<!-- Includes JS of ZionOne (browser layout = '.$conf->browser->layout.')-->'."\n";
 					print '<script nonce="'.getNonce().'" src="'.DOL_URL_ROOT.'/core/js/lib_notification.js.php?lang='.$langs->defaultlang.($ext ? '&amp;'.$ext : '').'"></script>'."\n";
 				}
 			}
 
 			// Global js function
-			print '<!-- Includes JS of Dolibarr -->'."\n";
+			print '<!-- Includes JS of ZionOne -->'."\n";
 			if (!defined('DISABLE_LIB_HEAD_JS')) {
 				print '<script nonce="' . getNonce() . '" src="' . DOL_URL_ROOT . '/core/js/lib_head.js.php?lang=' . $langs->defaultlang . ($ext ? '&amp;' . $ext : '') . '"></script>' . "\n";
 			}
@@ -2184,7 +2184,7 @@ function top_menu($head, $title = '', $target = '', $disablejs = 0, $disablehead
 			$toprightmenu .= $form->textwithtooltip('', $langs->trans("PrintContentArea"), 2, 1, $text, 'login_block_elem', 2);
 		}
 
-		// Link to Dolibarr wiki pages
+		// Link to ZionOne wiki pages
 		if (!getDolGlobalString('MAIN_HELP_DISABLELINK') && !getDolGlobalString('MAIN_OPTIMIZEFORTEXTBROWSER')) {
 			$langs->load("help");
 
@@ -3289,29 +3289,29 @@ function left_menu($menu_array_before, $helppagename = '', $notused = '', $menu_
 			$menumanager->showmenu('left', array('searchform' => $searchform)); // output menu_array and menu found in database
 		}
 
-		// Dolibarr version + help + bug report link
+		// ZionOne version + help + bug report link
 		print "\n";
 		print "<!-- Begin Help Block-->\n";
 		print '<div id="blockvmenuhelp" class="blockvmenuhelp">'."\n";
 
 		// Version
 		if (getDolGlobalString('MAIN_SHOW_VERSION')) {    // Version is already on help picto and on login page.
-			$doliurl = 'https://www.dolibarr.org';
+			$doliurl = 'https://www.ZionOne.org';
 			//local communities
 			if (preg_match('/fr/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.dolibarr.fr';
+				$doliurl = 'https://www.ZionOne.fr';
 			}
 			if (preg_match('/es/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.dolibarr.es';
+				$doliurl = 'https://www.ZionOne.es';
 			}
 			if (preg_match('/de/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.dolibarr.de';
+				$doliurl = 'https://www.ZionOne.de';
 			}
 			if (preg_match('/it/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.dolibarr.it';
+				$doliurl = 'https://www.ZionOne.it';
 			}
 			if (preg_match('/gr/i', $langs->defaultlang)) {
-				$doliurl = 'https://www.dolibarr.gr';
+				$doliurl = 'https://www.ZionOne.gr';
 			}
 
 			$appli = constant('DOL_APPLICATION_TITLE');
@@ -3347,7 +3347,7 @@ function left_menu($menu_array_before, $helppagename = '', $notused = '', $menu_
 			require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 
 			if (getDolGlobalString('MAIN_BUGTRACK_ENABLELINK') == 'github') {
-				$bugbaseurl = 'https://github.com/Dolibarr/dolibarr/issues/new?labels=Bug';
+				$bugbaseurl = 'https://github.com/ZionOne/ZionOne/issues/new?labels=Bug';
 				$bugbaseurl .= '&title=';
 				$bugbaseurl .= urlencode("Bug: ");
 				$bugbaseurl .= '&body=';
@@ -3375,7 +3375,7 @@ function left_menu($menu_array_before, $helppagename = '', $notused = '', $menu_
 				$bugbaseurl .= urlencode("## Steps to reproduce the behavior\n");
 				$bugbaseurl .= urlencode("[*Verbose description*]\n");
 				$bugbaseurl .= urlencode("\n");
-				$bugbaseurl .= urlencode("## [Attached files](https://help.github.com/articles/issue-attachments) (Screenshots, screencasts, dolibarr.log, debugging information…)\n");
+				$bugbaseurl .= urlencode("## [Attached files](https://help.github.com/articles/issue-attachments) (Screenshots, screencasts, ZionOne.log, debugging information…)\n");
 				$bugbaseurl .= urlencode("[*Files*]\n");
 				$bugbaseurl .= urlencode("\n");
 
@@ -3509,25 +3509,25 @@ function getHelpParamFor($helppagename, $langs)
 		// If WIKI URL
 		$reg = array();
 		if (preg_match('/^es/i', $langs->defaultlang)) {
-			$helpbaseurl = 'http://wiki.dolibarr.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.ZionOne.org/index.php/%s';
 			if (preg_match('/ES:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
 		}
 		if (preg_match('/^fr/i', $langs->defaultlang)) {
-			$helpbaseurl = 'http://wiki.dolibarr.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.ZionOne.org/index.php/%s';
 			if (preg_match('/FR:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
 		}
 		if (preg_match('/^de/i', $langs->defaultlang)) {
-			$helpbaseurl = 'http://wiki.dolibarr.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.ZionOne.org/index.php/%s';
 			if (preg_match('/DE:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
 		}
 		if (empty($helppage)) {	// If help page not already found
-			$helpbaseurl = 'http://wiki.dolibarr.org/index.php/%s';
+			$helpbaseurl = 'http://wiki.ZionOne.org/index.php/%s';
 			if (preg_match('/EN:([^|]+)/i', $helppagename, $reg)) {
 				$helppage = $reg[1];
 			}
@@ -3713,7 +3713,7 @@ if (!function_exists("llxFooter")) {
 		}
 
 		if (!empty($conf->use_javascript_ajax)) {
-			print "\n".'<!-- Includes JS Footer of Dolibarr -->'."\n";
+			print "\n".'<!-- Includes JS Footer of ZionOne -->'."\n";
 			print '<script src="'.DOL_URL_ROOT.'/core/js/lib_foot.js.php?lang='.$langs->defaultlang.($ext ? '&'.$ext : '').'"></script>'."\n";
 		}
 
@@ -3766,7 +3766,7 @@ if (!function_exists("llxFooter")) {
 		$forceping = GETPOST('forceping', 'alpha');
 		if (($_SERVER["PHP_SELF"] == DOL_URL_ROOT.'/index.php') || $forceping) {
 			//print '<!-- instance_unique_id='.$conf->file->instance_unique_id.' MAIN_FIRST_PING_OK_ID='.getDolGlobalString('MAIN_FIRST_PING_OK_ID').' -->';
-			$hash_unique_id = dol_hash('dolibarr'.$conf->file->instance_unique_id, 'sha256');	// Note: if the global salt changes, this hash changes too so ping may be counted twice. We don't mind. It is for statistics purpose only.
+			$hash_unique_id = dol_hash('ZionOne'.$conf->file->instance_unique_id, 'sha256');	// Note: if the global salt changes, this hash changes too so ping may be counted twice. We don't mind. It is for statistics purpose only.
 
 			if (!getDolGlobalString('MAIN_FIRST_PING_OK_DATE')
 				|| (!empty($conf->file->instance_unique_id) && ($hash_unique_id != getDolGlobalString('MAIN_FIRST_PING_OK_ID')) && (getDolGlobalString('MAIN_FIRST_PING_OK_ID') != 'disabled'))
@@ -3782,9 +3782,9 @@ if (!function_exists("llxFooter")) {
 					} else {
 						include_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 
-						print "\n".'<!-- Includes JS for Ping of Dolibarr forceping='.$forceping.' MAIN_FIRST_PING_OK_DATE='.getDolGlobalString("MAIN_FIRST_PING_OK_DATE").' MAIN_FIRST_PING_OK_ID='.getDolGlobalString("MAIN_FIRST_PING_OK_ID").' MAIN_LAST_PING_KO_DATE='.getDolGlobalString("MAIN_LAST_PING_KO_DATE").' -->'."\n";
+						print "\n".'<!-- Includes JS for Ping of ZionOne forceping='.$forceping.' MAIN_FIRST_PING_OK_DATE='.getDolGlobalString("MAIN_FIRST_PING_OK_DATE").' MAIN_FIRST_PING_OK_ID='.getDolGlobalString("MAIN_FIRST_PING_OK_ID").' MAIN_LAST_PING_KO_DATE='.getDolGlobalString("MAIN_LAST_PING_KO_DATE").' -->'."\n";
 						print "\n<!-- JS CODE TO ENABLE the anonymous Ping -->\n";
-						$url_for_ping = getDolGlobalString('MAIN_URL_FOR_PING', "https://ping.dolibarr.org/");
+						$url_for_ping = getDolGlobalString('MAIN_URL_FOR_PING', "https://ping.ZionOne.org/");
 						// Try to guess the distrib used
 						$distrib = 'standard';
 						if (isset($_SERVER["SERVER_ADMIN"]) && $_SERVER["SERVER_ADMIN"] == 'doliwamp@localhost') {
@@ -3796,7 +3796,7 @@ if (!function_exists("llxFooter")) {
 						?>
 							<script>
 							jQuery(document).ready(function (tmp) {
-								console.log("Try Ping with hash_unique_id is dol_hash('dolibarr'+instance_unique_id, 'sha256')");
+								console.log("Try Ping with hash_unique_id is dol_hash('ZionOne'+instance_unique_id, 'sha256')");
 								$.ajax({
 									  method: "POST",
 									  url: "<?php echo $url_for_ping ?>",

@@ -25,7 +25,7 @@
  *		\brief      Page to setup extra fields of contact
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';

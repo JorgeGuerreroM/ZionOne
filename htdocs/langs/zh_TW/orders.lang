@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=與此提案/建議書相關聯的訂單已打開，因此不會自動建立其他訂單
 OrdersArea=客戶訂單區
 SuppliersOrdersArea=採購訂單區

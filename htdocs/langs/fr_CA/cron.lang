@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 Permission23101 =Voir les travaux planifiés
 Permission23102 =Créer/Modifier des travaux planifiées
 Permission23103 =Effacer travail planifié
@@ -37,11 +37,11 @@ CronFieldMandatory=Les champs %s sont obligatoires
 CronErrEndDateStartDt=La date de fin ne peut pas être avant la date de début
 StatusAtInstall=État lors de l'installation du module
 CronClassFile=Nom de fichier avec classe
-CronModuleHelp=Nom du répertoire du module Dolibarr (fonctionne également avec un module Dolibarr externe). <BR> Par exemple, pour appeler la méthode fetch de l'objet Product Dolibarr /htdocs/<u>product</u>/class/product.class.php, la valeur du module est<br><i>product</i>
-CronClassFileHelp=Le chemin relatif et le nom du fichier à charger (le chemin est relatif au répertoire racine du serveur Web). <BR> Par exemple, pour appeler la méthode fetch de l'objet Dolibarr Product htdocs/product/class/<u>product.class.php</u>, la valeur du nom du fichier de classe est<br><i>product/class/product.class.php</i>
-CronObjectHelp=Le nom de l'objet à charger. <BR> Par exemple, pour appeler la méthode fetch de l'objet Dolibarr Product /htdocs/product/class/product.class.php, la valeur du nom du fichier de classe est<br><i>Product</i>
-CronMethodHelp=La méthode de l'objet à lancer. <BR> Par exemple, pour appeler la méthode fetch de l'objet Dolibarr Product /htdocs/product/class/product.class.php, la valeur de method est<br><i>fetch</i>
-CronArgsHelp=Les arguments de la méthode. <BR> Par exemple, pour appeler la méthode fetch de l'objet Product Dolibarr /htdocs/product/class/product.class.php, la valeur des paramètres peut être<br><i>0, ProductRef</i>
+CronModuleHelp=Nom du répertoire du module ZionOne (fonctionne également avec un module ZionOne externe). <BR> Par exemple, pour appeler la méthode fetch de l'objet Product ZionOne /htdocs/<u>product</u>/class/product.class.php, la valeur du module est<br><i>product</i>
+CronClassFileHelp=Le chemin relatif et le nom du fichier à charger (le chemin est relatif au répertoire racine du serveur Web). <BR> Par exemple, pour appeler la méthode fetch de l'objet ZionOne Product htdocs/product/class/<u>product.class.php</u>, la valeur du nom du fichier de classe est<br><i>product/class/product.class.php</i>
+CronObjectHelp=Le nom de l'objet à charger. <BR> Par exemple, pour appeler la méthode fetch de l'objet ZionOne Product /htdocs/product/class/product.class.php, la valeur du nom du fichier de classe est<br><i>Product</i>
+CronMethodHelp=La méthode de l'objet à lancer. <BR> Par exemple, pour appeler la méthode fetch de l'objet ZionOne Product /htdocs/product/class/product.class.php, la valeur de method est<br><i>fetch</i>
+CronArgsHelp=Les arguments de la méthode. <BR> Par exemple, pour appeler la méthode fetch de l'objet Product ZionOne /htdocs/product/class/product.class.php, la valeur des paramètres peut être<br><i>0, ProductRef</i>
 CronCommandHelp=La ligne de commande du système à exécuter.
 CronCreateJob=Créer un nouvel emploi planifié
 CronFrom=De

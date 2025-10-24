@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=ຄໍາສັ່ງໄດ້ຖືກເປີດຢູ່ແລ້ວທີ່ເຊື່ອມໂຍງກັບການສະເຫນີນີ້, ດັ່ງນັ້ນບໍ່ມີຄໍາສັ່ງອື່ນຖືກສ້າງຂື້ນໂດຍອັດຕະໂນມັດ
 OrdersArea=ເຂດທີ່ລູກຄ້າສັ່ງ
 SuppliersOrdersArea=ພື້ນທີ່ການສັ່ງຊື້

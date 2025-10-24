@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Aantal documenten in map
 ECMSection=Bedrijvengids
 ECMSectionManual=Handmatige map
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Aantal onderliggende mappen
 ECMNbOfFilesInSubDir=Aantal bestanden in submappen
 ECMCreationUser=Ontwerper
 ECMArea=DMS/ECM omgeving
-ECMAreaDesc=In het gebied DMS / ECM (Document Management System / Electronic Content Management) kunt u alle soorten documenten in Dolibarr snel opslaan, delen en zoeken.
+ECMAreaDesc=In het gebied DMS / ECM (Document Management System / Electronic Content Management) kunt u alle soorten documenten in ZionOne snel opslaan, delen en zoeken.
 ECMAreaDesc2a=* Handmatige mappen kunnen worden gebruikt om documenten op te slaan met een vrije organisatie van de boomstructuur.
 ECMAreaDesc2b=* Automatische mappen worden automatisch gevuld bij het toevoegen van documenten vanaf de pagina van een element.
 ECMAreaDesc3=* Openbare mappen zijn bestanden in de submap <b>/medias</b> van de documentenmap, leesbaar voor iedereen op internet zonder dat er hoeft te worden ingelogd en zonder dat het bestand expliciet hoeft te worden gedeeld. Het wordt bijvoorbeeld gebruikt om afbeeldingsbestanden op te slaan voor de e-mail- of websitemodule.

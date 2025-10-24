@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = নির্ধারিত চাকরি পড়ুন
 Permission23102 = নির্ধারিত কাজ তৈরি/আপডেট করুন
@@ -63,8 +63,8 @@ CronStatusInactiveBtn=নিষ্ক্রিয় করুন
 CronTaskInactive=এই কাজটি অক্ষম (নির্ধারিত নয়)
 CronId=আইডি
 CronClassFile=ক্লাস সহ ফাইলের নাম
-CronModuleHelp=Dolibarr মডিউল ডিরেক্টরির নাম (এছাড়াও বহিরাগত Dolibarr মডিউলের সাথে কাজ করে)। <BR> উদাহরণস্বরূপ ডলিবার প্রোডাক্ট অবজেক্টের আনয়ন পদ্ধতি কল করার জন্য </span>/class/product.class.php, মডিউলের মান হল<br><i>পণ্য</i>
-CronClassFileHelp=The relative path and file name to load (path is relative to web server root directory). <BR> For example to call the fetch method of Dolibarr Product object htdocs/product/class/<u>product.class.php</u>, the value for class file name is<br><i>product/class/product.class.php</i>
+CronModuleHelp=ZionOne মডিউল ডিরেক্টরির নাম (এছাড়াও বহিরাগত ZionOne মডিউলের সাথে কাজ করে)। <BR> উদাহরণস্বরূপ ডলিবার প্রোডাক্ট অবজেক্টের আনয়ন পদ্ধতি কল করার জন্য </span>/class/product.class.php, মডিউলের মান হল<br><i>পণ্য</i>
+CronClassFileHelp=The relative path and file name to load (path is relative to web server root directory). <BR> For example to call the fetch method of ZionOne Product object htdocs/product/class/<u>product.class.php</u>, the value for class file name is<br><i>product/class/product.class.php</i>
 CronObjectHelp=লোড করার জন্য বস্তুর নাম। <BR> উদাহরণস্বরূপ ডলিবার প্রোডাক্ট অবজেক্টের আনয়ন পদ্ধতি কল করার জন্য /htdocs/product/class/product.class.php, ক্লাস ফাইল নামের মান হল<br><i>পণ্য</i>
 CronMethodHelp=লঞ্চ করার জন্য অবজেক্ট পদ্ধতি। <BR> উদাহরণস্বরূপ ডলিবার প্রোডাক্ট অবজেক্টের আনয়ন পদ্ধতিকে কল করার জন্য /htdocs/product/class/product.class.php, পদ্ধতির মান হল <br><i>আনয়ন</i>
 CronArgsHelp=পদ্ধতি আর্গুমেন্ট. <BR> উদাহরণস্বরূপ ডলিবার প্রোডাক্ট অবজেক্টের আনয়ন পদ্ধতি কল করার জন্য /htdocs/product/class/product.class.php, প্যারামিটারের মান হতে পারে<br><i>0, ProductRef</i>

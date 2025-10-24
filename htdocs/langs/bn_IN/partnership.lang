@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=চেক করতে ব্যাকলিং�
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=সাবস্ক্রিপশনের মেয়াদ শেষ হয়ে গেলে অংশীদারিত্বের স্থিতি বাতিল করার আগের দিনের Nb
 ReferingWebsiteCheck=ওয়েবসাইট রেফারিং চেক
 ReferingWebsiteCheckDesc=আপনার অংশীদাররা তাদের নিজস্ব ওয়েবসাইটে আপনার ওয়েবসাইট ডোমেনে একটি ব্যাকলিঙ্ক যুক্ত করেছে কিনা তা পরীক্ষা করতে আপনি একটি বৈশিষ্ট্য সক্রিয় করতে পারেন৷
-PublicFormRegistrationPartnerDesc=Dolibarr আপনাকে একটি সর্বজনীন URL/ওয়েবসাইট প্রদান করতে পারে যাতে বহিরাগত দর্শকদের অংশীদারিত্ব প্রোগ্রামের অংশ হতে অনুরোধ করতে পারে।
+PublicFormRegistrationPartnerDesc=ZionOne আপনাকে একটি সর্বজনীন URL/ওয়েবসাইট প্রদান করতে পারে যাতে বহিরাগত দর্শকদের অংশীদারিত্ব প্রোগ্রামের অংশ হতে অনুরোধ করতে পারে।
 # Object
 DeletePartnership=একটি অংশীদারিত্ব মুছুন
 PartnershipDedicatedToThisThirdParty=অংশীদারিত্ব এই তৃতীয় পক্ষের জন্য নিবেদিত

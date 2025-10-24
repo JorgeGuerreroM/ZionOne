@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=លេខឯកសារនៅក្នុងថតឯកសារ
 ECMSection=ថតឯកសារ
 ECMSectionManual=សៀវភៅដៃ
@@ -16,7 +16,7 @@ ECMNbOfSubDir=ចំនួនថតរង
 ECMNbOfFilesInSubDir=ចំនួនឯកសារនៅក្នុងថតរង
 ECMCreationUser=អ្នកបង្កើត
 ECMArea=តំបន់ DMS/ECM
-ECMAreaDesc=តំបន់ DMS/ECM (ប្រព័ន្ធគ្រប់គ្រងឯកសារ / ការគ្រប់គ្រងមាតិកាអេឡិចត្រូនិក) អនុញ្ញាតឱ្យអ្នករក្សាទុក ចែករំលែក និងស្វែងរកឯកសារគ្រប់ប្រភេទយ៉ាងឆាប់រហ័សនៅក្នុង Dolibarr ។
+ECMAreaDesc=តំបន់ DMS/ECM (ប្រព័ន្ធគ្រប់គ្រងឯកសារ / ការគ្រប់គ្រងមាតិកាអេឡិចត្រូនិក) អនុញ្ញាតឱ្យអ្នករក្សាទុក ចែករំលែក និងស្វែងរកឯកសារគ្រប់ប្រភេទយ៉ាងឆាប់រហ័សនៅក្នុង ZionOne ។
 ECMAreaDesc2a=* ថតសៀវភៅដៃអាចត្រូវបានប្រើដើម្បីរក្សាទុកឯកសារជាមួយនឹងអង្គការឥតគិតថ្លៃនៃរចនាសម្ព័ន្ធដើមឈើ។
 ECMAreaDesc2b=* ថតដោយស្វ័យប្រវត្តិត្រូវបានបំពេញដោយស្វ័យប្រវត្តិនៅពេលបន្ថែមឯកសារពីទំព័រនៃធាតុមួយ។
 ECMAreaDesc3=* Public directories are files into the subdirectory <b>/medias</b> of the documents directory, readable by everybody on internet with no need to be logged and no need to have the file shared explicitly. It is used to store image files for the emailing or website module for example.

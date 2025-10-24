@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=我們保證沒有錯誤
@@ -348,7 +348,7 @@ ErrorNoCloneWithoutEmail=The new user must have an email
 ErrorUserClone=Error in user clone categories
 ErrorQtyOrderedLessQtyShipped = The quantity ordered cannot be less than the quantity shipped.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Error, creating a various payment on a bank account with a currency different than the currency of the company is not yet supported.
-ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and Dolibarr parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and ZionOne parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, you try to pay different invoices with different currencies in the same payment
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=您的PHP參數upload_max_filesize（%s）高於PHP參數post_max_size（%s）。這不是相同的設定。
@@ -399,7 +399,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Warning, reading bank account is a
 WarningNoDataTransferedInAccountancyYet=Please note, there is no data in the accounting table. Please transfer your data recorded in the application to the accounting section or change the calculation mode to analyze the data recorded outside of accounting.
 WarningChangingThisMayBreakStopTaskScheduler=Warning, changing this value may disable the scheduler
 WarningAmountOfFileDiffersFromSumOfLines=Warning, amount of file (%s) differs from the sum of lines (%s)
-WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the Dolibarr foundation as being published by a company using illegal practices (non-compliance with the rules for using the Dolibarr brand, collecting your data without your consent or deploying malware).
+WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the ZionOne foundation as being published by a company using illegal practices (non-compliance with the rules for using the ZionOne brand, collecting your data without your consent or deploying malware).
 WarningModuleAffiliatedToAPiratPlatform=Be careful when getting a module (paid or free) from a suspicious non official platform like %s
 
 SwissQrOnlyVIR = SwissQR invoice can only be added on invoices set to be paid with credit transfer payments.

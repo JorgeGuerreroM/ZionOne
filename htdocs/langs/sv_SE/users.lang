@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=HRM område
 UserCard=Användarkort
 GroupCard=Gruppkort
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Länk till användare
 LinkedToDolibarrThirdParty=Länk till tredjepart
 CreateDolibarrLogin=Skapa användare
 CreateDolibarrThirdParty=Skapa tredjepart
-LoginAccountDisableInDolibarr=Kontot inaktiverat i Dolibarr
-PASSWORDInDolibarr=Lösenordet ändrat i Dolibarr
+LoginAccountDisableInDolibarr=Kontot inaktiverat i ZionOne
+PASSWORDInDolibarr=Lösenordet ändrat i ZionOne
 UsePersonalValue=Använd personligt värde
 ExportDataset_user_1=Användare och egenskaper
 ExportDataset_user_2=Lista över säkerhetshändelser

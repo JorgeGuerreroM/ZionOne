@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Një porosi ishte tashmë e hapur e lidhur me këtë propozim, kështu që asnjë porosi tjetër nuk u krijua automatikisht
 OrdersArea=Zona e porosive të klientëve
 SuppliersOrdersArea=Zona e porosive të blerjeve

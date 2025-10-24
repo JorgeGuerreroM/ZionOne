@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=A'zolar maydoni
 MemberCard=A'zo kartasi
 SubscriptionCard=Obuna kartasi
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Tasdiqlangan jamoat a'zolari ro'yxati
 ErrorThisMemberIsNotPublic=Ushbu a'zo ochiq emas
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Another member (name:  <b> %s </b> , login:  <b> %s </b> ) is already linked to a third party  <b> %s </b> . Avval bu havolani olib tashlang, chunki uchinchi tomonni faqat aʼzoga bogʻlab boʻlmaydi (va aksincha).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Xavfsizlik nuqtai nazaridan, barcha foydalanuvchilarni tahrirlash uchun sizga o'zingizga tegishli bo'lmagan foydalanuvchi bilan bog'lanish uchun ruxsat berilishi kerak.
-SetLinkToUser=Dolibarr foydalanuvchisiga havola
-SetLinkToThirdParty=Dolibarr uchinchi tomoniga havola
+SetLinkToUser=ZionOne foydalanuvchisiga havola
+SetLinkToThirdParty=ZionOne uchinchi tomoniga havola
 MemberCountersArePublic=Haqiqiy a'zolarning hisoblagichlari ochiqdir
 MembersCards=A'zolar uchun kartalarni yaratish
 MembersList=A'zolar ro'yxati
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Haqiqatan ham bu hissani o‘chirib tashlamoqchimisiz?
 Filehtpasswd=htpasswd fayli
 ValidateMember=A'zoni tasdiqlash
 ConfirmValidateMember=Ushbu a'zoni tasdiqlamoqchimisiz?
-FollowingLinksArePublic=Quyidagi havolalar Dolibarr ruxsati bilan himoyalanmagan ochiq sahifalardir. Ular formatlangan sahifalar emas, balki ma'lumotlar bazasini ro'yxatga olishni ko'rsatadigan misol sifatida keltirilgan.
+FollowingLinksArePublic=Quyidagi havolalar ZionOne ruxsati bilan himoyalanmagan ochiq sahifalardir. Ular formatlangan sahifalar emas, balki ma'lumotlar bazasini ro'yxatga olishni ko'rsatadigan misol sifatida keltirilgan.
 PublicMemberList=Ochiq a'zolar ro'yxati
 BlankSubscriptionForm=Ommaviy o'zini o'zi ro'yxatdan o'tkazish shakli
-BlankSubscriptionFormDesc=Dolibarr tashqi tashrif buyuruvchilarga fondga obuna bo'lishni so'rashlari uchun sizga ochiq URL / veb-sayt taqdim etishi mumkin. Agar onlayn to'lov moduli yoqilgan bo'lsa, to'lov shakli ham avtomatik ravishda taqdim etilishi mumkin.
+BlankSubscriptionFormDesc=ZionOne tashqi tashrif buyuruvchilarga fondga obuna bo'lishni so'rashlari uchun sizga ochiq URL / veb-sayt taqdim etishi mumkin. Agar onlayn to'lov moduli yoqilgan bo'lsa, to'lov shakli ham avtomatik ravishda taqdim etilishi mumkin.
 EnablePublicSubscriptionForm=O'z-o'ziga obuna bo'lish uchun ochiq veb-saytni yoqing
 ForceMemberType=Ro'yxatdan turini majburlang
 ExportDataset_member_1=A'zolar va hissalar

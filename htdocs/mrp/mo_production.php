@@ -26,7 +26,7 @@
  *    \brief      Page to make production on a MO
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/bom/class/bom.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';

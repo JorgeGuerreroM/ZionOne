@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Laskutus | Maksut
 TaxModuleSetupToModifyRules=Määritä laskentasäännöt <a href="%s"> Verojen moduulin määrittämiseen </a>
 TaxModuleSetupToModifyRulesLT=Siirry kohtaan <a href="%s">Yritysasetukset</a> ja muokkaa laskentasääntöjä

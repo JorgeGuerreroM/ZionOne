@@ -90,7 +90,7 @@ module.exports = {
     noun: 'Order',
     display: {
         label: 'New Order',
-        description: 'Triggers when a new order with action is done in Dolibarr.'
+        description: 'Triggers when a new order with action is done in ZionOne.'
     },
 
     // `operation` is where the business logic goes.

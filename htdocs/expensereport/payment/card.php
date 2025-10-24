@@ -23,7 +23,7 @@
  *		\brief      Tab payment of an expense report
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/expensereport/class/expensereport.class.php';
 require_once DOL_DOCUMENT_ROOT.'/expensereport/class/paymentexpensereport.class.php';

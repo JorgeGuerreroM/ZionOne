@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=エラーなし、コミットする
@@ -58,7 +58,7 @@ ErrorFieldsRequired=一部の必須フィールドは空白のままになって
 ErrorSubjectIsRequired=メールの件名が必要
 ErrorInAddAttachmentsImageBaseOnMedia=添付用のメディア ディレクトリに画像ファイルを作成するときにエラー発生
 ErrorInAddAttachmentsImageBaseIsSrcData=添付ファイル用一時ディレクトリに画像ファイル (data: として見つかったもの) を作成するときにエラー発生
-ErrorFailedToCreateDir=ディレクトリの作成に失敗した。そのWebサーバのユーザがDolibarrのドキュメントディレクトリに書き込む権限を持って確認すること。パラメータ の<b>safe_modeが</b>このPHPが有効になっている場合、Dolibarr PHPファイルは、Webサーバーのユーザ(またはグループ)に所有していることを確認すること。
+ErrorFailedToCreateDir=ディレクトリの作成に失敗した。そのWebサーバのユーザがDolibarrのドキュメントディレクトリに書き込む権限を持って確認すること。パラメータ の<b>safe_modeが</b>このPHPが有効になっている場合、ZionOne PHPファイルは、Webサーバーのユーザ(またはグループ)に所有していることを確認すること。
 ErrorNoMailDefinedForThisUser=このユーザに定義されたメールはない
 ErrorSetupOfEmailsNotComplete=メールの設定が完了していない
 ErrorAccountingClosureSetupNotComplete=閉鎖アカウントの設定が完了していない
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=フィールド <b> %s </b> に
 ErrorFieldMustHaveXChar=フィールド<b>%s </b>には、少なくとも%s文字が必要だ。
 ErrorNoAccountancyModuleLoaded=活性化済会計モジュールなし
 ErrorExportDuplicateProfil=このプロファイル名は、このエクスポートセットに既に存在する。
-ErrorLDAPSetupNotComplete=Dolibarr-LDAPのマッチングは完全ではない。
+ErrorLDAPSetupNotComplete=ZionOne-LDAPのマッチングは完全ではない。
 ErrorLDAPMakeManualTest=.ldifファイルは、ディレクトリ%sで生成された。エラーの詳細情報を持つようにコマンドラインから手動でそれをロードしようとする。
 ErrorCantSaveADoneUserWithZeroPercentage= "doneby" フィールドも入力されている場合、 "statusnotstarted" のアクションを保存できない。
 ErrorPleaseTypeBankTransactionReportName=エントリを報告する必要のある銀行取引明細書名を入力すること(フォーマットYYYYMMまたはYYYYMMDD)
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=新しい ユーザ にはメールアドレスが必�
 ErrorUserClone=ユーザ クローン カテゴリ でエラーが発生した
 ErrorQtyOrderedLessQtyShipped = 注文数量は出荷数量より少なくすることはできない。
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=エラー: 法人 の通貨とは異なる通貨を使用して 銀行口座 でさまざまな支払いを作成することはまだサポートされていない。
-ErrorStreamMustBeEnabled=PHP ストリーム %s は使用できない。PHP モジュールと Dolibarr パラメータ $dolibarr_main_stream_to_disable を確認すること。
+ErrorStreamMustBeEnabled=PHP ストリーム %s は使用できない。PHP モジュールと ZionOne パラメータ $dolibarr_main_stream_to_disable を確認すること。
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=エラー、同じ支払いで異なる請求書を異なる通貨で支払おうとしている
 ErrorLinkNotFoundWithSharedLink=エラー、この共有キーでリンクが見つからない
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=行数が間違っています。ファイルには少なくとも2行（タイトル1行、データ1行）が必要です。
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=警告: 銀行口座 の読み取�
 WarningNoDataTransferedInAccountancyYet=会計表にはデータがないのでご注意ください。アプリケーションに記録されたデータを会計セクションに転送するか、計算モードを変更して、会計外で記録されたデータを分析すること。
 WarningChangingThisMayBreakStopTaskScheduler=警告: この値を変更するとスケジューラが無効になる可能性がある
 WarningAmountOfFileDiffersFromSumOfLines=警告: ファイル (%s) の量が行の合計 (%s) と異なる
-WarningModuleAffiliatedToAReportedCompany=警告: このモジュールは、違法な方法 (Dolibarr ブランドの使用規則の不遵守、ユーザーの同意なしのデータ収集、マルウェアの展開) を使用する 法人 によって公開されたとして Dolibarr 財団に報告されている。
+WarningModuleAffiliatedToAReportedCompany=警告: このモジュールは、違法な方法 (ZionOne ブランドの使用規則の不遵守、ユーザーの同意なしのデータ収集、マルウェアの展開) を使用する 法人 によって公開されたとして ZionOne 財団に報告されている。
 WarningModuleAffiliatedToAPiratPlatform=%s のような疑わしい非公式プラットフォームからモジュール (有料または無料) を入手するときは注意してください。
 
 SwissQrOnlyVIR = SwissQR 請求書は、クレジット振替で支払うように設定された請求書にのみ追加できる。

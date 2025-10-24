@@ -17,7 +17,7 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../../../../main.inc.php';
 
 /**
@@ -77,7 +77,7 @@ $documentation->showSidebar(); ?>
 
 			<p>
 				This experimental feature provides visual feedback on input fields based on their processing state.
-				Currently, it is only available in this documentation and may be integrated into the <code>develop</code> branch of Dolibarr in the future.
+				Currently, it is only available in this documentation and may be integrated into the <code>develop</code> branch of ZionOne in the future.
 			</p>
 
 			<h3>How It Works</h3>

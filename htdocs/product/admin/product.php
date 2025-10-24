@@ -32,7 +32,7 @@
  *  \brief      Setup page of product module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/product.lib.php';
@@ -226,7 +226,7 @@ if ($action == 'del') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
 		if (getDolGlobalString('PRODUCT_ADDON_PDF') == "$value") {
-			dolibarr_del_const($db, 'PRODUCT_ADDON_PDF', $conf->entity);
+			zionone_del_const($db, 'PRODUCT_ADDON_PDF', $conf->entity);
 		}
 	}
 }
@@ -253,7 +253,7 @@ if ($action == 'set') {
 	if (GETPOST('value', 'alpha')) {
 		$res = dolibarr_set_const($db, $const, $value, 'chaine', 0, '', $conf->entity);
 	} else {
-		$res = dolibarr_del_const($db, $const, $conf->entity);
+		$res = zionone_del_const($db, $const, $conf->entity);
 	}
 	if (!($res > 0)) {
 		$error++;
@@ -273,7 +273,7 @@ if (preg_match('/set_(.+)/', $action, $reg)) {
 if (preg_match('/del_(.+)/', $action, $reg)) {
 	$keyforvar = $reg[1];
 	if ($keyforvar) {
-		$res = dolibarr_del_const($db, $keyforvar, $conf->entity);
+		$res = zionone_del_const($db, $keyforvar, $conf->entity);
 	}
 }
 

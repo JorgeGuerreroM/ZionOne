@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Κωδικός πρόσβασης για <b>%s</b> χρήστη στο <b>%s</b> Domain πρέπει να αλλάξει.
 UserMustChangePassNextLogon=Ο χρήστης πρέπει να αλλάξει τον κωδικό πρόσβασης για το %s Domain
 LDAPInformationsForThisContact=Πληροφορίες στο LDAP βάση δεδομένων για αυτήν την επαφή
@@ -22,7 +22,7 @@ GroupSynchronized=Συγχρονισμένη ομάδα
 MemberSynchronized=Συγχρονισμένο μέλος
 MemberTypeSynchronized=Ο τύπος μέλους είναι συγχρονισμένος
 ContactSynchronized=Επικοινωνία συγχρονισμένη
-ForceSynchronize=Δυναμικός συγχρονισμός Dolibarr -> LDAP
+ForceSynchronize=Δυναμικός συγχρονισμός ZionOne -> LDAP
 ErrorFailedToReadLDAP=Αποτυχία ανάγνωσης της LDAP βάση δεδομένων. Ελέγξτε τη ρύθμιση της ενότητας LDAP και την προσβασιμότητα της βάσης δεδομένων.
 PasswordOfUserInLDAP=Κωδικός πρόσβασης χρήστη στο LDAP
 LDAPPasswordHashType=Τύπος hash κωδικού πρόσβασης

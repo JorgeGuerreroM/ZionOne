@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Секция с членове
 MemberCard=Членска карта
 SubscriptionCard=Абонаментна карта
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Списък на валидирани публич
 ErrorThisMemberIsNotPublic=Този член не е публичен
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Друг член (име: <b>%s</b>, потребител: <b>%s</b>) е вече свързан към контрагент <b>%s</b>. Първо премахнете тази връзка, тъй като контрагентът не може да бъде свързан само с член (и обратно).
 ErrorUserPermissionAllowsToLinksToItselfOnly=От съображения за сигурност трябва да имате права за променяне на всички потребители, за да може да свържете член с потребител, който не сте вие.
-SetLinkToUser=Свързване към Dolibarr потребител
-SetLinkToThirdParty=Свързване към Dolibarr контрагент
+SetLinkToUser=Свързване към ZionOne потребител
+SetLinkToThirdParty=Свързване към ZionOne контрагент
 MemberCountersArePublic=Броячите на валидни членове са публични
 MembersCards=Генериране на карти за членове
 MembersList=Списък на членове
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Сигурни ли сте, че искате да и�
 Filehtpasswd=htpasswd файл
 ValidateMember=Валидиране на член
 ConfirmValidateMember=Сигурни ли сте, че искате да валидирате този член?
-FollowingLinksArePublic=Следните връзки са активни страници, които не са защитени от дефинираните в Dolibarr права. Те не са форматирани страници, а са предоставени като пример, за да покажат как да се направи списък с членове от базата данни.
+FollowingLinksArePublic=Следните връзки са активни страници, които не са защитени от дефинираните в ZionOne права. Те не са форматирани страници, а са предоставени като пример, за да покажат как да се направи списък с членове от базата данни.
 PublicMemberList=Публичен списък с членове
 BlankSubscriptionForm=Публична форма за саморегистрация
-BlankSubscriptionFormDesc=Dolibarr може да предостави публичен URL адрес / уебсайт, за да позволи на външни посетители да се абонират за организацията. Ако е активиран модул за онлайн плащане, то може автоматично да се предостави и формуляр за плащане.
+BlankSubscriptionFormDesc=ZionOne може да предостави публичен URL адрес / уебсайт, за да позволи на външни посетители да се абонират за организацията. Ако е активиран модул за онлайн плащане, то може автоматично да се предостави и формуляр за плащане.
 EnablePublicSubscriptionForm=Активиране на публичен уебсайт с формуляр за само-абониране
 ForceMemberType=Принуждаване на типът член
 ExportDataset_member_1=Членове и принос

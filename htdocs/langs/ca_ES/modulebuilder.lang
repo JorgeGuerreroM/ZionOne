@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Identificador del mòdul
 ModuleBuilderDesc=Aquesta eina només l'han d'utilitzar usuaris o desenvolupadors experimentats. Proporciona utilitats per a construir o editar el vostre propi mòdul. La documentació per al desenvolupament manual alternatiu <a href="%s" target="_blank" rel="noopener noreferrer"> és aquí </a>.
 EnterNameOfModuleDesc=Introduïu el nom del mòdul/aplicació que voleu crear sense espais. Utilitzeu majúscules per a separar paraules (per exemple: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Podeu suprimir el vostre mòdul. AVÍS: se suprimi
 EnterNameOfObjectToDeleteDesc=Podeu esborrar un objecte. ADVERTÈNCIA: S'eliminaran tots els fitxers de codificació (generats o creats manualment) relacionats amb l'objecte!
 DangerZone=Zona perillosa
 BuildPackage=Construeix el paquet
-BuildPackageDesc=Pots generar un paquet zip de la teva aplicació perquè puguis distribuir-lo a qualsevol Dolibarr. També podeu distribuir-lo o vendre'l a <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=Pots generar un paquet zip de la teva aplicació perquè puguis distribuir-lo a qualsevol ZionOne. També podeu distribuir-lo o vendre'l a <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Construeix documentació
 ModuleIsNotActive=Aquest mòdul encara no està activat. Aneu a %s per a publicar-lo o feu clic aquí
 ModuleIsLive=Aquest mòdul ha estat activat. Qualsevol canvi pot trencar la funció actual en viu.
@@ -110,7 +110,7 @@ HooksDefDesc=Definiu a la propietat <b>module_parts['hooks']</b>, al fitxer desc
 TriggerDefDesc=Definiu al fitxer disparador el codi que voleu executar quan s'executi un esdeveniment empresarial extern al vostre mòdul (esdeveniments desencadenats per altres mòduls).
 SeeIDsInUse=Consulteu els identificadors que s’utilitzen a la instal·lació
 SeeReservedIDsRangeHere=Consultar l'interval d'identificadors reservats
-ToolkitForDevelopers=Kit d'eines per als desenvolupadors de Dolibarr
+ToolkitForDevelopers=Kit d'eines per als desenvolupadors de ZionOne
 TryToUseTheModuleBuilder=Si teniu coneixements de SQL i PHP, podeu utilitzar l'assistent de generador de mòduls natiu. <br> Activeu el mòdul <strong> %s </strong> i utilitzeu l'assistent fent clic al <span class="fa fa-bug"> </span> al menú superior dret. <br> Advertència: aquesta és una característica de desenvolupador avançada, feu <b> no </b> en el vostre lloc de producció!
 SeeTopRightMenu=Veure <span class="fa fa-bug"></span> al menú superior dret
 AddLanguageFile=Afegir un fitxer d'idioma

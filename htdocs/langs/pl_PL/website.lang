@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kod
 WebsiteName=Nazwa strony internetowej
 WebsiteSetupDesc=Tu utwórz witryny, które chcesz użyć. Następnie, przejdź do menu Witryny, aby je edytować.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Aby wdrożyć tę witrynę na żywo, 
 SetHereVirtualHost= <u> Użyj z Apache / NGinx / ... </u> <br> Utwórz na swoim serwerze internetowym (Apache, Nginx, ...) dedykowany wirtualny host z włączoną obsługą PHP i katalog główny na <br> <strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Przykład do użycia w konfiguracji hosta wirtualnego Apache:
 YouCanAlsoTestWithPHPS=<u>Używaj z wbudowanym serwerem PHP</u><br>W środowisku programistycznym możesz woleć przetestować witrynę z wbudowanym serwerem PHP, uruchamiając
-YouCanAlsoDeployToAnotherWHP=<u>Uruchom swoją witrynę internetową w ramach dostawcy hostingu internetowego Dolibarr</u><br>Jeśli nie masz w Internecie serwera internetowego, takiego jak Apache lub NGinx, możesz wyeksportować i zaimportować swoją witrynę internetową do innej instancji Dolibarr udostępnionej przez innego dostawcę hostingu Dolibarr, który zapewnia pełną integrację z modułem witryny internetowej. Listę niektórych dostawców hostingu Dolibarr znajdziesz na <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Uruchom swoją witrynę internetową w ramach dostawcy hostingu internetowego ZionOne</u><br>Jeśli nie masz w Internecie serwera internetowego, takiego jak Apache lub NGinx, możesz wyeksportować i zaimportować swoją witrynę internetową do innej instancji ZionOne udostępnionej przez innego dostawcę hostingu ZionOne, który zapewnia pełną integrację z modułem witryny internetowej. Listę niektórych dostawców hostingu ZionOne znajdziesz na <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Sprawdź również, czy użytkownik wirtualnego hosta (na przykład dane www) ma <strong> %s </strong> uprawnienia do plików w <br> <strong> %s</strong>
 ReadPerm=Czytanie
 WritePerm=Zapis
 TestDeployOnWeb=Testuj/wdróż na web serwerze
 PreviewSiteServedByWebServer=<u>Podgląd %s w nowej zakładce.</u><br><br>%s będzie obsługiwana przez zewnętrzny web serwer (np. Apache, Nginx, IIS). Musisz zainstalować i skonfigurować taki web serwer, zanim wskazanie do katalogu:<br><strong>%s</strong><br>URL obsługiwany przez zewnętrzny web serwer:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Podgląd %s w nowej karcie.</u><br><br> %s będzie obsługiwany przez serwer Dolibarr, więc nie wymaga instalacji żadnego dodatkowego serwera WWW (takiego jak Apache, Nginx, IIS).<br>Niedogodnością jest to, że adresy URL stron nie są przyjazne dla użytkownika i zaczynają się od ścieżki Twojego Dolibarr.<br>Adres URL obsługiwany przez Dolibarr:<br><strong>%s</strong><br><br>Aby wdrożyć lub przetestować przy użyciu własnego zewnętrznego serwera WWW (np. Apache, Nginx, Lighttp), użyj łącza „%s”.
+PreviewSiteServedByDolibarr=<u>Podgląd %s w nowej karcie.</u><br><br> %s będzie obsługiwany przez serwer ZionOne, więc nie wymaga instalacji żadnego dodatkowego serwera WWW (takiego jak Apache, Nginx, IIS).<br>Niedogodnością jest to, że adresy URL stron nie są przyjazne dla użytkownika i zaczynają się od ścieżki Twojego ZionOne.<br>Adres URL obsługiwany przez ZionOne:<br><strong>%s</strong><br><br>Aby wdrożyć lub przetestować przy użyciu własnego zewnętrznego serwera WWW (np. Apache, Nginx, Lighttp), użyj łącza „%s”.
 VirtualHostUrlNotDefined=Adres URL wirtualnego hosta obsługiwanego przez zewnętrzny web serwer nie został zdefiniowany
 NoPageYet=Brak stron
 YouCanCreatePageOrImportTemplate=Możesz utworzyć nową stronę albo załadować pełny szablon witryny
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Wkrótce zostaniesz przekierowany na stronę ze s
 WebPortalSetupNotComplete=Konfiguracja portalu internetowego nie została ukończona
 DeleteWebsiteAccount=Usuń konto w witrynie
 ConfirmDeleteWebsiteAccount=Czy na pewno chcesz usunąć to konto?
-ConfirmDeleteWebsiteAccount2=Jeżeli to konto zostało użyte do zalogowania się w portalu publicznym lub innej witrynie internetowej obsługiwanej przez Dolibarr, logowanie może nie być już możliwe.
+ConfirmDeleteWebsiteAccount2=Jeżeli to konto zostało użyte do zalogowania się w portalu publicznym lub innej witrynie internetowej obsługiwanej przez ZionOne, logowanie może nie być już możliwe.
 ContentSecurityPolicy=Polityka bezpieczeństwa treści witryny HTTP
 WebsiteSecurityForceRP=Polityka odsyłająca HTTP dla witryny internetowej
 WebsiteSecurityForceSTS=Witryna internetowa HTTP „Strict-Transport-Security”

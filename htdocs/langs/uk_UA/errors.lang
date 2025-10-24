@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Без помилок, ми робимо
@@ -53,12 +53,12 @@ ErrorWrongDate=Дата не правильна!
 ErrorFailedToWriteInDir=Не вдалося записати в каталог %s
 ErrorFailedToBuildArchive=Не вдалося створити архівний файл %s
 ErrorFoundBadEmailInFile=Знайдено неправильний синтаксис електронної пошти для рядків %s у файлі (приклад рядка %s з email=%s)
-ErrorUserCannotBeDelete=Користувача не можна видалити. Можливо, це пов’язано з сутностями Dolibarr.
+ErrorUserCannotBeDelete=Користувача не можна видалити. Можливо, це пов’язано з сутностями ZionOne.
 ErrorFieldsRequired=Деякі обов’язкові поля залишено порожніми.
 ErrorSubjectIsRequired=Тема електронного листа обов’язкова
 ErrorInAddAttachmentsImageBaseOnMedia=Помилка під час створення файлів зображень у медіа-каталозі для вкладення
 ErrorInAddAttachmentsImageBaseIsSrcData=Помилка під час створення файлів зображень (знайдено як data:) у тимчасовому каталозі для вкладення
-ErrorFailedToCreateDir=Не вдалося створити каталог. Перевірте, чи має користувач веб-сервера права запису в каталог документів Dolibarr. Якщо параметр <b> safe_mode </b> увімкнено на цьому PHP, переконайтеся, що файли Dolibarr php належать користувачеві (або групі) веб-сервера.
+ErrorFailedToCreateDir=Не вдалося створити каталог. Перевірте, чи має користувач веб-сервера права запису в каталог документів ZionOne. Якщо параметр <b> safe_mode </b> увімкнено на цьому PHP, переконайтеся, що файли ZionOne php належать користувачеві (або групі) веб-сервера.
 ErrorNoMailDefinedForThisUser=Для цього користувача не визначено пошту
 ErrorSetupOfEmailsNotComplete=Налаштування електронних листів не завершено
 ErrorAccountingClosureSetupNotComplete=Налаштування рахунків закриття не завершено
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Поле <b>%s</b> не має 
 ErrorFieldMustHaveXChar=Поле <b> %s </b> має містити щонайменше символ %s.
 ErrorNoAccountancyModuleLoaded=Не активовано модуль бухгалтерії
 ErrorExportDuplicateProfil=Ця назва профілю вже існує для цього набору експорту.
-ErrorLDAPSetupNotComplete=Узгодження Dolibarr-LDAP не завершено.
+ErrorLDAPSetupNotComplete=Узгодження ZionOne-LDAP не завершено.
 ErrorLDAPMakeManualTest=У каталозі %s створено файл .ldif. Спробуйте завантажити його вручну з командного рядка, щоб отримати більше інформації про помилки.
 ErrorCantSaveADoneUserWithZeroPercentage=Неможливо зберегти дію зі статусом «не розпочато», якщо також заповнене поле «виконано».
 ErrorPleaseTypeBankTransactionReportName=Будь ласка, введіть назву банківської виписки, у якій потрібно повідомити запис (формат РРРРММ або РРРРММДД)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s призначається іншій третині
 ErrorFailedToSendPassword=Не вдалося надіслати пароль
 ErrorFailedToLoadRSSFile=Не вдається отримати RSS-канал. Спробуйте додати константу MAIN_SIMPLEXMLLOAD_DEBUG, якщо повідомлення про помилки не надають достатньо інформації.
 ErrorForbidden=Доступ заборонено. <br> Ви намагаєтеся отримати доступ до сторінки, області або функції вимкненого модуля або не перебуваєте в автентифікованому сеансі або це не дозволено вашому користувачеві.
-ErrorForbidden2=Дозвіл для цього входу може визначити ваш адміністратор Dolibarr з меню %s->%s.
-ErrorForbidden3=Здається, що Dolibarr не використовується через аутентифікований сеанс. Перегляньте документацію з налаштування Dolibarr, щоб дізнатися, як керувати аутентифікаціями (htaccess, mod_auth або інші...).
+ErrorForbidden2=Дозвіл для цього входу може визначити ваш адміністратор ZionOne з меню %s->%s.
+ErrorForbidden3=Здається, що ZionOne не використовується через аутентифікований сеанс. Перегляньте документацію з налаштування ZionOne, щоб дізнатися, як керувати аутентифікаціями (htaccess, mod_auth або інші...).
 ErrorForbidden4=Примітка: очистіть файли cookie вашого браузера, щоб знищити наявні сеанси для цього входу.
 ErrorNoImagickReadimage=Клас Imagick не знайдено в цьому PHP. Попередній перегляд недоступний. Адміністратори можуть вимкнути цю вкладку з меню Налаштування - Дисплей.
 ErrorRecordAlreadyExists=Запис уже існує
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Обліковий запис користу�
 ErrorNoActivatedBarcode=Тип штрих-коду не активовано
 ErrUnzipFails=Не вдалося розпакувати %s за допомогою ZipArchive
 ErrNoZipEngine=У цьому PHP немає механізму для архівування/розпакування файлу %s
-ErrorFileMustBeADolibarrPackage=Файл %s має бути ZIP-пакетом Dolibarr
-ErrorModuleFileRequired=Ви повинні вибрати файл пакету модуля Dolibarr
+ErrorFileMustBeADolibarrPackage=Файл %s має бути ZIP-пакетом ZionOne
+ErrorModuleFileRequired=Ви повинні вибрати файл пакету модуля ZionOne
 ErrorPhpCurlNotInstalled=PHP CURL не встановлено, це важливо для спілкування з Paypal
 ErrorFailedToAddToMailmanList=Не вдалося додати запис %s до списку Mailman %s або бази SPIP
 ErrorFailedToRemoveToMailmanList=Не вдалося видалити запис %s зі списку Mailman %s або бази SPIP
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=Дата має бути більшою за сього�
 ErrorStartDateGreaterEnd=Дата початку є більшою за дату завершення
 ErrorPaymentModeDefinedToWithoutSetup=Для режиму оплати було встановлено тип %s, але налаштування модуля Рахунок-фактура не було завершено для визначення інформації, яка відображатиметься для цього режиму оплати.
 ErrorPHPNeedModule=Помилка, для використання цієї функції у вашому PHP має бути встановлений модуль <b> %s </b>.
-ErrorOpenIDSetupNotComplete=Ви налаштували файл конфігурації Dolibarr, щоб дозволити автентифікацію OpenID, але URL-адреса служби OpenID не визначена в константі %s
+ErrorOpenIDSetupNotComplete=Ви налаштували файл конфігурації ZionOne, щоб дозволити автентифікацію OpenID, але URL-адреса служби OpenID не визначена в константі %s
 ErrorWarehouseMustDiffers=Вихідні та цільові склади повинні відрізнятися
 ErrorBadFormat=Поганий формат!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Помилка, цей учасник ще не пов’язаний із третьою стороною. Зв’яжіть учасника з наявною третьою стороною або створіть нову третю сторону, перш ніж створювати підписку з рахунком-фактурою.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Новий користувач повинен мати
 ErrorUserClone=Помилка в категоріях клонів користувачів
 ErrorQtyOrderedLessQtyShipped = Замовлена кількість не може бути меншою за кількість, що відправляється.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Помилка. Створення різних платежів на банківському рахунку у валюті, що відрізняється від валюти компанії, ще не підтримується.
-ErrorStreamMustBeEnabled=Потік PHP %s недоступний. Перевірте ваші модулі PHP та параметр Dolibarr $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=Потік PHP %s недоступний. Перевірте ваші модулі PHP та параметр ZionOne $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Помилка, ви намагаєтеся оплатити різні рахунки-фактури в різних валютах одним платежем
 ErrorLinkNotFoundWithSharedLink=Помилка, посилання не знайдено з цим спільним ключем
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Неправильна кількість рядків. Файли повинні мати щонайменше 2 рядки (1 рядок для заголовка та 1 рядок для даних)
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Помилка, значення для цього
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Ваш параметр PHP upload_max_filesize (%s) вищий за параметр PHP post_max_size (%s). Це не послідовне налаштування.
-WarningPasswordSetWithNoAccount=Для цього учасника встановлено пароль. Однак обліковий запис користувача не створено. Таким чином, цей пароль зберігається, але його не можна використовувати для входу в Dolibarr. Він може використовуватися зовнішнім модулем/інтерфейсом, але якщо вам не потрібно вказувати логін чи пароль для учасника, ви можете вимкнути опцію «Керувати логіном для кожного члена» у налаштуваннях модуля Member. Якщо вам потрібно керувати логіном, але не потрібен пароль, ви можете залишити це поле порожнім, щоб уникнути цього попередження. Примітка: електронну пошту також можна використовувати як логін, якщо учасник пов’язаний з користувачем.
+WarningPasswordSetWithNoAccount=Для цього учасника встановлено пароль. Однак обліковий запис користувача не створено. Таким чином, цей пароль зберігається, але його не можна використовувати для входу в ZionOne. Він може використовуватися зовнішнім модулем/інтерфейсом, але якщо вам не потрібно вказувати логін чи пароль для учасника, ви можете вимкнути опцію «Керувати логіном для кожного члена» у налаштуваннях модуля Member. Якщо вам потрібно керувати логіном, але не потрібен пароль, ви можете залишити це поле порожнім, щоб уникнути цього попередження. Примітка: електронну пошту також можна використовувати як логін, якщо учасник пов’язаний з користувачем.
 WarningMandatorySetupNotComplete=Натисніть тут, щоб налаштувати основні параметри
 WarningEnableYourModulesApplications=Натисніть тут, щоб увімкнути свої модулі та програми
 WarningSafeModeOnCheckExecDir=Попередження, параметр PHP <b> safe_mode </b> увімкнено, тому команда має зберігатися в каталозі, оголошеному параметром php <b> safe_mode_exec_dir a09a4b739f1.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Увага, читання бан�
 WarningNoDataTransferedInAccountancyYet=Зверніть увагу, що в таблиці бухгалтерського обліку немає даних. Будь ласка, перенесіть дані, записані в додатку, до розділу бухгалтерського обліку або змініть режим розрахунку, щоб проаналізувати дані, записані поза бухгалтерським обліком.
 WarningChangingThisMayBreakStopTaskScheduler=Увага, зміна цього значення може вимкнути планувальник
 WarningAmountOfFileDiffersFromSumOfLines=Увага, обсяг файлу (%s) відрізняється від суми рядків (%s)
-WarningModuleAffiliatedToAReportedCompany=Увага, про цей модуль повідомлено фонду Dolibarr як про публікацію компанією, яка використовує незаконні методи (недотримання правил використання бренду Dolibarr, збір ваших даних без вашої згоди або розгортання шкідливого програмного забезпечення).
+WarningModuleAffiliatedToAReportedCompany=Увага, про цей модуль повідомлено фонду ZionOne як про публікацію компанією, яка використовує незаконні методи (недотримання правил використання бренду ZionOne, збір ваших даних без вашої згоди або розгортання шкідливого програмного забезпечення).
 WarningModuleAffiliatedToAPiratPlatform=Будьте обережні, отримуючи модуль (платний чи безкоштовний) з підозрілої неофіційної платформи, як-от %s
 
 SwissQrOnlyVIR = Рахунок-фактуру SwissQR можна додати лише до рахунків-фактур, налаштованих на оплату за допомогою кредитних переказів.

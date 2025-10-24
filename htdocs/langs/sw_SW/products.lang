@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Ref ya bidhaa.
 ProductLabel=Lebo ya bidhaa
 ProductLabelTranslated=Lebo ya bidhaa iliyotafsiriwa
@@ -300,7 +300,7 @@ MinSupplierPrice=Bei ya chini ya kununua
 MinCustomerPrice=Bei ya chini ya kuuza
 NoDynamicPrice=Hakuna bei inayobadilika
 DynamicPriceConfiguration=Usanidi wa bei inayobadilika
-DynamicPriceDesc=Unaweza kufafanua kanuni za hisabati ili kukokotoa bei za Wateja au Wauzaji. Fomula kama hizo zinaweza kutumia waendeshaji wote wa hisabati, viboreshaji kadhaa na anuwai. Unaweza kufafanua hapa vigezo unavyotaka kutumia. Ikiwa kigezo kinahitaji sasisho otomatiki, unaweza kufafanua URL ya nje ili kuruhusu Dolibarr kusasisha thamani kiotomatiki.
+DynamicPriceDesc=Unaweza kufafanua kanuni za hisabati ili kukokotoa bei za Wateja au Wauzaji. Fomula kama hizo zinaweza kutumia waendeshaji wote wa hisabati, viboreshaji kadhaa na anuwai. Unaweza kufafanua hapa vigezo unavyotaka kutumia. Ikiwa kigezo kinahitaji sasisho otomatiki, unaweza kufafanua URL ya nje ili kuruhusu ZionOne kusasisha thamani kiotomatiki.
 AddVariable=Ongeza Kigezo
 AddUpdater=Ongeza Kisasishaji
 GlobalVariables=Vigezo vya kimataifa
@@ -388,7 +388,7 @@ NewProductAttribute=Sifa mpya
 NewProductAttributeValue=Thamani mpya ya sifa
 ErrorCreatingProductAttributeValue=Kulikuwa na hitilafu wakati wa kuunda thamani ya sifa. Inaweza kuwa kwa sababu tayari kuna thamani iliyopo na marejeleo hayo
 ProductCombinationGeneratorWarning=Ukiendelea, kabla ya kuzalisha vibadala vipya, vyote vilivyotangulia VITAFUTWA. Zilizopo tayari zitasasishwa na thamani mpya
-TooMuchCombinationsWarning=Kuzalisha anuwai nyingi kunaweza kusababisha CPU ya juu, utumiaji wa kumbukumbu na Dolibarr kutoweza kuziunda. Kuwasha chaguo "%s" inaweza kusaidia kupunguza utumiaji wa kumbukumbu.
+TooMuchCombinationsWarning=Kuzalisha anuwai nyingi kunaweza kusababisha CPU ya juu, utumiaji wa kumbukumbu na ZionOne kutoweza kuziunda. Kuwasha chaguo "%s" inaweza kusaidia kupunguza utumiaji wa kumbukumbu.
 DoNotRemovePreviousCombinations=Usiondoe vibadala vilivyotangulia
 UsePercentageVariations=Tumia tofauti za asilimia
 PercentageVariation=Asilimia tofauti

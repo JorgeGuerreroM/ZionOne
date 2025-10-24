@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=要检查的反向链接
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb of days before canceling status of a partnership when a subscription has expired
 ReferingWebsiteCheck=检查网站引用情况
 ReferingWebsiteCheckDesc=您可以启用一项功能来检查您的合作伙伴是否在其自己的网站上添加了指向您网站域的反向链接。
-PublicFormRegistrationPartnerDesc=Dolibarr 可以为您提供一个公共 URL/网站，以允许外部访问者请求加入合作伙伴计划。
+PublicFormRegistrationPartnerDesc=ZionOne 可以为您提供一个公共 URL/网站，以允许外部访问者请求加入合作伙伴计划。
 
 #
 # Object

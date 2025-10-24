@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cashdesk
+# ZionOne language file - Source file is en_US - cashdesk
 CashDeskBankCash=Bankrekening (cash)
 CashDeskBankCheque=Bankrekening (cheque)
 CashdeskShowServices=Verkoop van diensten
@@ -7,7 +7,7 @@ SellFinished=Verkoop afgerond
 TotalTicket=Totale ticketprijs
 BankToPay=Betalingsaccount
 ShowStock=Toon magazijn
-DolibarrReceiptPrinter=Dolibarr Kasticket Printer
+DolibarrReceiptPrinter=ZionOne Kasticket Printer
 CloseBill=Sluit rekening
 Place=Plaats
 OrderPrinters=Voeg een knop toe om de bestelling naar bepaalde printers te sturen, zonder Betaling (bijvoorbeeld om een bestelling naar een keuken te sturen)

@@ -17,7 +17,7 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  * or see https://www.gnu.org/
  *
- * Path to WSDL is: http://localhost/dolibarr/webservices/server_productorservice.php?wsdl
+ * Path to WSDL is: http://localhost/ZionOne/webservices/server_productorservice.php?wsdl
  */
 
 /**
@@ -75,7 +75,7 @@ class WebservicesProductsTest extends CommonClassTest
 
 		$WS_DOL_URL = DOL_MAIN_URL_ROOT.'/webservices/server_productorservice.php';
 		$WS_METHOD  = 'createProductOrService';
-		$ns = 'http://www.dolibarr.org/ns/';
+		$ns = 'http://www.ZionOne.org/ns/';
 
 		// Set the WebService URL
 		print __METHOD__." create nusoap_client for URL=".$WS_DOL_URL."\n";
@@ -153,7 +153,7 @@ class WebservicesProductsTest extends CommonClassTest
 
 		$WS_DOL_URL = DOL_MAIN_URL_ROOT.'/webservices/server_productorservice.php';
 		$WS_METHOD  = 'getProductOrService';
-		$ns = 'http://www.dolibarr.org/ns/';
+		$ns = 'http://www.ZionOne.org/ns/';
 
 		// Set the WebService URL
 		print __METHOD__." create nusoap_client for URL=".$WS_DOL_URL."\n";
@@ -216,7 +216,7 @@ class WebservicesProductsTest extends CommonClassTest
 
 		$WS_DOL_URL = DOL_MAIN_URL_ROOT.'/webservices/server_productorservice.php';
 		$WS_METHOD  = 'deleteProductOrService';
-		$ns = 'http://www.dolibarr.org/ns/';
+		$ns = 'http://www.ZionOne.org/ns/';
 
 		// Set the WebService URL
 		print __METHOD__." create nusoap_client for URL=".$WS_DOL_URL."\n";

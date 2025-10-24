@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Nº de documentos no directorio
 ECMSection=Directorio
 ECMSectionManual=Directorio manual
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Número de sub-directories
 ECMNbOfFilesInSubDir=Número de ficheiros en sub-directories
 ECMCreationUser=Creador
 ECMArea=Área MS/ECM
-ECMAreaDesc=O área DMS / ECM (Document Management System / Electronic Content Management) permítelle gardar, compartir e buscar rapidamente todo tipo de documentos en Dolibarr.
+ECMAreaDesc=O área DMS / ECM (Document Management System / Electronic Content Management) permítelle gardar, compartir e buscar rapidamente todo tipo de documentos en ZionOne.
 ECMAreaDesc2a=* Os directorios manuais pódense usar para gardar documentos cunha organización libre da estrutura en árbore.
 ECMAreaDesc2b=* Os directorios automáticos énchense automaticamente ao engadir documentos desde a páxina dun elemento.
 ECMAreaDesc3=* Os directorios públicos son ficheiros do subdirectorio <b>/medias</b> do directorio de documentos, lexibles por todos en Internet sen necesidade de estar rexistrado e non é necesario que o ficheiro se comparta explícitamente. Utilízase para almacenar ficheiros de imaxe para o módulo de correo electrónico ou sitio web, por exemplo.

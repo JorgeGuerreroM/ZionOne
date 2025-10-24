@@ -25,7 +25,7 @@
  *    \brief      Page setup for blockedlog module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/blockedlog/lib/blockedlog.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/blockedlog/class/blockedlog.class.php';

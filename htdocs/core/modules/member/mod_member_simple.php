@@ -34,7 +34,7 @@ class mod_member_simple extends ModeleNumRefMembers
 {
 	// variables inherited from ModeleNumRefMembers class
 	public $name = 'Simple';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	// variables not inherited
 

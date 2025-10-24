@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Nombre de documents al directori
 ECMSection=Carpeta
 ECMSectionManual=Carpeta manual
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Nombre de subcarpetes
 ECMNbOfFilesInSubDir=Nombre d'arxius en les subcarpetes
 ECMCreationUser=Creador
 ECMArea=Àrea SGD/GCE
-ECMAreaDesc=L’àrea SGD/GED (Sistema de Gestió de Documents / Gestió de Continguts Electrònics) us permet desar, compartir i cercar ràpidament tota mena de documents a Dolibarr.
+ECMAreaDesc=L’àrea SGD/GED (Sistema de Gestió de Documents / Gestió de Continguts Electrònics) us permet desar, compartir i cercar ràpidament tota mena de documents a ZionOne.
 ECMAreaDesc2a=* Els directoris manuals es poden utilitzar per a desar documents amb una organització lliure de l'estructura d'arbre.
 ECMAreaDesc2b=* Els directoris automàtics s'omplen automàticament quan s'afegeixen documents des de la pàgina d'un element.
 ECMAreaDesc3=* Els directoris públics són fitxers del subdirectori <b>/medias</b> del directori de documents, llegibles per tothom a Internet sense necessitat de estar registrat i no cal que el fitxer es comparteixi explícitament. S'utilitza per emmagatzemar fitxers d'imatge per al mòdul de correu electrònic o lloc web, per exemple.

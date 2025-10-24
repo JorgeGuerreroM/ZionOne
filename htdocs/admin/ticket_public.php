@@ -23,7 +23,7 @@
  *     \brief       Page to public interface of module Ticket
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT."/core/lib/admin.lib.php";
 require_once DOL_DOCUMENT_ROOT."/ticket/class/ticket.class.php";
@@ -180,13 +180,13 @@ if ($action == 'setTICKET_ENABLE_PUBLIC_INTERFACE') {
 		}
 		if (!$error) {
 			if ($code == 'TICKET_EMAIL_MUST_EXISTS') {
-				$res = dolibarr_del_const($db, 'TICKET_CREATE_THIRD_PARTY_WITH_CONTACT_IF_NOT_EXIST', $conf->entity);
+				$res = zionone_del_const($db, 'TICKET_CREATE_THIRD_PARTY_WITH_CONTACT_IF_NOT_EXIST', $conf->entity);
 				if (!($res > 0)) {
 					$error++;
 					$errors[] = $db->lasterror();
 				}
 			} elseif ($code == 'TICKET_CREATE_THIRD_PARTY_WITH_CONTACT_IF_NOT_EXIST') {
-				$res = dolibarr_del_const($db, 'TICKET_EMAIL_MUST_EXISTS', $conf->entity);
+				$res = zionone_del_const($db, 'TICKET_EMAIL_MUST_EXISTS', $conf->entity);
 				if (!($res > 0)) {
 					$error++;
 					$errors[] = $db->lasterror();
@@ -196,7 +196,7 @@ if ($action == 'setTICKET_ENABLE_PUBLIC_INTERFACE') {
 	}
 } elseif (preg_match('/del_(.*)/', $action, $reg)) {
 	$code = $reg[1];
-	$res = dolibarr_del_const($db, $code, $conf->entity);
+	$res = zionone_del_const($db, $code, $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 		$errors[] = $db->lasterror();
@@ -446,7 +446,7 @@ if (getDolGlobalInt('TICKET_ENABLE_PUBLIC_INTERFACE')) {
 
 	// Add first contact id found in database from submitter email entered into public interface
 	// Feature disabled: This has a security trouble. The public interface is a no login interface, so being able to show the contact info from an
-	// email decided by the submiter allows anybody to get information on any contact (customer or supplier) in Dolibarr database.
+	// email decided by the submiter allows anybody to get information on any contact (customer or supplier) in ZionOne database.
 	// He can even check if contact exists by trying any email if this feature is enabled.
 	/*
 	print '<tr class="oddeven"><td>'.$langs->trans("TicketAssignContactToMessage").'</td>';

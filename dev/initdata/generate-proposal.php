@@ -36,7 +36,7 @@ if (substr($sapi_type, 0, 3) == 'cgi') {
 	exit;
 }
 
-// Recupere root dolibarr
+// Recupere root ZionOne
 //$path=preg_replace('/generate-propale.php/i','',$_SERVER["PHP_SELF"]);
 require __DIR__. '/../../htdocs/master.inc.php';
 require_once DOL_DOCUMENT_ROOT."/compta/facture/class/facture.class.php";

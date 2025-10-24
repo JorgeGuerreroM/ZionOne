@@ -31,7 +31,7 @@ require_once DOL_DOCUMENT_ROOT.'/categories/class/categorie.class.php';
 /**
  *  Description and activation class for module EventOrganization
  *  This module is base on this specification :
- *  https://wiki.dolibarr.org/index.php/Draft:Module_Event_Organization
+ *  https://wiki.ZionOne.org/index.php/Draft:Module_Event_Organization
  */
 class modEventOrganization extends DolibarrModules
 {
@@ -59,7 +59,7 @@ class modEventOrganization extends DolibarrModules
 		$this->description = "EventOrganizationDescription";
 		$this->descriptionlong = "EventOrganizationDescriptionLong";
 
-		$this->version = 'dolibarr';
+		$this->version = 'ZionOne';
 
 
 		// Key used in llx_const table to save module status enabled/disabled (where EVENTORGANIZATION is value of property name of module in uppercase)
@@ -127,7 +127,7 @@ class modEventOrganization extends DolibarrModules
 
 		// Prerequisites
 		$this->phpmin = array(7, 0); // Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(13, -3); // Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(13, -3); // Minimum version of ZionOne required by module
 
 		// Messages at activation
 		$this->warnings_activation = array(); // Warning to show when we activate module. array('always'='text') or array('FR'='textfr','ES'='textes'...)
@@ -418,7 +418,7 @@ class modEventOrganization extends DolibarrModules
 
 	/**
 	 *  Function called when module is enabled.
-	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 *  The init function add constants, boxes, permissions and menus (defined in constructor) into ZionOne database.
 	 *  It also creates data directories
 	 *
 	 *  @param      string  $options    Options when enabling module ('', 'noboxes')
@@ -505,7 +505,7 @@ class modEventOrganization extends DolibarrModules
 
 	/**
 	 *  Function called when module is disabled.
-	 *  Remove from database constants, boxes and permissions from Dolibarr database.
+	 *  Remove from database constants, boxes and permissions from ZionOne database.
 	 *  Data directories are not deleted
 	 *
 	 *  @param      string	$options    Options when enabling module ('', 'noboxes')

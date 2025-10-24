@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=PayBox modulunun qurulması
-PayBoxDesc=Bu modul müştərilər tərəfindən <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>-da ödənişə icazə verən səhifələr təklif edir. Bu pulsuz ödəniş və ya müəyyən bir Dolibarr obyekti üzrə ödəniş üçün istifadə edilə bilər (qaimə, sifariş, ...)
+PayBoxDesc=Bu modul müştərilər tərəfindən <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>-da ödənişə icazə verən səhifələr təklif edir. Bu pulsuz ödəniş və ya müəyyən bir ZionOne obyekti üzrə ödəniş üçün istifadə edilə bilər (qaimə, sifariş, ...)
 PayBoxDoPayment=Paybox ilə ödəyin
 YouWillBeRedirectedOnPayBox=Kredit kartı məlumatlarınızı daxil etmək üçün təhlükəsiz Paybox səhifəsinə yönləndiriləcəksiniz
 SetupPayBoxToHavePaymentCreatedAutomatically=Ödənişin avtomatik yaradıldığı zaman <b>%s</b> URL ilə Ödəniş qutunuzu quraşdırın Paybox tərəfindən təsdiq edilmişdir.

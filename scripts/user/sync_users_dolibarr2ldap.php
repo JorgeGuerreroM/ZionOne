@@ -23,7 +23,7 @@
 /**
  * \file scripts/user/sync_users_dolibarr2ldap.php
  * \ingroup ldap core
- * \brief Script to update users in LDAP from Dolibarr DB
+ * \brief Script to update users in LDAP from ZionOne DB
  */
 
 if (!defined('NOSESSION')) {

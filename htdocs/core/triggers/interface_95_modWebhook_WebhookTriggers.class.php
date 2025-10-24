@@ -1,5 +1,5 @@
 <?php
-/* Copyright (C) 2022	SuperAdmin		<test@dolibarr.com>
+/* Copyright (C) 2022	SuperAdmin		<test@ZionOne.com>
  * Copyright (C) 2023	William Mead	<william.mead@manchenumerique.fr>
  *
  * This program is free software: you can redistribute it and/or modify
@@ -56,7 +56,7 @@ class InterfaceWebhookTriggers extends DolibarrTriggers
 	}
 
 	/**
-	 * Function called when a Dolibarr business event is done.
+	 * Function called when a ZionOne business event is done.
 	 * All functions "runTrigger" are triggered if file of function is inside directory core/triggers.
 	 *
 	 * @param string 		$action 	Event action code

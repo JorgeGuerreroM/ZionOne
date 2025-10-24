@@ -18,7 +18,7 @@
 
 /**
  *  \defgroup   export      Module Export
- *  \brief      Module to manage data exports from Dolibarr database
+ *  \brief      Module to manage data exports from ZionOne database
  *
  *  \file       htdocs/core/modules/modExport.class.php
  *  \ingroup    export
@@ -47,9 +47,9 @@ class modExport extends DolibarrModules
 		$this->module_position = '72';
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
-		$this->description = "Outils d'exports de donnees Dolibarr (via un assistant)";
-		// Possible values for version are: 'development', 'experimental', 'dolibarr' or version
-		$this->version = 'dolibarr';
+		$this->description = "Outils d'exports de donnees ZionOne (via un assistant)";
+		// Possible values for version are: 'development', 'experimental', 'ZionOne' or version
+		$this->version = 'ZionOne';
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'technic';
 

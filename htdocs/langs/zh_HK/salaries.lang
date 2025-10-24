@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=默認情況下，薪資中“用戶”使用的帳戶（來自會計科目表）
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=在用戶卡上定義的專用帳戶將僅用於輔助賬簿會計。此帳戶將用於總分類帳，但如果用戶上未定義專用用戶會計帳戶，則此帳戶也將用作輔助賬簿會計的默認值。
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=工資支付的默認會計帳戶

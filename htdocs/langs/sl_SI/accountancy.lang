@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Računovodstvo
 Accounting=Računovodstvo
 ACCOUNTING_EXPORT_SEPARATORCSV=Ločilo za stolpce za izvozno datoteko
@@ -340,7 +340,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Onemogočanje vezave in prenosa v računovod
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Onemogočanje vezave in prenosa v računovodstvu pri nakupih (računi dobaviteljev se ne bodo upoštevali v računovodstvu)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Onemogoči vezavo in prenos v računovodstvu na poročilih o stroških (poročila o stroških ne bodo upoštevana v računovodstvu)
 ACCOUNTING_ENABLE_LETTERING=Omogočite črkovno funkcijo v računovodstvu
-ACCOUNTING_ENABLE_LETTERING_DESC=Ko je ta možnost omogočena, lahko za vsako knjigovodsko postavko določite kodo, tako da lahko različna računovodska gibanja združujete skupaj. V preteklosti, ko so različne dnevnike upravljali neodvisno, je bila ta funkcija potrebna za združevanje vrstic gibanja različnih dnevnikov. Vendar pa je pri računovodstvu Dolibarr takšna koda za sledenje, imenovana »<b>%s</b>« je že samodejno shranjen, tako da je samodejno črkovanje že narejeno, brez tveganja napake, zato je ta funkcija postala neuporabna za običajno uporabo. Funkcija ročnega črkovanja je na voljo za končne uporabnike, ki res ne zaupajo računalniškemu mehanizmu, ki izvaja prenos podatkov v računovodstvu.
+ACCOUNTING_ENABLE_LETTERING_DESC=Ko je ta možnost omogočena, lahko za vsako knjigovodsko postavko določite kodo, tako da lahko različna računovodska gibanja združujete skupaj. V preteklosti, ko so različne dnevnike upravljali neodvisno, je bila ta funkcija potrebna za združevanje vrstic gibanja različnih dnevnikov. Vendar pa je pri računovodstvu ZionOne takšna koda za sledenje, imenovana »<b>%s</b>« je že samodejno shranjen, tako da je samodejno črkovanje že narejeno, brez tveganja napake, zato je ta funkcija postala neuporabna za običajno uporabo. Funkcija ročnega črkovanja je na voljo za končne uporabnike, ki res ne zaupajo računalniškemu mehanizmu, ki izvaja prenos podatkov v računovodstvu.
 EnablingThisFeatureIsNotNecessary=Omogočanje te funkcije ni več potrebno za dosledno vodenje računovodstva.
 ACCOUNTING_ENABLE_AUTOLETTERING=Omogočite avtomatsko črkovanje pri prenosu v računovodstvo
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Koda za napis se samodejno ustvari in poveča in je ne izbere končni uporabnik

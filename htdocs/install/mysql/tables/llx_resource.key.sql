@@ -1,4 +1,4 @@
--- Module to manage resources into Dolibarr ERP/CRM
+-- Module to manage resources into ZionOne ERP/CRM
 -- Copyright (C) 2013	Jean-François Ferry	<jfefe@aternatik.fr>
 -- Copyright (C) 2023   William Mead        <william.mead@manchenumerique.fr>
 --

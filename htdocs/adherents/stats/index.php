@@ -25,7 +25,7 @@
  *		\brief      Page of subscription members statistics
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/adherents/class/adherent.class.php';
 require_once DOL_DOCUMENT_ROOT.'/adherents/class/adherentstats.class.php';

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Dizindeki belge sayısı
 ECMSection=Dizin
 ECMSectionManual=Manuel dizin
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Alt-dizin sayısı
 ECMNbOfFilesInSubDir=Alt dizilerdeki dosya sayısı
 ECMCreationUser=Oluşturan
 ECMArea=DMS/ECM alanı
-ECMAreaDesc=DMS/ECM (Belge Yönetim Sistemi / Elektronik İçerik Yönetimi) alanı, Dolibarr'daki her türlü belgenin hızlı bir şekilde kaydedilmesine, paylaşılmasına ve aranmasına imkan sağlar.
+ECMAreaDesc=DMS/ECM (Belge Yönetim Sistemi / Elektronik İçerik Yönetimi) alanı, ZionOne'daki her türlü belgenin hızlı bir şekilde kaydedilmesine, paylaşılmasına ve aranmasına imkan sağlar.
 ECMAreaDesc2a=* Ağaç yapısının serbest organizasyonu ile belgeleri kaydetmek için manuel dizinler kullanılabilir.
 ECMAreaDesc2b=* Otomatik dizinler, bir öğenin sayfasından belge eklenirken otomatik olarak doldurulur.
 ECMAreaDesc3=* Genel dizinler, belgeler dizininin <b>/medias</b> alt dizinindeki dosyalardır, internetteki herkes tarafından okunabilir, kayıt tutulmasına veya dosyanın açıkça paylaşılmasına gerek yoktur. Örneğin e-posta veya web sitesi modülü için resim dosyalarını depolamak için kullanılır.

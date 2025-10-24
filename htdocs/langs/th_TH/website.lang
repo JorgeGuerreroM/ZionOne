@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=รหัส
 WebsiteName=ชื่อของเว็บไซต์
 WebsiteSetupDesc=สร้างเว็บไซต์ที่คุณต้องการใช้ที่นี่ จากนั้นเข้าไปที่เมนู Websites เพื่อแก้ไข
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=หากต้องการใช�
 SetHereVirtualHost=<u>ใช้กับ Apache/NGinx/...</u><br>สร้างบน เว็บเซิร์ฟเวอร์ของคุณ (Apache, Nginx, ...) โฮสต์เสมือนเฉพาะที่เปิดใช้งาน PHP และไดเรกทอรีรากบน<br><strong> %s</strong>
 ExampleToUseInApacheVirtualHostConfig=ตัวอย่างที่ใช้ในการตั้งค่าโฮสต์เสมือน Apache:
 YouCanAlsoTestWithPHPS=<u>ใช้กับเซิร์ฟเวอร์ฝังตัว PHP</u><br>ในสภาพแวดล้อมการพัฒนา คุณอาจต้องการทดสอบไซต์ด้วยเว็บเซิร์ฟเวอร์ฝังตัว PHP โดยรัน
-YouCanAlsoDeployToAnotherWHP=<u>เรียกใช้เว็บไซต์ของคุณในผู้ให้บริการเว็บโฮสติ้ง Dolibarr</u><br>หากคุณไม่มีเว็บเซิร์ฟเวอร์เช่น Apache หรือ NGinx บนอินเทอร์เน็ต คุณสามารถส่งออกและนำเข้าเว็บไซต์ของคุณไปยังอินสแตนซ์ Dolibarr อื่นๆ ที่ให้บริการโดยผู้ให้บริการโฮสติ้ง Dolibarr รายอื่นที่ให้การบูรณาการแบบเต็มรูปแบบกับโมดูลเว็บไซต์ คุณสามารถดูรายชื่อผู้ให้บริการโฮสติ้ง Dolibarr บางรายได้ที่ <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>เรียกใช้เว็บไซต์ของคุณในผู้ให้บริการเว็บโฮสติ้ง ZionOne</u><br>หากคุณไม่มีเว็บเซิร์ฟเวอร์เช่น Apache หรือ NGinx บนอินเทอร์เน็ต คุณสามารถส่งออกและนำเข้าเว็บไซต์ของคุณไปยังอินสแตนซ์ ZionOne อื่นๆ ที่ให้บริการโดยผู้ให้บริการโฮสติ้ง ZionOne รายอื่นที่ให้การบูรณาการแบบเต็มรูปแบบกับโมดูลเว็บไซต์ คุณสามารถดูรายชื่อผู้ให้บริการโฮสติ้ง ZionOne บางรายได้ที่ <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=ตรวจสอบด้วยว่าผู้ใช้โฮสต์เสมือน (เช่น www-data) มี <strong>%s</strong>  สิทธิ์ในไฟล์ใน<br><strong>%s</strong>
 ReadPerm=อ่าน
 WritePerm=เขียน
 TestDeployOnWeb=ทดสอบ/ปรับใช้บนเว็บ
 PreviewSiteServedByWebServer=<u>ดูตัวอย่าง %s ในแท็บใหม่</u><br><br>%s จะถูกให้บริการโดยเว็บเซิร์ฟเวอร์ภายนอก (เช่น Apache, Nginx, IIS ). คุณต้องติดตั้งและตั้งค่าเซิร์ฟเวอร์นี้ก่อนที่จะชี้ไปที่ไดเรกทอรี:<br><strong>%s%s</strong><br>URL ที่ให้บริการโดยเซิร์ฟเวอร์ภายนอก:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>ดูตัวอย่าง %s ในแท็บใหม่</u><br><br> %s จะได้รับการบริการโดยเซิร์ฟเวอร์ Dolibarr ดังนั้นจึงไม่จำเป็นต้องติดตั้งเว็บเซิร์ฟเวอร์พิเศษใดๆ (เช่น Apache, Nginx, IIS)<br>สิ่งที่ไม่สะดวกคือ URL ของเพจไม่เป็นมิตรกับผู้ใช้และเริ่มต้นด้วยเส้นทางของ Dolibarr ของคุณ<br>URL ที่ Dolibarr ให้บริการ:<br><strong>%s</strong><br><br>หากต้องการปรับใช้หรือทดสอบโดยใช้เว็บเซิร์ฟเวอร์ภายนอกของคุณเอง (เช่น Apache, Nginx, Lighttp) ให้ใช้ลิงก์ "%s"
+PreviewSiteServedByDolibarr=<u>ดูตัวอย่าง %s ในแท็บใหม่</u><br><br> %s จะได้รับการบริการโดยเซิร์ฟเวอร์ ZionOne ดังนั้นจึงไม่จำเป็นต้องติดตั้งเว็บเซิร์ฟเวอร์พิเศษใดๆ (เช่น Apache, Nginx, IIS)<br>สิ่งที่ไม่สะดวกคือ URL ของเพจไม่เป็นมิตรกับผู้ใช้และเริ่มต้นด้วยเส้นทางของ ZionOne ของคุณ<br>URL ที่ ZionOne ให้บริการ:<br><strong>%s</strong><br><br>หากต้องการปรับใช้หรือทดสอบโดยใช้เว็บเซิร์ฟเวอร์ภายนอกของคุณเอง (เช่น Apache, Nginx, Lighttp) ให้ใช้ลิงก์ "%s"
 VirtualHostUrlNotDefined=URL ของโฮสต์เสมือนที่ให้บริการโดยเว็บเซิร์ฟเวอร์ภายนอกไม่ได้กำหนดไว้
 NoPageYet=ยังไม่มีหน้า
 YouCanCreatePageOrImportTemplate=คุณสามารถสร้างหน้าใหม่หรือนำเข้าเทมเพลตเว็บไซต์แบบเต็มได้
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=คุณจะถูกส่งไปยัง�
 WebPortalSetupNotComplete=การตั้งค่าเว็บพอร์ทัลยังไม่เสร็จสมบูรณ์
 DeleteWebsiteAccount=ลบบัญชีเว็บไซต์
 ConfirmDeleteWebsiteAccount=คุณแน่ใจหรือไม่ว่าต้องการลบบัญชีนี้
-ConfirmDeleteWebsiteAccount2=หากใช้บัญชีนี้เพื่อเข้าสู่ระบบบนพอร์ทัลสาธารณะหรือเว็บไซต์ใดๆ ที่ขับเคลื่อนโดย Dolibarr การเข้าสู่ระบบอาจไม่สามารถทำได้อีกต่อไป
+ConfirmDeleteWebsiteAccount2=หากใช้บัญชีนี้เพื่อเข้าสู่ระบบบนพอร์ทัลสาธารณะหรือเว็บไซต์ใดๆ ที่ขับเคลื่อนโดย ZionOne การเข้าสู่ระบบอาจไม่สามารถทำได้อีกต่อไป
 ContentSecurityPolicy=เว็บไซต์ HTTP "นโยบายความปลอดภัยเนื้อหา"
 WebsiteSecurityForceRP=เว็บไซต์ HTTP "นโยบายผู้อ้างอิง"
 WebsiteSecurityForceSTS=เว็บไซต์ HTTP "Strict-Transport-Security"

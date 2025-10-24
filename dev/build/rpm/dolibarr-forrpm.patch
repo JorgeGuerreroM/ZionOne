@@ -5,10 +5,10 @@ diff -up htdocs/filefunc.inc.php.patch htdocs/filefunc.inc.php
  $conffile = "conf/conf.php";
  $conffiletoshow = "htdocs/conf/conf.php";
  // For debian/redhat like systems
--//$conffile = "/etc/dolibarr/conf.php";
--//$conffiletoshow = "/etc/dolibarr/conf.php";
-+$conffile = "/etc/dolibarr/conf.php";
-+$conffiletoshow = "/etc/dolibarr/conf.php";
+-//$conffile = "/etc/ZionOne/conf.php";
+-//$conffiletoshow = "/etc/ZionOne/conf.php";
++$conffile = "/etc/ZionOne/conf.php";
++$conffiletoshow = "/etc/ZionOne/conf.php";
 
 
  // Include configuration
@@ -19,10 +19,10 @@ diff -up htdocs/install/inc.php.patch htdocs/install/inc.php
  $conffile = "../conf/conf.php";
  $conffiletoshow = "htdocs/conf/conf.php";
  // For debian/redhat like systems
--//$conffile = "/etc/dolibarr/conf.php";
--//$conffiletoshow = "/etc/dolibarr/conf.php";
-+$conffile = "/etc/dolibarr/conf.php";
-+$conffiletoshow = "/etc/dolibarr/conf.php";
+-//$conffile = "/etc/ZionOne/conf.php";
+-//$conffiletoshow = "/etc/ZionOne/conf.php";
++$conffile = "/etc/ZionOne/conf.php";
++$conffiletoshow = "/etc/ZionOne/conf.php";
 
  $short_options = "c:h";
  $long_options = array(

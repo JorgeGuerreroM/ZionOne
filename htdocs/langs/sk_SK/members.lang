@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Členská sekcia
 MemberCard=Členské karty
 SubscriptionCard=Vstupná karta
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Zoznam potvrdených verejné členmi
 ErrorThisMemberIsNotPublic=Tento člen je neverejný
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Ďalší člen (meno: <b>%s,</b> login: <b>%s)</b> je už spojená s tretími stranami <b>%s.</b> Odstráňte tento odkaz ako prvý, pretože tretia strana nemôže byť spájaná len člen (a vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Z bezpečnostných dôvodov musí byť udelené povolenie na úpravu, aby všetci užívatelia mohli spojiť člena užívateľa, ktorá nie je vaša.
-SetLinkToUser=Odkaz na užívateľovi Dolibarr
-SetLinkToThirdParty=Odkaz na Dolibarr tretej osobe
+SetLinkToUser=Odkaz na užívateľovi ZionOne
+SetLinkToThirdParty=Odkaz na ZionOne tretej osobe
 MemberCountersArePublic=Počítadlá platných členov sú verejné
 MembersCards=Generovanie kariet pre členov
 MembersList=Zoznam členov
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Naozaj chcete odstrániť tento príspevok?
 Filehtpasswd=htpasswd súboru
 ValidateMember=Overenie člena
 ConfirmValidateMember=Naozaj chcete overiť tohto člena?
-FollowingLinksArePublic=Nasledujúce odkazy sú otvorené stránky, ktoré nie sú chránené žiadnym povolením Dolibarr. Nie sú to naformátované stránky, ktoré sú uvedené ako príklad na zobrazenie databázy členov.
+FollowingLinksArePublic=Nasledujúce odkazy sú otvorené stránky, ktoré nie sú chránené žiadnym povolením ZionOne. Nie sú to naformátované stránky, ktoré sú uvedené ako príklad na zobrazenie databázy členov.
 PublicMemberList=Verejný zoznam členov
 BlankSubscriptionForm=Verejný registračný formulár
-BlankSubscriptionFormDesc=Dolibarr vám môže poskytnúť verejnú URL/webovú stránku, ktorá umožní externým návštevníkom požiadať o prihlásenie sa na odber nadácie. Ak je aktivovaný online platobný modul, môže byť automaticky poskytnutý aj platobný formulár.
+BlankSubscriptionFormDesc=ZionOne vám môže poskytnúť verejnú URL/webovú stránku, ktorá umožní externým návštevníkom požiadať o prihlásenie sa na odber nadácie. Ak je aktivovaný online platobný modul, môže byť automaticky poskytnutý aj platobný formulár.
 EnablePublicSubscriptionForm=Povoľte verejnú webovú stránku pomocou formulára na predplatné
 ForceMemberType=Vynútiť typ člena
 ExportDataset_member_1=Členovia a príspevky

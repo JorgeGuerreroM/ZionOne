@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Biz xato qilamiz
@@ -53,12 +53,12 @@ ErrorWrongDate=Sana to'g'ri emas!
 ErrorFailedToWriteInDir=%s katalogiga yozib bo'lmadi
 ErrorFailedToBuildArchive=%s arxiv faylini yaratib bo‘lmadi
 ErrorFoundBadEmailInFile=Faylda %s satrlari uchun noto'g'ri elektron pochta sintaksisini topdi (masalan, %s qatori elektron pochta bilan = %s)
-ErrorUserCannotBeDelete=Foydalanuvchini o'chirib bo'lmaydi. Ehtimol, bu Dolibarr sub'ektlari bilan bog'liq.
+ErrorUserCannotBeDelete=Foydalanuvchini o'chirib bo'lmaydi. Ehtimol, bu ZionOne sub'ektlari bilan bog'liq.
 ErrorFieldsRequired=Ba'zi majburiy maydonlar bo'sh qoldirildi.
 ErrorSubjectIsRequired=Elektron pochta mavzusi talab qilinadi
 ErrorInAddAttachmentsImageBaseOnMedia=Tasvir fayllarini biriktirish uchun media katalogiga yaratishda xatolik yuz berdi
 ErrorInAddAttachmentsImageBaseIsSrcData=Tasvir fayllarini (ma'lumotlar sifatida topilgan :) biriktirish uchun vaqtinchalik katalogga yaratishda xatolik yuz berdi
-ErrorFailedToCreateDir=Katalog yaratilmadi. Veb-server foydalanuvchisida Dolibarr hujjatlar katalogiga yozish uchun ruxsat borligini tekshiring. Agar ushbu PHP-da <b> safe_mode </b> parametri yoqilgan bo'lsa, Dolibarr php fayllari veb-server foydalanuvchisiga (yoki guruhiga) tegishli ekanligini tekshiring.
+ErrorFailedToCreateDir=Katalog yaratilmadi. Veb-server foydalanuvchisida ZionOne hujjatlar katalogiga yozish uchun ruxsat borligini tekshiring. Agar ushbu PHP-da <b> safe_mode </b> parametri yoqilgan bo'lsa, ZionOne php fayllari veb-server foydalanuvchisiga (yoki guruhiga) tegishli ekanligini tekshiring.
 ErrorNoMailDefinedForThisUser=Ushbu foydalanuvchi uchun hech qanday pochta belgilanmagan
 ErrorSetupOfEmailsNotComplete=Elektron pochta xabarlarini sozlash tugallanmagan
 ErrorAccountingClosureSetupNotComplete=Yopiladigan hisoblarni sozlash tugallanmagan
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=<b>%s</b> maydonida na maxsus, 
 ErrorFieldMustHaveXChar=<b> %s </b> maydonida kamida %s belgilar bo'lishi kerak.
 ErrorNoAccountancyModuleLoaded=Buxgalteriya moduli faollashtirilmagan
 ErrorExportDuplicateProfil=Ushbu eksport to'plami uchun ushbu profil nomi allaqachon mavjud.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP mos kelmadi.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP mos kelmadi.
 ErrorLDAPMakeManualTest=%s katalogida .ldif fayli yaratilgan. Xatolar haqida ko'proq ma'lumotga ega bo'lish uchun uni buyruq satridan qo'lda yuklashga harakat qiling.
 ErrorCantSaveADoneUserWithZeroPercentage=Agar "bajarilgan" maydoni ham to'ldirilgan bo'lsa, "holat boshlanmadi" bilan amalni saqlab bo'lmaydi.
 ErrorPleaseTypeBankTransactionReportName=Iltimos, yozuv haqida xabar berish kerak bo'lgan bank ma'lumotnomasining nomini kiriting (YYYYMM yoki YYYYMMDD formati)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s yana uchdan biriga tayinlangan
 ErrorFailedToSendPassword=Parolni yuborib bo'lmadi
 ErrorFailedToLoadRSSFile=RSS tasmasini ololmadi. Xato xabarlari etarli ma'lumot bermasa, doimiy ravishda MAIN_SIMPLEXMLLOAD_DEBUG qo'shishga harakat qiling.
 ErrorForbidden=Ruxsat yo'q. <br> Siz o'chirib qo'yilgan modulning sahifasiga, maydoniga yoki xususiyatiga yoki autentifikatsiya qilingan sessiyada bo'lmasdan yoki foydalanuvchingizga ruxsat berilmagan holda kirishga harakat qilasiz.
-ErrorForbidden2=Ushbu kirish uchun ruxsat sizning Dolibarr administratoringiz tomonidan %s-> %s menyusidan aniqlanishi mumkin.
-ErrorForbidden3=Dolibarr autentifikatsiya qilingan seans orqali ishlatilmaydi. Autentifikatsiyani qanday boshqarishni bilish uchun Dolibarrni sozlash bo'yicha hujjatlarni ko'rib chiqing (htaccess, mod_auth yoki boshqa ...).
+ErrorForbidden2=Ushbu kirish uchun ruxsat sizning ZionOne administratoringiz tomonidan %s-> %s menyusidan aniqlanishi mumkin.
+ErrorForbidden3=ZionOne autentifikatsiya qilingan seans orqali ishlatilmaydi. Autentifikatsiyani qanday boshqarishni bilish uchun Dolibarrni sozlash bo'yicha hujjatlarni ko'rib chiqing (htaccess, mod_auth yoki boshqa ...).
 ErrorForbidden4=Eslatma: ushbu login uchun mavjud sessiyalarni yo'q qilish uchun brauzeringiz cookie-fayllarini tozalang.
 ErrorNoImagickReadimage=Imagick sinfi ushbu PHP-da mavjud emas. Hech qanday oldindan ko'rish mumkin emas. Administrator ushbu yorliqni O'rnatish - Displey menyusidan o'chirib qo'yishi mumkin.
 ErrorRecordAlreadyExists=Yozuv allaqachon mavjud
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Veb-serverni amalga oshirish uchun foydalanil
 ErrorNoActivatedBarcode=Shtrixli kod yoqilmagan
 ErrUnzipFails=%s ni ZipArchive bilan ochib bo'lmadi
 ErrNoZipEngine=Ushbu PHP-da %s faylini ziplash / ochish uchun vosita yo'q
-ErrorFileMustBeADolibarrPackage=%s fayli Dolibarr zip to'plami bo'lishi kerak
-ErrorModuleFileRequired=Dolibarr moduli to'plami faylini tanlashingiz kerak
+ErrorFileMustBeADolibarrPackage=%s fayli ZionOne zip to'plami bo'lishi kerak
+ErrorModuleFileRequired=ZionOne moduli to'plami faylini tanlashingiz kerak
 ErrorPhpCurlNotInstalled=PHP CURL o'rnatilmagan, bu Paypal bilan suhbatlashish uchun juda muhimdir
 ErrorFailedToAddToMailmanList=%s yoki MailIP ro'yxatiga %s yozuvini yoki SPIP bazasini qo'shib bo'lmadi
 ErrorFailedToRemoveToMailmanList=%s yozuvini %s yoki SPIP bazasini pochtachilar ro'yxatiga o'chirib bo'lmadi
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=Sana bugundan kattaroq bo'lishi kerak
 ErrorStartDateGreaterEnd=Boshlanish sanasi tugash sanasidan kattaroq
 ErrorPaymentModeDefinedToWithoutSetup=%s yozish uchun to'lov rejimi o'rnatildi, ammo ushbu to'lov rejimi uchun ma'lumotni aniqlash uchun fakturani moduli o'rnatilmagan.
 ErrorPHPNeedModule=Xato, PHP-da ushbu funktsiyadan foydalanish uchun <b> %s </b> moduli o'rnatilgan bo'lishi kerak.
-ErrorOpenIDSetupNotComplete=OpenID autentifikatsiyasiga ruxsat berish uchun Dolibarr konfiguratsiya faylini o'rnatdingiz, ammo OpenID xizmatining URL manzili doimiy ravishda %s shaklida aniqlanmagan
+ErrorOpenIDSetupNotComplete=OpenID autentifikatsiyasiga ruxsat berish uchun ZionOne konfiguratsiya faylini o'rnatdingiz, ammo OpenID xizmatining URL manzili doimiy ravishda %s shaklida aniqlanmagan
 ErrorWarehouseMustDiffers=Manba va maqsadli omborlar farq qilishi kerak
 ErrorBadFormat=Noto'g'ri format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Xato, bu a'zo hali hech qanday uchinchi tomon bilan bog'lanmagan. Hisob-faktura bilan obuna yaratishdan oldin a'zoni mavjud bo'lgan uchinchi tomon bilan bog'lang yoki yangi uchinchi tomonni yarating.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Yangi foydalanuvchi elektron pochta manziliga ega bo'li
 ErrorUserClone=Foydalanuvchilarni klonlash toifalarida xatolik
 ErrorQtyOrderedLessQtyShipped = Buyurtma qilingan miqdor jo'natilgan miqdordan kam bo'lishi mumkin emas.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Xato, kompaniya valyutasidan boshqa valyutada bank hisobvarag'ida turli xil to'lovlarni yaratish hali qo'llab-quvvatlanmaydi.
-ErrorStreamMustBeEnabled=%s PHP oqimi mavjud emas. PHP modullarini va Dolibarr parametrini tekshiring $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=%s PHP oqimi mavjud emas. PHP modullarini va ZionOne parametrini tekshiring $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Xato, siz bir xil toʻlovda turli valyutalarda turli hisob-fakturalarni toʻlashga harakat qilyapsiz
 ErrorLinkNotFoundWithSharedLink=Xato, bu umumiy kalit bilan havola topilmadi
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Noto'g'ri qatorlar soni. Fayllar kamida 2 qatorga ega bo'lishi kerak (sarlavha uchun 1 qator va ma'lumotlar uchun 1 qator)
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Xato, bu turdagi maydon uchun qiymat majburiy
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=PHP parametringiz upload_max_filesize (%s) PHP post_max_size (%s) parametridan yuqori. Bu izchil o'rnatish emas.
-WarningPasswordSetWithNoAccount=Ushbu a'zo uchun parol o'rnatildi. Biroq, foydalanuvchi hisobi yaratilmagan. Shunday qilib, ushbu parol saqlanadi, ammo Dolibarr-ga kirish uchun foydalanib bo'lmaydi. U tashqi modul / interfeys tomonidan ishlatilishi mumkin, ammo agar siz a'zo uchun hech qanday login va parolni belgilashga hojat bo'lmasa, siz "har bir a'zo uchun kirishni boshqarish" parametrini a'zo modulidan o'chirib qo'yishingiz mumkin. Agar sizga loginni boshqarish kerak bo'lsa, lekin hech qanday parol kerak bo'lmasa, ushbu ogohlantirishni oldini olish uchun ushbu maydonni bo'sh qoldirishingiz mumkin. Izoh: Agar foydalanuvchi bilan bog'langan bo'lsa, elektron pochta orqali kirish sifatida ham foydalanish mumkin.
+WarningPasswordSetWithNoAccount=Ushbu a'zo uchun parol o'rnatildi. Biroq, foydalanuvchi hisobi yaratilmagan. Shunday qilib, ushbu parol saqlanadi, ammo ZionOne-ga kirish uchun foydalanib bo'lmaydi. U tashqi modul / interfeys tomonidan ishlatilishi mumkin, ammo agar siz a'zo uchun hech qanday login va parolni belgilashga hojat bo'lmasa, siz "har bir a'zo uchun kirishni boshqarish" parametrini a'zo modulidan o'chirib qo'yishingiz mumkin. Agar sizga loginni boshqarish kerak bo'lsa, lekin hech qanday parol kerak bo'lmasa, ushbu ogohlantirishni oldini olish uchun ushbu maydonni bo'sh qoldirishingiz mumkin. Izoh: Agar foydalanuvchi bilan bog'langan bo'lsa, elektron pochta orqali kirish sifatida ham foydalanish mumkin.
 WarningMandatorySetupNotComplete=Asosiy parametrlarni sozlash uchun shu yerni bosing
 WarningEnableYourModulesApplications=Modul va dasturlarni yoqish uchun shu erni bosing
 WarningSafeModeOnCheckExecDir=Ogohlantirish, PHP opsiyasi <b> </b> yoniq, shuning uchun buyruq php parametri <b> safe_mode_exec_dir </b> php parametri bilan e'lon qilingan katalog ichida saqlanishi kerak.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Ogohlantirish, bank hisobini o'qis
 WarningNoDataTransferedInAccountancyYet=E'tibor bering, buxgalteriya jadvalida hech qanday ma'lumot yo'q. Iltimos, arizada qayd etilgan ma'lumotlaringizni buxgalteriya bo'limiga o'tkazing yoki buxgalteriya hisobidan tashqarida yozilgan ma'lumotlarni tahlil qilish uchun hisoblash rejimini o'zgartiring.
 WarningChangingThisMayBreakStopTaskScheduler=Ogohlantirish, ushbu qiymatni o'zgartirish rejalashtiruvchini o'chirib qo'yishi mumkin
 WarningAmountOfFileDiffersFromSumOfLines=Ogohlantirish, fayl miqdori (%s) qatorlar yig‘indisidan farq qiladi (%s)
-WarningModuleAffiliatedToAReportedCompany=Ogohlantirish, ushbu modul noqonuniy amaliyotlardan (Dolibarr brendidan foydalanish qoidalariga rioya qilmaslik, sizning roziligingizsiz maʼlumotlaringizni yigʻish yoki zararli dasturlarni joylashtirish) qoʻllagan kompaniya tomonidan nashr etilgani haqida Dolibarr jamgʻarmasiga xabar berilgan.
+WarningModuleAffiliatedToAReportedCompany=Ogohlantirish, ushbu modul noqonuniy amaliyotlardan (ZionOne brendidan foydalanish qoidalariga rioya qilmaslik, sizning roziligingizsiz maʼlumotlaringizni yigʻish yoki zararli dasturlarni joylashtirish) qoʻllagan kompaniya tomonidan nashr etilgani haqida ZionOne jamgʻarmasiga xabar berilgan.
 WarningModuleAffiliatedToAPiratPlatform=%s kabi shubhali norasmiy platformadan modul (pullik yoki bepul) olayotganda ehtiyot bo'ling.
 
 SwissQrOnlyVIR = SwissQR hisob-fakturasini faqat kredit o'tkazmalari bilan to'lanadigan hisob-fakturalarga qo'shish mumkin.

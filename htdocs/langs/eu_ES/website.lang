@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kodea
 WebsiteName=Webgunearen izena
 WebsiteSetupDesc=Sortu hemen erabili nahi dituzun webguneak. Ondoren, joan Webguneak menura editatzeko.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Webgune hau martxan jartzeko, 3 irten
 SetHereVirtualHost=<u>Erabili Apache/NGinx/...-rekin</u><br>Sortu zure web zerbitzarian (Apache, Nginx, ...) PHP gaituta duen Host Birtual dedikatu bat eta Erro direktorio bat <br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Apache ostalari birtualaren konfigurazioan erabiltzeko adibidea:
 YouCanAlsoTestWithPHPS=<u>PHP txertatutako zerbitzariarekin erabili</u><br>Garapen ingurunean, hobe da gunea PHP txertatutako web zerbitzariarekin probatzea exekutatuz
-YouCanAlsoDeployToAnotherWHP=<u>Zure webgunea Dolibarr web hosting hornitzaile baten barruan exekutatu</u><br>Apache edo NGinx bezalako web zerbitzaririk ez baduzu Interneten, zure webgunea beste Dolibarr hosting hornitzaile batek eskaintzen duen beste Dolibarr instantzia batera esportatu eta inporta dezakezu, eta horrek Webgunearen moduluarekin integrazio osoa eskaintzen du. Dolibarr hosting hornitzaile batzuen zerrenda aurki dezakezu <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a> helbidean.
+YouCanAlsoDeployToAnotherWHP=<u>Zure webgunea ZionOne web hosting hornitzaile baten barruan exekutatu</u><br>Apache edo NGinx bezalako web zerbitzaririk ez baduzu Interneten, zure webgunea beste ZionOne hosting hornitzaile batek eskaintzen duen beste ZionOne instantzia batera esportatu eta inporta dezakezu, eta horrek Webgunearen moduluarekin integrazio osoa eskaintzen du. ZionOne hosting hornitzaile batzuen zerrenda aurki dezakezu <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a> helbidean.
 CheckVirtualHostPerms=Egiaztatu, halaber, erabiltzaile birtualak (adibidez, www-data) <strong>%s</strong> baimenak dituela fitxategietan <br><strong>%s</strong>
 ReadPerm=Irakurri
 WritePerm=Idatzi
 TestDeployOnWeb=Webean probatu/hedatu
 PreviewSiteServedByWebServer=<u>Aurreikusi %s fitxa berri batean.</u><br><br>%s kanpoko web zerbitzari batek zerbitzatuko du (Apache, Nginx, IIS bezala). Zerbitzari hau instalatu eta konfiguratu behar duzu direktorio honetara seinalatu aurretik:<br><strong>%s</strong><br>Kanpoko zerbitzari batek zerbitzatutako URLa:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Aurreikusi %s fitxa berri batean.</u><br><br>%s Dolibarr zerbitzariak zerbitzatuko du, beraz, ez du web zerbitzari gehigarririk behar (Apache, Nginx, IIS bezala) instalatzeko.<br>Deserosoa da orrialdeen URLak ez direla erabilerrazak eta zure Dolibarr-en bidearekin hasten direla.<br>Dolibarr-ek zerbitzatutako URLa:<br><strong>%s</strong><br><br>Zure kanpoko web zerbitzaria (Apache, Nginx, Lighttp bezala) erabiliz inplementatzeko edo probatzeko, erabili "%s" esteka.
+PreviewSiteServedByDolibarr=<u>Aurreikusi %s fitxa berri batean.</u><br><br>%s ZionOne zerbitzariak zerbitzatuko du, beraz, ez du web zerbitzari gehigarririk behar (Apache, Nginx, IIS bezala) instalatzeko.<br>Deserosoa da orrialdeen URLak ez direla erabilerrazak eta zure ZionOne-en bidearekin hasten direla.<br>ZionOne-ek zerbitzatutako URLa:<br><strong>%s</strong><br><br>Zure kanpoko web zerbitzaria (Apache, Nginx, Lighttp bezala) erabiliz inplementatzeko edo probatzeko, erabili "%s" esteka.
 VirtualHostUrlNotDefined=Kanpoko web zerbitzariak zerbitzatutako ostalari birtualaren URLa ez dago definitu
 NoPageYet=Oraindik ez dago orrialderik
 YouCanCreatePageOrImportTemplate=Orrialde berri bat sor dezakezu edo webgune osoko txantiloi bat inporta dezakezu
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Laster eskaeraren xehetasunen orrialdera birbider
 WebPortalSetupNotComplete=Web atariaren konfigurazioa ez da osatu
 DeleteWebsiteAccount=Ezabatu webguneko kontua
 ConfirmDeleteWebsiteAccount=Ziur zaude kontu hau ezabatu nahi duzula?
-ConfirmDeleteWebsiteAccount2=Kontu hau Dolibarr-ek bultzatutako atari publikoan edo beste edozein webgunetan saioa hasteko erabili bazen, baliteke saioa hastea ezinezkoa izatea.
+ConfirmDeleteWebsiteAccount2=Kontu hau ZionOne-ek bultzatutako atari publikoan edo beste edozein webgunetan saioa hasteko erabili bazen, baliteke saioa hastea ezinezkoa izatea.
 ContentSecurityPolicy=Webgunearen HTTP "Edukia-Segurtasun-Politika"
 WebsiteSecurityForceRP=Webgunearen HTTP "Erreferentzia-politika"
 WebsiteSecurityForceSTS=Webgunearen HTTP "Garraio Segurtasun Zorrotza"

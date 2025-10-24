@@ -25,7 +25,7 @@ create table llx_commande
   ref						varchar(30)       NOT NULL,		-- order reference number
   entity					integer DEFAULT 1 NOT NULL,		-- multi company id
 
-  ref_ext					varchar(255),					-- reference into an external system (not used by dolibarr)
+  ref_ext					varchar(255),					-- reference into an external system (not used by ZionOne)
   ref_client				varchar(255),					-- reference for customer
 
   fk_soc					integer NOT NULL,

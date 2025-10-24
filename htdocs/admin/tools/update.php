@@ -20,14 +20,14 @@
 
 /**
  *		\file 		htdocs/admin/tools/update.php
- *		\brief      Page to make a Dolibarr online upgrade
+ *		\brief      Page to make a ZionOne online upgrade
  */
 
 if (! defined('CSRFCHECK_WITH_TOKEN')) {
 	define('CSRFCHECK_WITH_TOKEN', '1');		// Force use of CSRF protection with tokens even for GET
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
@@ -55,7 +55,7 @@ if (GETPOST('msg', 'alpha')) {
 }
 
 
-$urldolibarr = 'https://www.dolibarr.org/downloads/';
+$urldolibarr = 'https://www.ZionOne.org/downloads/';
 $dolibarrroot = preg_replace('/([\\/]+)$/i', '', DOL_DOCUMENT_ROOT);
 $dolibarrroot = preg_replace('/([^\\/]+)$/i', '', $dolibarrroot);
 $dolibarrdataroot = preg_replace('/([\\/]+)$/i', '', DOL_DATA_ROOT);
@@ -69,7 +69,7 @@ $version = '0.0';
  */
 
 if ($action == 'getlastversion') {
-	$result = getURLContent('https://sourceforge.net/projects/dolibarr/rss');
+	$result = getURLContent('https://sourceforge.net/projects/ZionOne/rss');
 	//var_dump($result['content']);
 	if (function_exists('simplexml_load_string')) {
 		if (LIBXML_VERSION < 20900) {

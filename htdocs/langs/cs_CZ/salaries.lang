@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Účet (z účtového rozvrhu) používaný standardně pro „uživatele“ u platů
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Vyhrazený účet definovaný na kartě uživatele bude použit pouze pro účetnictví dílčí knihy. Tento účet bude použit pro hlavní knihu, ale také jako výchozí hodnota účetnictví dílčí knihy, pokud u uživatele není definován žádný vyhrazený účet uživatele.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Účtovací účet je výchozí pro mzdové platby

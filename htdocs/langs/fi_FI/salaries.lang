@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=oletus-tilin käyttämä tili (tilikartasta) palkkojen "käyttäjille"
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Käyttäjäkortilla määritettyä erillistä tiliä käytetään vain alitilin Kirjanpito osalta. Tätä tiliä käytetään alitilin pääkirja osalta, mutta myös alitilin Kirjanpito arvona oletus, jos käyttäjälle ei ole määritetty erillistä käyttäjätiliä Kirjanpito.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Oletus kirjanpitotili palkkamaksuille

@@ -43,11 +43,11 @@ use Luracast\Restler\Defaults;
 use Luracast\Restler\RestException;
 
 /**
- * Dolibarr API access class
+ * ZionOne API access class
  */
 class DolibarrApiAccess implements iAuthenticate
 {
-	const REALM = 'Restricted Dolibarr API';
+	const REALM = 'Restricted ZionOne API';
 
 	/**
 	 * @var DoliDB	Database handler
@@ -136,7 +136,7 @@ class DolibarrApiAccess implements iAuthenticate
 			$sql = "SELECT u.login, u.datec, u.api_key,";
 			$sql .= " u.tms as date_modification, u.entity";
 			$sql .= " FROM ".MAIN_DB_PREFIX."user as u";
-			$sql .= " WHERE u.api_key = '".$this->db->escape($api_key)."' OR u.api_key = '".$this->db->escape(dolEncrypt($api_key, '', '', 'dolibarr'))."'";
+			$sql .= " WHERE u.api_key = '".$this->db->escape($api_key)."' OR u.api_key = '".$this->db->escape(dolEncrypt($api_key, '', '', 'ZionOne'))."'";
 
 			$result = $this->db->query($sql);
 			if ($result) {

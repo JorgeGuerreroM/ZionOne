@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=代碼
 WebsiteName=網站名稱
 WebsiteSetupDesc=在此處創建您想要使用的網站。然後進入「網站」菜單進行編輯。
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=要將此網站發佈上线，您有 
 SetHereVirtualHost=<u>與 Apache/NGinx/... </u>一起使用<br>在您的 Web 服務器（Apache、Nginx 等）上創建一個啟用了 PHP 並且根目錄位於<br><strong>%s</strong> 的專用虛擬主機
 ExampleToUseInApacheVirtualHostConfig=在 Apache 虛擬主機設定中使用的範例：
 YouCanAlsoTestWithPHPS=<u>使用 PHP 內置服務器</u><br>在開發環境中，您可能更喜歡通過運行以下命令使用 PHP 內置 Web 服務器測試站點
-YouCanAlsoDeployToAnotherWHP=<u>在 Dolibarr 網站託管供應商處運行您的網站</u><br>如果您沒有像 Apache 或 NGinx 這樣的網絡服務器可用於互聯網，您可以將您的網站導出並導入到另一個 Dolibarr 實例，該實例由另一個提供與網站模塊完全集成的 Dolibarr 託管供應商提供。您可以在<a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>上找到一些 Dolibarr 託管供應商的列表。
+YouCanAlsoDeployToAnotherWHP=<u>在 ZionOne 網站託管供應商處運行您的網站</u><br>如果您沒有像 Apache 或 NGinx 這樣的網絡服務器可用於互聯網，您可以將您的網站導出並導入到另一個 ZionOne 實例，該實例由另一個提供與網站模塊完全集成的 ZionOne 託管供應商提供。您可以在<a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>上找到一些 ZionOne 託管供應商的列表。
 CheckVirtualHostPerms=同時檢查虛擬主機用戶（例如 www-data）是否對 <strong>%s</strong> 中的文件具有<br><strong>%s</strong> 權限
 ReadPerm=閱讀
 WritePerm=編寫
 TestDeployOnWeb=測試/部署到線上環境
 PreviewSiteServedByWebServer=<u>在新分頁中預覽 %s。</u><br><br>%s 將由外部網絡伺服器（如 Apache、Nginx、IIS）提供服務。您必須先安裝並設置此伺服器以指向目錄：\n<br><strong>%s</strong><br>外部伺服器提供的網址：<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Dolibarr server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Dolibarr.<br>URL served by Dolibarr:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
+PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by ZionOne server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your ZionOne.<br>URL served by ZionOne:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
 VirtualHostUrlNotDefined=外部網絡服務器提供的虛擬主機的網址未定義
 NoPageYet=尚未建立任何頁面
 YouCanCreatePageOrImportTemplate=You can create a new page or import a full website template
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=您將於稍後被重新導向至訂單詳情頁�
 WebPortalSetupNotComplete=Web portal setup is not complete
 DeleteWebsiteAccount=Delete website account
 ConfirmDeleteWebsiteAccount=Are you sure you want to delete this account.
-ConfirmDeleteWebsiteAccount2=If this account was used to login on the public portal or any otherweb site powered by Dolibarr, the login may be no more possible.
+ConfirmDeleteWebsiteAccount2=If this account was used to login on the public portal or any otherweb site powered by ZionOne, the login may be no more possible.
 ContentSecurityPolicy=Website HTTP "Content-Security-Policy"
 WebsiteSecurityForceRP=Website HTTP "Referer-Policy"
 WebsiteSecurityForceSTS=Website HTTP "Strict-Transport-Security"

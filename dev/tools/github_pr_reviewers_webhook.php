@@ -258,7 +258,7 @@ $setHeadersReturn = curl_setopt($c, CURLOPT_HTTPHEADER, [
 	'Accept: application/vnd.github+json',
 	'Authorization: Bearer ' . $token,
 	'X-GitHub-Api-Version: ' . GITHUB_API_VERSION,
-	'User-Agent: dolibarr-github-webhook-handler/1.0 dolibarr/20250616', // PHP cURL implementation has no default User-Agent yet, and GitHub REST API requires one
+	'User-Agent: ZionOne-github-webhook-handler/1.0 ZionOne/20250616', // PHP cURL implementation has no default User-Agent yet, and GitHub REST API requires one
 	'Content-Type: application/json',
 ]);
 

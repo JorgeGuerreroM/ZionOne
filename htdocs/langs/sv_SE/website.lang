@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kod
 WebsiteName=Webbplatsens namn
 WebsiteSetupDesc=Skapa här de webbplatser du vill använda. Gå sedan till menyn webbplatser för att redigera dem.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=För att driftsätta den här webbpla
 SetHereVirtualHost= <u> Use with Apache/NGinx/... </u>  <br> Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on <br>  <strong> %s </strong>
 ExampleToUseInApacheVirtualHostConfig=Exempel att använda i Apache virtuell värdinställning:
 YouCanAlsoTestWithPHPS=<u>Använd med PHP-inbäddad server</u><br>I utvecklingsmiljön kanske du föredrar att testa webbplatsen med den inbäddade PHP-webbservern genom att köra
-YouCanAlsoDeployToAnotherWHP=<u>Kör din webbplats inuti en Dolibarr webbhotellleverantör</u><br>Om du inte har en webbserver som Apache eller NGinx tillgänglig på internet kan du exportera och importera din webbplats till en annan Dolibarr-instans som tillhandahålls av en annan Dolibarr-webbhotellleverantör som erbjuder fullständig integration med webbplatsmodulen. Du hittar en lista över några Dolibarr-hostingleverantörer på <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Kör din webbplats inuti en ZionOne webbhotellleverantör</u><br>Om du inte har en webbserver som Apache eller NGinx tillgänglig på internet kan du exportera och importera din webbplats till en annan ZionOne-instans som tillhandahålls av en annan ZionOne-webbhotellleverantör som erbjuder fullständig integration med webbplatsmodulen. Du hittar en lista över några ZionOne-hostingleverantörer på <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Kontrollera också att den virtuella värdanvändaren (till exempel www-data) har <strong> %s </strong>-behörigheter för filer till <br><strong>%s</strong>
 ReadPerm=Läsa
 WritePerm=Skriva
 TestDeployOnWeb=Test / distribuera på webben
 PreviewSiteServedByWebServer=<u> Förhandsgranska %s i en ny flik. </u> <br> <br> %s kommer att serveras av en extern webbserver (som Apache, Nginx, IIS). Du måste installera och konfigurera den här servern innan du pekar på katalogen: <br> <strong> %s </strong> <br> URL betjänad av extern server: <br> <strong> %s </strong>
-PreviewSiteServedByDolibarr=<u>Förhandsgranska %s i en ny flik.</u><br><br>%s kommer att hanteras av Dolibarr-servern så den behöver inte installera någon extra webbserver (som Apache, Nginx, IIS).<br>Det obekvämliga är att webbadresserna till sidorna inte är användarvänliga och börjar med sökvägen till din Dolibarr.<br>URL som serveras av Dolibarr:<br><strong>%s</strong><br><br>För att driftsätta eller testa med din egen externa webbserver (som Apache, Nginx, Lighttp) använd länken "%s".
+PreviewSiteServedByDolibarr=<u>Förhandsgranska %s i en ny flik.</u><br><br>%s kommer att hanteras av ZionOne-servern så den behöver inte installera någon extra webbserver (som Apache, Nginx, IIS).<br>Det obekvämliga är att webbadresserna till sidorna inte är användarvänliga och börjar med sökvägen till din ZionOne.<br>URL som serveras av ZionOne:<br><strong>%s</strong><br><br>För att driftsätta eller testa med din egen externa webbserver (som Apache, Nginx, Lighttp) använd länken "%s".
 VirtualHostUrlNotDefined=URL för den virtuella värd som serveras av extern webbserver som inte definierats
 NoPageYet=Inga sidor ännu
 YouCanCreatePageOrImportTemplate=Du kan skapa en ny sida eller importera en fullständig webbplatsmall
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Du kommer inom kort att omdirigeras till sidan me
 WebPortalSetupNotComplete=Installationen av webbportalen är inte klar
 DeleteWebsiteAccount=Ta bort webbplatskonto
 ConfirmDeleteWebsiteAccount=Är du säker på att du vill ta bort det här kontot?
-ConfirmDeleteWebsiteAccount2=Om det här kontot användes för att logga in på den offentliga portalen eller någon annan webbplats som drivs av Dolibarr, är inloggningen eventuellt inte längre möjlig.
+ConfirmDeleteWebsiteAccount2=Om det här kontot användes för att logga in på den offentliga portalen eller någon annan webbplats som drivs av ZionOne, är inloggningen eventuellt inte längre möjlig.
 ContentSecurityPolicy=Webbplatsens HTTP "Innehållssäkerhetspolicy"
 WebsiteSecurityForceRP=Webbplatsens HTTP-policy för hänvisning
 WebsiteSecurityForceSTS=Webbplats HTTP "Strict-Transport-Security"

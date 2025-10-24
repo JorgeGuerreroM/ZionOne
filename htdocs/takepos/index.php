@@ -40,7 +40,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php'; // Load $user and permissions
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.form.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formother.class.php';
@@ -136,7 +136,7 @@ if (getDolGlobalInt('TAKEPOS_COLOR_THEME') == 1) {
 
 
 // Title
-$title = 'TakePOS - Dolibarr '.DOL_VERSION;
+$title = 'TakePOS - ZionOne '.DOL_VERSION;
 if (getDolGlobalString('MAIN_APPLICATION_TITLE')) {
 	$title = 'TakePOS - ' . getDolGlobalString('MAIN_APPLICATION_TITLE');
 }
@@ -609,6 +609,11 @@ function Reduction() {
 	invoiceid = $("#invoiceid").val();
 	console.log("Open popup to enter reduction on invoiceid="+invoiceid);
 	$.colorbox({href:"reduction.php?place="+place+"&invoiceid="+invoiceid, width:"80%", height:"90%", transition:"none", iframe:"true", title:""});
+}
+
+function CreateProduct() {
+	console.log("Open popup to create new product");
+	$.colorbox({href:"../product/card.php?action=create&type=0&contextpage=takepos", width:"90%", height:"90%", transition:"none", iframe:"true", title:"<?php echo $langs->trans("NewProduct"); ?>"});
 }
 var closeBillParams="";
 function CloseBill() {
@@ -1406,6 +1411,7 @@ if (! getDolGlobalString('TAKEPOS_HIDE_HISTORY')) {
 }
 $menus[$r++] = array('title' => '<span class="fa fa-cube paddingrightonly"></span><div class="trunc">'.$langs->trans("FreeZone").'</div>', 'action' => 'FreeZone();');
 $menus[$r++] = array('title' => '<span class="fa fa-percent paddingrightonly"></span><div class="trunc">'.$langs->trans("InvoiceDiscountShort").'</div>', 'action' => 'Reduction();');
+$menus[$r++] = array('title' => '<span class="fa fa-plus-circle paddingrightonly"></span><div class="trunc">'.$langs->trans("NewProduct").'</div>', 'action' => 'CreateProduct();');
 
 if (!getDolGlobalString('TAKEPOS_NO_SPLIT_SALE')) {
 	$menus[$r++] = array('title' => '<span class="fas fa-cut paddingrightonly"></span><div class="trunc">'.$langs->trans("SplitSale").'</div>', 'action' => 'Split();');

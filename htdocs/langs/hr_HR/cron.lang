@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Pročitaj planirani posao
 Permission23102 = Izradi/promjeni planirani posao
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Onemogući
 CronTaskInactive=Ovaj posao je onemogućen (nije zakazan)
 CronId=ID
 CronClassFile=Naziv datoteke s klasom
-CronModuleHelp=Naziv direktorija Dolibarr modula (radi i s vanjskim Dolibarr modulom). <BR> Na primjer za pozivanje metode dohvaćanja objekta Dolibarr Product /htdocs/<u>product</u> /class/product.class.php, vrijednost za modul je<br><i>product</i>
-CronClassFileHelp=Relativni put i naziv datoteke za učitavanje (put je relativan na korijenski direktorij web poslužitelja). <BR> Na primjer, za pozivanje metode dohvaćanja objekta Dolibarr Product htdocs/product/class/ <u> product.class.php </u> , vrijednost za naziv datoteke klase je s<br><i>product/class/product.class.php
-CronObjectHelp=Naziv objekta za učitavanje. <BR> Na primjer za pozivanje metode dohvaćanja objekta Dolibarr Product /htdocs/product/class/product.class.php, vrijednost za naziv datoteke klase je<br><i>Proizvod</i>
-CronMethodHelp=Metoda objekta za pokretanje. <BR> Na primjer za pozivanje metode dohvaćanja objekta Dolibarr Product /htdocs/product/class/product.class.php, vrijednost za metodu je <br><i>dohvati</i>
-CronArgsHelp=Argumenti metode. <BR> Na primjer za pozivanje metode dohvaćanja objekta Dolibarr Product /htdocs/product/class/product.class.php, vrijednost za parametre može biti<br><i>0, ProductRef</i>
+CronModuleHelp=Naziv direktorija ZionOne modula (radi i s vanjskim ZionOne modulom). <BR> Na primjer za pozivanje metode dohvaćanja objekta ZionOne Product /htdocs/<u>product</u> /class/product.class.php, vrijednost za modul je<br><i>product</i>
+CronClassFileHelp=Relativni put i naziv datoteke za učitavanje (put je relativan na korijenski direktorij web poslužitelja). <BR> Na primjer, za pozivanje metode dohvaćanja objekta ZionOne Product htdocs/product/class/ <u> product.class.php </u> , vrijednost za naziv datoteke klase je s<br><i>product/class/product.class.php
+CronObjectHelp=Naziv objekta za učitavanje. <BR> Na primjer za pozivanje metode dohvaćanja objekta ZionOne Product /htdocs/product/class/product.class.php, vrijednost za naziv datoteke klase je<br><i>Proizvod</i>
+CronMethodHelp=Metoda objekta za pokretanje. <BR> Na primjer za pozivanje metode dohvaćanja objekta ZionOne Product /htdocs/product/class/product.class.php, vrijednost za metodu je <br><i>dohvati</i>
+CronArgsHelp=Argumenti metode. <BR> Na primjer za pozivanje metode dohvaćanja objekta ZionOne Product /htdocs/product/class/product.class.php, vrijednost za parametre može biti<br><i>0, ProductRef</i>
 CronCommandHelp=Sistemska komanda za pokretanje
 CronCreateJob=Izradi novi planirani posao
 CronFrom=Od

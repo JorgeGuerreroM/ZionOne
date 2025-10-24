@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=पेपैल मॉड्यूल सेटअप
 PaypalDesc=यह मॉड्यूल ग्राहकों को <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> के माध्यम से भुगतान करने की अनुमति देता है। इसका उपयोग एड-हॉक भुगतान या डॉलीबार ऑब्जेक्ट (इनवॉइस, ऑर्डर, ...) से संबंधित भुगतान के लिए किया जा सकता है।
 PaypalOrCBDoPayment=पेपैल (कार्ड या पेपैल) के साथ भुगतान करें

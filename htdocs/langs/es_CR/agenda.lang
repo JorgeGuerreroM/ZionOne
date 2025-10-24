@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID de Evento
 ActionsOwnedBy=Propietario del evento
 ListOfActions=Lista de eventos
@@ -14,9 +14,9 @@ ViewDay=Vista del día
 ViewWeek=Vista de la semana
 ViewPerType=Por tipo de vista
 AutoActions=Llenado automático
-AgendaSetupOtherDesc=Esta página ofrece opciones para permitir la exportación de sus eventos Dolibarr hacia un calendario externo (Thunderbird,Google Calendar etc...)
-AgendaExtSitesDesc=Esta página permite declarar fuentes externas de calendarios para ver sus eventos en la agenda de Dolibarr.
-ActionsEvents=Eventos para los que Dolibarr creará automáticamente una acción en agenda
+AgendaSetupOtherDesc=Esta página ofrece opciones para permitir la exportación de sus eventos ZionOne hacia un calendario externo (Thunderbird,Google Calendar etc...)
+AgendaExtSitesDesc=Esta página permite declarar fuentes externas de calendarios para ver sus eventos en la agenda de ZionOne.
+ActionsEvents=Eventos para los que ZionOne creará automáticamente una acción en agenda
 EventRemindersByEmailNotEnabled=Los Recordatorios de evento por correo electrónico no se habilitaron en el %s módulo de configuración.
 PropalClosedSignedInDolibarr=Propuesta %s firmada
 PropalClosedRefusedInDolibarr=Propuesta %s rechazada

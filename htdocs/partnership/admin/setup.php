@@ -23,7 +23,7 @@
  * \brief   Partnership setup page.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT."/core/lib/admin.lib.php";
 require_once '../lib/partnership.lib.php';
@@ -178,7 +178,7 @@ print '<td>';
 $backlinks = getDolGlobalString('PARTNERSHIP_BACKLINKS_TO_CHECK');
 print '<input class="minwidth400" type="text" name="PARTNERSHIP_BACKLINKS_TO_CHECK" value="'.$backlinks.'">';
 print '</td>';
-print '<td><span class="opacitymedium">dolibarr.org|dolibarr.fr|dolibarr.es</span></td>';
+print '<td><span class="opacitymedium">ZionOne.org|ZionOne.fr|ZionOne.es</span></td>';
 print '</tr>';
 
 print '</table>';

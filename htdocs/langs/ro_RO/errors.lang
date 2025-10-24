@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nicio eroare, dăm commit
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Câmpul <b>%s</b> nu trebuie s�
 ErrorFieldMustHaveXChar=Câmpul <b>%s</b> trebuie să aibă cel puțin %scaractere.
 ErrorNoAccountancyModuleLoaded=Modulul Contabilitate nu este activat
 ErrorExportDuplicateProfil=Acest nume de profil există deja pentru acest set de export.
-ErrorLDAPSetupNotComplete=Potrivirea Dolibarr-LDAP nu este finalizată.
+ErrorLDAPSetupNotComplete=Potrivirea ZionOne-LDAP nu este finalizată.
 ErrorLDAPMakeManualTest=Un fişier .ldif a fost generat în directorul %s. Încercaţi să încărcaţi manual din linia de comandă pentru a avea mai multe informatii cu privire la erori.
 ErrorCantSaveADoneUserWithZeroPercentage=Nu se poate salva o acțiune cu "starea nu a început" dacă se completează și câmpul "efectuat de".
 ErrorPleaseTypeBankTransactionReportName=Introduceți numele contului bancar unde trebuie raportată înregistrarea (Format YYYYMM sau YYYYMMDD)
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Contul de utilizator <b>%s</b> folosit pentru
 ErrorNoActivatedBarcode=Niciun tip de coduri de bare activat
 ErrUnzipFails=Eşec la dezarhivarea fişierului %s cu ZipArchive
 ErrNoZipEngine=Nu există niciun motor pentru a arhiva/dezarhiva fișierul %s în această configuraţie PHP
-ErrorFileMustBeADolibarrPackage=Fșierul %s  trebuie să fie un pachet zip Dolibarr
-ErrorModuleFileRequired=Trebuie să selectați un fișier pachet de modul Dolibarr
+ErrorFileMustBeADolibarrPackage=Fșierul %s  trebuie să fie un pachet zip ZionOne
+ErrorModuleFileRequired=Trebuie să selectați un fișier pachet de modul ZionOne
 ErrorPhpCurlNotInstalled=PHP CURL nu este instalat, acest lucru este esențial pentru comunicarea cu Paypal
 ErrorFailedToAddToMailmanList=Eşec la adăugarea %s la lista de Mailman %s sau la baza SPIP
 ErrorFailedToRemoveToMailmanList=Eşec la înlăturarea %s din lista de Mailman %s sau din baza SPIP
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Noul utilizator trebuie să aibă o adresă de email
 ErrorUserClone=Eroare la clonarea categoriilor utilizatorului
 ErrorQtyOrderedLessQtyShipped = Cantitatea comandată nu poate fi mai mică decât cantitatea expediată.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Eroare, crearea unei plăți diferite pe un cont bancar cu o monedă diferită de moneda companiei nu este încă acceptată.
-ErrorStreamMustBeEnabled=Fluxul PHP %s nu este disponibil. Verifică modulele PHP și parametrul Dolibarr $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=Fluxul PHP %s nu este disponibil. Verifică modulele PHP și parametrul ZionOne $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Eroare, încerci să plătești facturi diferite cu valute diferite în aceeași plată
 ErrorLinkNotFoundWithSharedLink=Eroare, link-ul nu a fost găsit pentru această cheie partajată
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Număr greșit de linii. Fișierele trebuie să aibă cel puțin 2 linii (1 linie pentru titlu și 1 linie pentru date)
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Atenție, citirea contului bancar 
 WarningNoDataTransferedInAccountancyYet=Reține că nu există date în tabela contabilă. Transferă datele înregistrate în aplicație în secțiunea de contabilitate sau să schimbă modul de calcul pentru a analiza datele înregistrate în afara contabilității.
 WarningChangingThisMayBreakStopTaskScheduler=Atenție, modificarea acestei valori poate dezactiva programatorul de taskuri
 WarningAmountOfFileDiffersFromSumOfLines=Atenție, cantitatea din fișă (%s) diferă de suma liniilor de articol (%s)
-WarningModuleAffiliatedToAReportedCompany=Atenție, acest modul a fost raportat fundației Dolibarr ca fiind publicat de o companie care folosește practici ilegale (nerespectarea regulilor de utilizare a mărcii Dolibarr, colectarea datelor tale fără consimțământul tău sau implementarea de malware).
+WarningModuleAffiliatedToAReportedCompany=Atenție, acest modul a fost raportat fundației ZionOne ca fiind publicat de o companie care folosește practici ilegale (nerespectarea regulilor de utilizare a mărcii ZionOne, colectarea datelor tale fără consimțământul tău sau implementarea de malware).
 WarningModuleAffiliatedToAPiratPlatform=Fii atent când obții un modul (plătit sau gratuit) de pe o platformă neoficială suspectă, cum ar fi %s
 
 SwissQrOnlyVIR = Factura SwissQR poate fi adăugată numai pe facturile setate să fie plătite cu plăți prin transfer de credit. 

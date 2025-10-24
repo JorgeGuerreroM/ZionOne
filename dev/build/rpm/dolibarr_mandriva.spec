@@ -6,7 +6,7 @@
 # edit it if you need to match your rules.
 # --------------------------------------------------------
 
-Name: dolibarr
+Name: ZionOne
 Version: __VERSION__
 Release: __RELEASE__
 Summary: ERP and CRM software for small and medium companies or foundations
@@ -16,10 +16,10 @@ Summary(it): Programmo gestionale per piccole imprese, fondazioni e liberi profe
 
 License: GPL-3.0+
 #Packager: Laurent Destailleur (Eldy) <eldy@users.sourceforge.net>
-Vendor: Dolibarr dev team
+Vendor: ZionOne dev team
 
-URL: https://www.dolibarr.org
-Source0: https://www.dolibarr.org/files/lastbuild/package_rpm_mandriva/%{name}-%{version}.tgz
+URL: https://www.ZionOne.org
+Source0: https://www.ZionOne.org/files/lastbuild/package_rpm_mandriva/%{name}-%{version}.tgz
 Patch0: %{name}-forrpm.patch
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
@@ -37,7 +37,7 @@ An easy to use CRM & ERP open source/free software package for small
 and medium companies, foundations or freelances. It includes different
 features for Enterprise Resource Planning (ERP) and Customer Relationship
 Management (CRM) but also for different other activities.
-Dolibarr was designed to provide only features you need and be easy to
+ZionOne was designed to provide only features you need and be easy to
 use.
 
 %description -l es
@@ -45,7 +45,7 @@ Un software ERP y CRM para pequeñas y medianas empresas, asociaciones
 o autónomos. Incluye diferentes funcionalidades para la Planificación
 de Recursos Empresariales (ERP) y Gestión de la Relación con los
 Clientes (CRM) así como para para otras diferentes actividades.
-Dolibarr ha sido diseñado para suministrarle solamente las funcionalidades
+ZionOne ha sido diseñado para suministrarle solamente las funcionalidades
 que necesita y haciendo hincapié en su facilidad de uso.
 
 %description -l fr
@@ -84,15 +84,15 @@ cui hai bisogno ed essere facile da usare.
 
 %{__mkdir} -p $RPM_BUILD_ROOT%{_sysconfdir}/%{name}
 %{__install} -m 644 dev/build/rpm/conf.php $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/conf.php
-%{__install} -m 644 dev/build/rpm/httpd-dolibarr.conf $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/apache.conf
-%{__install} -m 644 dev/build/rpm/file_contexts.dolibarr $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/file_contexts.dolibarr
+%{__install} -m 644 dev/build/rpm/httpd-ZionOne.conf $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/apache.conf
+%{__install} -m 644 dev/build/rpm/file_contexts.ZionOne $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/file_contexts.ZionOne
 %{__install} -m 644 dev/build/rpm/install.forced.php.mandriva $RPM_BUILD_ROOT%{_sysconfdir}/%{name}/install.forced.php
 
 %{__mkdir} -p $RPM_BUILD_ROOT%{_datadir}/pixmaps
 %{__install} -m 644 doc/images/appicon_64.png $RPM_BUILD_ROOT%{_datadir}/pixmaps/%{name}.png
 %{__mkdir} -p $RPM_BUILD_ROOT%{_datadir}/applications
 #desktop-file-install --delete-original --dir=$RPM_BUILD_ROOT%{_datadir}/applications dev/build/rpm/%{name}.desktop
-%{__install} -m 644 dev/build/rpm/dolibarr.desktop $RPM_BUILD_ROOT%{_datadir}/applications/%{name}.desktop
+%{__install} -m 644 dev/build/rpm/ZionOne.desktop $RPM_BUILD_ROOT%{_datadir}/applications/%{name}.desktop
 
 %{__mkdir} -p $RPM_BUILD_ROOT%{_datadir}/%{name}/dev/build/rpm
 %{__mkdir} -p $RPM_BUILD_ROOT%{_datadir}/%{name}/dev/build/tgz
@@ -133,117 +133,117 @@ done >>%{name}.lang
 
 %defattr(0755, root, root, 0755)
 
-%dir %_datadir/dolibarr
+%dir %_datadir/ZionOne
 
-%dir %_datadir/dolibarr/scripts
-%_datadir/dolibarr/scripts/*
+%dir %_datadir/ZionOne/scripts
+%_datadir/ZionOne/scripts/*
 
 %defattr(-, root, root, 0755)
 %doc COPYING ChangeLog doc/index.html htdocs/langs/HOWTO-Translation.txt
 
-%_datadir/pixmaps/dolibarr.png
-%_datadir/applications/dolibarr.desktop
+%_datadir/pixmaps/ZionOne.png
+%_datadir/applications/ZionOne.desktop
 
-%dir %_datadir/dolibarr/dev/build
+%dir %_datadir/ZionOne/dev/build
 
-%dir %_datadir/dolibarr/dev/build/rpm
-%_datadir/dolibarr/dev/build/rpm/*
+%dir %_datadir/ZionOne/dev/build/rpm
+%_datadir/ZionOne/dev/build/rpm/*
 
-%dir %_datadir/dolibarr/dev/build/tgz
-%_datadir/dolibarr/dev/build/tgz/*
+%dir %_datadir/ZionOne/dev/build/tgz
+%_datadir/ZionOne/dev/build/tgz/*
 
-%dir %_datadir/dolibarr/htdocs
-%_datadir/dolibarr/htdocs/accountancy
-%_datadir/dolibarr/htdocs/adherents
-%_datadir/dolibarr/htdocs/admin
-%_datadir/dolibarr/htdocs/ai
-%_datadir/dolibarr/htdocs/api
-%_datadir/dolibarr/htdocs/asset
-%_datadir/dolibarr/htdocs/asterisk
-%_datadir/dolibarr/htdocs/barcode
-%_datadir/dolibarr/htdocs/blockedlog
-%_datadir/dolibarr/htdocs/bookmarks
-%_datadir/dolibarr/htdocs/bookcal
-%_datadir/dolibarr/htdocs/bom
-%_datadir/dolibarr/htdocs/categories
-%_datadir/dolibarr/htdocs/collab
-%_datadir/dolibarr/htdocs/comm
-%_datadir/dolibarr/htdocs/commande
-%_datadir/dolibarr/htdocs/compta
-%_datadir/dolibarr/htdocs/conf
-%_datadir/dolibarr/htdocs/contact
-%_datadir/dolibarr/htdocs/contrat
-%_datadir/dolibarr/htdocs/core
-%_datadir/dolibarr/htdocs/cron
-%_datadir/dolibarr/htdocs/custom
-%_datadir/dolibarr/htdocs/datapolicy
-%_datadir/dolibarr/htdocs/dav
-%_datadir/dolibarr/htdocs/delivery
-%_datadir/dolibarr/htdocs/debugbar
-%_datadir/dolibarr/htdocs/don
-%_datadir/dolibarr/htdocs/ecm
-%_datadir/dolibarr/htdocs/emailcollector
-%_datadir/dolibarr/htdocs/eventorganization
-%_datadir/dolibarr/htdocs/expedition
-%_datadir/dolibarr/htdocs/expensereport
-%_datadir/dolibarr/htdocs/exports
-%_datadir/dolibarr/htdocs/externalsite
-%_datadir/dolibarr/htdocs/fichinter
-%_datadir/dolibarr/htdocs/fourn
-%_datadir/dolibarr/htdocs/ftp
-%_datadir/dolibarr/htdocs/holiday
-%_datadir/dolibarr/htdocs/hrm
-%_datadir/dolibarr/htdocs/imports
-%_datadir/dolibarr/htdocs/includes
-%_datadir/dolibarr/htdocs/install
-%_datadir/dolibarr/htdocs/intracommreport
-%_datadir/dolibarr/htdocs/knowledgemanagement
-%_datadir/dolibarr/htdocs/langs/HOWTO-Translation.txt
-%_datadir/dolibarr/htdocs/loan
-%_datadir/dolibarr/htdocs/mailmanspip
-%_datadir/dolibarr/htdocs/margin
-%_datadir/dolibarr/htdocs/modulebuilder
-%_datadir/dolibarr/htdocs/mrp
-%_datadir/dolibarr/htdocs/multicurrency
-%_datadir/dolibarr/htdocs/opensurvey
-%_datadir/dolibarr/htdocs/partnership
-%_datadir/dolibarr/htdocs/paybox
-%_datadir/dolibarr/htdocs/paypal
-%_datadir/dolibarr/htdocs/printing
-%_datadir/dolibarr/htdocs/product
-%_datadir/dolibarr/htdocs/projet
-%_datadir/dolibarr/htdocs/public
-%_datadir/dolibarr/htdocs/recruitment
-%_datadir/dolibarr/htdocs/reception
-%_datadir/dolibarr/htdocs/resource
-%_datadir/dolibarr/htdocs/salaries
-%_datadir/dolibarr/htdocs/societe
-%_datadir/dolibarr/htdocs/stripe
-%_datadir/dolibarr/htdocs/subtotals
-%_datadir/dolibarr/htdocs/supplier_proposal
-%_datadir/dolibarr/htdocs/theme
-%_datadir/dolibarr/htdocs/takepos
-%_datadir/dolibarr/htdocs/ticket
-%_datadir/dolibarr/htdocs/user
-%_datadir/dolibarr/htdocs/variants
-%_datadir/dolibarr/htdocs/webhook
-%_datadir/dolibarr/htdocs/webportal
-%_datadir/dolibarr/htdocs/webservices
-%_datadir/dolibarr/htdocs/website
-%_datadir/dolibarr/htdocs/workstation
-%_datadir/dolibarr/htdocs/zapier
-%_datadir/dolibarr/htdocs/*.ico
-%_datadir/dolibarr/htdocs/*.patch
-%_datadir/dolibarr/htdocs/*.php
-%_datadir/dolibarr/htdocs/*.txt
+%dir %_datadir/ZionOne/htdocs
+%_datadir/ZionOne/htdocs/accountancy
+%_datadir/ZionOne/htdocs/adherents
+%_datadir/ZionOne/htdocs/admin
+%_datadir/ZionOne/htdocs/ai
+%_datadir/ZionOne/htdocs/api
+%_datadir/ZionOne/htdocs/asset
+%_datadir/ZionOne/htdocs/asterisk
+%_datadir/ZionOne/htdocs/barcode
+%_datadir/ZionOne/htdocs/blockedlog
+%_datadir/ZionOne/htdocs/bookmarks
+%_datadir/ZionOne/htdocs/bookcal
+%_datadir/ZionOne/htdocs/bom
+%_datadir/ZionOne/htdocs/categories
+%_datadir/ZionOne/htdocs/collab
+%_datadir/ZionOne/htdocs/comm
+%_datadir/ZionOne/htdocs/commande
+%_datadir/ZionOne/htdocs/compta
+%_datadir/ZionOne/htdocs/conf
+%_datadir/ZionOne/htdocs/contact
+%_datadir/ZionOne/htdocs/contrat
+%_datadir/ZionOne/htdocs/core
+%_datadir/ZionOne/htdocs/cron
+%_datadir/ZionOne/htdocs/custom
+%_datadir/ZionOne/htdocs/datapolicy
+%_datadir/ZionOne/htdocs/dav
+%_datadir/ZionOne/htdocs/delivery
+%_datadir/ZionOne/htdocs/debugbar
+%_datadir/ZionOne/htdocs/don
+%_datadir/ZionOne/htdocs/ecm
+%_datadir/ZionOne/htdocs/emailcollector
+%_datadir/ZionOne/htdocs/eventorganization
+%_datadir/ZionOne/htdocs/expedition
+%_datadir/ZionOne/htdocs/expensereport
+%_datadir/ZionOne/htdocs/exports
+%_datadir/ZionOne/htdocs/externalsite
+%_datadir/ZionOne/htdocs/fichinter
+%_datadir/ZionOne/htdocs/fourn
+%_datadir/ZionOne/htdocs/ftp
+%_datadir/ZionOne/htdocs/holiday
+%_datadir/ZionOne/htdocs/hrm
+%_datadir/ZionOne/htdocs/imports
+%_datadir/ZionOne/htdocs/includes
+%_datadir/ZionOne/htdocs/install
+%_datadir/ZionOne/htdocs/intracommreport
+%_datadir/ZionOne/htdocs/knowledgemanagement
+%_datadir/ZionOne/htdocs/langs/HOWTO-Translation.txt
+%_datadir/ZionOne/htdocs/loan
+%_datadir/ZionOne/htdocs/mailmanspip
+%_datadir/ZionOne/htdocs/margin
+%_datadir/ZionOne/htdocs/modulebuilder
+%_datadir/ZionOne/htdocs/mrp
+%_datadir/ZionOne/htdocs/multicurrency
+%_datadir/ZionOne/htdocs/opensurvey
+%_datadir/ZionOne/htdocs/partnership
+%_datadir/ZionOne/htdocs/paybox
+%_datadir/ZionOne/htdocs/paypal
+%_datadir/ZionOne/htdocs/printing
+%_datadir/ZionOne/htdocs/product
+%_datadir/ZionOne/htdocs/projet
+%_datadir/ZionOne/htdocs/public
+%_datadir/ZionOne/htdocs/recruitment
+%_datadir/ZionOne/htdocs/reception
+%_datadir/ZionOne/htdocs/resource
+%_datadir/ZionOne/htdocs/salaries
+%_datadir/ZionOne/htdocs/societe
+%_datadir/ZionOne/htdocs/stripe
+%_datadir/ZionOne/htdocs/subtotals
+%_datadir/ZionOne/htdocs/supplier_proposal
+%_datadir/ZionOne/htdocs/theme
+%_datadir/ZionOne/htdocs/takepos
+%_datadir/ZionOne/htdocs/ticket
+%_datadir/ZionOne/htdocs/user
+%_datadir/ZionOne/htdocs/variants
+%_datadir/ZionOne/htdocs/webhook
+%_datadir/ZionOne/htdocs/webportal
+%_datadir/ZionOne/htdocs/webservices
+%_datadir/ZionOne/htdocs/website
+%_datadir/ZionOne/htdocs/workstation
+%_datadir/ZionOne/htdocs/zapier
+%_datadir/ZionOne/htdocs/*.ico
+%_datadir/ZionOne/htdocs/*.patch
+%_datadir/ZionOne/htdocs/*.php
+%_datadir/ZionOne/htdocs/*.txt
 
-%dir %{_sysconfdir}/dolibarr
+%dir %{_sysconfdir}/ZionOne
 
 %defattr(0664, root, apache)
-%config(noreplace) %{_sysconfdir}/dolibarr/conf.php
-%config(noreplace) %{_sysconfdir}/dolibarr/apache.conf
-%config(noreplace) %{_sysconfdir}/dolibarr/install.forced.php
-%config(noreplace) %{_sysconfdir}/dolibarr/file_contexts.dolibarr
+%config(noreplace) %{_sysconfdir}/ZionOne/conf.php
+%config(noreplace) %{_sysconfdir}/ZionOne/apache.conf
+%config(noreplace) %{_sysconfdir}/ZionOne/install.forced.php
+%config(noreplace) %{_sysconfdir}/ZionOne/file_contexts.ZionOne
 
 
 
@@ -253,12 +253,12 @@ done >>%{name}.lang
 echo Run post script of packager dolibarr_mandriva.spec
 
 # Define vars
-export docdir="/var/lib/dolibarr/documents"
-export apachelink="%{_sysconfdir}/httpd/conf.d/dolibarr.conf"
+export docdir="/var/lib/ZionOne/documents"
+export apachelink="%{_sysconfdir}/httpd/conf.d/ZionOne.conf"
 export apacheuser='apache';
 export apachegroup='apache';
 
-# Remove dolibarr install/upgrade lock file if it exists
+# Remove ZionOne install/upgrade lock file if it exists
 %{__rm} -f $docdir/install.lock
 
 # Create empty directory for uploaded files and generated documents
@@ -266,10 +266,10 @@ echo Create document directory $docdir
 %{__mkdir} -p $docdir
 
 # Set correct owner on config files
-%{__chown} -R root:$apachegroup /etc/dolibarr/*
+%{__chown} -R root:$apachegroup /etc/ZionOne/*
 
 # If a conf already exists and its content was already completed by installer
-export config=%{_sysconfdir}/dolibarr/conf.php
+export config=%{_sysconfdir}/ZionOne/conf.php
 if [ -s $config ] && grep -q "File generated by" $config
 then
   # File already exist. We add params not found.
@@ -286,20 +286,20 @@ then
   grep -q -c "dolibarr_font_DOL_DEFAULT_TTF_BOLD" $config || echo "<?php \$dolibarr_font_DOL_DEFAULT_TTF_BOLD='/usr/share/fonts/TTF/dejavu/DejaVuSans-Bold.ttf'; ?>" >> $config
 fi
 
-# Create a config link dolibarr.conf
+# Create a config link ZionOne.conf
 if [ ! -L $apachelink ]; then
   apachelinkdir=`dirname $apachelink`
   if [ -d $apachelinkdir ]; then
-    echo Create dolibarr web server config link from %{_sysconfdir}/dolibarr/apache.conf to $apachelink
-    ln -fs %{_sysconfdir}/dolibarr/apache.conf $apachelink
+    echo Create ZionOne web server config link from %{_sysconfdir}/ZionOne/apache.conf to $apachelink
+    ln -fs %{_sysconfdir}/ZionOne/apache.conf $apachelink
   else
     echo Do not create link $apachelink - web server conf dir $apachelinkdir not found. web server package may not be installed
   fi
 fi
 
-echo Set permission to $apacheuser:$apachegroup on /var/lib/dolibarr
-%{__chown} -R $apacheuser:$apachegroup /var/lib/dolibarr
-%{__chmod} -R o-w /var/lib/dolibarr
+echo Set permission to $apacheuser:$apachegroup on /var/lib/ZionOne
+%{__chown} -R $apacheuser:$apachegroup /var/lib/ZionOne
+%{__chmod} -R o-w /var/lib/ZionOne
 
 # Restart web server
 echo Restart web server
@@ -321,12 +321,12 @@ fi
 
 # Show result
 echo
-echo "----- Dolibarr %version-%release - (c) Dolibarr dev team -----"
-echo "Dolibarr files are now installed (into /usr/share/dolibarr)."
-echo "To finish installation and use Dolibarr, click on the menu"
-echo "entry Dolibarr ERP-CRM or call the following page from your"
+echo "----- ZionOne %version-%release - (c) ZionOne dev team -----"
+echo "ZionOne files are now installed (into /usr/share/ZionOne)."
+echo "To finish installation and use ZionOne, click on the menu"
+echo "entry ZionOne ERP-CRM or call the following page from your"
 echo "web browser:"
-echo "http://localhost/dolibarr/"
+echo "http://localhost/ZionOne/"
 echo "-------------------------------------------------------"
 echo
 
@@ -340,12 +340,12 @@ then
   echo "Removed package"
 
   # Define vars
-  export apachelink="%{_sysconfdir}/httpd/conf.d/dolibarr.conf"
+  export apachelink="%{_sysconfdir}/httpd/conf.d/ZionOne.conf"
 
   # Remove apache link
   if [ -L $apachelink ] ;
   then
-    echo "Delete apache config link for Dolibarr ($apachelink)"
+    echo "Delete apache config link for ZionOne ($apachelink)"
     %{__rm} -f $apachelink
     status=purge
   fi

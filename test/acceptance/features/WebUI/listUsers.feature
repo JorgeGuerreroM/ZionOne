@@ -10,7 +10,7 @@ Feature: list users
     When the administrator browses to the list of users page using the webUI
     Then following users should be displayed in the users list
       | login    | last name  |
-      | dolibarr | SuperAdmin |
+      | ZionOne | SuperAdmin |
     And the number of created users should be 1
 
   Scenario: Admin user should be able to see number of created users
@@ -22,7 +22,7 @@ Feature: list users
     When the administrator browses to the list of users page using the webUI
     Then following users should be displayed in the users list
       | login    | last name  |
-      | dolibarr | SuperAdmin |
+      | ZionOne | SuperAdmin |
       | Harry    | Potter     |
       | Hermoine | Granger    |
       | Ron      | Weasley    |

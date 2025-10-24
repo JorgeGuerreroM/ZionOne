@@ -31,7 +31,7 @@
  *  \brief      Home page of calendar events
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/comm/action/class/actioncomm.class.php';
 require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
@@ -1365,7 +1365,7 @@ if (count($listofextcals)) {
 						}
 						// Test to avoid infinite loop ($datecurstart must increase)
 						if ($savdatecurstart >= $datecurstart) {
-							dol_syslog("Found a rule freq ".$icalevent['RRULE']['FREQ']." not managed by dolibarr code. Assume 1 week frequency.", LOG_ERR);
+							dol_syslog("Found a rule freq ".$icalevent['RRULE']['FREQ']." not managed by ZionOne code. Assume 1 week frequency.", LOG_ERR);
 							$datecurstart += 3600 * 24 * 7;
 							$datecurend += 3600 * 24 * 7;
 						}

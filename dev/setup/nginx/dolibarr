@@ -1,4 +1,4 @@
-# Dolibarr server configuration sample for NGinx
+# ZionOne server configuration sample for NGinx
 server {
         listen 80;
         listen [::]:80;

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= ID ໂມດູນ
 ModuleBuilderDesc=ເຄື່ອງມືນີ້ຕ້ອງຖືກນໍາໃຊ້ໂດຍຜູ້ໃຊ້ທີ່ມີປະສົບການຫຼືນັກພັດທະນາເທົ່ານັ້ນ. ມັນສະຫນອງຜົນປະໂຫຍດໃນການສ້າງຫຼືແກ້ໄຂໂມດູນຂອງທ່ານເອງ. ເອກະສານສໍາລັບທາງເລືອກ <a href="%s" target="_blank" rel="noopener noreferrer">ການພັດທະນາຄູ່ມືແມ່ນຢູ່ທີ່ນີ້</a>.
 EnterNameOfModuleDesc=ໃສ່ຊື່ຂອງໂມດູນ / ແອັບພລິເຄຊັນເພື່ອສ້າງໂດຍບໍ່ມີຊ່ອງຫວ່າງ. ໃຊ້ຕົວພິມໃຫຍ່ເພື່ອແຍກຄໍາສັບ (ຕົວຢ່າງ: MyModule, EcommerceForShop, SyncWithMySystem ... )
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=ເຈົ້າສາມາດລຶບໂມດ�
 EnterNameOfObjectToDeleteDesc=ທ່ານສາມາດລຶບວັດຖຸ. ຄຳເຕືອນ: ໄຟລ໌ການຂຽນລະຫັດທັງໝົດ (ສ້າງຂຶ້ນ ຫຼືສ້າງດ້ວຍຕົນເອງ) ທີ່ກ່ຽວຂ້ອງກັບວັດຖຸຈະຖືກລຶບຖິ້ມ!
 DangerZone=ເຂດອັນຕະລາຍ
 BuildPackage=ສ້າງແພັກເກດ
-BuildPackageDesc=ເຈົ້າສາມາດສ້າງຊຸດ zip ຂອງໃບສະັກຂອງເຈົ້າເພື່ອວ່າເຈົ້າພ້ອມທີ່ຈະແຈກຢາຍມັນຢູ່ໃນ Dolibarr ໃດ any. ເຈົ້າສາມາດແຈກຢາຍມັນຫຼືຂາຍມັນຢູ່ໃນຕະຫຼາດເຊັ່ນ: <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=ເຈົ້າສາມາດສ້າງຊຸດ zip ຂອງໃບສະັກຂອງເຈົ້າເພື່ອວ່າເຈົ້າພ້ອມທີ່ຈະແຈກຢາຍມັນຢູ່ໃນ ZionOne ໃດ any. ເຈົ້າສາມາດແຈກຢາຍມັນຫຼືຂາຍມັນຢູ່ໃນຕະຫຼາດເຊັ່ນ: <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=ສ້າງເອກະສານ
 ModuleIsNotActive=ໂມດູນນີ້ຍັງບໍ່ຖືກເປີດໃຊ້ເທື່ອ. ໄປທີ່ %s ເພື່ອເຮັດໃຫ້ມັນມີຊີວິດຢູ່ຫຼືຄລິກທີ່ນີ້
 ModuleIsLive=ໂມດູນນີ້ໄດ້ຖືກເປີດ ນຳ ໃຊ້ແລ້ວ. ການປ່ຽນແປງໃດ ໜຶ່ງ ອາດຈະ ທຳ ລາຍຄຸນສົມບັດສົດປັດຈຸບັນ.
@@ -110,7 +110,7 @@ HooksDefDesc=ກຳນົດໃນຄຸນສົມບັດ <b>module_parts['h
 TriggerDefDesc=ກໍາ​ນົດ​ໃນ​ໄຟລ​໌ trigger ລະ​ຫັດ​ທີ່​ທ່ານ​ຕ້ອງ​ການ​ທີ່​ຈະ​ປະ​ຕິ​ບັດ​ໃນ​ເວ​ລາ​ທີ່​ກິດ​ຈະ​ກໍາ​ທາງ​ນອກ​ຂອງ​ໂມ​ດູນ​ຂອງ​ທ່ານ​ແມ່ນ​ປະ​ຕິ​ບັດ (ເຫດ​ການ​ເກີດ​ໂດຍ​ໂມ​ດູນ​ອື່ນໆ​)​.
 SeeIDsInUse=ເບິ່ງ IDs ທີ່ໃຊ້ຢູ່ໃນການຕິດຕັ້ງຂອງເຈົ້າ
 SeeReservedIDsRangeHere=ເບິ່ງຂອບເຂດຂອງ ID ທີ່ສະຫງວນໄວ້
-ToolkitForDevelopers=ຊຸດເຄື່ອງມືສໍາລັບຜູ້ພັດທະນາ Dolibarr
+ToolkitForDevelopers=ຊຸດເຄື່ອງມືສໍາລັບຜູ້ພັດທະນາ ZionOne
 TryToUseTheModuleBuilder=ຖ້າເຈົ້າມີຄວາມຮູ້ກ່ຽວກັບ SQL ແລະ PHP, ເຈົ້າອາດຈະໃຊ້ຕົວຊ່ວຍສ້າງໂມດູນພື້ນເມືອງ. <br> ເປີດໃຊ້ງານໂມດູນ <strong> %s </strong> ແລະໃຊ້ຕົວຊ່ວຍໂດຍການຄລິກ <span class="fa fa-bug"> </span> ຢູ່ເທິງເມນູດ້ານຂວາເທິງ. <br> ຄໍາເຕືອນ: ອັນນີ້ແມ່ນຄຸນສົມບັດຂອງນັກພັດທະນາຂັ້ນສູງ, ເຮັດ <b> ບໍ່ </b> ທົດລອງຢູ່ບ່ອນຜະລິດຂອງເຈົ້າ!
 SeeTopRightMenu=ເບິ່ງ <span class="fa fa-bug"> </span> ຢູ່ເທິງເມນູດ້ານຂວາເທິງ
 AddLanguageFile=ເພີ່ມໄຟລ language ພາສາ

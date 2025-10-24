@@ -10,7 +10,7 @@ NET START doliwampapache >> doliwamp.log 2>>&1
 echo NET START doliwampmysqld >> doliwamp.log 2>>&1
 NET START doliwampmysqld >> doliwamp.log 2>>&1
 
-REM You can also check logs into c:/dolibarr/logs if start fails
+REM You can also check logs into c:/ZionOne/logs if start fails
 
 echo Please wait...
 echo ---- End script >> doliwamp.log 2>>&1

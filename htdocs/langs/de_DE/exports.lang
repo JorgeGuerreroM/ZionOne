@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Importe/Exporte
 ExportsArea=Exporte
 ImportArea=Import
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Wählen Sie das Dateiformat aus, das als Importdateif
 ChooseFileToImport=Datei hochladen und dann auf das Symbol %s klicken, um die Datei als Quell-Importdatei auszuwählen ...
 SourceFileFormat=Quelldateiformat
 FieldsInSourceFile=Felder in der Quelldatei
-FieldsInTargetDatabase=Zielfelder in Dolibarr-Datenbank
+FieldsInTargetDatabase=Zielfelder in ZionOne-Datenbank
 NoFields=Keine Felder
 MoveField=Bewege Feld Spaltennummer %s
 ExampleOfImportFile=Beispiel_Import_Datei

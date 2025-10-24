@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 OptionModeVirtualDesc=In dieser Option berechnet sich der Umsatz über Zahlungen (Zahlungsdatum).<br> Die Gültigkeit der Zahlen ist nur bei Überprüfung der Zu- und Abgänge auf den Konten über Rechnungen gewährleistet.
 FeatureIsSupportedInInOutModeOnly=Dieses Feautre ist nur in der Soll-Haben-Option verfügbar (siehe Konfiguration des Rechnungswesen-Moduls)
 MenuReportInOut=Ergebnis / Geschäftsjahr

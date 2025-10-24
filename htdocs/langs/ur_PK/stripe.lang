@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=پٹی ماڈیول سیٹ اپ
-StripeDesc=اپنے صارفین کو کریڈٹ/ڈیبٹ کارڈز کے ذریعے ادائیگیوں کے لیے ایک آن لائن ادائیگی کا صفحہ پیش کریں <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>۔ اس کا استعمال آپ کے صارفین کو ایڈہاک ادائیگیوں کی اجازت دینے کے لیے یا کسی خاص Dolibarr آبجیکٹ (انوائس، آرڈر، ...) سے متعلق ادائیگیوں کے لیے کیا جا سکتا ہے۔
+StripeDesc=اپنے صارفین کو کریڈٹ/ڈیبٹ کارڈز کے ذریعے ادائیگیوں کے لیے ایک آن لائن ادائیگی کا صفحہ پیش کریں <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a>۔ اس کا استعمال آپ کے صارفین کو ایڈہاک ادائیگیوں کی اجازت دینے کے لیے یا کسی خاص ZionOne آبجیکٹ (انوائس، آرڈر، ...) سے متعلق ادائیگیوں کے لیے کیا جا سکتا ہے۔
 StripeOrCBDoPayment=کریڈٹ کارڈ یا پٹی سے ادائیگی کریں۔
-FollowingUrlAreAvailableToMakePayments=Dolibarr اشیاء پر ادائیگی کرنے کے لیے صارف کو صفحہ پیش کرنے کے لیے درج ذیل URLs دستیاب ہیں۔
+FollowingUrlAreAvailableToMakePayments=ZionOne اشیاء پر ادائیگی کرنے کے لیے صارف کو صفحہ پیش کرنے کے لیے درج ذیل URLs دستیاب ہیں۔
 PaymentForm=ادائیگی کا فارم
 WelcomeOnPaymentPage=ہماری آن لائن ادائیگی کی خدمت میں خوش آمدید
 ThisScreenAllowsYouToPay=یہ اسکرین آپ کو %s پر آن لائن ادائیگی کرنے کی اجازت دیتی ہے۔
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=کسی بھی رقم کا %s آن لا�
 ToOfferALinkForOnlinePaymentOnMemberSubscription=ممبر کی رکنیت کے لیے %s آن لائن ادائیگی کا صفحہ پیش کرنے کے لیے URL
 ToOfferALinkForOnlinePaymentOnDonation=عطیہ کی ادائیگی کے لیے %s آن لائن ادائیگی کا صفحہ پیش کرنے کے لیے URL
 YouCanAddTagOnUrl=You can also add url parameter <b>&tag=value</b> to any of those URL (mandatory only for payment not linked to an object) to add your own payment comment tag.<br>For the URL of payments with no existing object, you may also add the parameter <strong>&noidempotency=1</strong> so the same link with same tag can be used several times (some payment mode may limit the payment to 1 for each different link without this parameter)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=اپنی اسٹرائپ کو url <b> %s </b> کے ساتھ سیٹ اپ کریں تاکہ اسٹرائپ کی توثیق ہونے پر ادائیگی خود بخود بن جائے۔
 AccountParameter=اکاؤنٹ کے پیرامیٹرز
 UsageParameter=استعمال کے پیرامیٹرز

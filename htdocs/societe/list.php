@@ -38,7 +38,7 @@
  *	\brief      Page to show list of third parties
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require_once '../main.inc.php';
 include_once DOL_DOCUMENT_ROOT.'/contact/class/contact.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formother.class.php';

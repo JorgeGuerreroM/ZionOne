@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Import / eksport
 ExportsArea=Exports
 ImportArea=Import
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Faylni import qilish formati sifatida tanlang, uni ta
 ChooseFileToImport=Faylni yuklang, so'ngra faylni manba import fayli sifatida tanlash uchun %s belgisini bosing ...
 SourceFileFormat=Manba fayl formati
 FieldsInSourceFile=Manba faylidagi maydonlar
-FieldsInTargetDatabase=Dolibarr ma'lumotlar bazasidagi maqsadli maydonlar
+FieldsInTargetDatabase=ZionOne ma'lumotlar bazasidagi maqsadli maydonlar
 NoFields=Maydonlar yo‘q
 MoveField=%s maydon ustun satrini siljiting
 ExampleOfImportFile=Import_file-ning namunasi

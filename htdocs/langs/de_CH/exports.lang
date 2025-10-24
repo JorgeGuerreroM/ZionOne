@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 FileSuccessfullyBuilt=Filter generiert
 ExampleAnyCodeOrIdFoundIntoDictionary=Ein Code (oder eine ID) wurde im Dictionnary <b>%s</b> gefunden
 ExportStringFilter=%% erlaubt die Ersetzung eines oder mehrerer Zeichen im Text

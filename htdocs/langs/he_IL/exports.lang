@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=Exports
 ImportArea=יְבוּא
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=בחר את פורמט הקובץ לשימוש כפו
 ChooseFileToImport=העלה קובץ ולאחר מכן לחץ על הסמל %s כדי לבחור קובץ כקובץ ייבוא מקור...
 SourceFileFormat=פורמט קובץ המקור
 FieldsInSourceFile=שדות בקובץ המקור
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=אין שדות
 MoveField=העבר את מספר עמודת השדה %s
 ExampleOfImportFile=דוגמה_ל_ייבוא_קובץ

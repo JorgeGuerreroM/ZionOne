@@ -40,7 +40,7 @@ class mailing_pomme extends MailingTargets
 	/**
 	 * @var string This label is used if no translation is found for key XXX neither MailingModuleDescXXX where XXX=name is found
 	 */
-	public $desc = 'Dolibarr users with emails'; // Libelle utilise si aucune traduction pour MailingModuleDescXXX ou XXX=name trouvée
+	public $desc = 'ZionOne users with emails'; // Libelle utilise si aucune traduction pour MailingModuleDescXXX ou XXX=name trouvée
 
 	/**
 	 * @var string[] Module mailing actif si modules require_module actifs

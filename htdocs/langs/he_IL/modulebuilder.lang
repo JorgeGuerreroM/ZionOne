@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= מזהה מודול
 ModuleBuilderDesc=יש להשתמש בכלי זה רק על ידי משתמשים או מפתחים מנוסים. הוא מספק כלי עזר לבנייה או עריכה של מודול משלך. תיעוד עבור <a href="%s" target="_blank" rel="noopener noreferrer">פיתוח ידני חלופי נמצא כאן</a>.
 EnterNameOfModuleDesc=הזן את שם המודול/האפליקציה ליצירה ללא רווחים. השתמש באותיות רישיות כדי להפריד בין מילים (לדוגמה: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=אתה יכול למחוק את המודול של�
 EnterNameOfObjectToDeleteDesc=You can delete an object. WARNING: All coding files (generated or created manually) related to the object will be deleted!
 DangerZone=אזור סכנה
 BuildPackage=בניית חבילה
-BuildPackageDesc=אתה יכול ליצור חבילת zip של היישום שלך כך שאתה מוכן להפיץ אותו בכל Dolibarr. אתה יכול גם להפיץ אותו או למכור אותו בשוק כמו <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=אתה יכול ליצור חבילת zip של היישום שלך כך שאתה מוכן להפיץ אותו בכל ZionOne. אתה יכול גם להפיץ אותו או למכור אותו בשוק כמו <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=בניית תיעוד
 ModuleIsNotActive=מודול זה לא הופעל עדיין. עבור אל %s כדי להפעיל אותו או לחץ כאן
 ModuleIsLive=מודול זה הופעל. כל שינוי עלול לשבור תכונה חיה נוכחית.
@@ -110,7 +110,7 @@ HooksDefDesc=הגדר במאפיין <b>module_parts['hooks']</b>, בקובץ מ
 TriggerDefDesc=הגדירו בקובץ הטריגר את הקוד שברצונכם לבצע כאשר מבוצע אירוע עסקי חיצוני למודול שלכם (אירועים המופעלים על ידי מודולים אחרים).
 SeeIDsInUse=ראה מזהים שנמצאים בשימוש בהתקנה שלך
 SeeReservedIDsRangeHere=ראה מגוון תעודות זהות שמורות
-ToolkitForDevelopers=ערכת כלים למפתחי Dolibarr
+ToolkitForDevelopers=ערכת כלים למפתחי ZionOne
 TryToUseTheModuleBuilder=If you have knowledge of SQL and PHP, you may use the native module builder wizard.<br>Enable the module <strong>%s</strong> and use the wizard by clicking the <span class="fa fa-bug"></span> on the top right menu.<br>Warning: This is an advanced developer feature, do <b>not</b> experiment on your production site!
 SeeTopRightMenu=ראה <span class="fa fa-bug"></span> בתפריט הימני העליון
 AddLanguageFile=הוסף קובץ שפה

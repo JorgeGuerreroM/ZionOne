@@ -23,7 +23,7 @@
 /**
  *     	\file       htdocs/public/onlinesign/newonlinesign.php
  *		\ingroup    core
- *		\brief      File to offer a way to make an online signature for a particular Dolibarr entity
+ *		\brief      File to offer a way to make an online signature for a particular ZionOne entity
  *					Example of URL: https://localhost/public/onlinesign/newonlinesign.php?ref=PR...
  *
  *					The signature is added by calling the file /htdocs/core/ajax/onlinSign.php
@@ -50,7 +50,7 @@ if (is_numeric($entity)) {
 	define("DOLENTITY", $entity);
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/payments.lib.php';

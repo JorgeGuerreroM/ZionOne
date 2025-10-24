@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Ardal aelodau
 MemberCard=Cerdyn aelod
 SubscriptionCard=Cerdyn tanysgrifio
@@ -16,7 +16,7 @@ ErrorThisMemberIsNotPublic=Nid yw'r aelod hwn yn gyhoeddus
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Aelod (enw: <b> %s </b>, login: <b> %s </b>) arall yn barod gysylltu i drydydd parti <b> %s </b>. Tynnwch y ddolen hon yn gyntaf oherwydd ni ellir cysylltu trydydd parti ag aelod yn unig (ac i'r gwrthwyneb).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Am resymau diogelwch, rhaid i chi gael caniatâd i olygu pob defnyddiwr er mwyn gallu cysylltu aelod â defnyddiwr nad yw'n eiddo i chi.
 SetLinkToUser=Dolen i ddefnyddiwr o Ddolibarr
-SetLinkToThirdParty=Cysylltiad â thrydydd parti Dolibarr
+SetLinkToThirdParty=Cysylltiad â thrydydd parti ZionOne
 MemberCountersArePublic=Mae cownteri aelodau dilys yn gyhoeddus
 MembersCards=Cynhyrchu cardiau i aelodau
 MembersList=Rhestr o aelodau
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Ydych chi'n siŵr eich bod am ddileu'r cyfraniad hwn?
 Filehtpasswd=ffeil htpasswd
 ValidateMember=Dilysu aelod
 ConfirmValidateMember=Ydych chi'n siŵr eich bod am ddilysu'r aelod hwn?
-FollowingLinksArePublic=Mae'r dolenni canlynol yn dudalennau agored nad ydynt wedi'u diogelu gan unrhyw ganiatâd Dolibarr. Nid ydynt yn dudalennau wedi'u fformatio, a ddarperir fel enghraifft i ddangos sut i restru cronfa ddata aelodau.
+FollowingLinksArePublic=Mae'r dolenni canlynol yn dudalennau agored nad ydynt wedi'u diogelu gan unrhyw ganiatâd ZionOne. Nid ydynt yn dudalennau wedi'u fformatio, a ddarperir fel enghraifft i ddangos sut i restru cronfa ddata aelodau.
 PublicMemberList=Rhestr aelod cyhoeddus
 BlankSubscriptionForm=Ffurflen hunangofrestru cyhoeddus
-BlankSubscriptionFormDesc=Gall Dolibarr ddarparu URL/gwefan gyhoeddus i ganiatáu i ymwelwyr allanol ofyn am danysgrifio i'r sylfaen. Os yw modiwl talu ar-lein wedi'i alluogi, efallai y bydd ffurflen dalu yn cael ei darparu'n awtomatig hefyd.
+BlankSubscriptionFormDesc=Gall ZionOne ddarparu URL/gwefan gyhoeddus i ganiatáu i ymwelwyr allanol ofyn am danysgrifio i'r sylfaen. Os yw modiwl talu ar-lein wedi'i alluogi, efallai y bydd ffurflen dalu yn cael ei darparu'n awtomatig hefyd.
 EnablePublicSubscriptionForm=Galluogi'r wefan gyhoeddus gyda ffurflen hunan-danysgrifio
 ForceMemberType=Gorfodi'r math o aelod
 ExportDataset_member_1=Aelodau a chyfraniadau

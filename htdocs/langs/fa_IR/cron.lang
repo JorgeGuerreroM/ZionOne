@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = خواندن وظایف زمان‌بندی‌شده
 Permission23102 = ساخت/ویرایش  وظایف زمان‌بندی‌شده
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=غیرفعال‌کردن
 CronTaskInactive=This job is disabled (not scheduled)
 CronId=شناسه
 CronClassFile=نام‌فایل حاوی کلاس
-CronModuleHelp=نام فهرست واحدهای Dolibarr (که همچنین با یک واحد خارجی Dolibarr نیز کار می‌کند). <BR> برای مثال برای فراخوان متد fetch از شیء محصولات Dolibarr از /htdocs/<u>product</u>/class/product.class.php استفاده می‌شود، مقدار واحد برابر است با <br><i>product</i>
-CronClassFileHelp=مسیر نسبی و نام فایل برای بارگذاری (مسیر به ریشۀ سرور وب نسبی است).<BR> برای مثال برای فراخوان متند fetch از شیء محصول Dolibarr از htdocs/product/class/<u>product.class.php</u>  استفاده می‌شود، مقدار مربوط به نام فایل کلاس برابر است با: <br><i> product/class/product.class.php </i>
-CronObjectHelp=نام شیء برای بارگذاری. <BR>برای مثال برای فراخوان متد fetch از شیء محصول Dolibarr از /htdocs/product/class/product.class.php استفاده شده، مقدار برای نام فایل کلاس برابر است با <br><i>Product</i>
-CronMethodHelp=نام شیء برای بارگذاری. <BR> برای مثال برای فراخوان متد fetch از شیء محصول Dolibarr از /htdocs/product/class/product.class.php استفاده شده، مقدار برای نام فایل کلاس برابر است با <br><i>fetch</i>
-CronArgsHelp=The method arguments. <BR> For example to call the fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value for parameters can be<br><i>0, ProductRef</i>
+CronModuleHelp=نام فهرست واحدهای ZionOne (که همچنین با یک واحد خارجی ZionOne نیز کار می‌کند). <BR> برای مثال برای فراخوان متد fetch از شیء محصولات ZionOne از /htdocs/<u>product</u>/class/product.class.php استفاده می‌شود، مقدار واحد برابر است با <br><i>product</i>
+CronClassFileHelp=مسیر نسبی و نام فایل برای بارگذاری (مسیر به ریشۀ سرور وب نسبی است).<BR> برای مثال برای فراخوان متند fetch از شیء محصول ZionOne از htdocs/product/class/<u>product.class.php</u>  استفاده می‌شود، مقدار مربوط به نام فایل کلاس برابر است با: <br><i> product/class/product.class.php </i>
+CronObjectHelp=نام شیء برای بارگذاری. <BR>برای مثال برای فراخوان متد fetch از شیء محصول ZionOne از /htdocs/product/class/product.class.php استفاده شده، مقدار برای نام فایل کلاس برابر است با <br><i>Product</i>
+CronMethodHelp=نام شیء برای بارگذاری. <BR> برای مثال برای فراخوان متد fetch از شیء محصول ZionOne از /htdocs/product/class/product.class.php استفاده شده، مقدار برای نام فایل کلاس برابر است با <br><i>fetch</i>
+CronArgsHelp=The method arguments. <BR> For example to call the fetch method of ZionOne Product object /htdocs/product/class/product.class.php, the value for parameters can be<br><i>0, ProductRef</i>
 CronCommandHelp=خط‌فرمان سامان برای اجرا
 CronCreateJob=ساخت یک وظیفۀ برنامه ریزی شدۀ جدید
 CronFrom=از

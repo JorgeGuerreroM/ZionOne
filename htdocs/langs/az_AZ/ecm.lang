@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Kataloqdakı sənədlərin sayı
 ECMSection=kataloq
 ECMSectionManual=Manual kataloq
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Alt-kataloqların sayı
 ECMNbOfFilesInSubDir=Alt qovluqlardakı faylların sayı
 ECMCreationUser=Yaradan
 ECMArea=DMS/ECM sahəsi
-ECMAreaDesc=DMS/ECM (Sənəd İdarəetmə Sistemi / Elektron Məzmun İdarəetmə) sahəsi Dolibarr-da hər cür sənədləri saxlamağa, paylaşmağa və tez axtarış etməyə imkan verir.
+ECMAreaDesc=DMS/ECM (Sənəd İdarəetmə Sistemi / Elektron Məzmun İdarəetmə) sahəsi ZionOne-da hər cür sənədləri saxlamağa, paylaşmağa və tez axtarış etməyə imkan verir.
 ECMAreaDesc2a=* Manual kataloqlar ağac strukturunun pulsuz təşkili ilə sənədləri saxlamaq üçün istifadə edilə bilər.
 ECMAreaDesc2b=* Bir elementin səhifəsindən sənədlər əlavə edildikdə avtomatik qovluqlar avtomatik doldurulur.
 ECMAreaDesc3=* İctimai qovluqlar sənədlər qovluğunun <b>/medias</b> alt kataloquna daxil olan fayllardır, hər kəs tərəfindən oxuna bilən və internetdə paylaşılmasına ehtiyac yoxdur. Məsələn, e-poçt və ya veb-sayt modulu üçün şəkil fayllarını saxlamaq üçün istifadə olunur.

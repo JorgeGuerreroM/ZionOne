@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Buchführung
 Accounting=Buchhaltung
 ACCOUNTING_EXPORT_SEPARATORCSV=Spaltentrennzeichen für die Exportdatei
@@ -346,7 +346,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Deaktivieren Sie die Kontierung und Übertra
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Deaktivieren Sie die Kontierung und Übertragung in der Buchhaltung bei Einkäufen (Lieferantenrechnungen werden in der Buchhaltung nicht berücksichtigt).
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Deaktivieren Sie die Kontierung und Übertragung in der Buchhaltung für Spesenabrechnungen (Spesenabrechnungen werden bei der Buchhaltung nicht berücksichtigt).
 ACCOUNTING_ENABLE_LETTERING=Aktivieren Sie die Abstimmungsfunktion in der Buchhaltung
-ACCOUNTING_ENABLE_LETTERING_DESC=Wenn diese Option aktiviert ist, können Sie für jeden Buchungseintrag einen Tracking-Code definieren, sodass Sie verschiedene Buchungen gruppieren können. In der Vergangenheit, als verschiedene Journale unabhängig voneinander verwaltet wurden, war diese Funktion erforderlich, um Buchungszeilen verschiedener Journale zusammenzufassen. Bei der Dolibarr-Buchhaltung wird jedoch ein solcher Tracking-Code namens "<b>%s</b>" bereits automatisch gespeichert, sodass ein automatisches Tracking bereits erfolgt ist, ohne dass ein Fehlerrisiko besteht. Damit ist diese Funktion für eine allgemeine Verwendung unnötig geworden. Die manuelle Funktion ist für Endbenutzer vorgesehen, die der Computer-Engine, die die Datenübertragung in der Buchhaltung durchführt, wirklich nicht vertrauen.
+ACCOUNTING_ENABLE_LETTERING_DESC=Wenn diese Option aktiviert ist, können Sie für jeden Buchungseintrag einen Tracking-Code definieren, sodass Sie verschiedene Buchungen gruppieren können. In der Vergangenheit, als verschiedene Journale unabhängig voneinander verwaltet wurden, war diese Funktion erforderlich, um Buchungszeilen verschiedener Journale zusammenzufassen. Bei der ZionOne-Buchhaltung wird jedoch ein solcher Tracking-Code namens "<b>%s</b>" bereits automatisch gespeichert, sodass ein automatisches Tracking bereits erfolgt ist, ohne dass ein Fehlerrisiko besteht. Damit ist diese Funktion für eine allgemeine Verwendung unnötig geworden. Die manuelle Funktion ist für Endbenutzer vorgesehen, die der Computer-Engine, die die Datenübertragung in der Buchhaltung durchführt, wirklich nicht vertrauen.
 EnablingThisFeatureIsNotNecessary=Die Aktivierung dieser Funktion ist für strenge Anforderungen an die Buchhaltung nicht mehr erforderlich.
 ACCOUNTING_ENABLE_AUTOLETTERING=Aktivieren Sie den automatischen Buchungsabgleich bei der Übergabe an die Buchhaltung
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Der Code für die Kennzeichnung zusammengehöriger Transaktionen wird automatisch generiert und hochgezählt und nicht vom Benutzer gewählt

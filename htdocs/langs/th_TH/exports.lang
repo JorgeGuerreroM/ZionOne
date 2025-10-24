@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=การนำเข้า / ส่งออก
 ExportsArea=การส่งออก
 ImportArea=นำเข้า
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=เลือกรูปแบบไฟล์ที�
 ChooseFileToImport=อัปโหลดไฟล์ จากนั้นคลิกที่ไอคอน %s เพื่อเลือกไฟล์เป็นไฟล์นำเข้าต้นฉบับ...
 SourceFileFormat=แหล่งที่มาของรูปแบบไฟล์
 FieldsInSourceFile=เขตข้อมูลในแฟ้มแหล่งที่มา
-FieldsInTargetDatabase=เขตข้อมูลเป้าหมายในฐานข้อมูล Dolibarr
+FieldsInTargetDatabase=เขตข้อมูลเป้าหมายในฐานข้อมูล ZionOne
 NoFields=ไม่มีสาขา
 MoveField=ย้ายหมายเลขคอลัมน์ฟิลด์ %s
 ExampleOfImportFile=Example_of_import_file

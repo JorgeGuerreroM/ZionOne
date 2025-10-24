@@ -6,8 +6,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: dolibarr\n"
-"Report-Msgid-Bugs-To: dolibarr@packages.debian.org\n"
+"Project-Id-Version: ZionOne\n"
+"Report-Msgid-Bugs-To: ZionOne@packages.debian.org\n"
 "POT-Creation-Date: 2013-04-23 12:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,29 +19,29 @@ msgstr ""
 
 #. Type: multiselect
 #. Description
-#: ../dolibarr.templates:1001
+#: ../ZionOne.templates:1001
 msgid "Web server to reconfigure automatically:"
 msgstr ""
 
 #. Type: multiselect
 #. Description
-#: ../dolibarr.templates:1001
+#: ../ZionOne.templates:1001
 msgid ""
 "Please choose the web server that should be automatically configured to run "
-"dolibarr."
+"ZionOne."
 msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../dolibarr.templates:2001
+#: ../ZionOne.templates:2001
 msgid "Delete database and uploaded files ?"
 msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../dolibarr.templates:2001
+#: ../ZionOne.templates:2001
 msgid ""
-"Answer if you want to removed the Dolibarr MySQL database and all other "
-"datas (datas related to this question are the Dolibarr DBMS account, all "
-"Dolibarr tables, and all uploaded files)."
+"Answer if you want to removed the ZionOne MySQL database and all other "
+"datas (datas related to this question are the ZionOne DBMS account, all "
+"ZionOne tables, and all uploaded files)."
 msgstr ""

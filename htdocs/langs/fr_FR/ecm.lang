@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Nb. de documents du répertoire
 ECMSection=Répertoire
 ECMSectionManual=Répertoire manuel
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Nombre de sous-répertoires
 ECMNbOfFilesInSubDir=Nombre de fichiers dans les sous-répertoires
 ECMCreationUser=Créateur
 ECMArea=Espace GED
-ECMAreaDesc=L'espace GED (Gestion Électronique de Documents) vous permet de stocker, partager et chercher rapidement tout type de documents dans Dolibarr.
+ECMAreaDesc=L'espace GED (Gestion Électronique de Documents) vous permet de stocker, partager et chercher rapidement tout type de documents dans ZionOne.
 ECMAreaDesc2a=* Les répertoires manuels peuvent être utilisés pour enregistrer des documents avec une organisation libre de l'arbre des répertoires.
 ECMAreaDesc2b=* Les répertoires automatiques sont remplis automatiquement lors de l'ajout de documents depuis la page d'un élément.
 ECMAreaDesc3=* Les répertoires publics sont des fichiers dans le sous-répertoire <b>/medias</b> du répertoire documents, lisibles par tout le monde sur Internet sans avoir besoin d'être connecté et, pas besoin d'avoir le fichier partagé explicitement. Il est utilisé pour stocker des fichiers images pour le module d'emailing ou de site web par exemple.

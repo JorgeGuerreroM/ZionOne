@@ -51,7 +51,7 @@ class modMailmanSpip extends DolibarrModules
 		$this->name = preg_replace('/^mod/i', '', get_class($this));
 		$this->description = "Mailman or Spip interface for member module";
 
-		// Possible values for version are: 'development', 'experimental', 'dolibarr' or 'dolibarr_deprecated' or version
+		// Possible values for version are: 'development', 'experimental', 'ZionOne' or 'dolibarr_deprecated' or version
 		$this->version = 'dolibarr_deprecated';
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);

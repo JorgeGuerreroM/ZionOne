@@ -9463,7 +9463,7 @@ class Form
 		global $conf;
 		global $delayedhtmlcontent;    // Will be used later outside of this function
 
-		// TODO Use an internal dolibarr component instead of select2
+		// TODO Use an internal ZionOne component instead of select2
 		if (!getDolGlobalString('MAIN_USE_JQUERY_MULTISELECT') && !defined('REQUIRE_JQUERY_MULTISELECT')) {
 			return '';
 		}
@@ -9568,7 +9568,7 @@ class Form
 		global $conf;
 		global $delayedhtmlcontent;    // Will be used later outside of this function
 
-		// TODO Use an internal dolibarr component instead of select2
+		// TODO Use an internal ZionOne component instead of select2
 		if (!getDolGlobalString('MAIN_USE_JQUERY_MULTISELECT') && !defined('REQUIRE_JQUERY_MULTISELECT')) {
 			return '';
 		}
@@ -9983,7 +9983,7 @@ class Form
 				$ways = $c->print_all_ways(' &gt;&gt; ', ($nolink ? 'none' : ''), 0, 1); // $ways[0] = "ccc2 >> ccc2a >> ccc2a1" with html formatted text
 				foreach ($ways as $way) {
 					$color = $c->color;
-					$sfortag = '<li class="select2-search-choice-dolibarr noborderoncategories"' . ($color ? ' style="background: #' . $color . ';"' : ' style="background: #bbb"') . '>';
+					$sfortag = '<li class="select2-search-choice-ZionOne noborderoncategories"' . ($color ? ' style="background: #' . $color . ';"' : ' style="background: #bbb"') . '>';
 					$sfortag .= $way;
 					$sfortag .= '</li>';
 					$toprint[] = $sfortag;
@@ -9992,7 +9992,7 @@ class Form
 			if (empty($toprint)) {
 				return '';
 			} else {
-				return '<div class="select2-container-multi-dolibarr"><ul class="select2-choices-dolibarr">' . implode(' ', $toprint) . '</ul></div>';
+				return '<div class="select2-container-multi-ZionOne"><ul class="select2-choices-ZionOne">' . implode(' ', $toprint) . '</ul></div>';
 			}
 		}
 

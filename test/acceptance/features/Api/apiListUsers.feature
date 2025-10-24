@@ -11,7 +11,7 @@ Feature: list users
     Then the response status code should be "200"
     And the user list returned by API should be following
       | login    | last name  |
-      | dolibarr | SuperAdmin |
+      | ZionOne | SuperAdmin |
       | Harry    | Potter     |
 
   Scenario: Non-admin user should not be able to see list of created users

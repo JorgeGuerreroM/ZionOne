@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = निर्धारित कार्य पढ़ें
 Permission23102 = शेड्यूल्ड जॉब बनाएं/अपडेट करें
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=अक्षम करना
 CronTaskInactive=यह कार्य अक्षम है (शेड्यूल नहीं किया गया है)
 CronId=पहचान
 CronClassFile=क्लास के साथ फ़ाइल नाम
-CronModuleHelp=Dolibarr मॉड्यूल निर्देशिका का नाम (बाह्य Dolibarr मॉड्यूल के साथ भी काम करता है)। <BR> उदाहरण के लिए Dolibarr Product ऑब्जेक्ट /htdocs/<u>product</u>/class/product.class.php की fetch विधि को कॉल करने के लिए, मॉड्यूल का मान है<br><i>product</i>
-CronClassFileHelp=लोड करने हेतु सापेक्ष पथ और फ़ाइल नाम (पथ वेब सर्वर रूट निर्देशिका से सापेक्ष है)। <BR> उदाहरण के लिए, Dolibarr Product ऑब्जेक्ट htdocs/product/class/<u>product.class.php</u> की fetch विधि को कॉल करने के लिए, क्लास फ़ाइल नाम का मान है<br><i>product/class/product.class.php</i>
-CronObjectHelp=लोड करने के लिए ऑब्जेक्ट का नाम. <BR> उदाहरण के लिए Dolibarr Product ऑब्जेक्ट /htdocs/product/class/product.class.php की fetch विधि को कॉल करने के लिए, क्लास फ़ाइल नाम का मान है<br><i>Product</i>
-CronMethodHelp=लॉन्च करने के लिए ऑब्जेक्ट विधि। <BR> उदाहरण के लिए Dolibarr Product ऑब्जेक्ट /htdocs/product/class/product.class.php की fetch विधि को कॉल करने के लिए, विधि का मान है<br><i>fetch</i>
-CronArgsHelp=विधि तर्क. <BR> उदाहरण के लिए Dolibarr Product ऑब्जेक्ट /htdocs/product/class/product.class.php की fetch विधि को कॉल करने के लिए, पैरामीटर का मान <br><i>0, ProductRef</i> हो सकता है
+CronModuleHelp=ZionOne मॉड्यूल निर्देशिका का नाम (बाह्य ZionOne मॉड्यूल के साथ भी काम करता है)। <BR> उदाहरण के लिए ZionOne Product ऑब्जेक्ट /htdocs/<u>product</u>/class/product.class.php की fetch विधि को कॉल करने के लिए, मॉड्यूल का मान है<br><i>product</i>
+CronClassFileHelp=लोड करने हेतु सापेक्ष पथ और फ़ाइल नाम (पथ वेब सर्वर रूट निर्देशिका से सापेक्ष है)। <BR> उदाहरण के लिए, ZionOne Product ऑब्जेक्ट htdocs/product/class/<u>product.class.php</u> की fetch विधि को कॉल करने के लिए, क्लास फ़ाइल नाम का मान है<br><i>product/class/product.class.php</i>
+CronObjectHelp=लोड करने के लिए ऑब्जेक्ट का नाम. <BR> उदाहरण के लिए ZionOne Product ऑब्जेक्ट /htdocs/product/class/product.class.php की fetch विधि को कॉल करने के लिए, क्लास फ़ाइल नाम का मान है<br><i>Product</i>
+CronMethodHelp=लॉन्च करने के लिए ऑब्जेक्ट विधि। <BR> उदाहरण के लिए ZionOne Product ऑब्जेक्ट /htdocs/product/class/product.class.php की fetch विधि को कॉल करने के लिए, विधि का मान है<br><i>fetch</i>
+CronArgsHelp=विधि तर्क. <BR> उदाहरण के लिए ZionOne Product ऑब्जेक्ट /htdocs/product/class/product.class.php की fetch विधि को कॉल करने के लिए, पैरामीटर का मान <br><i>0, ProductRef</i> हो सकता है
 CronCommandHelp=निष्पादित करने के लिए सिस्टम कमांड लाइन.
 CronCreateJob=नया शेड्यूल किया गया कार्य बनाएँ
 CronFrom=से

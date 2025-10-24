@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= ID modulu
 ModuleBuilderDesc=Tento nástroj môžu používať iba skúsení používatelia alebo vývojári. Poskytuje nástroje na zostavenie alebo úpravu vlastného modulu. Dokumentácia pre alternatívny <a href="%s" target="_blank" rel="noopener noreferrer">manuálny vývoj je tu</a>.
 EnterNameOfModuleDesc=Zadajte názov modulu/aplikácie, ktorú chcete vytvoriť, bez medzier. Na oddelenie slov použite veľké písmená (napríklad: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Modul môžete vymazať. UPOZORNENIE: Všetky kód
 EnterNameOfObjectToDeleteDesc=Môžete odstrániť objekt. UPOZORNENIE: Všetky kódovacie súbory (vygenerované alebo vytvorené ručne) súvisiace s objektom budú vymazané!
 DangerZone=Nebezpečná zóna
 BuildPackage=Zostavte balík
-BuildPackageDesc=Môžete si vygenerovať zip balík vašej aplikácie, takže ste pripravení ju distribuovať na ľubovoľnom serveri Dolibarr. Môžete ho tiež distribuovať alebo predávať na trhu ako <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=Môžete si vygenerovať zip balík vašej aplikácie, takže ste pripravení ju distribuovať na ľubovoľnom serveri ZionOne. Môžete ho tiež distribuovať alebo predávať na trhu ako <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Zostavte dokumentáciu
 ModuleIsNotActive=Tento modul ešte nie je aktivovaný. Prejdite na stránku %s, aby ste to mohli spustiť, alebo kliknite sem
 ModuleIsLive=Tento modul bol aktivovaný. Akákoľvek zmena môže prerušiť aktuálnu živú funkciu.
@@ -110,7 +110,7 @@ HooksDefDesc=Definujte vo vlastnosti <b>module_parts['hooks']</b>, v súbore des
 TriggerDefDesc=V spúšťacom súbore definujte kód, ktorý chcete spustiť, keď sa vykoná obchodná udalosť mimo vášho modulu (udalosti spustené inými modulmi).
 SeeIDsInUse=Pozrite si ID používané vo vašej inštalácii
 SeeReservedIDsRangeHere=Pozrite si rozsah rezervovaných ID
-ToolkitForDevelopers=Sada nástrojov pre vývojárov Dolibarr
+ToolkitForDevelopers=Sada nástrojov pre vývojárov ZionOne
 TryToUseTheModuleBuilder=If you have knowledge of SQL and PHP, you may use the native module builder wizard.<br>Enable the module <strong>%s</strong> and use the wizard by clicking the <span class="fa fa-bug"></span> on the top right menu.<br>Warning: This is an advanced developer feature, do <b>not</b> experiment on your production site!
 SeeTopRightMenu=Pozrite si <span class="fa fa-bug"></span> v ponuke vpravo hore
 AddLanguageFile=Pridať jazykový súbor

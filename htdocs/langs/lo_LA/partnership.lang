@@ -44,7 +44,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=ລິງຍ້ອນກັບເພື່ອກ�
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb ຂອງມື້ກ່ອນການຍົກເລີກສະຖານະຂອງຫຸ້ນສ່ວນເມື່ອການສະໝັກໃຊ້ໝົດອາຍຸ
 ReferingWebsiteCheck=ກວດເບິ່ງການອ້າງອີງເວັບໄຊທ
 ReferingWebsiteCheckDesc=ເຈົ້າສາມາດເປີດໃຊ້ຄຸນສົມບັດເພື່ອກວດເບິ່ງວ່າຄູ່ຮ່ວມງານຂອງເຈົ້າໄດ້ເພີ່ມ backlink ເຂົ້າໄປໃນໂດເມນເວັບໄຊທ your ຂອງເຈົ້າຢູ່ໃນເວັບໄຊທ their ຂອງເຂົາເຈົ້າເອງ.
-PublicFormRegistrationPartnerDesc=Dolibarr ສາມາດສະໜອງ URL/ເວັບໄຊທ໌ສາທາລະນະໃຫ້ເຈົ້າເພື່ອອະນຸຍາດໃຫ້ຜູ້ເຂົ້າຊົມພາຍນອກຮ້ອງຂໍໃຫ້ເປັນສ່ວນຫນຶ່ງຂອງໂຄງການຮ່ວມມື.
+PublicFormRegistrationPartnerDesc=ZionOne ສາມາດສະໜອງ URL/ເວັບໄຊທ໌ສາທາລະນະໃຫ້ເຈົ້າເພື່ອອະນຸຍາດໃຫ້ຜູ້ເຂົ້າຊົມພາຍນອກຮ້ອງຂໍໃຫ້ເປັນສ່ວນຫນຶ່ງຂອງໂຄງການຮ່ວມມື.
 
 #
 # Object

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - printing
+# ZionOne language file - Source file is en_US - printing
 Module64000Desc=Activer le système d'impression en un clic
 PrintingSetup=Installation du système d'impression en un clic
 PrintingDesc=Ce module ajoute un bouton Imprimer à divers modules pour permettre l'impression de documents directement sur une imprimante sans avoir besoin d'ouvrir le document dans une autre application.

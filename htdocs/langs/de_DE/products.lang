@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Artikelnr.
 ProductLabel=Produktbezeichnung
 ProductLabelTranslated=Übersetzte Produktbezeichnung
@@ -300,7 +300,7 @@ MinSupplierPrice=Minimaler Einkaufspreis
 MinCustomerPrice=Minimaler Verkaufspreis
 NoDynamicPrice=Kein dynamischer Preis
 DynamicPriceConfiguration=Dynamische Preis Konfiguration
-DynamicPriceDesc=Sie können mathematische Formeln definieren, um Kunden- oder Lieferantenpreise zu berechnen. Solche Formeln können alle mathematischen Operatoren, einige Konstanten und Variablen verwenden. Hier können Sie die Variablen definieren, die Sie verwenden möchten. Wenn die Variable automatisch aktualisiert werden muss, können Sie die externe URL definieren, damit Dolibarr den Wert automatisch aktualisiert.
+DynamicPriceDesc=Sie können mathematische Formeln definieren, um Kunden- oder Lieferantenpreise zu berechnen. Solche Formeln können alle mathematischen Operatoren, einige Konstanten und Variablen verwenden. Hier können Sie die Variablen definieren, die Sie verwenden möchten. Wenn die Variable automatisch aktualisiert werden muss, können Sie die externe URL definieren, damit ZionOne den Wert automatisch aktualisiert.
 AddVariable=Variable hinzufügen
 AddUpdater=Updater hinzufügen
 GlobalVariables=Globale Variablen
@@ -388,7 +388,7 @@ NewProductAttribute=Neues Attribut
 NewProductAttributeValue=Wert des neuen Attributs
 ErrorCreatingProductAttributeValue=Es ist ein Fehler bei der Erstellung des Wertes dieses Attributes aufgetreten . \nEin Wert der gleichen Nr./Ref.  wurde bereits registriert
 ProductCombinationGeneratorWarning=Wenn Sie vor der Generierung von neuen Varianten fortsetzen, werden alle vorherigen Versionen GELÖSCHT werden.  Es werden nur bestehende Varianten mit den neuen Werten aktualisiert werden.
-TooMuchCombinationsWarning=Die Erzeugung von vielen Varianten kann den Prozessor und Speicher verlangsamen. Dolibarr ist dabei vielleicht nicht in der Lage, diese zu erstellen. Das Aktivieren dieser Option „%s“ hilft den Speicherverbrauch zu reduzieren.
+TooMuchCombinationsWarning=Die Erzeugung von vielen Varianten kann den Prozessor und Speicher verlangsamen. ZionOne ist dabei vielleicht nicht in der Lage, diese zu erstellen. Das Aktivieren dieser Option „%s“ hilft den Speicherverbrauch zu reduzieren.
 DoNotRemovePreviousCombinations=Löschen Sie nicht vorhandene Varianten
 UsePercentageVariations=Verwende die prozentuale Veränderung
 PercentageVariation=Prozentuale Abweichung

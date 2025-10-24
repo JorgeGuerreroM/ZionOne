@@ -30,7 +30,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/commonnumrefgenerator.class.php';
 /**
  *	Parent class for barcode document generators (image)
  *
- *	@property 'development'|'experimental'|'dolibarr' $version Dolibarr version of loaded document
+ *	@property 'development'|'experimental'|'ZionOne' $version ZionOne version of loaded document
  */
 abstract class ModeleBarCode
 {

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Поставување на модулот за работниот тек
 WorkflowDesc=Овој модул обезбедува некои автоматски дејства. Стандардно, работниот тек е отворен (можете да ги правите работите по редослед што го сакате), но тука можете да активирате некои автоматски дејства.
 ThereIsNoWorkflowToModify=Нема достапни модификации на работниот тек со активираните модули.

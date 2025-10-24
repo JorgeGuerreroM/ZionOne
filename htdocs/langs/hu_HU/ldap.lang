@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=<b>%s</b> felhasználó jelszavát a <b>%s</b> domain-ben meg kell változtatni.
 UserMustChangePassNextLogon=%s domainben a felhasználónak meg kell változtatnia a jelszavát.
 LDAPInformationsForThisContact=Információ a kapcsolatról az LDAP adatbázisban
@@ -22,7 +22,7 @@ GroupSynchronized=Csoport szinkronizálva
 MemberSynchronized=Tag szinkronizálva
 MemberTypeSynchronized=A tag típusa szinkronizálva
 ContactSynchronized=Kapcsolat szinkronizálva
-ForceSynchronize=Eröltetett szinkronizáció Dolibarr -> LDAP
+ForceSynchronize=Eröltetett szinkronizáció ZionOne -> LDAP
 ErrorFailedToReadLDAP=Nem sikerült olvasni az LDAP adatbázist. Ellenőrizze az LDAP modul beállítását és az adatbázis hozzáférhetőségét.
 PasswordOfUserInLDAP=A felhasználó jelszava az LDAP-ban
 LDAPPasswordHashType=Jelszó hash típusa

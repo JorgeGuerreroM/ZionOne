@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Codi
 WebsiteName=Nom del lloc web
 WebsiteSetupDesc=Creeu aquí els llocs web que voleu utilitzar. A continuació, aneu al menú Llocs web per a editar-los.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Per implementar aquest lloc web en pr
 SetHereVirtualHost=<u>Utilitzeu-lo amb Apache/NGinx/...</u><br>Creeu al vostre servidor web (Apache, Nginx, ...) un host virtual dedicat amb PHP habilitat i un directori arrel a<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Exemple per a utilitzar a la configuració de l'amfitrió virtual d'Apache:
 YouCanAlsoTestWithPHPS=<u>S'utilitza amb un servidor PHP incrustat</u><br>A l'entorn de desenvolupament, podeu prefereix provar el lloc amb el servidor web incrustat PHP executant-lo
-YouCanAlsoDeployToAnotherWHP=<u>Executeu el vostre lloc web dins d'un proveïdor d'allotjament web Dolibarr</u><br>If no teniu disponible un servidor web com Apache o NGinx Internet, podeu exportar i importar el vostre lloc web a una altra instància de Dolibarr proporcionada per un altre proveïdor d'allotjament de Dolibarr que proporcioni una integració completa amb el mòdul del lloc web. Podeu trobar una llista d'alguns proveïdors d'allotjament de Dolibarr a <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Executeu el vostre lloc web dins d'un proveïdor d'allotjament web ZionOne</u><br>If no teniu disponible un servidor web com Apache o NGinx Internet, podeu exportar i importar el vostre lloc web a una altra instància de ZionOne proporcionada per un altre proveïdor d'allotjament de ZionOne que proporcioni una integració completa amb el mòdul del lloc web. Podeu trobar una llista d'alguns proveïdors d'allotjament de ZionOne a <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Comproveu també que l'usuari del VIRTUAL HOST (per exemple www-data) té permisos <strong>%s</strong> sobre els fitxers a <br><strong>%s</strong>
 ReadPerm=Llegit
 WritePerm=Escriu
 TestDeployOnWeb=Prova / implantació a la web
 PreviewSiteServedByWebServer=<LI>Vista prèvia %s en una nova pestanya.</LI><br><br>El %s serà servit per un servidor web extern (com ara Apache, Nginx, IIS). Heu d'instal·lar i configurar aquest servidor abans d'apuntar al directori:<br><strong>%s</strong><br> URL servit per un servidor extern:<br><strong>%s</strong><br>
-PreviewSiteServedByDolibarr=<u>Previsualitza %s en una pestanya nova.</u><br><br>El %s serà servit pel servidor Dolibarr, de manera que no necessita cap servidor web addicional (com Apache, Nginx, IIS) instal·lat.<br>L'inconvenient és que els URL de les pàgines no són fàcils d'utilitzar i comencen amb el camí del vostre Dolibarr.<br>URL ofert per Dolibarr:<br> <strong>%s</strong><br><br>span>1 Per implementar o provar amb el vostre propi servidor web extern (com ara Apache, Nginx, Lighttp) utilitzeu l'enllaç "%s".
+PreviewSiteServedByDolibarr=<u>Previsualitza %s en una pestanya nova.</u><br><br>El %s serà servit pel servidor ZionOne, de manera que no necessita cap servidor web addicional (com Apache, Nginx, IIS) instal·lat.<br>L'inconvenient és que els URL de les pàgines no són fàcils d'utilitzar i comencen amb el camí del vostre ZionOne.<br>URL ofert per ZionOne:<br> <strong>%s</strong><br><br>span>1 Per implementar o provar amb el vostre propi servidor web extern (com ara Apache, Nginx, Lighttp) utilitzeu l'enllaç "%s".
 VirtualHostUrlNotDefined=No s'ha definit l'URL de l'amfitrió virtual servit per un servidor web extern
 NoPageYet=Encara sense pàgines
 YouCanCreatePageOrImportTemplate=Podeu crear una pàgina nova o importar una plantilla completa del lloc web
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=En breu se us redirigirà a la pàgina de detalls
 WebPortalSetupNotComplete=La configuració del portal web no s'ha completat
 DeleteWebsiteAccount=Suprimeix el compte del lloc web
 ConfirmDeleteWebsiteAccount=Esteu segur que voleu suprimir aquest compte?
-ConfirmDeleteWebsiteAccount2=Si aquest compte s'ha utilitzat per iniciar sessió al portal públic o a qualsevol altre lloc web impulsat per Dolibarr, és possible que l'inici de sessió no sigui possible.
+ConfirmDeleteWebsiteAccount2=Si aquest compte s'ha utilitzat per iniciar sessió al portal públic o a qualsevol altre lloc web impulsat per ZionOne, és possible que l'inici de sessió no sigui possible.
 ContentSecurityPolicy=Lloc web HTTP "Política de seguretat de contingut"
 WebsiteSecurityForceRP=Lloc web HTTP "Política de referència"
 WebsiteSecurityForceSTS=Lloc web HTTP "Estricte-Transport-Seguretat"

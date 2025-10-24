@@ -25,7 +25,7 @@
  *      \brief      Page of setup of security
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/security2.lib.php';
@@ -69,7 +69,7 @@ if ($action == 'activate_encrypt') {
 	$db->begin();
 
 	// On old version, a bug created the constant into user entity, so we delete it to be sure such entry won't exists. We want it in entity 0 or nowhere.
-	dolibarr_del_const($db, "DATABASE_PWD_ENCRYPTED", $conf->entity);
+	zionone_del_const($db, "DATABASE_PWD_ENCRYPTED", $conf->entity);
 	// We set entity=0 (all) because DATABASE_PWD_ENCRYPTED is a setup into conf file, so always shared for everybody
 	$entityforall = 0;
 	dolibarr_set_const($db, "DATABASE_PWD_ENCRYPTED", "1", 'chaine', 0, '', $entityforall);
@@ -116,8 +116,8 @@ if ($action == 'activate_encrypt') {
 	// By default, $allow_disable_encryption is false we do not allow to disable encryption because passwords can't be decoded once encrypted.
 	// We set entity=0 (all) because DATABASE_PWD_ENCRYPTED is a setup into conf file, so always shared for everybody
 	if ($allow_disable_encryption) {
-		dolibarr_del_const($db, "DATABASE_PWD_ENCRYPTED", $conf->entity);
-		dolibarr_del_const($db, "DATABASE_PWD_ENCRYPTED", 0);
+		zionone_del_const($db, "DATABASE_PWD_ENCRYPTED", $conf->entity);
+		zionone_del_const($db, "DATABASE_PWD_ENCRYPTED", 0);
 	}
 }
 
@@ -139,7 +139,7 @@ if ($action == 'activate_encryptdbpassconf') {
 		sleep(3); // Don't know why but we need to wait file is completely saved before making the reload. Even with flush and clearstatcache, we need to wait.
 
 		// database value not required
-		// dolibarr_del_const($db, "MAIN_DATABASE_PWD_CONFIG_ENCRYPTED",$conf->entity);
+		// zionone_del_const($db, "MAIN_DATABASE_PWD_CONFIG_ENCRYPTED",$conf->entity);
 		header("Location: security.php");
 		exit;
 	} else {
@@ -151,7 +151,7 @@ if ($action == 'activate_encryptdbpassconf') {
 if ($action == 'activate_MAIN_SECURITY_DISABLEFORGETPASSLINK') {
 	dolibarr_set_const($db, "MAIN_SECURITY_DISABLEFORGETPASSLINK", '1', 'chaine', 0, '', $conf->entity);
 } elseif ($action == 'disable_MAIN_SECURITY_DISABLEFORGETPASSLINK') {
-	dolibarr_del_const($db, "MAIN_SECURITY_DISABLEFORGETPASSLINK", $conf->entity);
+	zionone_del_const($db, "MAIN_SECURITY_DISABLEFORGETPASSLINK", $conf->entity);
 }
 
 if ($action == 'updatepattern') {

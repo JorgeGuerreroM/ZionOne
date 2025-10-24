@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=产品编号
 ProductLabel=产品名称
 ProductLabelTranslated=已翻译的产品名称
@@ -300,7 +300,7 @@ MinSupplierPrice=最低购买价格
 MinCustomerPrice=最低售价
 NoDynamicPrice=无动态价格
 DynamicPriceConfiguration=动态价格配置
-DynamicPriceDesc=您可以定义数学公式来计算客户或供应商价格。此类公式可以使用所有数学运算符、一些常量和变量。您可以在此处定义您想要使用的变量。如果变量需要自动更新，您可以定义外部 URL 以允许 Dolibarr 自动更新值。
+DynamicPriceDesc=您可以定义数学公式来计算客户或供应商价格。此类公式可以使用所有数学运算符、一些常量和变量。您可以在此处定义您想要使用的变量。如果变量需要自动更新，您可以定义外部 URL 以允许 ZionOne 自动更新值。
 AddVariable=添加变量
 AddUpdater=添加更新
 GlobalVariables=全局变量

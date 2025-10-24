@@ -22,10 +22,10 @@
 
 /**
  *  \file       htdocs/admin/system/filecheck.php
- *  \brief      Page to check Dolibarr files integrity
+ *  \brief      Page to check ZionOne files integrity
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/files.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/geturl.lib.php';
@@ -106,7 +106,7 @@ if (empty($xmlremote) && getDolGlobalString($param)) {
 	$xmlremote = getDolGlobalString($param);
 }
 if (empty($xmlremote)) {
-	$xmlremote = 'https://www.dolibarr.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
+	$xmlremote = 'https://www.ZionOne.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
 }
 if ($xmlremote && !preg_match('/^https?:\/\//', $xmlremote)) {
 	$langs->load("errors");

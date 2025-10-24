@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Xayriya
 Donations=Xayriyalar
 DonationRef=Xayriya ma'lumoti
@@ -37,7 +37,7 @@ DonationUseThirdparties=Donorning manzili sifatida mavjud uchinchi tomonning man
 DonationsStatistics=Xayriya statistikasi
 NbOfDonations=Xayriyalar soni
 BlankDonationForm=Jamoat xayriya shakli
-BlankDonationFormDesc=Dolibarr tashqi tashrif buyuruvchilarga xayr-ehson qilishiga ruxsat berish uchun sizga umumiy URL/veb-sayt taqdim etishi mumkin. Agar onlayn to'lov moduli yoqilgan bo'lsa, to'lov shakli ham avtomatik ravishda taqdim etilishi mumkin.
+BlankDonationFormDesc=ZionOne tashqi tashrif buyuruvchilarga xayr-ehson qilishiga ruxsat berish uchun sizga umumiy URL/veb-sayt taqdim etishi mumkin. Agar onlayn to'lov moduli yoqilgan bo'lsa, to'lov shakli ham avtomatik ravishda taqdim etilishi mumkin.
 EnablePublicDonationForm=Ommaviy xayriya shaklini yoqing
 EnablePublicDonationList=Umumiy xayriya roʻyxatini yoqing
 ForceDonateurNature = Majburiy xayriya tabiati (individual yoki korporatsiya)

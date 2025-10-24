@@ -5,7 +5,7 @@ http://pad.asp-software.org/padgen.php
 ##################################################
 
 This directory contains files and docs used to build
-PAD files for Dolibarr and DoliWamp.
+PAD files for ZionOne and DoliWamp.
 PAD files are files to describe a software to submit
 easily its description in one way to several software
 directories.

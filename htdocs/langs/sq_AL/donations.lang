@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Donacion
 Donations=Donacionet
 DonationRef=Dhurimi ref.
@@ -37,7 +37,7 @@ DonationUseThirdparties=Përdorni adresën e një pale të tretë ekzistuese si 
 DonationsStatistics=Statistikat e donacioneve
 NbOfDonations=Numri i donacioneve
 BlankDonationForm=Formulari i donacionit publik
-BlankDonationFormDesc=Dolibarr mund t'ju ofrojë një URL/faqe interneti publike për t'u lejuar vizitorëve të jashtëm të bëjnë një donacion. Nëse është aktivizuar një modul pagese online, mund të ofrohet automatikisht edhe një formular pagese.
+BlankDonationFormDesc=ZionOne mund t'ju ofrojë një URL/faqe interneti publike për t'u lejuar vizitorëve të jashtëm të bëjnë një donacion. Nëse është aktivizuar një modul pagese online, mund të ofrohet automatikisht edhe një formular pagese.
 EnablePublicDonationForm=Aktivizo formularin e donacionit publik
 EnablePublicDonationList=Aktivizo Listën e Donacioneve Publike
 ForceDonateurNature = Natyra e donatorit të detyruar (Individ ose Korporatë)

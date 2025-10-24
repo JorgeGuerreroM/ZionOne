@@ -35,7 +35,7 @@ if (substr($sapi_type, 0, 3) == 'cgi') {
 	exit(-1);
 }
 
-// Recupere root dolibarr
+// Recupere root ZionOne
 $path=preg_replace('/purge-data.php/i', '', $_SERVER["PHP_SELF"]);
 require $path."../../htdocs/master.inc.php";
 include_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';

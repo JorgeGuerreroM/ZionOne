@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID gertaera
 Actions=Gertaerak
 Agenda=Agenda
@@ -29,9 +29,9 @@ ViewWeek=Asteko ikuspegia
 ViewPerUser=Erabiltzaile bakoitzeko ikuspegia
 ViewPerType=Mota bakoitzeko ikuspegia
 AutoActions= Betetze automatikoa
-AgendaAutoActionDesc= Hemen Dolibarr-ek Agendan automatikoki sortzea nahi dituzun gertaerak defini ditzakezu. Ezer ez badago markatzen, eskuzko ekintzak bakarrik sartuko dira erregistroetan eta Agendan bistaratuko dira. Objektuetan egindako negozio-ekintzen jarraipen automatikoa (baliozkotzea, egoera-aldaketa) ez da gordeko.
-AgendaSetupOtherDesc= Orrialde honek zure Dolibarr gertaerak kanpoko egutegi batera (Thunderbird, Google Calendar, etab.) esportatzeko aukerak eskaintzen ditu.
-AgendaExtSitesDesc=Orrialde honek kanpoko egutegien iturriak deklaratzea ahalbidetzen du, haien gertaerak Dolibarr agendan ikusteko.
+AgendaAutoActionDesc= Hemen ZionOne-ek Agendan automatikoki sortzea nahi dituzun gertaerak defini ditzakezu. Ezer ez badago markatzen, eskuzko ekintzak bakarrik sartuko dira erregistroetan eta Agendan bistaratuko dira. Objektuetan egindako negozio-ekintzen jarraipen automatikoa (baliozkotzea, egoera-aldaketa) ez da gordeko.
+AgendaSetupOtherDesc= Orrialde honek zure ZionOne gertaerak kanpoko egutegi batera (Thunderbird, Google Calendar, etab.) esportatzeko aukerak eskaintzen ditu.
+AgendaExtSitesDesc=Orrialde honek kanpoko egutegien iturriak deklaratzea ahalbidetzen du, haien gertaerak ZionOne agendan ikusteko.
 ActionsEvents=Dolibarrek automatikoki agendan ekintza bat sortuko duen gertaerak
 EventRemindersByEmailNotEnabled=%s moduluaren konfigurazioan ez zeuden gaituta posta elektronikoz bidalitako gertaeren abisuak.
 ##### Agenda event labels #####

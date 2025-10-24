@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Танзими модули Stripe
-StripeDesc=Мизоҷони худ саҳифаи пардохти онлайнро барои пардохтҳо бо кортҳои кредитӣ/дебетӣ тавассути <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> пешниҳод кунед. Ин метавонад истифода шавад, то ба мизоҷони шумо имкон диҳад, ки пардохтҳои муваққатӣ ё пардохтҳои марбут ба объекти мушаххаси Dolibarr (инвойс, фармоиш, ...)
+StripeDesc=Мизоҷони худ саҳифаи пардохти онлайнро барои пардохтҳо бо кортҳои кредитӣ/дебетӣ тавассути <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> пешниҳод кунед. Ин метавонад истифода шавад, то ба мизоҷони шумо имкон диҳад, ки пардохтҳои муваққатӣ ё пардохтҳои марбут ба объекти мушаххаси ZionOne (инвойс, фармоиш, ...)
 StripeOrCBDoPayment=Бо корти кредитӣ ё Stripe пардохт кунед
-FollowingUrlAreAvailableToMakePayments=URL -ҳои зерин барои пешниҳоди саҳифа ба муштарӣ барои пардохт дар объектҳои Dolibarr дастрасанд
+FollowingUrlAreAvailableToMakePayments=URL -ҳои зерин барои пешниҳоди саҳифа ба муштарӣ барои пардохт дар объектҳои ZionOne дастрасанд
 PaymentForm=Шакли пардохт
 WelcomeOnPaymentPage=Хуш омадед ба хидмати пардохти онлайни мо
 ThisScreenAllowsYouToPay=Ин экран ба шумо имкон медиҳад, ки пардохти онлайнро ба %s пардохт кунед.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL барои пешниҳоди %s с
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL барои пешниҳоди як саҳифаи пардохти онлайнии %s барои обунаи аъзо
 ToOfferALinkForOnlinePaymentOnDonation=URL барои пешниҳоди %s саҳифаи пардохти онлайн барои пардохти хайрия
 YouCanAddTagOnUrl=You can also add url parameter <b>&tag=value</b> to any of those URL (mandatory only for payment not linked to an object) to add your own payment comment tag.<br>For the URL of payments with no existing object, you may also add the parameter <strong>&noidempotency=1</strong> so the same link with same tag can be used several times (some payment mode may limit the payment to 1 for each different link without this parameter)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=Stripe худро бо url <b> %s </b> танзим кунед, то пардохт ҳангоми тасдиқи Stripe ба таври худкор эҷод карда шавад.
 AccountParameter=Параметрҳои ҳисоб
 UsageParameter=Параметрҳои истифода

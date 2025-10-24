@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=بخش کاربران
 MemberCard=کارت اعضا
 SubscriptionCard=کارت اشتراک
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=فهرست کاربران عمومی معتبر
 ErrorThisMemberIsNotPublic=این عضو است عمومی نمی
 ErrorMemberIsAlreadyLinkedToThisThirdParty=یکی دیگر از عضو (نام و نام <b>خانوادگی:٪ S،</b> وارد <b>کنید:٪ s)</b> در حال حاضر به شخص <b>ثالث٪ s در</b> ارتباط است. حذف این لینک برای اولین بار به دلیل یک شخص ثالث می تواند تنها به یک عضو (و بالعکس) پیوند داده نمی شود.
 ErrorUserPermissionAllowsToLinksToItselfOnly=به دلایل امنیتی، شما باید مجوز اعطا شده به ویرایش تمام کاربران قادر به پیوند عضو به یک کاربر است که مال شما نیست.
-SetLinkToUser=پیوند به یک کاربر Dolibarr
-SetLinkToThirdParty=لینک به شخص ثالث Dolibarr
+SetLinkToUser=پیوند به یک کاربر ZionOne
+SetLinkToThirdParty=لینک به شخص ثالث ZionOne
 MemberCountersArePublic=Counters of valid members are public
 MembersCards=Generation of cards for members
 MembersList=فهرست کاربران
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Are you sure you want to delete this contribution?
 Filehtpasswd=فایل htpasswd
 ValidateMember=اعتبارسنجی عضو
 ConfirmValidateMember=Are you sure you want to validate this member?
-FollowingLinksArePublic=The following links are open pages not protected by any Dolibarr permission. They are not formatted pages, provided as example to show how to list members database.
+FollowingLinksArePublic=The following links are open pages not protected by any ZionOne permission. They are not formatted pages, provided as example to show how to list members database.
 PublicMemberList=فهرست کاربران عمومی
 BlankSubscriptionForm=Public self-registration form
-BlankSubscriptionFormDesc=Dolibarr can provide you a public URL/website to allow external visitors to ask to subscribe to the foundation. If an online payment module is enabled, a payment form may also be automatically provided.
+BlankSubscriptionFormDesc=ZionOne can provide you a public URL/website to allow external visitors to ask to subscribe to the foundation. If an online payment module is enabled, a payment form may also be automatically provided.
 EnablePublicSubscriptionForm=Enable the public website with self-subscription form
 ForceMemberType=Force the member type
 ExportDataset_member_1=Members and contributions

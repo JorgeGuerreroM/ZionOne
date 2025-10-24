@@ -25,7 +25,7 @@
  *		\brief      List page for workstation
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formcompany.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
@@ -773,11 +773,11 @@ while ($i < $imaxinloop) {
 			foreach ($object->usergroups as $id_group) {
 				$g = new UserGroup($db);
 				$g->fetch($id_group);
-				$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories'.($cssforli ? ' '.$cssforli : '').'" style="background: #bbb">' . $g->getNomUrl(1, '', 0, 'categtextwhite') . '</li>';
+				$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories'.($cssforli ? ' '.$cssforli : '').'" style="background: #bbb">' . $g->getNomUrl(1, '', 0, 'categtextwhite') . '</li>';
 			}
 
 			print '<td class="minwidth300imp nowraponall">';
-			print '<div class="select2-container-multi-dolibarr"><ul class="select2-choices-dolibarr">' . implode(' ', $toprint) . '</ul></div>';
+			print '<div class="select2-container-multi-ZionOne"><ul class="select2-choices-ZionOne">' . implode(' ', $toprint) . '</ul></div>';
 			print '</td>';
 		}
 
@@ -792,11 +792,11 @@ while ($i < $imaxinloop) {
 			foreach ($object->resources as $id_resource) {
 				$r = new Dolresource($db);
 				$r->fetch($id_resource);
-				$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories'.($cssforli ? ' '.$cssforli : '').'" style="background: #bbb">' . $r->getNomUrl(1, '', '', 0, 'categtextwhite') . '</li>';
+				$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories'.($cssforli ? ' '.$cssforli : '').'" style="background: #bbb">' . $r->getNomUrl(1, '', '', 0, 'categtextwhite') . '</li>';
 			}
 
 			print '<td class="minwidth300imp">';
-			print '<div class="select2-container-multi-dolibarr"><ul class="select2-choices-dolibarr">' . implode(' ', $toprint) . '</ul></div>';
+			print '<div class="select2-container-multi-ZionOne"><ul class="select2-choices-ZionOne">' . implode(' ', $toprint) . '</ul></div>';
 			print '</td>';
 		}
 

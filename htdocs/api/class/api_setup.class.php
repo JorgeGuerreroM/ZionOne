@@ -442,7 +442,7 @@ class Setup extends DolibarrApi
 	 *
 	 * The names of the states will be translated to the given language if
 	 * the $lang parameter is provided. The value of $lang must be a language
-	 * code supported by Dolibarr, for example 'en_US' or 'fr_FR'.
+	 * code supported by ZionOne, for example 'en_US' or 'fr_FR'.
 	 * The returned list is sorted by state ID.
 	 *
 	 * @param string    $sortfield  Sort field
@@ -557,7 +557,7 @@ class Setup extends DolibarrApi
 	 *
 	 * The names of the countries will be translated to the given language if
 	 * the $lang parameter is provided. The value of $lang must be a language
-	 * code supported by Dolibarr, for example 'en_US' or 'fr_FR'.
+	 * code supported by ZionOne, for example 'en_US' or 'fr_FR'.
 	 * The returned list is sorted by country ID.
 	 *
 	 * @param string    $sortfield  Sort field
@@ -2526,7 +2526,7 @@ class Setup extends DolibarrApi
 	/**
 	 * Do a test of integrity for files and setup.
 	 *
-	 * @param string	$target			Can be 'local' or 'default' or Url of the signatures file to use for the test. Must be reachable by the tested Dolibarr.
+	 * @param string	$target			Can be 'local' or 'default' or Url of the signatures file to use for the test. Must be reachable by the tested ZionOne.
 	 * @return array					Result of file and setup integrity check
 	 * @phan-return array{resultcode:string,resultcomment:string,expectedchecksum:string,currentchecksum:string,out:string}
 	 * @phpstan-return array{resultcode:string,resultcomment:string,expectedchecksum:string,currentchecksum:string,out:string}
@@ -2575,7 +2575,7 @@ class Setup extends DolibarrApi
 			$xmlremote = getDolGlobalString($param);
 		}
 		if (empty($xmlremote)) {
-			$xmlremote = 'https://www.dolibarr.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
+			$xmlremote = 'https://www.ZionOne.org/files/stable/signatures/filelist-'.DOL_VERSION.'.xml';
 		}
 		if ($xmlremote && !preg_match('/^https?:\/\//i', $xmlremote)) {
 			$langs->load("errors");

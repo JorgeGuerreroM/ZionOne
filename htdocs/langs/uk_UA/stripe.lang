@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Налаштування Stripe модуля
-StripeDesc=Запропонуйте своїм клієнтам сторінку онлайн-платежів для оплати кредитними/дебетовими картками через <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Це можна використовувати, щоб дозволити вашим клієнтам здійснювати тимчасові платежі або для платежів, пов’язаних з певним об’єктом Dolibarr (рахунок-фактура, замовлення, ...)
+StripeDesc=Запропонуйте своїм клієнтам сторінку онлайн-платежів для оплати кредитними/дебетовими картками через <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Це можна використовувати, щоб дозволити вашим клієнтам здійснювати тимчасові платежі або для платежів, пов’язаних з певним об’єктом ZionOne (рахунок-фактура, замовлення, ...)
 StripeOrCBDoPayment=Оплатіть кредитною карткою або Stripe
-FollowingUrlAreAvailableToMakePayments=Наведені нижче URL-адреси доступні, щоб запропонувати клієнту сторінку для здійснення платежу за об’єктами Dolibarr
+FollowingUrlAreAvailableToMakePayments=Наведені нижче URL-адреси доступні, щоб запропонувати клієнту сторінку для здійснення платежу за об’єктами ZionOne
 PaymentForm=Форма оплати
 WelcomeOnPaymentPage=Ласкаво просимо до нашого сервісу онлайн-платежів
 ThisScreenAllowsYouToPay=Цей екран дозволяє здійснити онлайн-платеж на адресу %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL-адреса, щоб запропо
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL-адреса, щоб запропонувати сторінку онлайн-платежів %s за підписку члена
 ToOfferALinkForOnlinePaymentOnDonation=URL-адреса, щоб запропонувати сторінку онлайн-платежів %s для оплати пожертвування
 YouCanAddTagOnUrl=Ви також можете додати параметр URL-адреси <b>&tag=value</b> до будь-якої з цих URL-адрес (обов'язково лише для платежів, не пов'язаних з об'єктом), щоб додати власний тег коментаря до платежу.<br>Для URL-адрес платежів без існуючого об'єкта ви також можете додати параметр <strong>&noidempotency=1</strong>, щоб одне й те саме посилання з одним і тим самим тегом можна було використовувати кілька разів (деякі способи оплати можуть обмежувати платіж 1 для кожного окремого посилання без цього параметра)
-YouCanEmbedOnWebsite=Якщо ви хочете інтегрувати платіжну сторінку на веб-сайт Dolibarr, ви можете включити параметр: <b>&ws=website_ref</b>.<br>Крім того, дві сторінки з назвами <b>paymentok</b> та <b>paymentko</b> має бути створено на вебсайті, щоб отримати перенаправлення після успішного або невдалого онлайн-платежу.
+YouCanEmbedOnWebsite=Якщо ви хочете інтегрувати платіжну сторінку на веб-сайт ZionOne, ви можете включити параметр: <b>&ws=website_ref</b>.<br>Крім того, дві сторінки з назвами <b>paymentok</b> та <b>paymentko</b> має бути створено на вебсайті, щоб отримати перенаправлення після успішного або невдалого онлайн-платежу.
 SetupStripeToHavePaymentCreatedAutomatically=Налаштуйте свій Stripe за URL-адресою <b> %s </b>, щоб платіж створювався автоматично після підтвердження Stripe.
 AccountParameter=Параметри рахунку
 UsageParameter=Параметри використання

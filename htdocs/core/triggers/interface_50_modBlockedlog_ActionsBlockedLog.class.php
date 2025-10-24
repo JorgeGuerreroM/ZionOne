@@ -47,7 +47,7 @@ class InterfaceActionsBlockedLog extends DolibarrTriggers
 	}
 
 	/**
-	 * Function called on Dolibarr payment or invoice event.
+	 * Function called on ZionOne payment or invoice event.
 	 *
 	 * @param string		$action		Event action code
 	 * @param Object		$object     Object

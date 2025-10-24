@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=PayBox modulini sozlash
-PayBoxDesc=Ushbu modul mijozlar tomonidan <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> to‘loviga ruxsat beruvchi sahifalarni taklif qiladi. Bu bepul to'lov uchun yoki ma'lum bir Dolibarr ob'ekti bo'yicha to'lov uchun ishlatilishi mumkin (hisob-faktura, buyurtma, ...)
+PayBoxDesc=Ushbu modul mijozlar tomonidan <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> to‘loviga ruxsat beruvchi sahifalarni taklif qiladi. Bu bepul to'lov uchun yoki ma'lum bir ZionOne ob'ekti bo'yicha to'lov uchun ishlatilishi mumkin (hisob-faktura, buyurtma, ...)
 PayBoxDoPayment=Paybox bilan to'lash
 YouWillBeRedirectedOnPayBox=Siz kredit karta ma'lumotlarini kiritish uchun xavfsiz Paybox sahifasida yo'naltirilasiz
 SetupPayBoxToHavePaymentCreatedAutomatically=Paybox tomonidan tasdiqlanganida to'lov avtomatik ravishda yaratilishi uchun Paybox-ni url <b> %s </b> bilan sozlang.

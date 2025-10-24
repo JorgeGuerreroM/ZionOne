@@ -19,7 +19,7 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/product.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/product/class/product.class.php';
@@ -520,10 +520,10 @@ if (!empty($id) || !empty($ref)) {
 					if ($prodattr->fetch((int) $explode[0]) <= 0 || $prodattr_val->fetch((int) $explode[1]) <= 0) {
 						continue;
 					}
-					$toprint[] = '<li class="select2-search-choice-dolibarr noborderoncategories" style="background: #ddd;">' . $prodattr->label.' : '.$prodattr_val->value .
+					$toprint[] = '<li class="select2-search-choice-ZionOne noborderoncategories" style="background: #ddd;">' . $prodattr->label.' : '.$prodattr_val->value .
 						' <a class="reposition" href="'.$_SERVER["PHP_SELF"].'?id='.$object->id.'&action=create&subaction=delete&feature='.urlencode($feature).'">' . img_delete() . '</a></li>';
 				}
-				$listofvariantselected .= '<div class="select2-container-multi-dolibarr" style="width: 90%;"><ul class="select2-choices-dolibarr">' . implode(' ', $toprint) . '</ul></div>';
+				$listofvariantselected .= '<div class="select2-container-multi-ZionOne" style="width: 90%;"><ul class="select2-choices-ZionOne">' . implode(' ', $toprint) . '</ul></div>';
 			}
 			$listofvariantselected .= '</div>';
 			//print dol_get_fiche_end();

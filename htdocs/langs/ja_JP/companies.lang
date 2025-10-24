@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=あなたの連絡先詳細が記録された。すぐに連絡する予定である...
 ContactUsDesc=このフォームを使用すると、最初の連絡のためにメッセージを送信できる。
 ErrorCompanyNameAlreadyExists=法人名 %s は既に存在する。別の名称を選択すること。

@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Uhasibu
 Accounting=Accounting
 ACCOUNTING_EXPORT_SEPARATORCSV=Column separator for export file
@@ -340,7 +340,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Zima ufungaji na uhamisho katika uhasibu kwe
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Zima ufungaji na uhamisho katika uhasibu kwenye ununuzi (ankara za wauzaji hazitazingatiwa katika uhasibu)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Zima ufungaji na uhamishaji katika uhasibu kwenye ripoti za gharama (ripoti za gharama hazitazingatiwa katika uhasibu)
 ACCOUNTING_ENABLE_LETTERING=Washa kipengele cha uandishi katika uhasibu
-ACCOUNTING_ENABLE_LETTERING_DESC=Chaguo hizi zikiwashwa, unaweza kufafanua, kwenye kila ingizo la uhasibu, msimbo ili uweze kupanga harakati tofauti za uhasibu pamoja. Hapo awali, wakati majarida tofauti yalisimamiwa kwa kujitegemea, kipengele hiki kilikuwa muhimu ili kuunganisha mistari ya harakati ya majarida tofauti. Hata hivyo, kwa uhasibu wa Dolibarr, msimbo kama huo wa ufuatiliaji, unaoitwa " <b> %s </b> "Tayari imehifadhiwa kiatomati, kwa hivyo uandishi wa kiotomatiki tayari umefanywa, bila hatari ya makosa kwa hivyo kipengele hiki kimekuwa bure kwa matumizi ya kawaida. Kipengele cha uandishi wa mwongozo hutolewa kwa watumiaji wa mwisho ambao hawaamini injini ya kompyuta inayofanya uhamishaji wa data katika uhasibu.
+ACCOUNTING_ENABLE_LETTERING_DESC=Chaguo hizi zikiwashwa, unaweza kufafanua, kwenye kila ingizo la uhasibu, msimbo ili uweze kupanga harakati tofauti za uhasibu pamoja. Hapo awali, wakati majarida tofauti yalisimamiwa kwa kujitegemea, kipengele hiki kilikuwa muhimu ili kuunganisha mistari ya harakati ya majarida tofauti. Hata hivyo, kwa uhasibu wa ZionOne, msimbo kama huo wa ufuatiliaji, unaoitwa " <b> %s </b> "Tayari imehifadhiwa kiatomati, kwa hivyo uandishi wa kiotomatiki tayari umefanywa, bila hatari ya makosa kwa hivyo kipengele hiki kimekuwa bure kwa matumizi ya kawaida. Kipengele cha uandishi wa mwongozo hutolewa kwa watumiaji wa mwisho ambao hawaamini injini ya kompyuta inayofanya uhamishaji wa data katika uhasibu.
 EnablingThisFeatureIsNotNecessary=Enabling this feature is no more necessary for a rigorous accounting management.
 ACCOUNTING_ENABLE_AUTOLETTERING=Washa uandishi wa kiotomatiki wakati wa kuhamisha kwa uhasibu
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=The code for the lettering is automatically generated and incremented and not chosen by the end user

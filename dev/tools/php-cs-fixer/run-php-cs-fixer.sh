@@ -12,7 +12,7 @@
 #   You can fix only a few files using
 #     ./run-php-cs-fixer.sh fix htdocs/path/to/myfile.php
 #
-#   You can run this from the root directory of dolibarr
+#   You can run this from the root directory of ZionOne
 #     dev/tools/run-php-cs-fixer.sh fix htdocs/path/to/myfile.php
 #
 #   You can provide the environment variables on the CLI like this:

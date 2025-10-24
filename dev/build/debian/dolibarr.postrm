@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for dolibarr
+# postrm script for ZionOne
 #
 # see: dh_installdeb(1)
 
@@ -22,26 +22,26 @@ set +e
 
 
 lighttpd_remove() {
-	if [ -f /etc/lighttpd/conf-available/50-dolibarr.conf ] ; then
+	if [ -f /etc/lighttpd/conf-available/50-ZionOne.conf ] ; then
 		echo "postrm Remove link for Lighttpd config file"
-		rm -f /etc/lighttpd/conf-available/50-dolibarr.conf
+		rm -f /etc/lighttpd/conf-available/50-ZionOne.conf
 		if which lighty-enable-mod >/dev/null 2>&1 ; then
-			lighty-disable-mod dolibarr
+			lighty-disable-mod ZionOne
 		else
 			echo "postrm Lighttpd not installed, skipping"
 		fi
 		# See bug #448682
-		if [ -h /etc/lighttpd/conf-enabled/50-dolibarr.conf ] ; then
-			echo "postrm Manually deleting lighttpd/dolibarr configuration link"
-			rm /etc/lighttpd/conf-enabled/50-dolibarr.conf
+		if [ -h /etc/lighttpd/conf-enabled/50-ZionOne.conf ] ; then
+			echo "postrm Manually deleting lighttpd/ZionOne configuration link"
+			rm /etc/lighttpd/conf-enabled/50-ZionOne.conf
 		fi
 	fi
 }
 
 apache_remove() {
-	if [ -d /etc/$webserver/conf.d ] && [ -L /etc/$webserver/conf.d/dolibarr.conf ]; then
+	if [ -d /etc/$webserver/conf.d ] && [ -L /etc/$webserver/conf.d/ZionOne.conf ]; then
 		echo "postrm Remove link for Apache config file"
-		rm -f /etc/$webserver/conf.d/dolibarr.conf
+		rm -f /etc/$webserver/conf.d/ZionOne.conf
 	fi
 }
 
@@ -53,11 +53,11 @@ fi
 
 db_version 2.0
 
-echo Run the dolibarr postrm script
+echo Run the ZionOne postrm script
 
 
-docdir='/var/lib/dolibarr/documents'
-config="/etc/dolibarr/conf.php"
+docdir='/var/lib/ZionOne/documents'
+config="/etc/ZionOne/conf.php"
 lockfile="$docdir/install.lock"
 
 
@@ -75,7 +75,7 @@ case "$1" in
 		rm -f $lockfile
 
 		# Reconfigure web server
-		db_get dolibarr/reconfigure-webserver
+		db_get ZionOne/reconfigure-webserver
 
 		webservers="$RET"
 
@@ -104,14 +104,14 @@ case "$1" in
 		echo "postrm purge"
 
 		# Ask if we must delete database
-		echo "postrm db_input dolibarr/postrm"
-		db_input critical dolibarr/postrm || true
+		echo "postrm db_input ZionOne/postrm"
+		db_input critical ZionOne/postrm || true
 		db_go || true
 
-		echo "postrm db_get dolibarr/postrm"
+		echo "postrm db_get ZionOne/postrm"
 		# We disable set -e to avoid premature end of script if error
 		set +e
-		db_get dolibarr/postrm
+		db_get ZionOne/postrm
 		set -e
 
 		if [ "$RET" = "true" ] ; then
@@ -120,7 +120,7 @@ case "$1" in
 			dbserver="localhost"
 			dbuser="dolibarrdebian"
 			dbname="dolibarrdebian"
-			#db_get "dolibarr/db/name"
+			#db_get "ZionOne/db/name"
 			#dbname="$RET"
 			superuserlogin=''
 			superuserpassword=''
@@ -218,15 +218,15 @@ case "$1" in
 			rm -rf $docdir ;
 
 		else
-			echo "postrm Delete of dolibarr database and uploaded files not wanted"
+			echo "postrm Delete of ZionOne database and uploaded files not wanted"
 		fi
 
-		rm -rf /etc/dolibarr
+		rm -rf /etc/ZionOne
 
 		# We clean variable (we ignore errors because db_reset can fails if var was never set)
 		set +e
-		db_reset dolibarr/reconfigure-webserver
-		db_reset dolibarr/postrm
+		db_reset ZionOne/reconfigure-webserver
+		db_reset ZionOne/postrm
 		set -e
 
 		#db_purge

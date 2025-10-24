@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=HRM sadaļa
 UserCard=Lietotāja kartiņa
 GroupCard=Grupas kartiņa
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Saite uz lietotāju
 LinkedToDolibarrThirdParty=Saite uz trešo pusi
 CreateDolibarrLogin=Izveidot lietotāju
 CreateDolibarrThirdParty=Izveidot trešo pusi
-LoginAccountDisableInDolibarr=Konts ir atspējots Dolibarr
-PASSWORDInDolibarr=Parole mainīta programmā Dolibarr
+LoginAccountDisableInDolibarr=Konts ir atspējots ZionOne
+PASSWORDInDolibarr=Parole mainīta programmā ZionOne
 UsePersonalValue=Izmantot personisko vērtību
 ExportDataset_user_1=Lietotāji un to īpašības
 ExportDataset_user_2=List of security events

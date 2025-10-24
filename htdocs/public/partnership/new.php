@@ -51,7 +51,7 @@ if (is_numeric($entity)) {
 	define("DOLENTITY", $entity);
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/partnership/class/partnership.class.php';
@@ -140,7 +140,7 @@ function llxFooterVierge()  // @phan-suppress-current-line PhanRedefineFunction
 	printCommonFooter('public');
 
 	if (!empty($conf->use_javascript_ajax)) {
-		print "\n".'<!-- Includes JS Footer of Dolibarr -->'."\n";
+		print "\n".'<!-- Includes JS Footer of ZionOne -->'."\n";
 		print '<script src="'.DOL_URL_ROOT.'/core/js/lib_foot.js.php?lang='.$langs->defaultlang.'"></script>'."\n";
 	}
 
@@ -358,7 +358,7 @@ if (empty($reshook) && $action == 'add') {	// Test on permission not required he
 					$texttosend = make_substitutions(dol_concatdesc($msg, $partnershipt->getMailOnValid()), $substitutionarray, $outputlangs);
 
 					if ($subjecttosend && $texttosend) {
-						$moreinheader = 'X-Dolibarr-Info: send_an_email by public/members/new.php'."\r\n";
+						$moreinheader = 'X-ZionOne-Info: send_an_email by public/members/new.php'."\r\n";
 
 						$result = $object->sendEmail($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 					}

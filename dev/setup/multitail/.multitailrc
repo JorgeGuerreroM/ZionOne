@@ -1,6 +1,6 @@
-# This is an example of multitail setup file you can use to analyze dolibarr log files.
-# Usage: multitail -cS dolibarr documents/dolibarr.log
-colorscheme:dolibarr
+# This is an example of multitail setup file you can use to analyze ZionOne log files.
+# Usage: multitail -cS ZionOne documents/ZionOne.log
+colorscheme:ZionOne
 bright:1
 cs_re:yellow,red:.*EMERG.*
 cs_re:white,red:.*ALERT.*

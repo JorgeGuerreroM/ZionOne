@@ -1,8 +1,7 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
+# THIS FILE MUST CONTAINS ENTRIES THAT ARE RARELY USED
 SecurityCode=নিরাপত্তা কোড
 NumberingShort=N°
-Tools=টুলস
-TMenuTools=টুলস
 ToolsDesc=অন্যান্য মেনু এন্ট্রিতে অন্তর্ভুক্ত নয় এমন সমস্ত সরঞ্জাম এখানে গোষ্ঠীভুক্ত করা হয়েছে৷<br>সমস্ত টুলগুলি বাম মেনুর মাধ্যমে অ্যাক্সেস করা যেতে পারে৷
 Birthday=জন্মদিন
 BirthdayAlert=জন্মদিনের সতর্কতা
@@ -80,6 +79,7 @@ Notify_FICHINTER_SENTBYMAIL=হস্তক্ষেপ মেল দ্বা�
 Notify_SHIPPING_MODIFY=শিপিং পরিবর্তন করা হয়েছে
 Notify_SHIPPING_VALIDATE=শিপিং বৈধ
 Notify_SHIPPING_SENTBYMAIL=শিপিং ডাকযোগে পাঠানো হয়েছে
+Notify_RECEPTION_SENTBYMAIL=ডাকযোগে পাঠানো অভ্যর্থনা
 Notify_MEMBER_VALIDATE=সদস্য বৈধ
 Notify_MEMBER_MODIFY=সদস্য সংশোধিত
 Notify_MEMBER_SUBSCRIPTION=সদস্য সদস্যতা
@@ -112,11 +112,13 @@ PredefinedMailContentSendOrder=__(হ্যালো)__\n\nঅনুগ্রহ
 PredefinedMailContentSendSupplierOrder=__(হ্যালো)__\n\nদয়া করে আমাদের অর্ডার __REF__ সংযুক্ত দেখুন\n\n__(বিনীত)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendSupplierInvoice=__(হ্যালো)__\n\nদয়া করে ইনভয়েস __REF__ সংযুক্ত দেখুন\n\n__(বিনীত)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendShipping=__(হ্যালো)__\n\nদয়া করে শিপিং __REF__ সংযুক্ত দেখুন\n\n__(বিনীত)__\n\n__SENDEREMAIL_SIGNATURE__
+PredefinedMailContentSendReception=__(হ্যালো)__\n\nঅনুগ্রহ করে অভ্যর্থনা __REF__ সংযুক্ত দেখুন\n\n__(বিনীত)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendFichInter=__(হ্যালো)__\n\nদয়া করে হস্তক্ষেপ __REF__ সংযুক্ত দেখুন\n\n__(বিনীত)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentLink=আপনার অর্থপ্রদান করতে আপনি নীচের লিঙ্কে ক্লিক করতে পারেন যদি এটি ইতিমধ্যে সম্পন্ন না হয়।\n\n%s\n\n
 PredefinedMailContentGeneric=__(হ্যালো)__\n\n__(বিনীত)__\n\n__ইমেল_স্বাক্ষর__
 PredefinedMailContentSendActionComm=ইভেন্ট অনুস্মারক "__EVENT_LABEL__" __EVENT_DATE__ তারিখে __EVENT_TIME__<br><br>এটি একটি স্বয়ংক্রিয় বার্তা, দয়া করে উত্তর দেবেন না৷
 DemoDesc=ডলিবার হল একটি কমপ্যাক্ট ইআরপি/সিআরএম যা বিভিন্ন ব্যবসায়িক মডিউল সমর্থন করে। সমস্ত মডিউল প্রদর্শনের একটি ডেমো কোন অর্থবোধ করে না কারণ এই দৃশ্যটি কখনই ঘটে না (কয়েক শতাধিক উপলব্ধ)। সুতরাং, বেশ কয়েকটি ডেমো প্রোফাইল উপলব্ধ।
+DemoDesc2=এটি একটি সীমাবদ্ধ শেয়ার্ড ডেমো, আপনি সম্পূর্ণ অ্যাডমিন অ্যাক্সেস সহ আপনার নিজস্ব ডেডিকেটেড ইনস্ট্যান্সে পরীক্ষা করতে পছন্দ করতে পারেন, এটি করার জন্য, <a href="%s" target="_blank"> এখানে যান <span class="fas fa-external-link-alt"></span></a>।
 ChooseYourDemoProfil=আপনার প্রয়োজনের জন্য সবচেয়ে উপযুক্ত ডেমো প্রোফাইল বেছে নিন...
 ChooseYourDemoProfilMore=...অথবা আপনার নিজের প্রোফাইল তৈরি করুন<br>(ম্যানুয়াল মডিউল নির্বাচন)
 DemoFundation=একটি ফাউন্ডেশনের সদস্যদের পরিচালনা করুন
@@ -195,7 +197,7 @@ BugTracker=বাগ তালাশকারী
 SendNewPasswordDesc=এই ফর্মটি আপনাকে একটি নতুন পাসওয়ার্ড অনুরোধ করার অনুমতি দেয়। এটি আপনার ইমেল ঠিকানায় পাঠানো হবে৷<br>আপনি ইমেলের নিশ্চিতকরণ লিঙ্কে ক্লিক করলেই পরিবর্তন কার্যকর হবে৷<br> আপনার ইনবক্স চেক করুন.
 EnterNewPasswordHere=এখানে আপনার নতুন পাসওয়ার্ড লিখুন
 BackToLoginPage=লগইন পৃষ্ঠায় ফিরে যান
-AuthenticationDoesNotAllowSendNewPassword=প্রমাণীকরণ মোড হল <b>%s</b>।<span class='translate' ><br></span>এই মোডে, Dolibarr আপনার পাসওয়ার্ড জানতে বা পরিবর্তন করতে পারে না।<br>আপনার পাসওয়ার্ড পরিবর্তন করতে চাইলে আপনার সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।
+AuthenticationDoesNotAllowSendNewPassword=প্রমাণীকরণ মোড হল <b>%s</b>।<span class='translate' ><br></span>এই মোডে, ZionOne আপনার পাসওয়ার্ড জানতে বা পরিবর্তন করতে পারে না।<br>আপনার পাসওয়ার্ড পরিবর্তন করতে চাইলে আপনার সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।
 EnableGDLibraryDesc=এই বিকল্পটি ব্যবহার করতে আপনার পিএইচপি ইনস্টলেশনে জিডি লাইব্রেরি ইনস্টল বা সক্ষম করুন।
 ProfIdShortDesc=<b>Prof Id %s</b> is an information depending on third party country.<br>For example, for country <b>%s</b>, it's code <b>%s</b>.
 DolibarrDemo=ডলিবার ইআরপি/সিআরএম ডেমো
@@ -380,3 +382,26 @@ TLS/STARTTLS=টিএলএস/স্টার্টটিএলএস
 FillExtrafieldWithAi=AI কন্টেন্ট দিয়ে অতিরিক্ত ক্ষেত্র পূরণ করুন
 ExtrafieldFiller=এক্সট্রাফিল্ড ফিলার
 OurProductSelection=আমাদের নতুন পণ্যের নির্বাচন
+NoSupportedModulesHaveBeenActivated=রিপোর্টিং টুলটি শুধুমাত্র কিছু মডিউলের জন্য গতিশীল প্রতিবেদন তৈরি করতে পারে। এখনও পর্যন্ত কোনও সমর্থিত মডিউল সক্ষম করা হয়নি।
+# Bookmarks
+AddThisPageToBookmarks = Add current page to bookmarks
+BehaviourOnClick = Behavior when a bookmark URL is selected
+BookmarkTargetNewWindowShort = New tab
+BookmarkTargetReplaceWindowShort = Current tab
+BookmarkTitle = Bookmark name
+BookmarksManagement = Bookmarks management
+BookmarksMenuShortCut = Ctrl + shift + m
+ChooseIfANewWindowMustBeOpenedOnClickOnBookmark = Choose if the linked page should open in the current tab or a new tab
+CreateBookmark = Create bookmark
+EditBookmarks = List/edit bookmarks
+ListOfBookmarks = List of bookmarks
+NewBookmark = New bookmark
+NoBookmarkFound = No bookmark found
+NoBookmarks = No bookmarks defined
+OpenANewWindow = Open a new tab
+ReplaceWindow = Replace current tab
+SetHereATitleForLink = Set a name for the bookmark
+ShowBookmark = Show bookmark
+UrlOrLink = URL
+UseAnExternalHttpLinkOrRelativeDolibarrLink = Use an external/absolute link (https://externalurl.com) or an internal/relative link (/mypage.php). You can also use phone like tel:0123456.
+SubscribeToFoundation=Help the ZionOne project, subscribe to the foundation

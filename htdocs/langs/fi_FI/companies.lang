@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Yhteystietosi on nyt tallennettu. Olemme sinuun piakkoin yhteydessä...
 ContactUsDesc=Tällä lomakkeella voit lähettää meille viestin ensimmäistä yhteydenottoa varten.
 ErrorCompanyNameAlreadyExists=Yritys %s on jo olemassa. Valitse toinen yritys.

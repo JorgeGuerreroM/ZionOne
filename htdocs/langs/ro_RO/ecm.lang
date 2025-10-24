@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Nr. de documente în director
 ECMSection=Director
 ECMSectionManual=Director manual
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Număr sub-directoare
 ECMNbOfFilesInSubDir=Număr fișiere în sub-directoare
 ECMCreationUser=Creator
 ECMArea=DMS/ECM
-ECMAreaDesc=DMS/ECM (Document Management System / Electronic Content Management) vă permite să salvați, să partajați și să căutați rapid toate tipurile de documente în Dolibarr.
+ECMAreaDesc=DMS/ECM (Document Management System / Electronic Content Management) vă permite să salvați, să partajați și să căutați rapid toate tipurile de documente în ZionOne.
 ECMAreaDesc2a=* Directoarele manuale pot fi folosite pentru a salva documente cu o organizare liberă în structura arborescentă.
 ECMAreaDesc2b=* Directoarele automate sunt completate automat la adăugarea documentelor din pagina unui element.
 ECMAreaDesc3= * Directoarele publice sunt fișiere din subdirectorul <b>/medias</b> al directorului de documente, care pot fi citite de toată lumea de pe internet, fără a fi nevoie să fie conectate și fără a fi necesar să fie partajat explicit fișierul. Este folosit pentru a stoca fișiere imagine pentru modulul de e-mail sau site-ul web, de exemplu.

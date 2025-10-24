@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID do evento
 LocalAgenda=Calendário padrão
 ActionsOwnedBy=Evento de propriedade de
@@ -15,10 +15,10 @@ ViewDay=Visualização diária
 ViewWeek=Visualização semanal
 ViewPerUser=Visão do usuário
 ViewPerType=Por visualização de tipo
-AgendaAutoActionDesc=Aqui voce pode definir eventos, os quais voce quer que o Dolibarr crie automáticamente na Agenda. Se nada estiver ticado, só as ações manuais serão incluidas nos logs e mostradas na Agenda. O acompanhamento automático de ações de negócio feitas nos objetos (validação, alteração de situação) não serão salvas.
-AgendaSetupOtherDesc=Esta página fornece opções para exportar seus eventos Dolibarr para um calendário externo (Thunderbird, google calendar, etc...)
-AgendaExtSitesDesc=Essa página permite declarar calendários externos para serem vistos nos eventos da agenda Dolibarr.
-ActionsEvents=Eventos no qual Dolibarr cria uma ação na agenda automáticamente.
+AgendaAutoActionDesc=Aqui voce pode definir eventos, os quais voce quer que o ZionOne crie automáticamente na Agenda. Se nada estiver ticado, só as ações manuais serão incluidas nos logs e mostradas na Agenda. O acompanhamento automático de ações de negócio feitas nos objetos (validação, alteração de situação) não serão salvas.
+AgendaSetupOtherDesc=Esta página fornece opções para exportar seus eventos ZionOne para um calendário externo (Thunderbird, google calendar, etc...)
+AgendaExtSitesDesc=Essa página permite declarar calendários externos para serem vistos nos eventos da agenda ZionOne.
+ActionsEvents=Eventos no qual ZionOne cria uma ação na agenda automáticamente.
 EventRemindersByEmailNotEnabled=Lembretes por e-mail desabilitados na configuração do módulo%s
 NewCompanyToDolibarr=Terceiro %s criado
 COMPANY_MODIFYInDolibarr=Terceiro %s modificado

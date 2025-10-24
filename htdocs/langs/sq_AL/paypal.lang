@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Konfigurimi i modulit PayPal
-PaypalDesc=Ky modul lejon pagesën nga klientët nëpërmjet <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Kjo mund të përdoret për një pagesë ad-hoc ose për një pagesë në lidhje me një objekt Dolibarr (faturë, porosi, ...)
+PaypalDesc=Ky modul lejon pagesën nga klientët nëpërmjet <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Kjo mund të përdoret për një pagesë ad-hoc ose për një pagesë në lidhje me një objekt ZionOne (faturë, porosi, ...)
 PaypalOrCBDoPayment=Paguani me PayPal (Kartë ose PayPal)
 PaypalDoPayment=Paguani me PayPal
 PAYPAL_API_SANDBOX=Testi i modalitetit/sandbox

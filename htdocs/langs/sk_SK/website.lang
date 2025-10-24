@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kód
 WebsiteName=Názov webovej stránky
 WebsiteSetupDesc=Tu vytvorte webové stránky, ktoré chcete používať. Potom prejdite do ponuky Webové stránky a upravte ich.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Na spustenie tejto webovej stránky m
 SetHereVirtualHost=<u>Použite s Apache/NGinx/...</u><br> naCreate váš webový server (Apache, Nginx, ...) vyhradený virtuálny hostiteľ s povoleným PHP a koreňový adresár na <br><strong> %s</strong>
 ExampleToUseInApacheVirtualHostConfig=Príklad na použitie v nastavení virtuálneho hostiteľa Apache:
 YouCanAlsoTestWithPHPS=<u>Použitie s vstavaným serverom PHP</u><br>Vo vývojovom prostredí môžete uprednostniť testovanie stránky s vstavaným webovým serverom PHP spustením
-YouCanAlsoDeployToAnotherWHP=<u>Spustite svoju webovú stránku u poskytovateľa webhostingu Dolibarr</u><br>Ak nemáte na internete k dispozícii webový server ako Apache alebo NGinx, môžete svoju webovú stránku exportovať a importovať na inú inštanciu Dolibarr poskytovanú iným poskytovateľom hostingu Dolibarr, ktorý poskytuje plnú integráciu s modulom webových stránok. Zoznam niektorých poskytovateľov hostingu Dolibarr nájdete na stránke <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Spustite svoju webovú stránku u poskytovateľa webhostingu ZionOne</u><br>Ak nemáte na internete k dispozícii webový server ako Apache alebo NGinx, môžete svoju webovú stránku exportovať a importovať na inú inštanciu ZionOne poskytovanú iným poskytovateľom hostingu ZionOne, ktorý poskytuje plnú integráciu s modulom webových stránok. Zoznam niektorých poskytovateľov hostingu ZionOne nájdete na stránke <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Skontrolujte tiež, či má používateľ virtuálneho hostiteľa (napríklad www-data) <strong>%sb0a65d071f6fc9z  povolenia na súbory do triedy <br><strong>%s</strong>
 ReadPerm=Čítať
 WritePerm=Napíšte
 TestDeployOnWeb=Testovať/nasadiť na webe
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Zobraziť ukážku %s na novej karte.</u><br><br>Prepínač %s bude obsluhovaný serverom Dolibarr, takže nie je potrebné inštalovať žiadny ďalší webový server (ako napríklad Apache, Nginx, IIS).<br>Nevýhodou je, že URL adresy stránok nie sú užívateľsky prívetivé a začínajú cestou vášho Dolibarru.<br>URL adresa poskytovaná Dolibarrom:<br><strong>%s</strong><br><br>Ak chcete nasadiť alebo otestovať pomocou vlastného externého webového servera (ako napríklad Apache, Nginx, Lighttp), použite odkaz „%s“.
+PreviewSiteServedByDolibarr=<u>Zobraziť ukážku %s na novej karte.</u><br><br>Prepínač %s bude obsluhovaný serverom ZionOne, takže nie je potrebné inštalovať žiadny ďalší webový server (ako napríklad Apache, Nginx, IIS).<br>Nevýhodou je, že URL adresy stránok nie sú užívateľsky prívetivé a začínajú cestou vášho Dolibarru.<br>URL adresa poskytovaná Dolibarrom:<br><strong>%s</strong><br><br>Ak chcete nasadiť alebo otestovať pomocou vlastného externého webového servera (ako napríklad Apache, Nginx, Lighttp), použite odkaz „%s“.
 VirtualHostUrlNotDefined=Adresa URL virtuálneho hostiteľa obsluhovaného externým webovým serverom nie je definovaná
 NoPageYet=Zatiaľ žiadne stránky
 YouCanCreatePageOrImportTemplate=Môžete vytvoriť novú stránku alebo importovať úplnú šablónu webovej lokality
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Čoskoro budete presmerovaní na stránku s podro
 WebPortalSetupNotComplete=Nastavenie webového portálu nie je dokončené
 DeleteWebsiteAccount=Odstrániť účet na webovej stránke
 ConfirmDeleteWebsiteAccount=Naozaj chcete odstrániť tento účet?
-ConfirmDeleteWebsiteAccount2=Ak bol tento účet použitý na prihlásenie na verejnom portáli alebo na akejkoľvek inej webovej stránke prevádzkovanej systémom Dolibarr, prihlásenie už nemusí byť možné.
+ConfirmDeleteWebsiteAccount2=Ak bol tento účet použitý na prihlásenie na verejnom portáli alebo na akejkoľvek inej webovej stránke prevádzkovanej systémom ZionOne, prihlásenie už nemusí byť možné.
 ContentSecurityPolicy=Zásady zabezpečenia obsahu webových stránok HTTP
 WebsiteSecurityForceRP=Zásady odkazovania HTTP webových stránok
 WebsiteSecurityForceSTS=HTTP protokol webovej stránky „Strict-Transport-Security“

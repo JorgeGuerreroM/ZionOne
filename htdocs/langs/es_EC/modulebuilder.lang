@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - modulebuilder
+# ZionOne language file - Source file is en_US - modulebuilder
 ModuleBuilderDesc2=Ruta donde se generan / editan los módulos (primer directorio para módulos externos definidos en %s): <strong> %s </strong>
 ObjectKey=Clave de objeto
 FilesForObjectInitialized=Archivos para el nuevo objeto '%s' inicializado
@@ -11,7 +11,7 @@ ModuleBuilderDeschooks=Esta pestaña está dedicada a los ganchos.
 ModuleBuilderDescbuildpackage=Puede generar aquí un archivo de paquete "listo para distribuir" (un archivo .zip normalizado) de su módulo y un archivo de documentación "listo para distribuir". Simplemente haga clic en el botón para crear el paquete o el archivo de documentación.
 EnterNameOfModuleToDeleteDesc=Puedes borrar tu módulo. ADVERTENCIA: ¡Todos los archivos de codificación del módulo (generados o creados manualmente) Y los datos estructurados y la documentación serán eliminados!
 BuildPackage=Paquete de construcción
-BuildPackageDesc=Puede generar un paquete zip de su aplicación para que esté listo para distribuirlo en cualquier Dolibarr. También puede distribuirlo o venderlo en el mercado como <a href="https://www.dolistore.com"> DoliStore.com </a>.
+BuildPackageDesc=Puede generar un paquete zip de su aplicación para que esté listo para distribuirlo en cualquier ZionOne. También puede distribuirlo o venderlo en el mercado como <a href="https://www.dolistore.com"> DoliStore.com </a>.
 BuildDocumentation=Crear documentación
 ModuleIsLive=Este módulo ha sido activado. Cualquier cambio puede romper una función en vivo actual.
 DescriptorFile=Archivo de descripción del módulo
@@ -56,7 +56,7 @@ DictionariesDefDescTooltip=Los diccionarios proporcionados por su módulo / apli
 PermissionsDefDescTooltip=Los permisos proporcionados por su módulo / aplicación se definen en la matriz <strong>$this->rights</strong> en el archivo descriptor del módulo. Puede editar este archivo manualmente o usar el editor incorporado. <br><br> Nota: Una vez definidos (y el módulo reactivado), los permisos son visibles en la configuración de permisos predeterminada %s.
 SeeIDsInUse=Consulte ID en uso en su instalación.
 SeeReservedIDsRangeHere=Ver el rango de ID reservados
-ToolkitForDevelopers=Kit de herramientas para desarrolladores de Dolibarr
+ToolkitForDevelopers=Kit de herramientas para desarrolladores de ZionOne
 TryToUseTheModuleBuilder=Si tiene conocimientos de SQL y PHP, puede usar el asistente de creación de módulos nativos. <br>Habilite el módulo <strong>%s</strong> y use el asistente haciendo clic <span class="fa fa-bug"></span> en el menú superior derecho. <br>Advertencia: esta es una función avanzada para desarrolladores, <b>no</b> experimente en su sitio de producción !
 SeeTopRightMenu=Ver <span class="fa fa-bug"></span>en el menú superior derecho
 InitStructureFromExistingTable=Construya la estructura de la cadena matriz de una tabla existente

@@ -83,10 +83,10 @@ class pdf_standard_myobject extends ModelePDFMyObject
 	public $phpmin = array(7, 0);
 
 	/**
-	 * Dolibarr version of the loaded document
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental'
+	 * ZionOne version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental'
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 * Issuer
@@ -335,7 +335,7 @@ class pdf_standard_myobject extends ModelePDFMyObject
 
 				$pdf->SetTitle($outputlangs->convToOutputCharset($object->ref));
 				$pdf->SetSubject($outputlangs->transnoentities("PdfTitle"));
-				$pdf->SetCreator("Dolibarr ".DOL_VERSION);
+				$pdf->SetCreator("ZionOne ".DOL_VERSION);
 				$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 				$pdf->SetKeyWords($outputlangs->convToOutputCharset($object->ref)." ".$outputlangs->transnoentities("PdfTitle")." ".$outputlangs->convToOutputCharset($object->thirdparty->name));
 				if (getDolGlobalString('MAIN_DISABLE_PDF_COMPRESSION')) {

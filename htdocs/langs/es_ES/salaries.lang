@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Cuenta (del plan de cuentas) utilizada de forma predeterminada para los "usuarios" en materia de salarios
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=La cuenta dedicada definida en la tarjeta de usuario se utilizará únicamente para la contabilidad del Libro mayor auxiliar. Éste se utilizará para el Libro mayor, pero también como valor predeterminado de la contabilidad del Libro mayor auxiliar si no se define ninguna cuenta de contabilidad de usuario dedicada en el usuario.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Cuenta contable por defecto para pagos de salarios

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - accountancy
+# ZionOne language file - Source file is en_US - accountancy
 Accountancy=Rechnungswesen
 ACCOUNTING_EXPORT_DATE=Datumsformat für Exportdatei
 ACCOUNTING_EXPORT_PIECE=Exportiere die Anzahl Teile
@@ -52,7 +52,7 @@ AccountancyAreaDescDonation=Schritt %s: Erzeuge Standardkonten für Spenden im M
 AccountancyAreaDescSubscription=SCHRITT %s: Lege die Standard - Buchhaltungskonten für die Mitgliederabonnements im Menu %s fest.
 AccountancyAreaDescLoan=Schritt %s: Erzeuge Buchaltungskonten für Darlehen im Menu %s.
 AccountancyAreaDescBank=Schritt %s: Erzeuge und Verwalte deine Bank- und Finanzkonten im Menu %s und weise entsprechende Journale zu.
-AccountancyAreaDescBind=Schritt %s: Prüfe die Verknüpfungen von %s mit passenden Buchhaltungskonten, damit Dolibarr Sie automatisch im Hauptbuch journalisieren kann. Wenn nötig, füge die Verknüpfungen im Menu %s manuell hinzu.
+AccountancyAreaDescBind=Schritt %s: Prüfe die Verknüpfungen von %s mit passenden Buchhaltungskonten, damit ZionOne Sie automatisch im Hauptbuch journalisieren kann. Wenn nötig, füge die Verknüpfungen im Menu %s manuell hinzu.
 AccountancyAreaDescWriteRecords=Schritt %s: Lass alle Transaktionen ins Hauptbuch übertragen. Wechsle dazu in das Menu <strong>%s</strong>, und Klicke auf <strong>%s</strong>.
 TheJournalCodeIsNotDefinedOnSomeBankAccount=Eine zwingende Einstellung ist noch nicht gemacht - nicht alle Bankkonten sind einem Journal zugeordnet.
 Selectchartofaccounts=Wähle deinen Kontenrahmen.

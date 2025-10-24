@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Vaši kontaktni podatki so bili zabeleženi. Kmalu se vam bomo javili ...
 ContactUsDesc=Ta obrazec vam omogoča, da nam pošljete sporočilo za prvi stik.
 ErrorCompanyNameAlreadyExists=Naziv podjetja %s že obstaja. Izberite drug naziv.

@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Kirjanpito
 Accounting=Accounting
 ACCOUNTING_EXPORT_SEPARATORCSV=Sarake-erotin vientitiedostoon
@@ -346,7 +346,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Poista sidonta ja siirto käytöstä myynnin
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Poista sidonta ja siirto käytöstä ostojen kirjanpidossa (Toimittaja laskuja ei oteta huomioon Kirjanpito)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Poista sidonta ja siirto käytöstä kirjanpidossa kuluraportit (kuluraportit ei oteta huomioon b0d4305fc47d )
 ACCOUNTING_ENABLE_LETTERING=Ota kirjaintoiminto käyttöön Kirjanpito
-ACCOUNTING_ENABLE_LETTERING_DESC=When this options is enabled, you can define, on each accounting entry, a code so you can group different accounting movements together. In the past, when different journals was managed independently, this feature was necessary to group movement lines of different journals together. However, with Dolibarr accountancy, such a tracking code, called "<b>%s</b>" is already saved automatically, so an automatic lettering is already done, with no risk of error so this feature has become useless for a common usage. Manual lettering feature is provided for end users that really don't trust the computer engine making the transfer of data in accountancy.
+ACCOUNTING_ENABLE_LETTERING_DESC=When this options is enabled, you can define, on each accounting entry, a code so you can group different accounting movements together. In the past, when different journals was managed independently, this feature was necessary to group movement lines of different journals together. However, with ZionOne accountancy, such a tracking code, called "<b>%s</b>" is already saved automatically, so an automatic lettering is already done, with no risk of error so this feature has become useless for a common usage. Manual lettering feature is provided for end users that really don't trust the computer engine making the transfer of data in accountancy.
 EnablingThisFeatureIsNotNecessary=Tämän ominaisuuden käyttöönotto ei ole enää välttämätöntä tiukan Kirjanpito hallinnan kannalta.
 ACCOUNTING_ENABLE_AUTOLETTERING=Ota automaattinen kirjain käyttöön siirtäessäsi kohteeseen Kirjanpito
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Kirjoituksen koodi luodaan automaattisesti ja lisättynä ja, jota loppukäyttäjä ei ole valinnut

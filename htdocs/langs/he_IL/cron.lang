@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = קרא עבודה מתוזמנת
 Permission23102 = צור/עדכן עבודה מתוזמנת
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=השבת
 CronTaskInactive=עבודה זו מושבתת (לא מתוזמנת)
 CronId=תְעוּדַת זֶהוּת
 CronClassFile=שם קובץ עם מחלקה
-CronModuleHelp=שם ספריית מודול Dolibarr (עבודה גם עם מודול Dolibarr חיצוני). <BR> לדוגמה כדי לקרוא לשיטת האחזור של Dolibarr Product object /htdocs/<u>productb0aaa8780fdca4 /class/product.class.php, הערך למודול הוא<br><i>product</i>
-CronClassFileHelp=הנתיב היחסי ושם הקובץ לטעינה (הנתיב הוא ביחס לספריית השורש של שרת האינטרנט). <BR> לדוגמה כדי לקרוא לשיטת האחזור של Dolibarr Product Object htdocs/product/class/<u>product.class.php</u>, הערך עבור שם קובץ המחלקה הוא<br><i>product/class/product .class.php</i>
-CronObjectHelp=שם האובייקט לטעינה. <BR> לדוגמה כדי לקרוא לשיטת האחזור של Dolibarr Product object /htdocs/product/class/product.class.php, הערך עבור שם קובץ המחלקה הוא<br><i>מוצר</i>
-CronMethodHelp=שיטת האובייקט להפעלה. <BR> לדוגמה כדי לקרוא לשיטת האחזור של Dolibarr Product object /htdocs/product/class/product.class.php, הערך עבור השיטה הוא <br><i>fetch</i>
-CronArgsHelp=טיעוני השיטה. <BR> לדוגמה כדי לקרוא לשיטת האחזור של Dolibarr Product object /htdocs/product/class/product.class.php, הערך עבור פרמטרים יכול להיות<br><i>0, ProductRef</i>
+CronModuleHelp=שם ספריית מודול ZionOne (עבודה גם עם מודול ZionOne חיצוני). <BR> לדוגמה כדי לקרוא לשיטת האחזור של ZionOne Product object /htdocs/<u>productb0aaa8780fdca4 /class/product.class.php, הערך למודול הוא<br><i>product</i>
+CronClassFileHelp=הנתיב היחסי ושם הקובץ לטעינה (הנתיב הוא ביחס לספריית השורש של שרת האינטרנט). <BR> לדוגמה כדי לקרוא לשיטת האחזור של ZionOne Product Object htdocs/product/class/<u>product.class.php</u>, הערך עבור שם קובץ המחלקה הוא<br><i>product/class/product .class.php</i>
+CronObjectHelp=שם האובייקט לטעינה. <BR> לדוגמה כדי לקרוא לשיטת האחזור של ZionOne Product object /htdocs/product/class/product.class.php, הערך עבור שם קובץ המחלקה הוא<br><i>מוצר</i>
+CronMethodHelp=שיטת האובייקט להפעלה. <BR> לדוגמה כדי לקרוא לשיטת האחזור של ZionOne Product object /htdocs/product/class/product.class.php, הערך עבור השיטה הוא <br><i>fetch</i>
+CronArgsHelp=טיעוני השיטה. <BR> לדוגמה כדי לקרוא לשיטת האחזור של ZionOne Product object /htdocs/product/class/product.class.php, הערך עבור פרמטרים יכול להיות<br><i>0, ProductRef</i>
 CronCommandHelp=שורת הפקודה של המערכת לביצוע.
 CronCreateJob=צור עבודה מתוזמנת חדשה
 CronFrom=מ

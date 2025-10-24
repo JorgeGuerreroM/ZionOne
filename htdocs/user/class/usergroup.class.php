@@ -961,7 +961,7 @@ class UserGroup extends CommonObject
 		}
 		if (getDolGlobalString('LDAP_GROUP_FIELD_GROUPMEMBERS')) {
 			$valueofldapfield = array();
-			foreach ($this->members as $key => $val) {    // This is array of users for group into dolibarr database.
+			foreach ($this->members as $key => $val) {    // This is array of users for group into ZionOne database.
 				$muser = new User($this->db);
 				$muser->fetch($val->id);
 				$info2 = $muser->_load_ldap_info();
@@ -992,7 +992,7 @@ class UserGroup extends CommonObject
 		$this->ref = 'SPECIMEN';
 		$this->specimen = 1;
 
-		$this->name = 'DOLIBARR GROUP SPECIMEN';
+		$this->name = 'ZionOne GROUP SPECIMEN';
 		$this->note = 'This is a note';
 		$this->datec = time();
 		$this->tms = time();

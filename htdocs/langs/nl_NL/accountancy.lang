@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Boekhouding
 Accounting=Boekhouding
 ACCOUNTING_EXPORT_SEPARATORCSV=Kolom separator voor export bestand
@@ -340,7 +340,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Schakel het koppelen en doorboeken naar de b
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Schakel het koppelen en doorboeken naar de  boekhouding van inkopen uit (leveranciersfacturen worden niet doorgeboekt in de boekhouding)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Schakel het koppelen en doorboeken naar de boekhouding van onkostendeclaraties uit (met onkostendeclaraties wordt geen rekening gehouden in de boekhouding)
 ACCOUNTING_ENABLE_LETTERING=Schakel de afletteren functie in de boekhouding in
-ACCOUNTING_ENABLE_LETTERING_DESC=Als deze optie is ingeschakeld, kunt u op elke boeking een code definiëren, zodat u verschillende boekingen kunt groeperen. In het verleden, toen verschillende dagboeken onafhankelijk van elkaar werden beheerd, was deze functie nodig om bewegingslijnen van verschillende dagboeken samen te groeperen. Met Dolibarr accountancy wordt een dergelijke trackingcode, genaamd " <b> %s </b> " echter al automatisch opgeslagen, dus een automatische belettering is al gedaan, zonder risico op fouten, dus deze functie is nutteloos geworden voor algemeen gebruik. Handmatige letterfunctie is beschikbaar voor eindgebruikers die de gegevensoverdracht in de boekhouding uitvoert echt niet vertrouwen.
+ACCOUNTING_ENABLE_LETTERING_DESC=Als deze optie is ingeschakeld, kunt u op elke boeking een code definiëren, zodat u verschillende boekingen kunt groeperen. In het verleden, toen verschillende dagboeken onafhankelijk van elkaar werden beheerd, was deze functie nodig om bewegingslijnen van verschillende dagboeken samen te groeperen. Met ZionOne accountancy wordt een dergelijke trackingcode, genaamd " <b> %s </b> " echter al automatisch opgeslagen, dus een automatische belettering is al gedaan, zonder risico op fouten, dus deze functie is nutteloos geworden voor algemeen gebruik. Handmatige letterfunctie is beschikbaar voor eindgebruikers die de gegevensoverdracht in de boekhouding uitvoert echt niet vertrouwen.
 EnablingThisFeatureIsNotNecessary=Het inschakelen van deze functie is niet langer nodig voor een rigoureus boekhoudbeheer.
 ACCOUNTING_ENABLE_AUTOLETTERING=Schakel automatisch afletteren in bij het doorboeken naar de boekhouding
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=De code voor de belettering wordt automatisch gegenereerd en opgehoogd en niet door de eindgebruiker gekozen

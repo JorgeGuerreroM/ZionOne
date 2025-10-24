@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Oppsett av PayBox-modul 
-PayBoxDesc=Denne modulen tilbyr sider for å tillate betaling fra kunder på <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> . Dette kan brukes for en gratis betaling eller for en betaling på et bestemt Dolibarr-objekt (faktura, ordre, ...)
+PayBoxDesc=Denne modulen tilbyr sider for å tillate betaling fra kunder på <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> . Dette kan brukes for en gratis betaling eller for en betaling på et bestemt ZionOne-objekt (faktura, ordre, ...)
 PayBoxDoPayment=Betal med Paybox
 YouWillBeRedirectedOnPayBox=Du vil bli omdirigert til den sikrede Paybox siden for innlegging av kredittkortinformasjon
 SetupPayBoxToHavePaymentCreatedAutomatically=Oppsett din Paybox med url <b> %s </b> for å få betaling opprettet automatisk når den er validert av Paybox.

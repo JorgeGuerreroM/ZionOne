@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=מוצר ref.
 ProductLabel=תווית מוצר
 ProductLabelTranslated=תווית מוצר מתורגמת
@@ -300,7 +300,7 @@ MinSupplierPrice=מחיר מינימום קנייה
 MinCustomerPrice=מחיר מכירה מינימלי
 NoDynamicPrice=אין מחיר דינמי
 DynamicPriceConfiguration=תצורת מחיר דינמית
-DynamicPriceDesc=אתה יכול להגדיר נוסחאות מתמטיות לחישוב מחירי לקוחות או ספקים. נוסחאות כאלה יכולות להשתמש בכל האופרטורים המתמטיים, כמה קבועים ומשתנים. אתה יכול להגדיר כאן את המשתנים שבהם אתה רוצה להשתמש. אם המשתנה זקוק לעדכון אוטומטי, תוכל להגדיר את כתובת האתר החיצונית כדי לאפשר ל-Dolibarr לעדכן את הערך באופן אוטומטי.
+DynamicPriceDesc=אתה יכול להגדיר נוסחאות מתמטיות לחישוב מחירי לקוחות או ספקים. נוסחאות כאלה יכולות להשתמש בכל האופרטורים המתמטיים, כמה קבועים ומשתנים. אתה יכול להגדיר כאן את המשתנים שבהם אתה רוצה להשתמש. אם המשתנה זקוק לעדכון אוטומטי, תוכל להגדיר את כתובת האתר החיצונית כדי לאפשר ל-ZionOne לעדכן את הערך באופן אוטומטי.
 AddVariable=הוסף משתנה
 AddUpdater=הוסף Updater
 GlobalVariables=משתנים גלובליים
@@ -388,7 +388,7 @@ NewProductAttribute=תכונה חדשה
 NewProductAttributeValue=ערך תכונה חדש
 ErrorCreatingProductAttributeValue=אירעה שגיאה במהלך יצירת ערך התכונה. זה יכול להיות בגלל שכבר יש ערך קיים עם ההפניה הזו
 ProductCombinationGeneratorWarning=אם תמשיך, לפני יצירת גרסאות חדשות, כל הקודמות יימחקו. קיימים כבר יעודכנו בערכים החדשים
-TooMuchCombinationsWarning=יצירת הרבה גרסאות עשויה לגרום ל-CPU גבוה, שימוש בזיכרון ו-Dolibarr לא מסוגל ליצור אותם. הפעלת האפשרות "%s" עשויה לסייע בהפחתת השימוש בזיכרון.
+TooMuchCombinationsWarning=יצירת הרבה גרסאות עשויה לגרום ל-CPU גבוה, שימוש בזיכרון ו-ZionOne לא מסוגל ליצור אותם. הפעלת האפשרות "%s" עשויה לסייע בהפחתת השימוש בזיכרון.
 DoNotRemovePreviousCombinations=אל תסיר גרסאות קודמות
 UsePercentageVariations=השתמש בווריאציות באחוזים
 PercentageVariation=שינוי באחוזים

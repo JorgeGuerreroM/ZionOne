@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Паролата за потребител <b> %s </b> в домейна <b> %s </b> трябва да се промени.
 UserMustChangePassNextLogon=Потребителят трябва да смени паролата на домейна %s
 LDAPInformationsForThisContact=Информация в LDAP базата данни за този контакт
@@ -22,7 +22,7 @@ GroupSynchronized=Групата е синхронизирана
 MemberSynchronized=Членът е синхронизиран
 MemberTypeSynchronized=Типът член е синхронизиран
 ContactSynchronized=Контактът е синхронизиран
-ForceSynchronize=Принудително синхронизиране Dolibarr -> LDAP
+ForceSynchronize=Принудително синхронизиране ZionOne -> LDAP
 ErrorFailedToReadLDAP=Неуспешно прочитане на LDAP базата данни. Проверете настройката на LDAP модула и достъпността на базата данни.
 PasswordOfUserInLDAP=Парола на потребителя в LDAP
 LDAPPasswordHashType=Тип хеш на паролата

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Liikmete ala
 MemberCard=Liikme kaart
 SubscriptionCard=Liikmemaksu kaart
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Kas oled kindel, et soovid selle panuse kustutada?
 Filehtpasswd=htpasswd fail
 ValidateMember=Kinnita liige
 ConfirmValidateMember=Kas oled kindel, et soovid selle liikme valideerida?
-FollowingLinksArePublic=Järgmised lingid on avatud lehed, mida Dolibarr ei kaitse. Need ei ole vormindatud lehed ja on toodud näitena liikmete andmebaasi loetlemise kohta.
+FollowingLinksArePublic=Järgmised lingid on avatud lehed, mida ZionOne ei kaitse. Need ei ole vormindatud lehed ja on toodud näitena liikmete andmebaasi loetlemise kohta.
 PublicMemberList=Liikmete avalik nimekiri
 BlankSubscriptionForm=Avalik iseregistreerimisvorm
-BlankSubscriptionFormDesc=Dolibarr võib pakkuda teile avaliku URL-i/veebisaidi, et väliskülastajad saaksid taotleda sihtasutusega liitumist. Kui võrgumakse moodul on lubatud, võidakse automaatselt esitada ka maksevorm.
+BlankSubscriptionFormDesc=ZionOne võib pakkuda teile avaliku URL-i/veebisaidi, et väliskülastajad saaksid taotleda sihtasutusega liitumist. Kui võrgumakse moodul on lubatud, võidakse automaatselt esitada ka maksevorm.
 EnablePublicSubscriptionForm=Luba avalik veebisait isetellimusvormiga
 ForceMemberType=Liikme tüübi sundimine
 ExportDataset_member_1=Liikmed ja sissemaksed

@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Podešavanje PayBox modula
-PayBoxDesc=Ovaj modul nudi stranice koje omogućuju plaćanje na <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> od strane kupaca. Ovo se može koristiti za besplatno plaćanje ili za plaćanje na određenom Dolibarr objektu (račun, narudžba, ...)
+PayBoxDesc=Ovaj modul nudi stranice koje omogućuju plaćanje na <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> od strane kupaca. Ovo se može koristiti za besplatno plaćanje ili za plaćanje na određenom ZionOne objektu (račun, narudžba, ...)
 PayBoxDoPayment=Platite Payboxom
 YouWillBeRedirectedOnPayBox=Biti ćete preusmjereni na sigurnu stranicu PayBox servisa gdje možete unijeti podatke o svojoj kreditnoj kartici
 SetupPayBoxToHavePaymentCreatedAutomatically=Postavite svoj Paybox s url-om <b> %s </b> da se plaćanje automatski kreira kada ga Paybox potvrdi.

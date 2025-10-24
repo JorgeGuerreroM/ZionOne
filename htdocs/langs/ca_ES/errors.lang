@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Sense errors, és vàlid
@@ -53,12 +53,12 @@ ErrorWrongDate=La data no és correcta.
 ErrorFailedToWriteInDir=No es pot escriure a la carpeta %s
 ErrorFailedToBuildArchive=No s'ha pogut crear el fitxer d'arxiu %s
 ErrorFoundBadEmailInFile=S'ha trobat una sintaxi incorrecta del correu electrònic per a les línies %s al fitxer (exemple de la línia %s amb email=%s)
-ErrorUserCannotBeDelete=No es pot eliminar l'usuari. És possible que estigui relacionat amb entitats de Dolibarr.
+ErrorUserCannotBeDelete=No es pot eliminar l'usuari. És possible que estigui relacionat amb entitats de ZionOne.
 ErrorFieldsRequired=Alguns camps obligatoris s'han deixat en blanc.
 ErrorSubjectIsRequired=L'assumpte del correu electrònic és obligatori
 ErrorInAddAttachmentsImageBaseOnMedia=Error en crear fitxers d'imatge al directori multimèdia per a adjuntar-los
 ErrorInAddAttachmentsImageBaseIsSrcData=Error en crear fitxers d'imatge (que es troben com a dades:) al directori temporal per adjuntar-los
-ErrorFailedToCreateDir=Error en la creació d'una carpeta. Comprovi que l'usuari del servidor web té drets d'escriptura en les carpetes de documents de Dolibarr. Si el paràmetre <b>safe_mode</b> està actiu en aquest PHP, Comproveu que els fitxers php dolibarr pertanyen a l'usuari del servidor web.
+ErrorFailedToCreateDir=Error en la creació d'una carpeta. Comprovi que l'usuari del servidor web té drets d'escriptura en les carpetes de documents de ZionOne. Si el paràmetre <b>safe_mode</b> està actiu en aquest PHP, Comproveu que els fitxers php ZionOne pertanyen a l'usuari del servidor web.
 ErrorNoMailDefinedForThisUser=E-Mail no definit per a aquest usuari
 ErrorSetupOfEmailsNotComplete=La configuració dels correus electrònics no s'ha completat
 ErrorAccountingClosureSetupNotComplete=La configuració dels comptes de tancament no s'ha completat
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=El camp <b>%s</b> no ha de cont
 ErrorFieldMustHaveXChar=El camp <b> %s </b> ha de tenir com a mínim %s caràcters.
 ErrorNoAccountancyModuleLoaded=Mòdul de comptabilitat no activat
 ErrorExportDuplicateProfil=El nom d'aquest perfil ja existeix per aquest conjunt d'exportació
-ErrorLDAPSetupNotComplete=La configuració Dolibarr-LDAP és incompleta.
+ErrorLDAPSetupNotComplete=La configuració ZionOne-LDAP és incompleta.
 ErrorLDAPMakeManualTest=S'ha generat un fitxer .ldif al directori %s. Proveu de carregar-lo manualment des de la línia d'ordres per a obtenir més informació sobre els errors.
 ErrorCantSaveADoneUserWithZeroPercentage=No es pot desar una acció amb «estat no iniciat» si també s'omple el camp «fet per».
 ErrorPleaseTypeBankTransactionReportName=Introduïu el nom de l’extracte bancari on s’ha d’informar de l’entrada (format AAAAAMM o AAAAAMMDD)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s es troba assignat a altre tercer
 ErrorFailedToSendPassword=Error en l'enviament de la contrasenya
 ErrorFailedToLoadRSSFile=Error en la recuperació del flux RSS. Afegiu la constant MAIN_SIMPLEXMLLOAD_DEBUG si el missatge d'error no és molt explícit.
 ErrorForbidden=Accés denegat. <br> Intentes accedir a una pàgina, àrea o funcionalitat d'un mòdul amb desactivat o sense estar en una sessió autenticada o que no se li permet al seu usuari.
-ErrorForbidden2=El vostre administrador de Dolibarr pot definir el permís per a aquest inici de sessió des del menú %s->%s.
-ErrorForbidden3=Sembla que Dolibarr no s'utilitza a través d'una sessió autenticada. Fes una ullada a la documentació de configuració de Dolibarr per a saber com gestionar les autenticacions (htaccess, mod_auth o altres...).
+ErrorForbidden2=El vostre administrador de ZionOne pot definir el permís per a aquest inici de sessió des del menú %s->%s.
+ErrorForbidden3=Sembla que ZionOne no s'utilitza a través d'una sessió autenticada. Fes una ullada a la documentació de configuració de ZionOne per a saber com gestionar les autenticacions (htaccess, mod_auth o altres...).
 ErrorForbidden4=Nota: esborreu les galetes del vostre navegador per destruir les sessions existents per a aquest inici de sessió.
 ErrorNoImagickReadimage=La classe Imagick no es troba en aquest PHP. No hi ha cap previsualització disponible. Els administradors poden desactivar aquesta pestanya des del menú Configuració - Entorn.
 ErrorRecordAlreadyExists=Registre ja existent
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=El compte d'execució del servidor web <b>%s<
 ErrorNoActivatedBarcode=No s'ha activat cap mena de codi de barres
 ErrUnzipFails=No s'ha pogut descomprimir el fitxer %s amb ZipArchive
 ErrNoZipEngine=No engine to zip/unzip %s file in this PHP
-ErrorFileMustBeADolibarrPackage=El fitxer %s ha de ser un paquet Dolibarr en format zip
-ErrorModuleFileRequired=Ha de seleccionar un arxiu del paquet del mòdul de Dolibarr
+ErrorFileMustBeADolibarrPackage=El fitxer %s ha de ser un paquet ZionOne en format zip
+ErrorModuleFileRequired=Ha de seleccionar un arxiu del paquet del mòdul de ZionOne
 ErrorPhpCurlNotInstalled=L'extensió PHP CURL no es troba instal·lada, és indispensable per dialogar amb Paypal.
 ErrorFailedToAddToMailmanList=S'ha produït un error en intentar afegir un registre a la llista Mailman o base de dades SPIP
 ErrorFailedToRemoveToMailmanList=Error en l'eliminació de %s de la llista Mailmain %s o base SPIP
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=La data ha de ser major que avui
 ErrorStartDateGreaterEnd=La data d'inici és superior a la data de finalització
 ErrorPaymentModeDefinedToWithoutSetup=S'ha definit una forma de pagament al tipus %s, però la configuració del mòdul de factures no s'ha completat per a definir la informació que es mostrarà per a aquesta forma de pagament.
 ErrorPHPNeedModule=Error, el vostre PHP ha de tenir instal·lat el mòdul <b>%s</b> per a utilitzar aquesta funció.
-ErrorOpenIDSetupNotComplete=Heu configurat el fitxer de configuració Dolibarr per a permetre l'autenticació OpenID, però l'URL del servei OpenID no es defineix en constant %s
+ErrorOpenIDSetupNotComplete=Heu configurat el fitxer de configuració ZionOne per a permetre l'autenticació OpenID, però l'URL del servei OpenID no es defineix en constant %s
 ErrorWarehouseMustDiffers=El magatzem d'origen i destí han de ser diferents
 ErrorBadFormat=El format és incorrecte!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Error, aquest soci encara no s'ha enllaçat a un tercer. Enllaça el soci a un tercer existent o crea un tercer nou abans de crear la quota amb factura.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=El nou usuari ha de tenir un correu electrònic
 ErrorUserClone=Error a les categories de clons d'usuari
 ErrorQtyOrderedLessQtyShipped = La quantitat demanada no pot ser inferior a la quantitat enviada.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Error, la creació d'un pagament diferent en un compte bancari amb una moneda diferent de la moneda de l'empresa encara no s'admet.
-ErrorStreamMustBeEnabled=El flux PHP %s no està disponible. Comproveu els vostres mòduls PHP i el paràmetre de Dolibarr $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=El flux PHP %s no està disponible. Comproveu els vostres mòduls PHP i el paràmetre de ZionOne $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, intenteu pagar diferents factures amb diferents monedes en el mateix pagament
 ErrorLinkNotFoundWithSharedLink=Error, no s'ha trobat l'enllaç amb aquesta clau compartida
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Nombre de línies incorrecte. Els fitxers han de tenir com a mínim 2 línies (1 línia per al títol i 1 línia per a les dades).
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Error, un valor per a aquest tipus de camp és obl
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=El paràmetre PHP upload_max_filesize (%s) és superior al paràmetre PHP post_max_size (%s). No es tracta d’una configuració consistent.
-WarningPasswordSetWithNoAccount=S'ha establert una contrasenya per a aquest soci. Tot i això, no s'ha creat cap compte d'usuari. Per tant, aquesta contrasenya s’emmagatzema però no es pot utilitzar per a iniciar la sessió a Dolibarr. Pot ser utilitzat per un mòdul/interfície extern, però si no necessiteu definir cap inici de sessió ni contrasenya per a un soci, podeu desactivar l'opció "Gestiona un inici de sessió per a cada soci" des de la configuració del mòdul Socis. Si heu de gestionar un inici de sessió però no necessiteu cap contrasenya, podeu mantenir aquest camp buit per a evitar aquesta advertència. Nota: El correu electrònic també es pot utilitzar com a inici de sessió si el soci està enllaçat amb un usuari.
+WarningPasswordSetWithNoAccount=S'ha establert una contrasenya per a aquest soci. Tot i això, no s'ha creat cap compte d'usuari. Per tant, aquesta contrasenya s’emmagatzema però no es pot utilitzar per a iniciar la sessió a ZionOne. Pot ser utilitzat per un mòdul/interfície extern, però si no necessiteu definir cap inici de sessió ni contrasenya per a un soci, podeu desactivar l'opció "Gestiona un inici de sessió per a cada soci" des de la configuració del mòdul Socis. Si heu de gestionar un inici de sessió però no necessiteu cap contrasenya, podeu mantenir aquest camp buit per a evitar aquesta advertència. Nota: El correu electrònic també es pot utilitzar com a inici de sessió si el soci està enllaçat amb un usuari.
 WarningMandatorySetupNotComplete=Feu clic aquí per a configurar els paràmetres principals
 WarningEnableYourModulesApplications=Feu clic aquí per a activar els vostres mòduls i aplicacions
 WarningSafeModeOnCheckExecDir=Atenció, està activada l'opció PHP <b>safe_mode</b>, la comanda ha d'estar dins d'un directori declarat dins del paràmetre php <b>safe_mode_exec_dir</b>.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Avís, també es permet llegir el 
 WarningNoDataTransferedInAccountancyYet=Tingueu en compte que no hi ha dades a la taula comptable. Transferiu les vostres dades registrades a l'aplicació a la secció de comptabilitat o canvieu el mode de càlcul per analitzar les dades registrades fora de la comptabilitat.
 WarningChangingThisMayBreakStopTaskScheduler=Avís, canviar aquest valor pot desactivar el planificador
 WarningAmountOfFileDiffersFromSumOfLines=Advertència, la quantitat de fitxer (%s) difereix de la suma de línies (%s)
-WarningModuleAffiliatedToAReportedCompany=Advertència, s'ha informat d'aquest mòdul a la fundació Dolibarr com a publicat per una empresa que utilitza pràctiques il·legals (incompliment de les normes d'ús de la marca Dolibarr, recollida de dades sense el vostre consentiment o implementació de programari maliciós).
+WarningModuleAffiliatedToAReportedCompany=Advertència, s'ha informat d'aquest mòdul a la fundació ZionOne com a publicat per una empresa que utilitza pràctiques il·legals (incompliment de les normes d'ús de la marca ZionOne, recollida de dades sense el vostre consentiment o implementació de programari maliciós).
 WarningModuleAffiliatedToAPiratPlatform=Aneu amb compte quan obteniu un mòdul (de pagament o gratuït) d'una plataforma no oficial sospitosa com %s
 
 SwissQrOnlyVIR = SwissQR invoice només es pot afegir a invoices establert per ser paid Transfer pagaments.

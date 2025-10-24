@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Postavljanje Stripe modula
-StripeDesc=Ponudite svojim klijentima stranicu za online plaćanje za plaćanja kreditnim/debitnim karticama putem <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Ovo se može koristiti za omogućavanje vašim klijentima da vrše ad hoc plaćanja ili za plaćanja vezana za određeni Dolibarr objekt (faktura, narudžba,...)
+StripeDesc=Ponudite svojim klijentima stranicu za online plaćanje za plaćanja kreditnim/debitnim karticama putem <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Ovo se može koristiti za omogućavanje vašim klijentima da vrše ad hoc plaćanja ili za plaćanja vezana za određeni ZionOne objekt (faktura, narudžba,...)
 StripeOrCBDoPayment=Platite kreditnom karticom ili Stripeom
-FollowingUrlAreAvailableToMakePayments=Sljedeći URL-ovi su dostupni za ponudu stranice klijentu za plaćanje na Dolibarr objektima
+FollowingUrlAreAvailableToMakePayments=Sljedeći URL-ovi su dostupni za ponudu stranice klijentu za plaćanje na ZionOne objektima
 PaymentForm=Obrazac za plaćanje
 WelcomeOnPaymentPage=Dobrodošli u našu uslugu online plaćanja
 ThisScreenAllowsYouToPay=Ovaj ekran vam omogućava da izvršite online plaćanje na %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL za ponudu %s stranice za online pla
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL za ponudu %s stranice za online plaćanje za pretplatu člana
 ToOfferALinkForOnlinePaymentOnDonation=URL za ponudu %s stranice za online plaćanje za uplatu donacije
 YouCanAddTagOnUrl=Također možete dodati parametar URL-a <b>&tag=value</b> bilo kojem od ovih URL-ova (obavezno samo za plaćanja koja nisu povezana s objektom) kako biste dodali vlastitu oznaku komentara plaćanja.<br>Za URL plaćanja bez postojećeg objekta, možete dodati i parametar <strong>&noidempotency=1</strong> tako da se isti link s istom oznakom može koristiti nekoliko puta (neki načini plaćanja mogu ograničiti plaćanje na 1 za svaku različitu vezu bez ovog parametra)
-YouCanEmbedOnWebsite=Ako želite integrirati stranicu za plaćanje u Dolibarr web stranicu, možete uključiti parametar: <b>&ws=website_ref</b>.<br>Dodatno, dvije stranice pod nazivom <b>paymentok</b> i <b>paymentko</b> mora biti kreiran na web stranici da bi se primilo preusmjeravanje nakon uspješne ili neuspješne online uplate.
+YouCanEmbedOnWebsite=Ako želite integrirati stranicu za plaćanje u ZionOne web stranicu, možete uključiti parametar: <b>&ws=website_ref</b>.<br>Dodatno, dvije stranice pod nazivom <b>paymentok</b> i <b>paymentko</b> mora biti kreiran na web stranici da bi se primilo preusmjeravanje nakon uspješne ili neuspješne online uplate.
 SetupStripeToHavePaymentCreatedAutomatically=Postavite svoj Stripe s url <b>%s</b> da se plaćanje automatski kreira potvrdio Stripe.
 AccountParameter=Parametri računa
 UsageParameter=Parametri upotrebe

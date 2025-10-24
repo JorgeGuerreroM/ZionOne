@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=Área Recursos humáns
 UserCard=Ficha usuario
 GroupCard=Ficha grupo
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Ligazón ao usuario
 LinkedToDolibarrThirdParty=Ligazón ao terceiro
 CreateDolibarrLogin=Crear un usuario
 CreateDolibarrThirdParty=Crear un terceiro
-LoginAccountDisableInDolibarr=Conta desactivada en Dolibarr
-PASSWORDInDolibarr=Contrasinal modificado en Dolibarr
+LoginAccountDisableInDolibarr=Conta desactivada en ZionOne
+PASSWORDInDolibarr=Contrasinal modificado en ZionOne
 UsePersonalValue=Utilizar valores persoalizados
 ExportDataset_user_1=Usuarios e as súas propiedades.
 ExportDataset_user_2=Listaxe de eventos de seguridade

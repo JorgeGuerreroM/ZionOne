@@ -23,7 +23,7 @@
 /**
  *	\file       htdocs/core/boxes/box_dolibarr_state_board.php
  *	\ingroup	core
- *	\brief      Module Dolibarr state base
+ *	\brief      Module ZionOne state base
  */
 
 include_once DOL_DOCUMENT_ROOT . '/core/boxes/modules_boxes.php';

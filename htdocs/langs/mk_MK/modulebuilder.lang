@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= ИД на модулот
 ModuleBuilderDesc=Оваа алатка мора да ја користат само искусни корисници или програмери. Обезбедува алатки за изградба или уредување на сопствен модул. Документацијата за алтернативен <a href="%s" target="_blank" rel="noopener noreferrer">прирачник за развој е тука</a>.
 EnterNameOfModuleDesc=Внесете го името на модулот/апликацијата за креирање без празни места. Користете големи букви за раздвојување зборови (на пример: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Можете да го избришете ваши
 EnterNameOfObjectToDeleteDesc=Можете да избришете објект. ПРЕДУПРЕДУВАЊЕ: Сите датотеки за кодирање (генерирани или креирани рачно) поврзани со објектот ќе бидат избришани!
 DangerZone=Опасна зона
 BuildPackage=Изградба на пакет
-BuildPackageDesc=Можете да генерирате zip пакет од вашата апликација за да бидете подготвени да го дистрибуирате на кој било Dolibarr. Можете исто така да го дистрибуирате или продавате на пазар како <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=Можете да генерирате zip пакет од вашата апликација за да бидете подготвени да го дистрибуирате на кој било ZionOne. Можете исто така да го дистрибуирате или продавате на пазар како <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Изградба на документација
 ModuleIsNotActive=Овој модул сè уште не е активиран. Одете на %s за да го направите во живо или кликнете овде
 ModuleIsLive=Овој модул е активиран. Секоја промена може да ја прекине тековната функција во живо.
@@ -110,7 +110,7 @@ HooksDefDesc=Дефинирајте во својството <b>module_parts['h
 TriggerDefDesc=Дефинирајте го во датотеката за активирање кодот што сакате да го извршите кога ќе се изврши деловен настан надвор од вашиот модул (настани активирани од други модули).
 SeeIDsInUse=Видете идентификатори кои се користат при вашата инсталација
 SeeReservedIDsRangeHere=Погледнете го опсегот на резервирани лични карти
-ToolkitForDevelopers=Комплет со алатки за програмери на Dolibarr
+ToolkitForDevelopers=Комплет со алатки за програмери на ZionOne
 TryToUseTheModuleBuilder=If you have knowledge of SQL and PHP, you may use the native module builder wizard.<br>Enable the module <strong>%s</strong> and use the wizard by clicking the <span class="fa fa-bug"></span> on the top right menu.<br>Warning: This is an advanced developer feature, do <b>not</b> experiment on your production site!
 SeeTopRightMenu=Видете <span class="fa fa-bug"></span> во горниот десен мени
 AddLanguageFile=Додадете јазична датотека

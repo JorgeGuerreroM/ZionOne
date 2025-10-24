@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Moduluaren IDa
 ModuleBuilderDesc=Tresna hau erabiltzaile edo garatzaile esperientziadunek bakarrik erabili behar dute. Zure modulua eraikitzeko edo editatzeko utilitateak eskaintzen ditu. <a href="%s" target="_blank" rel="noopener noreferrer">eskuliburu alternatiboen garapenerako dokumentazioa hemen dago</a>.
 EnterNameOfModuleDesc=Sartu sortuko den moduluaren/aplikazioaren izena, hutsunerik gabe. Erabili maiuskulak hitzak bereizteko (Adibidez: NireModulua, MerkataritzaElectronikaDendarako, SinkronizatuNireSistemarekin...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Modulua ezaba dezakezu. OHARRA: Moduluko kodeketa 
 EnterNameOfObjectToDeleteDesc=Objektu bat ezaba dezakezu. OHARRA: Objektuarekin lotutako kodeketa fitxategi guztiak (eskuz sortutakoak edo sortutakoak) ezabatuko dira!
 DangerZone=Arrisku-eremua
 BuildPackage=Eraiki paketea
-BuildPackageDesc=Zure aplikazioaren zip pakete bat sor dezakezu edozein Dolibarr-en banatzeko prest egon zaitezen. <a href="https://www.dolistore.com">DoliStore.com</a> bezalako merkatuetan ere banatu edo saldu dezakezu.
+BuildPackageDesc=Zure aplikazioaren zip pakete bat sor dezakezu edozein ZionOne-en banatzeko prest egon zaitezen. <a href="https://www.dolistore.com">DoliStore.com</a> bezalako merkatuetan ere banatu edo saldu dezakezu.
 BuildDocumentation=Eraiki dokumentazioa
 ModuleIsNotActive=Modulu hau ez dago oraindik aktibatuta. Joan %s helbidera martxan jartzeko edo egin klik hemen.
 ModuleIsLive=Modulu hau aktibatu da. Edozein aldaketak uneko funtzio bat eten dezake.
@@ -110,7 +110,7 @@ HooksDefDesc=Definitu <b>module_parts['hooks']</b> propietatean, moduluaren desk
 TriggerDefDesc=Definitu abiarazle fitxategian zure modulutik kanpoko negozio-gertaera bat exekutatzen denean exekutatu nahi duzun kodea (beste moduluek abiarazitako gertaerak).
 SeeIDsInUse=Ikusi zure instalazioan erabiltzen diren IDak
 SeeReservedIDsRangeHere=Ikusi erreserbatutako IDen barrutia
-ToolkitForDevelopers=Dolibarr garatzaileentzako tresna-sorta
+ToolkitForDevelopers=ZionOne garatzaileentzako tresna-sorta
 TryToUseTheModuleBuilder=SQL eta PHP ezagutza baduzu, modulu sortzaile natiboaren morroia erabil dezakezu.<br>Gaitu <strong>%s</strong> modulua eta erabili morroia goiko eskuineko menuan dagoen <span class="fa fa-bug"></span> aukeran klik eginez.<br>Abisua: Hau garatzaileentzako funtzio aurreratua da, <b>ez egin </b> esperimenturik zure ekoizpen gunean!
 SeeTopRightMenu=Ikusi <span class="fa fa-bug"></span> goiko eskuineko menuan
 AddLanguageFile=Gehitu hizkuntza fitxategia

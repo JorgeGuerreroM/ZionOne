@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Ref.
 ProductLabel=Etiketa e produktit
 ProductLabelTranslated=Etiketa e produktit të përkthyer
@@ -300,7 +300,7 @@ MinSupplierPrice=Çmimi minimal i blerjes
 MinCustomerPrice=Çmimi minimal i shitjes
 NoDynamicPrice=Asnjë çmim dinamik
 DynamicPriceConfiguration=Konfigurimi dinamik i çmimit
-DynamicPriceDesc=Ju mund të përcaktoni formula matematikore për të llogaritur çmimet e klientit ose të shitësit. Formula të tilla mund të përdorin të gjithë operatorët matematikorë, disa konstante dhe variabla. Këtu mund të përcaktoni variablat që dëshironi të përdorni. Nëse ndryshorja ka nevojë për një përditësim automatik, ju mund të përcaktoni URL-në e jashtme për të lejuar Dolibarr të përditësojë vlerën automatikisht.
+DynamicPriceDesc=Ju mund të përcaktoni formula matematikore për të llogaritur çmimet e klientit ose të shitësit. Formula të tilla mund të përdorin të gjithë operatorët matematikorë, disa konstante dhe variabla. Këtu mund të përcaktoni variablat që dëshironi të përdorni. Nëse ndryshorja ka nevojë për një përditësim automatik, ju mund të përcaktoni URL-në e jashtme për të lejuar ZionOne të përditësojë vlerën automatikisht.
 AddVariable=Shto variabël
 AddUpdater=Shto përditësuesin
 GlobalVariables=Variablat globalë
@@ -388,7 +388,7 @@ NewProductAttribute=Atribut i ri
 NewProductAttributeValue=Vlera e re e atributit
 ErrorCreatingProductAttributeValue=Pati një gabim gjatë krijimit të vlerës së atributit. Mund të jetë sepse ekziston tashmë një vlerë ekzistuese me atë referencë
 ProductCombinationGeneratorWarning=Nëse vazhdoni, përpara se të gjeneroni variante të reja, të gjitha të mëparshmet do të FSHIHEN. Tashmë ato ekzistuese do të përditësohen me vlerat e reja
-TooMuchCombinationsWarning=Gjenerimi i shumë varianteve mund të rezultojë në CPU të lartë, përdorim të memories dhe Dolibarr të mos jetë në gjendje t'i krijojë ato. Aktivizimi i opsionit "%s" mund të ndihmojë në uljen e përdorimit të kujtesës.
+TooMuchCombinationsWarning=Gjenerimi i shumë varianteve mund të rezultojë në CPU të lartë, përdorim të memories dhe ZionOne të mos jetë në gjendje t'i krijojë ato. Aktivizimi i opsionit "%s" mund të ndihmojë në uljen e përdorimit të kujtesës.
 DoNotRemovePreviousCombinations=Mos hiqni variantet e mëparshme
 UsePercentageVariations=Përdorni ndryshime në përqindje
 PercentageVariation=Ndryshim në përqindje

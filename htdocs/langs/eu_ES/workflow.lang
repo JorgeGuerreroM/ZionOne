@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Lan-fluxuaren moduluaren konfigurazioa
 WorkflowDesc=Modulu honek ekintza automatiko batzuk eskaintzen ditu. Berez, lan-fluxua irekita dago (gauzak nahi duzun ordenan egin ditzakezu) baina hemen ekintza automatiko batzuk aktibatu ditzakezu.
 ThereIsNoWorkflowToModify=Ez dago lan-fluxuen aldaketarik eskuragarri aktibatutako moduluekin.

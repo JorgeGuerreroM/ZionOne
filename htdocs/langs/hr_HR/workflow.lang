@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Podešavanje modula radnog procesa
 WorkflowDesc=Ovaj modul pruža neke automatske akcije. Prema zadanim postavkama tijek rada je otvoren (možete raditi stvari redoslijedom kojim želite), ali ovdje možete aktivirati neke automatske radnje.
 ThereIsNoWorkflowToModify=Nema dostupnih promjena radnog procesa za aktivirane module.

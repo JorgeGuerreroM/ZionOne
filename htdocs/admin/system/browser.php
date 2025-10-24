@@ -20,10 +20,10 @@
 
 /**
  *  \file       htdocs/admin/system/browser.php
- *  \brief      Page to show Dolibarr information
+ *  \brief      Page to show ZionOne information
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 /**

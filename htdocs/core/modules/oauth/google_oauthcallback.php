@@ -38,7 +38,7 @@ if (!defined('NOLOGIN') && $forlogin) {
 	define("NOLOGIN", 1); // This means this output page does not require to be logged.
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/includes/OAuth/bootstrap.php';
 /**
@@ -127,7 +127,7 @@ if ($action != 'delete' && !GETPOST('afteroauthloginreturn') && (empty($statewit
 //var_dump($requestedpermissionsarray);exit;
 
 
-// Dolibarr storage
+// ZionOne storage
 $storage = new DoliStorage($db, $conf, $keyforprovider);
 
 // Instantiate the Api service using the credentials, http client and storage mechanism for the token

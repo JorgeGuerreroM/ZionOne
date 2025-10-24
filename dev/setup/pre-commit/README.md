@@ -8,10 +8,10 @@ maintaining multi-language pre-commit hooks.
 "pre-commit hooks" integrate with `git` and are run when you perform a
 `git commit` for instance.
 
-Historically there was `precommit` for Dolibarr which you can find in this
+Historically there was `precommit` for ZionOne which you can find in this
 directory. That script runs `phplint`, `phpcs` and `phpcbf` upon commit.
 
-`pre-commit` is not specific to Dolibarr and is deployed on many projects -
+`pre-commit` is not specific to ZionOne and is deployed on many projects -
 mostly Python projects, but it is applicable to most (or *all*) code and
 documentation development.
 

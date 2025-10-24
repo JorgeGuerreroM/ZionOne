@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=PayPal moduluaren konfigurazioa
-PaypalDesc=Modulu honek bezeroek <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> bidez ordaintzea ahalbidetzen du. Hau ordainketa berezi baterako edo Dolibarr objektu bati lotutako ordainketa baterako erabil daiteke (faktura, eskaera, ...).
+PaypalDesc=Modulu honek bezeroek <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> bidez ordaintzea ahalbidetzen du. Hau ordainketa berezi baterako edo ZionOne objektu bati lotutako ordainketa baterako erabil daiteke (faktura, eskaera, ...).
 PaypalOrCBDoPayment=Ordaindu PayPal-ekin (Txartela edo PayPal)
 PaypalDoPayment=Ordaindu PayPal-ekin
 PAYPAL_API_SANDBOX=Modu proba/sandbox

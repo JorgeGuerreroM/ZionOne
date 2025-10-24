@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Stripe modul beállítása
-StripeDesc=Ajánljon fel ügyfelei számára egy online fizetési oldalt hitel-/bankkártyás fizetéshez a <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> szolgáltatáson keresztül. . Ez felhasználható arra, hogy ügyfelei eseti vagy egy adott Dolibarr objektumhoz kapcsolódó kifizetéseket hajtsanak végre (számla, megrendelés stb.)
+StripeDesc=Ajánljon fel ügyfelei számára egy online fizetési oldalt hitel-/bankkártyás fizetéshez a <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> szolgáltatáson keresztül. . Ez felhasználható arra, hogy ügyfelei eseti vagy egy adott ZionOne objektumhoz kapcsolódó kifizetéseket hajtsanak végre (számla, megrendelés stb.)
 StripeOrCBDoPayment=Fizetés hitelkártyával vagy Stripe-pal
-FollowingUrlAreAvailableToMakePayments=A következő URL-ek állnak rendelkezésre, hogy egy oldalt kínálhassanak az ügyfeleknek a Dolibarr objektumok kifizetésére
+FollowingUrlAreAvailableToMakePayments=A következő URL-ek állnak rendelkezésre, hogy egy oldalt kínálhassanak az ügyfeleknek a ZionOne objektumok kifizetésére
 PaymentForm=Fizetési űrlap
 WelcomeOnPaymentPage=Üdvözöljük online fizetési szolgáltatásunkban
 ThisScreenAllowsYouToPay=Ez a képernyő lehetővé teszi, hogy online fizetést hajtson végre %s részére.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL egy %s online fizetési oldal felaj
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL %s online fizetési oldal felajánlásához egy tagi előfizetéshez
 ToOfferALinkForOnlinePaymentOnDonation=URL %s online fizetési oldal felajánlásához adomány kifizetéséhez
 YouCanAddTagOnUrl=Hozzáadhat URL-paramétert is a <b>&címke=value</b> bármelyik URL-hez (csak objektumhoz nem kapcsolódó fizetések esetén kötelező), hogy hozzáadja saját fizetési megjegyzését címke.<br>A meglévő objektummal nem rendelkező fizetések URL-címéhez hozzáadhatja a <strong>&noidempotency=1</strong>, így ugyanaz a link ugyanazzal a címke paraméterrel többször is felhasználható (egyes fizetési módok korlátozhatják a fizetést 1-re minden egyes különböző linkért e paraméter nélkül)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=Állítsa be a Stripe-ot a(z) <b>%s</b> URL-lel, hogy a Stripe ellenőrzésekor automatikusan létrejöjjön a fizetés.
 AccountParameter=Számlaparaméterek
 UsageParameter=Használati paraméterek
@@ -77,9 +77,10 @@ ClickHereToTryAgain=<a href="%s">Kattintson ide az újrapróbálkozáshoz...</a>
 CreationOfPaymentModeMustBeDoneFromStripeInterface=Az erős vevő hitelesítési szabályok miatt a kártya létrehozását a Stripe háttérirodájából kell elvégezni. Ide kattintva bekapcsolhatja a Stripe vevő rekordot: %s
 STRIPE_CARD_PRESENT=Kártya ajándék a Stripe terminálokhoz
 TERMINAL_LOCATION=A Stripe terminálok helye (címe).
-RequestDirectDebitWithStripe=Kérjen csoportos beszedési megbízást a Stripe segítségével
-RequesCreditTransferWithStripe=Kérjen hitelátutalást a Stripe segítségével
-STRIPE_SEPA_DIRECT_DEBIT=Engedélyezze a csoportos beszedési megbízást a Stripe-on keresztül
+RequestDirectDebitWithStripe=Request SEPA Direct Debit with Stripe
+RequesCreditTransferWithStripe=Make SEPA Credit Transfer with Stripe
+STRIPE_SEPA_DIRECT_DEBIT=Enable SEPA Direct Debit payments with Stripe
+STRIPE_SEPA_CREDIT_TRANSFER=Enable SEPA Credit Transfer payments with Stripe
 STRIPE_KLARNA=Engedélyezze a fizetést a Klarna használatával
 STRIPE_BANCONTACT=Engedélyezze a fizetést a BANCONTACT használatával
 STRIPE_IDEAL=Engedélyezze a fizetést az IDEAL használatával
@@ -91,3 +92,19 @@ ExampleOnlyForDECustomers=Csak német vásárlóknak
 ExampleOnlyForNLCustomers=Csak holland ügyfelek számára
 ExampleOnlyForATBEDEITNLESCustomers=Csak osztrák, belga, német, olasz, holland, spanyol ügyfelek számára
 ListOfSupportedHooksToActivate=Az aktiváláshoz támogatott hookok listája
+# Paybox
+PayBoxSetup=PayBox modul beállítás
+PayBoxDesc=Ez a modul oldalakat kínál, amelyek lehetővé teszik az ügyfelek számára, hogy a <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Payboxon</a> fizessenek. Ez felhasználható ingyenes fizetésre vagy egy adott ZionOne objektum fizetésére (számla, rendelés, ...)
+PayBoxDoPayment=Fizetés Paybox segítségével
+YouWillBeRedirectedOnPayBox=Át lesz irányítva egy biztonságos Paybox oldalra ahol megadhatja a bak/hitelkártya információit
+SetupPayBoxToHavePaymentCreatedAutomatically=Állítsa be Paybox-ját a(z) <b>%s</b> URL-lel, hogy a fizetés automatikusan létrejöjjön, amikor a Paybox jóváhagyja.
+YourPaymentHasBeenRecorded=Ez az oldal megerősíti, hogy a fizetési lett felvéve. Köszönöm.
+YourPaymentHasNotBeenRecorded=A fizetését NEM rögzítették, és a tranzakciót törölték. Köszönöm.
+PAYBOX_CGI_URL_V2=Url Paybox CGI modul fizetés
+NewPayboxPaymentReceived=Új Paybox fizetés érkezett
+NewPayboxPaymentFailed=Új Paybox fizetést próbált, de nem sikerült
+PAYBOX_PAYONLINE_SENDEMAIL=E-mail értesítés fizetési kísérlet után (siker vagy sikertelen)
+PAYBOX_PBX_SITE=Érték erre: PBX SITE
+PAYBOX_PBX_RANG=Érték erre: PBX Rang
+PAYBOX_PBX_IDENTIFIANT=Érték erre: PBX ID
+PAYBOX_HMAC_KEY=HMAC kulcs

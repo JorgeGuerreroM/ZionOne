@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=HRM کا علاقہ
 UserCard=صارف کارڈ
 GroupCard=گروپ کارڈ
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=صارف سے لنک کریں۔
 LinkedToDolibarrThirdParty=تیسرے فریق سے لنک کریں۔
 CreateDolibarrLogin=ایک صارف بنائیں
 CreateDolibarrThirdParty=تیسری پارٹی بنائیں
-LoginAccountDisableInDolibarr=Dolibarr میں اکاؤنٹ کو غیر فعال کر دیا گیا ہے۔
-PASSWORDInDolibarr=Dolibarr میں پاس ورڈ میں ترمیم کی گئی۔
+LoginAccountDisableInDolibarr=ZionOne میں اکاؤنٹ کو غیر فعال کر دیا گیا ہے۔
+PASSWORDInDolibarr=ZionOne میں پاس ورڈ میں ترمیم کی گئی۔
 UsePersonalValue=ذاتی قدر استعمال کریں۔
 ExportDataset_user_1=صارفین اور ان کی خصوصیات
 ExportDataset_user_2=List of security events

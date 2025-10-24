@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=تبرع
 Donations=التبرعات
 DonationRef=التبرع المرجع.
@@ -37,7 +37,7 @@ DonationUseThirdparties=استخدم عنوان طرف ثالث موجود كع�
 DonationsStatistics=إحصائيات التبرع
 NbOfDonations=عدد التبرعات
 BlankDonationForm=نموذج التبرع العام
-BlankDonationFormDesc=يمكن أن يوفر لك Dolibarr رابطًا/موقعًا إلكترونيًا عامًا يسمح للزوار الخارجيين بالتبرع. في حال تفعيل الدفع عبر الإنترنت نموذج، قد يتم توفير نموذج دفع تلقائيًا.
+BlankDonationFormDesc=يمكن أن يوفر لك ZionOne رابطًا/موقعًا إلكترونيًا عامًا يسمح للزوار الخارجيين بالتبرع. في حال تفعيل الدفع عبر الإنترنت نموذج، قد يتم توفير نموذج دفع تلقائيًا.
 EnablePublicDonationForm=تفعيل نموذج التبرع العام
 EnablePublicDonationList=تفعيل قائمة التبرعات العامة
 ForceDonateurNature = طبيعة القوة المانحة (فرد أو شركة)

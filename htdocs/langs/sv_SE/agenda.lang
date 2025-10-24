@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID händelse
 Actions=Händelser
 Agenda=Dagordning
@@ -29,10 +29,10 @@ ViewWeek=Veckovy
 ViewPerUser=Vy per användare
 ViewPerType=Vy per typ
 AutoActions= Automatisk fyllning
-AgendaAutoActionDesc= Här kan du ange händelser som du vill att Dolibarr ska skapa automatiskt i dagordningen. Om inget är förkryssat kommer endast manuella händelser att inkluderas i loggar och visas i dagordningen. Automatisk spårning av affärsåtgärder gjorda på objekt (bekräftelse, statusändring) sparas inte.
-AgendaSetupOtherDesc= Den här sidan innehåller alternativ för att tillåta export av dina Dolibarr events till en extern kalender (Thunderbird, Google Kalender etc ...)
+AgendaAutoActionDesc= Här kan du ange händelser som du vill att ZionOne ska skapa automatiskt i dagordningen. Om inget är förkryssat kommer endast manuella händelser att inkluderas i loggar och visas i dagordningen. Automatisk spårning av affärsåtgärder gjorda på objekt (bekräftelse, statusändring) sparas inte.
+AgendaSetupOtherDesc= Den här sidan innehåller alternativ för att tillåta export av dina ZionOne events till en extern kalender (Thunderbird, Google Kalender etc ...)
 AgendaExtSitesDesc=Den här sidan gör det möjligt att ange externa kalendrar för att se sina evenemang i dagordningen.
-ActionsEvents=Händelser som Dolibarr kommer att skapa en händelse för i dagordningen automatiskt
+ActionsEvents=Händelser som ZionOne kommer att skapa en händelse för i dagordningen automatiskt
 EventRemindersByEmailNotEnabled=Händelsepåminnelser via e-post var inte aktiverat i modulinställningen %s .
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Tredjepart %s skapad

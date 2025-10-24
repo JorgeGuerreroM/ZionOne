@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Impor / Ekspor
 ExportsArea=Ekspor
 ImportArea=Impor
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Pilih format file untuk digunakan sebagai format file
 ChooseFileToImport=Unggah file kemudian klik ikon %s untuk memilih file sebagai file impor sumber ...
 SourceFileFormat=Format file sumber
 FieldsInSourceFile=Bidang dalam file sumber
-FieldsInTargetDatabase=Bidang target dalam database Dolibarr
+FieldsInTargetDatabase=Bidang target dalam database ZionOne
 NoFields=Tanpa bidang
 MoveField=Pindahkan nomor kolom bidang %s
 ExampleOfImportFile=Example_of_import_file

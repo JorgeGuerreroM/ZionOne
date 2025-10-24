@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=הגדרת מודול PayBox
-PayBoxDesc=מודול זה מציע דפים המאפשרים תשלום ב-<a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> על ידי לקוחות. זה יכול לשמש עבור תשלום חינם או עבור תשלום על אובייקט Dolibarr מסוים (חשבונית, הזמנה, ...)
+PayBoxDesc=מודול זה מציע דפים המאפשרים תשלום ב-<a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> על ידי לקוחות. זה יכול לשמש עבור תשלום חינם או עבור תשלום על אובייקט ZionOne מסוים (חשבונית, הזמנה, ...)
 PayBoxDoPayment=שלם עם Paybox
 YouWillBeRedirectedOnPayBox=אתה תופנה בדף תיבת תשלום מאובטחת כדי להזין את פרטי כרטיס האשראי שלך
 SetupPayBoxToHavePaymentCreatedAutomatically=הגדר את תיבת התשלום שלך עם כתובת האתר <b>%s</b> כדי ליצור את התשלום באופן אוטומטי מאומת על ידי Paybox.

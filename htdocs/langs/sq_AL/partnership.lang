@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Backlinks për të kontrolluar
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb ditë përpara anulimit të statusit të një partneriteti kur një abonim ka skaduar
 ReferingWebsiteCheck=Kontrolli i referencës së faqes në internet
 ReferingWebsiteCheckDesc=Mund të aktivizoni një veçori për të kontrolluar nëse partnerët tuaj kanë shtuar një lidhje prapa në domenet e faqes suaj të internetit në faqen e tyre të internetit.
-PublicFormRegistrationPartnerDesc=Dolibarr mund t'ju ofrojë një URL/faqe të internetit publike për të lejuar vizitorët e jashtëm të kërkojnë të jenë pjesë e programit të partneritetit.
+PublicFormRegistrationPartnerDesc=ZionOne mund t'ju ofrojë një URL/faqe të internetit publike për të lejuar vizitorët e jashtëm të kërkojnë të jenë pjesë e programit të partneritetit.
 # Object
 DeletePartnership=Fshi një partneritet
 PartnershipDedicatedToThisThirdParty=Partneritet kushtuar kësaj pale të tretë

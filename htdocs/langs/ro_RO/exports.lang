@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Importuri / Exporturi
 ExportsArea=Exporturi
 ImportArea=Import
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Alegeți formatul de fișier care va fi utilizat ca f
 ChooseFileToImport=Încărcați fișierul, apoi dați clic pe pictograma %s pentru a selecta fișierul ca sursă de import...
 SourceFileFormat=Format fişier sursă
 FieldsInSourceFile=Câmpuri în fişierul sursă
-FieldsInTargetDatabase=Câmpuri țintă din baza de date Dolibarr
+FieldsInTargetDatabase=Câmpuri țintă din baza de date ZionOne
 NoFields=Niciun câmp
 MoveField=Mută câmpul coloană cu numărul %s
 ExampleOfImportFile=Example_of_import_file

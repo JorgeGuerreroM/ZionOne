@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Povratne veze za provjeru
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Nb dana prije otkazivanja statusa partnerstva kada je pretplata istekla
 ReferingWebsiteCheck=Provjera upućivanja na web stranicu
 ReferingWebsiteCheckDesc=Možete omogućiti funkciju da provjerite da li su vaši partneri dodali povratnu vezu na domene vaše web stranice na svojoj vlastitoj web stranici.
-PublicFormRegistrationPartnerDesc=Dolibarr vam može pružiti javnu URL adresu/web stranicu koja će omogućiti vanjskim posjetiteljima da zatraže da budu dio partnerskog programa.
+PublicFormRegistrationPartnerDesc=ZionOne vam može pružiti javnu URL adresu/web stranicu koja će omogućiti vanjskim posjetiteljima da zatraže da budu dio partnerskog programa.
 # Object
 DeletePartnership=Izbrišite partnerstvo
 PartnershipDedicatedToThisThirdParty=Partnerstvo posvećeno ovoj trećoj strani

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Suas informações de contato foram registradas. Em breve retornaremos seu contato...
 ErrorCompanyNameAlreadyExists=Já existe uma empresa com o nome %s. Escolha outro nome.
 ErrorSetACountryFirst=Coloque o país em primeiro lugar

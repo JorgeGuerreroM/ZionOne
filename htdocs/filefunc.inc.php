@@ -60,7 +60,7 @@
 ';
 
 if (!defined('DOL_APPLICATION_TITLE')) {
-	define('DOL_APPLICATION_TITLE', 'Dolibarr');
+	define('DOL_APPLICATION_TITLE', 'ZionOne');
 }
 if (!defined('DOL_VERSION')) {
 	define('DOL_VERSION', '22.0.0'); // a.b.c-alpha, a.b.c-beta, a.b.c-rcX or a.b.c
@@ -151,16 +151,16 @@ function dol_session_rotate($sessionname = '')
 
 
 // Define localization of conf file
-// --- Start of part replaced by Dolibarr packager makepack-dolibarr
+// --- Start of part replaced by ZionOne packager makepack-ZionOne
 $conffile = "conf/conf.php";
 $conffiletoshow = "htdocs/conf/conf.php";
 // For debian/redhat like systems
-//$conffile = "/etc/dolibarr/conf.php";
-//$conffiletoshow = "/etc/dolibarr/conf.php";
+//$conffile = "/etc/ZionOne/conf.php";
+//$conffiletoshow = "/etc/ZionOne/conf.php";
 
 
 // Include configuration
-// --- End of part replaced by Dolibarr packager makepack-dolibarr
+// --- End of part replaced by ZionOne packager makepack-ZionOne
 
 // Include configuration
 // @phpstan-ignore-next-line
@@ -203,13 +203,13 @@ foreach ($arrayofstreamtodisable as $streamtodisable) {
 
 if (!$result && !empty($_SERVER["GATEWAY_INTERFACE"])) {    // If install not done and we are in a web session
 	if (!empty($_SERVER["CONTEXT_PREFIX"])) {    // CONTEXT_PREFIX and CONTEXT_DOCUMENT_ROOT are not defined on all apache versions
-		$path = $_SERVER["CONTEXT_PREFIX"]; // example '/dolibarr/' when using an apache alias.
+		$path = $_SERVER["CONTEXT_PREFIX"]; // example '/ZionOne/' when using an apache alias.
 		if (!preg_match('/\/$/', $path)) {
 			$path .= '/';
 		}
 	} elseif (preg_match('/index\.php/', $_SERVER['PHP_SELF'])) {
 		// When we ask index.php, we MUST BE SURE that $path is '' at the end. This is required to make install process
-		// when using apache alias like '/dolibarr/' that point to htdocs.
+		// when using apache alias like '/ZionOne/' that point to htdocs.
 		// Note: If calling page was an index.php not into htdocs (ie comm/index.php, ...), then this redirect will fails,
 		// but we don't want to change this because when URL is correct, we must be sure the redirect to install/index.php will be correct.
 		$path = '';
@@ -224,7 +224,7 @@ if (!$result && !empty($_SERVER["GATEWAY_INTERFACE"])) {    // If install not do
 			if (empty($TDir[$i]) || $TDir[$i] == 'htdocs') {
 				break;
 			}
-			if ($TDir[$i] == 'dolibarr') {
+			if ($TDir[$i] == 'ZionOne') {
 				break;
 			}
 			if (substr($TDir[$i], -4, 4) == '.php') {
@@ -239,14 +239,14 @@ if (!$result && !empty($_SERVER["GATEWAY_INTERFACE"])) {    // If install not do
 
 	/*
 	print '<br><center>';
-	print 'The conf/conf.php file was not found or is not readable by the web server. If this is your first access, <a href="'.$path.'install/index.php">click here to start the Dolibarr installation process</a> to create it...';
+	print 'The conf/conf.php file was not found or is not readable by the web server. If this is your first access, <a href="'.$path.'install/index.php">click here to start the ZionOne installation process</a> to create it...';
 	print '</center><br>';
 	*/
 
 	exit;
 }
 
-// Force PHP error_reporting setup (Dolibarr may report warning without this)
+// Force PHP error_reporting setup (ZionOne may report warning without this)
 if (version_compare(phpversion(), '8.4', '<')) {
 	if (!empty($dolibarr_strict_mode)) {
 		error_reporting(E_ALL | E_STRICT);
@@ -319,8 +319,8 @@ if (empty($dolibarr_strict_mode)) {
 define('DOL_DOCUMENT_ROOT', $dolibarr_main_document_root); // Filesystem core php (htdocs)
 
 if (!file_exists(DOL_DOCUMENT_ROOT."/core/lib/functions.lib.php")) {
-	print "Error: Dolibarr config file content seems to be not correctly defined (file ".DOL_DOCUMENT_ROOT."/core/lib/functions.lib.php not found).<br>\n";
-	print "Please run dolibarr setup by calling page <b>/install</b>.<br>\n";
+	print "Error: ZionOne config file content seems to be not correctly defined (file ".DOL_DOCUMENT_ROOT."/core/lib/functions.lib.php not found).<br>\n";
+	print "Please run ZionOne setup by calling page <b>/install</b>.<br>\n";
 	exit(1);
 }
 
@@ -332,7 +332,7 @@ include_once DOL_DOCUMENT_ROOT.'/core/lib/security.lib.php';
 
 
 // Security: CSRF protection
-// This test check if referrer ($_SERVER['HTTP_REFERER']) is same web site than Dolibarr ($_SERVER['HTTP_HOST'])
+// This test check if referrer ($_SERVER['HTTP_REFERER']) is same web site than ZionOne ($_SERVER['HTTP_HOST'])
 // when we post forms (we allow GET and HEAD to accept direct link from a particular page).
 // Note about $_SERVER[HTTP_HOST/SERVER_NAME]: http://shiflett.org/blog/2006/mar/server-name-versus-http-host
 // See also CSRF protections done into main.inc.php
@@ -360,13 +360,13 @@ if (!defined('NOCSRFCHECK') && isset($dolibarr_nocsrfcheck) && $dolibarr_nocsrfc
 	// Another test is done later on token if option MAIN_SECURITY_CSRF_WITH_TOKEN is on.
 }
 if (empty($dolibarr_main_db_host) && !defined('NOREQUIREDB')) {
-	print '<div class="center">Dolibarr setup is not yet complete.<br><br>'."\n";
-	print '<a href="install/index.php">Click here to finish Dolibarr install process</a> ...</div>'."\n";
+	print '<div class="center">ZionOne setup is not yet complete.<br><br>'."\n";
+	print '<a href="install/index.php">Click here to finish ZionOne install process</a> ...</div>'."\n";
 	die;
 }
 if (empty($dolibarr_main_url_root) && !defined('NOREQUIREVIRTUALURL')) {
 	print 'Value for parameter \'dolibarr_main_url_root\' is not defined in your \'htdocs\conf\conf.php\' file.<br>'."\n";
-	print 'You must add this parameter with your full Dolibarr root Url (Example: http://myvirtualdomain/ or http://mydomain/mydolibarrurl/)'."\n";
+	print 'You must add this parameter with your full ZionOne root Url (Example: http://myvirtualdomain/ or http://mydomain/mydolibarrurl/)'."\n";
 	die;
 }
 
@@ -387,13 +387,13 @@ define('DOL_DATA_ROOT', $dolibarr_main_data_root); // Filesystem data (documents
 // Note: autodetect works only in case 1, 2, 3 and 4 of phpunit test CoreTest.php. For case 5, 6, only setting value into conf.php will works.
 $tmp = '';
 $found = 0;
-$real_dolibarr_main_document_root = str_replace('\\', '/', realpath($dolibarr_main_document_root)); // A) Value found into config file, to say where are store htdocs files. Ex: C:/xxx/dolibarr, C:/xxx/dolibarr/htdocs
+$real_dolibarr_main_document_root = str_replace('\\', '/', realpath($dolibarr_main_document_root)); // A) Value found into config file, to say where are store htdocs files. Ex: C:/xxx/ZionOne, C:/xxx/ZionOne/htdocs
 if (!empty($_SERVER["DOCUMENT_ROOT"])) {
-	$pathroot = $_SERVER["DOCUMENT_ROOT"]; // B) Value reported by web server setup (not defined on CLI mode), to say where is root of web server instance. Ex: C:/xxx/dolibarr, C:/xxx/dolibarr/htdocs
+	$pathroot = $_SERVER["DOCUMENT_ROOT"]; // B) Value reported by web server setup (not defined on CLI mode), to say where is root of web server instance. Ex: C:/xxx/ZionOne, C:/xxx/ZionOne/htdocs
 } else {
 	$pathroot = 'NOTDEFINED';
 }
-$paths = explode('/', str_replace('\\', '/', $_SERVER["SCRIPT_NAME"])); // C) Value reported by web server, to say full path on filesystem of a file. Ex: /dolibarr/htdocs/admin/system/phpinfo.php
+$paths = explode('/', str_replace('\\', '/', $_SERVER["SCRIPT_NAME"])); // C) Value reported by web server, to say full path on filesystem of a file. Ex: /ZionOne/htdocs/admin/system/phpinfo.php
 // Try to detect if $_SERVER["DOCUMENT_ROOT"]+start of $_SERVER["SCRIPT_NAME"] is $dolibarr_main_document_root. If yes, relative url to add before dol files is this start part.
 $concatpath = '';
 $tmp3 = '';
@@ -424,14 +424,14 @@ if (!$found) {
 if (!empty($dolibarr_main_force_https)) {
 	$tmp = preg_replace('/^http:/i', 'https:', $tmp);
 }
-define('DOL_MAIN_URL_ROOT', $tmp); // URL absolute root (https://sss/dolibarr, ...)
+define('DOL_MAIN_URL_ROOT', $tmp); // URL absolute root (https://sss/ZionOne, ...)
 $uri = preg_replace('/^http(s?):\/\//i', '', constant('DOL_MAIN_URL_ROOT')); // $uri contains url without http*
 $suburi = strstr($uri, '/'); // $suburi contains url without domain:port
 if (empty($suburi) || $suburi === '/') {
 	$suburi = ''; // If $suburi is null or /, it is now ''
 }
 if (!defined('DOL_URL_ROOT')) {
-	define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/dolibarr', ...)
+	define('DOL_URL_ROOT', $suburi); // URL relative root ('', '/ZionOne', ...)
 }
 //print DOL_MAIN_URL_ROOT.'-'.DOL_URL_ROOT."\n";
 

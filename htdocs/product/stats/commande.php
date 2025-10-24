@@ -26,7 +26,7 @@
  *       \brief      Page des stats des commandes clients pour un produit
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/product.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/commande/class/commande.class.php';

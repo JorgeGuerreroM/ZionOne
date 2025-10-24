@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=รายละเอียดการติดต่อของคุณได้ถูกบันทึกไว้แล้ว เราจะติดต่อกลับโดยเร็วที่สุด...
 ContactUsDesc=แบบฟอร์มนี้ช่วยให้คุณสามารถส่งข้อความถึงเราสำหรับการติดต่อครั้งแรก
 ErrorCompanyNameAlreadyExists=ชื่อบริษัท %sมีอยู่แล้ว ให้เลือกอันอื่น

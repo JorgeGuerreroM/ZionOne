@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Grāmatvedība
 Accounting=Grāmatvedība
 ACCOUNTING_EXPORT_SEPARATORCSV=Eksportējamā faila kolonnu atdalītājs
@@ -340,7 +340,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Atspējot saistīšanu un pārskaitīšanu p
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Atspējot saistīšanu un pārsūtīšanu pirkumu grāmatvedībā (pārdevēja rēķini netiks ņemti vērā grāmatvedībā)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Atspējojiet grāmatvedībā iesiešanu un pārskaitīšanu izdevumu pārskatos (grāmatvedībā netiks ņemti vērā izdevumu pārskati)
 ACCOUNTING_ENABLE_LETTERING=Grāmatvedībā iespējot burtu funkciju
-ACCOUNTING_ENABLE_LETTERING_DESC=Kad šī opcija ir iespējota, katram grāmatvedības ierakstam varat definēt kodu, lai varētu grupēt dažādas grāmatvedības kustības. Agrāk, kad dažādi žurnāli tika pārvaldīti neatkarīgi, šī funkcija bija nepieciešama, lai grupētu dažādu žurnālu kustības līnijas. Tomēr, izmantojot Dolibarr grāmatvedību, šāds izsekošanas kods ar nosaukumu " <b> %s </b> " jau tiek saglabāts automātiski, tāpēc automātiskais burts jau ir izveidots bez kļūdas riska, tāpēc šī funkcija ir kļuvusi nederīga parastai lietošanai. Manuāla burtu rakstīšanas funkcija ir paredzēta galalietotājiem, kuri patiešām neuzticas datorprogrammai, kas veic datu pārsūtīšanu grāmatvedībā.
+ACCOUNTING_ENABLE_LETTERING_DESC=Kad šī opcija ir iespējota, katram grāmatvedības ierakstam varat definēt kodu, lai varētu grupēt dažādas grāmatvedības kustības. Agrāk, kad dažādi žurnāli tika pārvaldīti neatkarīgi, šī funkcija bija nepieciešama, lai grupētu dažādu žurnālu kustības līnijas. Tomēr, izmantojot ZionOne grāmatvedību, šāds izsekošanas kods ar nosaukumu " <b> %s </b> " jau tiek saglabāts automātiski, tāpēc automātiskais burts jau ir izveidots bez kļūdas riska, tāpēc šī funkcija ir kļuvusi nederīga parastai lietošanai. Manuāla burtu rakstīšanas funkcija ir paredzēta galalietotājiem, kuri patiešām neuzticas datorprogrammai, kas veic datu pārsūtīšanu grāmatvedībā.
 EnablingThisFeatureIsNotNecessary=Stingrai grāmatvedības pārvaldībai šīs funkcijas iespējošana vairs nav nepieciešama.
 ACCOUNTING_ENABLE_AUTOLETTERING=Iespējot automātisko burtu rakstīšanu, pārejot uz grāmatvedību
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Burtu kods tiek automātiski ģenerēts un palielināts, un to neizvēlas gala lietotājs

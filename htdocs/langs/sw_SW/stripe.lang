@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Usanidi wa moduli ya milia
-StripeDesc=Wape wateja wako ukurasa wa malipo mtandaoni kwa ajili ya malipo ya kadi za mkopo/debit kupitia <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Mstari </a> . Hii inaweza kutumika kuwaruhusu wateja wako kufanya malipo ya dharura au kwa malipo yanayohusiana na kitu fulani cha Dolibarr (ankara, agizo, ...)
+StripeDesc=Wape wateja wako ukurasa wa malipo mtandaoni kwa ajili ya malipo ya kadi za mkopo/debit kupitia <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Mstari </a> . Hii inaweza kutumika kuwaruhusu wateja wako kufanya malipo ya dharura au kwa malipo yanayohusiana na kitu fulani cha ZionOne (ankara, agizo, ...)
 StripeOrCBDoPayment=Lipa kwa kadi ya mkopo au Stripe
-FollowingUrlAreAvailableToMakePayments=URL zifuatazo zinapatikana ili kutoa ukurasa kwa mteja kufanya malipo kwenye vitu vya Dolibarr
+FollowingUrlAreAvailableToMakePayments=URL zifuatazo zinapatikana ili kutoa ukurasa kwa mteja kufanya malipo kwenye vitu vya ZionOne
 PaymentForm=Fomu ya malipo
 WelcomeOnPaymentPage=Karibu kwenye huduma yetu ya malipo ya mtandaoni
 ThisScreenAllowsYouToPay=Skrini hii hukuruhusu kufanya malipo ya mtandaoni kwa %s.
@@ -23,7 +23,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL ya kutoa %s ukurasa wa malipo mtand
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL ya kutoa %s ukurasa wa malipo mtandaoni kwa usajili wa wanachama
 ToOfferALinkForOnlinePaymentOnDonation=URL ya kutoa %s ukurasa wa malipo mtandaoni kwa malipo ya mchango
 YouCanAddTagOnUrl=You can also add url parameter <b>&tag=value</b> to any of those URL (mandatory only for payment not linked to an object) to add your own payment comment tag.<br>For the URL of payments with no existing object, you may also add the parameter <strong>&noidempotency=1</strong> so the same link with same tag can be used several times (some payment mode may limit the payment to 1 for each different link without this parameter)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=Sanidi Stripe yako kwa url <b> %s </b>  kufanya malipo kuundwa kiotomatiki yanapothibitishwa na Stripe.
 AccountParameter=Vigezo vya akaunti
 UsageParameter=Vigezo vya matumizi

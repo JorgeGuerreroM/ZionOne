@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Modul id
 ModuleBuilderDesc=Bu alət yalnız təcrübəli istifadəçilər və ya tərtibatçılar tərəfindən istifadə edilməlidir. Öz modulunuzu qurmaq və ya redaktə etmək üçün kommunal proqramlar təqdim edir. Alternativ <a href="%s" target="_blank" rel="noopener noreferrer">manual inkişaf üçün sənədlər buradadır</a>.
 EnterNameOfModuleDesc=Boşluq olmadan yaratmaq üçün modulun/tətbiqin adını daxil edin. Sözləri ayırmaq üçün böyük hərflərdən istifadə edin (Məsələn: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Modulunuzu silə bilərsiniz. XƏBƏRDARLIQ: Modul
 EnterNameOfObjectToDeleteDesc=Bir obyekti silə bilərsiniz. XƏBƏRDARLIQ: Obyektlə əlaqəli bütün kodlaşdırma faylları (əllə yaradılan və ya yaradılan) silinəcək!
 DangerZone=Təhlükəli zona
 BuildPackage=Paket qurmaq
-BuildPackageDesc=Siz tətbiqinizin zip paketini yarada bilərsiniz ki, onu istənilən Dolibarr-da yaymağa hazırsınız. Siz həmçinin onu yaymaq və ya <a href="https://www.dolistore.com">DoliStore.com</a> kimi bazarda sata bilərsiniz.
+BuildPackageDesc=Siz tətbiqinizin zip paketini yarada bilərsiniz ki, onu istənilən ZionOne-da yaymağa hazırsınız. Siz həmçinin onu yaymaq və ya <a href="https://www.dolistore.com">DoliStore.com</a> kimi bazarda sata bilərsiniz.
 BuildDocumentation=Sənədlərin qurulması
 ModuleIsNotActive=Bu modul hələ aktivləşdirilməyib. Onu canlı etmək üçün %s səhifəsinə keçin və ya bura klikləyin
 ModuleIsLive=Bu modul aktivləşdirilib. İstənilən dəyişiklik cari canlı funksiyanı poza bilər.
@@ -110,7 +110,7 @@ HooksDefDesc=<b>module_parts['hooks']</b> xassəsində modul deskriptor faylınd
 TriggerDefDesc=Modulunuzdan kənar biznes hadisəsi (digər modullar tərəfindən tetiklenen hadisələr) icra edildikdə icra etmək istədiyiniz kodu trigger faylında müəyyən edin.
 SeeIDsInUse=Quraşdırmanızda istifadə edilən ID-lərə baxın
 SeeReservedIDsRangeHere=Qorunan ID-lər sırasına baxın
-ToolkitForDevelopers=Dolibarr tərtibatçıları üçün alətlər dəsti
+ToolkitForDevelopers=ZionOne tərtibatçıları üçün alətlər dəsti
 TryToUseTheModuleBuilder=If you have knowledge of SQL and PHP, you may use the native module builder wizard.<br>Enable the module <strong>%s</strong> and use the wizard by clicking the <span class="fa fa-bug"></span> on the top right menu.<br>Warning: This is an advanced developer feature, do <b>not</b> experiment on your production site!
 SeeTopRightMenu=Üst sağ menyuda <span class="fa fa-bug"></span>-a baxın
 AddLanguageFile=Dil faylı əlavə edin

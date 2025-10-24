@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Žiadna chyba sa zaväzujeme
@@ -53,12 +53,12 @@ ErrorWrongDate=Dátum nie je správny!
 ErrorFailedToWriteInDir=Nepodarilo sa zapísať do adresára %s
 ErrorFailedToBuildArchive=Nepodarilo sa vytvoriť archívny súbor %s
 ErrorFoundBadEmailInFile=Našiel nesprávne email syntaxe %s riadkov v súbore (%s príklad súlade s emailom = %s)
-ErrorUserCannotBeDelete=Používateľa nie je možné vymazať. Možno je to spojené s entitami Dolibarr.
+ErrorUserCannotBeDelete=Používateľa nie je možné vymazať. Možno je to spojené s entitami ZionOne.
 ErrorFieldsRequired=Niektoré povinné polia zostali prázdne.
 ErrorSubjectIsRequired=Predmet e-mailu je povinný
 ErrorInAddAttachmentsImageBaseOnMedia=Chyba pri vytváraní obrazových súborov do adresára médií pre prílohu
 ErrorInAddAttachmentsImageBaseIsSrcData=Chyba pri vytváraní obrazových súborov (nájdených ako data:) do dočasného adresára pre prílohu
-ErrorFailedToCreateDir=Nepodarilo sa vytvoriť adresár. Uistite sa, že webový server má užívateľ oprávnenie na zápis do adresára dokumentov Dolibarr. Ak je parameter <b>safe_mode</b> je povolené na tomto PHP, skontrolujte, či Dolibarr php súbory, vlastné pre užívateľa webového servera (alebo skupina).
+ErrorFailedToCreateDir=Nepodarilo sa vytvoriť adresár. Uistite sa, že webový server má užívateľ oprávnenie na zápis do adresára dokumentov ZionOne. Ak je parameter <b>safe_mode</b> je povolené na tomto PHP, skontrolujte, či ZionOne php súbory, vlastné pre užívateľa webového servera (alebo skupina).
 ErrorNoMailDefinedForThisUser=Žiadna pošta definované pre tohto používateľa
 ErrorSetupOfEmailsNotComplete=Nastavenie e-mailov nie je dokončené
 ErrorAccountingClosureSetupNotComplete=Nastavenie uzatváracích účtov nie je dokončené
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Pole <b>%s</b> nesmie obsahova�
 ErrorFieldMustHaveXChar=Pole <b>%s</b> musí mať aspoň %s znakov.
 ErrorNoAccountancyModuleLoaded=Nie účtovníctva modul aktivovaný
 ErrorExportDuplicateProfil=Tento názov profilu už pre túto sadu exportov existuje.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP zhoda nie je úplná.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP zhoda nie je úplná.
 ErrorLDAPMakeManualTest=. LDIF súbor bol vytvorený v adresári %s. Skúste načítať ručne z príkazového riadku získať viac informácií o chybách.
 ErrorCantSaveADoneUserWithZeroPercentage=Akciu nie je možné uložiť so stavom „nezačaté“, ak je vyplnené aj pole „vykonal“.
 ErrorPleaseTypeBankTransactionReportName=Zadajte názov bankového výpisu, v ktorom sa má záznam nahlásiť (Formát RRRRMM alebo RRRRMMDD)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s je priradený do inej tretej
 ErrorFailedToSendPassword=Nepodarilo sa odoslať heslo
 ErrorFailedToLoadRSSFile=Nedokáže dostať RSS feed. Skúste pridať konštantný MAIN_SIMPLEXMLLOAD_DEBUG prípade chybových hlásení neposkytuje dostatok informácií.
 ErrorForbidden=Prístup bol odmietnutý.<br>Pokúšate sa o prístup na stránku, oblasť alebo funkciu deaktivovaného modulu alebo bez toho, aby ste boli v overenej relácii, alebo to váš používateľ nemá povolené.
-ErrorForbidden2=Povolenie pre toto prihlásenie môže byť definovaná správcom Dolibarr z ponuky %s-&gt; %s.
-ErrorForbidden3=Zdá sa, že Dolibarr nie je využitá prostredníctvom overené relácie. Pozrite sa na dokumentáciu k nastaveniu Dolibarr vedieť, ako riadiť autentizácia (htaccess, mod_auth alebo iné ...).
+ErrorForbidden2=Povolenie pre toto prihlásenie môže byť definovaná správcom ZionOne z ponuky %s-&gt; %s.
+ErrorForbidden3=Zdá sa, že ZionOne nie je využitá prostredníctvom overené relácie. Pozrite sa na dokumentáciu k nastaveniu ZionOne vedieť, ako riadiť autentizácia (htaccess, mod_auth alebo iné ...).
 ErrorForbidden4=Poznámka: Ak chcete zničiť existujúce relácie pre toto prihlásenie, vymažte súbory cookie prehliadača.
 ErrorNoImagickReadimage=Trieda Imagick nie je nájdený v tejto PHP. Náhľad nie je môžu byť k dispozícii. Správcovia môžu zakázať túto kartu z menu Nastavenie - Zobrazenie.
 ErrorRecordAlreadyExists=Záznam už existuje
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Užívateľský účet <b>%s</b> použiť na 
 ErrorNoActivatedBarcode=Žiaden čiarový kód aktivovaný typ
 ErrUnzipFails=Nepodarilo sa rozbaliť %s s ZipArchive
 ErrNoZipEngine=Žiadny nástroj na zips/rozbalenie súboru %s v tomto PHP
-ErrorFileMustBeADolibarrPackage=Súborov %s musí byť zips Dolibarr balíček
-ErrorModuleFileRequired=Musíte vybrať súbor balíka modulov Dolibarr
+ErrorFileMustBeADolibarrPackage=Súborov %s musí byť zips ZionOne balíček
+ErrorModuleFileRequired=Musíte vybrať súbor balíka modulov ZionOne
 ErrorPhpCurlNotInstalled=PHP CURL nie je nainštalovaný, je to nevyhnutné hovoriť s Paypal
 ErrorFailedToAddToMailmanList=Nepodarilo sa pridať záznam do %s %s poštár zoznamu alebo SPIP základne
 ErrorFailedToRemoveToMailmanList=Nepodarilo sa odstrániť záznam %s %s na zoznam poštár alebo SPIP základne
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=Dátum musí byť väčší ako dnešný
 ErrorStartDateGreaterEnd=Dátum začiatku je väčší ako dátum ukončenia
 ErrorPaymentModeDefinedToWithoutSetup=Platobný režim bol nastavený na typ %s ale nastavenie modulu Faktúry nebola dokončená definovať informácie, ktoré sa pre tento platobný režim.
 ErrorPHPNeedModule=Chyba, musí mať PHP modul <b>%s</b> nainštalovať túto funkciu používať.
-ErrorOpenIDSetupNotComplete=Môžete nastavenie Dolibarr konfiguračný súbor, aby OpenID overovania, ale URL OpenID služby nie je definovaný do stálych %s
+ErrorOpenIDSetupNotComplete=Môžete nastavenie ZionOne konfiguračný súbor, aby OpenID overovania, ale URL OpenID služby nie je definovaný do stálych %s
 ErrorWarehouseMustDiffers=Zdrojovej a cieľovej sklady musia sa líši
 ErrorBadFormat=Zlý formát!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Chyba, tento člen ešte nie je prepojený so žiadnou treťou stranou. Pred vytvorením predplatného s faktúrou prepojte člena s existujúcou treťou stranou alebo vytvorte novú tretiu stranu.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Nový používateľ musí mať e-mail
 ErrorUserClone=Chyba v kategóriách klonov používateľov
 ErrorQtyOrderedLessQtyShipped = Objednané množstvo nemôže byť menšie ako odoslané množstvo.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Chyba, vytvorenie inej platby na bankový účet s inou menou, ako je mena spoločnosti, zatiaľ nie je podporované.
-ErrorStreamMustBeEnabled=PHP stream %s nie je k dispozícii. Skontrolujte svoje PHP moduly a parameter Dolibarr $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=PHP stream %s nie je k dispozícii. Skontrolujte svoje PHP moduly a parameter ZionOne $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Chyba, pokúšate sa zaplatiť rôzne faktúry v rôznych menách v rámci tej istej platby
 ErrorLinkNotFoundWithSharedLink=Chyba, odkaz s týmto zdieľaným kľúčom sa nenašiel
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Nesprávny počet riadkov. Súbory musia mať aspoň 2 riadky (1 riadok pre názov a 1 riadok pre údaje).
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Chyba, hodnota pre tento typ poľa je povinná
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Váš parameter PHP upload_max_filesize (%s) je vyšší ako parameter PHP post_max_size (%s). Toto nie je konzistentné nastavenie.
-WarningPasswordSetWithNoAccount=Pre tohto člena bolo nastavené heslo. Nebol však vytvorený žiadny používateľský účet. Takže toto heslo je uložené, ale nedá sa použiť na prihlásenie do Dolibarr. Môže byť použitý externým modulom/rozhraním, ale ak nepotrebujete definovať žiadne prihlasovacie meno ani heslo pre člena, môžete vypnúť možnosť „Spravovať prihlásenie pre každého člena“ v nastaveniach modulu člena. Ak potrebujete spravovať prihlásenie, ale nepotrebujete žiadne heslo, môžete toto pole ponechať prázdne, aby ste sa vyhli tomuto varovaniu. Poznámka: E-mail možno použiť aj ako prihlasovacie meno, ak je člen prepojený s používateľom.
+WarningPasswordSetWithNoAccount=Pre tohto člena bolo nastavené heslo. Nebol však vytvorený žiadny používateľský účet. Takže toto heslo je uložené, ale nedá sa použiť na prihlásenie do ZionOne. Môže byť použitý externým modulom/rozhraním, ale ak nepotrebujete definovať žiadne prihlasovacie meno ani heslo pre člena, môžete vypnúť možnosť „Spravovať prihlásenie pre každého člena“ v nastaveniach modulu člena. Ak potrebujete spravovať prihlásenie, ale nepotrebujete žiadne heslo, môžete toto pole ponechať prázdne, aby ste sa vyhli tomuto varovaniu. Poznámka: E-mail možno použiť aj ako prihlasovacie meno, ak je člen prepojený s používateľom.
 WarningMandatorySetupNotComplete=Kliknutím sem nastavíte hlavné parametre
 WarningEnableYourModulesApplications=Kliknutím sem povolíte svoje moduly a aplikácie
 WarningSafeModeOnCheckExecDir=Pozor, PHP <b>safe_mode</b> voľba je na to príkaz musí byť uložené vo vnútri adresára deklarovanej <b>safe_mode_exec_dir</b> parametrov php.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Upozornenie, čítanie bankového 
 WarningNoDataTransferedInAccountancyYet=Upozorňujeme, že v účtovnej tabuľke nie sú žiadne údaje. Preneste údaje zaznamenané v aplikácii do účtovnej sekcie alebo zmeňte režim výpočtu tak, aby sa údaje zaznamenané mimo účtovníctva analyzovali.
 WarningChangingThisMayBreakStopTaskScheduler=Upozornenie, zmena tejto hodnoty môže deaktivovať plánovač
 WarningAmountOfFileDiffersFromSumOfLines=Upozornenie, počet riadkov súboru (%s) sa líši od súčtu riadkov (%s)
-WarningModuleAffiliatedToAReportedCompany=Upozornenie: Tento modul bol nahlásený nadácii Dolibarr ako publikovaný spoločnosťou, ktorá používa nelegálne praktiky (nedodržiavanie pravidiel používania značky Dolibarr, zhromažďovanie vašich údajov bez vášho súhlasu alebo nasadzovanie škodlivého softvéru).
+WarningModuleAffiliatedToAReportedCompany=Upozornenie: Tento modul bol nahlásený nadácii ZionOne ako publikovaný spoločnosťou, ktorá používa nelegálne praktiky (nedodržiavanie pravidiel používania značky ZionOne, zhromažďovanie vašich údajov bez vášho súhlasu alebo nasadzovanie škodlivého softvéru).
 WarningModuleAffiliatedToAPiratPlatform=Buďte opatrní pri získavaní modulu (plateného alebo bezplatného) z podozrivej neoficiálnej platformy, ako je %s
 
 SwissQrOnlyVIR = Faktúru SwissQR je možné pridať iba na faktúry nastavené na úhradu prevodom.

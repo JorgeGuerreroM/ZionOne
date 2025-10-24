@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=உறுப்பினர்கள் பகுதி
 MemberCard=உறுப்பினர் அட்டை
 SubscriptionCard=சந்தா அட்டை
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=சரிபார்க்கப்பட்ட �
 ErrorThisMemberIsNotPublic=இந்த உறுப்பினர் பொது இல்லை
 ErrorMemberIsAlreadyLinkedToThisThirdParty=மற்றொரு உறுப்பினராக (பெயர்: <b> %s </b>, உள்நுழைவு: <b> %s </b>) ஏற்கனவே ஒரு மூன்றாம் தரப்பு <b> %s </b> இணைக்கப்பட்டுள்ளது. மூன்றாம் தரப்பினரை உறுப்பினருடன் மட்டும் இணைக்க முடியாது என்பதால் இந்த இணைப்பை முதலில் அகற்றவும் (மற்றும் நேர்மாறாகவும்).
 ErrorUserPermissionAllowsToLinksToItselfOnly=பாதுகாப்பு காரணங்களுக்காக, உங்களுடையது அல்லாத ஒரு பயனருடன் ஒரு உறுப்பினரை இணைக்க அனைத்து பயனர்களையும் திருத்துவதற்கான அனுமதிகள் உங்களுக்கு வழங்கப்பட வேண்டும்.
-SetLinkToUser=Dolibarr பயனருக்கான இணைப்பு
-SetLinkToThirdParty=Dolibarr மூன்றாம் தரப்பினருக்கான இணைப்பு
+SetLinkToUser=ZionOne பயனருக்கான இணைப்பு
+SetLinkToThirdParty=ZionOne மூன்றாம் தரப்பினருக்கான இணைப்பு
 MemberCountersArePublic=Counters of valid members are public
 MembersCards=Generation of cards for members
 MembersList=உறுப்பினர்களின் பட்டியல்
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=இந்தப் பங்களிப்பை ந�
 Filehtpasswd=htpasswd கோப்பு
 ValidateMember=ஒரு உறுப்பினரை சரிபார்க்கவும்
 ConfirmValidateMember=இந்த உறுப்பினரை நிச்சயமாகச் சரிபார்க்க விரும்புகிறீர்களா?
-FollowingLinksArePublic=பின்வரும் இணைப்புகள் எந்த Dolibarr அனுமதியாலும் பாதுகாக்கப்படாத திறந்த பக்கங்கள். அவை வடிவமைக்கப்பட்ட பக்கங்கள் அல்ல, உறுப்பினர்களின் தரவுத்தளத்தை எவ்வாறு பட்டியலிடுவது என்பதைக் காட்ட உதாரணமாக வழங்கப்பட்டுள்ளது.
+FollowingLinksArePublic=பின்வரும் இணைப்புகள் எந்த ZionOne அனுமதியாலும் பாதுகாக்கப்படாத திறந்த பக்கங்கள். அவை வடிவமைக்கப்பட்ட பக்கங்கள் அல்ல, உறுப்பினர்களின் தரவுத்தளத்தை எவ்வாறு பட்டியலிடுவது என்பதைக் காட்ட உதாரணமாக வழங்கப்பட்டுள்ளது.
 PublicMemberList=பொது உறுப்பினர் பட்டியல்
 BlankSubscriptionForm=பொது சுய பதிவு படிவம்
-BlankSubscriptionFormDesc=Dolibarr உங்களுக்கு ஒரு பொது URL/இணையதளத்தை வழங்க முடியும், இது வெளிப்புற பார்வையாளர்களை அடித்தளத்திற்கு குழுசேரக் கேட்க அனுமதிக்கும். ஆன்லைன் கட்டணத் தொகுதி இயக்கப்பட்டிருந்தால், கட்டணப் படிவமும் தானாகவே வழங்கப்படலாம்.
+BlankSubscriptionFormDesc=ZionOne உங்களுக்கு ஒரு பொது URL/இணையதளத்தை வழங்க முடியும், இது வெளிப்புற பார்வையாளர்களை அடித்தளத்திற்கு குழுசேரக் கேட்க அனுமதிக்கும். ஆன்லைன் கட்டணத் தொகுதி இயக்கப்பட்டிருந்தால், கட்டணப் படிவமும் தானாகவே வழங்கப்படலாம்.
 EnablePublicSubscriptionForm=சுய சந்தா படிவத்துடன் பொது இணையதளத்தை இயக்கவும்
 ForceMemberType=உறுப்பினர் வகையை கட்டாயப்படுத்தவும்
 ExportDataset_member_1=உறுப்பினர்கள் மற்றும் பங்களிப்புகள்

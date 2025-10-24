@@ -27,7 +27,7 @@ create table llx_projet
   dateo            	date,						-- date start project
   datee            	date,						-- date end project
   ref              	varchar(50),				-- reference number
-  ref_ext          	varchar(50),				-- reference into an external system (not used by dolibarr)
+  ref_ext          	varchar(50),				-- reference into an external system (not used by ZionOne)
   entity           	integer DEFAULT 1 NOT NULL,	-- multi company id
   title            	varchar(255) NOT NULL,
   description      	text,

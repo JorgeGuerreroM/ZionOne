@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=نص مرمز
 WebsiteName=اسم الموقع
 WebsiteSetupDesc=قم بإنشاء الموقع الالكتروني الذي ترغب باستخدامه ثم اذهب الى القائمة المواقع الإلكترونية لتعديلها
@@ -51,7 +51,7 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=لنشر هذا الموقع مباش
 SetHereVirtualHost=<u>بإستخدام اباتشي \\انجنكس\\...</u><br> على خادمك (اباتشي او انجنكس..) قم بإنشاء خادم افتراضي يدعم البي اتش بي واجعل المسار الجذر له<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=مثال إعدادات لاستخدامه مع خادم اباتشي افتراضي
 YouCanAlsoTestWithPHPS=<u>استخدم مع خادم بي إتش بي -PHP- المضمن</u><br> في بيئة التطوير، قد تفضل اختبار الموقع باستخدام خادم بي إتش بي -PHP- المضمن عن طريق تشغيل
-YouCanAlsoDeployToAnotherWHP=<u>قم بإدارة موقع الويب الخاص بك داخل مزود استضافة دوليبار</u><br> إذا لم يكن لديك خادم ويب مثل أباتشي -Apache- أو إنجن إكس -NGinx- متاحًا على الإنترنت، يمكنك تصدير واستيراد موقعك إلى نسخة دوليبار أخرى يوفرها مزود استضافة دوليبار آخر يوفر تكاملاً كاملاً مع موقع إلكتروني. يمكنك العثور على قائمة ببعض مزودي استضافة دوليبار على <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>قم بإدارة موقع الويب الخاص بك داخل مزود استضافة دوليبار</u><br> إذا لم يكن لديك خادم ويب مثل أباتشي -Apache- أو إنجن إكس -NGinx- متاحًا على الإنترنت، يمكنك تصدير واستيراد موقعك إلى نسخة دوليبار أخرى يوفرها مزود استضافة دوليبار آخر يوفر تكاملاً كاملاً مع موقع إلكتروني. يمكنك العثور على قائمة ببعض مزودي استضافة دوليبار على <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=ايضاً تأكد من ان مستخدم الخادم (مثلا www-data ) لديه صلاحيات <strong>%s</strong> على الملفات <br><strong>%s</strong>
 ReadPerm=قرأ
 WritePerm=التعديل والكتابة

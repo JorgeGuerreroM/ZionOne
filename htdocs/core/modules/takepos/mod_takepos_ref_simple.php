@@ -35,10 +35,10 @@ dol_include_once('/core/modules/takepos/modules_takepos.php');
 class mod_takepos_ref_simple extends ModeleNumRefTakepos
 {
 	/**
-	 * Dolibarr version of the loaded document 'development', 'experimental', 'dolibarr'
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental'
+	 * ZionOne version of the loaded document 'development', 'experimental', 'ZionOne'
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental'
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 * Prefix

@@ -23,7 +23,7 @@
  * \brief   EventOrganization setup page.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 // Libraries

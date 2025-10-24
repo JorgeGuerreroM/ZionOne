@@ -195,7 +195,7 @@ abstract class ActionsAdherentCardCommon
 				$this->tpl['nb_emailing'] = $this->object->getNbOfEMailings();
 			}
 
-			// Dolibarr user
+			// ZionOne user
 			if ($this->object->user_id) {
 				$dolibarr_user = new User($this->db);
 				$result = $dolibarr_user->fetch($this->object->user_id);

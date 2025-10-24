@@ -35,10 +35,10 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/asset/modules_asset.php';
 class mod_asset_advanced extends ModeleNumRefAsset
 {
 	/**
-	 * Dolibarr version of the loaded document
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental'
+	 * ZionOne version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental'
 	 */
-	public $version = 'dolibarr'; // 'development', 'experimental', 'dolibarr'
+	public $version = 'ZionOne'; // 'development', 'experimental', 'ZionOne'
 
 	/**
 	 * @var string Error message

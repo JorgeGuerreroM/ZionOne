@@ -30,7 +30,7 @@
  *		\brief      Setup page for order module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/pdf.lib.php';
@@ -81,7 +81,7 @@ if ($action == "update") {
 	}
 	if (GETPOSTISSET('SALES_ORDER_SHOW_SHIPPING_ADDRESS')) {
 		dolibarr_set_const($db, "SALES_ORDER_SHOW_SHIPPING_ADDRESS", GETPOSTINT("SALES_ORDER_SHOW_SHIPPING_ADDRESS"), 'chaine', 0, '', $conf->entity);
-		dolibarr_del_const($db, "SALES_ORDER_SHOW_SHIPPING_ADDRESS", $conf->entity);
+		zionone_del_const($db, "SALES_ORDER_SHOW_SHIPPING_ADDRESS", $conf->entity);
 	}
 
 	// Terms of sale
@@ -112,7 +112,7 @@ if ($action == 'removetermsofsale') {
 	if ($filename != '') {
 		dol_delete_file($file);
 	}
-	dolibarr_del_const($db, 'MAIN_INFO_ORDER_TERMSOFSALE', $conf->entity);
+	zionone_del_const($db, 'MAIN_INFO_ORDER_TERMSOFSALE', $conf->entity);
 }
 
 /*

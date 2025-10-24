@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Doación/Subvención
 Donations=Doacións/Subvencións
 DonationRef=Ref. doación/subvención
@@ -37,7 +37,7 @@ DonationUseThirdparties=Usa o enderezo dun terceiro existente como enderezo do d
 DonationsStatistics=Estatísticas de doazóns
 NbOfDonations=Número de doazóns/subvencións
 BlankDonationForm=Formulario de doazón pública
-BlankDonationFormDesc=Dolibarr pode proporcionar unha páxina pública para que os visitantes externos podan solicitar afiliarse. Se atópase activo un módulo de pagamento en líña, proporá automáticamente un formulario de pagamento.
+BlankDonationFormDesc=ZionOne pode proporcionar unha páxina pública para que os visitantes externos podan solicitar afiliarse. Se atópase activo un módulo de pagamento en líña, proporá automáticamente un formulario de pagamento.
 EnablePublicDonationForm=Activar o formulario de doazón pública
 EnablePublicDonationList=Activar a lista pública de doazóns
 ForceDonateurNature = Natureza do doante (persoa física ou xurídica)

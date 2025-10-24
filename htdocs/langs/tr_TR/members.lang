@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Üye alanı
 MemberCard=Üye kartı
 SubscriptionCard=Abone kartı
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Doğrulanmış genel üyelerin listesi
 ErrorThisMemberIsNotPublic=Bu üye genel değil
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Başka bir üye  (adı: <b>%s</b>, kullanıcı: <b>%s</b>) zaten bir üçüncü partiyle <b>%s</b> bağlantılı.Önce bu bağlantıyı kaldırın, çünkü bir üçüncü partı yalnızca bir üyeye bağlantılı olamaz (ya da tersi).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Güvenlik nedeniyle, bir üyenin kendinizin dışında bir kullanıcıya bağlı olabilmesi için tüm kullanıcıları düzenleme iznine sahip olmanız gerekir.
-SetLinkToUser=Bir Dolibarr kullanıcısına bağlantı
-SetLinkToThirdParty=Bir Dolibarr üçüncü partisine bağlantı
+SetLinkToUser=Bir ZionOne kullanıcısına bağlantı
+SetLinkToThirdParty=Bir ZionOne üçüncü partisine bağlantı
 MemberCountersArePublic=Geçerli üyelerin sayaçları herkese açıktır
 MembersCards=Üyeler için kart üretimi
 MembersList=Üyelerin listesi
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Bu katkıyı silmek istediğinizden emin misiniz?
 Filehtpasswd=htpasswd dosyası
 ValidateMember=Bir üye doğrula
 ConfirmValidateMember=Bu üyeyi doğrulamak istediğinizden emin misiniz?
-FollowingLinksArePublic=Aşağıdaki bağlantılar herhangi bir Dolibarr izniyle korunmayan açık sayfalardır. Bunlar biçimlendirilmiş sayfalar değildir; üye veritabanının nasıl listeleneceğini göstermek için örnek olarak verilmiştir.
+FollowingLinksArePublic=Aşağıdaki bağlantılar herhangi bir ZionOne izniyle korunmayan açık sayfalardır. Bunlar biçimlendirilmiş sayfalar değildir; üye veritabanının nasıl listeleneceğini göstermek için örnek olarak verilmiştir.
 PublicMemberList=Genel üye listesi
 BlankSubscriptionForm=Herkese açık kişisel kayıt formu
-BlankSubscriptionFormDesc=Dolibarr, harici ziyaretçilerin vakfa abone olma talebinde bulunabilmesi için size genel bir URL/web sitesi sağlayabilir. Çevrimiçi ödeme modülünün etkinleştirilmesi durumunda ödeme formu da otomatik olarak sağlanabilir.
+BlankSubscriptionFormDesc=ZionOne, harici ziyaretçilerin vakfa abone olma talebinde bulunabilmesi için size genel bir URL/web sitesi sağlayabilir. Çevrimiçi ödeme modülünün etkinleştirilmesi durumunda ödeme formu da otomatik olarak sağlanabilir.
 EnablePublicSubscriptionForm=Kendi kendine abonelik formuyla herkese açık web sitesini etkinleştirin
 ForceMemberType=Üye türünü zorla
 ExportDataset_member_1=Üyeler ve katkılar

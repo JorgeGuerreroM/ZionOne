@@ -22,7 +22,7 @@
 /**
  *	\file       htdocs/install/step4.php
  *	\ingroup	install
- *	\brief      Ask login and password of Dolibarr admin user
+ *	\brief      Ask login and password of ZionOne admin user
  */
 
 
@@ -40,8 +40,8 @@ $langs->loadLangs(array("admin", "install"));
 // Now we load forced value from install.forced.php file.
 $useforcedwizard = false;
 $forcedfile = "./install.forced.php";
-if ($conffile == "/etc/dolibarr/conf.php") {
-	$forcedfile = "/etc/dolibarr/install.forced.php";
+if ($conffile == "/etc/ZionOne/conf.php") {
+	$forcedfile = "/etc/ZionOne/install.forced.php";
 }
 if (@file_exists($forcedfile)) {
 	$useforcedwizard = true;

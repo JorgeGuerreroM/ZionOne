@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=PayBox modul beállítás
-PayBoxDesc=Ez a modul oldalakat kínál, amelyek lehetővé teszik az ügyfelek számára, hogy a <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Payboxon</a> fizessenek. Ez felhasználható ingyenes fizetésre vagy egy adott Dolibarr objektum fizetésére (számla, rendelés, ...)
+PayBoxDesc=Ez a modul oldalakat kínál, amelyek lehetővé teszik az ügyfelek számára, hogy a <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Payboxon</a> fizessenek. Ez felhasználható ingyenes fizetésre vagy egy adott ZionOne objektum fizetésére (számla, rendelés, ...)
 PayBoxDoPayment=Fizetés Paybox segítségével
 YouWillBeRedirectedOnPayBox=Át lesz irányítva egy biztonságos Paybox oldalra ahol megadhatja a bak/hitelkártya információit
 SetupPayBoxToHavePaymentCreatedAutomatically=Állítsa be Paybox-ját a(z) <b>%s</b> URL-lel, hogy a fizetés automatikusan létrejöjjön, amikor a Paybox jóváhagyja.

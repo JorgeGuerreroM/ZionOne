@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Direktorioko dokumentu kopurua
 ECMSection=Direktorioa
 ECMSectionManual=Eskuzko direktorioa
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Azpidirektorio kopurua
 ECMNbOfFilesInSubDir=Azpidirektorioetako fitxategi kopurua
 ECMCreationUser=Sortzailea
 ECMArea=DMS/ECM eremua
-ECMAreaDesc=DMS/ECM (Dokumentuen Kudeaketa Sistema / Eduki Elektronikoaren Kudeaketa) eremuak Dolibarr-en mota guztietako dokumentuak azkar gorde, partekatu eta bilatzeko aukera ematen dizu.
+ECMAreaDesc=DMS/ECM (Dokumentuen Kudeaketa Sistema / Eduki Elektronikoaren Kudeaketa) eremuak ZionOne-en mota guztietako dokumentuak azkar gorde, partekatu eta bilatzeko aukera ematen dizu.
 ECMAreaDesc2a=* Eskuzko direktorioak erabil daitezke dokumentuak gordetzeko, zuhaitz-egituraren antolaketa librearekin.
 ECMAreaDesc2b=* Direktorio automatikoak automatikoki betetzen dira elementu baten orrialdetik dokumentuak gehitzean.
 ECMAreaDesc3=* Direktorio publikoak dokumentuen direktorioko <b>/medias</b> azpidirektorioko fitxategiak dira, Interneten dagoen edonork irakur ditzakeenak, saioa hasi beharrik gabe eta fitxategia esplizituki partekatu beharrik gabe. Adibidez, posta elektronikoa edo webgune modulurako irudi fitxategiak gordetzeko erabiltzen da.

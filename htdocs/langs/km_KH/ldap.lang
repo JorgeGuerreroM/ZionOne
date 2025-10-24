@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=ពាក្យសម្ងាត់សម្រាប់អ្នកប្រើប្រាស់ <b>%s</b> នៅលើដែន <b>%s</b> ត្រូវតែផ្លាស់ប្តូរ។
 UserMustChangePassNextLogon=អ្នកប្រើប្រាស់ត្រូវតែប្តូរពាក្យសម្ងាត់នៅលើដែន %s
 LDAPInformationsForThisContact=ព័ត៌មាននៅក្នុងមូលដ្ឋានទិន្នន័យ LDAP សម្រាប់ទំនាក់ទំនងនេះ។
@@ -22,7 +22,7 @@ GroupSynchronized=ធ្វើសមកាលកម្មក្រុម
 MemberSynchronized=សមាជិកបានធ្វើសមកាលកម្ម
 MemberTypeSynchronized=ប្រភេទសមាជិកដែលធ្វើសមកាលកម្ម
 ContactSynchronized=ធ្វើសមកាលកម្មទំនាក់ទំនង
-ForceSynchronize=បង្ខំការធ្វើសមកាលកម្ម Dolibarr -> LDAP
+ForceSynchronize=បង្ខំការធ្វើសមកាលកម្ម ZionOne -> LDAP
 ErrorFailedToReadLDAP=បរាជ័យក្នុងការអានមូលដ្ឋានទិន្នន័យ LDAP ។ ពិនិត្យមើលការដំឡើងម៉ូឌុល LDAP និងលទ្ធភាពប្រើប្រាស់មូលដ្ឋានទិន្នន័យ។
 PasswordOfUserInLDAP=ពាក្យសម្ងាត់របស់អ្នកប្រើនៅក្នុង LDAP
 LDAPPasswordHashType=ប្រភេទលេខសម្ងាត់

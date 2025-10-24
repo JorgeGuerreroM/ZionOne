@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - sms
+# ZionOne language file - Source file is en_US - sms
 SmsSetup=Configuration SMS
 SmsDesc=Cette page vous permet de définir des options globales sur les fonctionnalités SMS
 SmsCard=Carte SMS

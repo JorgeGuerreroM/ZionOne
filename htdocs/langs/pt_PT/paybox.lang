@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Configurar módulo PayBox
-PayBoxDesc=Esta módulo oferece páginas que permitem pagamentos em <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> por clientes. Isso pode ser usado para um pagamento gratuito ou para um pagamento em um objeto Dolibarr específico (fatura, encomenda, ...)
+PayBoxDesc=Esta módulo oferece páginas que permitem pagamentos em <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> por clientes. Isso pode ser usado para um pagamento gratuito ou para um pagamento em um objeto ZionOne específico (fatura, encomenda, ...)
 PayBoxDoPayment=Pague com Paybox
 YouWillBeRedirectedOnPayBox=Você será redirecionado para a página Paybox não se esqueça de introduzir a informação do seu cartão de crédito
 SetupPayBoxToHavePaymentCreatedAutomatically=Configure seu Paybox com o URL <b>%s</b> para que o pagamento seja criado automaticamente quando validado pelo Paybox.

@@ -22,7 +22,7 @@
  *	\brief      Print QR Menu
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 /**

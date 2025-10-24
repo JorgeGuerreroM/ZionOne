@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= ID modulu
 ModuleBuilderDesc=Tento nástroj smí používat pouze zkušení uživatelé nebo vývojáři. Poskytuje nástroje pro sestavení nebo úpravu vlastního modulu. Dokumentace k alternativnímu manuálu pro vývoj <a href="%s" target="_blank" rel="noopener noreferrer">je zde</a>.
 EnterNameOfModuleDesc=Zadejte název modulu/aplikace, kterou chcete vytvořit, bez mezer. Slova oddělujte velkými písmeny (například: MůjModul, E-commerceProObchod, SynchronizaceSMýmSystémem...).
@@ -110,7 +110,7 @@ HooksDefDesc=Definujte ve vlastnosti <b>module_parts['hooks']</b> v souboru desk
 TriggerDefDesc=V souboru spouštěčů definujte kód, který chcete spustit při spuštění obchodní události mimo váš modul (události spuštěné jinými moduly).
 SeeIDsInUse=Viz ID používané ve vaší instalaci
 SeeReservedIDsRangeHere=Viz rozsah vyhrazených ID
-ToolkitForDevelopers=Toolkit pro vývojáře Dolibarr
+ToolkitForDevelopers=Toolkit pro vývojáře ZionOne
 TryToUseTheModuleBuilder=Pokud máte znalosti o SQL a PHP, můžete použít průvodce nativní modul builder. <br> Povolte modul <strong> %s </strong> a pomocí průvodce klikněte na <span class="fa fa-bug"> </span> v pravé horní nabídce. <br> Upozornění: Jedná se o pokročilou funkci vývojáře, <b>nestačí </b>experiment   na vaší produkční stránce!
 SeeTopRightMenu=Viz <span class="fa fa-bug"> </span> v pravé horní nabídce
 AddLanguageFile=Přidat jazyk

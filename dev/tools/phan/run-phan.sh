@@ -11,7 +11,7 @@
 #     ./run-phan.sh      # Only checks
 #     ./run-phan.sh 1    # Regenerate the baseline.txt file
 #
-#   You can run this from the root directory of dolibarr
+#   You can run this from the root directory of ZionOne
 #     dev/tools/run-phan.sh
 #
 #   You can provide the environment variables on the CLI like this:

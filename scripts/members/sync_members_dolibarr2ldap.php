@@ -23,7 +23,7 @@
 /**
  * \file scripts/members/sync_members_dolibarr2ldap.php
  * \ingroup ldap member
- * \brief Script de mise a jour des adherents dans LDAP depuis base Dolibarr
+ * \brief Script de mise a jour des adherents dans LDAP depuis base ZionOne
  */
 
 if (!defined('NOSESSION')) {
@@ -91,7 +91,7 @@ $now = $argv[1];
 print "Mails sending disabled (useless in batch mode)\n";
 $conf->global->MAIN_DISABLE_ALL_MAILS = 1; // On bloque les mails
 print "\n";
-print "----- Synchronize all records from Dolibarr database:\n";
+print "----- Synchronize all records from ZionOne database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";

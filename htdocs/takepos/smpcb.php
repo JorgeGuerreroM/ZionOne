@@ -34,7 +34,7 @@ if (!defined('NOREQUIREAJAX')) {
 	define('NOREQUIREAJAX', '1');
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 if (!$user->hasRight('takepos', 'run')) {

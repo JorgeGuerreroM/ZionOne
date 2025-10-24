@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=عطیہ
 Donations=عطیات
 DonationRef=عطیہ کا حوالہ
@@ -37,7 +37,7 @@ DonationUseThirdparties=کسی موجودہ فریق ثالث کے ایڈریس 
 DonationsStatistics=عطیہ کے اعدادوشمار
 NbOfDonations=Number of donations
 BlankDonationForm=Public donation form
-BlankDonationFormDesc=Dolibarr can provide you a public URL/website to allow external visitors to make a donation. If an online payment module is enabled, a payment form may also be automatically provided.
+BlankDonationFormDesc=ZionOne can provide you a public URL/website to allow external visitors to make a donation. If an online payment module is enabled, a payment form may also be automatically provided.
 EnablePublicDonationForm=Enable the public donation form
 EnablePublicDonationList=Enable the public donation List
 ForceDonateurNature = Force donateur nature (Individual or Corporation)

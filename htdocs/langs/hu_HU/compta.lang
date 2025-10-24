@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Számlázás | Fizetés
 TaxModuleSetupToModifyRules=Lépjen az <a href="%s">adómodul beállításához</a> a számítási szabályok módosításához
 TaxModuleSetupToModifyRulesLT=Lépjen a <a href="%s">Vállalati beállítás</a> oldalra a számítási szabályok módosításához

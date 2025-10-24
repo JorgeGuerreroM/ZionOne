@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kode
 WebsiteName=Nama situs web
 WebsiteSetupDesc=Buat di sini situs web yang ingin Anda gunakan. Kemudian masuk ke menu Website untuk mengeditnya.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Untuk menyebarkan situs web ini secar
 SetHereVirtualHost= <u>Gunakan dengan Apache / NGinx /...</u><br> Buat di server web Anda (Apache, Nginx, ...) Host Virtual khusus dengan PHP yang diaktifkan dan direktori Root pada <br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Contoh untuk digunakan dalam pengaturan host virtual Apache:
 YouCanAlsoTestWithPHPS=<u>Gunakan dengan server tertanam PHP</u><br>Di lingkungan pengembangan, Anda dapat lebih suka menguji situs dengan server web tertanam PHP dengan menjalankan
-YouCanAlsoDeployToAnotherWHP=<u>Jalankan situs web Anda di dalam penyedia Hosting web Dolibarr</u><br>Jika Anda tidak memiliki server web seperti Apache atau NGinx yang tersedia di internet, Anda dapat mengekspor dan mengimpor situs web Anda ke contoh Dolibarr lain yang disediakan oleh penyedia hosting Dolibarr lain yang menyediakan integrasi penuh dengan modul Situs Web. Anda dapat menemukan daftar beberapa penyedia hosting Dolibarr di <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Jalankan situs web Anda di dalam penyedia Hosting web ZionOne</u><br>Jika Anda tidak memiliki server web seperti Apache atau NGinx yang tersedia di internet, Anda dapat mengekspor dan mengimpor situs web Anda ke contoh ZionOne lain yang disediakan oleh penyedia hosting ZionOne lain yang menyediakan integrasi penuh dengan modul Situs Web. Anda dapat menemukan daftar beberapa penyedia hosting ZionOne di <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Periksa juga bahwa pengguna host virtual (misalnya www-data) memiliki izin <strong> %s </strong> pada file ke <br> <strong> %s </strong>
 ReadPerm=Baca
 WritePerm=Menulis
 TestDeployOnWeb=Uji / gunakan di web
 PreviewSiteServedByWebServer= <u>Pratinjau %s di tab baru.</u><br><br>%s akan dilayani oleh server web eksternal (seperti Apache, Nginx, IIS). Anda harus menginstal dan mengatur server ini sebelum merujuk pada direktori:<br><strong>%s</strong><br>URL dilayani oleh server eksternal: <br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Pratinjau %s di tab baru.</u><br><br>%s akan dilayani oleh server Dolibarr sehingga tidak memerlukan server web tambahan (seperti Apache, Nginx, IIS) untuk diinstal.<br>Yang tidak mengenakkan adalah URL halaman tidak ramah pengguna dan dimulai dengan jalur Dolibarr Anda.<br>URL yang disajikan oleh Dolibarr:<br><strong>%s</strong><br><br>Untuk menyebarkan atau menguji menggunakan server web eksternal Anda sendiri (seperti Apache, Nginx, Lighttp) gunakan tautan "%s".
+PreviewSiteServedByDolibarr=<u>Pratinjau %s di tab baru.</u><br><br>%s akan dilayani oleh server ZionOne sehingga tidak memerlukan server web tambahan (seperti Apache, Nginx, IIS) untuk diinstal.<br>Yang tidak mengenakkan adalah URL halaman tidak ramah pengguna dan dimulai dengan jalur ZionOne Anda.<br>URL yang disajikan oleh ZionOne:<br><strong>%s</strong><br><br>Untuk menyebarkan atau menguji menggunakan server web eksternal Anda sendiri (seperti Apache, Nginx, Lighttp) gunakan tautan "%s".
 VirtualHostUrlNotDefined=URL dari host virtual yang dilayani oleh server web eksternal tidak ditentukan
 NoPageYet=Belum ada halaman
 YouCanCreatePageOrImportTemplate=Anda dapat membuat halaman baru atau mengimpor template situs web lengkap
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Anda akan segera diarahkan ke halaman detail pesa
 WebPortalSetupNotComplete=Penyiapan portal web belum selesai
 DeleteWebsiteAccount=Hapus akun situs web
 ConfirmDeleteWebsiteAccount=Apakah Anda yakin ingin menghapus akun ini?
-ConfirmDeleteWebsiteAccount2=Jika akun ini digunakan untuk masuk ke portal publik atau situs web lain yang didukung oleh Dolibarr, proses masuk tersebut mungkin tidak dapat dilakukan lagi.
+ConfirmDeleteWebsiteAccount2=Jika akun ini digunakan untuk masuk ke portal publik atau situs web lain yang didukung oleh ZionOne, proses masuk tersebut mungkin tidak dapat dilakukan lagi.
 ContentSecurityPolicy=Situs web HTTP "Kebijakan Keamanan Konten"
 WebsiteSecurityForceRP=Kebijakan Referer HTTP Situs Web
 WebsiteSecurityForceSTS=Situs web HTTP "Strict-Transport-Security"

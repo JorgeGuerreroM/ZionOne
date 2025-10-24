@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Munkafolyamat-modul beállítása
 WorkflowDesc=Ez a modul bizonyos automatikus műveleteket biztosít. Alapértelmezés szerint a munkafolyamat nyitott (a kívánt sorrendben végezheti el a dolgokat), de itt aktiválhat néhány automatikus műveletet.
 ThereIsNoWorkflowToModify=Nem érhető el munkafolyamat-módosítás az aktivált modulokkal.

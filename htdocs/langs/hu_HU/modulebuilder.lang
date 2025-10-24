@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Modulazonosító
 ModuleBuilderDesc=Ezt az eszközt csak tapasztalt felhasználók vagy fejlesztők használhatják. Segédprogramokat biztosít saját modul létrehozásához vagy szerkesztéséhez. Az alternatív <a href="%s" target="_blank" rel="noopener noreferrer">kézi fejlesztés dokumentációja itt</a> található.
 EnterNameOfModuleDesc=Írja be a létrehozandó modul/alkalmazás nevét szóközök nélkül. Használjon nagybetűket a szavak elválasztásához (például: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -110,7 +110,7 @@ HooksDefDesc=A <b>module_parts['hooks']</b> tulajdonságban, a modulleíró fáj
 TriggerDefDesc=Határozza meg az indítófájlban azt a kódot, amelyet a modulon kívüli üzleti esemény végrehajtásakor szeretne végrehajtani (más modulok által kiváltott események).
 SeeIDsInUse=Tekintse meg a telepítésben használt azonosítókat
 SeeReservedIDsRangeHere=Tekintse meg a fenntartott azonosítók tartományát
-ToolkitForDevelopers=Eszközkészlet Dolibarr fejlesztőknek
+ToolkitForDevelopers=Eszközkészlet ZionOne fejlesztőknek
 TryToUseTheModuleBuilder=Ha ismeri az SQL-t és a PHP-t, használhatja a natív modulkészítő varázslót.<br>Engedélyezze a <strong>%s</strong> modult, és használja a varázslót a <span class="fa fa-" gombra kattintva. bug"></span> a jobb felső menüben.<br>Figyelmeztetés: Ez egy speciális fejlesztői funkció, <b>ne</b> kísérletezzen a termelési webhelyén!
 SeeTopRightMenu=Lásd: <span class="fa fa-bug"></span> a jobb felső menüben
 AddLanguageFile=Nyelvfájl hozzáadása

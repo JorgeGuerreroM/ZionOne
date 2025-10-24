@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Lue Ajastettu työ
 Permission23102 = luo/update Suunniteltu työ
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Poista käytöstä
 CronTaskInactive=Tämä työ on poistettu käytöstä (ei ajoitettu)
 CronId=Id
 CronClassFile=Tiedostonimi luokan kanssa
-CronModuleHelp=Dolibarr-moduulihakemiston nimi (toimii myös ulkoisen Dolibarr-moduulin kanssa). <BR> Esimerkiksi Dolibarr-tuoteobjektin /htdocs/<u>product</u>8fdca4dz0-hakumenetelmän kutsuminen /class/product.class.php, moduulin arvo on<br><i>tuote</i>
-CronClassFileHelp=Ladattavan polun ja tiedosto nimi (polku on suhteessa verkkopalvelimen juurihakemistoon). <BR> Esimerkiksi Dolibarr-tuoteobjektin hakumenetelmän kutsuminen htdocs/product/class/<u>product.class.php</u>, luokan tiedosto arvo on<br><i>tuote/luokka/tuote.luokka.php</i>
-CronObjectHelp=Ladattavan objektin nimi. <BR> Esimerkiksi Dolibarr-tuoteobjektin /htdocs/product/class/product.class.php hakumenetelmän kutsumiseksi luokan tiedosto arvoksi.  nimi on<br><i>Tuote</i>
-CronMethodHelp=Käynnistettävä objektimenetelmä. <BR> Esimerkiksi Dolibarr-tuoteobjektin /htdocs/product/class/product.class.php hakumenetelmän kutsumiseksi menetelmän arvo on <br><i>hae</i>
-CronArgsHelp=Menetelmän argumentit. <BR> Esimerkiksi Dolibarr-tuoteobjektin /htdocs/product/class/product.class.php hakumenetelmän kutsumiseksi parametrien arvo voi olla<br><i>0, ProductRef</i>
+CronModuleHelp=ZionOne-moduulihakemiston nimi (toimii myös ulkoisen ZionOne-moduulin kanssa). <BR> Esimerkiksi ZionOne-tuoteobjektin /htdocs/<u>product</u>8fdca4dz0-hakumenetelmän kutsuminen /class/product.class.php, moduulin arvo on<br><i>tuote</i>
+CronClassFileHelp=Ladattavan polun ja tiedosto nimi (polku on suhteessa verkkopalvelimen juurihakemistoon). <BR> Esimerkiksi ZionOne-tuoteobjektin hakumenetelmän kutsuminen htdocs/product/class/<u>product.class.php</u>, luokan tiedosto arvo on<br><i>tuote/luokka/tuote.luokka.php</i>
+CronObjectHelp=Ladattavan objektin nimi. <BR> Esimerkiksi ZionOne-tuoteobjektin /htdocs/product/class/product.class.php hakumenetelmän kutsumiseksi luokan tiedosto arvoksi.  nimi on<br><i>Tuote</i>
+CronMethodHelp=Käynnistettävä objektimenetelmä. <BR> Esimerkiksi ZionOne-tuoteobjektin /htdocs/product/class/product.class.php hakumenetelmän kutsumiseksi menetelmän arvo on <br><i>hae</i>
+CronArgsHelp=Menetelmän argumentit. <BR> Esimerkiksi ZionOne-tuoteobjektin /htdocs/product/class/product.class.php hakumenetelmän kutsumiseksi parametrien arvo voi olla<br><i>0, ProductRef</i>
 CronCommandHelp=Suoritettava järjestelmän komentorivi.
 CronCreateJob=luo uusi ajoitettu työ
 CronFrom=Mistä

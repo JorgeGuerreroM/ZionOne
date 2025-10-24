@@ -61,7 +61,7 @@ class Client extends Societe
 	 *
 	 *    @param	int		$rowid			Id of third party to load
 	 *    @param    string	$ref			Reference of third party, name (Warning, this can return several records)
-	 *    @param    string	$ref_ext       	External reference of third party (Warning, this information is a free field not provided by Dolibarr)
+	 *    @param    string	$ref_ext       	External reference of third party (Warning, this information is a free field not provided by ZionOne)
 	 *    @param    string	$barcode       	Barcode of third party to load
 	 *    @param    string	$idprof1		Prof id 1 of third party (Warning, this can return several records)
 	 *    @param    string	$idprof2		Prof id 2 of third party (Warning, this can return several records)

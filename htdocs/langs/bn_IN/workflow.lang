@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=ওয়ার্কফ্লো মডিউল সেটআপ
 WorkflowDesc=এই মডিউল কিছু স্বয়ংক্রিয় ক্রিয়া প্রদান করে। ডিফল্টরূপে, ওয়ার্কফ্লো খোলা থাকে (আপনি আপনার ইচ্ছামত কাজ করতে পারেন) কিন্তু এখানে আপনি কিছু স্বয়ংক্রিয় ক্রিয়া সক্রিয় করতে পারেন।
 ThereIsNoWorkflowToModify=সক্রিয় মডিউলগুলির সাথে কোনও ওয়ার্কফ্লো পরিবর্তন উপলব্ধ নেই৷

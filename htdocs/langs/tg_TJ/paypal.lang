@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Танзимоти модули PayPal
-PaypalDesc=Ин модул имкон медиҳад, ки муштариён тавассути <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> пардохт кунанд. Ин метавонад барои пардохти муваққатӣ ё барои пардохти марбут ба объекти Dolibarr (инвойс, фармоиш, ...) истифода шавад.
+PaypalDesc=Ин модул имкон медиҳад, ки муштариён тавассути <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> пардохт кунанд. Ин метавонад барои пардохти муваққатӣ ё барои пардохти марбут ба объекти ZionOne (инвойс, фармоиш, ...) истифода шавад.
 PaypalOrCBDoPayment=Бо PayPal пардохт кунед (Card ё PayPal)
 PaypalDoPayment=Бо PayPal пардохт кунед
 PAYPAL_API_SANDBOX=Санҷиши режим/қуттии рег

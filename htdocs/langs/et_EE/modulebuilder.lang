@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Mooduli ID
 ModuleBuilderDesc=Seda tööriista peaksid kasutama ainult kogenud kasutajad või arendajad. See pakub utiliite oma mooduli loomiseks või muutmiseks. Alternatiivse <a href="%s" target="_blank" rel="noopener noreferrer">käsiraamatu arenduse dokumentatsioon on siin</a>.
 EnterNameOfModuleDesc=Sisesta loodava mooduli/rakenduse nimi ilma tühikuteta. Eralda sõnad suurtähtedega (näiteks: MyModule, EcommerceForShop, SyncWithMySystem...).

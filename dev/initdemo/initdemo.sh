@@ -72,7 +72,7 @@ then
 	fichtemp=$(mktemp 2>/dev/null) || fichtemp=/tmp/test$$
 	# shellcheck disable=2064,2172
 	trap "rm -f $fichtemp" 0 1 2 5 15
-	$DIALOG --title "Init Dolibarr with demo values" --clear --inputbox "Input dump file :" 16 55 "$dumpfile" 2> "$fichtemp"
+	$DIALOG --title "Init ZionOne with demo values" --clear --inputbox "Input dump file :" 16 55 "$dumpfile" 2> "$fichtemp"
 	valret=$?
 	case $valret in
 		0)
@@ -90,7 +90,7 @@ then
 	fichtemp=$(mktemp 2>/dev/null) || fichtemp=/tmp/test$$
 	# shellcheck disable=2064,2172
 	trap "rm -f '$fichtemp'" 0 1 2 5 15
-	$DIALOG --title "Init Dolibarr with demo values" --clear --inputbox "Mysql database name :" 16 55 dolibarrdemo 2> "$fichtemp"
+	$DIALOG --title "Init ZionOne with demo values" --clear --inputbox "Mysql database name :" 16 55 dolibarrdemo 2> "$fichtemp"
 	valret=$?
 	case $valret in
 		0)
@@ -107,7 +107,7 @@ then
 	fichtemp=$(mktemp 2>/dev/null) || fichtemp=/tmp/test$$
 	# shellcheck disable=2064,2172
 	trap "rm -f '$fichtemp'" 0 1 2 5 15
-	$DIALOG --title "Init Dolibarr with demo values" --clear \
+	$DIALOG --title "Init ZionOne with demo values" --clear \
 		--inputbox "Mysql port (ex: 3306):" 16 55 3306 2> "$fichtemp"
 
 	valret=$?
@@ -127,7 +127,7 @@ then
 	fichtemp=$(mktemp 2>/dev/null) || fichtemp=/tmp/test$$
 	# shellcheck disable=2064,2172
 	trap "rm -f '$fichtemp'" 0 1 2 5 15
-	$DIALOG	 --title "Init Dolibarr with demo values" --clear \
+	$DIALOG	 --title "Init ZionOne with demo values" --clear \
 		--inputbox "Mysql user login (ex: root):" 16 55 root 2> "$fichtemp"
 
 	valret=$?
@@ -147,7 +147,7 @@ then
 	fichtemp=$(mktemp 2>/dev/null) || fichtemp=/tmp/test$$
 	# shellcheck disable=2064,2172
 	trap "rm -f '$fichtemp'" 0 1 2 5 15
-	$DIALOG --title "Init Dolibarr with demo values" --clear \
+	$DIALOG --title "Init ZionOne with demo values" --clear \
 		--passwordbox "Password for Mysql user login :" 16 55 2> "$fichtemp"
 
 	valret=$?
@@ -170,7 +170,7 @@ then
 
 	# ---------------------------- confirmation
 	DIALOG=${DIALOG:=dialog}
-	$DIALOG --title "Init Dolibarr with demo values" --clear \
+	$DIALOG --title "Init ZionOne with demo values" --clear \
 		--yesno "Do you confirm ? \n Dump file : '$dumpfile' \n Dump dir : '$mydir' \n Document dir : '$documentdir' \n Mysql database : '$base' \n Mysql port : '$port' \n Mysql login: '$admin' \n Mysql password : --hidden--" 15 55
 
 	case $? in

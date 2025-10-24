@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=ممبران کا علاقہ
 MemberCard=ممبر کارڈ
 SubscriptionCard=سبسکرپشن کارڈ
@@ -15,7 +15,7 @@ ListOfValidatedPublicMembers=توثیق شدہ عوامی اراکین کی فہ
 ErrorThisMemberIsNotPublic=یہ رکن عوامی نہیں ہے۔
 ErrorMemberIsAlreadyLinkedToThisThirdParty=ایک اور رکن (نام: <b> %s </b>، لاگ ان: <b> %s </b>) پہلے ہی ایک تیسری پارٹی <b> %s </b> سے منسلک ہے. پہلے اس لنک کو ہٹا دیں کیونکہ تھرڈ پارٹی کو صرف ممبر سے نہیں جوڑا جا سکتا (اور اس کے برعکس)۔
 ErrorUserPermissionAllowsToLinksToItselfOnly=حفاظتی وجوہات کی بناء پر، آپ کو تمام صارفین میں ترمیم کرنے کی اجازت دی جانی چاہیے تاکہ کسی رکن کو کسی ایسے صارف سے جوڑ سکیں جو آپ کا نہیں ہے۔
-SetLinkToUser=Dolibarr صارف سے لنک کریں۔
+SetLinkToUser=ZionOne صارف سے لنک کریں۔
 SetLinkToThirdParty=ڈولیبر تھرڈ پارٹی سے لنک کریں۔
 MemberCountersArePublic=درست اراکین کے شمار عوامی ہیں۔
 MembersCards=اراکین کے لیے کارڈز تیار کرنا
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=کیا آپ واقعی اس شراکت کو حذف ک�
 Filehtpasswd=htpasswd فائل
 ValidateMember=ممبر کی تصدیق کریں۔
 ConfirmValidateMember=کیا آپ واقعی اس رکن کی توثیق کرنا چاہتے ہیں؟
-FollowingLinksArePublic=درج ذیل لنکس کھلے ہوئے صفحات ہیں جو کسی بھی Dolibarr کی اجازت سے محفوظ نہیں ہیں۔ وہ فارمیٹ شدہ صفحات نہیں ہیں، یہ بتانے کے لیے مثال کے طور پر فراہم کیے گئے ہیں کہ ممبران کے ڈیٹا بیس کی فہرست کیسے بنائی جائے۔
+FollowingLinksArePublic=درج ذیل لنکس کھلے ہوئے صفحات ہیں جو کسی بھی ZionOne کی اجازت سے محفوظ نہیں ہیں۔ وہ فارمیٹ شدہ صفحات نہیں ہیں، یہ بتانے کے لیے مثال کے طور پر فراہم کیے گئے ہیں کہ ممبران کے ڈیٹا بیس کی فہرست کیسے بنائی جائے۔
 PublicMemberList=پبلک ممبر لسٹ
 BlankSubscriptionForm=عوامی خود رجسٹریشن فارم
-BlankSubscriptionFormDesc=Dolibarr آپ کو ایک عوامی URL/ویب سائٹ فراہم کر سکتا ہے تاکہ بیرونی زائرین فاؤنڈیشن کو سبسکرائب کرنے کے لیے کہیں۔ اگر آن لائن ادائیگی کا ماڈیول فعال ہے، تو ادائیگی کا فارم خود بخود بھی فراہم کیا جا سکتا ہے۔
+BlankSubscriptionFormDesc=ZionOne آپ کو ایک عوامی URL/ویب سائٹ فراہم کر سکتا ہے تاکہ بیرونی زائرین فاؤنڈیشن کو سبسکرائب کرنے کے لیے کہیں۔ اگر آن لائن ادائیگی کا ماڈیول فعال ہے، تو ادائیگی کا فارم خود بخود بھی فراہم کیا جا سکتا ہے۔
 EnablePublicSubscriptionForm=خود سبسکرپشن فارم کے ساتھ عوامی ویب سائٹ کو فعال کریں۔
 ForceMemberType=ممبر کی قسم کو مجبور کریں۔
 ExportDataset_member_1=ممبران اور تعاون

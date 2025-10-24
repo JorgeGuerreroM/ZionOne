@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - blockedlog
+# ZionOne language file - Source file is en_US - blockedlog
 BlockedLog=Journaux inaltérables
 BlockedLogDesc=Ce module permet de suivre certains événements dans un journal inaltérable (que vous ne pouvez pas modifier une fois enregistré) dans une chaîne de blocs, en temps réel. Ce module assure la compatibilité avec les exigences des lois de certains pays (comme la France avec la loi Finance 2016 - Norme NF525).
 Fingerprints=Événements archivés et empreintes digitales

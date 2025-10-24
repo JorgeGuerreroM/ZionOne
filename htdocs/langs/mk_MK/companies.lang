@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Вашите податоци за контакт се снимени. Ќе ви се вратиме наскоро...
 ContactUsDesc=Овој формулар ви овозможува да ни испратите порака за прв контакт.
 ErrorCompanyNameAlreadyExists=Името на компанијата %s веќе постои. Изберете друг.

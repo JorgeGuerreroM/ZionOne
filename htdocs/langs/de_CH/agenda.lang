@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID Veranstaltung
 Agenda=Terminplanung
 TMenuAgenda=Terminplanung
@@ -28,7 +28,7 @@ MemberResiliatedInDolibarr=Mitlglied %s geschlossen.
 MemberSubscriptionAddedInDolibarr=Abonnement %s für Mitlglied %s hinzugefügt
 MemberSubscriptionModifiedInDolibarr=Abonnement %s für Mitglied %s bearbeitet
 MemberSubscriptionDeletedInDolibarr=Abonnement %s für Mitglied %s gelöscht
-ShipmentValidatedInDolibarr=Versand %s in Dolibarr geprüft
+ShipmentValidatedInDolibarr=Versand %s in ZionOne geprüft
 ShipmentUnClassifyCloseddInDolibarr=Lieferung %s auf wiedereröffnet gesetzt
 ShipmentBackToDraftInDolibarr=Lieferung %s ist wieder im Entwurfsstatus.
 OrderCreatedInDolibarr=Bestellung %s erzeugt

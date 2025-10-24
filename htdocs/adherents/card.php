@@ -31,7 +31,7 @@
  */
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/member.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
@@ -94,7 +94,7 @@ $extrafields->fetch_name_optionals_label($object->table_element);
 
 $socialnetworks = getArrayOfSocialNetworks();
 
-// Get object canvas (By default, this is not defined, so standard usage of dolibarr)
+// Get object canvas (By default, this is not defined, so standard usage of ZionOne)
 $object->getCanvas($id);
 $canvas = $object->canvas ? $object->canvas : GETPOST("canvas");
 $objcanvas = null;
@@ -710,7 +710,7 @@ if (empty($reshook)) {
 					$subjecttosend = make_substitutions($subject, $substitutionarray, $outputlangs);
 					$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnValid()), $substitutionarray, $outputlangs);
 
-					$moreinheader = 'X-Dolibarr-Info: send_an_email by adherents/card.php'."\r\n";
+					$moreinheader = 'X-ZionOne-Info: send_an_email by adherents/card.php'."\r\n";
 
 					$result = $object->sendEmail($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 					if ($result < 0) {
@@ -777,7 +777,7 @@ if (empty($reshook)) {
 						$subjecttosend = make_substitutions($subject, $substitutionarray, $outputlangs);
 						$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnResiliate()), $substitutionarray, $outputlangs);
 
-						$moreinheader = 'X-Dolibarr-Info: send_an_email by adherents/card.php'."\r\n";
+						$moreinheader = 'X-ZionOne-Info: send_an_email by adherents/card.php'."\r\n";
 
 						$result = $object->sendEmail($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 						if ($result < 0) {
@@ -844,7 +844,7 @@ if (empty($reshook)) {
 						$subjecttosend = make_substitutions($subject, $substitutionarray, $outputlangs);
 						$texttosend = make_substitutions(dol_concatdesc($msg, $adht->getMailOnExclude()), $substitutionarray, $outputlangs);
 
-						$moreinheader = 'X-Dolibarr-Info: send_an_email by adherents/card.php'."\r\n";
+						$moreinheader = 'X-ZionOne-Info: send_an_email by adherents/card.php'."\r\n";
 
 						$result = $object->sendEmail($texttosend, $subjecttosend, array(), array(), array(), "", "", 0, -1, '', $moreinheader);
 						if ($result < 0) {
@@ -1463,7 +1463,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 			print "</td></tr>";
 		}
 
-		// Third party Dolibarr
+		// Third party ZionOne
 		if (isModEnabled('societe')) {
 			print '<tr><td>'.$langs->trans("LinkedToDolibarrThirdParty").'</td><td colspan="2" class="valeur">';
 			if ($object->socid) {
@@ -1476,7 +1476,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 			print '</td></tr>';
 		}
 
-		// Login Dolibarr
+		// Login ZionOne
 		print '<tr><td>'.$langs->trans("LinkedToDolibarrUser").'</td><td colspan="2" class="valeur">';
 		if ($object->user_id) {
 			$form->form_users($_SERVER['PHP_SELF'].'?rowid='.$object->id, (string) $object->user_id, 'none');
@@ -1911,7 +1911,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 		// Other attributes
 		include DOL_DOCUMENT_ROOT.'/core/tpl/extrafields_view.tpl.php';
 
-		// Third party Dolibarr
+		// Third party ZionOne
 		if (isModEnabled('societe')) {
 			print '<tr><td>';
 			$editenable = $user->hasRight('adherent', 'creer');
@@ -1949,7 +1949,7 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($action)) {
 			print '</td></tr>';
 		}
 
-		// Login Dolibarr - Link to user
+		// Login ZionOne - Link to user
 		print '<tr><td>';
 		$editenable = $user->hasRight('adherent', 'creer') && $user->hasRight('user', 'user', 'creer');
 		print $form->editfieldkey('LinkedToDolibarrUser', 'login', '', $object, (int) $editenable);

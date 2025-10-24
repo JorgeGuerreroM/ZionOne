@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Module id
 ModuleBuilderDesc=该工具只能由有经验的用户或开发人员使用。它提供了构建或编辑您自己的模块的实用程序。替代<a href="%s" target="_blank" rel="noopener noreferrer">手动开发的文档位于此处</a>。
 EnterNameOfModuleDesc=输入要创建的模块/应用程序的名称，不可有空格符。使用大写字母分隔单词（例如：MyModule、EcommerceForShop、SyncWithMySystem…）

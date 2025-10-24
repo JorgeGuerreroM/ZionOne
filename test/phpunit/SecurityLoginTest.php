@@ -83,19 +83,19 @@ class SecurityLoginTest extends CommonClassTest
 	 */
 	public function testCheckLoginPassEntity()
 	{
-		$login = checkLoginPassEntity('loginbidon', 'passwordbidon', 1, array('dolibarr'));
+		$login = checkLoginPassEntity('loginbidon', 'passwordbidon', 1, array('ZionOne'));
 		print __METHOD__." login=".$login."\n";
 		$this->assertEquals($login, '');
 
-		$login = checkLoginPassEntity('admin', 'passwordbidon', 1, array('dolibarr'));
+		$login = checkLoginPassEntity('admin', 'passwordbidon', 1, array('ZionOne'));
 		print __METHOD__." login=".$login."\n";
 		$this->assertEquals($login, '');
 
-		$login = checkLoginPassEntity('admin', 'admin', 1, array('dolibarr'));            // Should works because admin/admin exists
+		$login = checkLoginPassEntity('admin', 'admin', 1, array('ZionOne'));            // Should works because admin/admin exists
 		print __METHOD__." login=".$login."\n";
 		$this->assertEquals($login, 'admin', 'The test to check if pass of user "admin" is "admin" has failed');
 
-		$login = checkLoginPassEntity('admin', 'admin', 1, array('http','dolibarr'));    // Should work because of second authentication method
+		$login = checkLoginPassEntity('admin', 'admin', 1, array('http','ZionOne'));    // Should work because of second authentication method
 		print __METHOD__." login=".$login."\n";
 		$this->assertEquals($login, 'admin');
 

@@ -48,7 +48,7 @@ class modClickToDial extends DolibarrModules
 		$this->description = "Integration of a ClickToDial system (Asterisk, ...)";
 		$this->descriptionlong = "Support a Click To Dial feature with a SIP system. When clicking on a phone number, your phone system automatically call the callee.";
 
-		$this->version = 'dolibarr'; // 'development' or 'experimental' or 'dolibarr' or version
+		$this->version = 'ZionOne'; // 'development' or 'experimental' or 'ZionOne' or version
 
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->picto = 'phoning';

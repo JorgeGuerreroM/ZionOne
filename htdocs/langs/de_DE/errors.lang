@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Kein Fehler, Befehl wurde ausgeführt
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Der Benutzerkonto <b>%s</b> wurde verwendet u
 ErrorNoActivatedBarcode=Kein Barcode aktiviert
 ErrUnzipFails=Fehler beim Entpacken von %s mit ZipArchive
 ErrNoZipEngine=Kein Pack/Entpackprogramm in PHP gefunden für Datei %s
-ErrorFileMustBeADolibarrPackage=Die Datei %s muss ein Dolibarr ZIP-Paket sein
-ErrorModuleFileRequired=Sie müssen eine Dolibarr Modul-Paket-Datei wählen
+ErrorFileMustBeADolibarrPackage=Die Datei %s muss ein ZionOne ZIP-Paket sein
+ErrorModuleFileRequired=Sie müssen eine ZionOne Modul-Paket-Datei wählen
 ErrorPhpCurlNotInstalled=PHP CURL ist nicht installiert, aber erforderlich für Paypal
 ErrorFailedToAddToMailmanList=Fehler beim Hinzufügen von %s zur Mailman Liste %s oder SPIP basis
 ErrorFailedToRemoveToMailmanList=Fehler beim Löschen von %s von der Mailman Liste %s oder SPIP basis
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=Das Datum muss in der Zukunft liegen
 ErrorStartDateGreaterEnd=Das Anfangsdatum liegt nach dem Enddatum
 ErrorPaymentModeDefinedToWithoutSetup=Eine Zahlungsart wurde auf Typ %s gesetzt, aber das Rechnungsmodul wurde noch nicht konfiguriert dies anzuzeigen.
 ErrorPHPNeedModule=Fehler, Ihr PHP muss das Modul <b>%s</b> installiert haben um diese Option zu benutzen.
-ErrorOpenIDSetupNotComplete=Sie haben im Dolibarr Konfigurationsfile eingestellt, dass die Anmeldung mit OpenID möglich ist, aber die URL zum OpenID Service ist noch nicht in %s definiert.
+ErrorOpenIDSetupNotComplete=Sie haben im ZionOne Konfigurationsfile eingestellt, dass die Anmeldung mit OpenID möglich ist, aber die URL zum OpenID Service ist noch nicht in %s definiert.
 ErrorWarehouseMustDiffers=Ursprungs- und Ziel-Lager müssen unterschiedlich sein
 ErrorBadFormat=Falsches Format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Fehler: Dieses Mitglied ist noch nicht mit einem Partner verbunden. Verknüpfen Sie das Mitglied zuerst mit einem vorhandenen Partner oder legen Sie einen neuen an, bevor Sie ein Abonnement mit Rechnung erstellen.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Der neue Benutzer muss eine E-Mail-Adresse haben
 ErrorUserClone=Fehler beim Duplizieren der Kategorien des Benutzers
 ErrorQtyOrderedLessQtyShipped = Die Menge im Auftrag nicht kann geringer sein als die gelieferte Menge.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Fehler, das Erstellen einer sonstigen Zahlung auf einem Bankkonto mit einer anderen Währung als der Währung des Unternehmens wird noch nicht unterstützt.
-ErrorStreamMustBeEnabled=Der PHP-Stream %s ist nicht verfügbar. Prüfen Sie Ihre PHP Module und den Dolibarr-Parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=Der PHP-Stream %s ist nicht verfügbar. Prüfen Sie Ihre PHP Module und den ZionOne-Parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Fehler: Sie versuchen, Rechnungen in unterschiedlichen Währungen gemeinsam zu bezahlen.
 ErrorLinkNotFoundWithSharedLink=Fehler, Verknüpfung nicht gefunden mit diesem freigegebenen Schlüssel
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Falsche Zeilenanzahl. Die Dateien müssen mindestens 2 Zeilen enthalten (1 Zeile für Titel und 1 Zeile für Daten).
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Fehler, ein Wert für diesen Feldtyp ist obligator
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Ihr PHP Parameter upload_max_filesize (%s) ist größer als Parameter post_max_size (%s). Dies ist eine inkonsistente Einstellung.
-WarningPasswordSetWithNoAccount=Es wurde ein Passwort für dieses Mitglied vergeben, aber kein Benutzer erstellt. Das Passwort wird gespeichert, aber kann nicht für die Anmeldung an Dolibarr verwendet werden. Es kann von einem externen Modul/einer Schnittstelle verwendet werden, aber wenn Sie kein Login oder Passwort für dieses Mitglied definiert müssen, können Sie die Option "Login für jedes Mitglied verwalten" in den Mitgliedseinstellungen deaktivieren. Wenn Sie ein Login aber kein Passwort benötige, lassen Sie dieses Feld leer, um diese Meldung zu deaktivieren. Anmerkung: Die E-Mail-Adresse kann auch zur Anmeldung verwendet werden, wenn das Mitglied mit einem Benutzer verbunden wird.
+WarningPasswordSetWithNoAccount=Es wurde ein Passwort für dieses Mitglied vergeben, aber kein Benutzer erstellt. Das Passwort wird gespeichert, aber kann nicht für die Anmeldung an ZionOne verwendet werden. Es kann von einem externen Modul/einer Schnittstelle verwendet werden, aber wenn Sie kein Login oder Passwort für dieses Mitglied definiert müssen, können Sie die Option "Login für jedes Mitglied verwalten" in den Mitgliedseinstellungen deaktivieren. Wenn Sie ein Login aber kein Passwort benötige, lassen Sie dieses Feld leer, um diese Meldung zu deaktivieren. Anmerkung: Die E-Mail-Adresse kann auch zur Anmeldung verwendet werden, wenn das Mitglied mit einem Benutzer verbunden wird.
 WarningMandatorySetupNotComplete=Hier klicken, um die Hauptparameter einzurichten
 WarningEnableYourModulesApplications=Hier klicken, um Module/Applikationen freizuschalten
 WarningSafeModeOnCheckExecDir=Achtung: Der PHP-Option <b>safe_mode</b> ist aktiviert, entsprechend müssen Befehle in einem mit <b>safe_mode_exec_dir</b> gekennzeichneten Verzeichnis ausgeführt werden.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Achtung: Einblick in Bankkonto ist
 WarningNoDataTransferedInAccountancyYet=Bitte beachten: es sind keine Daten in der Buchhaltung vorhanden. Bitte übertragen Sie Ihre in der Anwendung aufgezeichneten Daten in die Buchhaltung oder ändern Sie den Berechnungsmodus, um die außerhalb der Buchhaltung aufgezeichneten Daten zu analysieren.
 WarningChangingThisMayBreakStopTaskScheduler=Achtung, das Ändern dieses Wertes kann den Scheduler deaktivieren
 WarningAmountOfFileDiffersFromSumOfLines=Achtung, der Gesamtbetrag der Datei (%s) entspricht nicht der Betragssumme der Zeilen (%s)
-WarningModuleAffiliatedToAReportedCompany=Achtung, diese Modul wurde der Dolibarr Foundation gemeldet als von einem Unternehmen veröffentlicht, das illegale Praktiken anwendet (Nichteinhaltung der Regeln zur Verwendung der Marke Dolibarr, Erfassung Ihrer Daten ohne Ihre Zustimmung oder Bereitstellung von Malware).
+WarningModuleAffiliatedToAReportedCompany=Achtung, diese Modul wurde der ZionOne Foundation gemeldet als von einem Unternehmen veröffentlicht, das illegale Praktiken anwendet (Nichteinhaltung der Regeln zur Verwendung der Marke ZionOne, Erfassung Ihrer Daten ohne Ihre Zustimmung oder Bereitstellung von Malware).
 WarningModuleAffiliatedToAPiratPlatform=Seien Sie vorsichtig, wenn Sie ein Modul (kostenpflichtig oder kostenlos) von einer verdächtigen, nicht offiziellen Plattform wie %s erhalten.
 
 SwissQrOnlyVIR = Eine SwissQR-Rechnung kann nur Rechnungen hinzugefügt werden, die per Überweisung bezahlt werden sollen.

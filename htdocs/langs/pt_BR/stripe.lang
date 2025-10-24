@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Configuração do Módulo Stripe
-StripeDesc=Ofereça aos seus clientes uma página de pagamento online para pagamentos com cartão de crédito/débito via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Isso pode ser usado para permitir que seus clientes façam pagamentos pontuais ou para pagamentos relacionados a um objeto Dolibarr específico (fatura, pedido, etc.).
+StripeDesc=Ofereça aos seus clientes uma página de pagamento online para pagamentos com cartão de crédito/débito via <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a>. Isso pode ser usado para permitir que seus clientes façam pagamentos pontuais ou para pagamentos relacionados a um objeto ZionOne específico (fatura, pedido, etc.).
 StripeOrCBDoPayment=Pagar com cartão de crédito ou boleto
 FollowingUrlAreAvailableToMakePayments=As seguintes URL estão disponíveis para permitir a um cliente efetuar um pagamento
 PaymentForm=Formulário de Pagamento
@@ -17,7 +17,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL para oferecer uma página de pagame
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL para oferecer uma página de pagamentos online de %s para assinaturas de membros
 ToOfferALinkForOnlinePaymentOnDonation=URL para oferecer %s página de pagamentos online para pagamentos de doação
 YouCanAddTagOnUrl=Você também pode adicionar o parâmetro de URL <b>&tag=value</b> a qualquer uma dessas URLs (obrigatório apenas para pagamentos não vinculados a um objeto) para adicionar sua própria tag de comentário de pagamento.<br>Para a URL de pagamentos sem objeto existente, você também pode adicionar o parâmetro <strong>&noidempotency=1</strong> para que o mesmo link com a mesma tag possa ser usado várias vezes (alguns modos de pagamento podem limitar o pagamento a 1 para cada link diferente sem esse parâmetro)
-YouCanEmbedOnWebsite=Se você quiser integrar a página de pagamento em um site Dolibarr, você pode incluir o parâmetro: <b>&ws=website_ref</b>.<br>Além disso, duas páginas chamadas <b>paymentok</b> e <b>paymentko</b> devem ser criadas no site para receber o redirecionamento após um pagamento on-line bem-sucedido ou com falha.
+YouCanEmbedOnWebsite=Se você quiser integrar a página de pagamento em um site ZionOne, você pode incluir o parâmetro: <b>&ws=website_ref</b>.<br>Além disso, duas páginas chamadas <b>paymentok</b> e <b>paymentko</b> devem ser criadas no site para receber o redirecionamento após um pagamento on-line bem-sucedido ou com falha.
 SetupStripeToHavePaymentCreatedAutomatically=Configure seu Steipe com url <b> %s </b> para que o pagamento seja criado automaticamente quando validado por boleto
 AccountParameter=Parâmetros da conta
 InformationToFindParameters=Ajuda para encontrar as informações da sua conta %s

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nav kļūda, mēs apstiprinam
@@ -52,12 +52,12 @@ ErrorWrongDate=Datums nav pareizs
 ErrorFailedToWriteInDir=Neizdevās ierakstīt direktorijā %s
 ErrorFailedToBuildArchive=Neizdevās izveidot arhīva failu %s
 ErrorFoundBadEmailInFile=Atrasts nepareiza e-pasta sintakse %s līnijām failā (piemērs line %s ar e-pasta = %s)
-ErrorUserCannotBeDelete=Lietotāju nevar izdzēst. Varbūt tas ir saistīts ar Dolibarr vienībām.
+ErrorUserCannotBeDelete=Lietotāju nevar izdzēst. Varbūt tas ir saistīts ar ZionOne vienībām.
 ErrorFieldsRequired=Daži obligāti aizpildāmie lauki ir atstāti tukši.
 ErrorSubjectIsRequired=Nepieciešama e-pasta tēma
 ErrorInAddAttachmentsImageBaseOnMedia=Veidojot attēlu failus multivides direktorijā pielikumam, radās kļūda
 ErrorInAddAttachmentsImageBaseIsSrcData=Kļūda, veidojot attēlu failus (atrasti kā dati:) pagaidu direktorijā pielikumam
-ErrorFailedToCreateDir=Neizdevās izveidot direktoriju. Pārbaudiet, vai Web servera lietotājam ir tiesības rakstīt uz Dolibarr dokumentus direktorijā. Ja parametrs <b>safe_mode</b> ir iespējots uz šo PHP, pārbaudiet, Dolibarr php faili pieder web servera lietotājam (vai grupa).
+ErrorFailedToCreateDir=Neizdevās izveidot direktoriju. Pārbaudiet, vai Web servera lietotājam ir tiesības rakstīt uz ZionOne dokumentus direktorijā. Ja parametrs <b>safe_mode</b> ir iespējots uz šo PHP, pārbaudiet, ZionOne php faili pieder web servera lietotājam (vai grupa).
 ErrorNoMailDefinedForThisUser=Nav definēts e-pasts šim lietotājam
 ErrorSetupOfEmailsNotComplete=E-pastu iestatīšana nav pabeigta
 ErrorAccountingClosureSetupNotComplete=Setup of closure accounts not complete
@@ -88,7 +88,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Laukā <b> %s </b> nedrīkst b�
 ErrorFieldMustHaveXChar=Laukā <b>%s</b>jābūt vismaz %s rakstzīmēm.
 ErrorNoAccountancyModuleLoaded=Nav grāmatvedības modulis aktivizēts
 ErrorExportDuplicateProfil=Šāds profila nosaukums jau eksistē šim eksportam.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP saskaņošana nav pilnīga.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP saskaņošana nav pilnīga.
 ErrorLDAPMakeManualTest=. LDIF fails ir radīts direktorija %s. Mēģināt ielādēt manuāli no komandrindas, lai būtu vairāk informācijas par kļūdām.
 ErrorCantSaveADoneUserWithZeroPercentage=Nevar saglabāt darbību ar statusu, kas nav startēts, ja arī aizpildīts lauks "done by".
 ErrorPleaseTypeBankTransactionReportName=Lūdzu, ievadiet bankas izraksta nosaukumu, kurā ieraksts jāpaziņo (formāts GGGGMM vai GGGGMMDD).
@@ -122,8 +122,8 @@ ErrorProdIdAlreadyExist=%s piešķirta citai trešajai
 ErrorFailedToSendPassword=Neizdevās nosūtīt paroli
 ErrorFailedToLoadRSSFile=Nespēj iegūt RSS barotni. Centieties, lai pievienotu pastāvīgu MAIN_SIMPLEXMLLOAD_DEBUG ja kļūdu ziņojumi nesniedz pietiekamu informāciju.
 ErrorForbidden=Access denied.<br>You try to access to a page, area or feature of a disabled module or without being in an authenticated session or that is not allowed to your user.
-ErrorForbidden2=Atļaujas šajā lapā var definēt Dolibarr administrators no izvēlnes %s->%s.
-ErrorForbidden3=Šķiet, ka Dolibarr netiek izmantota, izmantojot autentiskums sesiju. Ieskatieties Dolibarr uzstādīšanas dokumentācijas zināt, kā pārvaldīt apstiprinājumi (Htaccess, mod_auth vai citu ...).
+ErrorForbidden2=Atļaujas šajā lapā var definēt ZionOne administrators no izvēlnes %s->%s.
+ErrorForbidden3=Šķiet, ka ZionOne netiek izmantota, izmantojot autentiskums sesiju. Ieskatieties ZionOne uzstādīšanas dokumentācijas zināt, kā pārvaldīt apstiprinājumi (Htaccess, mod_auth vai citu ...).
 ErrorForbidden4=Piezīme: notīriet pārlūkprogrammas sīkfailus, lai iznīcinātu esošās šī pieteikšanās sesijas.
 ErrorNoImagickReadimage=Klases Imagick nav atrodams šajā PHP. Priekšskatījums nav, var būt pieejamas. Administratori var atspējot šo uzlīmi no izvēlnes Setup - displejs.
 ErrorRecordAlreadyExists=Ieraksts jau eksistē
@@ -147,8 +147,8 @@ ErrorWebServerUserHasNotPermission=Lietotāja kontam <b>%s</b> kas tiek izmantot
 ErrorNoActivatedBarcode=Nav svītrkodu veids aktivizēts
 ErrUnzipFails=Neizdevās atarhivēt %s izmantojot ZipArchive
 ErrNoZipEngine=Nav dzinēja, lai zip / unzip %s failu šajā PHP
-ErrorFileMustBeADolibarrPackage=Failam %s jābūt Dolibarr zip
-ErrorModuleFileRequired=Jums ir jāizvēlas Dolibarr moduļa pakotnes fails
+ErrorFileMustBeADolibarrPackage=Failam %s jābūt ZionOne zip
+ErrorModuleFileRequired=Jums ir jāizvēlas ZionOne moduļa pakotnes fails
 ErrorPhpCurlNotInstalled=PHP CURL nav uzstādīts, tas ir svarīgi saziņai ar Paypal
 ErrorFailedToAddToMailmanList=Neizdevās pievienot ierakstu %s, lai pastnieks saraksta %s vai SPIP bāze
 ErrorFailedToRemoveToMailmanList=Neizdevās noņemt ierakstu %s, lai pastnieks saraksta %s vai SPIP bāze
@@ -161,7 +161,7 @@ ErrorDateMustBeInFuture=Datumam jābūt lielākam nekā šodien
 ErrorStartDateGreaterEnd=Sākuma datums ir lielāks par beigu datumu
 ErrorPaymentModeDefinedToWithoutSetup=Maksājumu režīms tika noteikts rakstīt %s, bet uzstādīšana moduļa rēķins netika pabeigts, lai noteiktu informāciju, lai parādītu šo maksājumu režīmā.
 ErrorPHPNeedModule=Kļūda, jūsu PHP ir jābūt moduli <b>%s</b> uzstādītas, lai izmantotu šo funkciju.
-ErrorOpenIDSetupNotComplete=Jūs uzstādīšana Dolibarr config failu, lai ļautu OpenID autentifikācijas, bet OpenID pakalpojuma URL nav definēts spēkā salīdzināmajās %s
+ErrorOpenIDSetupNotComplete=Jūs uzstādīšana ZionOne config failu, lai ļautu OpenID autentifikācijas, bet OpenID pakalpojuma URL nav definēts spēkā salīdzināmajās %s
 ErrorWarehouseMustDiffers=Avota un mērķa noliktavas jābūt atšķiras
 ErrorBadFormat=Nepareizs formāts
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Kļūda, šis dalībnieks vēl nav saistīts ar kādu trešo pusi. Saistiet esošās trešās personas biedru vai izveidojiet jaunu trešo pusi, pirms izveidojat abonementu ar rēķinu.
@@ -348,11 +348,11 @@ ErrorNoCloneWithoutEmail=The new user must have an email
 ErrorUserClone=Error in user clone categories
 ErrorQtyOrderedLessQtyShipped = The quantity ordered cannot be less than the quantity shipped.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Error, creating a various payment on a bank account with a currency different than the currency of the company is not yet supported.
-ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and Dolibarr parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and ZionOne parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, you try to pay different invoices with different currencies in the same payment
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Jūsu PHP parametrs upload_max_filesize (%s) ir augstāks nekā PHP parametrs post_max_size (%s). Šī nav konsekventa iestatīšana.
-WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Dolibarr. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
+WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to ZionOne. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
 WarningMandatorySetupNotComplete=Noklikšķiniet šeit, lai iestatītu galvenos parametrus
 WarningEnableYourModulesApplications=Noklikšķiniet šeit, lai iespējotu moduļus un lietojumprogrammas
 WarningSafeModeOnCheckExecDir=Uzmanību, PHP iespēja <b>safe_mode</b> ir par tik komanda jāuzglabā iekšpusē direktorijā deklarēto php parametru <b>safe_mode_exec_dir.</b>
@@ -399,7 +399,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Brīdinājums, bankas konta lasī�
 WarningNoDataTransferedInAccountancyYet=Lūdzu, ņemiet vērā, ka uzskaites tabulā nav datu. Lūdzu, pārsūtiet savus aplikācijā ierakstītos datus uz grāmatvedības sadaļu vai mainiet aprēķina režīmu, lai analizētu ārpus grāmatvedības ierakstītos datus.
 WarningChangingThisMayBreakStopTaskScheduler=Brīdinājums, šīs vērtības maiņa var atspējot plānotāju
 WarningAmountOfFileDiffersFromSumOfLines=Warning, amount of file (%s) differs from the sum of lines (%s)
-WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the Dolibarr foundation as being published by a company using illegal practices (non-compliance with the rules for using the Dolibarr brand, collecting your data without your consent or deploying malware).
+WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the ZionOne foundation as being published by a company using illegal practices (non-compliance with the rules for using the ZionOne brand, collecting your data without your consent or deploying malware).
 WarningModuleAffiliatedToAPiratPlatform=Be careful when getting a module (paid or free) from a suspicious non official platform like %s
 
 SwissQrOnlyVIR = SwissQR rēķinu var pievienot tikai tiem rēķiniem, kas ir iestatīti apmaksai ar kredīta pārveduma maksājumiem.

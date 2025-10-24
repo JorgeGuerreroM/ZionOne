@@ -16,8 +16,8 @@
 -- along with this program. If not, see <https://www.gnu.org/licenses/>.
 --
 -- ========================================================================
--- This table logs all dolibarr security events
--- Content of this table is not managed by users but by Dolibarr
+-- This table logs all ZionOne security events
+-- Content of this table is not managed by users but by ZionOne
 -- trigger interface_20_all_Logevents.
 -- ========================================================================
 

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=সদস্যদের এলাকা
 MemberCard=সদস্য কার্ড
 SubscriptionCard=সাবস্ক্রিপশন কার্ড
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=বৈধ পাবলিক সদস্যদে�
 ErrorThisMemberIsNotPublic=এই সদস্য সর্বজনীন নয়
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Another member (name: <b>%s</b>, login: <b>%s</b>) is already linked to a third party <b>%s</b>. Remove this link first because a third party can't be linked to only a member (and vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=নিরাপত্তার কারণে, আপনার নয় এমন ব্যবহারকারীর সাথে সদস্যকে লিঙ্ক করতে সক্ষম হওয়ার জন্য আপনাকে অবশ্যই সমস্ত ব্যবহারকারীকে সম্পাদনা করার অনুমতি দিতে হবে।
-SetLinkToUser=একটি Dolibarr ব্যবহারকারী লিঙ্ক
-SetLinkToThirdParty=একটি Dolibarr তৃতীয় পক্ষের লিঙ্ক
+SetLinkToUser=একটি ZionOne ব্যবহারকারী লিঙ্ক
+SetLinkToThirdParty=একটি ZionOne তৃতীয় পক্ষের লিঙ্ক
 MemberCountersArePublic=বৈধ সদস্যদের কাউন্টার সর্বজনীন
 MembersCards=সদস্যদের জন্য কার্ড তৈরি করা
 MembersList=সদস্যদের তালিকা
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=আপনি কি নিশ্চিত আপনি
 Filehtpasswd=htpasswd ফাইল
 ValidateMember=একজন সদস্যকে যাচাই করুন
 ConfirmValidateMember=আপনি কি নিশ্চিত যে আপনি এই সদস্যকে যাচাই করতে চান?
-FollowingLinksArePublic=নিম্নলিখিত লিঙ্কগুলি খোলা পৃষ্ঠাগুলি কোন Dolibarr অনুমতি দ্বারা সুরক্ষিত নয়. এগুলি ফর্ম্যাট করা পৃষ্ঠা নয়, কীভাবে সদস্যদের ডাটাবেস তালিকাভুক্ত করা যায় তা দেখানোর জন্য উদাহরণ হিসাবে দেওয়া হয়েছে।
+FollowingLinksArePublic=নিম্নলিখিত লিঙ্কগুলি খোলা পৃষ্ঠাগুলি কোন ZionOne অনুমতি দ্বারা সুরক্ষিত নয়. এগুলি ফর্ম্যাট করা পৃষ্ঠা নয়, কীভাবে সদস্যদের ডাটাবেস তালিকাভুক্ত করা যায় তা দেখানোর জন্য উদাহরণ হিসাবে দেওয়া হয়েছে।
 PublicMemberList=পাবলিক সদস্য তালিকা
 BlankSubscriptionForm=পাবলিক স্ব-নিবন্ধন ফর্ম
-BlankSubscriptionFormDesc=Dolibarr আপনাকে একটি সর্বজনীন URL/ওয়েবসাইট প্রদান করতে পারে যাতে বহিরাগত দর্শকরা ফাউন্ডেশনে সদস্যতা নেওয়ার জন্য অনুরোধ করতে পারে। যদি একটি অনলাইন পেমেন্ট মডিউল সক্ষম করা হয়, তাহলে একটি অর্থপ্রদানের ফর্ম স্বয়ংক্রিয়ভাবে প্রদান করা যেতে পারে।
+BlankSubscriptionFormDesc=ZionOne আপনাকে একটি সর্বজনীন URL/ওয়েবসাইট প্রদান করতে পারে যাতে বহিরাগত দর্শকরা ফাউন্ডেশনে সদস্যতা নেওয়ার জন্য অনুরোধ করতে পারে। যদি একটি অনলাইন পেমেন্ট মডিউল সক্ষম করা হয়, তাহলে একটি অর্থপ্রদানের ফর্ম স্বয়ংক্রিয়ভাবে প্রদান করা যেতে পারে।
 EnablePublicSubscriptionForm=স্ব-সাবস্ক্রিপশন ফর্ম সহ সর্বজনীন ওয়েবসাইট সক্ষম করুন
 ForceMemberType=সদস্য প্রকার জোর করে
 ExportDataset_member_1=সদস্য এবং অবদান

@@ -16,7 +16,7 @@
  */
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../../main.inc.php';
 
 /**
@@ -45,8 +45,8 @@ $optioncss = GETPOST('optioncsss', 'alpha');
 
 $form = new Form($db);
 
-// 1 = Test inside a dolibarr page, 0 = Use hard coded header
-// Using a dolibarr constant avoid phpstan hardcoded value always true or false
+// 1 = Test inside a ZionOne page, 0 = Use hard coded header
+// Using a ZionOne constant avoid phpstan hardcoded value always true or false
 $usedolheader = getDolGlobalInt('MAIN_TEST_UI_IN_DOLIBARR_PAGE', 1);
 
 // HEADER
@@ -63,7 +63,7 @@ if (empty($usedolheader)) {
 	<html>
 	<head>
 	<meta name="robots" content="noindex,nofollow" />
-	<meta name="author" content="Dolibarr Development Team">
+	<meta name="author" content="ZionOne Development Team">
 	<title>Test page</title>
 	<!-- Includes for JQuery (Ajax library) -->
 	<link rel="stylesheet" type="text/css" href="<?php echo DOL_URL_ROOT ?>/includes/jquery/css/base/jquery-ui.css" />

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Počet dokumentov v adresári
 ECMSection=Adresár
 ECMSectionManual=Ručné Directory
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Počet podadresárov
 ECMNbOfFilesInSubDir=Počet súborov v podadresároch
 ECMCreationUser=Tvorca
 ECMArea=oblasť DMS/ECM
-ECMAreaDesc=Oblasť DMS/ECM (Document Management System / Electronic Content Management) vám umožňuje rýchlo ukladať, zdieľať a vyhľadávať všetky druhy dokumentov v Dolibarr.
+ECMAreaDesc=Oblasť DMS/ECM (Document Management System / Electronic Content Management) vám umožňuje rýchlo ukladať, zdieľať a vyhľadávať všetky druhy dokumentov v ZionOne.
 ECMAreaDesc2a=* Manuálne adresáre možno použiť na ukladanie dokumentov s voľnou organizáciou stromovej štruktúry.
 ECMAreaDesc2b=* Automatické adresáre sa vyplnia automaticky pri pridávaní dokumentov zo stránky prvku.
 ECMAreaDesc3=* Verejné adresáre sú súbory v podadresári <b>/medias</b> adresára dokumentov, ktoré sú čitateľné pre všetkých na internete bez nutnosti prihlasovania a explicitného zdieľania súboru. Používajú sa napríklad na ukladanie obrázkových súborov pre modul odosielania e-mailov alebo webových stránok.

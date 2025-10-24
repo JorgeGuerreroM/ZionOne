@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=ID dogodka
 Actions=Dogodki
 Agenda=Koledar
@@ -28,8 +28,8 @@ ViewWeek=Tedenski pogled
 ViewPerUser=Pogled po uporabniku
 ViewPerType=Pogled na vrsto
 AutoActions= Avtomatska izpolnitev
-AgendaAutoActionDesc= Tukaj lahko določite dogodke, za katere želite, da jih Dolibarr samodejno ustvari v programu Agenda. Če ni označeno nič, bodo v dnevnike vključena samo ročna dejanja in prikazana v dnevnem redu. Samodejno sledenje opravljenih poslovnih dejanj na objektih (validacija, sprememba statusa) ne bo shranjeno.
-AgendaSetupOtherDesc= Na tej strani so možnosti za izvoz vaših dogodkov Dolibarr v zunanji koledar (Thunderbird, Google Calendar itd.)
+AgendaAutoActionDesc= Tukaj lahko določite dogodke, za katere želite, da jih ZionOne samodejno ustvari v programu Agenda. Če ni označeno nič, bodo v dnevnike vključena samo ročna dejanja in prikazana v dnevnem redu. Samodejno sledenje opravljenih poslovnih dejanj na objektih (validacija, sprememba statusa) ne bo shranjeno.
+AgendaSetupOtherDesc= Na tej strani so možnosti za izvoz vaših dogodkov ZionOne v zunanji koledar (Thunderbird, Google Calendar itd.)
 AgendaExtSitesDesc=Stran omogoča zunanje koledarje za ogled dogodkov v programu
 ActionsEvents=Dogodki, ki bodo samodejno kreirani v koledarju
 EventRemindersByEmailNotEnabled=Opomniki za dogodke po e-pošti niso bili omogočeni v nastavitvah modula %s.

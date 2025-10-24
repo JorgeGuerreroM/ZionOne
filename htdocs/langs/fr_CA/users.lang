@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 SendNewPasswordLink=Envoyer un lien pour réinitialiser le mot de passe
 SubjectNewPassword=Votre nouveau mot de passe pour %s
 Credentials=Informations d'identification

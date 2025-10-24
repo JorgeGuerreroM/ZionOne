@@ -31,5 +31,5 @@ Then add code inside the "validateCodeAfterLoginSubmit" function.
 
 ***** STEP 3 *****
 
-Once this file has been edited, you can go to the Dolibarr security setup,
+Once this file has been edited, you can go to the ZionOne security setup,
 choose tab "captcha", you will see a new captcha in the "Captcha generators" area.

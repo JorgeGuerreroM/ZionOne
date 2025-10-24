@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Истинодҳо барои тафтиш
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Рӯзҳои пеш аз бекор кардани мақоми шарикӣ ҳангоми ба охир расидани мӯҳлати обуна
 ReferingWebsiteCheck=Санҷиши истинод ба вебсайт
 ReferingWebsiteCheckDesc=Шумо метавонед як хусусиятро фаъол созед, то боварӣ ҳосил кунед, ки шарикони шумо ба доменҳои вебсайти шумо дар вебсайти худ истиноди такрорӣ илова кардаанд.
-PublicFormRegistrationPartnerDesc=Dolibarr метавонад ба шумо URL/вебсайти оммавӣ пешниҳод кунад, то ба меҳмонони беруна иҷозат диҳад, ки қисми барномаи шарикӣ бошанд.
+PublicFormRegistrationPartnerDesc=ZionOne метавонад ба шумо URL/вебсайти оммавӣ пешниҳод кунад, то ба меҳмонони беруна иҷозат диҳад, ки қисми барномаи шарикӣ бошанд.
 # Object
 DeletePartnership=Ҳамкориро нест кунед
 PartnershipDedicatedToThisThirdParty=Шарикӣ ба ин шахси сеюм бахшида шудааст

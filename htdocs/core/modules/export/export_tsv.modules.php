@@ -44,10 +44,10 @@ class ExportTsv extends ModeleExports
 	public $extension;
 
 	/**
-	 * Dolibarr version of the loaded document
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental'
+	 * ZionOne version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental'
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 * @var string
@@ -88,7 +88,7 @@ class ExportTsv extends ModeleExports
 		$this->version = '1.15'; // Driver version
 
 		// If driver use an external library, put its name here
-		$this->label_lib = 'Dolibarr';
+		$this->label_lib = 'ZionOne';
 		$this->version_lib = DOL_VERSION;
 	}
 
@@ -351,7 +351,7 @@ class ExportTsv extends ModeleExports
 	{
 		// phpcs:enable
 
-		// Rule Dolibarr: No HTML
+		// Rule ZionOne: No HTML
 		$newvalue = dol_string_nohtmltag($newvalue, 1, $charset);
 
 		// Rule 1 TSV: No CR, LF in cells

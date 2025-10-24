@@ -11,7 +11,7 @@ $DIR =~ s/([^\/\\])[\\\/]+$/$1/;
 $OPTIONS="";
 #$OPTIONS="-d Preprocessor";
 
-$CONFFILE="dolibarr-doxygen.doxyfile";
+$CONFFILE="ZionOne-doxygen.doxyfile";
 
 use Cwd;
 my $dir = getcwd;
@@ -21,11 +21,11 @@ print "Current dir is: $dir\n";
 
 if (! -s "dev/build/doxygen/$CONFFILE")
 {
-    print "Error: current directory for building Dolibarr doxygen documentation is not correct.\n";
+    print "Error: current directory for building ZionOne doxygen documentation is not correct.\n";
     print "\n";
 	print "Change your current directory then, to launch the script, run:\n";
-	print '> perl .\dolibarr-doxygen-build.pl  (on Windows)'."\n";
-	print '> perl ../dolibarr-doxygen-build.pl  (on Linux or BSD)'."\n";
+	print '> perl .\ZionOne-doxygen-build.pl  (on Windows)'."\n";
+	print '> perl ../ZionOne-doxygen-build.pl  (on Linux or BSD)'."\n";
     sleep 4;
     exit 1;
 }

@@ -31,7 +31,7 @@ include_once DOL_DOCUMENT_ROOT."/core/boxes/modules_boxes.php";
 /**
  * Class to manage the box
  *
- * Warning: for the box to be detected correctly by dolibarr,
+ * Warning: for the box to be detected correctly by ZionOne,
  * the filename should be the lowercase classname
  */
 class mymodulewidget1 extends ModeleBoxes
@@ -89,7 +89,7 @@ class mymodulewidget1 extends ModeleBoxes
 	}
 
 	/**
-	 * Load data into info_box_contents array to show array later. Called by Dolibarr before displaying the box.
+	 * Load data into info_box_contents array to show array later. Called by ZionOne before displaying the box.
 	 *
 	 * @param	int<0,max>	$max	Maximum number of records to load
 	 * @return	void

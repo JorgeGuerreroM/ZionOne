@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Tài khoản (từ Biểu đồ tài khoản) được sử dụng theo mặc định cho "người dùng" trên bảng lương
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Tài khoản chuyên dụng được xác định trên thẻ người dùng sẽ chỉ được sử dụng cho kế toán Subledger. Tài khoản này sẽ được sử dụng cho Sổ cái chung, nhưng cũng là giá trị mặc định của kế toán Subledger nếu không có tài khoản kế toán người dùng chuyên dụng nào được xác định trên người dùng.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Tài khoản kế toán theo mặc định cho các khoản thanh toán tiền lương

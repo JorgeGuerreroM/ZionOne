@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Compte (issu du plan comptable) utilisé par défaut pour les « utilisateurs » sur les salaires
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Le compte dédié défini sur la fiche utilisateur sera utilisé uniquement pour la comptabilité auxiliaire. Celui-ci sera utilisé pour le Grand Livre, mais également comme valeur par défaut de la comptabilité auxiliaire si aucun compte comptable utilisateur dédié n'est défini sur l'utilisateur.
 CREATE_NEW_SALARY_WITHOUT_AUTO_PAYMENT=Par défaut, laissez vide l'option « Créer automatiquement un paiement total » lors de la création d'un salaire

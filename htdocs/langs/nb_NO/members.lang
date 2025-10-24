@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Medlemsområde
 MemberCard=Medlemskort
 SubscriptionCard=Abonnementskort
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Liste over validerte offentlige medlemmer
 ErrorThisMemberIsNotPublic=Dette medlemet er ikke offentlig
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Et annet medlem (navn: <b>%s</b>, innlogging: <b>%s</b>) er allerede koblet til en tredje part <b>%s</b>. Fjern denne lenken først fordi en tredjepart ikke kan knyttes til bare ett medlem (og vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Av sikkerhetsgrunner må du ha tilgang til å redigere alle brukere for å kunne knytte et medlem til en bruker som ikke er ditt.
-SetLinkToUser=Lenke til en Dolibarr bruker
-SetLinkToThirdParty=Lenke til en Dolibarr tredjepart
+SetLinkToUser=Lenke til en ZionOne bruker
+SetLinkToThirdParty=Lenke til en ZionOne tredjepart
 MemberCountersArePublic=Tellere til gyldige medlemmer er offentlige
 MembersCards=Generering av kort for medlemmer
 MembersList=Liste over medlemmer
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Er du sikker på at du vil slette dette bidraget?
 Filehtpasswd=htpasswd fil
 ValidateMember=Valider medlem
 ConfirmValidateMember=Er du sikker på at du vil validere dette medlemmet?
-FollowingLinksArePublic=Følgende lenker er åpne sider som ikke er beskyttet av noen Dolibarr-tillatelse. De er ikke formaterte sider, gitt som eksempel for å vise hvordan du kan vise en medlemsdatabase.
+FollowingLinksArePublic=Følgende lenker er åpne sider som ikke er beskyttet av noen ZionOne-tillatelse. De er ikke formaterte sider, gitt som eksempel for å vise hvordan du kan vise en medlemsdatabase.
 PublicMemberList=Offentlig medlemsliste
 BlankSubscriptionForm=Offentlig selvregistreringsskjema
-BlankSubscriptionFormDesc=Dolibarr kan gi deg en offentlig URL/nettside for å tillate eksterne besøkende å be om å abonnere på firmaet. Hvis en elektronisk betalingsmodul er aktivert, kan et betalingsformular også gis automatisk.
+BlankSubscriptionFormDesc=ZionOne kan gi deg en offentlig URL/nettside for å tillate eksterne besøkende å be om å abonnere på firmaet. Hvis en elektronisk betalingsmodul er aktivert, kan et betalingsformular også gis automatisk.
 EnablePublicSubscriptionForm=Aktiver det offentlige nettstedet med selvinnmeldingsskjema
 ForceMemberType=Tving medlemstype
 ExportDataset_member_1=Medlemmer og bidrag

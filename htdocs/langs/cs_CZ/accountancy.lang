@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Účetnictví
 Accounting=Účetnictví
 ACCOUNTING_EXPORT_SEPARATORCSV=Oddělovač sloupců pro soubor exportu
@@ -346,7 +346,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Zakázat vazbu a převod v účetnictví u p
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Zakázat vazbu a převod v účetnictví u nákupů (faktury od dodavatelů nebudou v účetnictví zohledněny)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Zakázat vazbu a převod v účetnictví u výkazů výdajů (výkazy výdajů nebudou v účetnictví zohledněny)
 ACCOUNTING_ENABLE_LETTERING=Povolte funkci písma v účetnictví
-ACCOUNTING_ENABLE_LETTERING_DESC=Pokud je tato možnost povolena, můžete pro každý účetní zápis definovat kód, abyste mohli seskupit různé účetní pohyby. V minulosti, kdy byly různé deníky spravovány nezávisle, byla tato funkce nezbytná pro seskupení řádků pohybů různých deníků. V účetnictví Dolibarr je však takový sledovací kód s názvem „<b>%s</b>“ již automaticky uložen, takže automatické označení je již provedeno bez rizika chyby, takže se tato funkce pro běžné používání stala zbytečnou. Funkce ručního označení je k dispozici pro koncové uživatele, kteří skutečně nedůvěřují počítačovému enginu provádějícímu přenos dat v účetnictví.
+ACCOUNTING_ENABLE_LETTERING_DESC=Pokud je tato možnost povolena, můžete pro každý účetní zápis definovat kód, abyste mohli seskupit různé účetní pohyby. V minulosti, kdy byly různé deníky spravovány nezávisle, byla tato funkce nezbytná pro seskupení řádků pohybů různých deníků. V účetnictví ZionOne je však takový sledovací kód s názvem „<b>%s</b>“ již automaticky uložen, takže automatické označení je již provedeno bez rizika chyby, takže se tato funkce pro běžné používání stala zbytečnou. Funkce ručního označení je k dispozici pro koncové uživatele, kteří skutečně nedůvěřují počítačovému enginu provádějícímu přenos dat v účetnictví.
 EnablingThisFeatureIsNotNecessary=Povolení této funkce již není pro důsledné vedení účetnictví nutné.
 ACCOUNTING_ENABLE_AUTOLETTERING=Povolit automatické písmenkování při přenosu do účetnictví
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Kód pro písmo se generuje a zvyšuje automaticky a koncový uživatel jej nevybírá.

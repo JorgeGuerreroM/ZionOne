@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=PayPal การติดตั้งโมดูล
-PaypalDesc=โมดูลนี้อนุญาตให้ลูกค้าชำระเงินผ่าน <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> สามารถใช้สำหรับการชำระเงินเฉพาะกิจหรือการชำระเงินที่เกี่ยวข้องกับออบเจ็กต์ Dolibarr (ใบแจ้งหนี้ คำสั่งซื้อ ...)
+PaypalDesc=โมดูลนี้อนุญาตให้ลูกค้าชำระเงินผ่าน <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> สามารถใช้สำหรับการชำระเงินเฉพาะกิจหรือการชำระเงินที่เกี่ยวข้องกับออบเจ็กต์ ZionOne (ใบแจ้งหนี้ คำสั่งซื้อ ...)
 PaypalOrCBDoPayment=ชำระเงินด้วย PayPal (บัตรหรือ PayPal)
 PaypalDoPayment=ชำระเงินด้วยเพย์พาล
 PAYPAL_API_SANDBOX=การทดสอบ Mode / ทราย

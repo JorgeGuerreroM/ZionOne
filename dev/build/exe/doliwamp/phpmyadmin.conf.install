@@ -1,7 +1,7 @@
 Alias /phpmyadmin "WAMPROOT/apps/phpmyadminWAMPPHPMYADMINVERSION/"
 
 # NOTE FOR APACHE 2.2:
-# To grant access to dolibarr from outside set lines
+# To grant access to ZionOne from outside set lines
 #
 #	Order Allow,Deny
 #	Allow from all
@@ -13,7 +13,7 @@ Alias /phpmyadmin "WAMPROOT/apps/phpmyadminWAMPPHPMYADMINVERSION/"
 #	Allow from 127.0.0.1
 #
 # NOTE FOR APACHE 2.3:
-# To grant access to dolibarr from outside set lines
+# To grant access to ZionOne from outside set lines
 #
 #	Require all granted
 #

@@ -23,7 +23,7 @@
  *      \brief      Page to get oauth callback
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/includes/OAuth/bootstrap.php';
 /**
@@ -80,7 +80,7 @@ $keyforparamid = 'OAUTH_'.$genericstring.($keyforprovider ? '-'.$keyforprovider 
 $keyforparamsecret = 'OAUTH_'.$genericstring.($keyforprovider ? '-'.$keyforprovider : '').'_SECRET';
 $keyforparamtenant = 'OAUTH_'.$genericstring.($keyforprovider ? '-'.$keyforprovider : '').'_TENANT';
 
-// Dolibarr storage
+// ZionOne storage
 $storage = new DoliStorage($db, $conf, $keyforprovider, getDolGlobalString($keyforparamtenant));
 
 $credentials = new Credentials(

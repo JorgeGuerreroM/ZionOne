@@ -33,7 +33,7 @@ class mod_contract_magre extends ModelNumRefContracts
 {
 	// variables inherited from ModelNumRefContracts class
 	public $name = 'Magre';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 	public $error = '';
 
 	/**

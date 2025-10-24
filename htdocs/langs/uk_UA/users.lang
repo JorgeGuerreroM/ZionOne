@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=Зона управління персоналом
 UserCard=Картка користувача
 GroupCard=Групова картка
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Посилання на користувача
 LinkedToDolibarrThirdParty=Посилання на третю сторону
 CreateDolibarrLogin=Створити користувача
 CreateDolibarrThirdParty=Створіть третю сторону
-LoginAccountDisableInDolibarr=Обліковий запис вимкнено в Dolibarr
-PASSWORDInDolibarr=Пароль змінено в Dolibarr
+LoginAccountDisableInDolibarr=Обліковий запис вимкнено в ZionOne
+PASSWORDInDolibarr=Пароль змінено в ZionOne
 UsePersonalValue=Використовуйте особисту цінність
 ExportDataset_user_1=Користувачі та їх властивості
 ExportDataset_user_2=Список подій безпеки

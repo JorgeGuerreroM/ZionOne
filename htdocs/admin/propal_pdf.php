@@ -30,7 +30,7 @@
  *		\brief      Setup page for commercial proposal module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/pdf.lib.php';
@@ -108,7 +108,7 @@ if ($action == 'removetermsofsale') {
 	if ($filename != '') {
 		dol_delete_file($file);
 	}
-	dolibarr_del_const($db, 'MAIN_INFO_PROPAL_TERMSOFSALE', $conf->entity);
+	zionone_del_const($db, 'MAIN_INFO_PROPAL_TERMSOFSALE', $conf->entity);
 }
 
 /*

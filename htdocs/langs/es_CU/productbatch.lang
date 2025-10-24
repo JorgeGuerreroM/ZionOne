@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - productbatch
+# ZionOne language file - Source file is en_US - productbatch
 ManageLotSerial=Usar número de lote/serie
 ProductStatusOnBatch=Sí (se requiere lote)
 ProductStatusOnSerial=Sí (se requiere número de serie único)

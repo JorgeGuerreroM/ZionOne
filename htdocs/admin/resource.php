@@ -23,7 +23,7 @@
  * \brief		Setup page to configure resource module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 // Class

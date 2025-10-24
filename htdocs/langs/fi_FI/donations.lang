@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Lahjoitus
 Donations=Lahjoitukset
 DonationRef=Lahjoitusviite
@@ -37,7 +37,7 @@ DonationUseThirdparties=Käytä lahjoittajan osoitteena olemassa olevan kolmanne
 DonationsStatistics=Lahjoitustilastot
 NbOfDonations=Lahjoitusten määrä
 BlankDonationForm=Julkisen lahjoituksen lomake
-BlankDonationFormDesc=Dolibarr voi tarjota sinulle julkisen URL-osoitteen/verkkosivuston, jonka kautta ulkopuoliset vierailijat voivat tehdä lahjoituksia. Jos verkkopohjainen maksu-moduuli on käytössä, maksu-lomake voidaan myös tarjota automaattisesti.
+BlankDonationFormDesc=ZionOne voi tarjota sinulle julkisen URL-osoitteen/verkkosivuston, jonka kautta ulkopuoliset vierailijat voivat tehdä lahjoituksia. Jos verkkopohjainen maksu-moduuli on käytössä, maksu-lomake voidaan myös tarjota automaattisesti.
 EnablePublicDonationForm=Ota käyttöön julkinen lahjoituslomake
 EnablePublicDonationList=Ota käyttöön julkinen lahjoitusluettelo
 ForceDonateurNature = Pakkoluovuttajan luonne (yksityishenkilö tai yritys)

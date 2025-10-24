@@ -75,7 +75,7 @@ class AdherentType extends CommonObject
 	 *  	'date', 'datetime', 'timestamp', 'duration',
 	 *  	'boolean', 'checkbox', 'radio', 'array',
 	 *  	'mail', 'phone', 'url', 'password', 'ip'
-	 *		Note: Filter must be a Dolibarr Universal Filter syntax string. Example: "(t.ref:like:'SO-%') or (t.date_creation:<:'20160101') or (t.status:!=:0) or (t.nature:is:NULL)"
+	 *		Note: Filter must be a ZionOne Universal Filter syntax string. Example: "(t.ref:like:'SO-%') or (t.date_creation:<:'20160101') or (t.status:!=:0) or (t.nature:is:NULL)"
 	 *  'label' the translation key.
 	 *  'picto' is code of a picto to show before value in forms
 	 *  'enabled' is a condition when the field must be managed (Example: 1 or 'getDolGlobalInt("MY_SETUP_PARAM")' or 'isModEnabled("multicurrency")' ...)
@@ -969,7 +969,7 @@ class AdherentType extends CommonObject
 		}
 		if (getDolGlobalString('LDAP_MEMBER_TYPE_FIELD_GROUPMEMBERS')) {
 			$valueofldapfield = array();
-			foreach ($this->members as $key => $val) {    // This is array of users for group into dolibarr database.
+			foreach ($this->members as $key => $val) {    // This is array of users for group into ZionOne database.
 				$member = new Adherent($this->db);
 				$member->fetch($val->id, '', 0, '', false, false);
 				$info2 = $member->_load_ldap_info();

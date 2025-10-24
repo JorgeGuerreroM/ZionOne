@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= 模組 ID
 ModuleBuilderDesc=該工具只能由有經驗的使用者或開發人員使用。它提供了構建或編輯您自己的模組的實用程式。 <a href="%s" target="_blank" rel="noopener noreferrer">手動開發的文件位於此處</a>。
 EnterNameOfModuleDesc=輸入要建立的模組/應用程式的名稱，不帶空格。使用大寫字母分隔單字（例如：MyModule、EcommerceForShop、SyncWithMySystem...）
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=您可以刪除您的模組。警告：模組的�
 EnterNameOfObjectToDeleteDesc=您可以刪除一個物件。警告：與該物件相關的所有編碼檔案（手動產生或建立）都將被刪除！
 DangerZone=危險區域
 BuildPackage=構建套件
-BuildPackageDesc=您可以產生應用程式的 zip 包，以便準備將其分發到任何 Dolibarr 上。您也可以在 <a href="https://www.dolistore.com">DoliStore.com</a> 等市場上分發或銷售它。
+BuildPackageDesc=您可以產生應用程式的 zip 包，以便準備將其分發到任何 ZionOne 上。您也可以在 <a href="https://www.dolistore.com">DoliStore.com</a> 等市場上分發或銷售它。
 BuildDocumentation=構建文檔
 ModuleIsNotActive=該模組尚未啟動。轉至 %s 使其上線或點擊此處
 ModuleIsLive=該模組已啟動。任何更改都可能會破壞當前的即時功能。
@@ -110,7 +110,7 @@ HooksDefDesc=在屬性中定義<b>module_parts['hooks']</b>，在模組描述檔
 TriggerDefDesc=在觸發器檔案中定義當執行模組外部的業務事件（由其他模組觸發的事件）時要執行的程式碼。
 SeeIDsInUse=查看您安裝中正在使用的 ID
 SeeReservedIDsRangeHere=查看預留 ID 範圍
-ToolkitForDevelopers=Dolibarr 開發人員工具包
+ToolkitForDevelopers=ZionOne 開發人員工具包
 TryToUseTheModuleBuilder=如果您了解 SQL 和 PHP，則可以使用本機模組建構器精靈。<br>啟用模組<strong>%s</strong>並透過點擊右上角選單上的<span class="fa fa-bug"></span>使用精靈。<br>警告：這是一項高級開發人員功能，請勿這樣做<b>不要</b>在您的生產站點上進行實驗！
 SeeTopRightMenu=請參考右上角選單中的 <span class="fa fa-bug"></span>
 AddLanguageFile=添加語言文件

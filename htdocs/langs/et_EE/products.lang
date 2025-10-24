@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Toote viide
 ProductLabel=Toote nimi
 ProductLabelTranslated=Tõlgitud toote etikett
@@ -300,7 +300,7 @@ MinSupplierPrice=Minimaalne ostuhind
 MinCustomerPrice=Minimaalne müügihind
 NoDynamicPrice=Dünaamilist hinda pole
 DynamicPriceConfiguration=Dünaamiline hinnakonfiguratsioon
-DynamicPriceDesc=Kliendi või hankija hindade arvutamiseks võite määratleda matemaatilised valemid. Sellised valemid võivad kasutada kõiki matemaatilisi operaatoreid, mõningaid konstante ja muutujaid. Siin saate määratleda muutujad, mida soovite kasutada. Kui muutuja vajab automaatset värskendamist, võite määrata välise URL-i, et Dolibarr saaks väärtust automaatselt värskendada.
+DynamicPriceDesc=Kliendi või hankija hindade arvutamiseks võite määratleda matemaatilised valemid. Sellised valemid võivad kasutada kõiki matemaatilisi operaatoreid, mõningaid konstante ja muutujaid. Siin saate määratleda muutujad, mida soovite kasutada. Kui muutuja vajab automaatset värskendamist, võite määrata välise URL-i, et ZionOne saaks väärtust automaatselt värskendada.
 AddVariable=Lisa muutuja
 AddUpdater=Lisa uuendaja
 GlobalVariables=Globaalsed muutujad
@@ -388,7 +388,7 @@ NewProductAttribute=Uus atribuut
 NewProductAttributeValue=Uus atribuudi väärtus
 ErrorCreatingProductAttributeValue=Atribuudi väärtuse loomisel ilmnes viga. See võib olla tingitud sellest, et selle viitega väärtus on juba olemas.
 ProductCombinationGeneratorWarning=Jätkamisel KUSTUTAtakse enne uute variantide genereerimist kõik eelmised. Juba olemasolevad värskendatakse uute väärtustega.
-TooMuchCombinationsWarning=Paljude variantide genereerimine võib kaasa tuua suure protsessori ja mälu kasutuse ning Dolibarr ei saa neid luua. Valiku "%s" lubamine võib aidata mälu kasutust vähendada.
+TooMuchCombinationsWarning=Paljude variantide genereerimine võib kaasa tuua suure protsessori ja mälu kasutuse ning ZionOne ei saa neid luua. Valiku "%s" lubamine võib aidata mälu kasutust vähendada.
 DoNotRemovePreviousCombinations=Ärge eemaldage eelmisi variante
 UsePercentageVariations=Kasutage protsentuaalseid variatsioone
 PercentageVariation=Protsendiline varieeruvus

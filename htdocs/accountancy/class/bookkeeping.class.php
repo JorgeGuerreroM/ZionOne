@@ -177,7 +177,7 @@ class BookKeeping extends CommonObject
 	public $piece_num;
 
 	/**
-	 * @var string accounting transaction dolibarr ref
+	 * @var string accounting transaction ZionOne ref
 	 */
 	public $ref;
 

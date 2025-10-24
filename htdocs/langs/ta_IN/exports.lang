@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=ஏற்றுமதி
 ImportArea=இறக்குமதி
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=இறக்குமதி கோப்பு வட
 ChooseFileToImport=கோப்பைப் பதிவேற்றவும், பின்னர் கோப்பை மூல இறக்குமதி கோப்பாக தேர்ந்தெடுக்க %s ஐகானைக் கிளிக் செய்யவும்...
 SourceFileFormat=மூல கோப்பு வடிவம்
 FieldsInSourceFile=மூலக் கோப்பில் உள்ள புலங்கள்
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=புலங்கள் இல்லை
 MoveField=புல நெடுவரிசை எண் %s ஐ நகர்த்தவும்
 ExampleOfImportFile=இறக்குமதி_கோப்பின்_எடுத்துக்காட்டு

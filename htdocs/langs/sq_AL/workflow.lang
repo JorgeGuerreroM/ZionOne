@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=Konfigurimi i modulit të rrjedhës së punës
 WorkflowDesc=Ky modul ofron disa veprime automatike. Si parazgjedhje, fluksi i punës është i hapur (mund t'i bëni gjërat sipas rendit që dëshironi), por këtu mund të aktivizoni disa veprime automatike.
 ThereIsNoWorkflowToModify=Nuk ka modifikime të rrjedhës së punës në dispozicion me modulet e aktivizuara.

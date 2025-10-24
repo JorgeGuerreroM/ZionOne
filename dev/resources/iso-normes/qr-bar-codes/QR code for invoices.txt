@@ -11,7 +11,7 @@ List of QR Code format we found on some invoices
 ------------------------------------------
 https://en.wikipedia.org/wiki/EPC_QR_code#Generators
 
-Experimental support can be enabled in Dolibarr by setting INVOICE_ADD_EPC_QR_CODE = 1
+Experimental support can be enabled in ZionOne by setting INVOICE_ADD_EPC_QR_CODE = 1
 
 
 * For ZATCA QR Code format (Saudi Arabia). Used when INVOICE_ADD_ZATCA_QR_CODE is set
@@ -29,5 +29,5 @@ Method to encode/decode ZATCA string is available in test/phpunit/BarcodeTest.ph
 - Syntax of complementary field named "structured information of invoice S1": https://www.swiss-qr-invoice.org/downloads/qr-bill-s1-syntax-fr.pdf
 To test/validate: https://www.swiss-qr-invoice.org/validator/
 
-Experimental support to show the QR code can be enabled in dolibarr by setting INVOICE_ADD_SWISS_QR_CODE = 1.
+Experimental support to show the QR code can be enabled in ZionOne by setting INVOICE_ADD_SWISS_QR_CODE = 1.
 If setting value to "bottom", the complete top banner can be added at bottom of invoice PDF. Note: an external PHP library may be requested at first PDF generation.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# ZionOne language file - Source file is en_US - main
 DIRECTION=ltr
 # Default for FONTFORPDF=helvetica
 # Note for Chinese:
@@ -70,8 +70,8 @@ ErrorNoRequestInError=பிழையில் கோரிக்கை இல�
 ErrorServiceUnavailableTryLater=தற்போது சேவை கிடைக்கவில்லை. பின்னர் மீண்டும் முயற்சிக்கவும்.
 ErrorDuplicateField=தனித்துவமான புலத்தில் நகல் மதிப்பு
 ErrorSomeErrorWereFoundRollbackIsDone=சில பிழைகள் கண்டறியப்பட்டன. மாற்றங்கள் திரும்பப் பெறப்பட்டன.
-ErrorConfigParameterNotDefined=அளவுரு <b> %s </b> என்பது Dolibarr config கோப்பு <b> conf.php a09a4b730f.17f8z0 இல் வரையறுக்கப்படவில்லை
-ErrorCantLoadUserFromDolibarrDatabase=Dolibarr தரவுத்தளத்தில் <b> %s </b> பயனரைக் கண்டறிய முடியவில்லை.
+ErrorConfigParameterNotDefined=அளவுரு <b> %s </b> என்பது ZionOne config கோப்பு <b> conf.php a09a4b730f.17f8z0 இல் வரையறுக்கப்படவில்லை
+ErrorCantLoadUserFromZionOneDatabase=ZionOne தரவுத்தளத்தில் <b> %s </b> பயனரைக் கண்டறிய முடியவில்லை.
 ErrorNoVATRateDefinedForSellerCountry=பிழை, '%s' நாட்டிற்கு வாட் கட்டணங்கள் எதுவும் வரையறுக்கப்படவில்லை.
 ErrorNoSocialContributionForSellerCountry=பிழை, '%s' நாட்டிற்கு சமூக/நிதி வரிகள் வகை வரையறுக்கப்படவில்லை.
 ErrorFailedToSaveFile=பிழை, கோப்பைச் சேமிப்பதில் தோல்வி.
@@ -105,7 +105,7 @@ RecordDeleted=பதிவு நீக்கப்பட்டது
 RecordGenerated=பதிவு உருவாக்கப்பட்டது
 LevelOfFeature=அம்சங்களின் நிலை
 NotDefined=வரையறுக்கப்படவில்லை
-DolibarrInHttpAuthenticationSoPasswordUseless=டோலிபார் அங்கீகரிப்பு முறை <b> %s </b> என்ற உள்ளமைவு கோப்பில் <b> conf.php a09a4b730f17f17f17f17. <br> இதன் பொருள் கடவுச்சொல் தரவுத்தளம் Dolibarr க்கு வெளியில் உள்ளது, எனவே இந்த புலத்தை மாற்றுவது எந்த விளைவையும் ஏற்படுத்தாது.
+ZionOneInHttpAuthenticationSoPasswordUseless=டோலிபார் அங்கீகரிப்பு முறை <b> %s </b> என்ற உள்ளமைவு கோப்பில் <b> conf.php a09a4b730f17f17f17f17. <br> இதன் பொருள் கடவுச்சொல் தரவுத்தளம் ZionOne க்கு வெளியில் உள்ளது, எனவே இந்த புலத்தை மாற்றுவது எந்த விளைவையும் ஏற்படுத்தாது.
 Administrator=System administrator
 AdministratorDesc=System administrator (can administer user, permissions but also system setup and modules configuration)
 Undefined=வரையறுக்கப்படாத
@@ -124,9 +124,9 @@ DatabaseTypeManager=தரவுத்தள வகை மேலாளர்
 RequestLastAccessInError=சமீபத்திய தரவுத்தள அணுகல் கோரிக்கை பிழை
 ReturnCodeLastAccessInError=சமீபத்திய தரவுத்தள அணுகல் கோரிக்கை பிழைக்கான குறியீட்டை திருப்பி அனுப்பவும்
 InformationLastAccessInError=சமீபத்திய தரவுத்தள அணுகல் கோரிக்கை பிழைக்கான தகவல்
-DolibarrHasDetectedError=Dolibarr தொழில்நுட்பப் பிழையைக் கண்டறிந்துள்ளது
-YouCanSetOptionDolibarrMainProdToZero=மேலும் தகவலைப் பெற, பதிவுக் கோப்பைப் படிக்கலாம் அல்லது உங்கள் கட்டமைப்பு கோப்பில் $dolibarr_main_prod ஐ '0' ஆக அமைக்கலாம்.
-InformationToHelpDiagnose=கண்டறியும் நோக்கங்களுக்காக இந்தத் தகவல் பயனுள்ளதாக இருக்கும் (முக்கியமான தகவலை மறைக்க நீங்கள் விருப்பத்தை $dolibarr_main_prod '1' ஆக அமைக்கலாம்)
+ZionOneHasDetectedError=ZionOne தொழில்நுட்பப் பிழையைக் கண்டறிந்துள்ளது
+YouCanSetOptionZionOneMainProdToZero=மேலும் தகவலைப் பெற, பதிவுக் கோப்பைப் படிக்கலாம் அல்லது உங்கள் கட்டமைப்பு கோப்பில் $ZionOne_main_prod ஐ '0' ஆக அமைக்கலாம்.
+InformationToHelpDiagnose=கண்டறியும் நோக்கங்களுக்காக இந்தத் தகவல் பயனுள்ளதாக இருக்கும் (முக்கியமான தகவலை மறைக்க நீங்கள் விருப்பத்தை $ZionOne_main_prod '1' ஆக அமைக்கலாம்)
 MoreInformation=மேலும் தகவல்
 TechnicalInformation=தொழில்நுட்ப தகவல்
 TechnicalID=தொழில்நுட்ப ஐடி
@@ -526,8 +526,8 @@ Generate=உருவாக்கு
 Duration=கால அளவு
 TotalDuration=மொத்த கால அளவு
 Summary=சுருக்கம்
-DolibarrStateBoard=தரவுத்தள புள்ளிவிவரங்கள்
-DolibarrWorkBoard=பொருட்களைத் திறக்கவும்
+ZionOneStateBoard=தரவுத்தள புள்ளிவிவரங்கள்
+ZionOneWorkBoard=பொருட்களைத் திறக்கவும்
 NoOpenedElementToProcess=செயலாக்க திறந்த உறுப்பு இல்லை
 Available=கிடைக்கும்
 NotYetAvailable=இன்னும் கிடைக்கவில்லை
@@ -808,7 +808,7 @@ PrintContentArea=முக்கிய உள்ளடக்க பகுதி�
 MenuManager=மெனு மேலாளர்
 WarningYouAreInMaintenanceMode=எச்சரிக்கை, நீங்கள் பராமரிப்பு பயன்முறையில் உள்ளீர்கள்: இந்த பயன்முறையில் பயன்பாட்டைப் பயன்படுத்த <b> %s </b> மட்டுமே உள்நுழைய அனுமதிக்கப்படுகிறது.
 CoreErrorTitle=கணினி பிழை
-CoreErrorMessage=மன்னிக்கவும், பிழை ஏற்பட்டது. பதிவுகளைச் சரிபார்க்க உங்கள் கணினி நிர்வாகியைத் தொடர்புகொள்ளவும் அல்லது கூடுதல் தகவலைப் பெற $dolibarr_main_prod=1 ஐ முடக்கவும்.
+CoreErrorMessage=மன்னிக்கவும், பிழை ஏற்பட்டது. பதிவுகளைச் சரிபார்க்க உங்கள் கணினி நிர்வாகியைத் தொடர்புகொள்ளவும் அல்லது கூடுதல் தகவலைப் பெற $ZionOne_main_prod=1 ஐ முடக்கவும்.
 CreditCard=கடன் அட்டை
 ValidatePayment=கட்டணத்தைச் சரிபார்க்கவும்
 CreditOrDebitCard=கிரெடிட் அல்லது டெபிட் கார்டு
@@ -961,7 +961,7 @@ ViewFlatList=தட்டையான பட்டியலைக் காண�
 ViewAccountList=லெட்ஜரைப் பார்க்கவும்
 ViewSubAccountList=துணை கணக்கு லெட்ஜரைப் பார்க்கவும்
 RemoveString='%s' சரத்தை அகற்று
-SomeTranslationAreUncomplete=வழங்கப்படும் சில மொழிகளில் ஓரளவு மட்டுமே மொழிபெயர்க்கப்பட்டிருக்கலாம் அல்லது பிழைகள் இருக்கலாம். உங்கள் மேம்பாடுகளைச் சேர்க்க, <a href="https://transifex.com/projects/p/dolibarr/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/dolibarr/ </a> இல் பதிவுசெய்து உங்கள் மொழியைச் சரிசெய்ய உதவவும்.
+SomeTranslationAreUncomplete=வழங்கப்படும் சில மொழிகளில் ஓரளவு மட்டுமே மொழிபெயர்க்கப்பட்டிருக்கலாம் அல்லது பிழைகள் இருக்கலாம். உங்கள் மேம்பாடுகளைச் சேர்க்க, <a href="https://transifex.com/projects/p/ZionOne/" target="_blank" rel="noopener noreferrer external"> https://transifex.com/projects/p/ZionOne/ </a> இல் பதிவுசெய்து உங்கள் மொழியைச் சரிசெய்ய உதவவும்.
 DirectDownloadLink=பொது பதிவிறக்க இணைப்பு
 PublicDownloadLinkDesc=கோப்பைப் பதிவிறக்க இணைப்பு மட்டுமே தேவை
 DirectDownloadInternalLink=தனிப்பட்ட பதிவிறக்க இணைப்பு
@@ -1178,11 +1178,11 @@ ByStatus=நிலை மூலம்
 InformationMessage=தகவல்
 Used=பயன்படுத்தப்பட்டது
 ASAP=கூடிய விரைவில்
-CREATEInDolibarr=பதிவு %s உருவாக்கப்பட்டது
-MODIFYInDolibarr=பதிவு %s மாற்றப்பட்டது
-DELETEInDolibarr=பதிவு %s நீக்கப்பட்டது
-VALIDATEInDolibarr=பதிவு %s சரிபார்க்கப்பட்டது
-APPROVEDInDolibarr=பதிவு %s அங்கீகரிக்கப்பட்டது
+CREATEInZionOne=பதிவு %s உருவாக்கப்பட்டது
+MODIFYInZionOne=பதிவு %s மாற்றப்பட்டது
+DELETEInZionOne=பதிவு %s நீக்கப்பட்டது
+VALIDATEInZionOne=பதிவு %s சரிபார்க்கப்பட்டது
+APPROVEDInZionOne=பதிவு %s அங்கீகரிக்கப்பட்டது
 DefaultMailModel=இயல்புநிலை அஞ்சல் மாதிரி
 PublicVendorName=விற்பனையாளரின் பொது பெயர்
 DateOfBirth=பிறந்த தேதி

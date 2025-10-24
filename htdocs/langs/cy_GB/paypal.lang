@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Gosodiad modiwl PayPal
-PaypalDesc=Mae'r modiwl hwn yn caniatáu i gwsmeriaid dalu trwy <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Gellir defnyddio hwn ar gyfer taliad ad-hoc neu ar gyfer taliad sy'n ymwneud â gwrthrych Dolibarr (anfoneb, archeb, ...)
+PaypalDesc=Mae'r modiwl hwn yn caniatáu i gwsmeriaid dalu trwy <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal </a> . Gellir defnyddio hwn ar gyfer taliad ad-hoc neu ar gyfer taliad sy'n ymwneud â gwrthrych ZionOne (anfoneb, archeb, ...)
 PaypalOrCBDoPayment=Talu gyda PayPal (Cerdyn neu PayPal)
 PaypalDoPayment=Talu gyda PayPal
 PAYPAL_API_SANDBOX=Prawf modd / blwch tywod

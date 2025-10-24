@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Модуль идентификаторы
 ModuleBuilderDesc=Бұл құралды тәжірибелі пайдаланушылар немесе әзірлеушілер ғана пайдалануы керек. Ол өз модуліңізді құру немесе өңдеу үшін утилиталарды қамтамасыз етеді. Балама <a href="%s" target="_blank" rel="noopener noreferrer">қолмен әзірлеуге арналған құжатта</a>.
 EnterNameOfModuleDesc=Бос орындарсыз жасау үшін модуль/қолданбаның атын енгізіңіз. Сөздерді бөлу үшін бас әріпті пайдаланыңыз (Мысалы: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Сіз модульді жоя аласыз. ЕС�
 EnterNameOfObjectToDeleteDesc=Объектіні жоюға болады. ЕСКЕРТУ: Нысанға қатысты барлық кодтау файлдары (қолмен жасалған немесе жасалған) жойылады!
 DangerZone=Қауіпті аймақ
 BuildPackage=Пакет құрастыру
-BuildPackageDesc=Сіз өзіңіздің қосымшаңыздың zip пакетін жасай аласыз, сондықтан сіз оны кез келген Dolibarr -да таратуға дайынсыз. Сіз оны <a href="https://www.dolistore.com"> DoliStore.com </a> сияқты таратуға немесе нарықта сатуға болады.
+BuildPackageDesc=Сіз өзіңіздің қосымшаңыздың zip пакетін жасай аласыз, сондықтан сіз оны кез келген ZionOne -да таратуға дайынсыз. Сіз оны <a href="https://www.dolistore.com"> DoliStore.com </a> сияқты таратуға немесе нарықта сатуға болады.
 BuildDocumentation=Құжаттарды құру
 ModuleIsNotActive=Бұл модуль әлі іске қосылмаған. %s сайтына өтіңіз немесе оны мына жерден басыңыз
 ModuleIsLive=Бұл модуль іске қосылды. Кез келген өзгеріс ағымдағы тірі функцияны бұзуы мүмкін.
@@ -110,7 +110,7 @@ HooksDefDesc=Модуль дескриптор файлында <b>module_parts[
 TriggerDefDesc=Триггер файлында модульге сыртқы іскери оқиға орындалған кезде орындағыңыз келетін кодты анықтаңыз (басқа модульдер арқылы іске қосылған оқиғалар).
 SeeIDsInUse=Орнату кезінде пайдаланылатын идентификаторларды қараңыз
 SeeReservedIDsRangeHere=Резервтелген идентификаторлар ауқымын қараңыз
-ToolkitForDevelopers=Dolibarr әзірлеушілеріне арналған құралдар жинағы
+ToolkitForDevelopers=ZionOne әзірлеушілеріне арналған құралдар жинағы
 TryToUseTheModuleBuilder=Егер сізде SQL және PHP білімдері болса, сіз модуль құрушы шеберін қолдана аласыз. <br> <strong> %s </strong> модулін қосыңыз және <span class="fa fa-bug"> </span> бойынша шертіңіз. <br> Ескерту: Бұл әзірлеушінің жетілдірілген мүмкіндігі, </b> емес, <b> жасаңыз!
 SeeTopRightMenu=Жоғарғы оң жақ мәзірден <span class="fa fa-bug"> </span> қараңыз
 AddLanguageFile=Тілдік файлды қосыңыз

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Ish haqi bo'yicha "foydalanuvchilar" uchun sukut bo'yicha foydalaniladigan hisob (Hisob jadvalidan).
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Foydalanuvchi kartasida belgilangan maxsus hisob faqat Subledger hisobi uchun ishlatiladi. Bu General Ledger uchun, shuningdek, agar foydalanuvchi uchun maxsus hisob qaydnomasi belgilanmagan bo'lsa, Subledger hisobining standart qiymati sifatida ham qo'llaniladi.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Ish haqi to'lovlari bo'yicha sukut bo'yicha buxgalteriya hisobi

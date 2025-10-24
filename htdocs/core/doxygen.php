@@ -20,16 +20,16 @@
 /**
  *	    \file       htdocs/core/doxygen.php
  *      \ingroup    core
- *		\mainpage	Dolibarr documentation of source code
+ *		\mainpage	ZionOne documentation of source code
  *
- *	    This is source documentation for Dolibarr ERP/CRM.<br>
- *      This documentation can be built or updated running the script <b>dev/build/doxygen/dolibarr-doxygen-build.pl</b> or from Eclipse with Doxygen plugin.<br>
+ *	    This is source documentation for ZionOne ERP/CRM.<br>
+ *      This documentation can be built or updated running the script <b>dev/build/doxygen/ZionOne-doxygen-build.pl</b> or from Eclipse with Doxygen plugin.<br>
  *      <br>
- *      Dolibarr official web site: <a href="https://www.dolibarr.org">www.dolibarr.org</a><br>
+ *      ZionOne official web site: <a href="https://www.ZionOne.org">www.ZionOne.org</a><br>
  *      <br>
- *      Dolibarr french portal: <a href="https://www.dolibarr.fr">www.dolibarr.fr</a><br>
- *      Dolibarr spanish portal: <a href="https://www.dolibarr.es">www.dolibarr.es</a><br>
- *      Dolibarr italian portal: <a href="https://www.dolibarr.it">www.dolibarr.it</a><br>
- *      Dolibarr german portal: <a href="https://www.dolibarr.de">www.dolibarr.de</a><br>
+ *      ZionOne french portal: <a href="https://www.ZionOne.fr">www.ZionOne.fr</a><br>
+ *      ZionOne spanish portal: <a href="https://www.ZionOne.es">www.ZionOne.es</a><br>
+ *      ZionOne italian portal: <a href="https://www.ZionOne.it">www.ZionOne.it</a><br>
+ *      ZionOne german portal: <a href="https://www.ZionOne.de">www.ZionOne.de</a><br>
  *      <br>
  */

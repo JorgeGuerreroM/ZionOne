@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donor=Donneur
 DeleteADonation=Supprimer un don
 ConfirmDeleteADonation=Êtes-vous sûr de vouloir supprimer ce don?
@@ -24,5 +24,5 @@ DONATION_ART978=Afficher l'article 978 de CGI si vous êtes concerné
 DonationPayment=Paiement de donation
 DonationPayments=Paiements de dons
 DonationUseThirdparties=Utiliser l'adresse d'un tiers existant comme adresse du donateur
-BlankDonationFormDesc=Dolibarr peut vous fournir une URL/un site web public pour permettre aux visiteurs externes de faire un don. Si un module de paiement en ligne est activé, un formulaire de paiement peut également être automatiquement fourni.
+BlankDonationFormDesc=ZionOne peut vous fournir une URL/un site web public pour permettre aux visiteurs externes de faire un don. Si un module de paiement en ligne est activé, un formulaire de paiement peut également être automatiquement fourni.
 AnyAmountForDonation=N'importe quel montant de votre choix

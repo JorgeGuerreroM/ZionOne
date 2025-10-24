@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=इस प्रस्ताव से जुड़ा एक ऑर्डर पहले से ही खुला था, इसलिए कोई अन्य ऑर्डर स्वचालित रूप से नहीं बनाया गया
 OrdersArea=ग्राहक आदेश क्षेत्र
 SuppliersOrdersArea=क्रय आदेश क्षेत्र

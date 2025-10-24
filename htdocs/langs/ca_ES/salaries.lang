@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Compte (del pla comptable) utilitzat per defecte per als «usuaris» dels sous
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=El compte dedicat definit a la fitxa d'usuari només s'utilitzarà per a la comptabilitat de Subllibre. Aquest s'utilitzarà per al Llibre Major, però també com a valor predeterminat de la comptabilitat del Subllibre si no hi ha cap compte comptable d'usuari dedicat a l'usuari.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Compte comptable per defecte per als pagaments salarials

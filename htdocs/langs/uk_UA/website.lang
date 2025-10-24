@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=код
 WebsiteName=Назва сайту
 WebsiteSetupDesc=Створіть тут веб-сайти, які ви хочете використовувати. Потім перейдіть до меню Веб-сайти, щоб відредагувати їх.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Щоб розгорнути цей в
 SetHereVirtualHost= <u> Використовуйте з Apache/NGinx/... </u> <br> Створіть на своєму веб-сервері (Apache, Nginx, ...) виділений віртуальний хост з увімкненим та кореневим каталогом на a0342fccfda06c7b0f043fccfda07c07f0b0fccfda07c0b0f06f77c0b0f06f77c0b0f06f77c0f06f77c0b0f06cf7c0b
 ExampleToUseInApacheVirtualHostConfig=Приклад для використання в налаштуваннях віртуального хоста Apache:
 YouCanAlsoTestWithPHPS=<u>Використовуйте з вбудованим сервером PHP</u><br>У середовищі розробки ви можете перевірити сайт за допомогою вбудованого веб-сервера PHP, запустивши
-YouCanAlsoDeployToAnotherWHP=<u>Запускайте свій веб-сайт на сервері веб-хостингу Dolibarr</u><br>Якщо у вас немає веб-сервера, такого як Apache або NGinx, в Інтернеті, ви можете експортувати та імпортувати свій веб-сайт на інший екземпляр Dolibarr, наданий іншим хостинг-провайдером Dolibarr, який забезпечує повну інтеграцію з модулем веб-сайту. Ви можете знайти список деяких хостинг-провайдерів Dolibarr за адресою <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Запускайте свій веб-сайт на сервері веб-хостингу ZionOne</u><br>Якщо у вас немає веб-сервера, такого як Apache або NGinx, в Інтернеті, ви можете експортувати та імпортувати свій веб-сайт на інший екземпляр ZionOne, наданий іншим хостинг-провайдером ZionOne, який забезпечує повну інтеграцію з модулем веб-сайту. Ви можете знайти список деяких хостинг-провайдерів ZionOne за адресою <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Перевірте також, що користувач віртуального хосту (наприклад, www-data) має <strong> %s </strong> дозволи на файли в <br> a0e7843947c06bz607c06b2f07f06b2f07f06b2f07f06b2f66f6f06cf06b2f8
 ReadPerm=Читати
 WritePerm=Пишіть
 TestDeployOnWeb=Тестування/розгортання в Інтернеті
 PreviewSiteServedByWebServer= <u> Попередній перегляд %s у новій вкладці. </u> <br> <br> %s буде обслуговуватися зовнішнім веб-сервером (наприклад, Apache, Nginx, IIS). You must install and setup this server before to point to directory: <br>  <strong> %s </strong>  <br> URL served by external server: <br>  <strong> %s </strong>
-PreviewSiteServedByDolibarr=<u>Попередній перегляд %s у новій вкладці.</u><br><br>%s обслуговуватиметься сервером Dolibarr, тому для встановлення додаткових веб-серверів (таких як Apache, Nginx, IIS) не потрібен.<br>Незручність полягає в тому, що URL-адреси сторінок незручні для користувача та починаються зі шляху вашого Dolibarr.<br>URL-адреса, що обслуговується Dolibarr:<br><strong>%s</strong><br><br>Щоб розгорнути або протестувати за допомогою власного зовнішнього веб-сервера (наприклад, Apache, Nginx, Lighttp), скористайтеся посиланням "%s".
+PreviewSiteServedByDolibarr=<u>Попередній перегляд %s у новій вкладці.</u><br><br>%s обслуговуватиметься сервером ZionOne, тому для встановлення додаткових веб-серверів (таких як Apache, Nginx, IIS) не потрібен.<br>Незручність полягає в тому, що URL-адреси сторінок незручні для користувача та починаються зі шляху вашого ZionOne.<br>URL-адреса, що обслуговується ZionOne:<br><strong>%s</strong><br><br>Щоб розгорнути або протестувати за допомогою власного зовнішнього веб-сервера (наприклад, Apache, Nginx, Lighttp), скористайтеся посиланням "%s".
 VirtualHostUrlNotDefined=URL-адреса віртуального хосту, що обслуговується зовнішнім веб-сервером, не визначена
 NoPageYet=Ще немає сторінок
 YouCanCreatePageOrImportTemplate=Ви можете створити нову сторінку або імпортувати повний шаблон веб-сайту
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Невдовзі вас буде перенапр
 WebPortalSetupNotComplete=Налаштування веб-порталу не завершено
 DeleteWebsiteAccount=Видалити обліковий запис веб-сайту
 ConfirmDeleteWebsiteAccount=Ви впевнені, що хочете видалити цей обліковий запис?
-ConfirmDeleteWebsiteAccount2=Якщо цей обліковий запис використовувався для входу на публічний портал або будь-який інший веб-сайт, що працює на Dolibarr, вхід може бути неможливим.
+ConfirmDeleteWebsiteAccount2=Якщо цей обліковий запис використовувався для входу на публічний портал або будь-який інший веб-сайт, що працює на ZionOne, вхід може бути неможливим.
 ContentSecurityPolicy=Політика безпеки контенту веб-сайту HTTP
 WebsiteSecurityForceRP=Політика HTTP-реферера веб-сайту
 WebsiteSecurityForceSTS=HTTP-адреса веб-сайту "Strict-Transport-Security"

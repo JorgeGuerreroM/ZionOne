@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=PayBox தொகுதி அமைப்பு
-PayBoxDesc=இந்த தொகுதி வாடிக்கையாளர்களால் <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> இல் பணம் செலுத்த அனுமதிக்கும் பக்கங்களை வழங்குகிறது. இது ஒரு இலவச கட்டணத்திற்காக அல்லது ஒரு குறிப்பிட்ட Dolibarr பொருளில் (விலைப்பட்டியல், ஆர்டர், ...) கட்டணம் செலுத்த பயன்படுத்தப்படலாம்.
+PayBoxDesc=இந்த தொகுதி வாடிக்கையாளர்களால் <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external"> Paybox </a> இல் பணம் செலுத்த அனுமதிக்கும் பக்கங்களை வழங்குகிறது. இது ஒரு இலவச கட்டணத்திற்காக அல்லது ஒரு குறிப்பிட்ட ZionOne பொருளில் (விலைப்பட்டியல், ஆர்டர், ...) கட்டணம் செலுத்த பயன்படுத்தப்படலாம்.
 PayBoxDoPayment=Paybox மூலம் பணம் செலுத்துங்கள்
 YouWillBeRedirectedOnPayBox=கிரெடிட் கார்டு தகவலை உள்ளிட, பாதுகாப்பான பேபாக்ஸ் பக்கத்தில் நீங்கள் திருப்பி விடப்படுவீர்கள்
 SetupPayBoxToHavePaymentCreatedAutomatically=Paybox மூலம் சரிபார்க்கப்படும் போது தானாகவே பணம் உருவாக்கப்படும் வகையில் உங்கள் Paybox ஐ url <b> %s </b> உடன் அமைக்கவும்.

@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Muhasebe
 Accounting=Muhasebe
 ACCOUNTING_EXPORT_SEPARATORCSV=Dışa aktarma dosyası için sütun ayırıcısı
@@ -346,7 +346,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Satışlarda muhasebede bağlama ve aktarmay
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Satın alımlarda muhasebede bağlama ve aktarımı devre dışı bırakın (satıcı faturaları muhasebede dikkate alınmayacaktır)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Gider raporlarında muhasebede bağlama ve aktarmayı devre dışı bırakın (gider raporları muhasebede dikkate alınmayacaktır)
 ACCOUNTING_ENABLE_LETTERING=Muhasebede yazı işlevini etkinleştirin
-ACCOUNTING_ENABLE_LETTERING_DESC=Bu seçenek etkinleştirildiğinde, her muhasebe girişinde bir kod tanımlayabilir, böylece farklı muhasebe hareketlerini birlikte gruplayabilirsiniz. Geçmişte, farklı dergilerin bağımsız olarak yönetildiği zamanlarda, bu özellik, farklı dergilerin hareket çizgilerini bir arada gruplamak için gerekliydi. Bununla birlikte, Dolibarr muhasebesi ile, " <b>%s</b>" zaten otomatik olarak kaydedilmiş olduğundan, hata riski olmadan otomatik harflendirme zaten yapılmıştır, bu nedenle bu özellik ortak kullanım için işe yaramaz hale gelmiştir. Muhasebede veri aktarımı yapan bilgisayar motoruna pek güvenmeyen son kullanıcılar için manuel yazı özelliği sağlanmıştır.
+ACCOUNTING_ENABLE_LETTERING_DESC=Bu seçenek etkinleştirildiğinde, her muhasebe girişinde bir kod tanımlayabilir, böylece farklı muhasebe hareketlerini birlikte gruplayabilirsiniz. Geçmişte, farklı dergilerin bağımsız olarak yönetildiği zamanlarda, bu özellik, farklı dergilerin hareket çizgilerini bir arada gruplamak için gerekliydi. Bununla birlikte, ZionOne muhasebesi ile, " <b>%s</b>" zaten otomatik olarak kaydedilmiş olduğundan, hata riski olmadan otomatik harflendirme zaten yapılmıştır, bu nedenle bu özellik ortak kullanım için işe yaramaz hale gelmiştir. Muhasebede veri aktarımı yapan bilgisayar motoruna pek güvenmeyen son kullanıcılar için manuel yazı özelliği sağlanmıştır.
 EnablingThisFeatureIsNotNecessary=Bu özelliğin etkinleştirilmesi artık sıkı bir muhasebe yönetimi için gerekli değildir.
 ACCOUNTING_ENABLE_AUTOLETTERING=Muhasebeye aktarırken otomatik harfleri etkinleştirin
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Harfleme kodu otomatik olarak oluşturulur ve artırılır ve son kullanıcı tarafından seçilmez.

@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Paybox modul nastavenia
-PayBoxDesc=Tento modul ponúka stránky umožňujúce zákazníkom platby na <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>. Toto je možné použiť na bezplatnú platbu alebo na platbu za konkrétny objekt Dolibarr (faktúra, objednávka, ...)
+PayBoxDesc=Tento modul ponúka stránky umožňujúce zákazníkom platby na <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a>. Toto je možné použiť na bezplatnú platbu alebo na platbu za konkrétny objekt ZionOne (faktúra, objednávka, ...)
 PayBoxDoPayment=Plaťte cez Paybox
 YouWillBeRedirectedOnPayBox=Budete presmerovaný na zabezpečené stránky Paybox vstupné vás informácie o kreditnej karte
 SetupPayBoxToHavePaymentCreatedAutomatically=Nastavte svoju výplatnú schránku pomocou adresy URL <b>%s</b>, kedy sa platba vytvorí automaticky potvrdené službou Paybox.

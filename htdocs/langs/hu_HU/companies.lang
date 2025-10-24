@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Elérhetőségét rögzítettük. Hamarosan jelentkezünk...
 ContactUsDesc=Ez az űrlap lehetővé teszi, hogy üzenetet küldjön nekünk az első kapcsolatfelvételhez.
 ErrorCompanyNameAlreadyExists=Cégnév %s már létezik. Válasszon egy másikat.

@@ -1,6 +1,6 @@
 
 This file describes changes made on external libraries after being included
-in Dolibarr root.
+in ZionOne root.
 
 
 

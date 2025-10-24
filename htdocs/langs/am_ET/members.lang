@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=አባላት አካባቢ
 MemberCard=የአባል ካርድ
 SubscriptionCard=የደንበኝነት ምዝገባ ካርድ
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=የተረጋገጡ የህዝብ አባላት ዝር
 ErrorThisMemberIsNotPublic=ይህ አባል ይፋዊ አይደለም።
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Another member (name: <b>%s</b>, login: <b>%s</b>) is already linked to a third party <b>%s</b>. Remove this link first because a third party can't be linked to only a member (and vice versa).
 ErrorUserPermissionAllowsToLinksToItselfOnly=ለደህንነት ሲባል፣ አባልን የአንተ ካልሆነ ተጠቃሚ ጋር ማገናኘት እንድትችል ሁሉንም ተጠቃሚዎች ለማርትዕ ፈቃድ ሊሰጥህ ይገባል።
-SetLinkToUser=ከ Dolibarr ተጠቃሚ ጋር አገናኝ
-SetLinkToThirdParty=ወደ Dolibarr ሶስተኛ ወገን አገናኝ
+SetLinkToUser=ከ ZionOne ተጠቃሚ ጋር አገናኝ
+SetLinkToThirdParty=ወደ ZionOne ሶስተኛ ወገን አገናኝ
 MemberCountersArePublic=ተቀባይነት ያላቸው አባላት ቆጣሪዎች ይፋዊ ናቸው።
 MembersCards=ለአባላት ካርዶች ማመንጨት
 MembersList=የአባላት ዝርዝር

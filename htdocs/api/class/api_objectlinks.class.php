@@ -24,7 +24,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/objectlink.class.php';
 
 
 /**
- * API that gives shows links between objects in an Dolibarr instance.
+ * API that gives shows links between objects in an ZionOne instance.
  *
  * @access protected
  * @class  DolibarrApiAccess {@requires user,external}

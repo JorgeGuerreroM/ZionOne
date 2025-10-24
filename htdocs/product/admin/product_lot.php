@@ -1,7 +1,7 @@
 <?php
 /* Copyright (C) 2021		Christophe Battarel  <christophe.battarel@altairis.fr>
  * Copyright (C) 2024-2025	MDW						<mdeweerd@users.noreply.github.com>
- * Copyright (C) 2024       Frédéric France         <frederic.france@free.fr>
+ * Copyright (C) 2024-2025  Frédéric France         <frederic.france@free.fr>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
  *  \brief	  Setup page of product lot module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/product/stock/class/productlot.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
@@ -42,7 +42,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/product.lib.php';
 $langs->loadLangs(array("admin", "products", "productbatch"));
 
 // Security check
-if (!$user->admin || (empty($conf->productbatch->enabled))) {
+if (!$user->admin || (!isModEnabled('productbatch'))) {
 	accessforbidden();
 }
 
@@ -113,8 +113,8 @@ if ($action == 'updateMaskLot') {
 } elseif ($action == 'del') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
-		if ($conf->global->FACTURE_ADDON_PDF == "$value") {
-			dolibarr_del_const($db, 'FACTURE_ADDON_PDF', $conf->entity);
+		if (getDolGlobalString('FACTURE_ADDON_PDF') == "$value") {
+			zionone_del_const($db, 'FACTURE_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif ($action == 'specimen') {
@@ -178,7 +178,7 @@ $dirmodels = array_merge(array('/'), (array) $conf->modules_parts['models']);
 
 llxHeader("", $langs->trans("ProductLotSetup"), '', '', 0, 0, '', '', '', 'mod-product page-admin_product_lot');
 
-$linkback = '<a href="'.DOL_URL_ROOT.'/admin/modules.php?restore_lastsearch_values=1">'.$langs->trans("BackToModuleList").'</a>';
+$linkback = '<a href="'.DOL_URL_ROOT.'/admin/modules.php?restore_lastsearch_values=1">'.img_picto($langs->trans("BackToModuleList"), 'back', 'class="pictofixedwidth"').'<span class="hideonsmartphone">'.$langs->trans("BackToModuleList").'</span></a>';
 print load_fiche_titre($langs->trans("ProductLotSetup"), $linkback, 'title_setup');
 
 $head = product_lot_admin_prepare_head();
@@ -187,7 +187,7 @@ print dol_get_fiche_head($head, 'settings', $langs->trans("Batch"), -1, 'lot');
 
 
 if (getDolGlobalInt('MAIN_FEATURES_LEVEL') < 2) {
-	// The feature to define the numbering module of lot or serial is no enabled because it is not used anywhere in Dolibarr code: You can set it
+	// The feature to define the numbering module of lot or serial is no enabled because it is not used anywhere in ZionOne code: You can set it
 	// but the numbering module is not used.
 	// TODO Use it on lot creation page, when you create a lot and when the lot number is kept empty to define the lot according
 	// to the selected product.
@@ -251,7 +251,7 @@ if (getDolGlobalInt('MAIN_FEATURES_LEVEL') < 2) {
 							print '</td>'."\n";
 
 							print '<td class="center">';
-							if ($conf->global->PRODUCTBATCH_LOT_ADDON == $file) {
+							if (getDolGlobalString('PRODUCTBATCH_LOT_ADDON') == $file) {
 								print img_picto($langs->trans("Activated"), 'switch_on');
 							} else {
 								print '<a class="reposition" href="'.$_SERVER["PHP_SELF"].'?action=setmodlot&token='.newToken().'&value='.urlencode($file).'">';
@@ -353,7 +353,7 @@ if (getDolGlobalInt('MAIN_FEATURES_LEVEL') < 2) {
 							print '</td>'."\n";
 
 							print '<td class="center">';
-							if ($conf->global->PRODUCTBATCH_SN_ADDON == $file) {
+							if (getDolGlobalString('PRODUCTBATCH_SN_ADDON') == $file) {
 								print img_picto($langs->trans("Activated"), 'switch_on');
 							} else {
 								print '<a class="reposition" href="'.$_SERVER["PHP_SELF"].'?action=setmodsn&token='.newToken().'&value='.urlencode($file).'">';
@@ -399,10 +399,11 @@ if (getDolGlobalInt('MAIN_FEATURES_LEVEL') < 2) {
 
 // Module to build doc
 $def = array();
+// TODO Replace with $def = getListOfModels($db, $type);
 $sql = "SELECT nom";
 $sql .= " FROM " . MAIN_DB_PREFIX . "document_model";
 $sql .= " WHERE type = '" . $db->escape($type) . "'";
-$sql .= " AND entity = " . $conf->entity;
+$sql .= " AND entity = " . ((int) $conf->entity);
 $resql = $db->query($sql);
 if ($resql) {
 	$i = 0;

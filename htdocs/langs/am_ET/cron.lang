@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = የታቀደውን ሥራ ያንብቡ
 Permission23102 = የታቀደ ሥራን ይፍጠሩ / ያዘምኑ
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=አሰናክል
 CronTaskInactive=ይህ ሥራ ተሰናክሏል (በእቅድ አልተያዘም)
 CronId=መታወቂያ
 CronClassFile=የፋይል ስም ከክፍል ጋር
-CronModuleHelp=የዶሊባርር ሞጁል ማውጫ ስም (እንዲሁም ከውጫዊ Dolibarr ሞጁል ጋር ይሰራል)። <BR> ለምሳሌ የዶሊባርር ምርት ነገር /htdocs/<u>ምርትb0dca48 ለመደወል /class/product.class.php፣ የሞጁሉ ዋጋ<br><i>ምርት ነው</i>
+CronModuleHelp=የዶሊባርር ሞጁል ማውጫ ስም (እንዲሁም ከውጫዊ ZionOne ሞጁል ጋር ይሰራል)። <BR> ለምሳሌ የዶሊባርር ምርት ነገር /htdocs/<u>ምርትb0dca48 ለመደወል /class/product.class.php፣ የሞጁሉ ዋጋ<br><i>ምርት ነው</i>
 CronClassFileHelp=የሚጫኑበት አንጻራዊ ዱካ እና የፋይል ስም (ዱካ ከድር አገልጋይ ስርወ ማውጫ አንጻራዊ ነው)። <BR> ለምሳሌ የዶሊባርር ምርት ነገር htdocs/product/class/<u>product.class.php<span>ምርት.class.php</u>፣ የክፍል ፋይል ስም ዋጋ<br><i>ምርት/ክፍል ነው .class.php</i>
-CronObjectHelp=The object name to load. <BR> For example to call the fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value for class file name is<br><i>Product</i>
+CronObjectHelp=The object name to load. <BR> For example to call the fetch method of ZionOne Product object /htdocs/product/class/product.class.php, the value for class file name is<br><i>Product</i>
 CronMethodHelp=ለማስጀመር የነገር ዘዴ። <BR> ለምሳሌ የዶሊባርር ምርት ነገር /htdocs/product/class/product.class.php የማምጣት ዘዴን ለመጥራት የስልት ዋጋው ነው። <br><i>fetch</i>
-CronArgsHelp=The method arguments. <BR> For example to call the fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value for parameters can be<br><i>0, ProductRef</i>
+CronArgsHelp=The method arguments. <BR> For example to call the fetch method of ZionOne Product object /htdocs/product/class/product.class.php, the value for parameters can be<br><i>0, ProductRef</i>
 CronCommandHelp=ለማስፈጸም የስርዓት ትዕዛዝ መስመር.
 CronCreateJob=አዲስ የታቀደ ሥራ ፍጠር
 CronFrom=ከ

@@ -1,13 +1,13 @@
-Information about Dolibarr in Debian
+Information about ZionOne in Debian
 ------------------------------------
 
 The Debian package provides integration with apache2 and lighttpd.
-If you have one of those servers installed, then Dolibarr is immediately
-accessible at http://localhost/dolibarr/
+If you have one of those servers installed, then ZionOne is immediately
+accessible at http://localhost/ZionOne/
 
 But it won't be usable until you configure it via
-http://localhost/dolibarr/install/
+http://localhost/ZionOne/install/
 
 To complete the setup process you will need the MySQL root credentials
-because the Dolibarr installer will create the database and the dedicated user
+because the ZionOne installer will create the database and the dedicated user
 for you.

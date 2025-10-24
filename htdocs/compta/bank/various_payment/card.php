@@ -25,7 +25,7 @@
  *  \brief      Page of various expenses
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/bank.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/date.lib.php';

@@ -21,7 +21,7 @@
  *  \brief      Page to show Performance information
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/memory.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/date.lib.php';
@@ -59,7 +59,7 @@ llxHeader('', '', '', '', 0, 0, '', '', '', 'mod-admin page-system_perf');
 
 print load_fiche_titre($langs->trans("PerfDolibarr"), '', 'title_setup');
 
-print '<span class="opacitymedium">'.$langs->trans("YouMayFindPerfAdviceHere", 'https://wiki.dolibarr.org/index.php/FAQ_Increase_Performance').'</span>';
+print '<span class="opacitymedium">'.$langs->trans("YouMayFindPerfAdviceHere", 'https://wiki.ZionOne.org/index.php/FAQ_Increase_Performance').'</span>';
 print ' &nbsp; &nbsp; ';
 print '<a href="'.$_SERVER["PHP_SELF"].'">';
 print img_picto($langs->trans("Reload"), 'refresh').' ';

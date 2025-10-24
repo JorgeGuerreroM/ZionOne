@@ -54,7 +54,7 @@ class WebservicesThirdpartyTest extends CommonClassTest
 {
 	protected $soapclient;
 
-	private $ns = 'http://www.dolibarr.org/ns/';
+	private $ns = 'http://www.ZionOne.org/ns/';
 
 
 	/**

@@ -49,10 +49,10 @@ Now we can run selenium by two ways:
    apt install npm
    ```
    
-* Go into the git local repository of the Dolibarr version to test.
+* Go into the git local repository of the ZionOne version to test.
 
    ```
-   cd ~/git/dolibarr
+   cd ~/git/ZionOne
    npm install cucumber nightwatch-api nightwatch
    npm update
    ```
@@ -64,7 +64,7 @@ Now we can run selenium by two ways:
 
     const admin_password = process.env.ADMIN_PASSWORD || 'password';
 
-    const launch_url = process.env.LAUNCH_URL || 'http://localhost/dolibarr/htdocs/';
+    const launch_url = process.env.LAUNCH_URL || 'http://localhost/ZionOne/htdocs/';
    ```
 
 * You can run a test using following commands

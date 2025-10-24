@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=貝寶模塊設置
-PaypalDesc=此模組允許客戶透過 <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. 付款。這可用於臨時付款或與 Dolibarr 物件（發票、訂單等..）相關的付款
+PaypalDesc=此模組允許客戶透過 <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. 付款。這可用於臨時付款或與 ZionOne 物件（發票、訂單等..）相關的付款
 PaypalOrCBDoPayment=使用 PayPal 付款（銀行卡或 PayPal）
 PaypalDoPayment=使用 PayPal 支付
 PAYPAL_API_SANDBOX=模式測試/沙箱

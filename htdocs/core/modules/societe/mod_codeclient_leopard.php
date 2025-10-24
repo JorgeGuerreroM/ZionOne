@@ -42,7 +42,7 @@ class mod_codeclient_leopard extends ModeleThirdPartyCode
 
 	// variables inherited from ModeleThirdPartyCode class
 	public $name = 'Leopard';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 
 	/**

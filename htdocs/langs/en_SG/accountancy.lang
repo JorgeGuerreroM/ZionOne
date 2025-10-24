@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - accountancy
+# ZionOne language file - Source file is en_US - accountancy
 MainAccountForVatPaymentNotDefined=Account (from the Chart of Account) for GST payment not defined in setup
 AccountancyAreaDescVat=STEP %s: Define accounting accounts for each GST Rates. For this, use the menu entry %s.
 VATAccountNotDefined=Account for GST not defined

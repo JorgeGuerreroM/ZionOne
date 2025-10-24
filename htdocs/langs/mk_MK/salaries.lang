@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Сметка (од Сметковниот план) стандардно користена за „корисници“ на плати
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Посебната сметка дефинирана на корисничката картичка ќе се користи само за сметководство на Subledger. Оваа ќе се користи за главната книга, но исто така и како стандардна вредност на сметководството на Subledger доколку на корисникот не е дефинирана посветена корисничка сметководствена сметка.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Сметководствена сметка стандардно за исплати на плати

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Konto (fra kontoplanen) bruges som standard til "brugere" på lønninger
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Den dedikerede konto, der er defineret på brugerkortet, vil kun blive brugt til underreskontering. Denne vil blive brugt til Hovedbog, men også som standardværdien for Subreskontro, hvis der ikke er defineret en dedikeret brugerkonti på brugeren.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Regnskabskonto som standard for lønudbetalinger

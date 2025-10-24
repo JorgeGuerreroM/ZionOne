@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: dolibarr@packages.debian.org\n"
+"Report-Msgid-Bugs-To: ZionOne@packages.debian.org\n"
 "POT-Creation-Date: 2013-04-23 12:16+0200\n"
 "PO-Revision-Date: 2011-07-29 22:45+0100\n"
 "Last-Translator: Laurent Destailleur (eldy) <eldy@users.sourceforge.net>\n"
@@ -23,40 +23,40 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id: dolibarr\n"
+"Project-Id: ZionOne\n"
 
 #. Type: multiselect
 #. Description
-#: ../dolibarr.templates:1001
+#: ../ZionOne.templates:1001
 msgid "Web server to reconfigure automatically:"
 msgstr "Seveur web à reconfigurer automatiquement:"
 
 #. Type: multiselect
 #. Description
-#: ../dolibarr.templates:1001
+#: ../ZionOne.templates:1001
 msgid ""
 "Please choose the web server that should be automatically configured to run "
-"dolibarr."
+"ZionOne."
 msgstr ""
 "Selectionnez le serveur web à configurer automatiquement pour utiliser "
-"dolibarr."
+"ZionOne."
 
 #
 #. Type: boolean
 #. Description
-#: ../dolibarr.templates:2001
+#: ../ZionOne.templates:2001
 msgid "Delete database and uploaded files ?"
 msgstr "Effacer la base de donnée et les fichiers uploadés ?"
 
 #
 #. Type: boolean
 #. Description
-#: ../dolibarr.templates:2001
+#: ../ZionOne.templates:2001
 msgid ""
-"Answer if you want to removed the Dolibarr MySQL database and all other "
-"datas (datas related to this question are the Dolibarr DBMS account, all "
-"Dolibarr tables, and all uploaded files)."
+"Answer if you want to removed the ZionOne MySQL database and all other "
+"datas (datas related to this question are the ZionOne DBMS account, all "
+"ZionOne tables, and all uploaded files)."
 msgstr ""
-"Indiquez si vous voulez supprimer la base Dolibarr et toutes ces données "
+"Indiquez si vous voulez supprimer la base ZionOne et toutes ces données "
 "(les données en question ici sont les comptes de la base, les tables et tous "
 "les fichiers téléchargés)."

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Рақами модул
 ModuleBuilderDesc=Ин восита бояд танҳо аз ҷониби корбарони ботаҷриба ё таҳиягарон истифода шавад. Он барои сохтан ё таҳрир кардани модули шахсии шумо хидматҳои коммуналӣ медиҳад. Ҳуҷҷатҳо барои алтернативии <a href="%s" target="_blank" rel="noopener noreferrer">таҳияи дастӣ дар ин ҷо оварда шудаанд</a>.
 EnterNameOfModuleDesc=Номи модул/барномаро барои эҷоди бидуни фосила ворид кунед. Барои ҷудо кардани калимаҳо бо ҳарфи калон истифода баред (Масалан: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Шумо метавонед модули худр�
 EnterNameOfObjectToDeleteDesc=Шумо метавонед объектро нест кунед. ОГОҲ: Ҳама файлҳои рамзгузори (ба таври дастӣ тавлидшуда ё эҷодшуда), ки ба объект алоқаманданд, нест карда мешаванд!
 DangerZone=Минтақаи хатарнок
 BuildPackage=Бастаи сохтан
-BuildPackageDesc=Шумо метавонед як бастаи почтаи замимаи худро эҷод кунед, то шумо омодаед онро дар ҳама гуна Dolibarr паҳн кунед. Шумо инчунин метавонед онро дар бозор паҳн кунед ё <a href="https://www.dolistore.com"> DoliStore.com </a> фурӯшед.
+BuildPackageDesc=Шумо метавонед як бастаи почтаи замимаи худро эҷод кунед, то шумо омодаед онро дар ҳама гуна ZionOne паҳн кунед. Шумо инчунин метавонед онро дар бозор паҳн кунед ё <a href="https://www.dolistore.com"> DoliStore.com </a> фурӯшед.
 BuildDocumentation=Ҳуҷҷатгузорӣ сохтан
 ModuleIsNotActive=Ин модул ҳоло фаъол нашудааст. Ба %s равед, то онро зинда созед ё ин ҷо клик кунед
 ModuleIsLive=Ин модул фаъол карда шудааст. Ҳар гуна тағирот метавонад як хусусияти зиндаеро вайрон кунад.
@@ -110,7 +110,7 @@ HooksDefDesc=Дар моликияти <b>module_parts['hooks']</b>, дар фа
 TriggerDefDesc=Дар файли триггер рамзеро муайян кунед, ки шумо мехоҳед ҳангоми иҷро шудани як чорабинии тиҷории берунаи модули шумо иҷро кунед (ҳодисаҳое, ки аз ҷониби модулҳои дигар оғоз мешаванд).
 SeeIDsInUse=Бингар, ки ID -ҳои дар насби шумо истифодашаванда
 SeeReservedIDsRangeHere=Ба доираи ID -ҳои ҳифзшуда нигаред
-ToolkitForDevelopers=Маҷмӯи асбобҳо барои таҳиягарони Dolibarr
+ToolkitForDevelopers=Маҷмӯи асбобҳо барои таҳиягарони ZionOne
 TryToUseTheModuleBuilder=Агар шумо дониши SQL ва PHP дошта бошед, шумо метавонед устоди модули ватаниро истифода баред. <br> Модули <strong> %s </strong> фаъол созед ва устодро бо пахши <span class="fa fa-bug"> </span> истифода баред <br> Огоҳӣ: Ин як хусусияти пешрафтаи таҳиякунанда аст, <b> на дар </b> дар сайти истеҳсолии худ кор кунед!
 SeeTopRightMenu=Ба менюи рости боло <span class="fa fa-bug"> </span> нигаред
 AddLanguageFile=Файли забон илова кунед

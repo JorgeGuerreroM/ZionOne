@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 Permission23101 =Leer trabajo programado
 Permission23102 =Crear / actualizar trabajo programado
 Permission23103 =Eliminar trabajo programado
@@ -40,11 +40,11 @@ CronErrEndDateStartDt=La fecha de finalización no puede ser anterior a la fecha
 CronStatusInactiveBtn=Desactivar
 CronTaskInactive=Este trabajo está inhabilitado (no programado)
 CronId=Identificación
-CronModuleHelp=Nombre del directorio del módulo Dolibarr (también funciona con el módulo Dolibarr externo). <BR> Por ejemplo, para llamar al método de búsqueda de Dolibarr Product object / htdocs /<u> product </u> /class/product.class.php, el valor del módulo es <br><i>product</i>
-CronClassFileHelp=La ruta relativa y el nombre del archivo a cargar (la ruta es relativa al directorio raíz del servidor web). <BR> Por ejemplo, para llamar al método de recuperación del objeto de producto Dolibarr htdocs/product/class/ <u> product.class.php </u>, el valor para el nombre del archivo de clase es <br><i>product/class/product.class.php</i>
-CronObjectHelp=El nombre del objeto a cargar. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto Dolibarr /htdocs/product/class/product.class.php, el valor del nombre del archivo de clase es <br> <i> Producto </i>
-CronMethodHelp=El método de objeto para iniciar. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto Dolibarr /htdocs/product/class/product.class.php, el valor del método es <br> <i> fetch </i>
-CronArgsHelp=Los argumentos del método. <BR> Por ejemplo, para llamar al método de búsqueda del objeto Producto Dolibarr /htdocs/product/class/product.class.php, el valor de los parámetros puede ser <br><i>0, ProductRef</i>
+CronModuleHelp=Nombre del directorio del módulo ZionOne (también funciona con el módulo ZionOne externo). <BR> Por ejemplo, para llamar al método de búsqueda de ZionOne Product object / htdocs /<u> product </u> /class/product.class.php, el valor del módulo es <br><i>product</i>
+CronClassFileHelp=La ruta relativa y el nombre del archivo a cargar (la ruta es relativa al directorio raíz del servidor web). <BR> Por ejemplo, para llamar al método de recuperación del objeto de producto ZionOne htdocs/product/class/ <u> product.class.php </u>, el valor para el nombre del archivo de clase es <br><i>product/class/product.class.php</i>
+CronObjectHelp=El nombre del objeto a cargar. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto ZionOne /htdocs/product/class/product.class.php, el valor del nombre del archivo de clase es <br> <i> Producto </i>
+CronMethodHelp=El método de objeto para iniciar. <BR> Por ejemplo, para llamar al método de recuperación del objeto Producto ZionOne /htdocs/product/class/product.class.php, el valor del método es <br> <i> fetch </i>
+CronArgsHelp=Los argumentos del método. <BR> Por ejemplo, para llamar al método de búsqueda del objeto Producto ZionOne /htdocs/product/class/product.class.php, el valor de los parámetros puede ser <br><i>0, ProductRef</i>
 CronCommandHelp=La línea de comando del sistema para ejecutar.
 CronCreateJob=Crear nuevo trabajo programado
 CronType=Tipo de empleo

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ticket
+# ZionOne language file - Source file is en_US - ticket
 Permission56002=Alterar tickets
 Permission56003=Excluir tickets
 Permission56004=Gerenciar tickets
@@ -115,7 +115,7 @@ TicketDeletedSuccess=Ticket excluído com sucesso
 SendMessageByEmail=Enviar mensagem por e-mail
 ErrorMailRecipientIsEmptyForSendTicketMessage=O destinatário está vazio. Nenhum e-mail enviado
 TicketMessageMailIntroHelp=Este texto é adicionado apenas no início do e-mail e não será salvo.
-TicketMessageMailIntroHelpAdmin=Este texto será inserido antes da resposta ao responder a um ticket do Dolibarr
+TicketMessageMailIntroHelpAdmin=Este texto será inserido antes da resposta ao responder a um ticket do ZionOne
 TicketMessageMailFooterHelp=Este texto é adicionado apenas no final da mensagem enviada por e-mail e não será salvo.
 TicketMessageSubstitutionReplacedByGenericValues=As variáveis ​​de substituição são trocadas por valores genéricos.
 ForEmailMessageWillBeCompletedWith=Para mensagens de e-mail enviadas a usuários externos, a mensagem será completada com

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# ZionOne language file - Source file is en_US - other
 SecurityCode=Code de sécurité
 NumberingShort=N °
 ToolsDesc=Tous les outils non inclus dans les autres entrées de menu sont regroupés ici.<br>Tous les outils sont accessibles via le menu de gauche.
@@ -76,7 +76,8 @@ PredefinedMailContentSendFichInter=__(Bonjour)__\n\nVeuillez trouver l'intervent
 PredefinedMailContentLink=Vous pouvez cliquer sur le lien ci-dessous pour effectuer votre paiement si ce n'est pas déjà fait.\n\n%s\n\n
 PredefinedMailContentGeneric=__(Bonjour)__\n\n__(Sincèrement)__\n\n__SENDEREMAIL_SIGNATURE__
 PredefinedMailContentSendActionComm=Rappel d'événement « __EVENT_LABEL__ » le __EVENT_DATE__ à __EVENT_TIME__<br><br>Ceci est un message automatique, veuillez ne pas répondre.
-DemoDesc=Dolibarr est un ERP / CRM compact prenant en charge plusieurs modules métier. Une démonstration montrant tous les modules n'a aucun sens car ce scénario ne se produit jamais (plusieurs centaines disponibles). Ainsi, plusieurs profils de démonstration sont disponibles.
+DemoDesc=ZionOne est un ERP / CRM compact prenant en charge plusieurs modules métier. Une démonstration montrant tous les modules n'a aucun sens car ce scénario ne se produit jamais (plusieurs centaines disponibles). Ainsi, plusieurs profils de démonstration sont disponibles.
+DemoDesc2=Il s'agit d'une démo partagée restreinte, vous préférerez peut-être tester sur votre propre instance dédiée avec un accès administrateur complet, pour ce faire, <a href="%s" target="_blank">allez ici <span class="fas fa-external-link-alt"></span></a>.
 ChooseYourDemoProfil=Choisissez le profil de démonstration qui correspond le mieux à vos besoins ...
 ChooseYourDemoProfilMore=... ou créez votre propre profil <br> (sélection du module manuel)
 DemoFundation=Gérer les membres d'une fondation
@@ -125,10 +126,10 @@ SizeUnitdm=Dm
 SizeUnitmm=Mm
 SendNewPasswordDesc=Ce formulaire vous permet de demander un nouveau mot de passe. Il vous sera envoyé à votre adresse e-mail.<br>Le changement sera effectif une fois que vous aurez cliqué sur le lien de confirmation contenu dans l'e-mail.<br>Vérifiez votre boîte de réception.
 BackToLoginPage=Retour à la page de connexion
-AuthenticationDoesNotAllowSendNewPassword=Le mode d'authentification est <b>%s</b>.<br>Dans ce mode, Dolibarr ne peut pas connaître ni modifier votre mot de passe.<br>Contactez votre administrateur système si vous souhaitez modifier votre mot de passe.
+AuthenticationDoesNotAllowSendNewPassword=Le mode d'authentification est <b>%s</b>.<br>Dans ce mode, ZionOne ne peut pas connaître ni modifier votre mot de passe.<br>Contactez votre administrateur système si vous souhaitez modifier votre mot de passe.
 EnableGDLibraryDesc=Installez ou activez la bibliothèque GD sur votre installation PHP pour utiliser cette option.
 ProfIdShortDesc=<b>Prof ID%s</b> est une information en fonction d'un pays tiers. <br> Par exemple, pour le pays <b>%s</b>, c'est le code<b>%s</b>.
-DolibarrDemo=Démo Dolibarr ERP / CRM
+DolibarrDemo=Démo ZionOne ERP / CRM
 StatsByAmountProducts=Statistiques sur la quantité de produits
 StatsByAmountServices=Statistiques sur le nombre de services
 StatsByNumberOfUnits=Statistiques pour la somme des produits / services
@@ -221,3 +222,4 @@ Post-Prompt=Post-invite
 AIProcessingPleaseWait=AI (%s) traite votre demande, veuillez patienter...
 PayOfBankTransferInvoice=Vous allez effectuer un paiement en ligne pour cette facture. Cependant, cette facture a été paramétrée pour être payée en mode "Virement bancaire", donc pour éviter de payer deux fois, veuillez vérifier qu'aucun virement bancaire en cours n'a déjà été initié avant de continuer.
 OurProductSelection=Notre sélection de nouveautés
+AddThisPageToBookmarks =Ajouter la page actuelle aux favoris

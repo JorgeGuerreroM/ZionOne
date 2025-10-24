@@ -41,7 +41,7 @@ if (empty($_GET['keysearch']) && !defined('NOREQUIREHTML')) {	// Keep $_GET here
 	define('NOREQUIREHTML', '1');
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 /**

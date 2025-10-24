@@ -24,7 +24,7 @@
 
 /**
  *	\file       htdocs/index.php
- *	\brief      Dolibarr home page
+ *	\brief      ZionOne home page
  */
 
 
@@ -132,7 +132,7 @@ if (getDolGlobalString('MAIN_MOTD')) {
 // Specific warning to propose to upgrade invoice situation to progressive mode
 if (getDolGlobalInt('INVOICE_USE_SITUATION') == 1) {
 	$langs->loadLangs(array("admin"));
-	print info_admin($langs->trans("WarningExperimentalFeatureInvoiceSituationNeedToUpgradeToProgressiveMode", 'https://partners.dolibarr.org'));
+	print info_admin($langs->trans("WarningExperimentalFeatureInvoiceSituationNeedToUpgradeToProgressiveMode", 'https://partners.ZionOne.org'));
 	//print "<br>";
 }
 
@@ -182,7 +182,7 @@ if (!getDolGlobalString('MAIN_REMOVE_INSTALL_WARNING')) {
 }
 
 /*
- * Dashboard Dolibarr statistics
+ * Dashboard ZionOne statistics
  * Hidden for external users
  */
 
@@ -191,7 +191,7 @@ print load_fiche_titre('&nbsp;', $resultboxes['selectboxlist'], '', 0, '', 'titl
 // Load translation files required by page
 $langs->loadLangs(array('commercial', 'bills', 'orders', 'contracts'));
 
-// Dolibarr Working Board with weather
+// ZionOne Working Board with weather
 if (!getDolGlobalString('MAIN_DISABLE_GLOBAL_WORKBOARD') && getDolGlobalInt('MAIN_OPTIMIZEFORTEXTBROWSER') < 2) {
 	$showweather = (!getDolGlobalString('MAIN_DISABLE_METEO') || getDolGlobalInt('MAIN_DISABLE_METEO') == 2) ? 1 : 0;
 

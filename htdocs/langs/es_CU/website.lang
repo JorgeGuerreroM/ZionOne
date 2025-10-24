@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 WebsiteSetupDesc=Cree aquí los sitios web que desea utilizar. Luego vaya al menú Sitios web para editarlos.
 ConfirmDeleteWebsite=¿Está seguro de que desea eliminar este sitio web? Todas sus páginas y contenidos también serán eliminados. Los archivos cargados (como en el directorio de medios, el módulo ECM, ...) permanecerán.
 WEBSITE_PAGENAME=Nombre de página/alias

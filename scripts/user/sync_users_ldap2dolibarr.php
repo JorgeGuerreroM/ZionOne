@@ -23,7 +23,7 @@
 /**
  * \file scripts/user/sync_users_ldap2dolibarr.php
  * \ingroup ldap member
- * \brief Script to update users into Dolibarr from LDAP
+ * \brief Script to update users into ZionOne from LDAP
  */
 
 if (!defined('NOSESSION')) {
@@ -134,7 +134,7 @@ if (getDolGlobalString('LDAP_FILTER_CONNECTION')) {
 } else {
 	print 'Filter=(' . getDolGlobalString('LDAP_KEY_USERS').'=*)'."\n";
 }
-print "----- To Dolibarr database:\n";
+print "----- To ZionOne database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";
@@ -152,7 +152,7 @@ if (!$confirmed) {
 }
 
 if (!getDolGlobalString('LDAP_USER_DN')) {
-	print $langs->trans("Error").': '.$langs->trans("LDAP setup for users not defined inside Dolibarr");
+	print $langs->trans("Error").': '.$langs->trans("LDAP setup for users not defined inside ZionOne");
 	exit(1);
 }
 
@@ -188,7 +188,7 @@ $result = $ldap->connectBind();
 if ($result >= 0) {
 	$justthese = array();
 
-	// We disable synchro Dolibarr-LDAP
+	// We disable synchro ZionOne-LDAP
 	$conf->global->LDAP_SYNCHRO_ACTIVE = 0;
 
 	$ldaprecords = $ldap->getRecords('*', getDolGlobalString('LDAP_USER_DN'), getDolGlobalString('LDAP_KEY_USERS'), $required_fields, 'user'); // Filter on 'user' filter param

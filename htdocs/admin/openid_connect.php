@@ -22,7 +22,7 @@
  *		\brief      Page to setup openid_connect module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/openid_connect.lib.php';
@@ -137,7 +137,7 @@ print dol_get_fiche_head($head, 'settings', $langs->trans("Parameters"), -1, 'ac
 
 print $langs->trans("SeeWikiDocForHelpInSetupOpenIDCOnnect");
 print ' - ';
-print img_picto('', 'url', 'class="pictofixedwidth"').'<a target="_blank" href="https://wiki.dolibarr.org/index.php?title=Authentication,_SSO_and_SSL#Mode_openid_connect">';
+print img_picto('', 'url', 'class="pictofixedwidth"').'<a target="_blank" href="https://wiki.ZionOne.org/index.php?title=Authentication,_SSO_and_SSL#Mode_openid_connect">';
 print $langs->trans("SeeHere");
 print '</a>';
 

@@ -27,7 +27,7 @@
  *		\brief      Page to setup notification module
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/notify.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
@@ -83,7 +83,7 @@ if ($action == 'settemplates' && $user->admin) {
 					break;
 				}
 			} else {
-				$res = dolibarr_del_const($db, $triggername.'_TEMPLATE', $conf->entity);
+				$res = zionone_del_const($db, $triggername.'_TEMPLATE', $conf->entity);
 			}
 		}
 	}
@@ -142,7 +142,7 @@ if ($action == 'setfixednotif' && $user->admin) {
 			//print $shortkey.'<br>';
 
 			if (preg_match('/^NOTIF_(.*)_old_(.*)_key/', $key, $reg)) {
-				dolibarr_del_const($db, 'NOTIFICATION_FIXEDEMAIL_'.$reg[1].'_THRESHOLD_HIGHER_'.$reg[2], $conf->entity);
+				zionone_del_const($db, 'NOTIFICATION_FIXEDEMAIL_'.$reg[1].'_THRESHOLD_HIGHER_'.$reg[2], $conf->entity);
 
 				$newkey = 'NOTIFICATION_FIXEDEMAIL_'.$reg[1].'_THRESHOLD_HIGHER_'.((int) GETPOST($shortkey.'_amount'));
 				$newval = GETPOST($shortkey.'_key');

@@ -18,7 +18,7 @@ concurrency:
 env:
   gh_event: ${{ inputs.gh_event || github.event_name }}
   PHPUNIT_LOG: phpunit_tests.log
-  DOLIBARR_LOG: documents/dolibarr.log
+  DOLIBARR_LOG: documents/ZionOne.log
   PHPSERVER_LOG: phpserver.log
   PHPSERVER_DOMAIN_PORT: 127.0.0.1:8000  # could be 127.0.0.1:8000 if config modified
   CACHE_KEY_PART: ${{ ( inputs.gh_event == 'pull_request' || github.event_name == 'pull_request' ) && format('{0}-{1}', github.base_ref, github.head_ref) || github.ref_name }}
@@ -89,7 +89,7 @@ jobs:
           php --ini
           ECHO "==== Set PHP_INI_SCAN_DIR to include the INI File we create ==="
           mkdir %PHP_INI_SCAN_DIR%
-          SET INIFILE="%PHP_INI_SCAN_DIR%\dolibarr.ini"
+          SET INIFILE="%PHP_INI_SCAN_DIR%\ZionOne.ini"
           SET HTDOCS_DIR=%CD%\htdocs
           SET DATA_DIR=%CD%\documents
           SET TEST_DIR=%CD%\test
@@ -143,11 +143,11 @@ jobs:
         shell: cmd
         # setting up php.ini, starting the php server are currently in this step
         run: |-
-          ECHO "==== Visually verify our dolibarr.INI file usage ==="
+          ECHO "==== Visually verify our ZionOne.INI file usage ==="
           php --ini
           ECHO "==== Add our web server information to the config file ==="
           echo $dolibarr_main_url_root="http://${{ env.PHPSERVER_DOMAIN_PORT }}"; >> htdocs/conf/conf.php
-          ECHO "#[group]==== Dolibarr config file contents"
+          ECHO "#[group]==== ZionOne config file contents"
           cat htdocs/conf/conf.php
           ECHO "#[endgroup]"
           ECHO "==== START PHP server"
@@ -170,7 +170,7 @@ jobs:
         with:
           in: ${{ env.PHPUNIT_LOG }}
 
-      - name: Provide dolibarr and phpunit logs as artifact
+      - name: Provide ZionOne and phpunit logs as artifact
         uses: actions/upload-artifact@v4
         if: ${{ ! cancelled() }}
         with:

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=تم تسجيل بيانات الاتصال الخاصة بك وسنقوم بالرد عليك قريبًا
 ContactUsDesc=يتيح لك هذا النموذج إرسال رسالة للاتصال الأول بنا
 ErrorCompanyNameAlreadyExists=اسم الشركة %s موجود بالفعل. اختر اسمًا آخر

@@ -29,7 +29,7 @@ create table llx_reception
   fk_soc                integer            NOT NULL,
   fk_projet             integer  DEFAULT NULL,
   
-  ref_ext               varchar(30),					-- reference into an external system (not used by dolibarr)
+  ref_ext               varchar(30),					-- reference into an external system (not used by ZionOne)
   ref_supplier          varchar(255),					-- reference of reception on supplier side
   
   date_creation         datetime,						-- date de creation

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=บัญชี (จากแผนภูมิบัญชี) ที่ใช้เป็นค่าเริ่มต้นสำหรับ "ผู้ใช้" ที่ได้รับเงินเดือน
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=บัญชีเฉพาะที่กำหนดไว้ในบัตรผู้ใช้จะใช้สำหรับการบัญชีแยกประเภทย่อยเท่านั้น บัญชีนี้จะใช้สำหรับบัญชีแยกประเภททั่วไป แต่ยังใช้เป็นค่าเริ่มต้นของการบัญชีแยกประเภทย่อยด้วยหากไม่มีการกำหนดบัญชีผู้ใช้เฉพาะบนผู้ใช้
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=บัญชีโดยปริยายสำหรับการจ่ายค่าจ้าง

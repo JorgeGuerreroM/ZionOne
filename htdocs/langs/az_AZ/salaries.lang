@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Maaşlar üzrə "istifadəçilər" üçün standart olaraq istifadə edilən hesab (Hesab Planından).
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=İstifadəçi kartında müəyyən edilmiş xüsusi hesab yalnız Subledger uçotu üçün istifadə olunacaq. Bu, Baş Mühasibat Kitabı üçün istifadə olunacaq, həm də istifadəçidə xüsusi istifadəçi uçotu hesabı müəyyən edilmədikdə, Subledger uçotunun standart dəyəri kimi istifadə olunacaq.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Əmək haqqı ödənişləri üçün standart olaraq mühasibat hesabı

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Fakturácia | Platba
 TaxModuleSetupToModifyRules=Prejsť na <a href="%s">daniach z modulu nastavenie</a> zmeniť pravidlá pre výpočet
 TaxModuleSetupToModifyRulesLT=Ak chcete upraviť pravidlá výpočtu, prejdite na <a href="%s">Nastavenie spoločnosti</a>

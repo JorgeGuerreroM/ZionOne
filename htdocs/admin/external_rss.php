@@ -30,7 +30,7 @@
  *      \brief      Page to setupe module ExternalRss
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/rssparser.class.php';
@@ -173,10 +173,10 @@ if (GETPOST("delete")) {
 		}
 
 
-		$result1 = dolibarr_del_const($db, "EXTERNAL_RSS_TITLE_".GETPOSTINT("norss"), $conf->entity);
+		$result1 = zionone_del_const($db, "EXTERNAL_RSS_TITLE_".GETPOSTINT("norss"), $conf->entity);
 		$result2 = 0;
 		if ($result1) {
-			$result2 = dolibarr_del_const($db, "EXTERNAL_RSS_URLRSS_".GETPOSTINT("norss"), $conf->entity);
+			$result2 = zionone_del_const($db, "EXTERNAL_RSS_URLRSS_".GETPOSTINT("norss"), $conf->entity);
 		}
 
 		if ($result1 && $result2) {
@@ -223,7 +223,7 @@ print '</tr>';
 print '<tr class="oddeven">';
 print '<td>'.$langs->trans('RSSUrl').'</td>';
 print '<td><input type="text" class="flat minwidth300" name="external_rss_urlrss_'.($lastexternalrss + 1).'" value=""></td>';
-print '<td>https://news.google.com/news?ned=us&topic=h&output=rss<br>https://www.dolibarr.org/rss</td>';
+print '<td>https://news.google.com/news?ned=us&topic=h&output=rss<br>https://www.ZionOne.org/rss</td>';
 print '</tr>';
 print '</table>';
 

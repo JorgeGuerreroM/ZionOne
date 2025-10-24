@@ -1,4 +1,4 @@
-# Robot file. Generated with Dolibarr
+# Robot file. Generated with ZionOne
 User-agent: *
 Allow: /public/
 Disallow: /administrator/

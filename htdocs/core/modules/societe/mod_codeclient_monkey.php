@@ -36,7 +36,7 @@ class mod_codeclient_monkey extends ModeleThirdPartyCode
 {
 	// variables inherited from ModeleThirdPartyCode class
 	public $name = 'Monkey';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	// variables not inherited
 	/**

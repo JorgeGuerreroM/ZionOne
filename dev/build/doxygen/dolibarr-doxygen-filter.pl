@@ -5,12 +5,12 @@
 # \author	Laurent Destailleur
 #--------------------------------------------------------------------
 
-# Usage: dolibarr-doxygen-filter.pl pathtofilefromdolibarrroot
+# Usage: ZionOne-doxygen-filter.pl pathtofilefromdolibarrroot
 
 $file=$ARGV[0];
 if (! $file)
 {
-	print "Usage: dolibarr-doxygen-filter.pl pathtofilefromdolibarrroot\n";
+	print "Usage: ZionOne-doxygen-filter.pl pathtofilefromdolibarrroot\n";
 	exit;
 }
 

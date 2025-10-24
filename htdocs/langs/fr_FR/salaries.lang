@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Compte comptable général par défaut pour les salaires "utilisateurs"
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=Le compte dédié défini sur la fiche utilisateur sera utilisé pour le compte auxiliaire uniquement. Celui-ci sera utilisé pour le compte général, mais également comme valeur par défaut du compte auxiliaire s'il n'y a pas de compte comptable défini sur l'utilisateur.
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Compte comptable par défaut pour les paiements de salaires

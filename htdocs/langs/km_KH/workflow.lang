@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=ការដំឡើងម៉ូឌុលលំហូរការងារ
 WorkflowDesc=ម៉ូឌុលនេះផ្តល់នូវសកម្មភាពដោយស្វ័យប្រវត្តិមួយចំនួន។ តាមលំនាំដើម លំហូរការងារបើក (អ្នកអាចធ្វើអ្វីៗតាមលំដាប់ដែលអ្នកចង់បាន) ប៉ុន្តែនៅទីនេះអ្នកអាចធ្វើសកម្មភាពដោយស្វ័យប្រវត្តិមួយចំនួន។
 ThereIsNoWorkflowToModify=មិនមានការកែប្រែលំហូរការងារដែលមានជាមួយម៉ូឌុលដែលបានធ្វើឱ្យសកម្មទេ។

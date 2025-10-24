@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=Exports
 ImportArea=Увоз
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Изберете го форматот на дато�
 ChooseFileToImport=Поставете датотека, а потоа кликнете на иконата %s за да ја изберете датотеката како изворна увозна датотека...
 SourceFileFormat=Изворниот формат на датотека
 FieldsInSourceFile=Полиња во изворната датотека
-FieldsInTargetDatabase=Target fields in Dolibarr database
+FieldsInTargetDatabase=Target fields in ZionOne database
 NoFields=Нема полиња
 MoveField=Преместете го бројот на колоната на полето %s
 ExampleOfImportFile=Пример_на_увозна_датотека

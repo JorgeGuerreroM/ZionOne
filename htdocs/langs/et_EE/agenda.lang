@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=Sündmuse ID
 Actions=Tegevused
 Agenda=Päevakava
@@ -29,10 +29,10 @@ ViewWeek=Nädala vaade
 ViewPerUser=Kasutajapõhine vaade
 ViewPerType=Tüübipõhine vaade
 AutoActions= Automaatne täitmine
-AgendaAutoActionDesc= Siin saad määratleda sündmusi, mida Dolibarr saab automaatselt lisada Päevakavasse. Kui midagi ei ole valitud, siis logisse lisatakse ja Päevakavas näidatakse ainult käsitsi tegevusi. Objektidega tehtavate äritegevuste (kinnitamine, oleku muutmine) automaatseid jälgimisi ei salvestata.
+AgendaAutoActionDesc= Siin saad määratleda sündmusi, mida ZionOne saab automaatselt lisada Päevakavasse. Kui midagi ei ole valitud, siis logisse lisatakse ja Päevakavas näidatakse ainult käsitsi tegevusi. Objektidega tehtavate äritegevuste (kinnitamine, oleku muutmine) automaatseid jälgimisi ei salvestata.
 AgendaSetupOtherDesc= See leht pakub võimalusi lubada eksportida sinu Dolibarri sündmusi välisesse kalendrisse (Thunderbird, Google Calendar jm ...)
 AgendaExtSitesDesc=See leht võimaldab määratleda väliseid kalendreid, mis saavad oma tegevusi lisada Dolibarri päevakavasse.
-ActionsEvents=Tegevused, mille kohta lisab Dolibarr automaatselt päevakavasse sündmuse.
+ActionsEvents=Tegevused, mille kohta lisab ZionOne automaatselt päevakavasse sündmuse.
 EventRemindersByEmailNotEnabled=Sündmuse meeldetuletus e-posti teel ei ole aktiveeritud %s mooduli seadetes.
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Kolmasosapool %s loodud

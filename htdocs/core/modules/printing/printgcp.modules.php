@@ -409,7 +409,7 @@ class printing_printgcp extends PrintingDriver
 
 		$keyforprovider = '';	// @FIXME
 
-		// Dolibarr Token storage
+		// ZionOne Token storage
 		$storage = new DoliStorage($this->db, $conf, $keyforprovider);
 		// Setup the credentials for the requests
 		$credentials = new Credentials(

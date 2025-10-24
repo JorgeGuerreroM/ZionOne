@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Tagok területe
 MemberCard=Tagkártya
 SubscriptionCard=Előfizetési kártya
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Az érvényesített nyilvános tagok listája
 ErrorThisMemberIsNotPublic=Ez a tag nem nyilvános
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Egy másik tag (név: <b>%s</b>, bejelentkezési név: <b>%s</b>) már kapcsolódik egy harmadik félhez <b>%s</b>. Először távolítsa el ezt a hivatkozást, mert harmadik felet nem lehet csak egy taghoz kapcsolni (és fordítva).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Biztonsági okokból engedélyt kell kapnia az összes felhasználó szerkesztéséhez, hogy egy tagot olyan felhasználóhoz tudjon kapcsolni, aki nem az Öné.
-SetLinkToUser=Link egy Dolibarr felhasználóhoz
-SetLinkToThirdParty=Hivatkozás egy Dolibarr harmadik félhez
+SetLinkToUser=Link egy ZionOne felhasználóhoz
+SetLinkToThirdParty=Hivatkozás egy ZionOne harmadik félhez
 MemberCountersArePublic=Az érvényes tagok számlálói nyilvánosak
 MembersCards=Kártyák generálása a tagok számára
 MembersList=Tagok listája
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Biztosan törölni szeretné ezt a hozzájárulást?
 Filehtpasswd=htpasswd fájl
 ValidateMember=Tag érvényesítése
 ConfirmValidateMember=Biztosan érvényesíteni szeretné ezt a tagot?
-FollowingLinksArePublic=A következő hivatkozások olyan nyitott oldalak, amelyeket semmilyen Dolibarr engedély nem véd. Ezek nem formázott oldalak, példaként szolgálnak a tagok adatbázisának felsorolására.
+FollowingLinksArePublic=A következő hivatkozások olyan nyitott oldalak, amelyeket semmilyen ZionOne engedély nem véd. Ezek nem formázott oldalak, példaként szolgálnak a tagok adatbázisának felsorolására.
 PublicMemberList=Nyilvános taglista
 BlankSubscriptionForm=Nyilvános önregisztrációs űrlap
-BlankSubscriptionFormDesc=A Dolibarr nyilvános URL-t/webhelyet biztosít Önnek, amely lehetővé teszi a külső látogatók számára, hogy feliratkozást kérjenek az alapítványra. Ha engedélyezve van az online fizetési modul, akkor a fizetési űrlap is automatikusan rendelkezésre állhat.
+BlankSubscriptionFormDesc=A ZionOne nyilvános URL-t/webhelyet biztosít Önnek, amely lehetővé teszi a külső látogatók számára, hogy feliratkozást kérjenek az alapítványra. Ha engedélyezve van az online fizetési modul, akkor a fizetési űrlap is automatikusan rendelkezésre állhat.
 EnablePublicSubscriptionForm=Nyilvános webhely engedélyezése saját előfizetési űrlappal
 ForceMemberType=A tagtípus kényszerítése
 ExportDataset_member_1=Tagok és hozzájárulások

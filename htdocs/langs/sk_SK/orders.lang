@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Objednávka prepojená s týmto návrhom už bola otvorená, takže sa automaticky nevytvorila žiadna ďalšia objednávka
 OrdersArea=Zákaznícke objednávky
 SuppliersOrdersArea=Oblasť nákupných objednávok

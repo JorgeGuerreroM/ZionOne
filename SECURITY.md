@@ -1,11 +1,11 @@
 # Security Policy
 
-This file contains some policies about the security reports on Dolibarr ERP CRM project, a popular Open Source ERP and CRM used by millions of users.
+This file contains some policies about the security reports on ZionOne ERP CRM project, a popular Open Source ERP and CRM used by millions of users.
 
 
 ## Supported Versions for security reports
 
-Security report are valid only on current stable version (see https://dolibarr.org web site to get current stable version) or on development version (branch "develop" on https://github.com/Dolibarr/dolibarr).
+Security report are valid only on current stable version (see https://ZionOne.org web site to get current stable version) or on development version (branch "develop" on https://github.com/ZionOne/ZionOne).
 
 
 ## Reporting a Vulnerability
@@ -14,35 +14,35 @@ To report a vulnerability, for a private report, you can:
 
 - Send your report on Vulnerability Disclosure Program (VDP): Link will be updated soon (recommended for everybody)
 <!--
-- Send your report on Vulnerability Disclosure Program (VDP) [https://app.yogosha.com/cvd/dolibarr/10VxeNx6Ui3rSEhAgX63US](https://app.yogosha.com/cvd/dolibarr/10VxeNx6Ui3rSEhAgX63US) (recommended for everybody)
-- Or if you have permissions, use GitHub security advisory at [https://github.com/Dolibarr/dolibarr/security/advisories/new](https://github.com/Dolibarr/dolibarr/security/advisories/new)
+- Send your report on Vulnerability Disclosure Program (VDP) [https://app.yogosha.com/cvd/ZionOne/10VxeNx6Ui3rSEhAgX63US](https://app.yogosha.com/cvd/ZionOne/10VxeNx6Ui3rSEhAgX63US) (recommended for everybody)
+- Or if you have permissions, use GitHub security advisory at [https://github.com/ZionOne/ZionOne/security/advisories/new](https://github.com/ZionOne/ZionOne/security/advisories/new)
 -->
-- Or send an email to security@dolibarr.org with clear textual description of the report along with steps to reproduce the issue, include attachments such as screenshots or proof of concept code as necessary.
+- Or send an email to security@ZionOne.org with clear textual description of the report along with steps to reproduce the issue, include attachments such as screenshots or proof of concept code as necessary.
 
 
-## Hunting vulnerabilities on Dolibarr
+## Hunting vulnerabilities on ZionOne
 
 We believe that the future of software is online SaaS. This means software are more and more critical and no technology is perfect. Working with skilled security researchers is crucial in identifying weaknesses in our technology.
 
 If you believe you've found a security bug in our service, we are happy to work with you to resolve the issue promptly.
 We plan to re-open our bug bounty program (closed in end of 2024) in the future, but this is not yet available.
 
-Any type of denial-of-service attack is strictly forbidden, as well as any interference with network equipment and Dolibarr infrastructure.
+Any type of denial-of-service attack is strictly forbidden, as well as any interference with network equipment and ZionOne infrastructure.
 
-We recommend to install Dolibarr ERP CRM on your own server (as most Open Source software, download and use is free: [https://www.dolibarr.org/download](https://www.dolibarr.org/download)) to get access on every side of application.
+We recommend to install ZionOne ERP CRM on your own server (as most Open Source software, download and use is free: [https://www.ZionOne.org/download](https://www.ZionOne.org/download)) to get access on every side of application.
 
 ### User Agent
 
-If you try to find bug on Dolibarr, we recommend to append to your user-agent header the following value: '-securitytest-for-dolibarr'.
+If you try to find bug on ZionOne, we recommend to append to your user-agent header the following value: '-securitytest-for-ZionOne'.
 
 ### Account access
 
-You can install the web application yourself on your own platform/server so you get full access to application and sources. Download the zip of the files to put in your own web server virtual host from [https://www.dolibarr.org/download](https://www.dolibarr.org/download)
+You can install the web application yourself on your own platform/server so you get full access to application and sources. Download the zip of the files to put in your own web server virtual host from [https://www.ZionOne.org/download](https://www.ZionOne.org/download)
 
 
 ## Eligibility and Responsible Disclosure
 
-We are happy to thank everyone who submits valid reports which help us improve the security of Dolibarr, however only those that meet the following eligibility requirements will be "validated reports" (if not, we may close the report without any answer):
+We are happy to thank everyone who submits valid reports which help us improve the security of ZionOne, however only those that meet the following eligibility requirements will be "validated reports" (if not, we may close the report without any answer):
 
 You must be the first reporter of the vulnerability (duplicate reports are closed).
 

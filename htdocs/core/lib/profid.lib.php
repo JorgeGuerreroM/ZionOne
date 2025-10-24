@@ -28,7 +28,7 @@
  *  Check if a string passes the Luhn algorithm test.
  *  @param		string|int		$str		string to check
  *  @return		bool						True if the string passes the Luhn algorithm check, False otherwise
- *  @since		Dolibarr V20
+ *  @since		ZionOne V20
  */
 function isValidLuhn($str)
 {
@@ -54,7 +54,7 @@ function isValidLuhn($str)
  *
  *  @param		string		$siren		SIREN to check
  *  @return		boolean					True if valid, False otherwise
- *  @since		Dolibarr V20
+ *  @since		ZionOne V20
  */
 function isValidSiren($siren)
 {
@@ -74,7 +74,7 @@ function isValidSiren($siren)
  *
  *  @param		string		$siret		SIRET to check
  *  @return		boolean					True if valid, False otherwise
- *  @since		Dolibarr V20
+ *  @since		ZionOne V20
  */
 function isValidSiret($siret)
 {
@@ -106,7 +106,7 @@ function isValidSiret($siret)
  *
  *  @param		string		$str		NIF to check
  *  @return		boolean					True if valid, False otherwise
- *  @since		Dolibarr V20
+ *  @since		ZionOne V20
  */
 function isValidTinForPT($str)
 {
@@ -127,7 +127,7 @@ function isValidTinForPT($str)
  *
  *  @param		string		$str		TIN to check
  *  @return		boolean					True if valid, False otherwise
- *  @since		Dolibarr V20
+ *  @since		ZionOne V20
  */
 function isValidTinForDZ($str)
 {
@@ -148,7 +148,7 @@ function isValidTinForDZ($str)
  *
  *  @param		string		$str		NN to check
  *  @return		boolean					True if valid, False otherwise
- *  @since		Dolibarr V20
+ *  @since		ZionOne V20
  */
 function isValidTinForBE($str)
 {
@@ -172,7 +172,7 @@ function isValidTinForBE($str)
  *
  *  @param		string		$str		TIN to check
  *  @return		int<-4,3>				1 if NIF ok, 2 if CIF ok, 3 if NIE ok, -1 if NIF bad, -2 if CIF bad, -3 if NIE bad, -4 if unexpected bad
- *  @since		Dolibarr V20
+ *  @since		ZionOne V20
  */
 function isValidTinForES($str)
 {

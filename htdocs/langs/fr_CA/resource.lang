@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - resource
+# ZionOne language file - Source file is en_US - resource
 DeleteResource=Supprimer ressource
 ConfirmDeleteResourceElement=Confirmer la suppression de la ressource pour cet élément
 NoResourceInDatabase=Aucune ressource dans la base.

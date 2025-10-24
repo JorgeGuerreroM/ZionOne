@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Минтақаи аъзоён
 MemberCard=Корти узвият
 SubscriptionCard=Корти обуна
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Рӯйхати аъзои тасдиқшудаи ҷ
 ErrorThisMemberIsNotPublic=Ин аъзо ошкоро нест
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Узви дигар (ном: <b>%s</b>, ворид: <b>%s</b>) аллакай ба шахси сеюм пайваст карда шудааст <b>%s</b>. Аввал ин истинодро нест кунед, зеро шахси сеюм наметавонад танҳо ба як аъзо пайваст шавад (ва баръакс).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Бо мақсади амният, шумо бояд иҷозати таҳрири ҳамаи корбаронро дошта бошед, то узвро ба корбаре, ки аз они шумо нест, пайванд кунед.
-SetLinkToUser=Истинод ба як корбари Dolibarr
-SetLinkToThirdParty=Истинод ба тарафи сеюми Dolibarr
+SetLinkToUser=Истинод ба як корбари ZionOne
+SetLinkToThirdParty=Истинод ба тарафи сеюми ZionOne
 MemberCountersArePublic=Ҳисобкунакҳои аъзоёни эътибори оммавӣ мебошанд
 MembersCards=Ташкили кортҳо барои аъзоён
 MembersList=Рӯйхати аъзоён
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Оё мутмаин ҳастед, ки мехоҳед 
 Filehtpasswd=htpasswd файл
 ValidateMember=Аъзоро тасдиқ кунед
 ConfirmValidateMember=Шумо мутмаин ҳастед, ки мехоҳед ин узвро тасдиқ кунед?
-FollowingLinksArePublic=Истиноди зерин саҳифаҳои кушод мебошанд, ки бо ягон иҷозати Dolibarr ҳифз нашудаанд. Онҳо саҳифаҳои форматнашуда нестанд, ки ҳамчун намуна барои нишон додани рӯйхати пойгоҳи додаҳои аъзоён оварда шудаанд.
+FollowingLinksArePublic=Истиноди зерин саҳифаҳои кушод мебошанд, ки бо ягон иҷозати ZionOne ҳифз нашудаанд. Онҳо саҳифаҳои форматнашуда нестанд, ки ҳамчун намуна барои нишон додани рӯйхати пойгоҳи додаҳои аъзоён оварда шудаанд.
 PublicMemberList=Рӯйхати аъзоёни ҷамъиятӣ
 BlankSubscriptionForm=Шакли бақайдгирии давлатӣ
-BlankSubscriptionFormDesc=Dolibarr метавонад ба шумо URL/вебсайти оммавиро пешкаш кунад, то ба меҳмонони хориҷӣ иҷозат диҳад, ки ба бунёд обуна шаванд. Агар модули пардохти онлайн фаъол бошад, шакли пардохт низ метавонад ба таври худкор пешниҳод карда шавад.
+BlankSubscriptionFormDesc=ZionOne метавонад ба шумо URL/вебсайти оммавиро пешкаш кунад, то ба меҳмонони хориҷӣ иҷозат диҳад, ки ба бунёд обуна шаванд. Агар модули пардохти онлайн фаъол бошад, шакли пардохт низ метавонад ба таври худкор пешниҳод карда шавад.
 EnablePublicSubscriptionForm=Вебсайти оммавиро бо шакли обунаи худкор фаъол созед
 ForceMemberType=Навъи аъзоро маҷбур кунед
 ExportDataset_member_1=Аъзоён ва саҳмҳо

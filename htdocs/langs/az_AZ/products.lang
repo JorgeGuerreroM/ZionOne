@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Məhsul ref.
 ProductLabel=Məhsul etiketi
 ProductLabelTranslated=Tərcümə edilmiş məhsul etiketi
@@ -300,7 +300,7 @@ MinSupplierPrice=Minimum alış qiyməti
 MinCustomerPrice=Minimum satış qiyməti
 NoDynamicPrice=Dinamik qiymət yoxdur
 DynamicPriceConfiguration=Dinamik qiymət konfiqurasiyası
-DynamicPriceDesc=Müştəri və ya Satıcı qiymətlərini hesablamaq üçün riyazi düsturlar təyin edə bilərsiniz. Belə düsturlar bütün riyazi operatorlardan, bəzi sabitlərdən və dəyişənlərdən istifadə edə bilər. Burada istifadə etmək istədiyiniz dəyişənləri təyin edə bilərsiniz. Dəyişən avtomatik yeniləməyə ehtiyac duyarsa, Dolibarr-a dəyəri avtomatik yeniləməyə icazə vermək üçün xarici URL təyin edə bilərsiniz.
+DynamicPriceDesc=Müştəri və ya Satıcı qiymətlərini hesablamaq üçün riyazi düsturlar təyin edə bilərsiniz. Belə düsturlar bütün riyazi operatorlardan, bəzi sabitlərdən və dəyişənlərdən istifadə edə bilər. Burada istifadə etmək istədiyiniz dəyişənləri təyin edə bilərsiniz. Dəyişən avtomatik yeniləməyə ehtiyac duyarsa, ZionOne-a dəyəri avtomatik yeniləməyə icazə vermək üçün xarici URL təyin edə bilərsiniz.
 AddVariable=Dəyişən əlavə edin
 AddUpdater=Yeniləyici əlavə edin
 GlobalVariables=Qlobal dəyişənlər

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Хайрия
 Donations=Хайрияҳо
 DonationRef=Реферат хайрия
@@ -37,7 +37,7 @@ DonationUseThirdparties=Суроғаи шахси сеюми мавҷударо 
 DonationsStatistics=Омори хайрия
 NbOfDonations=Шумораи хайрияҳо
 BlankDonationForm=Шакли хайрияи ҷамъиятӣ
-BlankDonationFormDesc=Dolibarr метавонад ба шумо URL/вебсайти оммавӣ пешниҳод кунад, то ба меҳмонони беруна имкон диҳад, ки хайрия кунанд. Агар модули пардохти онлайн фаъол бошад, шакли пардохт низ метавонад ба таври худкор пешниҳод карда шавад.
+BlankDonationFormDesc=ZionOne метавонад ба шумо URL/вебсайти оммавӣ пешниҳод кунад, то ба меҳмонони беруна имкон диҳад, ки хайрия кунанд. Агар модули пардохти онлайн фаъол бошад, шакли пардохт низ метавонад ба таври худкор пешниҳод карда шавад.
 EnablePublicDonationForm=Шакли хайрияи ҷамъиятиро фаъол созед
 EnablePublicDonationList=Рӯйхати хайрияҳои ҷамъиятиро фаъол созед
 ForceDonateurNature = Табиати донории маҷбурӣ (шахси инфиродӣ ё корпоратсия)

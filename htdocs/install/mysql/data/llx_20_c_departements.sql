@@ -14,7 +14,7 @@
 -- Copyright (C) 2015	    Ferran Marcet          <fmarcet@2byte.es>
 -- Copyright (C) 2020-2023  Udo Tamm               <dev@dolibit.de>
 -- Copyright (C) 2022       Miro Sertić            <miro.sertic0606@gmail.com>
--- Copyright (C) 2022       ButterflyOfFire        <butterflyoffire+dolibarr@protonmail.com>
+-- Copyright (C) 2022       ButterflyOfFire        <butterflyoffire+ZionOne@protonmail.com>
 --
 
 -- License ----------------------------------------------------------------------

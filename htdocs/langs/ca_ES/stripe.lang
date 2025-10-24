@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Configuració del mòdul Stripe
-StripeDesc=Oferiu als vostres clients una pàgina de pagament en línia per als pagaments amb targetes de crèdit/dèbit mitjançant <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Això es pot utilitzar per a permetre als vostres clients fer pagaments ad hoc o per a pagaments relacionats amb un objecte Dolibarr concret (factura, comanda, ...)
+StripeDesc=Oferiu als vostres clients una pàgina de pagament en línia per als pagaments amb targetes de crèdit/dèbit mitjançant <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Això es pot utilitzar per a permetre als vostres clients fer pagaments ad hoc o per a pagaments relacionats amb un objecte ZionOne concret (factura, comanda, ...)
 StripeOrCBDoPayment=Pagar amb targeta de crèdit o Stripe
-FollowingUrlAreAvailableToMakePayments=Les següents URL estan disponibles per a permetre a un client fer un cobrament en objectes de Dolibarr
+FollowingUrlAreAvailableToMakePayments=Les següents URL estan disponibles per a permetre a un client fer un cobrament en objectes de ZionOne
 PaymentForm=Formulari de pagament
 WelcomeOnPaymentPage=Us donem la benvinguda al nostre servei de pagament en línia
 ThisScreenAllowsYouToPay=Aquesta pantalla li permet fer el seu pagament en línia destinat a %s.
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL per a oferir una pàgina de pagamen
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL per a oferir una pàgina de pagament en línia %s per a una subscripció de soci
 ToOfferALinkForOnlinePaymentOnDonation=URL per a oferir una pàgina de pagament en línia %s per al pagament d'una donació
 YouCanAddTagOnUrl=També podeu afegir el paràmetre d'URL <b>&tag=value</b> a qualsevol d'aquests URL (obligatori només per al pagament no enllaçat a un objecte). ) per afegir la vostra pròpia etiqueta de comentari de pagament.<br>Per a l'URL dels pagaments sense objecte existent, també podeu afegir el paràmetre <strong>&noidempoty=1</strong> de manera que el mateix enllaç amb la mateixa etiqueta es pot utilitzat diverses vegades (algun mode de pagament pot limitar el pagament a 1 per a cada enllaç diferent sense aquest paràmetre)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=Configureu el vostre Stripe amb l'URL <b> %s </b> perquè el pagament es creï automàticament quan Stripe el validi.
 AccountParameter=Paràmetres del compte
 UsageParameter=Paràmetres d'ús
@@ -77,9 +77,10 @@ ClickHereToTryAgain=<a href="%s">Feu clic aquí per a tornar-ho a provar...</a>
 CreationOfPaymentModeMustBeDoneFromStripeInterface=A causa de les regles d'autenticació de client fortes, la creació d'una targeta s'ha de fer des de l'oficina administrativa de Stripe. Pots fer clic aquí per a activar el registre de client de Stripe: %s
 STRIPE_CARD_PRESENT=Targeta de regal per a terminals Stripe
 TERMINAL_LOCATION=Ubicació (adreça) de Stripe Terminals
-RequestDirectDebitWithStripe=Sol·liciteu domiciliació bancària amb Stripe
-RequesCreditTransferWithStripe=Sol·liciteu una transferència de crèdit amb Stripe
-STRIPE_SEPA_DIRECT_DEBIT=Activeu els pagaments per domiciliació bancària mitjançant Stripe
+RequestDirectDebitWithStripe=Request SEPA Direct Debit with Stripe
+RequesCreditTransferWithStripe=Make SEPA Credit Transfer with Stripe
+STRIPE_SEPA_DIRECT_DEBIT=Enable SEPA Direct Debit payments with Stripe
+STRIPE_SEPA_CREDIT_TRANSFER=Enable SEPA Credit Transfer payments with Stripe
 STRIPE_KLARNA=Activa els pagaments amb Klarna
 STRIPE_BANCONTACT=Activa els pagaments mitjançant BANCONTACT
 STRIPE_IDEAL=Activa els pagaments amb IDEAL
@@ -91,3 +92,19 @@ ExampleOnlyForDECustomers=Només per a clients alemanys
 ExampleOnlyForNLCustomers=Només per a clients holandesos
 ExampleOnlyForATBEDEITNLESCustomers=Només per a clients d'Àustria, Bèlgica, Alemanya, Itàlia, Països Baixos, Espanya
 ListOfSupportedHooksToActivate=Llista de ganxos compatibles per activar
+# Paybox
+PayBoxSetup=Configuració mòdul PayBox
+PayBoxDesc=Aquest mòdul ofereix pàgines per a permetre el pagament a <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> per part dels clients. Això es pot utilitzar per a un pagament gratuït o per a un pagament d'un objecte ZionOne concret (factura, comanda, ...).
+PayBoxDoPayment=Pagueu amb Paybox
+YouWillBeRedirectedOnPayBox=Se us redirigirà a la pàgina de Paybox segura per a introduir la informació de la vostra targeta de crèdit
+SetupPayBoxToHavePaymentCreatedAutomatically=Configureu la vostra caixa de pagaments amb l'URL <b> %s </b> perquè el pagament es creï automàticament quan sigui validat per Paybox.
+YourPaymentHasBeenRecorded=Aquesta pàgina confirma que el pagament s'ha registrat correctament. Gràcies.
+YourPaymentHasNotBeenRecorded=El vostre pagament NO s'ha registrat i la transacció s'ha anul·lat. Gràcies.
+PAYBOX_CGI_URL_V2=URL del mòdul CGI de Paybox per al pagament
+NewPayboxPaymentReceived=S'ha rebut el nou pagament de Paybox
+NewPayboxPaymentFailed=S'ha provat el nou pagament de Paybox, però ha fallat
+PAYBOX_PAYONLINE_SENDEMAIL=Notificació per correu electrònic després de l'intent de pagament (èxit o fracàs)
+PAYBOX_PBX_SITE=Valor per PBX SITE
+PAYBOX_PBX_RANG=valor per PBX Rang
+PAYBOX_PBX_IDENTIFIANT=Valor per PBX ID
+PAYBOX_HMAC_KEY=Clau HMAC

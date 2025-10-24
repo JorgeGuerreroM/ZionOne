@@ -35,7 +35,7 @@ if (!defined('NOREQUIREHTML')) {
 	define('NOREQUIREHTML', '1'); // If we don't need to load the html.form.class.php
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 /**
@@ -59,7 +59,7 @@ $langs->load('compta');
 $invoice_type = GETPOSTINT('invoice_type');
 $amountPayment = GETPOST('amountPayment');
 $amounts = GETPOST('amounts'); // from text inputs : invoice amount payment (check required)
-$remains = GETPOST('remains'); // from dolibarr's object (no need to check)
+$remains = GETPOST('remains'); // from ZionOne's object (no need to check)
 $currentInvId = GETPOST('imgClicked'); // from DOM elements : imgId (equals invoice id)
 
 // Getting the posted keys=>values, sanitize the ones who are from text inputs

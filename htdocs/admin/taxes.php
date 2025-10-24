@@ -28,7 +28,7 @@
  *     \brief      Page to setup module tax
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 if (isModEnabled('accounting')) {

@@ -33,7 +33,7 @@ class mod_holiday_madonna extends ModelNumRefHolidays
 {
 	// variables inherited from ModelNumRefHolidays class
 	public $name = 'Madonna';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	// variables not inherited
 

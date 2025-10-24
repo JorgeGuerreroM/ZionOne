@@ -42,7 +42,7 @@ abstract class DolibarrTriggers
 
 	/**
 	 * Version of the trigger
-	 * @var ''|'development'|'dolibarr'|'experimental'
+	 * @var ''|'development'|'ZionOne'|'experimental'
 	 */
 	public $version;
 
@@ -87,11 +87,11 @@ abstract class DolibarrTriggers
 	const VERSION_EXPERIMENTAL = 'experimental';
 
 	/**
-	 * @var string module is dolibarr ready
+	 * @var string module is ZionOne ready
 	 * @deprecated Use self::VERSIONS
 	 * @see self::VERSIONS
 	 */
-	const VERSION_DOLIBARR = 'dolibarr';
+	const VERSION_DOLIBARR = 'ZionOne';
 
 	/**
 	 * @var array<string,string> dictionary of possible module states
@@ -99,7 +99,7 @@ abstract class DolibarrTriggers
 	const VERSIONS = [
 		'dev' => 'development',
 		'exp' => 'experimental',
-		'prod' => 'dolibarr'
+		'prod' => 'ZionOne'
 	];
 
 	/**
@@ -148,7 +148,7 @@ abstract class DolibarrTriggers
 	{
 		global $langs;
 		$langs->load("admin");
-		switch ($this->version) { // TODO use a match expression @ Dolibarr minimum PHP v8.0
+		switch ($this->version) { // TODO use a match expression @ ZionOne minimum PHP v8.0
 			case self::VERSIONS['dev']:
 				return $langs->trans("VersionDevelopment");
 			case self::VERSIONS['exp']:
@@ -177,7 +177,7 @@ abstract class DolibarrTriggers
 	}
 
 	/**
-	 *  Function called when a Dolibarr business event is done.
+	 *  Function called when a ZionOne business event is done.
 	 *  All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
 	 *
 	 *  @param string       $action     Event action code

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Code
 WebsiteName=Naam van de website
 WebsiteSetupDesc=Maak hier de websites die u wilt gebruiken. Ga vervolgens naar het menu Websites om ze te bewerken.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Om deze website live te implementeren
 SetHereVirtualHost=<u> Gebruik met Apache / NGinx / ... </u> <br> Creëer op uw webserver (Apache, Nginx, ...) een speciale virtuele host met PHP ingeschakeld en een root-directory op <br><strong> %s</strong>
 ExampleToUseInApacheVirtualHostConfig=Voorbeeld om te gebruiken in Apache virtual host setup:
 YouCanAlsoTestWithPHPS=<u>Gebruik met PHP embedded server</u><br>In de ontwikkelomgeving kunt u test de site liever met de ingebouwde PHP-webserver door deze uit te voeren
-YouCanAlsoDeployToAnotherWHP=<u>Laat uw website draaien in een Dolibarr-webhostingprovider</u><br>Als Als u geen webserver zoals Apache of NGinx beschikbaar heeft op internet, kunt u uw website exporteren en importeren naar een andere Dolibarr-instantie die wordt geleverd door een andere Dolibarr-hostingprovider die volledige integratie biedt met de Website-module. U kunt een lijst met enkele Dolibarr-hostingproviders vinden op <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Laat uw website draaien in een ZionOne-webhostingprovider</u><br>Als Als u geen webserver zoals Apache of NGinx beschikbaar heeft op internet, kunt u uw website exporteren en importeren naar een andere ZionOne-instantie die wordt geleverd door een andere ZionOne-hostingprovider die volledige integratie biedt met de Website-module. U kunt een lijst met enkele ZionOne-hostingproviders vinden op <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Controleer ook of de virtuele hostgebruiker (bijvoorbeeld www-data) <strong>%s</strong> permissies heeft voor bestanden in <br><strong>%s</strong>
 ReadPerm=Lezen
 WritePerm=Schrijven
 TestDeployOnWeb=Testen / implementeren op internet
 PreviewSiteServedByWebServer=<u>Voorbeeld %s op een nieuw tabblad.</u> <br><br> De %s wordt bediend door een externe webserver (zoals Apache, Nginx, IIS). U moet deze server installeren en instellen voordat u naar de map verwijst: <br> <strong>%s</strong> <br> URL aangeboden door externe server: <br> <strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Bekijk %s in een nieuw tabblad.</u><br><br>De %s wordt bediend door de Dolibarr-server, dus er hoeft geen extra webserver (zoals Apache, Nginx, IIS) te worden geïnstalleerd.<br>Het vervelende is dat de URL's van pagina's niet gebruiksvriendelijk en begin met het pad van uw Dolibarr.<br>URL bediend door Dolibarr:<br><strong>%s</strong><br><br>Om te implementeren of testen met behulp van uw eigen externe webserver (zoals Apache, Nginx, Lighttp) gebruikt u de link "%s".
+PreviewSiteServedByDolibarr=<u>Bekijk %s in een nieuw tabblad.</u><br><br>De %s wordt bediend door de ZionOne-server, dus er hoeft geen extra webserver (zoals Apache, Nginx, IIS) te worden geïnstalleerd.<br>Het vervelende is dat de URL's van pagina's niet gebruiksvriendelijk en begin met het pad van uw ZionOne.<br>URL bediend door ZionOne:<br><strong>%s</strong><br><br>Om te implementeren of testen met behulp van uw eigen externe webserver (zoals Apache, Nginx, Lighttp) gebruikt u de link "%s".
 VirtualHostUrlNotDefined=URL van de virtuele host bediend door externe webserver niet gedefinieerd
 NoPageYet=Nog geen pagina's
 YouCanCreatePageOrImportTemplate=U kunt een nieuwe pagina maken of een volledige websitesjabloon importeren
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=U wordt binnenkort doorgestuurd naar de Bestellin
 WebPortalSetupNotComplete=De installatie van het webportaal is niet voltooid
 DeleteWebsiteAccount=Website-account verwijderen
 ConfirmDeleteWebsiteAccount=Weet u zeker dat u dit account wilt verwijderen?
-ConfirmDeleteWebsiteAccount2=Als dit account is gebruikt om in te loggen op het openbare portaal of een andere website die door Dolibarr wordt aangestuurd, is inloggen mogelijk niet meer mogelijk.
+ConfirmDeleteWebsiteAccount2=Als dit account is gebruikt om in te loggen op het openbare portaal of een andere website die door ZionOne wordt aangestuurd, is inloggen mogelijk niet meer mogelijk.
 ContentSecurityPolicy=Website HTTP "Inhoud-Beveiligingsbeleid"
 WebsiteSecurityForceRP=Website HTTP "Referer-beleid"
 WebsiteSecurityForceSTS=Website HTTP "Strict-Transport-Security"

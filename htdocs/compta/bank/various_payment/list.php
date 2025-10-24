@@ -25,7 +25,7 @@
  *  \brief      List of various payments
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/compta/bank/class/paymentvarious.class.php';
 require_once DOL_DOCUMENT_ROOT.'/compta/bank/class/account.class.php';

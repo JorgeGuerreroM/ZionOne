@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Bağış
 Donations=Bağışlar
 DonationRef=Bağış ref.
@@ -37,7 +37,7 @@ DonationUseThirdparties=Bağışçının adresi olarak mevcut bir üçüncü tar
 DonationsStatistics=Bağış istatistikleri
 NbOfDonations=Bağış sayısı
 BlankDonationForm=Kamu bağış formu
-BlankDonationFormDesc=Dolibarr, harici ziyaretçilerin bağış yapmasına izin vermek için size genel bir URL/Web sitesi sağlayabilir. Çevrimiçi bir Ödeme modülü etkinleştirilirse, bir Ödeme formu da otomatikman sağlanabilir.
+BlankDonationFormDesc=ZionOne, harici ziyaretçilerin bağış yapmasına izin vermek için size genel bir URL/Web sitesi sağlayabilir. Çevrimiçi bir Ödeme modülü etkinleştirilirse, bir Ödeme formu da otomatikman sağlanabilir.
 EnablePublicDonationForm=Kamu bağış formunu etkinleştirin
 EnablePublicDonationList=Genel bağışı etkinleştirin Liste
 ForceDonateurNature = Bağışçıyı zorla Nitelik (Bireysel veya Şirket)

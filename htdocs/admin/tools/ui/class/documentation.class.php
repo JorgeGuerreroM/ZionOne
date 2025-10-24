@@ -68,7 +68,7 @@ class Documentation
 	{
 		$this->db = $db;
 
-		// https://www.figma.com/community/file/1393171578760389765/dolibarr-ui-ux-kit
+		// https://www.figma.com/community/file/1393171578760389765/ZionOne-ui-ux-kit
 
 		// Menu Constructor
 		$this->setMenu();
@@ -85,7 +85,7 @@ class Documentation
 
 		$hookmanager->initHooks(array('uidocumentation'));
 
-		// Go back to Dolibarr
+		// Go back to ZionOne
 		$this->menu['BackToDolibarr'] = array(
 			'url' => DOL_URL_ROOT,
 			'icon' => 'fas fa-arrow-left',
@@ -276,7 +276,7 @@ class Documentation
 
 		top_htmlhead('',  $title, 0, 0, $arrayofjs, $arrayofcss);
 
-		print '<body class="dolibarr-doc'.($hidenavmenu ? "-bis" : "").'">';
+		print '<body class="ZionOne-doc'.($hidenavmenu ? "-bis" : "").'">';
 	}
 
 	/**
@@ -313,8 +313,8 @@ class Documentation
 
 		// LOGO
 		print '<div class="sidebar-logo">';
-		if (is_readable(DOL_DOCUMENT_ROOT.'/theme/dolibarr_logo.svg')) {
-			$urllogo = DOL_URL_ROOT.'/theme/dolibarr_logo.svg';
+		if (is_readable(DOL_DOCUMENT_ROOT.'/theme/logo.png')) {
+			$urllogo = DOL_URL_ROOT.'/theme/logo.png';
 			print '<img src="'.$urllogo.'" />';
 		}
 		print '</div>';

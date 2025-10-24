@@ -10,7 +10,7 @@ services:
         image: mariadb:latest
         environment:
             MYSQL_ROOT_PASSWORD: rootpassfordev
-            MYSQL_DATABASE: dolibarr
+            MYSQL_DATABASE: ZionOne
         ports:
             - "3306:3306"
         networks:

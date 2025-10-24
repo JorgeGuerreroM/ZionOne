@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ruleset SYSTEM "ruleset.dtd">
-<ruleset name="Dolibarr">
-	<description>Dolibarr coding standard.</description>
+<ruleset name="ZionOne">
+	<description>ZionOne coding standard.</description>
 	<arg name="tab-width" value="4"/>
 	<arg name="extensions" value="php" />
 

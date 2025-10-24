@@ -1,7 +1,7 @@
 {
-	"name" : "dolibarr/dolibarr",
+	"name" : "ZionOne/ZionOne",
 	"type" : "project",
-	"description" : "Dolibarr ERP & CRM is a modern and easy to use web software to manage your business",
+	"description" : "ZionOne ERP & CRM is a modern and easy to use web software to manage your business",
 	"keywords" : [
 		"erp",
 		"crm",
@@ -12,13 +12,13 @@
 		"stock",
 		"agenda"
 	],
-	"homepage" : "https://www.dolibarr.org",
+	"homepage" : "https://www.ZionOne.org",
 	"license" : "GPL-3.0-or-later",
 	"support" : {
-		"issues" : "https://github.com/Dolibarr/dolibarr/issues",
-		"forum" : "https://www.dolibarr.org/forum",
-		"wiki" : "https://wiki.dolibarr.org",
-		"source" : "https://github.com/Dolibarr/dolibarr"
+		"issues" : "https://github.com/ZionOne/ZionOne/issues",
+		"forum" : "https://www.ZionOne.org/forum",
+		"wiki" : "https://wiki.ZionOne.org",
+		"source" : "https://github.com/ZionOne/ZionOne"
 	},
 	"config" : {
 		"vendor-dir" : "htdocs/includes"

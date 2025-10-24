@@ -12,10 +12,10 @@ centpecent->centpercent
 choosed->chosen
 cumuled->cumulative
 dokument->document
-dolibar->dolibarr
-dolibarrr->dolibarr
-dollibar->dolibarr
-dollibarr->dolibarr
+dolibar->ZionOne
+dolibarrr->ZionOne
+dollibar->ZionOne
+dollibarr->ZionOne
 extrafeild->extrafield
 thoose->those
 # fiche->card

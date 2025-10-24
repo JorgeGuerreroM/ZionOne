@@ -30,7 +30,7 @@
  *	\brief      Setup page to configure company/foundation
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/company.lib.php';
@@ -115,7 +115,7 @@ if (($action == 'update' && !GETPOST("cancel", 'alpha'))
 		$s = $mysoc->state_id.':'.$mysoc->state_code.':'.$mysoc->state_label;
 		dolibarr_set_const($db, "MAIN_INFO_SOCIETE_STATE", $s, 'chaine', 0, '', $conf->entity);
 	} else {
-		dolibarr_del_const($db, "MAIN_INFO_SOCIETE_STATE", $conf->entity);
+		zionone_del_const($db, "MAIN_INFO_SOCIETE_STATE", $conf->entity);
 	}
 
 	$db->begin();
@@ -277,7 +277,7 @@ if (($action == 'update' && !GETPOST("cancel", 'alpha'))
 	}
 
 	// Remove constant MAIN_INFO_SOCIETE_SETUP_TODO_WARNING
-	dolibarr_del_const($db, "MAIN_INFO_SOCIETE_SETUP_TODO_WARNING", $conf->entity);
+	zionone_del_const($db, "MAIN_INFO_SOCIETE_SETUP_TODO_WARNING", $conf->entity);
 
 	if (!$error) {
 		if (GETPOST('save')) {	// To avoid to show message when we juste switch the country that resubmit the form.
@@ -364,7 +364,7 @@ if ($action == 'removelogo' || $action == 'removelogo_squarred') {
 	if ($logofilename != '' && $logofilename != $logofilenamebis) {
 		dol_delete_file($logofile);
 	}
-	dolibarr_del_const($db, $constant, $conf->entity);
+	zionone_del_const($db, $constant, $conf->entity);
 	if ($action == 'removelogo_squarred') {
 		$mysoc->logo_squarred = '';
 	} else {
@@ -382,7 +382,7 @@ if ($action == 'removelogo' || $action == 'removelogo_squarred') {
 	if ($logofilename != '' && $logofilename != $logofilenamebis) {
 		dol_delete_file($logosmallfile);
 	}
-	dolibarr_del_const($db, $constant."_SMALL", $conf->entity);
+	zionone_del_const($db, $constant."_SMALL", $conf->entity);
 	if ($action == 'removelogo_squarred') {
 		$mysoc->logo_squarred_small = '';
 	} else {
@@ -400,7 +400,7 @@ if ($action == 'removelogo' || $action == 'removelogo_squarred') {
 	if ($logofilename != '' && $logofilename != $logofilenamebis) {
 		dol_delete_file($logominifile);
 	}
-	dolibarr_del_const($db, $constant."_MINI", $conf->entity);
+	zionone_del_const($db, $constant."_MINI", $conf->entity);
 	if ($action == 'removelogo_squarred') {
 		$mysoc->logo_squarred_mini = '';
 	} else {

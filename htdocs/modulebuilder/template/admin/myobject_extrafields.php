@@ -27,7 +27,7 @@
  *		\brief      Page to setup extra fields of myobject
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 $res = 0;
 // Try main.inc.php into web root known defined into CONTEXT_DOCUMENT_ROOT (not always defined)
 if (!$res && !empty($_SERVER["CONTEXT_DOCUMENT_ROOT"])) {

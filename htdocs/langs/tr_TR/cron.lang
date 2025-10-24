@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Planlı işleri oku
 Permission23102 = Planlı iş oluştur/güncelle
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Engelle
 CronTaskInactive=Bu iş devre dışı bırakıldı (planlanmadı)
 CronId=Kimlik
 CronClassFile=Sınıfıyla beraber dosya adı
-CronModuleHelp=Dolibarr modül dizininin adı (harici Dolibarr modülüyle de çalışır). <BR> Örneğin, Dolibarr Ürün nesnesinin getirme yöntemini çağırmak için /htdocs/<u>product</u> /class/product.class.php, modülün değeri şöyledir:<br><i>product</i>
-CronClassFileHelp=Yüklenecek ilgili yol ve dosya adı (yol, web sunucusu kök dizinine göredir). <BR> Örneğin Dolibarr Ürün nesnesinin getirme yöntemini çağırmak için htdocs/product/class/<u>product.class.php</u>, sınıf dosyası adı değeri:<br><i>product/class/product .class.php</i>
-CronObjectHelp=Yüklenecek nesne adı. <BR> Örneğin, Dolibarr Ürün nesnesi /htdocs/product/class/product.class.php'nin fetch yöntemini çağırmak için, sınıf dosyası adının değeri şu şekildedir:<br><i>Ürün</i>
-CronMethodHelp=Başlatılacak nesne yöntemi. <BR> Örneğin, Dolibarr Ürün nesnesi /htdocs/product/class/product.class.php'nin fetch yöntemini çağırmak için, yöntemin değeri şu şekildedir: <br><i>getir</i>
-CronArgsHelp=Yöntem argümanları. <BR> Örneğin, Dolibarr Ürün nesnesi /htdocs/product/class/product.class.php'nin fetch yöntemini çağırmak için parametrelerin değeri <br><i>0, ProductRef</i>
+CronModuleHelp=ZionOne modül dizininin adı (harici ZionOne modülüyle de çalışır). <BR> Örneğin, ZionOne Ürün nesnesinin getirme yöntemini çağırmak için /htdocs/<u>product</u> /class/product.class.php, modülün değeri şöyledir:<br><i>product</i>
+CronClassFileHelp=Yüklenecek ilgili yol ve dosya adı (yol, web sunucusu kök dizinine göredir). <BR> Örneğin ZionOne Ürün nesnesinin getirme yöntemini çağırmak için htdocs/product/class/<u>product.class.php</u>, sınıf dosyası adı değeri:<br><i>product/class/product .class.php</i>
+CronObjectHelp=Yüklenecek nesne adı. <BR> Örneğin, ZionOne Ürün nesnesi /htdocs/product/class/product.class.php'nin fetch yöntemini çağırmak için, sınıf dosyası adının değeri şu şekildedir:<br><i>Ürün</i>
+CronMethodHelp=Başlatılacak nesne yöntemi. <BR> Örneğin, ZionOne Ürün nesnesi /htdocs/product/class/product.class.php'nin fetch yöntemini çağırmak için, yöntemin değeri şu şekildedir: <br><i>getir</i>
+CronArgsHelp=Yöntem argümanları. <BR> Örneğin, ZionOne Ürün nesnesi /htdocs/product/class/product.class.php'nin fetch yöntemini çağırmak için parametrelerin değeri <br><i>0, ProductRef</i>
 CronCommandHelp=Yürütülecek sistem komut satırı.
 CronCreateJob=Yeni Planlı İş oluştur
 CronFrom=Gönderen

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Salasana <b>käyttäjän %s verkkotunnuksen %s</b> on muuttunut.
 UserMustChangePassNextLogon=Käyttäjän on muutettava salasana verkkotunnuksen %s
 LDAPInformationsForThisContact=Tiedot LDAP-tietokannan tämä yhteystieto
@@ -22,7 +22,7 @@ GroupSynchronized=Ryhmän synkronoidaan
 MemberSynchronized=Jäsen synkronoidaan
 MemberTypeSynchronized=Jäsentyyppi synkronoitu
 ContactSynchronized=Yhteystiedot synkronoidaan
-ForceSynchronize=Force synkronointi Dolibarr -> LDAP
+ForceSynchronize=Force synkronointi ZionOne -> LDAP
 ErrorFailedToReadLDAP=Lukeminen epäonnistui LDAP-tietokantaan. Tarkista LDAP-moduulin asennus ja tietokannan saavutettavuus.
 PasswordOfUserInLDAP=Käyttäjän salasana LDAP:ssa
 LDAPPasswordHashType=Salasanan hajautustyyppi

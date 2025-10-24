@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=הגדרת מודול זרימת עבודה
 WorkflowDesc=מודול זה מספק כמה פעולות אוטומטיות. כברירת מחדל, זרימת העבודה פתוחה (אתה יכול לעשות דברים בסדר שאתה רוצה) אבל כאן אתה יכול להפעיל כמה פעולות אוטומטיות.
 ThereIsNoWorkflowToModify=אין שינויי זרימת עבודה זמינים עם המודולים המופעלים.

@@ -1558,7 +1558,7 @@ parameters:
 			message: '#^Loose comparison using \!\= between '',''\|''\.'' and '' '' will always evaluate to true\.$#'
 			identifier: notEqual.alwaysTrue
 			count: 1
-			path: ../../../htdocs/admin/system/dolibarr.php
+			path: ../../../htdocs/admin/system/ZionOne.php
 
 		-
 			message: '#^Variable \$ignore in empty\(\) always exists and is always falsy\.$#'

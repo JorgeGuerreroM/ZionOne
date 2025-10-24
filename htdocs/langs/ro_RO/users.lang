@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=HRM
 UserCard=Fişă utilizator
 GroupCard=Fişă grup
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Asociere la utilizator
 LinkedToDolibarrThirdParty=Asociere la terţ
 CreateDolibarrLogin=Creare utilizator
 CreateDolibarrThirdParty=Creare terţ
-LoginAccountDisableInDolibarr=Cont dezactivat în Dolibarr
-PASSWORDInDolibarr=Parolă modificată în Dolibarr
+LoginAccountDisableInDolibarr=Cont dezactivat în ZionOne
+PASSWORDInDolibarr=Parolă modificată în ZionOne
 UsePersonalValue=Utilizare setări personalizate
 ExportDataset_user_1=Utilizatori și proprietățile acestora
 ExportDataset_user_2=Listă evenimente securitate

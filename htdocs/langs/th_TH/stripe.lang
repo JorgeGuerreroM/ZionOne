@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=การตั้งค่าโมดูลแถบ
-StripeDesc=นำเสนอหน้าการชำระเงินออนไลน์แก่ลูกค้าของคุณสำหรับการชำระเงินด้วยบัตรเครดิต/เดบิตผ่าน <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> สามารถใช้เพื่อให้ลูกค้าของคุณสามารถชำระเงินเฉพาะกิจหรือสำหรับการชำระเงินที่เกี่ยวข้องกับวัตถุ Dolibarr เฉพาะ (ใบแจ้งหนี้ คำสั่งซื้อ ...)
+StripeDesc=นำเสนอหน้าการชำระเงินออนไลน์แก่ลูกค้าของคุณสำหรับการชำระเงินด้วยบัตรเครดิต/เดบิตผ่าน <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external">Stripe</a> สามารถใช้เพื่อให้ลูกค้าของคุณสามารถชำระเงินเฉพาะกิจหรือสำหรับการชำระเงินที่เกี่ยวข้องกับวัตถุ ZionOne เฉพาะ (ใบแจ้งหนี้ คำสั่งซื้อ ...)
 StripeOrCBDoPayment=ชำระเงินด้วยบัตรเครดิตหรือแถบ
-FollowingUrlAreAvailableToMakePayments=URL ต่อไปนี้จะพร้อมที่จะให้หน้าให้กับลูกค้าที่จะทำให้การชำระเงินบนวัตถุ Dolibarr
+FollowingUrlAreAvailableToMakePayments=URL ต่อไปนี้จะพร้อมที่จะให้หน้าให้กับลูกค้าที่จะทำให้การชำระเงินบนวัตถุ ZionOne
 PaymentForm=รูปแบบการชำระเงิน
 WelcomeOnPaymentPage=ยินดีต้อนรับสู่บริการชำระเงินออนไลน์ของเรา
 ThisScreenAllowsYouToPay=หน้าจอนี้ช่วยให้คุณชำระเงินออนไลน์ให้กับ %s
@@ -24,7 +24,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL ที่จะนำเสนอ�
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL ที่จะเสนอ %s หน้าการชำระเงินออนไลน์สำหรับการสมัครสมาชิก
 ToOfferALinkForOnlinePaymentOnDonation=URL ที่จะเสนอ %s หน้าการชำระเงินออนไลน์สำหรับการชำระค่าบริจาค
 YouCanAddTagOnUrl=คุณสามารถเพิ่มพารามิเตอร์ url <b>&tag=value</b> ลงใน URL ใดๆ เหล่านั้นได้ (จำเป็นสำหรับการชำระเงินที่ไม่ได้เชื่อมโยงกับอ็อบเจ็กต์เท่านั้น) เพื่อเพิ่มแท็กความคิดเห็นการชำระเงินของคุณเอง<br>สำหรับ URL ของการชำระเงินที่ไม่มีอ็อบเจ็กต์อยู่แล้ว คุณสามารถเพิ่มพารามิเตอร์ <strong>&noidempotency=1</strong> ได้เช่นกัน เพื่อให้สามารถใช้ลิงก์เดียวกันโดยใช้แท็กเดียวกันได้หลายครั้ง (โหมดการชำระเงินบางโหมดอาจจำกัดการชำระเงินให้ 1 สำหรับแต่ละลิงก์ที่แตกต่างกันโดยไม่มีพารามิเตอร์นี้)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=ตั้งค่า Stripe ของคุณด้วย url <b>%s</b> เพื่อให้ระบบสร้างการชำระเงินโดยอัตโนมัติเมื่อ ตรวจสอบโดย Stripe
 AccountParameter=พารามิเตอร์บัญชี
 UsageParameter=พารามิเตอร์การใช้งาน
@@ -77,9 +77,10 @@ ClickHereToTryAgain=<a href="%s">คลิกที่นี่เพื่อ�
 CreationOfPaymentModeMustBeDoneFromStripeInterface=เนื่องจากกฎการตรวจสอบลูกค้าที่เข้มงวด การสร้างการ์ดจะต้องดำเนินการจากฝ่ายหลังของ Stripe คุณสามารถคลิกที่นี่เพื่อเปิดบันทึกลูกค้า Stripe: %s
 STRIPE_CARD_PRESENT=บัตรของขวัญสำหรับ Stripe Terminals
 TERMINAL_LOCATION=ที่ตั้ง (ที่อยู่) สำหรับ Stripe Terminals
-RequestDirectDebitWithStripe=ขอหักบัญชีเงินฝากอัตโนมัติด้วย Stripe
-RequesCreditTransferWithStripe=ขอโอนเครดิตกับ Stripe
-STRIPE_SEPA_DIRECT_DEBIT=เปิดใช้งานการชำระเงินแบบหักบัญชีธนาคารผ่าน Stripe
+RequestDirectDebitWithStripe=Request SEPA Direct Debit with Stripe
+RequesCreditTransferWithStripe=Make SEPA Credit Transfer with Stripe
+STRIPE_SEPA_DIRECT_DEBIT=Enable SEPA Direct Debit payments with Stripe
+STRIPE_SEPA_CREDIT_TRANSFER=Enable SEPA Credit Transfer payments with Stripe
 STRIPE_KLARNA=เปิดใช้งานการชำระเงินโดยใช้ Klarna
 STRIPE_BANCONTACT=เปิดใช้งานการชำระเงินโดยใช้ BANCONTACT
 STRIPE_IDEAL=เปิดใช้งานการชำระเงินโดยใช้ IDEAL
@@ -91,3 +92,19 @@ ExampleOnlyForDECustomers=เฉพาะลูกค้าชาวเยอร
 ExampleOnlyForNLCustomers=เฉพาะลูกค้าชาวดัตช์เท่านั้น
 ExampleOnlyForATBEDEITNLESCustomers=เฉพาะลูกค้าจากออสเตรีย เบลเยียม เยอรมนี อิตาลี เนเธอร์แลนด์ สเปนเท่านั้น
 ListOfSupportedHooksToActivate=รายชื่อของตะขอที่รองรับเพื่อเปิดใช้งาน
+# Paybox
+PayBoxSetup=PayBox ติดตั้งโมดูล
+PayBoxDesc=This module offer pages to allow payment on <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> by customers. This can be used for a free payment or for a payment on a particular ZionOne object (invoice, order, ...)
+PayBoxDoPayment=Pay with Paybox
+YouWillBeRedirectedOnPayBox=คุณจะถูกเปลี่ยนเส้นทางในหน้า Paybox การรักษาความปลอดภัยในการป้อนข้อมูลบัตรเครดิต
+SetupPayBoxToHavePaymentCreatedAutomatically=Setup your Paybox with url <b>%s</b> to have payment created automatically when validated by Paybox.
+YourPaymentHasBeenRecorded=หน้านี้ยืนยันว่าชำระเงินของคุณได้รับการบันทึก ขอบคุณ
+YourPaymentHasNotBeenRecorded=Your payment has NOT been recorded and the transaction has been canceled. Thank you.
+PAYBOX_CGI_URL_V2=url ของ Paybox โมดูล CGI สำหรับการชำระเงิน
+NewPayboxPaymentReceived=การชำระเงิน Paybox ใหม่ที่ได้รับ
+NewPayboxPaymentFailed=การชำระเงิน Paybox ใหม่พยายาม แต่ล้มเหลว
+PAYBOX_PAYONLINE_SENDEMAIL=Email notification after payment attempt (success or fail)
+PAYBOX_PBX_SITE=ราคาเว็บไซต์ PBX
+PAYBOX_PBX_RANG=ราคา PBX รัง
+PAYBOX_PBX_IDENTIFIANT=ราคา PBX ID
+PAYBOX_HMAC_KEY=HMAC key

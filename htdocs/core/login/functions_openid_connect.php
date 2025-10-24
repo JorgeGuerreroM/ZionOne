@@ -23,7 +23,7 @@
  *      \ingroup    openid_connect
  *      \brief      OpenID Connect: Authorization Code flow authentication
  *
- *      See https://github.com/Dolibarr/dolibarr/issues/22740 for more information about setup openid_connect
+ *      See https://github.com/ZionOne/ZionOne/issues/22740 for more information about setup openid_connect
  */
 
 include_once DOL_DOCUMENT_ROOT.'/core/lib/geturl.lib.php';
@@ -128,7 +128,7 @@ function check_user_password_openid_connect($usertotest, $passwordtotest, $entit
 
 	dol_syslog("functions_openid_connect::check_user_password_openid_connect /userinfo=".print_r($userinfo_response, true), LOG_DEBUG);
 
-	// Get the user attribute (claim) matching the Dolibarr login
+	// Get the user attribute (claim) matching the ZionOne login
 	$login_claim = 'email'; // default
 	if (getDolGlobalString('MAIN_AUTHENTICATION_OIDC_LOGIN_CLAIM')) {
 		$login_claim = getDolGlobalString('MAIN_AUTHENTICATION_OIDC_LOGIN_CLAIM');
@@ -156,7 +156,7 @@ function check_user_password_openid_connect($usertotest, $passwordtotest, $entit
 		return false;
 	}
 
-	// Success: retrieve claim to return to Dolibarr as login
+	// Success: retrieve claim to return to ZionOne as login
 	$sql = 'SELECT login, entity, datestartvalidity, dateendvalidity';
 	$sql .= ' FROM '.MAIN_DB_PREFIX.'user';
 	if ($login_claim === 'email') {

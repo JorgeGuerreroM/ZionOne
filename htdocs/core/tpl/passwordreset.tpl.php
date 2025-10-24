@@ -197,7 +197,7 @@ if (!getDolGlobalString('ADD_UNSPLASH_LOGIN_BACKGROUND')) {
 <div class="login_table_title center" title="<?php echo dol_escape_htmltag($title); ?>">
 <?php
 if (!empty($disablenofollow)) {
-	echo '<a class="login_table_title" href="https://www.dolibarr.org" target="_blank" rel="noopener noreferrer external">';
+	echo '<a class="login_table_title" href="https://www.ZionOne.org" target="_blank" rel="noopener noreferrer external">';
 }
 echo dol_escape_htmltag($title);
 if (!empty($disablenofollow)) {
@@ -339,7 +339,7 @@ if (!empty($morelogincontent)) {
 
 
 <?php
-if ($mode == 'dolibarr' || !$disabled) {
+if ($mode == 'ZionOne' || !$disabled) {
 	if (empty($message)) {
 		print '<div class="center login_main_home divpasswordmessagedesc paddingtopbottom'.(!getDolGlobalString('MAIN_LOGIN_BACKGROUND') ? '' : ' backgroundsemitransparent boxshadow').'" style="max-width: 70%">';
 		print '<span class="passwordmessagedesc opacitymedium">';

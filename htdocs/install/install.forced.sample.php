@@ -1,5 +1,6 @@
 <?php
 /* Copyright (C) 2016       Raphaël Doursenaud      <rdoursenaud@gpcsolutions.fr>
+ * Copyright (C) 2025       Charlene Benke      	<charlene@patas-monkey.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,7 +23,7 @@ $force_install_nophpinfo = true;
 $force_install_noedit = 2;
 
 /** @var string	$force_install_message	 			Information message */
-$force_install_message = 'Welcome to your Dolibarr install';
+$force_install_message = 'Welcome to your ZionOne install';
 
 /** @var string	$force_install_main_data_root 		Data root absolute path (documents folder) */
 $force_install_main_data_root = null;
@@ -31,7 +32,7 @@ $force_install_main_data_root = null;
 $force_install_mainforcehttps = true;
 
 /** @var string	$force_install_database				Database name */
-$force_install_database = 'dolibarr';
+$force_install_database = 'ZionOne';
 
 /** @var string $force_install_type					Database driver (mysql|mysqli|pgsql|mssql|sqlite|sqlite3) */
 $force_install_type = 'mysqli';
@@ -63,8 +64,11 @@ $force_install_databaserootlogin = 'root';
 /** @var string $force_install_databaserootpass		Database root password */
 $force_install_databaserootpass = '';
 
-/** @var string $force_install_dolibarrlogin		Dolibarr super-administrator username */
+/** @var string $force_install_dolibarrlogin		ZionOne super-administrator username */
 $force_install_dolibarrlogin = 'admin';
+
+/** @var string $force_install_dolibarrpassword		ZionOne super-administrator password */
+$force_install_dolibarrpassword = '';
 
 /** @var bool $force_install_lockinstall			Force install locking */
 $force_install_lockinstall = true;

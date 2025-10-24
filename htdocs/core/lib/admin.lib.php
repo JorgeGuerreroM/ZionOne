@@ -52,18 +52,20 @@ function versiontostring($versionarray)
 }
 
 /**
- *	Compare 2 versions (stored into 2 arrays).
- *  To check if Dolibarr version is lower than (x,y,z), do "if versioncompare(versiondolibarrarray(), array(x.y.z)) <= 0"
- *  For example: if (versioncompare(versiondolibarrarray(),array(4,0,-5)) >= 0) is true if version is 4.0 alpha or higher.
- *  For example: if (versioncompare(versiondolibarrarray(),array(4,0,0)) >= 0) is true if version is 4.0 final or higher.
- *  For example: if (versioncompare(versiondolibarrarray(),array(4,0,1)) >= 0) is true if version is 4.0.1 or higher.
+ *	Compare 2 versions (stored into 2 arrays), to know if a version (a,b,c) is lower than (x,y,z)
+ *  To check using a string version do a preg_split('/[\.\-]/', strinversion) to convert the string into an array.
+ *  To check with ZionOne version use versionZionOnearray() to get the array of ZionOne current version
+ *
+ *  For example: if (versioncompare(versionZionOnearray(),array(4,0,-5)) >= 0) is true if version is 4.0 alpha or higher.
+ *  For example: if (versioncompare(versionZionOnearray(),array(4,0,0)) >= 0) is true if version is 4.0 final or higher.
+ *  For example: if (versioncompare(versionZionOnearray(),array(4,0,1)) >= 0) is true if version is 4.0.1 or higher.
  *  Alternative way to compare: if ((float) DOL_VERSION >= 4.0) is true if version is 4.0 alpha or higher (works only to compare first and second level)
  *
  *	@param      array<int|string>	$versionarray1	Array of version (vermajor,verminor,patch)
  *	@param      array<int|string>	$versionarray2	Array of version (vermajor,verminor,patch)
- *	@return     int<-4,4>			      	-4,-3,-2,-1 if versionarray1<versionarray2 (value depends on level of difference)
- * 												0 if same
- * 												1,2,3,4 if versionarray1>versionarray2 (value depends on level of difference)
+ *	@return     int<-4,4>			      			-4,-3,-2,-1 if versionarray1<versionarray2 (value depends on level of difference)
+ * 													0 if same
+ * 													1,2,3,4 if versionarray1>versionarray2 (value depends on level of difference)
  *  @see versiontostring()
  */
 function versioncompare($versionarray1, $versionarray2)
@@ -118,7 +120,7 @@ function versioncompare($versionarray1, $versionarray2)
 		}
 	}
 	//print join('.',$versionarray1).'('.count($versionarray1).') / '.join('.',$versionarray2).'('.count($versionarray2).') => '.$ret.'<br>'."\n";
-	return $ret;
+	return $ret;	// return level=1 if difference is on the main version, level=2 on minor version, level=3 on maintenance version, level=4 on development phase version
 }
 
 
@@ -134,20 +136,20 @@ function versionphparray()
 }
 
 /**
- *	Return version Dolibarr
+ *	Return version ZionOne
  *
- *	@return     array<int<0,2>,string>	Tableau de version (vermajeur,vermineur,autre)
+ *	@return     array<int<0,2>,string>	Array of version (vermajor,verminor,vermaintenance,other)
  *  @see versioncompare()
  */
-function versiondolibarrarray()
+function versionZionOnearray()
 {
-	return explode('.', DOL_VERSION);
+	return preg_split('/[\-\.]/', DOL_VERSION);
 }
 
 
 /**
  *	Launch a sql file. Function is used by:
- *  - Migrate process (dolibarr-xyz-abc.sql)
+ *  - Migrate process (ZionOne-xyz-abc.sql)
  *  - Loading sql menus (auguria)
  *  - Running specific Sql by a module init
  *  - Loading sql file of website import package
@@ -223,10 +225,10 @@ function run_sql($sqlfile, $silent = 1, $entity = 0, $usesavepoint = 1, $handler
 								$qualified = 0;
 							}
 						} else { // This is a test on a constant. For example when we have -- VMYSQLUTF8UNICODE, we test constant $conf->global->UTF8UNICODE
-							$dbcollation = strtoupper(preg_replace('/_/', '', $conf->db->dolibarr_main_db_collation));
+							$dbcollation = strtoupper(preg_replace('/_/', '', $conf->db->ZionOne_main_db_collation));
 							//var_dump($reg[2]);
 							//var_dump($dbcollation);
-							if (empty($conf->db->dolibarr_main_db_collation) || ($reg[2] != $dbcollation)) {
+							if (empty($conf->db->ZionOne_main_db_collation) || ($reg[2] != $dbcollation)) {
 								$qualified = 0;
 							}
 							//var_dump($qualified);
@@ -552,7 +554,7 @@ function run_sql($sqlfile, $silent = 1, $entity = 0, $usesavepoint = 1, $handler
 		});
 		</script>';
 		if (count($arraysql)) {
-			print ' - <a class="trforrunsqlshowhide'.$keyforsql.'" href="#" title="'.($langs->trans("ShowHideTheNRequests", count($arraysql))).'">'.$langs->trans("ShowHideDetails").'</a>';
+			print ' - <a class="trforrunsqlshowhide'.$keyforsql.' reposition" href="#" title="'.($langs->trans("ShowHideTheNRequests", count($arraysql))).'">'.$langs->trans("ShowHideDetails").'</a>';
 		} else {
 			print ' - <span class="opacitymedium">'.$langs->trans("ScriptIsEmpty").'</span>';
 		}
@@ -579,9 +581,9 @@ function run_sql($sqlfile, $silent = 1, $entity = 0, $usesavepoint = 1, $handler
  *	@param	    int			$entity		Multi company id, -1 for all entities
  *	@return     int         			Return integer <0 if KO, >0 if OK
  *
- *	@see		dolibarr_get_const(), dolibarr_set_const(), dol_set_user_param()
+ *	@see		ZionOne_get_const(), ZionOne_set_const(), dol_set_user_param()
  */
-function dolibarr_del_const($db, $name, $entity = 1)
+function ZionOne_del_const($db, $name, $entity = 1)
 {
 	global $conf, $hookmanager;
 
@@ -599,7 +601,7 @@ function dolibarr_del_const($db, $name, $entity = 1)
 		'entity' => $entity,
 	);
 
-	$reshook = $hookmanager->executeHooks('dolibarrDelConst', $parameters); // Note that $action and $object may have been modified by some hooks
+	$reshook = $hookmanager->executeHooks('ZionOneDelConst', $parameters); // Note that $action and $object may have been modified by some hooks
 	if ($reshook != 0) {
 		return $reshook;
 	}
@@ -614,7 +616,7 @@ function dolibarr_del_const($db, $name, $entity = 1)
 		$sql .= " AND entity = ".((int) $entity);
 	}
 
-	dol_syslog("admin.lib::dolibarr_del_const", LOG_DEBUG);
+	dol_syslog("admin.lib::ZionOne_del_const", LOG_DEBUG);
 	$resql = $db->query($sql);
 	if ($resql) {
 		$conf->global->$name = '';
@@ -633,9 +635,9 @@ function dolibarr_del_const($db, $name, $entity = 1)
  *	@param	    int			$entity		Multi company id
  *	@return     string      			Value of constant
  *
- *	@see		dolibarr_del_const(), dolibarr_set_const(), dol_set_user_param()
+ *	@see		ZionOne_del_const(), ZionOne_set_const(), dol_set_user_param()
  */
-function dolibarr_get_const($db, $name, $entity = 1)
+function ZionOne_get_const($db, $name, $entity = 1)
 {
 	$value = '';
 
@@ -644,7 +646,7 @@ function dolibarr_get_const($db, $name, $entity = 1)
 	$sql .= " WHERE name = ".$db->encrypt($name);
 	$sql .= " AND entity = ".((int) $entity);
 
-	dol_syslog("admin.lib::dolibarr_get_const", LOG_DEBUG);
+	dol_syslog("admin.lib::ZionOne_get_const", LOG_DEBUG);
 	$resql = $db->query($sql);
 	if ($resql) {
 		$obj = $db->fetch_object($resql);
@@ -669,7 +671,7 @@ function dolibarr_get_const($db, $name, $entity = 1)
  *	@param	    int			$entity		Multi company id (0 means all entities)
  *	@return     int         			-1 if KO, 1 if OK
  *
- *	@see		dolibarr_del_const(), dolibarr_get_const(), dol_set_user_param()
+ *	@see		ZionOne_del_const(), ZionOne_get_const(), dol_set_user_param()
  */
 function dolibarr_set_const($db, $name, $value, $type = 'chaine', $visible = 0, $note = '', $entity = 1)
 {
@@ -681,7 +683,7 @@ function dolibarr_set_const($db, $name, $value, $type = 'chaine', $visible = 0, 
 
 	// Check parameters
 	if (empty($name)) {
-		dol_print_error($db, "Error: Call to function dolibarr_set_const with wrong parameters");
+		dol_print_error($db, "Error: Call to function ZionOne_set_const with wrong parameters");
 		exit;
 	}
 	if (! is_object($hookmanager)) {
@@ -700,12 +702,12 @@ function dolibarr_set_const($db, $name, $value, $type = 'chaine', $visible = 0, 
 		'entity' => $entity,
 	);
 
-	$reshook = $hookmanager->executeHooks('dolibarrSetConst', $parameters); // Note that $action and $object may have been modified by some hooks
+	$reshook = $hookmanager->executeHooks('ZionOneSetConst', $parameters); // Note that $action and $object may have been modified by some hooks
 	if ($reshook != 0) {
 		return $reshook;
 	}
 
-	//dol_syslog("dolibarr_set_const name=$name, value=$value type=$type, visible=$visible, note=$note entity=$entity");
+	//dol_syslog("ZionOne_set_const name=$name, value=$value type=$type, visible=$visible, note=$note entity=$entity");
 
 	$db->begin();
 
@@ -715,7 +717,7 @@ function dolibarr_set_const($db, $name, $value, $type = 'chaine', $visible = 0, 
 		$sql .= " AND entity = ".((int) $entity);
 	}
 
-	dol_syslog("admin.lib::dolibarr_set_const", LOG_DEBUG);
+	dol_syslog("admin.lib::ZionOne_set_const", LOG_DEBUG);
 	$resql = $db->query($sql);
 
 	if (strcmp($value, '')) {	// true if different. Must work for $value='0' or $value=0
@@ -738,7 +740,7 @@ function dolibarr_set_const($db, $name, $value, $type = 'chaine', $visible = 0, 
 
 		//print "sql".$value."-".pg_escape_string($value)."-".$sql;exit;
 		//print "xx".$db->escape($value);
-		dol_syslog("admin.lib::dolibarr_set_const", LOG_DEBUG);
+		dol_syslog("admin.lib::ZionOne_set_const", LOG_DEBUG);
 		$resql = $db->query($sql);
 	}
 
@@ -841,7 +843,7 @@ function ihm_prepare_head()
 
 	$head[$h][0] = DOL_URL_ROOT."/admin/tools/ui/index.php";
 	$head[$h][1] = $langs->trans("UxComponentsDoc").' '.img_picto('', 'external-link-square-alt');
-	$head[$h][2] = 'css';
+	$head[$h][2] = 'ux';
 	$h++;
 
 	complete_head_from_modules($conf, $langs, null, $head, $h, 'ihm_admin');
@@ -901,6 +903,11 @@ function security_prepare_head()
 	$head[$h][2] = 'audit';
 	$h++;
 
+	$head[$h][0] = DOL_URL_ROOT."/admin/openid_connect.php";
+	$head[$h][1] = $langs->trans("OpenIDconnectSetup");
+	$head[$h][2] = 'openid';
+	$h++;
+
 
 	// Show permissions lines
 	$nbPerms = 0;
@@ -932,13 +939,18 @@ function security_prepare_head()
 		$h++;
 	}
 
+	$head[$h][0] = DOL_URL_ROOT."/admin/security_headers_http.php";
+	$head[$h][1] = $langs->trans("MainHttpSecurityHeaders");
+	$head[$h][2] = 'headers_http';
+	$h++;
+
 	return $head;
 }
 
 /**
  * Prepare array with list of tabs
  *
- * @param 	DolibarrModules		$object 	Descriptor class
+ * @param 	ZionOneModules		$object 	Descriptor class
  * @return	array<array{0:string,1:string,2:string}>	Array of tabs to show
  */
 function modulehelp_prepare_head($object)
@@ -1089,17 +1101,17 @@ function listOfSessions()
 					$sessValues = file_get_contents($fullpath); // get raw session data
 					// Example of possible value
 					//$sessValues = 'newtoken|s:32:"1239f7a0c4b899200fe9ca5ea394f307";dol_loginmesg|s:0:"";newtoken|s:32:"1236457104f7ae0f328c2928973f3cb5";dol_loginmesg|s:0:"";token|s:32:"123615ad8d650c5cc4199b9a1a76783f";
-					// dol_login|s:5:"admin";dol_authmode|s:8:"dolibarr";dol_tz|s:1:"1";dol_tz_string|s:13:"Europe/Berlin";dol_dst|i:0;dol_dst_observed|s:1:"1";dol_dst_first|s:0:"";dol_dst_second|s:0:"";dol_screenwidth|s:4:"1920";
+					// dol_login|s:5:"admin";dol_authmode|s:8:"ZionOne";dol_tz|s:1:"1";dol_tz_string|s:13:"Europe/Berlin";dol_dst|i:0;dol_dst_observed|s:1:"1";dol_dst_first|s:0:"";dol_dst_second|s:0:"";dol_screenwidth|s:4:"1920";
 					// dol_screenheight|s:3:"971";dol_company|s:12:"MyBigCompany";dol_entity|i:1;mainmenu|s:4:"home";leftmenuopened|s:10:"admintools";idmenu|s:0:"";leftmenu|s:10:"admintools";';
 
-					if (preg_match('/dol_login/i', $sessValues) && // limit to dolibarr session
+					if (preg_match('/dol_login/i', $sessValues) && // limit to ZionOne session
 						(preg_match('/dol_entity\|i:'.$conf->entity.';/i', $sessValues) || preg_match('/dol_entity\|s:([0-9]+):"'.$conf->entity.'"/i', $sessValues)) && // limit to current entity
 					preg_match('/dol_company\|s:([0-9]+):"('.getDolGlobalString('MAIN_INFO_SOCIETE_NOM').')"/i', $sessValues)) { // limit to company name
 						$tmp = explode('_', $file);
 						$idsess = $tmp[1];
 						$regs = array();
 						$arrayofSessions[$idsess]["login"] = '';
-						$loginfound = preg_match('/dol_login\|s:[0-9]+:"([A-Za-z0-9]+)"/i', $sessValues, $regs);
+						$loginfound = preg_match('/dol_login\|s:[0-9]+:"([^"]+)"/i', $sessValues, $regs);
 						if ($loginfound) {
 							$arrayofSessions[$idsess]["login"] = (string) $regs[1];
 						}
@@ -1142,7 +1154,7 @@ function purgeSessions($mysessionid)
 				if (!@is_dir($fullpath)) {
 					$sessValues = file_get_contents($fullpath); // get raw session data
 
-					if (preg_match('/dol_login/i', $sessValues) && // limit to dolibarr session
+					if (preg_match('/dol_login/i', $sessValues) && // limit to ZionOne session
 					(preg_match('/dol_entity\|i:('.$conf->entity.')/', $sessValues) || preg_match('/dol_entity\|s:([0-9]+):"('.$conf->entity.')"/i', $sessValues)) && // limit to current entity
 					preg_match('/dol_company\|s:([0-9]+):"(' . getDolGlobalString('MAIN_INFO_SOCIETE_NOM').')"/i', $sessValues)) { // limit to company name
 						$tmp = explode('_', $file);
@@ -1209,7 +1221,7 @@ function activateModule($value, $withdeps = 1, $noconfverification = 0)
 	}
 
 	$objMod = new $modName($db);
-	'@phan-var-force DolibarrModules $objMod';
+	'@phan-var-force ZionOneModules $objMod';
 
 	// Test if PHP version ok
 	$verphp = versionphparray();
@@ -1219,12 +1231,12 @@ function activateModule($value, $withdeps = 1, $noconfverification = 0)
 		return $ret;
 	}
 
-	// Test if Dolibarr version ok
-	$verdol = versiondolibarrarray();
-	$vermin = isset($objMod->need_dolibarr_version) ? $objMod->need_dolibarr_version : 0;
+	// Test if ZionOne version ok
+	$verdol = versionZionOnearray();
+	$vermin = isset($objMod->need_ZionOne_version) ? $objMod->need_ZionOne_version : 0;
 	//print 'version: '.versioncompare($verdol,$vermin).' - '.join(',',$verdol).' - '.join(',',$vermin);exit;
 	if (is_array($vermin) && versioncompare($verdol, $vermin) < 0) {
-		$ret['errors'][] = $langs->trans("ErrorModuleRequireDolibarrVersion", versiontostring($vermin));
+		$ret['errors'][] = $langs->trans("ErrorModuleRequireZionOneVersion", versiontostring($vermin));
 		return $ret;
 	}
 
@@ -1324,7 +1336,7 @@ function activateModule($value, $withdeps = 1, $noconfverification = 0)
  */
 function unActivateModule($value, $requiredby = 1)
 {
-	global $db, $modules, $conf;
+	global $db;
 
 	// Check parameters
 	if (empty($value)) {
@@ -1351,16 +1363,16 @@ function unActivateModule($value, $requiredby = 1)
 
 	if ($found) {
 		$objMod = new $modName($db);
-		'@phan-var-force DolibarrModules $objMod';
+		'@phan-var-force ZionOneModules $objMod';
 		$result = $objMod->remove();
 		if ($result <= 0) {
 			$ret = $objMod->error;
 		}
 	} else { // We come here when we try to unactivate a module when module does not exists anymore in sources
 		//print $dir.$modFile;exit;
-		// TODO Replace this after DolibarrModules is moved as abstract class with a try catch to show module we try to disable has not been found or could not be loaded
-		include_once DOL_DOCUMENT_ROOT.'/core/modules/DolibarrModules.class.php';
-		$genericMod = new DolibarrModules($db);
+		// TODO Replace this after ZionOneModules is moved as abstract class with a try catch to show module we try to disable has not been found or could not be loaded
+		include_once DOL_DOCUMENT_ROOT.'/core/modules/ZionOneModules.class.php';
+		$genericMod = new ZionOneModules($db);
 		$genericMod->name = preg_replace('/^mod/i', '', $modName);
 		$genericMod->rights_class = strtolower(preg_replace('/^mod/i', '', $modName));
 		$genericMod->const_name = 'MAIN_MODULE_'.strtoupper(preg_replace('/^mod/i', '', $modName));
@@ -1424,7 +1436,7 @@ function complete_dictionary_with_modules(&$taborder, &$tabname, &$tablib, &$tab
 					if ($modName) {
 						include_once $dir.$file;
 						$objMod = new $modName($db);
-						'@phan-var-force DolibarrModules $objMod';
+						'@phan-var-force ZionOneModules $objMod';
 
 						if ($objMod->numero > 0) {
 							$j = $objMod->numero;
@@ -1591,7 +1603,7 @@ function activateModulesRequiredByCountry($country_code)
 					if ($modName) {
 						include_once $dir.$file;
 						$objMod = new $modName($db);
-						'@phan-var-force DolibarrModules $objMod';
+						'@phan-var-force ZionOneModules $objMod';
 
 						$modulequalified = 1;
 
@@ -1890,7 +1902,7 @@ function form_constantes($tableau, $strictw3c = 2, $helptext = '', $text = 'Valu
 					print "</textarea>\n";
 				} elseif ($obj->type == 'html') {
 					require_once DOL_DOCUMENT_ROOT.'/core/class/doleditor.class.php';
-					$doleditor = new DolEditor('constvalue'.(empty($strictw3c) ? '' : ($strictw3c == 3 ? '_'.$const : '[]')), $obj->value, '', 160, 'dolibarr_notes', '', false, false, isModEnabled('fckeditor'), ROWS_5, '90%');
+					$doleditor = new DolEditor('constvalue'.(empty($strictw3c) ? '' : ($strictw3c == 3 ? '_'.$const : '[]')), $obj->value, '', 160, 'ZionOne_notes', '', false, false, isModEnabled('fckeditor'), ROWS_5, '90%');
 					$doleditor->Create();
 				} elseif ($obj->type == 'yesno') {
 					print $form->selectyesno('constvalue'.(empty($strictw3c) ? '' : ($strictw3c == 3 ? '_'.$const : '[]')), $obj->value, 1, false, 0, 1);
@@ -1954,7 +1966,7 @@ function form_constantes($tableau, $strictw3c = 2, $helptext = '', $text = 'Valu
 /**
  *	Show array with constants to edit
  *
- *	@param	DolibarrModules[]	$modules	Array of all modules
+ *	@param	ZionOneModules[]	$modules	Array of all modules
  *	@return	string							HTML string with warning
  */
 function showModulesExludedForExternal($modules)
@@ -2191,4 +2203,155 @@ function email_admin_prepare_head()
 	complete_head_from_modules($conf, $langs, null, $head, $h, 'email_admin', 'remove');
 
 	return $head;
+}
+
+/**
+ * Prepare array of directives for HTTP headers
+ *
+ * @return 	array<string,array<string,string>>					Array of directives
+ */
+function GetContentPolicyDirectives()
+{
+	return array(
+		// Fetch directives
+		"child-src" => array("label" => "child-src", "data-directivetype" => "fetch"),
+		"connect-src" => array("label" => "connect-src", "data-directivetype" => "fetch"),
+		"default-src" => array("label" => "default-src", "data-directivetype" => "fetch"),
+		"fenced-frame-src" => array("label" => "fenced-frame-src", "data-directivetype" => "fetch"),
+		"font-src" => array("label" => "font-src", "data-directivetype" => "fetch"),
+		"frame-src" => array("label" => "frame-src", "data-directivetype" => "fetch"),
+		"img-src" => array("label" => "img-src", "data-directivetype" => "fetch"),
+		"manifest-src" => array("label" => "manifest-src", "data-directivetype" => "fetch"),
+		"media-src" => array("label" => "media-src", "data-directivetype" => "fetch"),
+		"object-src" => array("label" => "object-src", "data-directivetype" => "fetch"),
+		"prefetch-src" => array("label" => "prefetch-src", "data-directivetype" => "fetch"),
+		"script-src" => array("label" => "script-src", "data-directivetype" => "fetch"),
+		"script-src-elem" => array("label" => "script-src-elem", "data-directivetype" => "fetch"),
+		"script-src-attr" => array("label" => "script-src-attr", "data-directivetype" => "fetch"),
+		"style-src" => array("label" => "style-src","data-directivetype" => "fetch"),
+		"style-src-elem" => array("label" => "style-src-elem", "data-directivetype" => "fetch"),
+		"style-src-attr" => array("label" => "style-src-attr", "data-directivetype" => "fetch"),
+		"worker-src" => array("label" => "worker-src", "data-directivetype" => "fetch"),
+		// Document directives
+		"base-uri" => array("label" => "base-uri", "data-directivetype" => "document"),
+		"sandbox" => array("label" => "sandbox", "data-directivetype" => "document"),
+		// Navigation directives
+		"form-action" => array("label" => "form-action", "data-directivetype" => "navigation"),
+		"frame-ancestors" => array("label" => "frame-ancestors", "data-directivetype" => "navigation"),
+		// Reporting directives
+		"report-to" => array("label" => "report-to", "data-directivetype" => "reporting"),
+		// Other directives
+		"require-trusted-types-for" => array("label" => "require-trusted-types-for", "data-directivetype" => "require-trusted-types-for"),
+		"trusted-types" => array("label" => "trusted-types", "data-directivetype" => "trusted-types"),
+		"upgrade-insecure-requests" => array("label" => "upgrade-insecure-requests", "data-directivetype" => "none"),
+	);
+}
+
+/**
+ * Prepare array of sources for HTTP headers
+ *
+ * @return 	array<string,array<string,array<string,string>>>					Array of sources
+ */
+function GetContentPolicySources()
+{
+	return array(
+		// Fetch directives
+		"fetch" => array(
+			"*" => array("label" => "*", "data-sourcetype" => "select"),
+			"data" => array("label" => "data:", "data-sourcetype" => "data"),
+			"self" => array("label" => "self", "data-sourcetype" => "quoted"),
+			"unsafe-eval" => array("label" => "unsafe-eval", "data-sourcetype" => "quoted"),
+			"wasm-unsafe-eval" => array("label" => "wasm-unsafe-eval", "data-sourcetype" => "quoted"),
+			"unsafe-inline" => array("label" => "unsafe-inline", "data-sourcetype" => "quoted"),
+			"unsafe-hashes" => array("label" => "unsafe-hashes", "data-sourcetype" => "quoted"),
+			"inline-speculation-rules" => array("label" => "inline-speculation-rules", "data-sourcetype" => "quoted"),
+			"strict-dynamic" => array("label" => "strict-dynamic", "data-sourcetype" => "quoted"),
+			"report-sample" => array("label" => "report-sample", "data-sourcetype" => "quoted"),
+			"host-source" => array("label" => "host-source (*.mydomain.com)", "data-sourcetype" => "input"),
+			"scheme-source" => array("label" => "scheme-source", "data-sourcetype" => "input"),
+		),
+		// Document directives
+		"document" => array(
+			"none" => array("label" => "self", "data-sourcetype" => "quoted"),
+			"self" => array("label" => "self", "data-sourcetype" => "quoted"),
+			"host-source" => array("label" => "host-source (*.mydomain.com)", "data-sourcetype" => "input"),
+			"scheme-source" => array("label" => "scheme-source (*.mydomain.com)", "data-sourcetype" => "input"),
+		),
+		// Navigation directives
+		"navigation" => array(
+			"none" => array("label" => "self", "data-sourcetype" => "quoted"),
+			"self" => array("label" => "self", "data-sourcetype" => "quoted"),
+			"host-source" => array("label" => "host-source (*.mydomain.com)", "data-sourcetype" => "input"),
+			"scheme-source" => array("label" => "scheme-source", "data-sourcetype" => "input"),
+		),
+		// Reporting directives
+		"reporting" => array(
+			"report-to" => array("label" => "report-to", "data-sourcetype" => "input"),
+		),
+		// Other directives
+		"require-trusted-types-for" => array(
+			"script" => array("label" => "script", "data-sourcetype" => "select"),
+		),
+		"trusted-types" => array(
+			"policyName" => array("label" => "policyName", "data-sourcetype" => "input"),
+			"none" => array("label" => "none", "data-sourcetype" => "quoted"),
+			"allow-duplicates" => array("label" => "allow-duplicates", "data-sourcetype" => "quoted"),
+		),
+	);
+}
+
+/**
+ * Transform a Content Security Policy to an array
+ *
+ * @param	string		$forceCSP		Content security policy string
+ * @return 	array<string,array<string|int,array<string|int,string>|string>>				Array of sources
+ */
+function GetContentPolicyToArray($forceCSP)
+{
+	$forceCSPArr = array();
+	$sourceCSPArr = GetContentPolicySources();
+	$sourceCSPArrflatten = array();
+
+	// We remove a level for sources array
+	foreach ($sourceCSPArr as $key => $arr) {
+		$sourceCSPArrflatten = array_merge($sourceCSPArrflatten, array_keys($arr));
+	}
+	// Gerer le problème avec data:text/plain;base64,SGVsbG8sIFdvcmxkIQ%3D%3D qui est split + problème avec button ajouter
+	$forceCSP = preg_replace('/;base64,/', "__semicolumnbase64__", $forceCSP);
+	$securitypolicies = explode(";", $forceCSP);
+
+	// Loop on each security policy to create an array
+	foreach ($securitypolicies as $key => $securitypolicy) {
+		if ($securitypolicy == "") {
+			continue;
+		}
+		$securitypolicy = preg_replace('/__semicolumnbase64__/', ";base64,", $securitypolicy);
+		$securitypolicyarr = explode(" ", $securitypolicy);
+		$directive = array_shift($securitypolicyarr);
+		// Remove unwanted spaces
+		while ($directive == "") {
+			$directive = array_shift($securitypolicyarr);
+		}
+		if (empty($directive)) {
+			continue;
+		}
+		$sources = $securitypolicyarr;
+		if (empty($sources)) {
+			$forceCSPArr[$directive] = array();
+		} else {
+			//Loop on each sources to add to the right directive array key
+			foreach ($sources as $key2 => $source) {
+				$source = str_replace("'", "", $source);
+				if (empty($source)) {
+					continue;
+				}
+				if (empty($forceCSPArr[$directive])) {
+					$forceCSPArr[$directive] = array($source);
+				} else {
+					$forceCSPArr[$directive][] = $source;
+				}
+			}
+		}
+	}
+	return $forceCSPArr;
 }

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Antal dokumenter i mappen
 ECMSection=Directory
 ECMSectionManual=Manual bibliotek
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Antal sub-mapper
 ECMNbOfFilesInSubDir=Number of files in sub-directories
 ECMCreationUser=Creator
 ECMArea=DMS / ECM område
-ECMAreaDesc=DMS / ECM (Document Management System / Electronic Content Management) -området giver dig mulighed for at gemme, dele og søge hurtigt alle slags dokumenter i Dolibarr.
+ECMAreaDesc=DMS / ECM (Document Management System / Electronic Content Management) -området giver dig mulighed for at gemme, dele og søge hurtigt alle slags dokumenter i ZionOne.
 ECMAreaDesc2a=* Manuelle mapper kan bruges til at gemme dokumenter med en fri organisering af træstrukturen.
 ECMAreaDesc2b=* Automatiske mapper udfyldes automatisk, når du tilføjer dokumenter fra siden af et element.
 ECMAreaDesc3=* Offentlige mapper er filer i underbiblioteket <b>/medias</b> i dokumentbiblioteket, som kan læses af alle på internettet uden behov for være logget og ikke nødvendigt at have filen delt eksplicit. Det bruges til at gemme billedfiler til for eksempel e-mail- eller websted modulet.

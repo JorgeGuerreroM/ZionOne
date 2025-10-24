@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=コー​​ド
 WebsiteName=ウェブサイトの名前
 WebsiteSetupDesc=使用したいウェブサイトをここに作成する。次に、メニューのWebサイトに移動して編集する。
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=この ウェブサイト をライ�
 SetHereVirtualHost=<u>Apache/NGinx/...で使用 </u><br>専用の仮想ホストをWEBサーバ (Apache, Nginx, ...) 上に作成し、PHP 使用可で、ルートディレクトリを以下に指定する<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Apache仮想ホストの設定で使用する例：
 YouCanAlsoTestWithPHPS=<u>PHP埋め込みサーバーで使用</u><br>開発環境では、PHP埋め込みWeb サーバを実行してサイトをテストすることをお勧めする。
-YouCanAlsoDeployToAnotherWHP=<u>Dolibarr Web ホスティング プロバイダー内で Web サイトを実行する</u><br>インターネット上で Apache や NGinx などの Web サーバ が利用できない場合は、ウェブサイト モジュールとの完全な統合を提供する別の Dolibarr ホスティング プロバイダーによって提供される別の Dolibarr インスタンスに Web サイトをエクスポートおよびインポートできる。 Dolibarr ホスティング プロバイダーの一覧は、<a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a> で見つけられる。
+YouCanAlsoDeployToAnotherWHP=<u>ZionOne Web ホスティング プロバイダー内で Web サイトを実行する</u><br>インターネット上で Apache や NGinx などの Web サーバ が利用できない場合は、ウェブサイト モジュールとの完全な統合を提供する別の ZionOne ホスティング プロバイダーによって提供される別の ZionOne インスタンスに Web サイトをエクスポートおよびインポートできる。 ZionOne ホスティング プロバイダーの一覧は、<a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a> で見つけられる。
 CheckVirtualHostPerms=また、仮想ホストユーザ（www-dataなど）が、 <strong> %s </strong> 権限があり、ファイルに対して<br><strong>%s</strong>へが可能であることをも確認する。
 ReadPerm=読む
 WritePerm=書く
 TestDeployOnWeb=Webでのテスト/デプロイ
 PreviewSiteServedByWebServer=<u>新規タブで %s をプレビュー。</u><br><br>  %s は、外部Webサーバ (Apache, Nginx, IIS など) から提供される。 以下のディレクトリを指定するには、当該サーバをインストールして設定する必要あり:<br><strong>%s</strong><br>URL は外部サーバ:<br><strong>%s</strong> による
-PreviewSiteServedByDolibarr=<u>新規タブで %s をプレビューする。</u><br><br> %s は Dolibarr サーバ によって提供されるため、追加の Web サーバ (Apache など) は必要ありない。 Nginx、IIS などの他のアプリケーションをインストールする必要がある。<br>不便なのは、ページの URL が ユーザ フレンドリーではなく、Dolibarr のパスで始まることだ。<br>Dolibarr によって提供される URL:<br><strong>%s</strong><br><br>独自の外部 Web サーバ (Apache、Nginx、Lighttp など) を使用してデプロイまたはテストするには、リンク "%s" を使用する。
+PreviewSiteServedByDolibarr=<u>新規タブで %s をプレビューする。</u><br><br> %s は ZionOne サーバ によって提供されるため、追加の Web サーバ (Apache など) は必要ありない。 Nginx、IIS などの他のアプリケーションをインストールする必要がある。<br>不便なのは、ページの URL が ユーザ フレンドリーではなく、ZionOne のパスで始まることだ。<br>ZionOne によって提供される URL:<br><strong>%s</strong><br><br>独自の外部 Web サーバ (Apache、Nginx、Lighttp など) を使用してデプロイまたはテストするには、リンク "%s" を使用する。
 VirtualHostUrlNotDefined=外部Webサーバーによって提供される仮想ホストのURLが定義されていない
 NoPageYet=まだページはない
 YouCanCreatePageOrImportTemplate=新規ページを作成するか、完全なWebサイトテンプレートをインポートできる
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=すぐに注文の詳細ページにリダイレ�
 WebPortalSetupNotComplete=Webポータルの設定が完了していない
 DeleteWebsiteAccount=削除 ウェブサイト アカウント
 ConfirmDeleteWebsiteAccount=このアカウントを 削除 してもよいか
-ConfirmDeleteWebsiteAccount2=このアカウントがパブリックポータルまたは Dolibarr が提供するその他の Web サイトへのログインに使用されていた場合、ログインできなくなる可能性がある。
+ConfirmDeleteWebsiteAccount2=このアカウントがパブリックポータルまたは ZionOne が提供するその他の Web サイトへのログインに使用されていた場合、ログインできなくなる可能性がある。
 ContentSecurityPolicy=ウェブサイト HTTP「コンテンツセキュリティポリシー」
 WebsiteSecurityForceRP=ウェブサイト HTTP「リファラーポリシー」
 WebsiteSecurityForceSTS=ウェブサイト HTTP「厳格なトランスポートセキュリティ」

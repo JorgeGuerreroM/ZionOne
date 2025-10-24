@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=PayPal mooduli seadistamine
 PaypalDesc=See moodul võimaldab klientidel maksta <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPali </a> kaudu. Seda saab kasutada ad hoc makseks või Dolibarri objektiga seotud makseks (arve, tellimus jne)
 PaypalOrCBDoPayment=Maksa PayPali kaudu (kaart või PayPal)

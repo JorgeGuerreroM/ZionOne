@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=Секция с човешки ресурси
 UserCard=Карта
 GroupCard=Карта
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Връзка към потребител
 LinkedToDolibarrThirdParty=Връзка към трета страна
 CreateDolibarrLogin=Създаване на потребител
 CreateDolibarrThirdParty=Създаване на контрагент
-LoginAccountDisableInDolibarr=Акаунтът е деактивиран в Dolibarr
-PASSWORDInDolibarr=Паролата е променена в Dolibarr
+LoginAccountDisableInDolibarr=Акаунтът е деактивиран в ZionOne
+PASSWORDInDolibarr=Паролата е променена в ZionOne
 UsePersonalValue=Използване на лична стойност
 ExportDataset_user_1=Потребители и техните реквизити
 ExportDataset_user_2=Списък със събития за сигурност

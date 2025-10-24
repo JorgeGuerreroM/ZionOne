@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Password for user <b>%s</b> on the domain <b>%s</b> must be changed.
 UserMustChangePassNextLogon=ব্যবহারকারীকে ডোমেনে পাসওয়ার্ড পরিবর্তন করতে হবে %s
 LDAPInformationsForThisContact=এই পরিচিতির জন্য LDAP ডাটাবেসে তথ্য

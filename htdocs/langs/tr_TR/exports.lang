@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=İthalat / İhracat
 ExportsArea=Dışa aktarımlar
 ImportArea=İçe aktar
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Kullanmak istediğiniz içe aktarma dosya biçimini, 
 ChooseFileToImport=Dosyayı yükleyin ve daha sonra bu dosyayı kaynak içe aktarma dosyası olarak seçmek için %s simgesine tıklayın...
 SourceFileFormat=Kaynak dosya biçimi
 FieldsInSourceFile=Kaynak dosyadaki alanlar
-FieldsInTargetDatabase=Dolibarr veritabanındaki hedef alanlar
+FieldsInTargetDatabase=ZionOne veritabanındaki hedef alanlar
 NoFields=Alan sayısı
 MoveField=%s numaralı alan sütununu taşıyın
 ExampleOfImportFile=Iceaktarma_dosya_ornegi

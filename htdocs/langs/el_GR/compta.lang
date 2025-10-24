@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# ZionOne language file - Source file is en_US - compta
 MenuFinancial=Τιμολόγηση | Πληρωμές
 TaxModuleSetupToModifyRules=Μετάβαση στη <a href="%s">ρύθμιση της ενότητας Φόροι</a> για την τροποποίηση κανόνων υπολογισμού
 TaxModuleSetupToModifyRulesLT=Μετάβαση στη <a href="%s">ρύθμιση Εταιρείας</a> για την τροποποίηση κανόνων υπολογισμού

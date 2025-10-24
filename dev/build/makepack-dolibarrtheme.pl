@@ -1,14 +1,14 @@
 #!/usr/bin/perl
 #-----------------------------------------------------------------------------
 # \file         dev/build/makepack-dolibarrtheme.pl
-# \brief        Script to build a theme Package for Dolibarr
+# \brief        Script to build a theme Package for ZionOne
 # \author       (c)2005-2009 Laurent Destailleur  <eldy@users.sourceforge.net>
 #-----------------------------------------------------------------------------
 
 use Cwd;
 use Term::ANSIColor;
 
-$PROJECT="dolibarr";
+$PROJECT="ZionOne";
 
 @LISTETARGET=("TGZ");   # Possible packages
 %REQUIREMENTTARGET=(    # Tool requirement for each package
@@ -68,7 +68,7 @@ if (! $TEMP || ! -d $TEMP) {
     sleep 2;
     exit 2;
 }
-$BUILDROOT="$TEMP/dolibarr-buildroot";
+$BUILDROOT="$TEMP/ZionOne-buildroot";
 
 
 my $copyalreadydone=0;

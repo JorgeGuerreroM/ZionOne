@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=พื้นที่สมาชิก
 MemberCard=บัตรสมาชิก
 SubscriptionCard=สมัครสมาชิกบัตร
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=ตรวจสอบรายชื่อของ
 ErrorThisMemberIsNotPublic=สมาชิกคนนี้ไม่ได้เป็นของประชาชน
 ErrorMemberIsAlreadyLinkedToThisThirdParty=สมาชิกรายอื่น (ชื่อ: <b>%s</b>, เข้าสู่ระบบ: <b>%s</b>) เชื่อมโยงกับบุคคลที่สามแล้ว <b>%s</b> ลบลิงก์นี้ออกก่อนเนื่องจากบุคคลที่สามไม่สามารถเชื่อมโยงกับสมาชิกได้เท่านั้น (และในทางกลับกัน)
 ErrorUserPermissionAllowsToLinksToItselfOnly=ด้วยเหตุผลด้านความปลอดภัยคุณต้องได้รับสิทธิ์ในการแก้ไขผู้ใช้ทุกคนที่จะสามารถที่จะเชื่อมโยงสมาชิกให้กับผู้ใช้ที่ไม่ได้เป็นของคุณ
-SetLinkToUser=เชื่อมโยงไปยังผู้ใช้ Dolibarr
-SetLinkToThirdParty=เชื่อมโยงไปยัง Dolibarr ของบุคคลที่สาม
+SetLinkToUser=เชื่อมโยงไปยังผู้ใช้ ZionOne
+SetLinkToThirdParty=เชื่อมโยงไปยัง ZionOne ของบุคคลที่สาม
 MemberCountersArePublic=เคาน์เตอร์ของสมาชิกที่ถูกต้องเป็นแบบสาธารณะ
 MembersCards=การสร้างการ์ดสำหรับสมาชิก
 MembersList=รายชื่อสมาชิก
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=คุณแน่ใจหรือไม่ว่า
 Filehtpasswd=ไฟล์ htpasswd
 ValidateMember=ตรวจสอบสมาชิก
 ConfirmValidateMember=คุณแน่ใจหรือไม่ว่าต้องการตรวจสอบสมาชิกรายนี้?
-FollowingLinksArePublic=ลิงก์ต่อไปนี้เป็นหน้าเปิดที่ไม่ได้รับการคุ้มครองโดยได้รับอนุญาตจาก Dolibarr เพจเหล่านี้ไม่ได้ถูกจัดรูปแบบไว้ เพื่อเป็นตัวอย่างในการแสดงรายการฐานข้อมูลสมาชิก
+FollowingLinksArePublic=ลิงก์ต่อไปนี้เป็นหน้าเปิดที่ไม่ได้รับการคุ้มครองโดยได้รับอนุญาตจาก ZionOne เพจเหล่านี้ไม่ได้ถูกจัดรูปแบบไว้ เพื่อเป็นตัวอย่างในการแสดงรายการฐานข้อมูลสมาชิก
 PublicMemberList=รายชื่อสมาชิกสาธารณะ
 BlankSubscriptionForm=แบบฟอร์มลงทะเบียนด้วยตนเองสาธารณะ
-BlankSubscriptionFormDesc=Dolibarr สามารถให้ URL/เว็บไซต์สาธารณะแก่คุณเพื่อให้ผู้เยี่ยมชมภายนอกสามารถขอสมัครรับข้อมูลจากมูลนิธิได้ หากเปิดใช้งานโมดูลการชำระเงินออนไลน์ แบบฟอร์มการชำระเงินอาจถูกจัดเตรียมให้โดยอัตโนมัติด้วย
+BlankSubscriptionFormDesc=ZionOne สามารถให้ URL/เว็บไซต์สาธารณะแก่คุณเพื่อให้ผู้เยี่ยมชมภายนอกสามารถขอสมัครรับข้อมูลจากมูลนิธิได้ หากเปิดใช้งานโมดูลการชำระเงินออนไลน์ แบบฟอร์มการชำระเงินอาจถูกจัดเตรียมให้โดยอัตโนมัติด้วย
 EnablePublicSubscriptionForm=เปิดใช้งานเว็บไซต์สาธารณะด้วยแบบฟอร์มสมัครสมาชิกด้วยตนเอง
 ForceMemberType=บังคับประเภทสมาชิก
 ExportDataset_member_1=สมาชิกและการมีส่วนร่วม

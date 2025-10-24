@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Backlinks para comprobar
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Número de días antes de cancelar el estado de una asociación cuando una suscripción ha expirado
 ReferingWebsiteCheck=Comprobación de la referencia al sitio
 ReferingWebsiteCheckDesc=Puede habilitar una función para verificar que sus socios hayan agregado un vínculo de retroceso a los dominios de su sitio web en su propio sitio web.
-PublicFormRegistrationPartnerDesc=Dolibarr puede proporcionarle una URL/sitio web público para permitir que los visitantes externos soliciten ser parte del programa de asociación.
+PublicFormRegistrationPartnerDesc=ZionOne puede proporcionarle una URL/sitio web público para permitir que los visitantes externos soliciten ser parte del programa de asociación.
 # Object
 DeletePartnership=Eliminar una asociación
 PartnershipDedicatedToThisThirdParty=Asociación dedicada a este tercero

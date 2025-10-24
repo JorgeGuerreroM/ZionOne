@@ -1300,7 +1300,7 @@ function updateDictionaryInFile($module, $file, $dicts)
  * including columns such as 'rowid', 'code', 'label', 'position', 'use_default', 'active', etc. The table name is constructed based on the provided $namedic parameter.
  *
  * @param	string	$modulename 	The lowercase name of the module for which the dictionary table is being created.
- * @param	string	$file 			The file path to the Dolibarr module builder file where the dictionaries are defined.
+ * @param	string	$file 			The file path to the ZionOne module builder file where the dictionaries are defined.
  * @param	string	$namedic 		The name of the dictionary, which will also be used as the base for the table name.
  * @param	?array{langs:string,tabname:string[],tablib:string[],tabsql:string[],tabsqlsort:string[],tabfield:string[],tabfieldvalue:string[],tabfieldinsert:string[],tabrowid:string[],tabcond:array<string|bool|int>,tabhelp:array<array{code:string,field2:string}>}	$dictionnaires	An optional array containing pre-existing dictionary data, including tabname, tablib, tabsql, etc.
  * @return	int<-1,-1> 					Return int < 0 if error, return nothing on success

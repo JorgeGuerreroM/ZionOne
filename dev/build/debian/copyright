@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Dolibarr
+Upstream-Name: ZionOne
 Upstream-Contact: Laurent Destailleur <eldy@users.sourceforge.net>
-Source: https://www.dolibarr.org/files/stable/standard/
+Source: https://www.ZionOne.org/files/stable/standard/
 
 Files: *
 Copyright: 2002-2009, Rodolphe Quiedeville   <rodolphe@quiedeville.org>
@@ -141,7 +141,7 @@ License: other
  fonts at gnome dot org.
 Comments:
  Those files are not shipped in the binary package as we
- configure Dolibarr to use Dejavu fonts from "fonts-dejavu-core".
+ configure ZionOne to use Dejavu fonts from "fonts-dejavu-core".
 
 
 ------------------------------------------------------------
@@ -235,7 +235,7 @@ License: GPL-2+ or MIT
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 Comment:
- JQuery itself is not shipped in the binary package, instead Dolibarr is
+ JQuery itself is not shipped in the binary package, instead ZionOne is
  configured to use the packaged version from "libjs-jquery" and
  "libjs-jquery-ui". Most of the plugins are shipped though.
 
@@ -248,7 +248,7 @@ License: Public-Domain
  This work is not subject to copyright in any jurisdiction
 Comment:
  Those files are not shipped in the binary package because we configure
- Dolibarr to use the files provided by "libjs-flot".
+ ZionOne to use the files provided by "libjs-flot".
 
 
 ------------------------------------------------------------
@@ -299,7 +299,7 @@ License: LGPL-2.1+
  '/usr/share/common-licenses/LGPL-2.1'.
 Comment:
  Those files are not shipped in the binary package since we
- configure Dolibarr to use the library provided in "libnusoap-php".
+ configure ZionOne to use the library provided in "libnusoap-php".
 
 
 ------------------------------------------------------------
@@ -351,4 +351,4 @@ License: LGPL-3.0+
  Public License version 3 can be found in "/usr/share/common-licenses/LGPL-3".
 Comment:
  Those files are not shipped in the binary package since we configure
- Dolibarr to use the library provided by "php-tcpdf".
+ ZionOne to use the library provided by "php-tcpdf".

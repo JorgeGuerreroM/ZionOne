@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Pesanan sudah terbuka dan tertaut ke proposal ini, jadi tidak ada pesanan lain yang dibuat secara otomatis
 OrdersArea=Area pesanan pelanggan
 SuppliersOrdersArea=Area pesanan pembelian

@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=財務會計
 Accounting=簿記會計
 ACCOUNTING_EXPORT_SEPARATORCSV=匯出文件的欄位分隔符號
@@ -340,7 +340,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=禁用銷售中的綁定和轉移（客戶�
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=禁用採購中的綁定和轉移（供應商發票不會在會計中考慮）
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=禁用費用報告的綁定和轉移（費用報告不會在會計中計算）
 ACCOUNTING_ENABLE_LETTERING=在會計中啟用結帳對賬功能
-ACCOUNTING_ENABLE_LETTERING_DESC=當這個選項啟用時，您可以在每個會計記賬上定義一個代碼，以便將不同的會計動作組合在一起。過去，當不同的日記賬獨立管理時，這個功能是必要的，用來將不同日記賬的行列合併在一起。然而，隨著 Dolibarr 會計系統的發展，這種跟蹤代碼 "tracking code"，稱為“<b>%s</b>”，已經自動保存，因此已經自動完成了對賬，且無任何錯誤風險，所以這個功能對於一般用途來說已經變得無用。手動對賬功能是為那些真的不信任計算機引擎來進行會計數據傳輸的最終用戶提供。
+ACCOUNTING_ENABLE_LETTERING_DESC=當這個選項啟用時，您可以在每個會計記賬上定義一個代碼，以便將不同的會計動作組合在一起。過去，當不同的日記賬獨立管理時，這個功能是必要的，用來將不同日記賬的行列合併在一起。然而，隨著 ZionOne 會計系統的發展，這種跟蹤代碼 "tracking code"，稱為“<b>%s</b>”，已經自動保存，因此已經自動完成了對賬，且無任何錯誤風險，所以這個功能對於一般用途來說已經變得無用。手動對賬功能是為那些真的不信任計算機引擎來進行會計數據傳輸的最終用戶提供。
 EnablingThisFeatureIsNotNecessary=啟用此功能對於嚴格的會計管理來說不再必要。
 ACCOUNTING_ENABLE_AUTOLETTERING=結帳對賬編碼啟用自動對賬"結帳對賬"功能，當轉移到會計時
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=結帳對賬碼是自動生成並遞增的，而不是由最終用戶選擇的

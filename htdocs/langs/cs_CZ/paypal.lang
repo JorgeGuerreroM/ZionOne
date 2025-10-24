@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=Nastavení modulu PayPal
-PaypalDesc=Tento modul umožňuje platby zákazníkům prostřednictvím <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Lze jej použít pro jednorázové platby nebo pro platby související s objektem Dolibarr (faktura, objednávka atd.).
+PaypalDesc=Tento modul umožňuje platby zákazníkům prostřednictvím <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a>. Lze jej použít pro jednorázové platby nebo pro platby související s objektem ZionOne (faktura, objednávka atd.).
 PaypalOrCBDoPayment=Plaťte s PayPal (kartou nebo PayPal)
 PaypalDoPayment=Zaplaťte službou PayPal
 PAYPAL_API_SANDBOX=Testovací/sandbox režim

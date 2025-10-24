@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Ref. proizvoda
 ProductLabel=Oznaka proizvoda
 ProductLabelTranslated=Prevedeni naslov proizvoda
@@ -388,7 +388,7 @@ NewProductAttribute=Novi atribut
 NewProductAttributeValue=Nova vrijednost atributa
 ErrorCreatingProductAttributeValue=Došlo je do greške prilikom kreiranja vrijednosti atributa. To može biti zato što već postoji postojeća vrijednost s tom referencom
 ProductCombinationGeneratorWarning=Ako nastavite, prije generiranja novih varijanti, sve prethodne će biti IZBRISANE. Već postojeće će biti ažurirane novim vrijednostima
-TooMuchCombinationsWarning=Generisanje puno varijanti može rezultirati visokim CPU-om, korištenjem memorije i Dolibarr ih ne može kreirati. Omogućavanje opcije "%s" može pomoći u smanjenju upotrebe memorije.
+TooMuchCombinationsWarning=Generisanje puno varijanti može rezultirati visokim CPU-om, korištenjem memorije i ZionOne ih ne može kreirati. Omogućavanje opcije "%s" može pomoći u smanjenju upotrebe memorije.
 DoNotRemovePreviousCombinations=Nemojte uklanjati prethodne varijante
 UsePercentageVariations=Koristite procentualne varijacije
 PercentageVariation=Procentualna varijacija

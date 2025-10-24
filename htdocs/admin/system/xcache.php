@@ -21,7 +21,7 @@
  *     \brief      Page administration XCache
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 /**

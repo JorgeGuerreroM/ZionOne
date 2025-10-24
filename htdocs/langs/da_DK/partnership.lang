@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Backlinks til kontrol
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Antal dage før opsigelse af partnerskabsstatus, når et abonnement er udløbet
 ReferingWebsiteCheck=Kontrol af webstedets henvisning
 ReferingWebsiteCheckDesc=Du kan aktivere en funktion til at kontrollere, at dine partnere har tilføjet et backlink til dine webstedsdomæner på deres eget websted.
-PublicFormRegistrationPartnerDesc=Dolibarr kan give dig en offentlig URL/webside, så eksterne besøgende kan anmode om at blive en del af partnerskabsprogrammet.
+PublicFormRegistrationPartnerDesc=ZionOne kan give dig en offentlig URL/webside, så eksterne besøgende kan anmode om at blive en del af partnerskabsprogrammet.
 # Object
 DeletePartnership=Slet et partnerskab
 PartnershipDedicatedToThisThirdParty=Partnerskab dedikeret til denne tredjepart

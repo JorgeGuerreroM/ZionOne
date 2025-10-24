@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 EventReports=Gebeurtenisrapporten
 ViewPerType=Overzicht per type
-AgendaAutoActionDesc=Hier kunt u gebeurtenissen definiëren die u Dolibarr automatisch in Agenda wilt laten maken. Als er niets wordt gecontroleerd, worden alleen handmatige acties opgenomen in logboeken en weergegeven in Agenda. Automatisch bijhouden van zakelijke acties die worden uitgevoerd op objecten (validatie, statuswijziging), wordt niet opgeslagen.
-AgendaSetupOtherDesc=Deze pagina biedt opties voor het exporteren van uw Dolibarr-evenementen naar een externe agenda (Thunderbird, Google Agenda, enz.)
+AgendaAutoActionDesc=Hier kunt u gebeurtenissen definiëren die u ZionOne automatisch in Agenda wilt laten maken. Als er niets wordt gecontroleerd, worden alleen handmatige acties opgenomen in logboeken en weergegeven in Agenda. Automatisch bijhouden van zakelijke acties die worden uitgevoerd op objecten (validatie, statuswijziging), wordt niet opgeslagen.
+AgendaSetupOtherDesc=Deze pagina biedt opties voor het exporteren van uw ZionOne-evenementen naar een externe agenda (Thunderbird, Google Agenda, enz.)
 EventRemindersByEmailNotEnabled=Herinneringen via email was niet ingeschakeld in %s van module setup.
 NewCompanyToDolibarr=Derde %s aangemaakt
 COMPANY_DELETEInDolibarr=Derden (externen) %s verwijderd

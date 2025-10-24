@@ -26,7 +26,7 @@
  *		\brief      Third party vcard download
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/vcard.class.php';
@@ -57,9 +57,9 @@ if ($result <= 0) {
 
 // Compute VCard
 $v = new vCard();
-$v->setProdId('Dolibarr '.DOL_VERSION);
+$v->setProdId('ZionOne '.DOL_VERSION);
 
-$v->setUid('DOLIBARR-THIRDPARTYID-'.$company->id);
+$v->setUid('ZionOne-THIRDPARTYID-'.$company->id);
 
 
 // Data from company

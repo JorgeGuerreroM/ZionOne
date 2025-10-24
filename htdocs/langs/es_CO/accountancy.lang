@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - accountancy
+# ZionOne language file - Source file is en_US - accountancy
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de columnas para el archivo de exportación
 ACCOUNTING_EXPORT_DATE=Formato de fecha para el archivo de exportación
 ACCOUNTING_EXPORT_PIECE=Exportar el número de pieza.
@@ -218,7 +218,7 @@ AccountingAccountForSalesTaxAreDefinedInto=Nota: la cuenta contable del impuesto
 NumberOfAccountancyMovements=Numero de movimientos
 ACCOUNTING_DISABLE_BINDING_ON_SALES=Deshabilitar la vinculación y la transferencia en la contabilidad de las ventas (las facturas de los clientes no se tendrán en cuenta en la contabilidad)
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Deshabilite la vinculación y transferencia en contabilidad en compras (las facturas de proveedores no se tendrán en cuenta en la contabilidad)
-ACCOUNTING_ENABLE_LETTERING_DESC=Cuando esta opción está activada, puede definir, en cada entrada contable, un código para poder agrupar los diferentes movimientos contables. En el pasado, cuando los diferentes diarios se gestionaban de forma independiente, esta función era necesaria para agrupar las líneas de movimiento de los diferentes diarios. Sin embargo, con la contabilidad de Dolibarr, dicho código de seguimiento, llamado "<b>%s</b>" ya se guarda automáticamente, por lo que ya se realiza una rotulación automática, sin riesgo de error, por lo que esta función se ha vuelto inútil para un uso común. La función de rotulación manual se proporciona para los usuarios finales que realmente no confían en el motor informático que realiza la transferencia de datos en contabilidad.
+ACCOUNTING_ENABLE_LETTERING_DESC=Cuando esta opción está activada, puede definir, en cada entrada contable, un código para poder agrupar los diferentes movimientos contables. En el pasado, cuando los diferentes diarios se gestionaban de forma independiente, esta función era necesaria para agrupar las líneas de movimiento de los diferentes diarios. Sin embargo, con la contabilidad de ZionOne, dicho código de seguimiento, llamado "<b>%s</b>" ya se guarda automáticamente, por lo que ya se realiza una rotulación automática, sin riesgo de error, por lo que esta función se ha vuelto inútil para un uso común. La función de rotulación manual se proporciona para los usuarios finales que realmente no confían en el motor informático que realiza la transferencia de datos en contabilidad.
 EnablingThisFeatureIsNotNecessary=Habilitar esta función ya no es necesario para una gestión contable rigurosa.
 ACCOUNTING_ENABLE_AUTOLETTERING=Habilitar la rotulación automática al transferir a contabilidad
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=El código para las letras se genera e incrementa automáticamente y no lo elige el usuario final.

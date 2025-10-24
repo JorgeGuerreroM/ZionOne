@@ -29,7 +29,7 @@
  *       \brief      Page to setup PDF options
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formother.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formadmin.class.php';
@@ -124,13 +124,13 @@ if ($action == 'update') {
 
 	if (isModEnabled('project')) {
 		if (GETPOST('PDF_SHOW_PROJECT_REF_OR_LABEL') == 'no') {
-			dolibarr_del_const($db, "PDF_SHOW_PROJECT", $conf->entity);
-			dolibarr_del_const($db, "PDF_SHOW_PROJECT_TITLE", $conf->entity);
+			zionone_del_const($db, "PDF_SHOW_PROJECT", $conf->entity);
+			zionone_del_const($db, "PDF_SHOW_PROJECT_TITLE", $conf->entity);
 		} elseif (GETPOST('PDF_SHOW_PROJECT_REF_OR_LABEL') == 'showprojectref') {
 			dolibarr_set_const($db, "PDF_SHOW_PROJECT", GETPOST("PDF_SHOW_PROJECT_REF_OR_LABEL"), 'chaine', 0, '', $conf->entity);
-			dolibarr_del_const($db, "PDF_SHOW_PROJECT_TITLE", $conf->entity);
+			zionone_del_const($db, "PDF_SHOW_PROJECT_TITLE", $conf->entity);
 		} elseif (GETPOST('PDF_SHOW_PROJECT_REF_OR_LABEL') == 'showprojectlabel') {
-			dolibarr_del_const($db, "PDF_SHOW_PROJECT", $conf->entity);
+			zionone_del_const($db, "PDF_SHOW_PROJECT", $conf->entity);
 			dolibarr_set_const($db, "PDF_SHOW_PROJECT_TITLE", GETPOST("PDF_SHOW_PROJECT_REF_OR_LABEL"), 'chaine', 0, '', $conf->entity);
 		}
 	}

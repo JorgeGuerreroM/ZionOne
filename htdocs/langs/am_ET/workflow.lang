@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=የስራ ፍሰት ሞጁል ማዋቀር
 WorkflowDesc=ይህ ሞጁል አንዳንድ አውቶማቲክ ድርጊቶችን ያቀርባል. በነባሪ, የስራ ፍሰቱ ክፍት ነው (በሚፈልጉት ቅደም ተከተል ውስጥ ነገሮችን ማድረግ ይችላሉ) ግን እዚህ አንዳንድ አውቶማቲክ ድርጊቶችን ማግበር ይችላሉ.
 ThereIsNoWorkflowToModify=ከነቃ ሞጁሎች ጋር ምንም አይነት የስራ ፍሰት ማሻሻያዎች የሉም።

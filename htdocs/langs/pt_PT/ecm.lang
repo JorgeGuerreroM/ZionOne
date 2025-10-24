@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=Nº de documentos em diretoria
 ECMSection=Diretoria
 ECMSectionManual=Diretoria manual
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Número de sub-pastas
 ECMNbOfFilesInSubDir=Número de ficheiros em sub-pastas
 ECMCreationUser=Criador
 ECMArea=A área de SGD/GCE
-ECMAreaDesc=A área de SGD/GCE (Sistema de Gestão de Documentos/Gestão de Conteúdo Eletrónico) permite salvar, compartilhar e pesquisar rapidamente todos os tipos de documentos no Dolibarr.
+ECMAreaDesc=A área de SGD/GCE (Sistema de Gestão de Documentos/Gestão de Conteúdo Eletrónico) permite salvar, compartilhar e pesquisar rapidamente todos os tipos de documentos no ZionOne.
 ECMAreaDesc2a=* Diretórios manuais podem ser usados para salvar documentos com uma organização livre da estrutura em árvore.
 ECMAreaDesc2b=* Os diretórios automáticos são preenchidos automaticamente ao adicionar documentos da página de um elemento.
 ECMAreaDesc3=* Diretórios públicos são arquivos no subdiretório <b>/medias</b> dos documentos diretoria, legíveis por qualquer pessoa na Internet sem necessidade de estar logado e, sem necessidade de ter o ficheiro compartilhado explicitamente. Ele é usado para armazenar arquivos de imagem para envio por e-mail ou Site da Web módulo por exemplo.

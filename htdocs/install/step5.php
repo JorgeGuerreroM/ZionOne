@@ -86,8 +86,8 @@ $success = 0;
 
 $useforcedwizard = false;
 $forcedfile = "./install.forced.php";
-if ($conffile == "/etc/dolibarr/conf.php") {
-	$forcedfile = "/etc/dolibarr/install.forced.php";
+if ($conffile == "/etc/ZionOne/conf.php") {
+	$forcedfile = "/etc/ZionOne/install.forced.php";
 }
 if (@file_exists($forcedfile)) {
 	$useforcedwizard = true;
@@ -267,7 +267,7 @@ if ($action == "set" || empty($action) || preg_match('/upgrade/i', $action)) {
 				// Insert MAIN_VERSION_FIRST_INSTALL in a dedicated transaction. So if it fails (when first install was already done), we can do other following requests.
 				$db->begin();
 				dolibarr_install_syslog('step5: set MAIN_VERSION_FIRST_INSTALL const to '.$targetversion, LOG_DEBUG);
-				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name, value, type, visible, note, entity) values(".$db->encrypt('MAIN_VERSION_FIRST_INSTALL').", ".$db->encrypt($targetversion).", 'chaine', 0, 'Dolibarr version when first install', 0)");
+				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name, value, type, visible, note, entity) values(".$db->encrypt('MAIN_VERSION_FIRST_INSTALL').", ".$db->encrypt($targetversion).", 'chaine', 0, 'ZionOne version when first install', 0)");
 				if ($resql) {
 					$conf->global->MAIN_VERSION_FIRST_INSTALL = $targetversion;
 					$db->commit();
@@ -283,7 +283,7 @@ if ($action == "set" || empty($action) || preg_match('/upgrade/i', $action)) {
 				if (!$resql) {
 					dol_print_error($db, 'Error in setup program');
 				}
-				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name,value,type,visible,note,entity) values(".$db->encrypt('MAIN_VERSION_LAST_INSTALL').", ".$db->encrypt($targetversion).", 'chaine', 0, 'Dolibarr version when last install', 0)");
+				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name,value,type,visible,note,entity) values(".$db->encrypt('MAIN_VERSION_LAST_INSTALL').", ".$db->encrypt($targetversion).", 'chaine', 0, 'ZionOne version when last install', 0)");
 				if (!$resql) {
 					dol_print_error($db, 'Error in setup program');
 				}
@@ -420,7 +420,7 @@ if ($action == "set" || empty($action) || preg_match('/upgrade/i', $action)) {
 				if (!$resql) {
 					dol_print_error($db, 'Error in setup program');
 				}
-				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name, value, type, visible, note, entity) VALUES (".$db->encrypt('MAIN_VERSION_LAST_UPGRADE').", ".$db->encrypt($targetversion).", 'chaine', 0, 'Dolibarr version for last upgrade', 0)");
+				$resql = $db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name, value, type, visible, note, entity) VALUES (".$db->encrypt('MAIN_VERSION_LAST_UPGRADE').", ".$db->encrypt($targetversion).", 'chaine', 0, 'ZionOne version for last upgrade', 0)");
 				if (!$resql) {
 					dol_print_error($db, 'Error in setup program');
 				}
@@ -561,7 +561,7 @@ if ($error && isset($argv[1])) {
 }
 dolibarr_install_syslog("Exit ".$ret);
 
-dolibarr_install_syslog("--- step5: Dolibarr setup finished");
+dolibarr_install_syslog("--- step5: ZionOne setup finished");
 
 pFooter(1, $setuplang, '', 0, $morehtml);
 

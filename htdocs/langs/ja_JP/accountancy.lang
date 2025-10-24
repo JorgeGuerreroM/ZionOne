@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=会計
 Accounting=Accounting
 ACCOUNTING_EXPORT_SEPARATORCSV=Column separator for export file
@@ -340,7 +340,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=販売の会計における結合と転記�
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=購入時の会計における結合と転記を無効にする(ベンダーの請求書は会計で考慮されない)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=経費報告書sの会計における結合と転記を無効にする(経費報告書sは会計で考慮されない)
 ACCOUNTING_ENABLE_LETTERING=会計でレタリング機能を有効化
-ACCOUNTING_ENABLE_LETTERING_DESC=このオプションを有効にすると、各会計エントリにコードを定義できるため、さまざまな会計移動をグループ化できる。以前は、異なるジャーナルが独立して管理されていた場合、この機能は、異なるジャーナルの動線をグループ化するために必要でした。ただし、Dolibarr 会計では、「 <b> %s </b> 」と呼ばれるトラッキング コードがすでに自動的に保存されており、自動レタリングがすでに行われており、エラーのリスクがないため、この機能は一般的な使用には役に立ちない。手動レタリング機能は、会計におけるデータ転送を行うコンピューター エンジンをあまり信頼していないエンド ユーザーのために提供されている。
+ACCOUNTING_ENABLE_LETTERING_DESC=このオプションを有効にすると、各会計エントリにコードを定義できるため、さまざまな会計移動をグループ化できる。以前は、異なるジャーナルが独立して管理されていた場合、この機能は、異なるジャーナルの動線をグループ化するために必要でした。ただし、ZionOne 会計では、「 <b> %s </b> 」と呼ばれるトラッキング コードがすでに自動的に保存されており、自動レタリングがすでに行われており、エラーのリスクがないため、この機能は一般的な使用には役に立ちない。手動レタリング機能は、会計におけるデータ転送を行うコンピューター エンジンをあまり信頼していないエンド ユーザーのために提供されている。
 EnablingThisFeatureIsNotNecessary=厳密な会計管理のためにこの機能を有効にする必要はなくなった。
 ACCOUNTING_ENABLE_AUTOLETTERING=会計への転送時に自動レタリングを有効化
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=レタリングの コード は 自動的に 生成されて増加するので、エンドユーザによる選択はない

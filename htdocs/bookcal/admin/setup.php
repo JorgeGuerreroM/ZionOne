@@ -24,7 +24,7 @@
  * \brief   BookCal setup page.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 // Libraries
@@ -89,7 +89,7 @@ $dirmodels = array_merge(array('/'), (array) $conf->modules_parts['models']);
  * Actions
  */
 
-// For retrocompatibility Dolibarr < 15.0
+// For retrocompatibility ZionOne < 15.0
 if (versioncompare(explode('.', DOL_VERSION), array(15)) < 0 && $action == 'update' && !empty($user->admin)) {
 	$formSetup->saveConfFromPost();
 }
@@ -129,7 +129,7 @@ if ($action == 'updateMask') {
 		if (!empty($tmpobjectkey)) {
 			$constforval = 'BOOKCAL_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
 			if (getDolGlobalString($constforval) == "$value") {
-				dolibarr_del_const($db, $constforval, $conf->entity);
+				zionone_del_const($db, $constforval, $conf->entity);
 			}
 		}
 	}
@@ -154,7 +154,7 @@ if ($action == 'updateMask') {
 	$tmpobjectkey = GETPOST('object', 'aZ09');
 	if (!empty($tmpobjectkey)) {
 		$constforval = 'BOOKCAL_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
-		dolibarr_del_const($db, $constforval, $conf->entity);
+		zionone_del_const($db, $constforval, $conf->entity);
 	}
 }
 

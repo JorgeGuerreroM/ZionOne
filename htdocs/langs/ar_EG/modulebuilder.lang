@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - modulebuilder
+# ZionOne language file - Source file is en_US - modulebuilder
 ModuleBuilderDesc=يجب استخدام هذه الأداة فقط من قبل مستخدمين أو مطورين ذوي خبرة. توفر أدوات لبناء أو تعديل وحدة خاصة بك. الوثائق الخاصة بطريقة التطوير اليدوي متاحة عبر <a href="%s" target="_blank" rel="noopener noreferrer">هذا الرابط</a>.
 EnterNameOfModuleDesc=أدخل اسم الوحدة/التطبيق الذي تريد إنشاؤه بدون مسافات. استخدم الأحرف الكبيرة للفصل بين الكلمات (مثال: MyModule، EcommerceForShop، SyncWithMySystem...)
 EnterNameOfObjectDesc=أدخل اسم الكائن الذي تريد إنشاؤه بدون مسافات. استخدم الأحرف الكبيرة للفصل بين الكلمات (مثال: MyObject، Student، Teacher...). سيتم توليد ملف الفئة (class)، وصفحات القائمة/الإضافة/التحرير/الحذف، وملفات SQL.
@@ -21,7 +21,7 @@ ModuleBuilderDescbuildpackage=يمكنك هنا توليد ملف وحدة جا�
 EnterNameOfModuleToDeleteDesc=يمكنك حذف وحدتك. تحذير: سيتم حذف جميع ملفات الكود الخاصة بالوحدة (سواء كانت مولدة أو مكتوبة يدويًا) بالإضافة إلى البيانات المنظمة والوثائق!
 EnterNameOfObjectToDeleteDesc=يمكنك حذف كائن. تحذير: سيتم حذف جميع ملفات الكود (سواء كانت مولدة أو مكتوبة يدويًا) المرتبطة بالكائن!
 BuildPackage=توليد الحزمة
-BuildPackageDesc=يمكنك توليد حزمة بصيغة ZIP لتطبيقك لتكون جاهزًا لتوزيعه على أي نظام Dolibarr. يمكنك أيضًا توزيعه أو بيعه على أسواق مثل <a href="https://www.dolistore.com">DoliStore.com</a>
+BuildPackageDesc=يمكنك توليد حزمة بصيغة ZIP لتطبيقك لتكون جاهزًا لتوزيعه على أي نظام ZionOne. يمكنك أيضًا توزيعه أو بيعه على أسواق مثل <a href="https://www.dolistore.com">DoliStore.com</a>
 BuildDocumentation=توليد التوثيق
 ModuleIsNotActive=هذه الوحدة غير مفعّلة بعد. انتقل إلى %s لتفعيلها أو اضغط هنا
 ModuleIsLive=تم تفعيل هذه الوحدة. أي تعديل قد يؤدي إلى تعطل ميزة تعمل حاليًا
@@ -91,7 +91,7 @@ HooksDefDesc=حدد في الخاصية <b>module_parts['hooks']</b> داخل م
 TriggerDefDesc=حدد في ملف المشغلات الكود الذي تريد تنفيذه عندما يتم تشغيل حدث تجاري خارجي من وحدة أخرى
 SeeIDsInUse=عرض المعرّفات المستخدمة في تثبيتك الحالي
 SeeReservedIDsRangeHere=عرض نطاق المعرفات المحجوزة
-ToolkitForDevelopers=أدوات للمطورين على Dolibarr
+ToolkitForDevelopers=أدوات للمطورين على ZionOne
 TryToUseTheModuleBuilder=إذا كانت لديك خبرة بـ SQL وPHP، يمكنك استخدام معالج إنشاء الوحدات المدمج.<br>فعّل الوحدة <strong>%s</strong> واستخدم المعالج بالنقر على <span class="fa fa-bug"></span> في القائمة العلوية اليمنى.<br>تحذير: هذه ميزة للمطورين المتقدمين، لا تُجربها في بيئة الإنتاج!
 SeeTopRightMenu=راجع <span class="fa fa-bug"></span> في القائمة العلوية اليمنى
 AddLanguageFile=إضافة ملف لغة

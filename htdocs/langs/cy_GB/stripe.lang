@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - stripe
+# ZionOne language file - Source file is en_US - stripe
 StripeSetup=Gosod modiwl stripe
-StripeDesc=Cynigiwch dudalen dalu ar-lein i'ch cwsmeriaid ar gyfer taliadau gyda chardiau credyd/debyd trwy <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Gellir defnyddio hwn i ganiatáu i'ch cwsmeriaid wneud taliadau ad-hoc neu ar gyfer taliadau sy'n ymwneud â gwrthrych arbennig o Dolibarr (anfoneb, archeb, ...)
+StripeDesc=Cynigiwch dudalen dalu ar-lein i'ch cwsmeriaid ar gyfer taliadau gyda chardiau credyd/debyd trwy <a href="https://www.stripe.com" target="_blank" rel="noopener noreferrer external"> Stripe </a> . Gellir defnyddio hwn i ganiatáu i'ch cwsmeriaid wneud taliadau ad-hoc neu ar gyfer taliadau sy'n ymwneud â gwrthrych arbennig o ZionOne (anfoneb, archeb, ...)
 StripeOrCBDoPayment=Talu gyda cherdyn credyd neu Stripe
-FollowingUrlAreAvailableToMakePayments=Mae URLs canlynol ar gael i gynnig tudalen i gwsmer i wneud taliad ar wrthrychau Dolibarr
+FollowingUrlAreAvailableToMakePayments=Mae URLs canlynol ar gael i gynnig tudalen i gwsmer i wneud taliad ar wrthrychau ZionOne
 PaymentForm=Ffurflen talu
 WelcomeOnPaymentPage=Croeso i'n gwasanaeth talu ar-lein
 ThisScreenAllowsYouToPay=Mae'r sgrin hon yn caniatáu ichi wneud taliad ar-lein i %s.
@@ -23,7 +23,7 @@ ToOfferALinkForOnlinePaymentOnFreeAmount=URL i gynnig tudalen talu ar-lein %s o 
 ToOfferALinkForOnlinePaymentOnMemberSubscription=URL i gynnig tudalen dalu ar-lein %s ar gyfer tanysgrifiad aelod
 ToOfferALinkForOnlinePaymentOnDonation=URL i gynnig tudalen dalu ar-lein %s ar gyfer talu rhodd
 YouCanAddTagOnUrl=You can also add url parameter <b>&tag=value</b> to any of those URL (mandatory only for payment not linked to an object) to add your own payment comment tag.<br>For the URL of payments with no existing object, you may also add the parameter <strong>&noidempotency=1</strong> so the same link with same tag can be used several times (some payment mode may limit the payment to 1 for each different link without this parameter)
-YouCanEmbedOnWebsite=If you want to integrate the payment page into a Dolibarr website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
+YouCanEmbedOnWebsite=If you want to integrate the payment page into a ZionOne website, you can include the parameter: <b>&ws=website_ref</b>.<br>Additionally, two pages named <b>paymentok</b> and <b>paymentko</b> must be created in the website to receive the redirect after a successful of failed online payment.
 SetupStripeToHavePaymentCreatedAutomatically=Gosodwch eich Stripe gydag url <b> %s </b> i gael taliad wedi'i greu'n awtomatig pan gaiff ei ddilysu gan Stripe.
 AccountParameter=Paramedrau cyfrif
 UsageParameter=Paramedrau defnydd

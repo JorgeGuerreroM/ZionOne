@@ -56,7 +56,7 @@ class WebservicesInvoicesTest extends CommonClassTest
 
 	private static $socid;
 
-	protected $ns = 'http://www.dolibarr.org/ns/';
+	protected $ns = 'http://www.ZionOne.org/ns/';
 
 	protected $pass = 'admin';
 

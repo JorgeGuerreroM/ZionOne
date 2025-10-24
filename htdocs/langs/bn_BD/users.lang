@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=এইচআরএম এলাকা
 UserCard=ব্যবহারকারী কার্ড
 GroupCard=গ্রুপ কার্ড
@@ -65,7 +65,7 @@ LinkedToDolibarrUser=ব্যবহারকারী লিঙ্ক
 LinkedToDolibarrThirdParty=তৃতীয় পক্ষের সাথে লিঙ্ক করুন
 CreateDolibarrLogin=একটি ব্যবহারকারী তৈরি করুন
 CreateDolibarrThirdParty=একটি তৃতীয় পক্ষ তৈরি করুন
-LoginAccountDisableInDolibarr=Dolibarr এ অ্যাকাউন্ট নিষ্ক্রিয় করা হয়েছে
+LoginAccountDisableInDolibarr=ZionOne এ অ্যাকাউন্ট নিষ্ক্রিয় করা হয়েছে
 PASSWORDInDolibarr=ডলিবারে পাসওয়ার্ড পরিবর্তন করা হয়েছে
 UsePersonalValue=ব্যক্তিগত মান ব্যবহার করুন
 ExportDataset_user_1=ব্যবহারকারী এবং তাদের বৈশিষ্ট্য

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=Περιοχή μελών
 MemberCard=Καρτέλα μελών
 SubscriptionCard=Καρτέλα συνδρομής
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=Λίστα πιστοποιημένων φανερ�
 ErrorThisMemberIsNotPublic=Αυτό το μέλος δεν είναι δημόσιο
 ErrorMemberIsAlreadyLinkedToThisThirdParty=Ένα άλλο μέλος (όνομα: <b>%s</b>, login: <b>%s</b>) έχει ήδη συνδεθεί με τρίτο μέρος <b>%s</b>. Καταργήστε αυτόν τον σύνδεσμο πρώτα επειδή ένα τρίτο μέρος δεν μπορεί να συνδέεται μόνο με ένα μέλος (και το αντίστροφο).
 ErrorUserPermissionAllowsToLinksToItselfOnly=Για λόγους ασφαλείας, πρέπει να σας παραχωρηθούν δικαιώματα επεξεργασίας όλων των χρηστών για να μπορείτε να συνδέσετε ένα μέλος με έναν χρήστη που δεν είναι δικός σας.
-SetLinkToUser=Σύνδεσμος σε χρήστη του Dolibarr
-SetLinkToThirdParty=Σύνδεσμος με τρίτο μέρος του Dolibarr
+SetLinkToUser=Σύνδεσμος σε χρήστη του ZionOne
+SetLinkToThirdParty=Σύνδεσμος με τρίτο μέρος του ZionOne
 MemberCountersArePublic=Οι μετρητές έγκυρων μελών είναι δημόσιοι
 MembersCards=Δημιουργία καρτών για μέλη
 MembersList=Κατάλογος μελών
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=Είστε σίγουροι ότι θέλετε να �
 Filehtpasswd=htpasswd file
 ValidateMember=Επικύρωση ενός μέλους
 ConfirmValidateMember=Είστε σίγουροι ότι θέλετε να επικυρώσετε αυτό το μέλος;
-FollowingLinksArePublic=Οι παρακάτω σύνδεσμοι είναι ανοιχτές σελίδες που δεν προστατεύονται από οποιαδήποτε άδεια του Dolibarr. Δεν είναι μορφοποιημένες σελίδες, παρέχονται ως παράδειγμα για να παρουσιάσουν τον τρόπο ταξινόμησης της βάσης δεδομένων των μελών.
+FollowingLinksArePublic=Οι παρακάτω σύνδεσμοι είναι ανοιχτές σελίδες που δεν προστατεύονται από οποιαδήποτε άδεια του ZionOne. Δεν είναι μορφοποιημένες σελίδες, παρέχονται ως παράδειγμα για να παρουσιάσουν τον τρόπο ταξινόμησης της βάσης δεδομένων των μελών.
 PublicMemberList=Δημόσια λίστα μελών
 BlankSubscriptionForm=Δημόσια φόρμα εγγραφής
-BlankSubscriptionFormDesc=Το Dolibarr μπορεί να σας παράσχει ένα δημόσιο URL / ιστοσελίδα για να επιτρέψει στους εξωτερικούς επισκέπτες να ζητήσουν να εγγραφούν στο ίδρυμα. Εάν είναι ενεργοποιημένη μια ηλεκτρονική ενότητα πληρωμής, μπορεί να παρέχεται αυτόματα και μια φόρμα πληρωμής.
+BlankSubscriptionFormDesc=Το ZionOne μπορεί να σας παράσχει ένα δημόσιο URL / ιστοσελίδα για να επιτρέψει στους εξωτερικούς επισκέπτες να ζητήσουν να εγγραφούν στο ίδρυμα. Εάν είναι ενεργοποιημένη μια ηλεκτρονική ενότητα πληρωμής, μπορεί να παρέχεται αυτόματα και μια φόρμα πληρωμής.
 EnablePublicSubscriptionForm=Ενεργοποίηση του δημόσιου ιστότοπου με φόρμα αυτο-εγγραφής
 ForceMemberType=Επιβολή του τύπου μέλους
 ExportDataset_member_1=Μέλη και συνδρομές

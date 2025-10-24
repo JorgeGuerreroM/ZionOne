@@ -1,8 +1,8 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 EventReports=Comptes rendus d'événements
 ToUserOfGroup=Événement attribué à n'importe quel utilisateur du groupe
-AgendaAutoActionDesc=Ici vous pouvez définir les événements que vous souhaitez que Dolibarr crée automatiquement dans l'Agenda. Si rien n'est coché, seules les actions manuelles seront incluses dans les journaux et affichées dans l'Agenda. Le suivi automatique des actions métiers effectuées sur les objets (validation, changement de statut) ne sera pas sauvegardé.
-AgendaSetupOtherDesc=Cette page fournit des options permettant d'exporter vos événements Dolibarr vers un calendrier externe (Thunderbird, Google Calendar etc...)
+AgendaAutoActionDesc=Ici vous pouvez définir les événements que vous souhaitez que ZionOne crée automatiquement dans l'Agenda. Si rien n'est coché, seules les actions manuelles seront incluses dans les journaux et affichées dans l'Agenda. Le suivi automatique des actions métiers effectuées sur les objets (validation, changement de statut) ne sera pas sauvegardé.
+AgendaSetupOtherDesc=Cette page fournit des options permettant d'exporter vos événements ZionOne vers un calendrier externe (Thunderbird, Google Calendar etc...)
 EventRemindersByEmailNotEnabled=Les rappels d'événements par e-mail n'ont pas été activés dans la configuration du module %s.
 NewCompanyToDolibarr=Le tiers %s a été créé
 COMPANY_MODIFYInDolibarr=Tierce partie %s modifiée

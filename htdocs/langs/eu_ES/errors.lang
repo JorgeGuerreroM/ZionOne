@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Akatsik ez, konpromisoa hartzen dugu
@@ -53,12 +53,12 @@ ErrorWrongDate=Data ez da zuzena!
 ErrorFailedToWriteInDir=Huts egin da %s direktorioan idaztean
 ErrorFailedToBuildArchive=Huts egin du %s artxibo fitxategia eraikitzean
 ErrorFoundBadEmailInFile=Fitxategian %s lerroetarako posta elektronikoaren sintaxi okerra aurkitu da (adibidez, %s lerroa, email=%s helbidearekin)
-ErrorUserCannotBeDelete=Erabiltzailea ezin da ezabatu. Baliteke Dolibarr entitateekin lotuta egotea.
+ErrorUserCannotBeDelete=Erabiltzailea ezin da ezabatu. Baliteke ZionOne entitateekin lotuta egotea.
 ErrorFieldsRequired=Nahitaezko eremu batzuk hutsik utzi dira.
 ErrorSubjectIsRequired=Mezu elektronikoaren gaia beharrezkoa da
 ErrorInAddAttachmentsImageBaseOnMedia=Errorea irudi fitxategiak multimedia direktorioan eranskinetarako sortzean
 ErrorInAddAttachmentsImageBaseIsSrcData=Errorea irudi fitxategiak (datu gisa aurkituak:) aldi baterako direktorioan eranskinerako sortzean
-ErrorFailedToCreateDir=Direktorioa sortzea huts egin du. Egiaztatu web zerbitzariaren erabiltzaileak Dolibarr dokumentuen direktorioan idazteko baimena duela. PHP honetan <b>safe_mode</b> parametroa gaituta badago, egiaztatu Dolibarr php fitxategiak web zerbitzariaren erabiltzaileari (edo taldeari) dagozkiola.
+ErrorFailedToCreateDir=Direktorioa sortzea huts egin du. Egiaztatu web zerbitzariaren erabiltzaileak ZionOne dokumentuen direktorioan idazteko baimena duela. PHP honetan <b>safe_mode</b> parametroa gaituta badago, egiaztatu ZionOne php fitxategiak web zerbitzariaren erabiltzaileari (edo taldeari) dagozkiola.
 ErrorNoMailDefinedForThisUser=Ez dago posta elektronikorik definituta erabiltzaile honetarako
 ErrorSetupOfEmailsNotComplete=Mezu elektronikoen konfigurazioa ez dago osatuta
 ErrorAccountingClosureSetupNotComplete=Itxiera-kontuen konfigurazioa ez da osatu
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=<b>%s</b> eremuak ez du karakte
 ErrorFieldMustHaveXChar=<b>%s</b> eremuak gutxienez %s karaktere izan behar ditu.
 ErrorNoAccountancyModuleLoaded=Ez dago kontabilitate modulurik aktibatuta
 ErrorExportDuplicateProfil=Profil-izen hau dagoeneko badago esportazio-multzo honetarako.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP parekatzea ez dago osatuta.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP parekatzea ez dago osatuta.
 ErrorLDAPMakeManualTest=.ldif fitxategi bat sortu da %s direktorioan. Saiatu eskuz kargatzen komando-lerrotik erroreei buruzko informazio gehiago izateko.
 ErrorCantSaveADoneUserWithZeroPercentage=Ezin da "hasi gabeko egoera" duen ekintza bat gorde "egindakoa" eremua ere beteta badago.
 ErrorPleaseTypeBankTransactionReportName=Mesedez, sartu sarrera jakinarazi behar den banku-laburpenaren izena (UUUUHH edo UUUUHHE formatua)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s beste hirugarren bati esleituta dago
 ErrorFailedToSendPassword=Pasahitza bidaltzea huts egin da
 ErrorFailedToLoadRSSFile=RSS jarioa lortzea huts egin du. Saiatu MAIN_SIMPLEXMLLOAD_DEBUG konstantea gehitzen errore-mezuak informazio nahikorik ematen ez badu.
 ErrorForbidden=Sarbidea ukatuta.<br>Desgaituta dagoen modulu bateko orrialde, eremu edo funtzio batera sartzen saiatzen ari zara, saio autentifikatu batean egon gabe edo zure erabiltzailearentzat baimenik ez dagoen modulu batera.
-ErrorForbidden2=Saio-hasiera honetarako baimena zure Dolibarr administratzaileak defini dezake %s->%s menutik.
-ErrorForbidden3=Badirudi Dolibarr ez dela erabiltzen saio autentifikatu baten bidez. Begiratu Dolibarr konfigurazio dokumentazioari autentifikazioak (htaccess, mod_auth edo beste...) nola kudeatu jakiteko.
+ErrorForbidden2=Saio-hasiera honetarako baimena zure ZionOne administratzaileak defini dezake %s->%s menutik.
+ErrorForbidden3=Badirudi ZionOne ez dela erabiltzen saio autentifikatu baten bidez. Begiratu ZionOne konfigurazio dokumentazioari autentifikazioak (htaccess, mod_auth edo beste...) nola kudeatu jakiteko.
 ErrorForbidden4=Oharra: garbitu zure arakatzailearen cookieak saio-hasiera honetarako dauden saioak ezabatzeko.
 ErrorNoImagickReadimage=Imagick klasea ez da aurkitu PHP honetan. Ez dago aurrebistarik eskuragarri. Administratzaileek fitxa hau desgaitu dezakete Konfigurazioa - Pantaila menutik.
 ErrorRecordAlreadyExists=Erregistroa dagoeneko existitzen da
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Web zerbitzaria exekutatzeko erabilitako <b>%
 ErrorNoActivatedBarcode=Ez dago barra-barra motarik aktibatuta
 ErrUnzipFails=Ezin izan da %s fitxategia ZipArchive-rekin deskonprimitu
 ErrNoZipEngine=Ez dago %s fitxategia konprimitzeko/deskonprimitzeko motorrik PHP honetan
-ErrorFileMustBeADolibarrPackage=%s fitxategia Dolibarr zip pakete bat izan behar da.
-ErrorModuleFileRequired=Dolibarr modulu pakete fitxategi bat hautatu behar duzu.
+ErrorFileMustBeADolibarrPackage=%s fitxategia ZionOne zip pakete bat izan behar da.
+ErrorModuleFileRequired=ZionOne modulu pakete fitxategi bat hautatu behar duzu.
 ErrorPhpCurlNotInstalled=PHP CURL ez dago instalatuta, ezinbestekoa da Paypal-ekin hitz egitea.
 ErrorFailedToAddToMailmanList=Huts egin du %s erregistroa Mailman zerrendara %s edo SPIP oinarrira gehitzean.
 ErrorFailedToRemoveToMailmanList=Huts egin du %s erregistroa Mailman zerrendara %s edo SPIP oinarrira kentzean.
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=Data gaurkoa baino handiagoa izan behar da
 ErrorStartDateGreaterEnd=Hasiera data amaiera data baino handiagoa da
 ErrorPaymentModeDefinedToWithoutSetup=Ordainketa modu bat %s motakoa da, baina Faktura modulua ez da konfiguratu ordainketa modu honetarako erakutsiko den informazioa definitzeko.
 ErrorPHPNeedModule=Errorea, zure PHP-k <b>%s</b> modulua instalatuta izan behar du funtzio hau erabiltzeko.
-ErrorOpenIDSetupNotComplete=Dolibarr konfigurazio fitxategia OpenID autentifikazioa baimentzeko konfiguratu duzu, baina OpenID zerbitzuaren URLa ez dago %s konstantean definituta.
+ErrorOpenIDSetupNotComplete=ZionOne konfigurazio fitxategia OpenID autentifikazioa baimentzeko konfiguratu duzu, baina OpenID zerbitzuaren URLa ez dago %s konstantean definituta.
 ErrorWarehouseMustDiffers=Jatorrizko eta helburuko biltegiak desberdinak izan behar dira
 ErrorBadFormat=Formatu txarra!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Errorea, kide hau ez dago oraindik hirugarren bati lotuta. Lotu kidea lehendik dagoen hirugarren bati edo sortu hirugarren berri bat faktura duen harpidetza sortu aurretik.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Erabiltzaile berriak helbide elektronikoa izan behar du
 ErrorUserClone=Errorea erabiltzaile klon kategorietan
 ErrorQtyOrderedLessQtyShipped = Eskatutako kantitatea ezin da bidalitako kantitatea baino txikiagoa izan.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Errorea, oraindik ez da onartzen enpresaren moneta ez den beste moneta bateko banku-kontu batean ordainketa desberdin bat sortzea.
-ErrorStreamMustBeEnabled=%s PHP jarioa ez dago erabilgarri. Egiaztatu zure PHP moduluak eta Dolibarr-en $dolibarr_main_stream_to_disable parametroa.
+ErrorStreamMustBeEnabled=%s PHP jarioa ez dago erabilgarri. Egiaztatu zure PHP moduluak eta ZionOne-en $dolibarr_main_stream_to_disable parametroa.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Errorea, ordainketa berean faktura desberdinak moneta desberdinekin ordaintzen saiatzen ari zara.
 ErrorLinkNotFoundWithSharedLink=Errorea, ez da aurkitu partekatutako gako honekin duen esteka
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Lerro kopuru okerra. Fitxategiek gutxienez 2 lerro izan behar dituzte (lerro 1 izenbururako eta lerro 1 datuetarako).
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Errorea, eremu mota honetarako balio bat derrigorr
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Zure PHP upload_max_filesize parametroa (%s) PHP post_max_size parametroa (%s) baino handiagoa da. Konfigurazio hau ez da koherentea.
-WarningPasswordSetWithNoAccount=Pasahitz bat ezarri da kide honetarako. Hala ere, ez da erabiltzaile-konturik sortu. Beraz, pasahitz hau gordeta dago, baina ezin da Dolibarr-en saioa hasteko erabili. Kanpoko modulu/interfaze batek erabil dezake, baina kide batentzako saio-hasierarik edo pasahitzik definitu behar ez baduzu, "Kide bakoitzarentzat saio-hasiera kudeatu" aukera desgaitu dezakezu Kide moduluaren konfiguraziotik. Saio-hasiera kudeatu behar baduzu, baina ez baduzu pasahitzik behar, eremu hau hutsik utzi dezakezu abisu hau saihesteko. Oharra: Posta elektronikoa ere erabil daiteke saio-hasiera gisa, kidea erabiltzaile bati lotuta badago.
+WarningPasswordSetWithNoAccount=Pasahitz bat ezarri da kide honetarako. Hala ere, ez da erabiltzaile-konturik sortu. Beraz, pasahitz hau gordeta dago, baina ezin da ZionOne-en saioa hasteko erabili. Kanpoko modulu/interfaze batek erabil dezake, baina kide batentzako saio-hasierarik edo pasahitzik definitu behar ez baduzu, "Kide bakoitzarentzat saio-hasiera kudeatu" aukera desgaitu dezakezu Kide moduluaren konfiguraziotik. Saio-hasiera kudeatu behar baduzu, baina ez baduzu pasahitzik behar, eremu hau hutsik utzi dezakezu abisu hau saihesteko. Oharra: Posta elektronikoa ere erabil daiteke saio-hasiera gisa, kidea erabiltzaile bati lotuta badago.
 WarningMandatorySetupNotComplete=Egin klik hemen parametro nagusiak konfiguratzeko
 WarningEnableYourModulesApplications=Egin klik hemen zure moduluak eta aplikazioak gaitzeko
 WarningSafeModeOnCheckExecDir=Abisua, <b>safe_mode</b> PHP aukera aktibatuta dago, beraz, komandoa <b>safe_mode_exec_dir</b> php parametroak deklaratutako direktorio batean gorde behar da.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Abisua, banku-kontua irakurtzea er
 WarningNoDataTransferedInAccountancyYet=Kontuan izan, ez dagoela daturik kontabilitate-taulan. Mesedez, transferitu aplikazioan erregistratutako datuak kontabilitate atalera edo aldatu kalkulu modua kontabilitatetik kanpo erregistratutako datuak aztertzeko.
 WarningChangingThisMayBreakStopTaskScheduler=Abisua, balio hau aldatzeak programatzailea desgaitu dezake.
 WarningAmountOfFileDiffersFromSumOfLines=Abisua, fitxategiaren kopurua (%s) lerroen baturarekin (%s) desberdina da.
-WarningModuleAffiliatedToAReportedCompany=Abisua, modulu hau Dolibarr fundazioari salatu zaio praktika ilegalak erabiltzen dituen enpresa batek argitaratu duelako (Dolibarr marka erabiltzeko arauak ez betetzea, zure datuak zure baimenik gabe biltzea edo malwarea ezartzea).
+WarningModuleAffiliatedToAReportedCompany=Abisua, modulu hau ZionOne fundazioari salatu zaio praktika ilegalak erabiltzen dituen enpresa batek argitaratu duelako (ZionOne marka erabiltzeko arauak ez betetzea, zure datuak zure baimenik gabe biltzea edo malwarea ezartzea).
 WarningModuleAffiliatedToAPiratPlatform=Kontuz ibili %s bezalako plataforma ez-ofizial susmagarri batetik modulu bat (ordaindua edo doakoa) eskuratzean.
 
 SwissQrOnlyVIR = SwissQR faktura kreditu-transferentzia bidezko ordainketekin ordaintzeko ezarritako fakturetan bakarrik gehi daiteke.

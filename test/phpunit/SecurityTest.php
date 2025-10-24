@@ -288,7 +288,7 @@ class SecurityTest extends CommonClassTest
 		$result = testSqlAndScriptInject($test, 0);
 		$this->assertGreaterThanOrEqual($expectedresult, $result, 'Error on testSqlAndScriptInject nnn, result should be >= 1 and is not');
 
-		$test = "/dolibarr/htdocs/index.php/".chr('246')."abc";	// Add the char %F6 into the variable
+		$test = "/ZionOne/htdocs/index.php/".chr('246')."abc";	// Add the char %F6 into the variable
 		$result = testSqlAndScriptInject($test, 2);
 		//print "test=".$test." result=".$result."\n";
 		$this->assertGreaterThanOrEqual($expectedresult, $result, 'Error on testSqlAndScriptInject with a non valid UTF8 char');
@@ -466,12 +466,12 @@ class SecurityTest extends CommonClassTest
 		$tmpvar = preg_match('/not supported/', $tmp['curl_error_msg']);
 		$this->assertEquals(1, $tmpvar, "Did not find the /not supported/ in getURLContent error message. We should.");
 
-		$url = 'https://www.dolibarr.fr';	// This is a redirect 301 page
+		$url = 'https://www.ZionOne.fr';	// This is a redirect 301 page
 		$tmp = getURLContent($url, 'GET', '', 0);	// We do NOT follow
 		print __METHOD__." url=".$url."\n";
 		$this->assertEquals(301, (empty($tmp['http_code']) ? 0 : $tmp['http_code']), 'Should GET url 301 response');
 
-		$url = 'https://www.dolibarr.fr';	// This is a redirect 301 page
+		$url = 'https://www.ZionOne.fr';	// This is a redirect 301 page
 		$tmp = getURLContent($url);		// We DO follow a page with return 300 so result should be 200
 		print __METHOD__." url=".$url."\n";
 		$this->assertEquals(200, (empty($tmp['http_code']) ? 0 : $tmp['http_code']), 'Should GET url 301 with a follow -> 200 but we get '.(empty($tmp['http_code']) ? 0 : $tmp['http_code']));

@@ -22,7 +22,7 @@
 /**
  *  \file		htdocs/core/lib/security2.lib.php
  *  \ingroup    core
- *  \brief		Set of function used for dolibarr security (not common functions).
+ *  \brief		Set of function used for ZionOne security (not common functions).
  *  			Warning, this file must not depends on other library files, except function.lib.php
  *  			because it is used at low code level.
  */
@@ -52,7 +52,7 @@ function dol_getwebuser($mode)
  *	@param	string		$usertotest		Login value to test
  *	@param	string		$passwordtotest	Password value to test
  *	@param	int|string	$entitytotest	Instance of data we must check
- *	@param	string[]	$authmode		Array list of selected authentication mode array('http', 'dolibarr', 'xxx'...)
+ *	@param	string[]	$authmode		Array list of selected authentication mode array('http', 'ZionOne', 'xxx'...)
  *	@param	'api'|'dav'|'ws'|''	$context	Context checkLoginPassEntity was created for ('api', 'dav', 'ws', '')
  *  @return	string						Login or '' or '--bad-login-validity--'
  */
@@ -125,7 +125,7 @@ function checkLoginPassEntity($usertotest, $passwordtotest, $entitytotest, $auth
 
 if (!function_exists('dol_loginfunction')) {
 	/**
-	 * Show Dolibarr default login page.
+	 * Show ZionOne default login page.
 	 * Part of this code is also duplicated into main.inc.php::top_htmlhead
 	 *
 	 * @param       Translate   $langs      Lang object (must be initialized by a new).
@@ -161,7 +161,7 @@ if (!function_exists('dol_loginfunction')) {
 				$title = $customapplication;
 			}
 		}
-		$titletruedolibarrversion = constant('DOL_VERSION'); // $title used by login template after the @ to inform of true Dolibarr version
+		$titletruedolibarrversion = constant('DOL_VERSION'); // $title used by login template after the @ to inform of true ZionOne version
 
 		// Note: $conf->css looks like '/theme/eldy/style.css.php'
 		/*
@@ -248,7 +248,7 @@ if (!function_exists('dol_loginfunction')) {
 
 		// Show logo (search in order: small company logo, large company logo, theme logo, common logo)
 		$width = 0;
-		$urllogo = DOL_URL_ROOT.'/theme/common/login_logo.png';
+		$urllogo = DOL_URL_ROOT.'/theme/common/logo.png';
 
 		if (!empty($mysoc->logo_small) && is_readable($conf->mycompany->dir_output.'/logos/thumbs/'.$mysoc->logo_small)) {
 			$urllogo = DOL_URL_ROOT.'/viewimage.php?cache=1&amp;modulepart=mycompany&amp;file='.urlencode('logos/thumbs/'.$mysoc->logo_small);
@@ -257,8 +257,8 @@ if (!function_exists('dol_loginfunction')) {
 			$width = 128;
 		} elseif (!empty($mysoc->logo_squarred_small) && is_readable($conf->mycompany->dir_output.'/logos/thumbs/'.$mysoc->logo_squarred_small)) {
 			$urllogo = DOL_URL_ROOT.'/viewimage.php?cache=1&amp;modulepart=mycompany&amp;file='.urlencode('logos/thumbs/'.$mysoc->logo_squarred_small);
-		} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/dolibarr_logo.svg')) {
-			$urllogo = DOL_URL_ROOT.'/theme/dolibarr_logo.svg';
+		} elseif (is_readable(DOL_DOCUMENT_ROOT.'/theme/logo.png')) {
+			$urllogo = DOL_URL_ROOT.'/theme/logo.png';
 		}
 
 		// Security graphical code

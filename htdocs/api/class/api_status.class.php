@@ -23,7 +23,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/functions.lib.php';
 
 
 /**
- * API that gives the status of the Dolibarr instance.
+ * API that gives the status of the ZionOne instance.
  *
  * @access protected
  * @class  DolibarrApiAccess {@requires user,external}
@@ -40,7 +40,7 @@ class Status extends DolibarrApi
 	}
 
 	/**
-	 * Get status (Dolibarr version)
+	 * Get status (ZionOne version)
 	 *
 	 * @return array
 	 * @phan-return array{success:array{code:int,dolibarr_version:string,access_locked:string,environment?:string,timestamp_now_utc?:int,timestamp_php_tz?:string,date_tz?:string}}

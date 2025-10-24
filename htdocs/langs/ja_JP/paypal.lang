@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=ペイパルモジュールの設定
 PaypalDesc=このモジュールでは、<a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external"> PayPal</a>を介した顧客による支払が可能。これは、アドホック支払またはDolibarrオブジェクト（請求書、注文など）に関連する支払に使用できる。
 PaypalOrCBDoPayment=PayPalで支払う(カードまたはPayPal)

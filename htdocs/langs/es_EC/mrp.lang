@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mrp
+# ZionOne language file - Source file is en_US - mrp
 MRPDescription=Módulo para gestionar producción y pedidos de fabricación (MO).
 MenuBOM=Facturas de material
 LatestBOMModified=Últimas listas de materiales modificados %s

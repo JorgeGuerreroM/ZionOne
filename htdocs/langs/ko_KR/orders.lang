@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=해당 제안서에 관련 오픈된 주문이 있기에 다른 주문은 자동 생성되지 않았습니다
 OrdersArea=고객 주문 영역
 SuppliersOrdersArea=구매 주문 영역

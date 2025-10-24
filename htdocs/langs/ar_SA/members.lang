@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# ZionOne language file - Source file is en_US - members
 MembersArea=منطقة الأعضاء
 MemberCard=بطاقة عضو
 SubscriptionCard=بطاقة الاشتراك
@@ -15,8 +15,8 @@ ListOfValidatedPublicMembers=قائمة الأعضاء العامة المصاد
 ErrorThisMemberIsNotPublic=ليست عضوا في هذا العام
 ErrorMemberIsAlreadyLinkedToThisThirdParty=عضو آخر (الاسم : <b>٪ ق</b> ، ادخل : <b>٪)</b> مرتبطة بالفعل الى طرف ثالث <b>٪ ق.</b> إزالة هذه الوصلة الاولى بسبب طرف ثالث لا يمكن أن يرتبط فقط عضو (والعكس بالعكس).
 ErrorUserPermissionAllowsToLinksToItselfOnly=لأسباب أمنية ، يجب أن تمنح أذونات لتحرير جميع المستخدمين لتكون قادرة على ربط عضو لمستخدم هذا ليس لك.
-SetLinkToUser=وصلة إلى مستخدم Dolibarr
-SetLinkToThirdParty=وصلة إلى طرف ثالث Dolibarr
+SetLinkToUser=وصلة إلى مستخدم ZionOne
+SetLinkToThirdParty=وصلة إلى طرف ثالث ZionOne
 MemberCountersArePublic=عدادات أعضاء الصالحة عامة
 MembersCards=توليد بطاقات للاعضاء
 MembersList=قائمة الأعضاء
@@ -114,10 +114,10 @@ ConfirmDeleteSubscription=هل أنت متأكد أنك تريد حذف هذه �
 Filehtpasswd=htpasswd الملف
 ValidateMember=صحة عضوا
 ConfirmValidateMember=هل أنت متأكد أنك تريد التحقق من صحة هذا العضو؟
-FollowingLinksArePublic=الروابط التالية هي صفحات مفتوحة غير محمية بأي إذن Dolibarr. وهي ليست صفحات منسقة ، وتقدم كمثال لإظهار كيفية سرد أعضاء قاعدة البيانات.
+FollowingLinksArePublic=الروابط التالية هي صفحات مفتوحة غير محمية بأي إذن ZionOne. وهي ليست صفحات منسقة ، وتقدم كمثال لإظهار كيفية سرد أعضاء قاعدة البيانات.
 PublicMemberList=عضو في لائحة عامة
 BlankSubscriptionForm=استمارة التسجيل الذاتي العامة
-BlankSubscriptionFormDesc=يمكن أن يوفر لك Dolibarr عنوان URL / موقع ويب عام للسماح للزوار الخارجيين بطلب الاشتراك في المؤسسة. إذا تم تمكين وحدة دفع عبر الإنترنت ، فقد يتم أيضًا تقديم نموذج دفع تلقائيًا.
+BlankSubscriptionFormDesc=يمكن أن يوفر لك ZionOne عنوان URL / موقع ويب عام للسماح للزوار الخارجيين بطلب الاشتراك في المؤسسة. إذا تم تمكين وحدة دفع عبر الإنترنت ، فقد يتم أيضًا تقديم نموذج دفع تلقائيًا.
 EnablePublicSubscriptionForm=تمكين الموقع العام من خلال نموذج الاشتراك الذاتي
 ForceMemberType=فرض نوع العضو
 ExportDataset_member_1=الأعضاء والمساهمات

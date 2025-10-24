@@ -77,7 +77,7 @@ function check_authentication($authentication, &$error, &$errorcode, &$errorlabe
 
 			// Authentication mode
 			if (empty($dolibarr_main_authentication) || $dolibarr_main_authentication == 'openid_connect') {
-				$dolibarr_main_authentication = 'http,dolibarr';
+				$dolibarr_main_authentication = 'http,ZionOne';
 			}
 			// Authentication mode: forceuser
 			if ($dolibarr_main_authentication == 'forceuser' && empty($dolibarr_auto_user)) {

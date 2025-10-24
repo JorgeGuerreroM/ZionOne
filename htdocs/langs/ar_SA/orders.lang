@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=تم بالفعل فتح أمر مرتبط بهذا الاقتراح ، لذلك لم يتم إنشاء أي أمر آخر تلقائيًا
 OrdersArea=منطقة أوامر العملاء
 SuppliersOrdersArea=منطقة أوامر الشراء

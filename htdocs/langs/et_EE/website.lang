@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kood
 WebsiteName=Veebisaidi nimi
 WebsiteSetupDesc=Loo siia veebilehed, mida soovid kasutada. Seejärel mine menüüsse Veebilehed, et neid muuta.
@@ -51,7 +51,7 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Selle veebisaidi reaalajas juurutamis
 SetHereVirtualHost=<u>Use with Apache/NGinx/...</u><br>Create on your web server (Apache, Nginx, ...) a dedicated Virtual Host with PHP enabled and a Root directory on<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Näide Apache virtuaalse hosti seadistamiseks:
 YouCanAlsoTestWithPHPS=<u>Kasutamine PHP sisseehitatud serveriga</u><br>Arenduskeskkonnas võite eelistada saidi testimist PHP sisseehitatud veebiserveriga, käivitades
-YouCanAlsoDeployToAnotherWHP=<u>Käita oma veebisaiti Dolibarri veebimajutusteenuse pakkuja sees</u><br>Kui sul pole internetis saadaval veebiserverit nagu Apache või NGinx, saad oma veebisaidi eksportida ja importida teise Dolibarri eksemplari, mida pakub teine Dolibarri majutusteenuse pakkuja, mis pakub täielikku integratsiooni veebisaidi mooduliga. Mõnede Dolibarri majutusteenuse pakkujate nimekirja leiate aadressilt <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Käita oma veebisaiti Dolibarri veebimajutusteenuse pakkuja sees</u><br>Kui sul pole internetis saadaval veebiserverit nagu Apache või NGinx, saad oma veebisaidi eksportida ja importida teise Dolibarri eksemplari, mida pakub teine Dolibarri majutusteenuse pakkuja, mis pakub täielikku integratsiooni veebisaidi mooduliga. Mõnede Dolibarri majutusteenuse pakkujate nimekirja leiate aadressilt <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Kontrollige ka, et virtuaalse hosti kasutajal (näiteks www-data) on <strong>%s</strong> õigused failidele <br><strong>%s</strong>
 ReadPerm=Loe
 WritePerm=Kirjuta

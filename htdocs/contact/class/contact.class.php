@@ -1005,7 +1005,7 @@ class Contact extends CommonObject
 	 *
 	 *  @param      int		$id         	Id of contact
 	 *  @param      ?User	$user       	Load also alerts of this user (subscribing to alerts) that want alerts about this contact
-	 *  @param      string  $ref_ext    	External reference, not given by Dolibarr
+	 *  @param      string  $ref_ext    	External reference, not given by ZionOne
 	 *  @param		string	$email			Email
 	 *  @param		int		$loadalsoroles	Load also roles. Try to always use 0 here and load roles with a separate call of fetchRoles().
 	 *  @param		int		$socid			Filter on thirdparty id
@@ -1139,7 +1139,7 @@ class Contact extends CommonObject
 				// Define gender according to civility
 				$this->setGenderFromCivility();
 
-				// Search Dolibarr user linked to this contact
+				// Search ZionOne user linked to this contact
 				$sql = "SELECT u.rowid ";
 				$sql .= " FROM ".MAIN_DB_PREFIX."user as u";
 				$sql .= " WHERE u.fk_socpeople = ".((int) $this->id);
@@ -1208,7 +1208,7 @@ class Contact extends CommonObject
 	 *  @param      int		$id         	Id of contact
 	 *  @param      string  $lastname    	Lastname (TODO Not yet implemented)
 	 *  @param      string  $firstname   	Firstname (TODO Not yet implemented)
-	 *  @param      string  $ref_ext    	External reference, not given by Dolibarr
+	 *  @param      string  $ref_ext    	External reference, not given by ZionOne
 	 *  @param		string	$email			Email
 	 *  @param		string	$ref_alias		Name alias (TODO Not yet implemented)
 	 *  @param		int		$socid			Filter on thirdparty id
@@ -1740,7 +1740,7 @@ class Contact extends CommonObject
 		$this->id = 0;
 		$this->entity = 1;
 		$this->specimen = 1;
-		$this->lastname = 'DOLIBARR';
+		$this->lastname = 'ZionOne';
 		$this->firstname = 'SPECIMEN';
 		$this->address = '21 jump street';
 		$this->zip = '99999';

@@ -42,7 +42,7 @@ if (!defined('USESUFFIXINLOG')) {
 	define('USESUFFIXINLOG', '_stripeipn');
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/user/class/user.class.php';
@@ -95,7 +95,7 @@ if (empty($endpoint_secret)) {
 }
 
 if (getDolGlobalString('STRIPE_USER_ACCOUNT_FOR_ACTIONS')) {
-	// We set the user to use for all ipn actions in Dolibarr
+	// We set the user to use for all ipn actions in ZionOne
 	$user = new User($db);
 	$user->fetch(getDolGlobalInt('STRIPE_USER_ACCOUNT_FOR_ACTIONS'));
 	$user->loadRights();
@@ -374,7 +374,7 @@ if ($event->type == 'payout.created' && getDolGlobalString('STRIPE_AUTO_RECORD_P
 	$customer_id = $object->customer;
 	$invoice_id = "";
 	$paymentTypeCode = "";				// payment type according to Stripe
-	$paymentTypeCodeInDolibarr = "";	// payment type according to Dolibarr
+	$paymentTypeCodeInDolibarr = "";	// payment type according to ZionOne
 	$payment_amount = 0;
 	$payment_amountInDolibarr = 0;
 
@@ -456,7 +456,7 @@ if ($event->type == 'payout.created' && getDolGlobalString('STRIPE_AUTO_RECORD_P
 
 		$payment_amount = $payment_amountInDolibarr;
 		// TODO Add this checks ? May not be required because the message is already decoded with $event = \Stripe\Webhook::constructEvent($payload, $sig_header, $endpoint_secret);
-		// - Check payment_amount in Stripe (received) is same than the one in Dolibarr
+		// - Check payment_amount in Stripe (received) is same than the one in ZionOne
 		// - Check that payment intent is succeed (to avoid forged json webhook sent by malicious users)
 
 		$postactionmessages = array();
@@ -652,8 +652,8 @@ if ($event->type == 'payout.created' && getDolGlobalString('STRIPE_AUTO_RECORD_P
 				return -1;
 			}
 		} else {
-			dol_syslog("The payment mode of this payment is ".$paymentTypeCode." in Stripe and ".$paymentTypeCodeInDolibarr." in Dolibarr. This case is not managed by the IPN");
-			dol_syslog("The payment mode of this payment is ".$paymentTypeCode." in Stripe and ".$paymentTypeCodeInDolibarr." in Dolibarr. This case is not managed by the IPN", LOG_DEBUG, 0, '_payment');
+			dol_syslog("The payment mode of this payment is ".$paymentTypeCode." in Stripe and ".$paymentTypeCodeInDolibarr." in ZionOne. This case is not managed by the IPN");
+			dol_syslog("The payment mode of this payment is ".$paymentTypeCode." in Stripe and ".$paymentTypeCodeInDolibarr." in ZionOne. This case is not managed by the IPN", LOG_DEBUG, 0, '_payment');
 		}
 	} else {
 		dol_syslog("Nothing to do in database because we don't know paymentTypeIdInDolibarr");
@@ -885,7 +885,7 @@ if ($event->type == 'payout.created' && getDolGlobalString('STRIPE_AUTO_RECORD_P
 
 	$invoice_id = 0;
 	$paymentTypeCode = "";			// payment type according to Stripe
-	$paymentTypeCodeInDolibarr = "";	// payment type according to Dolibarr
+	$paymentTypeCodeInDolibarr = "";	// payment type according to ZionOne
 	$payment_amount = 0;
 	$payment_amountInDolibarr = 0;
 

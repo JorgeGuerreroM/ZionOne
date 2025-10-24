@@ -35,7 +35,7 @@
  *	\brief      Page for supplier invoice card (view, edit, validate)
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/categories/class/categorie.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formfile.class.php';
@@ -2318,7 +2318,7 @@ if ($action == 'create') {
 		$mode_reglement_id = GETPOST("mode_reglement_id");
 	}
 
-	// If form was posted (but error returned), we must reuse the value posted in priority (standard Dolibarr behaviour)
+	// If form was posted (but error returned), we must reuse the value posted in priority (standard ZionOne behaviour)
 	if (!GETPOST('changecompany')) {
 		if (GETPOSTISSET('cond_reglement_id')) {
 			$cond_reglement_id = GETPOSTINT('cond_reglement_id');

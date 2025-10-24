@@ -2,7 +2,7 @@
 -- Copyright (C) 2000-2004 Rodolphe Quiedeville <rodolphe@quiedeville.org>
 -- Copyright (C) 2004-2017 Laurent Destailleur  <eldy@users.sourceforge.net>
 -- Copyright (C) 2005-2010 Regis Houssin        <regis.houssin@inodbox.com>
--- Copyright (C) 2010      Juanjo Menent        <dolibarr@2byte.es>
+-- Copyright (C) 2010      Juanjo Menent        <ZionOne@2byte.es>
 -- Copyright (C) 2014      Teddy Andreotti      <125155@supinfo.com>
 -- Copyright (C) 2015      Marcos García        <marcosgdf@gmail.com>
 -- Copyright (C) 2023      Alexandre Spangaro   <aspangaro@open-dsi.fr>
@@ -29,7 +29,7 @@ create table llx_societe
   name_alias               varchar(128) NULL,
   entity                   integer DEFAULT 1 NOT NULL,                  -- multi company id
 
-  ref_ext                  varchar(255),                                -- reference into an external system (not used by dolibarr)
+  ref_ext                  varchar(255),                                -- reference into an external system (not used by ZionOne)
 
   statut                   tinyint        DEFAULT 0,            		-- statut (deprecated)
   parent                   integer,

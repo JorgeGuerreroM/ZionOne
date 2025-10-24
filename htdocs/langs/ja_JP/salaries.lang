@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# ZionOne language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=給与の「ユーザー」にデフォルトで使用される勘定科目 (勘定科目表から)
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT_Desc=ユーザ カードで定義された専用アカウントは、補助元帳会計にのみ使用される。このアカウントは総勘定元帳に使用されるが、ユーザ に専用の ユーザ 会計アカウントが定義されていない場合は、補助元帳会計のデフォルト値としても使用される。
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=賃金支払のデフォルトの勘定科目

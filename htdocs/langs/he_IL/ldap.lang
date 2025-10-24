@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# ZionOne language file - Source file is en_US - ldap
 YouMustChangePassNextLogon=Password for user <b>%s</b> on the domain <b>%s</b> must be changed.
 UserMustChangePassNextLogon=על המשתמש לשנות סיסמה בדומיין %s
 LDAPInformationsForThisContact=מידע במסד הנתונים של LDAP עבור איש קשר זה
@@ -22,7 +22,7 @@ GroupSynchronized=הקבוצה מסונכרנת
 MemberSynchronized=חבר מסונכרן
 MemberTypeSynchronized=סוג חבר מסונכרן
 ContactSynchronized=איש הקשר מסונכרן
-ForceSynchronize=כפה סנכרון Dolibarr -> LDAP
+ForceSynchronize=כפה סנכרון ZionOne -> LDAP
 ErrorFailedToReadLDAP=קריאת מסד הנתונים של LDAP נכשלה. בדוק את הגדרת מודול LDAP ואת נגישות מסד הנתונים.
 PasswordOfUserInLDAP=סיסמת המשתמש ב-LDAP
 LDAPPasswordHashType=סוג hash של סיסמה

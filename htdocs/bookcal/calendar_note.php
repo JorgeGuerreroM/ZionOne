@@ -23,7 +23,7 @@
  *  \brief      Tab for notes on Calendar
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 require_once DOL_DOCUMENT_ROOT.'/bookcal/class/calendar.class.php';

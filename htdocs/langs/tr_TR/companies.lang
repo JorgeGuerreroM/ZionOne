@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=İletişim bilgileriniz kaydedildi. Yakında size geri döneceğiz...
 ContactUsDesc=Bu form, ilk iletişim için bize mesaj göndermenizi sağlar.
 ErrorCompanyNameAlreadyExists=Firma adı zaten %s var. Başka bir tane seçin.

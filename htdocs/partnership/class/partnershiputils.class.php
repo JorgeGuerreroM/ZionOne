@@ -282,7 +282,7 @@ class PartnershipUtils
 
 
 	/**
-	 * Action executed by scheduler to check if Dolibarr backlink not found on partner website. (Max number of action batch per call = $conf->global->PARTNERSHIP_MAX_WARNING_BACKLINK_PER_CALL)
+	 * Action executed by scheduler to check if ZionOne backlink not found on partner website. (Max number of action batch per call = $conf->global->PARTNERSHIP_MAX_WARNING_BACKLINK_PER_CALL)
 	 *
 	 * CAN BE A CRON TASK
 	 *
@@ -525,7 +525,7 @@ class PartnershipUtils
 	}
 
 	/**
-	 * Action to check if Dolibarr backlink not found on partner website
+	 * Action to check if ZionOne backlink not found on partner website
 	 *
 	 * @param  	string	$website      	Partner's website URL
 	 * @return  int                 	0 if KO, 1 if OK

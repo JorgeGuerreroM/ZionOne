@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=ការដំឡើងម៉ូឌុល PayBox
-PayBoxDesc=ម៉ូឌុលនេះផ្តល់ជូនទំព័រដើម្បីអនុញ្ញាតឱ្យបង់ប្រាក់នៅលើ <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> ដោយអតិថិជន។ វាអាចត្រូវបានប្រើសម្រាប់ការបង់ប្រាក់ដោយឥតគិតថ្លៃ ឬសម្រាប់ការទូទាត់លើវត្ថុ Dolibarr ជាក់លាក់មួយ (វិក្កយបត្រ ការបញ្ជាទិញ ...)
+PayBoxDesc=ម៉ូឌុលនេះផ្តល់ជូនទំព័រដើម្បីអនុញ្ញាតឱ្យបង់ប្រាក់នៅលើ <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> ដោយអតិថិជន។ វាអាចត្រូវបានប្រើសម្រាប់ការបង់ប្រាក់ដោយឥតគិតថ្លៃ ឬសម្រាប់ការទូទាត់លើវត្ថុ ZionOne ជាក់លាក់មួយ (វិក្កយបត្រ ការបញ្ជាទិញ ...)
 PayBoxDoPayment=បង់ជាមួយ Paybox
 YouWillBeRedirectedOnPayBox=អ្នកនឹងត្រូវបានបញ្ជូនបន្តនៅលើទំព័រ Paybox ដែលមានសុវត្ថិភាព ដើម្បីបញ្ចូលព័ត៌មានកាតឥណទានរបស់អ្នក។
 SetupPayBoxToHavePaymentCreatedAutomatically=រៀបចំ Paybox របស់អ្នកជាមួយ url <b>%s</b> ដើម្បីបង្កើតការទូទាត់ដោយស្វ័យប្រវត្តិនៅពេល បញ្ជាក់ដោយ Paybox ។

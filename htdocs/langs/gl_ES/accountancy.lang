@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Contabilidade
 Accounting=Contabilidade
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de columnas no ficheiro de exportación
@@ -340,7 +340,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Desactivar a ligazón e transferencia na con
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Desactivar a ligazón e transferencia na contabilidade das compras (as facturas do provedor non se terán en conta na contabilidade)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Desactivar a ligazón e transferencia na contabilidade dos informes de gastos (os informes de gastos non se terán en conta na contabilidade)
 ACCOUNTING_ENABLE_LETTERING=Activa a función de letras na contabilidade
-ACCOUNTING_ENABLE_LETTERING_DESC=Cando esta opción está activada, pódese definir, en cada asento contable, un código para poder agrupar diferentes movementos contables. No pasado, cando as diferentes entradas eran xestionadas de forma independente, esta característica era precisa para agrupar liñas de movemento de diferentes entradas. Non obstante, coa contabilidade Dolibarr, un código de seguimento deste tipo, chamado " <b> %s </b> " xa se garda automaticamente, polo que xa se fai unha clasificación automática, sen risco de erro polo que esta función quedou inútil para un uso común. A función de clasificación manual ofrécese aos usuarios finais que realmente non confían no motor informático que realiza a transferencia de datos na contabilidade.
+ACCOUNTING_ENABLE_LETTERING_DESC=Cando esta opción está activada, pódese definir, en cada asento contable, un código para poder agrupar diferentes movementos contables. No pasado, cando as diferentes entradas eran xestionadas de forma independente, esta característica era precisa para agrupar liñas de movemento de diferentes entradas. Non obstante, coa contabilidade ZionOne, un código de seguimento deste tipo, chamado " <b> %s </b> " xa se garda automaticamente, polo que xa se fai unha clasificación automática, sen risco de erro polo que esta función quedou inútil para un uso común. A función de clasificación manual ofrécese aos usuarios finais que realmente non confían no motor informático que realiza a transferencia de datos na contabilidade.
 EnablingThisFeatureIsNotNecessary=Activar esta función xa non é preciso para unha xestión contable rigorosa.
 ACCOUNTING_ENABLE_AUTOLETTERING=Activa a marcación automática ao transferir á contabilidade
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=O código para as letras xérase e increméntase automaticamente e non o escolle o usuario final

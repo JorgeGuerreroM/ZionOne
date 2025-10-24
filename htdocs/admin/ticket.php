@@ -4,7 +4,7 @@
  * Copyright (C) 2022-2023  	Udo Tamm            	<dev@dolibit.de>
  * Copyright (C) 2023       	Alexandre Spangaro  	<aspangaro@easya.solutions>
  * Copyright (C) 2024-2025	MDW							<mdeweerd@users.noreply.github.com>
- * Copyright (C) 2024       	Frédéric France         <frederic.france@free.fr>
+ * Copyright (C) 2024-2025  Frédéric France         <frederic.france@free.fr>
  * Copyright (C) 2024-2025		Benjamin Falière		<benjamin.faliere@altairis.fr>
  *
  * This program is free software: you can redistribute it and/or modify
@@ -27,7 +27,7 @@
  *     \brief       Page to setup the module ticket
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT."/core/class/html.formcategory.class.php";
 require_once DOL_DOCUMENT_ROOT."/core/lib/admin.lib.php";
@@ -114,8 +114,8 @@ if ($action == 'updateMask') {
 } elseif ($action == 'del') {
 	$ret = delDocumentModel($value, $type);
 	if ($ret > 0) {
-		if ($conf->global->TICKET_ADDON_PDF == "$value") {
-			dolibarr_del_const($db, 'TICKET_ADDON_PDF', $conf->entity);
+		if (getDolGlobalString('TICKET_ADDON_PDF') == "$value") {
+			zionone_del_const($db, 'TICKET_ADDON_PDF', $conf->entity);
 		}
 	}
 } elseif (preg_match('/set_(.*)/', $action, $reg)) {
@@ -127,7 +127,7 @@ if ($action == 'updateMask') {
 	}
 } elseif (preg_match('/del_(.*)/', $action, $reg)) {
 	$code = $reg[1];
-	$res = dolibarr_del_const($db, $code, $conf->entity);
+	$res = zionone_del_const($db, $code, $conf->entity);
 	if (!($res > 0)) {
 		$error++;
 	}
@@ -198,7 +198,7 @@ if ($action == 'updateMask') {
 	include_once DOL_DOCUMENT_ROOT."/core/lib/files.lib.php";
 
 	$notification_email = GETPOST('TICKET_NOTIFICATION_EMAIL_FROM', 'alpha');
-	$notification_email_description = "Email of user allowed to send ticket replies from Dolibarr";
+	$notification_email_description = "Email of user allowed to send ticket replies from ZionOne";
 	if (!empty($notification_email)) {
 		$res = dolibarr_set_const($db, 'TICKET_NOTIFICATION_EMAIL_FROM', $notification_email, 'chaine', 0, $notification_email_description, $conf->entity);
 	} else { // If an empty e-mail address is providen, use the global "FROM" since an empty field will cause other issues
@@ -209,7 +209,7 @@ if ($action == 'updateMask') {
 	}
 
 	$notification_email_replyto = GETPOST('TICKET_NOTIFICATION_EMAIL_REPLYTO', 'alpha');
-	$notification_email_replyto_description = "Email that must appears as the sender of ticket replies sent from Dolibarr";
+	$notification_email_replyto_description = "Email that must appears as the sender of ticket replies sent from ZionOne";
 	if (!empty($notification_email)) {
 		$res = dolibarr_set_const($db, 'TICKET_NOTIFICATION_EMAIL_REPLYTO', $notification_email_replyto, 'chaine', 0, $notification_email_replyto_description, $conf->entity);
 	} else {
@@ -221,7 +221,7 @@ if ($action == 'updateMask') {
 
 	// altairis : differentiate notification email FROM and TO
 	$notification_email_to = GETPOST('TICKET_NOTIFICATION_EMAIL_TO', 'alpha');
-	$notification_email_to_description = "Notified e-mail for ticket replies sent from Dolibarr";
+	$notification_email_to_description = "Notified e-mail for ticket replies sent from ZionOne";
 	if (!empty($notification_email_to)) {
 		$res = dolibarr_set_const($db, 'TICKET_NOTIFICATION_EMAIL_TO', $notification_email_to, 'chaine', 0, $notification_email_to_description, $conf->entity);
 	} else {
@@ -232,7 +232,7 @@ if ($action == 'updateMask') {
 	}
 
 	$mail_intro = GETPOST('TICKET_MESSAGE_MAIL_INTRO', 'restricthtml');
-	$mail_intro_description = "Introduction text of ticket replies sent from Dolibarr";
+	$mail_intro_description = "Introduction text of ticket replies sent from ZionOne";
 	if (!empty($mail_intro)) {
 		$res = dolibarr_set_const($db, 'TICKET_MESSAGE_MAIL_INTRO', $mail_intro, 'chaine', 0, $mail_intro_description, $conf->entity);
 	} else {
@@ -243,7 +243,7 @@ if ($action == 'updateMask') {
 	}
 
 	$mail_signature = GETPOST('TICKET_MESSAGE_MAIL_SIGNATURE', 'restricthtml');
-	$signature_description = "Signature of ticket replies sent from Dolibarr";
+	$signature_description = "Signature of ticket replies sent from ZionOne";
 	if (!empty($mail_signature)) {
 		$res = dolibarr_set_const($db, 'TICKET_MESSAGE_MAIL_SIGNATURE', $mail_signature, 'chaine', 0, $signature_description, $conf->entity);
 	} else {
@@ -275,7 +275,7 @@ $page_name = 'TicketSetup';
 llxHeader('', $langs->trans($page_name), $help_url, '', 0, 0, '', '', '', 'mod-admin page-ticket');
 
 // Subheader
-$linkback = '<a href="'.DOL_URL_ROOT.'/admin/modules.php?restore_lastsearch_values=1">'.$langs->trans("BackToModuleList").'</a>';
+$linkback = '<a href="'.DOL_URL_ROOT.'/admin/modules.php?restore_lastsearch_values=1">'.img_picto($langs->trans("BackToModuleList"), 'back', 'class="pictofixedwidth"').'<span class="hideonsmartphone">'.$langs->trans("BackToModuleList").'</span></a>';
 
 print load_fiche_titre($langs->trans($page_name), $linkback, 'title_setup');
 
@@ -352,7 +352,7 @@ foreach ($dirmodels as $reldir) {
 						print '</td>'."\n";
 
 						print '<td class="center">';
-						if ($conf->global->TICKET_ADDON == 'mod_'.$classname) {
+						if (getDolGlobalString('TICKET_ADDON') == 'mod_'.$classname) {
 							print img_picto($langs->trans("Activated"), 'switch_on');
 						} else {
 							print '<a class="reposition" href="'.$_SERVER["PHP_SELF"].'?action=setmod&amp;token='.newToken().'&amp;value=mod_'.$classname.'" alt="'.$langs->trans("Default").'">'.img_picto($langs->trans("Disabled"), 'switch_off').'</a>';
@@ -405,7 +405,7 @@ $def = array();
 $sql = "SELECT nom";
 $sql .= " FROM ".MAIN_DB_PREFIX."document_model";
 $sql .= " WHERE type = '".$db->escape($type)."'";
-$sql .= " AND entity = ".$conf->entity;
+$sql .= " AND entity = ".((int) $conf->entity);
 $resql = $db->query($sql);
 if ($resql) {
 	$i = 0;

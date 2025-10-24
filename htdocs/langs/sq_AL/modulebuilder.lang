@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= ID-ja e modulit
 ModuleBuilderDesc=Ky mjet duhet të përdoret vetëm nga përdorues ose zhvillues me përvojë. Ai ofron shërbime për të ndërtuar ose modifikuar modulin tuaj. Dokumentacioni për zhvillimin manual alternativ <a href="%s" target="_blank" rel="noopener noreferrer"> është këtu</a>.
 EnterNameOfModuleDesc=Futni emrin e modulit/aplikacionit për të krijuar pa hapësira. Përdorni shkronja të mëdha për të ndarë fjalët (Për shembull: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Ju mund të fshini modulin tuaj. PARALAJMËRIM: T�
 EnterNameOfObjectToDeleteDesc=Ju mund të fshini një objekt. PARALAJMËRIM: Të gjithë skedarët e kodimit (të krijuara ose të krijuara manualisht) që lidhen me objektin do të fshihen!
 DangerZone=Zone e rrezikshme
 BuildPackage=Ndërtoni paketën
-BuildPackageDesc=Ju mund të gjeneroni një paketë zip të aplikacionit tuaj në mënyrë që të jeni gati ta shpërndani atë në çdo Dolibarr. Mund ta shpërndani ose ta shisni gjithashtu në treg si <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=Ju mund të gjeneroni një paketë zip të aplikacionit tuaj në mënyrë që të jeni gati ta shpërndani atë në çdo ZionOne. Mund ta shpërndani ose ta shisni gjithashtu në treg si <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Ndërtoni dokumentacion
 ModuleIsNotActive=Ky modul nuk është aktivizuar ende. Shko te %s për ta bërë të drejtpërdrejtë ose kliko këtu
 ModuleIsLive=Ky modul është aktivizuar. Çdo ndryshim mund të prishë një funksion aktual të drejtpërdrejtë.
@@ -110,7 +110,7 @@ HooksDefDesc=Përcaktoni në veçorinë <b>module_parts['hooks']</b>, në skedar
 TriggerDefDesc=Përcaktoni në skedarin e aktivizimit kodin që dëshironi të ekzekutoni kur ekzekutohet një ngjarje biznesi jashtë modulit tuaj (ngjarjet e shkaktuara nga module të tjera).
 SeeIDsInUse=Shikoni ID-të në përdorim në instalimin tuaj
 SeeReservedIDsRangeHere=Shikoni gamën e ID-ve të rezervuara
-ToolkitForDevelopers=Paketa e veglave për zhvilluesit e Dolibarr
+ToolkitForDevelopers=Paketa e veglave për zhvilluesit e ZionOne
 TryToUseTheModuleBuilder=If you have knowledge of SQL and PHP, you may use the native module builder wizard.<br>Enable the module <strong>%s</strong> and use the wizard by clicking the <span class="fa fa-bug"></span> on the top right menu.<br>Warning: This is an advanced developer feature, do <b>not</b> experiment on your production site!
 SeeTopRightMenu=Shiko <span class="fa fa-bug"></span> në menynë lart djathtas
 AddLanguageFile=Shto skedarin e gjuhës

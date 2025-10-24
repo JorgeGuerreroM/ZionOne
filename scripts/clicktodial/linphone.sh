@@ -3,9 +3,9 @@
 # Script to launch LinPhone softphone.
 #
 # This script can be used to setup a ClickToDial system
-# when using LinPhone soft phone with Dolibarr.
+# when using LinPhone soft phone with ZionOne.
 #
-# More information on https://wiki.dolibarr.org/index.php/Module_ClickToDial_En
+# More information on https://wiki.ZionOne.org/index.php/Module_ClickToDial_En
 #---------------------------------------------------------
 
 # shellcheck disable=2006,2086

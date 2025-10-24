@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     # Do not run schedule on forks
     if: |
-      github.repository == 'Dolibarr/dolibarr'
+      github.repository == 'ZionOne/ZionOne'
       || github.event.schedule == false
     steps:
       - uses: actions/checkout@v4

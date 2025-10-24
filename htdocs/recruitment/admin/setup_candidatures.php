@@ -23,7 +23,7 @@
  * \brief   Recruitment setup page for candidatures.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 
 // Libraries
@@ -139,7 +139,7 @@ if ($action == 'updateMask') {
 	if ($ret > 0) {
 		$constforval = 'RECRUITMENT_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
 		if (getDolGlobalString($constforval) == "$value") {
-			dolibarr_del_const($db, $constforval, $conf->entity);
+			zionone_del_const($db, $constforval, $conf->entity);
 		}
 	}
 } elseif ($action == 'setmod') {
@@ -166,7 +166,7 @@ if ($action == 'updateMask') {
 } elseif ($action == 'unsetdoc') {
 	if (!empty($tmpobjectkey)) {
 		$constforval = 'RECRUITMENT_'.strtoupper($tmpobjectkey).'_ADDON_PDF';
-		dolibarr_del_const($db, $constforval, $conf->entity);
+		zionone_del_const($db, $constforval, $conf->entity);
 	}
 }
 

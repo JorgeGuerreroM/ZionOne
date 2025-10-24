@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - donations
+# ZionOne language file - Source file is en_US - donations
 Donation=Δωρεά
 Donations=Δωρεές
 DonationRef=Αναφ. Δωρεάς
@@ -37,7 +37,7 @@ DonationUseThirdparties=Χρησιμοποιήστε τη διεύθυνση ε�
 DonationsStatistics=Στατιστικά δωρεών
 NbOfDonations=Αριθμός δωρεών
 BlankDonationForm=Φόρμα δημόσιας δωρεάς
-BlankDonationFormDesc=Η Dolibarr μπορεί να σας παρέχει μια δημόσια διεύθυνση URL/ιστοσελίδα για να επιτρέψετε σε εξωτερικούς επισκέπτες να κάνουν μια δωρεά. Εάν είναι ενεργοποιημένη μια ηλεκτρονική φόρμα πληρωμή ενότητα, ενδέχεται επίσης να παρέχεται αυτόματα μια φόρμα πληρωμή.
+BlankDonationFormDesc=Η ZionOne μπορεί να σας παρέχει μια δημόσια διεύθυνση URL/ιστοσελίδα για να επιτρέψετε σε εξωτερικούς επισκέπτες να κάνουν μια δωρεά. Εάν είναι ενεργοποιημένη μια ηλεκτρονική φόρμα πληρωμή ενότητα, ενδέχεται επίσης να παρέχεται αυτόματα μια φόρμα πληρωμή.
 EnablePublicDonationForm=Ενεργοποιήστε τη φόρμα δημόσιας δωρεάς
 EnablePublicDonationList=Ενεργοποίηση της λίστας δημόσιων δωρεών
 ForceDonateurNature = Φύση δωρητή (άτομο ή εταιρεία)

@@ -24,7 +24,7 @@
  */
 
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/oauth.lib.php';
@@ -132,11 +132,11 @@ if ($action == 'update') {
 
 			// If name changed, we have to delete old const and proceed few other changes
 			if ($constvalue !== $newconstvalue) {
-				dolibarr_del_const($db, $constvalue.'_ID', $conf->entity);
-				dolibarr_del_const($db, $constvalue.'_SECRET', $conf->entity);
-				dolibarr_del_const($db, $constvalue.'_URL', $conf->entity);
-				dolibarr_del_const($db, $constvalue.'_URLAUTHORIZE', $conf->entity);
-				dolibarr_del_const($db, $constvalue.'_SCOPE', $conf->entity);
+				zionone_del_const($db, $constvalue.'_ID', $conf->entity);
+				zionone_del_const($db, $constvalue.'_SECRET', $conf->entity);
+				zionone_del_const($db, $constvalue.'_URL', $conf->entity);
+				zionone_del_const($db, $constvalue.'_URLAUTHORIZE', $conf->entity);
+				zionone_del_const($db, $constvalue.'_SCOPE', $conf->entity);
 
 				// Update name of token
 				$oldname = preg_replace('/^OAUTH_/', '', $constvalue);
@@ -212,13 +212,13 @@ if ($action == 'delete_entry') {
 
 	$globalkey = empty($provider) ? $label : $label.'-'.$provider;
 
-	if (!dolibarr_del_const($db, $globalkey.'_NAME', $conf->entity)
-		|| !dolibarr_del_const($db, $globalkey.'_ID', $conf->entity)
-		|| !dolibarr_del_const($db, $globalkey.'_SECRET', $conf->entity)
-		|| !dolibarr_del_const($db, $globalkey.'_URL', $conf->entity)
-		|| !dolibarr_del_const($db, $globalkey.'_URLAUTHORIZE', $conf->entity)
-		|| !dolibarr_del_const($db, $globalkey.'_SCOPE', $conf->entity)
-		|| !dolibarr_del_const($db, $globalkey.'_TENANT', $conf->entity)) {
+	if (!zionone_del_const($db, $globalkey.'_NAME', $conf->entity)
+		|| !zionone_del_const($db, $globalkey.'_ID', $conf->entity)
+		|| !zionone_del_const($db, $globalkey.'_SECRET', $conf->entity)
+		|| !zionone_del_const($db, $globalkey.'_URL', $conf->entity)
+		|| !zionone_del_const($db, $globalkey.'_URLAUTHORIZE', $conf->entity)
+		|| !zionone_del_const($db, $globalkey.'_SCOPE', $conf->entity)
+		|| !zionone_del_const($db, $globalkey.'_TENANT', $conf->entity)) {
 		setEventMessages($langs->trans("ErrorInEntryDeletion"), null, 'errors');
 		$error++;
 	} else {

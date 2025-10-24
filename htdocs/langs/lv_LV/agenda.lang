@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=Notikuma ID
 Actions=Notikumi
 Agenda=Darba kārtība
@@ -28,10 +28,10 @@ ViewWeek=Nedēļas skats
 ViewPerUser=Katra lietotāja skats
 ViewPerType=Viena veida skats
 AutoActions= Automātiskā aizpildīšana
-AgendaAutoActionDesc= Šeit jūs varat definēt notikumus, kurus vēlaties, lai programma Dolibarr automātiski izveidotu programmu. Ja nekas netiks pārbaudīts, žurnālos tiks iekļautas tikai manuālas darbības un tās tiks parādītas darba kārtībā. Automātiska darījumu uzraudzība, kas veikta objektos (validācija, statusa maiņa) netiks saglabāta.
-AgendaSetupOtherDesc= Šī lapa piedāvā iespējas, lai ļautu eksportēt jūsu Dolibarr notikumus ārējā kalendārā (Thunderbird, Google kalendārs utt.)
-AgendaExtSitesDesc=Šī lapa ļauj atzīt ārējos avotus kalendārus, lai redzētu savus notikumus uz Dolibarr kārtībā.
-ActionsEvents=Pasākumi, par kuriem Dolibarr radīs prasību kārtībā automātiski
+AgendaAutoActionDesc= Šeit jūs varat definēt notikumus, kurus vēlaties, lai programma ZionOne automātiski izveidotu programmu. Ja nekas netiks pārbaudīts, žurnālos tiks iekļautas tikai manuālas darbības un tās tiks parādītas darba kārtībā. Automātiska darījumu uzraudzība, kas veikta objektos (validācija, statusa maiņa) netiks saglabāta.
+AgendaSetupOtherDesc= Šī lapa piedāvā iespējas, lai ļautu eksportēt jūsu ZionOne notikumus ārējā kalendārā (Thunderbird, Google kalendārs utt.)
+AgendaExtSitesDesc=Šī lapa ļauj atzīt ārējos avotus kalendārus, lai redzētu savus notikumus uz ZionOne kārtībā.
+ActionsEvents=Pasākumi, par kuriem ZionOne radīs prasību kārtībā automātiski
 EventRemindersByEmailNotEnabled=Pasākumu atgādinājumi pa e-pastu netika iespējoti %s moduļa iestatījumos.
 ##### Agenda event labels #####
 NewCompanyToDolibarr=Trešā puse izveidota %s

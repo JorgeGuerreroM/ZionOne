@@ -50,9 +50,9 @@ class doc_generic_supplier_order_odt extends ModelePDFSuppliersOrders
 	public $issuer;
 
 	/**
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental' Dolibarr version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental' ZionOne version of the loaded document
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 
 	/**

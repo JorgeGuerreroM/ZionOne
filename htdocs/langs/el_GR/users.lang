@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=Τομέας HRM
 UserCard=Καρτέλα Χρήστη
 GroupCard=Καρτέλα Ομάδας
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=Σύνδεσμος προς χρήστη
 LinkedToDolibarrThirdParty=Σύνδεσμος προς τρίτο μέρος
 CreateDolibarrLogin=Δημιουργία ενός χρήστη
 CreateDolibarrThirdParty=Δημιουργία τρίτου μέρους
-LoginAccountDisableInDolibarr=Ο λογαριασμός απενεργοποιήθηκε στο Dolibarr
-PASSWORDInDolibarr=Ο κωδικός έχει τροποποιηθεί στο Dolibarr
+LoginAccountDisableInDolibarr=Ο λογαριασμός απενεργοποιήθηκε στο ZionOne
+PASSWORDInDolibarr=Ο κωδικός έχει τροποποιηθεί στο ZionOne
 UsePersonalValue=Χρήση προσωπικής επιλογής
 ExportDataset_user_1=Οι χρήστες και οι ιδιότητές τους
 ExportDataset_user_2=Λίστα συμβάντων ασφαλείας

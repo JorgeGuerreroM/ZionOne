@@ -28,7 +28,7 @@
  *		\brief      Page to setup extra fields of delivery
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/expedition.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';

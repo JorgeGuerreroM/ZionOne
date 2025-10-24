@@ -44,7 +44,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * @var int 	Module unique ID
-	 * @see https://wiki.dolibarr.org/index.php/List_of_modules_id
+	 * @see https://wiki.ZionOne.org/index.php/List_of_modules_id
 	 */
 	public $numero;
 
@@ -139,7 +139,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 	 */
 	public $rights_class;
 
-	const URL_FOR_BLACKLISTED_MODULES = 'https://ping.dolibarr.org/modules-blacklist.txt';
+	const URL_FOR_BLACKLISTED_MODULES = 'https://ping.ZionOne.org/modules-blacklist.txt';
 
 	const KEY_ID = 0;
 	const KEY_LABEL = 1;
@@ -201,7 +201,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 	 * The following keywords that can also be used are:
 	 * 'development'
 	 * 'experimental'
-	 * 'dolibarr': only for core modules that share its version
+	 * 'ZionOne': only for core modules that share its version
 	 * 'dolibarr_deprecated': only for deprecated core modules
 	 */
 	public $version;
@@ -482,14 +482,14 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 	public $phpmax;
 
 	/**
-	 * @var int[] Minimum version of Dolibarr required by module.
-	 * e.g.: Dolibarr ≥ 3.6 = array(3, 6)
+	 * @var int[] Minimum version of ZionOne required by module.
+	 * e.g.: ZionOne ≥ 3.6 = array(3, 6)
 	 */
 	public $need_dolibarr_version;
 
 	/**
-	 * @var int[] Maximum version of Dolibarr required by module.
-	 * e.g.: Dolibarr ≤ 3.6 = array(3, 6)
+	 * @var int[] Maximum version of ZionOne required by module.
+	 * e.g.: ZionOne ≤ 3.6 = array(3, 6)
 	 */
 	public $max_dolibarr_version;
 
@@ -523,7 +523,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 	{
 		$this->db = $db;
 	}
-	// We should but can't set this as abstract because this will make dolibarr hang
+	// We should but can't set this as abstract because this will make ZionOne hang
 	// after migration due to old module not implementing. We must wait PHP is able to make
 	// a try catch on Fatal error to manage this correctly.
 	// We need constructor into function unActivateModule into admin.lib.php
@@ -965,7 +965,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 	/**
 	 * Gives module version (translated if param $translated is on)
 	 * For 'experimental' modules, gives 'experimental' translation
-	 * For 'dolibarr' modules, gives Dolibarr version
+	 * For 'ZionOne' modules, gives ZionOne version
 	 *
 	 * @param  int 		$translated 		1=Special version keys are translated, 0=Special version keys are not translated
 	 * @return string               		Module version
@@ -982,7 +982,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 			$ret = ($translated ? $langs->transnoentitiesnoconv("VersionExperimental") : $newversion);
 		} elseif ($newversion == 'development') {
 			$ret = ($translated ? $langs->transnoentitiesnoconv("VersionDevelopment") : $newversion);
-		} elseif ($newversion == 'dolibarr') {
+		} elseif ($newversion == 'ZionOne') {
 			$ret = DOL_VERSION;
 		} elseif ($newversion) {
 			$ret = $newversion;
@@ -1003,7 +1003,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 	 */
 	public function getModulePosition()
 	{
-		if (in_array($this->version, array('dolibarr', 'dolibarr_deprecated', 'experimental', 'development'))) {	// core module
+		if (in_array($this->version, array('ZionOne', 'dolibarr_deprecated', 'experimental', 'development'))) {	// core module
 			return $this->module_position;
 		} else {																			// external module
 			if ($this->module_position >= 100000) {
@@ -1017,13 +1017,13 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * Tells if module is core or external.
-	 * Version = 'dolibarr', 'dolibarr_deprecated', 'experimental' and 'development' means core modules
+	 * Version = 'ZionOne', 'dolibarr_deprecated', 'experimental' and 'development' means core modules
 	 *
 	 * @return string  'core', 'external' or 'unknown'
 	 */
 	public function isCoreOrExternalModule()
 	{
-		if ($this->version == 'dolibarr' || $this->version == 'dolibarr_deprecated') {
+		if ($this->version == 'ZionOne' || $this->version == 'dolibarr_deprecated') {
 			return 'core';
 		}
 		if (!empty($this->version) && !in_array($this->version, array('experimental', 'development'))) {
@@ -2583,7 +2583,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * Function called when module is enabled.
-	 * The init function adds tabs, constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 * The init function adds tabs, constants, boxes, permissions and menus (defined in constructor) into ZionOne database.
 	 * It also creates data directories
 	 *
 	 * @param  string $options Options when enabling module ('', 'newboxdefonly', 'noboxes', 'menuonly')
@@ -2597,7 +2597,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 
 	/**
 	 * Function called when module is disabled.
-	 * The remove function removes tabs, constants, boxes, permissions and menus from Dolibarr database.
+	 * The remove function removes tabs, constants, boxes, permissions and menus from ZionOne database.
 	 * Data directories are not deleted
 	 *
 	 * @param  string $options Options when enabling module ('', 'noboxes')
@@ -2650,7 +2650,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 	    <div class="info-box-icon'.(!getDolGlobalString($const_name) ? '' : ' info-box-icon-module-enabled'.($versiontrans ? ' info-box-icon-module-warning' : '')).'">';
 
 		$alttext = '';
-		//if (is_array($objMod->need_dolibarr_version)) $alttext.=($alttext?' - ':'').'Dolibarr >= '.join('.',$objMod->need_dolibarr_version);
+		//if (is_array($objMod->need_dolibarr_version)) $alttext.=($alttext?' - ':'').'ZionOne >= '.join('.',$objMod->need_dolibarr_version);
 		//if (is_array($objMod->phpmin)) $alttext.=($alttext?' - ':'').'PHP >= '.join('.',$objMod->phpmin);
 		if (!empty($this->picto)) {
 			if (preg_match('/^\//i', $this->picto)) {
@@ -2731,7 +2731,7 @@ class DolibarrModules // Can not be abstract, because we need to instantiate it 
 	}
 
 	/**
-	 * Check for module compliance with Dolibarr rules and law
+	 * Check for module compliance with ZionOne rules and law
 	 * If a module is reported by this function,it is surely a malware. Delete it as soon as possible.
 	 *
 	 * @param	string		$nametocheck		Name to check

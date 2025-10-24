@@ -28,7 +28,7 @@
  *		\brief      Page des stats propositions commerciales
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/comm/propal/class/propalestats.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/dolgraph.class.php';

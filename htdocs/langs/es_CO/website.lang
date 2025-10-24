@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 WebsiteSetupDesc=Cree aquí los sitios web que desea utilizar. Luego, vaya al menú Sitios web para editarlos.
 ConfirmDeleteWebsite=¿Está seguro de que desea eliminar este sitio web? También se eliminarán todas sus páginas y contenido. Los archivos cargados (como en el directorio de medios, el módulo ECM, ...) permanecerán.
 WEBSITE_TYPE_CONTAINER=Tipo de página / contenedor
@@ -34,7 +34,7 @@ VirtualhostDesc=El nombre del host virtual o dominio (por ejemplo: www.miwebsite
 ToDeployYourWebsiteOnLiveYouHave3Solutions=Para implementar este sitio web en vivo, tienes 3 soluciones...
 SetHereVirtualHost=<u> Úselo con Apache / NGinx / ... </u> <br> Cree en su servidor web (Apache, Nginx, ...) un host virtual dedicado con PHP habilitado y un directorio raíz en <br><strong>%s</strong>
 YouCanAlsoTestWithPHPS=<u>Usar con servidor PHP integrado</u><br>En el entorno de desarrollo, es posible que prefieras probar el sitio con el servidor web PHP integrado ejecutando
-YouCanAlsoDeployToAnotherWHP=<u>Ejecute su sitio web dentro de un proveedor de alojamiento web Dolibarr</u><br>Si no tiene un servidor web como Apache o NGinx disponible en Internet, puede exportar e importar su sitio web a otra instancia de Dolibarr proporcionada por otro proveedor de alojamiento Dolibarr que proporcione integración completa con el módulo Sitio web. Puede encontrar una lista de algunos proveedores de alojamiento Dolibarr en <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Ejecute su sitio web dentro de un proveedor de alojamiento web ZionOne</u><br>Si no tiene un servidor web como Apache o NGinx disponible en Internet, puede exportar e importar su sitio web a otra instancia de ZionOne proporcionada por otro proveedor de alojamiento ZionOne que proporcione integración completa con el módulo Sitio web. Puede encontrar una lista de algunos proveedores de alojamiento ZionOne en <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Compruebe también que el usuario del host virtual (por ejemplo, www-data) tiene permisos <strong> %s </strong> en archivos en <br><strong>%s</strong>
 ReadPerm=Leer
 TestDeployOnWeb=Probar / implementar en la web

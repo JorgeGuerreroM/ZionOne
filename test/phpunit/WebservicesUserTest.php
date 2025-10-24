@@ -67,7 +67,7 @@ class WebservicesUserTest extends CommonClassTest
 
 		$WS_DOL_URL = DOL_MAIN_URL_ROOT.'/webservices/server_user.php';
 		$WS_METHOD  = 'getUser';
-		$ns = 'http://www.dolibarr.org/ns/';
+		$ns = 'http://www.ZionOne.org/ns/';
 
 		// Set the WebService URL
 		print __METHOD__." Create nusoap_client for URL=".$WS_DOL_URL."\n";

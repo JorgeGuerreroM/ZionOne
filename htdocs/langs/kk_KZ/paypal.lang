@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# ZionOne language file - Source file is en_US - paypal
 PaypalSetup=PayPal модулін орнату
-PaypalDesc=Бұл модуль тұтынушыларға <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> арқылы төлеуге мүмкіндік береді. Бұл арнайы төлем үшін немесе Dolibarr нысанына қатысты төлем үшін (шот-фактура, тапсырыс, ...)
+PaypalDesc=Бұл модуль тұтынушыларға <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer external">PayPal</a> арқылы төлеуге мүмкіндік береді. Бұл арнайы төлем үшін немесе ZionOne нысанына қатысты төлем үшін (шот-фактура, тапсырыс, ...)
 PaypalOrCBDoPayment=PayPal арқылы төлеу (карта немесе PayPal)
 PaypalDoPayment=PayPal арқылы төлеу
 PAYPAL_API_SANDBOX=Режимді тексеру/құм жәшігі

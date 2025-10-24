@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=Imports / Exports
 ExportsArea=Eksports
 ImportArea=Imports
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=Izvēlieties faila formātu, ko izmantot kā importa 
 ChooseFileToImport=Augšupielādējiet failu, pēc tam noklikšķiniet uz %s ikonas, lai atlasītu failu kā avota importa failu ...
 SourceFileFormat=Avota faila formāts
 FieldsInSourceFile=Lauki sākotnējā failā
-FieldsInTargetDatabase=Mērķa lauki Dolibarr datubāzē
+FieldsInTargetDatabase=Mērķa lauki ZionOne datubāzē
 NoFields=Nav lauki
 MoveField=Pārvietot lauka kolonnas numurs %s
 ExampleOfImportFile=Importa_faila_piemers

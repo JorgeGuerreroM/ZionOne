@@ -29,7 +29,7 @@
  *       \brief      tab for Adding, editing, deleting a member's memberships
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/member.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/date.lib.php';
@@ -409,7 +409,7 @@ if (empty($reshook) && $user->hasRight('adherent', 'cotisation', 'creer') && $ac
 						$listofmimes = array(dol_mimetype($file));
 					}
 
-					$moreinheader = 'X-Dolibarr-Info: send_an_email by adherents/subscription.php'."\r\n";
+					$moreinheader = 'X-ZionOne-Info: send_an_email by adherents/subscription.php'."\r\n";
 
 					$result = $object->sendEmail($texttosend, $subjecttosend, $listofpaths, $listofmimes, $listofnames, "", "", 0, -1, '', $moreinheader);
 					if ($result < 0) {
@@ -612,7 +612,7 @@ print '<tr><td>'.$form->textwithpicto($langs->trans("MembershipPublic"), $langs-
 $cols = 2;
 include DOL_DOCUMENT_ROOT.'/core/tpl/extrafields_view.tpl.php';
 
-// Third party Dolibarr
+// Third party ZionOne
 if (isModEnabled('societe')) {
 	print '<tr><td>';
 	print '<table class="nobordernopadding centpercent"><tr><td>';
@@ -655,7 +655,7 @@ if (isModEnabled('societe')) {
 	print '</td></tr>';
 }
 
-// Login Dolibarr - Link to user
+// Login ZionOne - Link to user
 print '<tr><td>';
 print '<table class="nobordernopadding centpercent"><tr><td>';
 print $langs->trans("LinkedToDolibarrUser");

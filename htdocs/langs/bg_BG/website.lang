@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Код
 WebsiteName=Име на уебсайта
 WebsiteSetupDesc=Регистрирайте тук уебсайтовете, които искате да използвате, след това отидете в менюто Уебсайтове, за да ги редактирате.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=За да разгърнете тоз
 SetHereVirtualHost=<u>Използвайте с Apache / Nginx / ...</u><br>Създайте на вашият уеб сървър (Apache, Nginx, ...) специален виртуален хост с PHP поддръжка и основна директория в<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Пример за използване при настройка на виртуалния хост в Apache:
 YouCanAlsoTestWithPHPS=<u>Използване с вграден PHP сървър</u><br>В среда за разработка може да предпочетете да тествате сайта с вградения PHP уеб сървър, като изпълните
-YouCanAlsoDeployToAnotherWHP=<u>Стартирайте уебсайта си в уеб хостинг доставчик на Dolibarr</u><br>Ако нямате уеб сървър като Apache или NGinx, наличен в интернет, можете да експортирате и импортирате уебсайта си в друг Dolibarr екземпляр, предоставен от друг доставчик на хостинг услуги на Dolibarr, който осигурява пълна интеграция с модула за уебсайтове. Можете да намерите списък с някои доставчици на хостинг услуги за Dolibarr на <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Стартирайте уебсайта си в уеб хостинг доставчик на ZionOne</u><br>Ако нямате уеб сървър като Apache или NGinx, наличен в интернет, можете да експортирате и импортирате уебсайта си в друг ZionOne екземпляр, предоставен от друг доставчик на хостинг услуги на ZionOne, който осигурява пълна интеграция с модула за уебсайтове. Можете да намерите списък с някои доставчици на хостинг услуги за ZionOne на <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Проверете също дали потребителят на виртуалния хост (например www-data) има <strong>%s</strong>  права на файлове в <br><strong>%s</strong>
 ReadPerm=Четене
 WritePerm=Писане
 TestDeployOnWeb=Тестване / внедряване в интернет
 PreviewSiteServedByWebServer=<u>Преглеждане на %s в нов раздел.</u> <br><br> %s ще се обслужва от външен уеб сървър (като Apache, Nginx, IIS). Трябва да инсталирате и настроите този сървър, преди да посочите директория: <br> <strong>%s</strong> <br> URL адрес, обслужван от външен сървър: <br> <strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Преглед на %s в нов раздел.</u><br><br>%s ще се обслужва от Dolibarr сървър, така че не е необходимо да се инсталира допълнителен уеб сървър (като Apache, Nginx, IIS).<br>Неудобството е, че URL адресите на страниците не са лесни за ползване и започват с пътя на вашия Dolibarr.<br>URL адрес, обслужван от Dolibarr:<br><strong>%s</strong><br><br>За да внедрите или тествате, използвайки ваш собствен външен уеб сървър (като Apache, Nginx, Lighttp), използвайте връзката „%s“.
+PreviewSiteServedByDolibarr=<u>Преглед на %s в нов раздел.</u><br><br>%s ще се обслужва от ZionOne сървър, така че не е необходимо да се инсталира допълнителен уеб сървър (като Apache, Nginx, IIS).<br>Неудобството е, че URL адресите на страниците не са лесни за ползване и започват с пътя на вашия ZionOne.<br>URL адрес, обслужван от ZionOne:<br><strong>%s</strong><br><br>За да внедрите или тествате, използвайки ваш собствен външен уеб сървър (като Apache, Nginx, Lighttp), използвайте връзката „%s“.
 VirtualHostUrlNotDefined=URL адресът на виртуалния хост, обслужван от външен уеб сървър, не е дефиниран.
 NoPageYet=Все още няма страници
 YouCanCreatePageOrImportTemplate=Може да създадете нова страница или да импортирате пълен шаблон на уебсайт
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Скоро ще бъдете пренасочен
 WebPortalSetupNotComplete=Настройката на уеб портала не е завършена
 DeleteWebsiteAccount=Изтриване на акаунт в уебсайта
 ConfirmDeleteWebsiteAccount=Сигурни ли сте, че искате, за да изтриете този акаунт.
-ConfirmDeleteWebsiteAccount2=Ако този акаунт е бил използван за влизане в публичния портал или друг уебсайт, задвижван от Dolibarr, влизането може да не е вече възможно.
+ConfirmDeleteWebsiteAccount2=Ако този акаунт е бил използван за влизане в публичния портал или друг уебсайт, задвижван от ZionOne, влизането може да не е вече възможно.
 ContentSecurityPolicy=HTTP политика за „Сигурност на съдържанието“ на уебсайта
 WebsiteSecurityForceRP=Политика за препращане към HTTP на уебсайта
 WebsiteSecurityForceSTS=HTTP на уебсайта „Strict-Transport-Security“

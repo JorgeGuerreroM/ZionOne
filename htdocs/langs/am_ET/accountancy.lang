@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=የሂሳብ አያያዝ
 Accounting=የሂሳብ አያያዝ
 ACCOUNTING_EXPORT_SEPARATORCSV=ወደ ውጭ የሚላክ ፋይል የአምድ መለያ
@@ -346,7 +346,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=በሽያጭ ላይ የሂሳብ አያያ�
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=በግዢዎች ላይ በሂሳብ አያያዝ ውስጥ ማሰር እና ማስተላለፍን ያሰናክሉ (የሻጭ ደረሰኞች በሂሳብ አያያዝ ውስጥ አይወሰዱም)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=በወጪ ሪፖርቶች ላይ የሂሳብ አያያዝ እና ማስተላለፍን ያሰናክሉ (የወጪ ሪፖርቶች በሂሳብ አያያዙም)
 ACCOUNTING_ENABLE_LETTERING=በሂሳብ አያያዝ ውስጥ የፊደል አጻጻፍ ተግባርን ያንቁ
-ACCOUNTING_ENABLE_LETTERING_DESC=When this options is enabled, you can define, on each accounting entry, a code so you can group different accounting movements together. In the past, when different journals was managed independently, this feature was necessary to group movement lines of different journals together. However, with Dolibarr accountancy, such a tracking code, called "<b>%s</b>" is already saved automatically, so an automatic lettering is already done, with no risk of error so this feature has become useless for a common usage. Manual lettering feature is provided for end users that really don't trust the computer engine making the transfer of data in accountancy.
+ACCOUNTING_ENABLE_LETTERING_DESC=When this options is enabled, you can define, on each accounting entry, a code so you can group different accounting movements together. In the past, when different journals was managed independently, this feature was necessary to group movement lines of different journals together. However, with ZionOne accountancy, such a tracking code, called "<b>%s</b>" is already saved automatically, so an automatic lettering is already done, with no risk of error so this feature has become useless for a common usage. Manual lettering feature is provided for end users that really don't trust the computer engine making the transfer of data in accountancy.
 EnablingThisFeatureIsNotNecessary=ይህንን ባህሪ ማንቃት ለጠንካራ የሂሳብ አያያዝ አስተዳደር አስፈላጊ አይሆንም።
 ACCOUNTING_ENABLE_AUTOLETTERING=ወደ አካውንቲንግ ሲተላለፉ አውቶማቲክ ፊደላትን አንቃ
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=የደብዳቤው ኮድ በራስ-ሰር ይፈልቃል እና ይጨምራል እናም በዋና ተጠቃሚ አልተመረጠም።

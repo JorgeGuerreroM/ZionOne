@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# ZionOne language file - Source file is en_US - loan
 IdModule= Modul id
 ModuleBuilderDesc=Dette værktøj må kun bruges af erfarne brugere eller udviklere. Det giver værktøjer til at bygge eller redigere dit eget modul. Dokumentation for alternativ <a href="%s" target="_blank" rel="noopener noreferrer"> manuel udvikling er her </a> .
 EnterNameOfModuleDesc=Indtast navnet på modulet/applikationen, der skal oprettes uden mellemrum. Brug store bogstaver til at adskille ord (for eksempel: MyModule, EcommerceForShop, SyncWithMySystem...)
@@ -30,7 +30,7 @@ EnterNameOfModuleToDeleteDesc=Du kan slette dit modul. ADVARSEL: Alle kodning fi
 EnterNameOfObjectToDeleteDesc=Du kan slette et objekt. ADVARSEL: Alle kodningsfiler (genereret eller oprettet manuelt) relateret til objektet vil blive slettet!
 DangerZone=Farezone
 BuildPackage=Byg pakke
-BuildPackageDesc=Du kan generere en zip-pakke med din applikation, så du er klar til at distribuere den på enhver Dolibarr. Du kan også distribuere det eller sælge det på markedet som <a href="https://www.dolistore.com">DoliStore.com</a>.
+BuildPackageDesc=Du kan generere en zip-pakke med din applikation, så du er klar til at distribuere den på enhver ZionOne. Du kan også distribuere det eller sælge det på markedet som <a href="https://www.dolistore.com">DoliStore.com</a>.
 BuildDocumentation=Byg dokumentation
 ModuleIsNotActive=Dette modul er ikke aktiveret endnu. Gå til %s for at gøre det live, eller klik her
 ModuleIsLive=Dette modul er aktiveret. Enhver ændring kan ødelægge en nuværende live-funktion.
@@ -110,7 +110,7 @@ HooksDefDesc=Definer i egenskaben <b>module_parts['hooks']</b>, i modulbeskrivel
 TriggerDefDesc=Definer i triggerfilen den kode, som du ønsker at udføre, når en forretningsbegivenhed eksternt til dit modul udføres (hændelser udløst af andre moduler).
 SeeIDsInUse=Se ID'er i brug i din installation
 SeeReservedIDsRangeHere=Se række af reserverede id'er
-ToolkitForDevelopers=Værktøjskasse til Dolibarr-udviklere
+ToolkitForDevelopers=Værktøjskasse til ZionOne-udviklere
 TryToUseTheModuleBuilder=Hvis du har kendskab til SQL og PHP, kan du bruge guiden til native modulbygger. <br> Aktiver modulet <strong> %s </ strong> og brug guiden ved at klikke på <span class = "fa fa-bug"> </ span> i øverste højre menu. <br> Advarsel: Dette er en avanceret udviklerfunktion, gør <b> ikke </ b> eksperiment på dit produktionssted!
 SeeTopRightMenu=Se <span class = "fa fa-bug"> </span> i øverste højre menu
 AddLanguageFile=Tilføj sprogfil

@@ -6,13 +6,13 @@
 # Copyright (C) 2024		MDW							<mdeweerd@users.noreply.github.com>
 #
 # Convert an ODT into a PDF using "native" or "jodconverter" or "pyodconverter" or "unoconv" tool.
-# Dolibarr variable MAIN_ODT_AS_PDF must be defined ...
+# ZionOne variable MAIN_ODT_AS_PDF must be defined ...
 #  to value "libreoffice" to call soffice native exporter feature (in such a case, this script is useless)
 #  or value "unoconv" to call unoconv CLI tool after ODT generation.
 #  or value "pyodconverter" to call DocumentConverter.py after ODT generation.
 #  or value "jodconverter" to call jodconverter wrapper after ODT generation
 #  or value "/pathto/jodconverter-cli-file.jar" to call jodconverter java tool without wrapper after ODT generation.
-# Dolibarr variable MAIN_DOL_SCRIPTS_ROOT must be defined to path of script directories (otherwise dolibarr will try to guess).
+# ZionOne variable MAIN_DOL_SCRIPTS_ROOT must be defined to path of script directories (otherwise ZionOne will try to guess).
 #
 # NOTE: Using this script is deprecated, you can now convert generated ODT to PDF on the fly by setting the value MAIN_ODT_AS_PDF
 # to 'libreoffice'. It requires only soffice (OpenOffice or LibreOffice) installed on server (use apt install soffice libreoffice-common libreoffice-writer).

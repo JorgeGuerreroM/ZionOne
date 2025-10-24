@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Ühtegi viga ei ole, teostame
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Väli <b>%s</b> ei tohi sisalda
 ErrorFieldMustHaveXChar=Väljal <b>%s</b> peab olema vähemalt %s tähemärki.
 ErrorNoAccountancyModuleLoaded=Ühtki raamatupidamise moodulit pole aktiveeritud
 ErrorExportDuplicateProfil=This profile name already exists for this export set.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP sobitamine ei ole täielik.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP sobitamine ei ole täielik.
 ErrorLDAPMakeManualTest=Kausta %s on loodud .ldif fail. Vigade kohta lisainfo saamiseks proovi selle käsitsi käsurealt laadimist.
 ErrorCantSaveADoneUserWithZeroPercentage=Toimingut olekuga "pole alustatud" ei saa salvestada, kui väli "valmis" on samuti täidetud.
 ErrorPleaseTypeBankTransactionReportName=Palun sisestage pangaväljavõtte nimi, kuhu kanne tuleb esitada (vormingus AAAAKK või AAAAKKPP)
@@ -149,7 +149,7 @@ ErrorNoActivatedBarcode=Ühtki vöötkoodi tüüpi pole aktiveeritud
 ErrUnzipFails=%s lahti pakkimine ZipArchivega ebaõnnestus
 ErrNoZipEngine=No engine to zip/unzip %s file in this PHP
 ErrorFileMustBeADolibarrPackage=Fail %s peab olema Dolibarri zip formaadis pakk
-ErrorModuleFileRequired=You must select a Dolibarr module package file
+ErrorModuleFileRequired=You must select a ZionOne module package file
 ErrorPhpCurlNotInstalled=PHP CURLei ole paigaldatud, see on PayPaliga suhtlemiseks vajalik
 ErrorFailedToAddToMailmanList=Kirje %s Mailmani listi %s või SPIPi baasi lisamine ebaõnnestus
 ErrorFailedToRemoveToMailmanList=Kirje %s Mailmaini listist %s või SPIPi baasist eemaldamine ebaõnnestus

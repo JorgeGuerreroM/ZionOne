@@ -28,7 +28,7 @@ if (! defined('CSRFCHECK_WITH_TOKEN')) {
 	define('CSRFCHECK_WITH_TOKEN', '1');		// Force use of CSRF protection with tokens even for GET
 }
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../../main.inc.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 
@@ -93,7 +93,7 @@ if ($action == 'confirm_lock' && $confirm == 'yes' && $user->admin) {
 
 // Unlock new sessions
 if ($action == 'confirm_unlock' && $user->admin) {
-	if (dolibarr_del_const($db, 'MAIN_ONLY_LOGIN_ALLOWED', -1) < 0) {
+	if (zionone_del_const($db, 'MAIN_ONLY_LOGIN_ALLOWED', -1) < 0) {
 		dol_print_error($db);
 	}
 }

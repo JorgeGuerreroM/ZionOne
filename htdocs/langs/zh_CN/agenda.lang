@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# ZionOne language file - Source file is en_US - agenda
 IdAgenda=事件 ID
 Actions=事件
 Agenda=日程
@@ -28,10 +28,10 @@ ViewWeek=周视图
 ViewPerUser=用户视图
 ViewPerType=类型视图
 AutoActions= 自动填写
-AgendaAutoActionDesc= 在这里您可以定义您希望 Dolibarr 在日程中自动创建的事件。如果未选中任何内容，则仅有手动操作被包含在日志中、并显示在日程中。对对象执行的业务操作（验证、状态更改）的自动跟踪将不会被保存在日志或日程中。
-AgendaSetupOtherDesc= 此页面提供允许将 Dolibarr 事件导出到外部日历（Thunderbird、Google 日历等...）的选项
-AgendaExtSitesDesc=此页面允许声明日历的外部来源，以将其事件纳入 Dolibarr 日程中。
-ActionsEvents=Dolibarr 将自动在日程中创建一个操作的事件
+AgendaAutoActionDesc= 在这里您可以定义您希望 ZionOne 在日程中自动创建的事件。如果未选中任何内容，则仅有手动操作被包含在日志中、并显示在日程中。对对象执行的业务操作（验证、状态更改）的自动跟踪将不会被保存在日志或日程中。
+AgendaSetupOtherDesc= 此页面提供允许将 ZionOne 事件导出到外部日历（Thunderbird、Google 日历等...）的选项
+AgendaExtSitesDesc=此页面允许声明日历的外部来源，以将其事件纳入 ZionOne 日程中。
+ActionsEvents=ZionOne 将自动在日程中创建一个操作的事件
 EventRemindersByEmailNotEnabled=在 %s 模块设置中未启用通过电子邮件发送事件提醒。
 ##### Agenda event labels #####
 NewCompanyToDolibarr=合作方 %s 已创建

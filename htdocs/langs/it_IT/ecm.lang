@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# ZionOne language file - Source file is en_US - ecm
 ECMNbOfDocs=No. of documents in directory
 ECMSection=Directory
 ECMSectionManual=Directory manuale
@@ -16,7 +16,7 @@ ECMNbOfSubDir=Numero di sottodirectory
 ECMNbOfFilesInSubDir=Numero di file nelle sub-directory
 ECMCreationUser=Creatore
 ECMArea=Area DMS/ECM
-ECMAreaDesc=L'area DMS/ECM (Document Management System / Electronic Content Management) consente di salvare, condividere e cercare rapidamente tutti i tipi di documenti in Dolibarr.
+ECMAreaDesc=L'area DMS/ECM (Document Management System / Electronic Content Management) consente di salvare, condividere e cercare rapidamente tutti i tipi di documenti in ZionOne.
 ECMAreaDesc2a=* È possibile utilizzare directory manuali per salvare documenti con una libera organizzazione della struttura ad albero.
 ECMAreaDesc2b=* Le directory automatiche vengono riempite automaticamente quando si aggiungono documenti dalla pagina di un elemento.
 ECMAreaDesc3=* Le directory pubbliche sono file nella sottodirectory <b>/medias</b> dei documenti directory, leggibili da chiunque su Internet senza bisogno di registrarsi e; non è necessario che file sia condiviso esplicitamente. Viene utilizzato per memorizzare file di immagini per l'invio tramite e-mail o per il sito Web modulo per Esempio.

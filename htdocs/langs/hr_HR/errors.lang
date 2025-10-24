@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nema greške, obvezujemo se
@@ -58,7 +58,7 @@ ErrorFieldsRequired=Neka obavezna polja ostavljena su prazna.
 ErrorSubjectIsRequired=Predmet e-pošte je obavezan
 ErrorInAddAttachmentsImageBaseOnMedia=Pogreška u stvaranju slikovnih datoteka u medijski direktorij za privitak
 ErrorInAddAttachmentsImageBaseIsSrcData=Pogreška u stvaranju slikovnih datoteka (pronađenih kao podaci:) u privremenom direktoriju za privitak
-ErrorFailedToCreateDir=Izrada mape nije uspjela. Provjerite ima li korisnik web poslužitelja dopuštenje za pisanje u mapu dokumenata Dolibarr. Ako je parametar <b> safe_mode </b> omogućen na ovom PHP-u, provjerite posjeduju li Dolibarr php datoteke korisniku (ili grupi) web poslužitelja.
+ErrorFailedToCreateDir=Izrada mape nije uspjela. Provjerite ima li korisnik web poslužitelja dopuštenje za pisanje u mapu dokumenata ZionOne. Ako je parametar <b> safe_mode </b> omogućen na ovom PHP-u, provjerite posjeduju li ZionOne php datoteke korisniku (ili grupi) web poslužitelja.
 ErrorNoMailDefinedForThisUser=Za ovog korisnika nije definirana pošta
 ErrorSetupOfEmailsNotComplete=Postavljanje e-pošte nije dovršeno
 ErrorAccountingClosureSetupNotComplete=Postavljanje računa za zatvaranje nije dovršeno
@@ -89,7 +89,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Polje <b>%s</b> ne smije sadrž
 ErrorFieldMustHaveXChar=Polje <b> %s </b> mora imati najmanje %s znakova.
 ErrorNoAccountancyModuleLoaded=Računovodstveni modul nije aktiviran
 ErrorExportDuplicateProfil=Ovaj naziv profila već postoji za ovaj skup za izvoz.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP podudaranje nije dovršeno.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP podudaranje nije dovršeno.
 ErrorLDAPMakeManualTest=U direktoriju %s generirana je .ldif datoteka. Pokušajte ga ručno učitati iz naredbenog retka kako biste imali više informacija o pogreškama.
 ErrorCantSaveADoneUserWithZeroPercentage=Ne može se spremiti radnja sa "statusom nije pokrenut" ako je također popunjeno polje "done by".
 ErrorPleaseTypeBankTransactionReportName=Unesite naziv bankovnog izvoda na kojem se unos mora prijaviti (format YYYYMM ili YYYYMMDD)
@@ -123,8 +123,8 @@ ErrorProdIdAlreadyExist=%s je dodjeljen to drugom
 ErrorFailedToSendPassword=Slanje lozinke nije uspjelo
 ErrorFailedToLoadRSSFile=Ne uspijeva dobiti RSS feed. Pokušajte dodati konstantu MAIN_SIMPLEXMLLOAD_DEBUG ako poruke o grešci ne pružaju dovoljno informacija.
 ErrorForbidden=Pristup odbijen.<br>Pokušavate pristupiti stranici, području ili značajki onemogućenog modula ili bez da ste u autentificiranoj sesiji ili to nije dopušteno vašem korisniku.
-ErrorForbidden2=Dopuštenje za ovu prijavu može definirati vaš Dolibarr administrator iz izbornika %s->%s.
-ErrorForbidden3=Čini se da se Dolibarr ne koristi kroz autentificiranu sesiju. Pogledajte dokumentaciju za postavljanje Dolibarra da znate kako upravljati autentifikacijom (htaccess, mod_auth ili drugo...).
+ErrorForbidden2=Dopuštenje za ovu prijavu može definirati vaš ZionOne administrator iz izbornika %s->%s.
+ErrorForbidden3=Čini se da se ZionOne ne koristi kroz autentificiranu sesiju. Pogledajte dokumentaciju za postavljanje Dolibarra da znate kako upravljati autentifikacijom (htaccess, mod_auth ili drugo...).
 ErrorForbidden4=Napomena: izbrišite kolačiće preglednika kako biste uništili postojeće sesije za ovu prijavu.
 ErrorNoImagickReadimage=Klasa Imagick nije pronađena u ovom PHP-u. Pregled nije dostupan. Administratori mogu onemogućiti ovu karticu iz izbornika Podešavanje - Prikaz.
 ErrorRecordAlreadyExists=Zapis već postoji
@@ -148,8 +148,8 @@ ErrorWebServerUserHasNotPermission=Korisnički račun <b>%s</b> koji pokreće we
 ErrorNoActivatedBarcode=Nema aktivirane vrste crtičnog koda
 ErrUnzipFails=Nije uspjelo raspakiranje %s pomoću ZipArchivea
 ErrNoZipEngine=Nema mehanizma za zip/raspakiranje %s datoteke u ovom PHP-u
-ErrorFileMustBeADolibarrPackage=Datoteka %s mora biti Dolibarr zip paket
-ErrorModuleFileRequired=Morate odabrati datoteku paketa Dolibarr modula
+ErrorFileMustBeADolibarrPackage=Datoteka %s mora biti ZionOne zip paket
+ErrorModuleFileRequired=Morate odabrati datoteku paketa ZionOne modula
 ErrorPhpCurlNotInstalled=PHP CURL nije instaliran, ovo je bitno za razgovor s Paypalom
 ErrorFailedToAddToMailmanList=Nije uspjelo dodavanje zapisa %s na popis Mailman %s ili SPIP bazu
 ErrorFailedToRemoveToMailmanList=Nije uspjelo uklanjanje zapisa %s na popis Mailman %s ili SPIP bazu
@@ -162,7 +162,7 @@ ErrorDateMustBeInFuture=Datum mora biti veći od današnjeg
 ErrorStartDateGreaterEnd=Datum početka je duži od datuma završetka
 ErrorPaymentModeDefinedToWithoutSetup=Način plaćanja postavljen je na tip %s, ali postavljanje modula Faktura nije dovršeno da bi se definirale informacije koje se prikazuju za ovaj način plaćanja.
 ErrorPHPNeedModule=Pogreška, vaš PHP mora imati instaliran modul <b>%s</b> da biste koristili ovo značajka.
-ErrorOpenIDSetupNotComplete=Postavili ste Dolibarr konfiguracijsku datoteku da omogući OpenID Ovjera vjerodostojnosti, ali URL OpenID usluge nije definiran kao konstanta %s
+ErrorOpenIDSetupNotComplete=Postavili ste ZionOne konfiguracijsku datoteku da omogući OpenID Ovjera vjerodostojnosti, ali URL OpenID usluge nije definiran kao konstanta %s
 ErrorWarehouseMustDiffers=Izvorna i ciljna skladišta moraju se razlikovati
 ErrorBadFormat=Loš format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Pogreška, ovaj član još nije povezan ni s jednom trećom stranom. Povežite član s postojećom trećom stranom ili izradi novom trećom stranom prije stvaranja pretplate s fakturom.
@@ -350,7 +350,7 @@ ErrorNoCloneWithoutEmail=Novi korisnik mora imati e-pošta
 ErrorUserClone=Pogreška u korisničkom klonu Kategorije
 ErrorQtyOrderedLessQtyShipped = Naručena količina ne može biti manja od isporučene količine.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Pogreška, stvaranje različitih plaćanja na bankovnom računu s valutom različitom od valute tvrtka još nije podržano.
-ErrorStreamMustBeEnabled=PHP tok %s nije dostupan. Provjeri vaši PHP moduli i Dolibarr parametar $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=PHP tok %s nije dostupan. Provjeri vaši PHP moduli i ZionOne parametar $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Pogreška, pokušavate platiti različite fakture s različitim valutama u istom plaćanju
 ErrorLinkNotFoundWithSharedLink=Pogreška, veza nije pronađena s ovim dijeljenim ključem
 ErrorBadNumberOfLinesMustHaveAtLeastOneLinePlusTitle=Pogrešan broj redaka. Datoteke moraju imati barem 2 retka (1 redak za naslov i 1 redak za podatke)
@@ -363,7 +363,7 @@ ErrorNoValueForSelectListType=Greška, vrijednost za ovu vrstu polja je obavezna
 
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Vaš PHP parametar upload_max_filesize (%s) veći je od PHP parametra post_max_size (%s). Ovo nije dosljedna postavka.
-WarningPasswordSetWithNoAccount=Lozinka je postavljena za ovaj član. Međutim, nijedan korisnički račun nije stvoren. Dakle, ova lozinka je pohranjena, ali se ne može koristiti za prijavu na Dolibarr. Može ga koristiti vanjski modul/sučelje, ali ako ne trebate definirati nikakvu prijavu niti lozinku za član, možete onemogućiti opciju "Upravljanje prijavom za svaki član" iz postavljanja modula član. Ako trebate upravljati prijavom, ali vam nije potrebna lozinka, ovo polje možete ostaviti praznim kako biste izbjegli ovo upozorenje. Napomena: e-pošta također se može koristiti kao prijava ako je član povezan s korisnikom.
+WarningPasswordSetWithNoAccount=Lozinka je postavljena za ovaj član. Međutim, nijedan korisnički račun nije stvoren. Dakle, ova lozinka je pohranjena, ali se ne može koristiti za prijavu na ZionOne. Može ga koristiti vanjski modul/sučelje, ali ako ne trebate definirati nikakvu prijavu niti lozinku za član, možete onemogućiti opciju "Upravljanje prijavom za svaki član" iz postavljanja modula član. Ako trebate upravljati prijavom, ali vam nije potrebna lozinka, ovo polje možete ostaviti praznim kako biste izbjegli ovo upozorenje. Napomena: e-pošta također se može koristiti kao prijava ako je član povezan s korisnikom.
 WarningMandatorySetupNotComplete=Kliknite ovdje za postavljanje glavnih parametara
 WarningEnableYourModulesApplications=Kliknite ovdje da biste omogućili svoje module i aplikacije
 WarningSafeModeOnCheckExecDir=Upozorenje, uključena je PHP opcija <b>safe_mode</b> pa se naredba mora pohraniti unutar direktorija deklariranog php parametrom <b>safe_mode_exec_dir</b>.
@@ -410,7 +410,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Upozorenje, čitanje bankovnog ra�
 WarningNoDataTransferedInAccountancyYet=Napominjemo da u knjigovodstvenoj tablici nema podataka. Prenesite svoje podatke zabilježene u aplikaciji u odjeljak za računovodstvo ili promijenite način izračuna kako biste analizirali podatke zabilježene izvan računovodstva.
 WarningChangingThisMayBreakStopTaskScheduler=Upozorenje, promjena ove vrijednosti može onemogućiti planer
 WarningAmountOfFileDiffersFromSumOfLines=Upozorenje, količina datoteke (%s) razlikuje se od zbroja redaka (%s)
-WarningModuleAffiliatedToAReportedCompany=Upozorenje, ovaj je modul prijavljen Dolibarru Zaklada da ga je objavio tvrtka korištenjem nezakonitih postupaka (nepridržavanje pravila za korištenje robne marke Dolibarr, prikupljanje vaših podataka bez vašeg pristanka ili uvođenje zlonamjernog softvera).
+WarningModuleAffiliatedToAReportedCompany=Upozorenje, ovaj je modul prijavljen Dolibarru Zaklada da ga je objavio tvrtka korištenjem nezakonitih postupaka (nepridržavanje pravila za korištenje robne marke ZionOne, prikupljanje vaših podataka bez vašeg pristanka ili uvođenje zlonamjernog softvera).
 WarningModuleAffiliatedToAPiratPlatform=Budite oprezni kada preuzimate modul (koji se plaća ili besplatan) sa sumnjive neslužbene platforme kao što je %s
 
 SwissQrOnlyVIR = SwissQR faktura može se dodati samo na fakture postavljene za plaćanje kreditnim prijenosom.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Kod
 WebsiteName=Web sitesinin adı
 WebsiteSetupDesc=Kullanmak istediğiniz web sitelerini burada oluşturun. Daha sonra bunları düzenlemek için "Web siteleri" menüsüne gidin.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Bu web sitesini canlı olarak dağıt
 SetHereVirtualHost=<u>Apache/NGinx/... ile kullanın</u><br>Oluşturma tarihi web sunucunuz (Apache, Nginx, ...), PHP etkinleştirilmiş özel bir Sanal Ana Bilgisayar ve<br><strong> üzerinde bir Kök dizin %s</strong>
 ExampleToUseInApacheVirtualHostConfig=Apache sanal konak kurulumunda kullanılacak örnek:
 YouCanAlsoTestWithPHPS=<u>PHP gömülü sunucusuyla kullanın</u><br>Geliştirme ortamında, PHP gömülü web sunucusunu çalıştırarak siteyi test etmeyi tercih edebilirsiniz
-YouCanAlsoDeployToAnotherWHP=<u>Web sitenizi bir Dolibarr web barındırma sağlayıcısında çalıştırın</u><br>İnternette Apache veya NGinx gibi bir web sunucunuz yoksa, ve'i dışa aktarabilir veya web sitenizi Web sitesi modülüyle tam entegrasyon sağlayan başka bir Dolibarr barındırma sağlayıcısı tarafından sağlanan başka bir Dolibarr örneğine aktarabilirsiniz. Bazı Dolibarr barındırma sağlayıcılarının Liste'ini <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a> adresinde bulabilirsiniz
+YouCanAlsoDeployToAnotherWHP=<u>Web sitenizi bir ZionOne web barındırma sağlayıcısında çalıştırın</u><br>İnternette Apache veya NGinx gibi bir web sunucunuz yoksa, ve'i dışa aktarabilir veya web sitenizi Web sitesi modülüyle tam entegrasyon sağlayan başka bir ZionOne barındırma sağlayıcısı tarafından sağlanan başka bir ZionOne örneğine aktarabilirsiniz. Bazı ZionOne barındırma sağlayıcılarının Liste'ini <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a> adresinde bulabilirsiniz
 CheckVirtualHostPerms=Ayrıca sanal ana bilgisayar kullanıcısının (örneğin www-data) <strong>%s</strong>'a sahip olup olmadığını kontrol edin.  <br><strong>%s</strong>
 ReadPerm=Okundu
 WritePerm=Yaz
 TestDeployOnWeb=Web'de dene/yayınla
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>%s'i yeni bir sekmede önizleyin.</u><br><br>%s, Dolibarr sunucusu tarafından destekleneceğinden herhangi bir ekstra web sunucusunun (Apache, Nginx, IIS gibi) kurulmasına gerek yoktur.<br>Sakıncası, sayfaların URL'lerinin kullanıcı dostu olmamasıdır. ve Dolibarr'ınızın yoluyla başlar.<br>Dolibarr tarafından sunulan URL:<br><strong>%s</strong><br><br>Kendi harici web sunucunuzu (Apache, Nginx, Lighttp gibi) kullanarak dağıtmak veya test etmek için bağlantı "%s" komutunu kullanın.
+PreviewSiteServedByDolibarr=<u>%s'i yeni bir sekmede önizleyin.</u><br><br>%s, ZionOne sunucusu tarafından destekleneceğinden herhangi bir ekstra web sunucusunun (Apache, Nginx, IIS gibi) kurulmasına gerek yoktur.<br>Sakıncası, sayfaların URL'lerinin kullanıcı dostu olmamasıdır. ve ZionOne'ınızın yoluyla başlar.<br>ZionOne tarafından sunulan URL:<br><strong>%s</strong><br><br>Kendi harici web sunucunuzu (Apache, Nginx, Lighttp gibi) kullanarak dağıtmak veya test etmek için bağlantı "%s" komutunu kullanın.
 VirtualHostUrlNotDefined=Harici web sunucusu tarafından sunulan sanal host URL'si tanımlanmamış
 NoPageYet=Henüz hiç sayfa yok
 YouCanCreatePageOrImportTemplate=Yeni bir sayfa oluşturabilir veya tam bir web sitesi şablonunu içe aktarabilirsiniz
@@ -368,7 +368,7 @@ youWillBeRedirectedToOrderPage=Kısa süre içinde sipariş ayrıntıları sayfa
 WebPortalSetupNotComplete=Web portalı kurulumu tamamlanmadı
 DeleteWebsiteAccount=Web sitesi hesabını sil
 ConfirmDeleteWebsiteAccount=Bu hesabı silmek için İstediğinizden emin misiniz?
-ConfirmDeleteWebsiteAccount2=Eğer bu hesap Dolibarr tarafından desteklenen genel portala veya herhangi bir başka web sitesine giriş yapmak için kullanılmışsa, giriş artık mümkün olmayabilir.
+ConfirmDeleteWebsiteAccount2=Eğer bu hesap ZionOne tarafından desteklenen genel portala veya herhangi bir başka web sitesine giriş yapmak için kullanılmışsa, giriş artık mümkün olmayabilir.
 ContentSecurityPolicy=Web sitesi HTTP "İçerik Güvenlik Politikası"
 WebsiteSecurityForceRP=Web sitesi HTTP "Yönlendiren Politikası"
 WebsiteSecurityForceSTS=Web sitesi HTTP "Katı Aktarım Güvenliği"

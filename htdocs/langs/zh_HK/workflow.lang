@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - workflow
+# ZionOne language file - Source file is en_US - workflow
 WorkflowSetup=工作流程模組設置
 WorkflowDesc=此模組提供一些自動操作。默認情況下，工作流程是開放的（您可以按照自己的順序操作），但是您可以在此處啟用一些自動操作。
 ThereIsNoWorkflowToModify=啟用的模組不提供任何工作流程修改。

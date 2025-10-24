@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ticket
+# ZionOne language file - Source file is en_US - ticket
 Module56000Name=Billets
 Module56000Desc=Système de tickets pour la gestion des problèmes ou des demandes
 Permission56001=Voir les billets
@@ -120,7 +120,7 @@ TicketGoIntoContactTab=Veuillez aller dans l'onglet « Contacts » pour les s�
 TicketMessageMailIntro=En-tête du message
 TicketMessageMailIntroHelp=Ce texte est ajouté uniquement au début de l'email et ne sera pas enregistré.
 TicketMessageMailIntroText=Bonjour,<br>Une nouvelle réponse a été ajoutée à un ticket que vous suivez. Voici le message :<br>
-TicketMessageMailIntroHelpAdmin=Ce texte sera inséré avant la réponse lors de la réponse à un ticket depuis Dolibarr
+TicketMessageMailIntroHelpAdmin=Ce texte sera inséré avant la réponse lors de la réponse à un ticket depuis ZionOne
 TicketMessageMailFooter=Pied de page du message
 TicketMessageMailFooterHelp=Ce texte est ajouté uniquement à la fin du message envoyé par email et ne sera pas enregistré.
 TicketMessageHelp=Seul ce texte sera enregistré dans la liste des messages sur la carte du ticket.

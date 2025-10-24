@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Read Scheduled job
 Permission23102 = Create/update Scheduled job
@@ -64,10 +64,10 @@ CronTaskInactive=See töö on keelatud (pole ajastatud)
 CronId=ID
 CronClassFile=Filename with class
 CronModuleHelp=Dolibarri mooduli kataloogi nimi (töötab ka välise Dolibarri mooduliga). <BR> Näiteks Dolibarri tooteobjekti /htdocs/<u>product</u>/class/product.class.php toomise meetodi kutsumiseks on mooduli väärtus<br><i>product</i>
-CronClassFileHelp=Laaditava faili suhteline tee ja nimi (tee on veebiserveri juurkataloogi suhtes). <BR> Näiteks Dolibarr Product objekti htdocs/product/class/<u>product.class.php</u> toomise meetodi kutsumiseks on klassi failinime väärtus<br><i>product/class/product.class.php</i>
-CronObjectHelp=Laaditava objekti nimi. <BR> Näiteks Dolibarr Producti objekti /htdocs/product/class/product.class.php fetch-meetodi kutsumiseks on klassi failinime väärtus<br><i>Product</i>
-CronMethodHelp=Käivitatav objektimeetod. <BR> Näiteks Dolibarr Producti objekti /htdocs/product/class/product.class.php meetodi fetch kutsumiseks on meetodi väärtus<br><i>fetch</i>
-CronArgsHelp=Meetodi argumendid. <BR> Näiteks Dolibarr Product objekti /htdocs/product/class/product.class.php meetodi fetch kutsumiseks võivad parameetrite väärtused olla<br><i>0, ProductRef</i>
+CronClassFileHelp=Laaditava faili suhteline tee ja nimi (tee on veebiserveri juurkataloogi suhtes). <BR> Näiteks ZionOne Product objekti htdocs/product/class/<u>product.class.php</u> toomise meetodi kutsumiseks on klassi failinime väärtus<br><i>product/class/product.class.php</i>
+CronObjectHelp=Laaditava objekti nimi. <BR> Näiteks ZionOne Producti objekti /htdocs/product/class/product.class.php fetch-meetodi kutsumiseks on klassi failinime väärtus<br><i>Product</i>
+CronMethodHelp=Käivitatav objektimeetod. <BR> Näiteks ZionOne Producti objekti /htdocs/product/class/product.class.php meetodi fetch kutsumiseks on meetodi väärtus<br><i>fetch</i>
+CronArgsHelp=Meetodi argumendid. <BR> Näiteks ZionOne Product objekti /htdocs/product/class/product.class.php meetodi fetch kutsumiseks võivad parameetrite väärtused olla<br><i>0, ProductRef</i>
 CronCommandHelp=Käivitatav süsteemi käsk.
 CronCreateJob=Create new Scheduled Job
 CronFrom=Kellelt

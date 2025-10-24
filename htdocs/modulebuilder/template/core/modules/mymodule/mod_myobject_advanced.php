@@ -37,10 +37,10 @@ dol_include_once('/mymodule/core/modules/mymodule/modules_myobject.php');
 class mod_myobject_advanced extends ModeleNumRefMyObject
 {
 	/**
-	 * Dolibarr version of the loaded document
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z''development'|'experimental'|'dolibarr'
+	 * ZionOne version of the loaded document
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z''development'|'experimental'|'ZionOne'
 	 */
-	public $version = 'dolibarr'; // 'development', 'experimental', 'dolibarr'
+	public $version = 'ZionOne'; // 'development', 'experimental', 'ZionOne'
 
 	/**
 	 * @var string Error message

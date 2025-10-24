@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Kontabilitatea
 Accounting=Accounting
 ACCOUNTING_EXPORT_SEPARATORCSV=Column separator for export file
@@ -346,7 +346,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Desgaitu lotura eta transferentzia kontabili
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Desgaitu lotura eta transferentzia kontabilitatean erosketetan (saltzaileen fakturak ez dira kontuan hartuko kontabilitatean)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Desgaitu gastu-txostenetan kontabilitatean lotura eta transferentzia (gastu-txostenak ez dira kontuan hartuko kontabilitatean)
 ACCOUNTING_ENABLE_LETTERING=Gaitu letra-funtzioa kontabilitatean
-ACCOUNTING_ENABLE_LETTERING_DESC=Aukera hau gaituta dagoenean, kontabilitate-sarrera bakoitzean kode bat defini dezakezu, kontabilitate-mugimendu desberdinak elkarrekin taldekatzeko. Lehen, aldizkari desberdinak modu independentean kudeatzen zirenean, funtzio hau beharrezkoa zen aldizkari desberdinen mugimendu-lerroak elkarrekin taldekatzeko. Hala ere, Dolibarr kontabilitatearekin, "<b>%s</b>" izeneko jarraipen-kode hori automatikoki gordetzen da, beraz, letra automatikoa dagoeneko egiten da, errore-arriskurik gabe, eta funtzio hau alferrikakoa bihurtu da erabilera arrunterako. Eskuzko letra-funtzioa kontabilitatean datuak transferitzen dituen ordenagailu-motorrean konfiantzarik ez duten azken erabiltzaileentzat eskaintzen da.
+ACCOUNTING_ENABLE_LETTERING_DESC=Aukera hau gaituta dagoenean, kontabilitate-sarrera bakoitzean kode bat defini dezakezu, kontabilitate-mugimendu desberdinak elkarrekin taldekatzeko. Lehen, aldizkari desberdinak modu independentean kudeatzen zirenean, funtzio hau beharrezkoa zen aldizkari desberdinen mugimendu-lerroak elkarrekin taldekatzeko. Hala ere, ZionOne kontabilitatearekin, "<b>%s</b>" izeneko jarraipen-kode hori automatikoki gordetzen da, beraz, letra automatikoa dagoeneko egiten da, errore-arriskurik gabe, eta funtzio hau alferrikakoa bihurtu da erabilera arrunterako. Eskuzko letra-funtzioa kontabilitatean datuak transferitzen dituen ordenagailu-motorrean konfiantzarik ez duten azken erabiltzaileentzat eskaintzen da.
 EnablingThisFeatureIsNotNecessary=Ezaugarri hau gaitzea ez da beharrezkoa kontabilitate kudeaketa zorrotz bat egiteko.
 ACCOUNTING_ENABLE_AUTOLETTERING=Gaitu letra automatikoa kontabilitatera transferitzean
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=Letren kodea automatikoki sortzen eta handitzen da, eta ez du azken erabiltzaileak aukeratzen.

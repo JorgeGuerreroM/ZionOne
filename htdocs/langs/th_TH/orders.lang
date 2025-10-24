@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=คำสั่งซื้อถูกเปิดแล้วซึ่งเชื่อมโยงกับข้อเสนอนี้ ดังนั้นจึงไม่มีการสร้างคำสั่งซื้ออื่นโดยอัตโนมัติ
 OrdersArea=ลูกค้าที่สั่งซื้อในพื้นที่
 SuppliersOrdersArea=พื้นที่สั่งซื้อสินค้า

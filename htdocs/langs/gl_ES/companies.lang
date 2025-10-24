@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Os seus datos de contacto foron rexistrados. Voltaremos  pronto...
 ContactUsDesc=Este formulario permítelle enviarnos unha mensaxe para un primeiro contacto.
 ErrorCompanyNameAlreadyExists=O nome da empresa %s xa existe. Escolla outro.

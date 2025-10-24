@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# ZionOne language file - Source file is en_US - products
 ProductRef=Produkt čj.
 ProductLabel=Produkt štítok
 ProductLabelTranslated=Preložený názov produktu
@@ -300,7 +300,7 @@ MinSupplierPrice=Minimálna nákupná cena
 MinCustomerPrice=Minimálna predajná cena
 NoDynamicPrice=Žiadna dynamická cena
 DynamicPriceConfiguration=Nastavenie dynamickej ceny
-DynamicPriceDesc=Môžete definovať matematické vzorce na výpočet zákazníckych alebo dodávateľských cien. Takéto vzorce môžu používať všetky matematické operátory, niektoré konštanty a premenné. Tu môžete definovať premenné, ktoré chcete použiť. Ak premenná potrebuje automatickú aktualizáciu, môžete definovať externú adresu URL, aby Dolibarr mohol automaticky aktualizovať hodnotu.
+DynamicPriceDesc=Môžete definovať matematické vzorce na výpočet zákazníckych alebo dodávateľských cien. Takéto vzorce môžu používať všetky matematické operátory, niektoré konštanty a premenné. Tu môžete definovať premenné, ktoré chcete použiť. Ak premenná potrebuje automatickú aktualizáciu, môžete definovať externú adresu URL, aby ZionOne mohol automaticky aktualizovať hodnotu.
 AddVariable=Pridať premennú
 AddUpdater=Pridať aktualizátor
 GlobalVariables=Globálna premenná
@@ -388,7 +388,7 @@ NewProductAttribute=Nový atribút
 NewProductAttributeValue=Nová hodnota atribútu
 ErrorCreatingProductAttributeValue=Pri vytváraní hodnoty atribútu sa vyskytla chyba. Môže to byť preto, že už existuje existujúca hodnota s týmto odkazom
 ProductCombinationGeneratorWarning=Ak budete pokračovať, pred vygenerovaním nových variantov budú všetky predchádzajúce VYMAZANÉ. Už existujúce hodnoty budú aktualizované o nové hodnoty
-TooMuchCombinationsWarning=Generovanie veľkého množstva variantov môže mať za následok vysoké využitie CPU, pamäte a Dolibarr ich nebude môcť vytvoriť. Povolenie možnosti "%s" môže pomôcť znížiť využitie pamäte.
+TooMuchCombinationsWarning=Generovanie veľkého množstva variantov môže mať za následok vysoké využitie CPU, pamäte a ZionOne ich nebude môcť vytvoriť. Povolenie možnosti "%s" môže pomôcť znížiť využitie pamäte.
 DoNotRemovePreviousCombinations=Neodstraňujte predchádzajúce varianty
 UsePercentageVariations=Použite percentuálne variácie
 PercentageVariation=Percentuálna odchýlka

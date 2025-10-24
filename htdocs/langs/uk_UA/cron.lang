@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# ZionOne language file - Source file is en_US - cron
 # Permissions
 Permission23101 = Прочитайте заплановану роботу
 Permission23102 = Створити/оновити заплановану роботу
@@ -63,11 +63,11 @@ CronStatusInactiveBtn=Вимкнути
 CronTaskInactive=Це завдання вимкнено (не заплановано)
 CronId=id
 CronClassFile=Ім'я файлу з класом
-CronModuleHelp=Назва каталогу модуля Dolibarr (також робота із зовнішнім модулем Dolibarr). <BR> Наприклад, щоб викликати метод вибору продукту Dolibarr об’єкта /htdocs/ <u> product </u> /class/product.class.php, значення для модуля: a0342fccfda19bz78038018fcfda19b27bc03808fcfda19b27bc3e38
-CronClassFileHelp=Відносний шлях та ім’я файлу для завантаження (шлях відносно кореневого каталогу веб-сервера). <BR> Наприклад, щоб викликати метод отримання об'єкта Dolibarr Product htdocs/product/class/ <u> product.class.php </u> , значення для назви файлу класу a0342fccfda19bclass38fcfda19bclass19bclass38fcfda19bclass38
-CronObjectHelp=Ім'я об'єкта для завантаження. <BR> Наприклад, щоб викликати метод вибірки об'єкта Dolibarr Product /htdocs/product/class/product.class.php, значення для імені файлу класу: <br> <i> Product a0ae64758bac33z
-CronMethodHelp=Об'єктний метод для запуску. <BR> Наприклад, щоб викликати метод вибірки об'єкта Dolibarr Product /htdocs/product/class/product.class.php, значення для методу: <br> <i> fetch a0ae64758bac33z
-CronArgsHelp=Аргументи методу. <BR> Наприклад, щоб викликати метод вибірки об'єкта Dolibarr Product /htdocs/product/class/product.class.php, значення параметрів може бути <br> <i> 0, ProductRef </i>
+CronModuleHelp=Назва каталогу модуля ZionOne (також робота із зовнішнім модулем ZionOne). <BR> Наприклад, щоб викликати метод вибору продукту ZionOne об’єкта /htdocs/ <u> product </u> /class/product.class.php, значення для модуля: a0342fccfda19bz78038018fcfda19b27bc03808fcfda19b27bc3e38
+CronClassFileHelp=Відносний шлях та ім’я файлу для завантаження (шлях відносно кореневого каталогу веб-сервера). <BR> Наприклад, щоб викликати метод отримання об'єкта ZionOne Product htdocs/product/class/ <u> product.class.php </u> , значення для назви файлу класу a0342fccfda19bclass38fcfda19bclass19bclass38fcfda19bclass38
+CronObjectHelp=Ім'я об'єкта для завантаження. <BR> Наприклад, щоб викликати метод вибірки об'єкта ZionOne Product /htdocs/product/class/product.class.php, значення для імені файлу класу: <br> <i> Product a0ae64758bac33z
+CronMethodHelp=Об'єктний метод для запуску. <BR> Наприклад, щоб викликати метод вибірки об'єкта ZionOne Product /htdocs/product/class/product.class.php, значення для методу: <br> <i> fetch a0ae64758bac33z
+CronArgsHelp=Аргументи методу. <BR> Наприклад, щоб викликати метод вибірки об'єкта ZionOne Product /htdocs/product/class/product.class.php, значення параметрів може бути <br> <i> 0, ProductRef </i>
 CronCommandHelp=Системний командний рядок для виконання.
 CronCreateJob=Створити нове завдання за розкладом
 CronFrom=Продавець

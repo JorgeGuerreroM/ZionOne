@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Ingen feil
@@ -52,12 +52,12 @@ ErrorWrongDate=Dato er feil!
 ErrorFailedToWriteInDir=Kan ikke skrive til mappen %s
 ErrorFailedToBuildArchive=Kunne ikke bygge arkivfilen %s
 ErrorFoundBadEmailInFile=Feil e-postsyntaks for %s linjer i filen (for eksempel linje %s med e-post=%s)
-ErrorUserCannotBeDelete=Brukeren kan ikke slettes. Kanskje det er knyttet til Dolibarr-enheter.
+ErrorUserCannotBeDelete=Brukeren kan ikke slettes. Kanskje det er knyttet til ZionOne-enheter.
 ErrorFieldsRequired=Noen obligatoriske felt er tomme.
 ErrorSubjectIsRequired=E-postemnet er obligatorisk
 ErrorInAddAttachmentsImageBaseOnMedia=Feil under oppretting av bildefiler til mediekatalog for vedlegg
 ErrorInAddAttachmentsImageBaseIsSrcData=Feil ved oppretting av bildefiler (funnet som data:) i midlertidig katalog for vedlegg
-ErrorFailedToCreateDir=Kunne ikke opprette mappen. Kontroller at webserverbrukeren har skriverettigheter i dokumentmappen i Dolibarr. Hvis <b>safe_mode</b> er akivert i PHP, sjekk at webserveren eier eller er med i gruppen(eller bruker) for Dolibarr php-filer.
+ErrorFailedToCreateDir=Kunne ikke opprette mappen. Kontroller at webserverbrukeren har skriverettigheter i dokumentmappen i ZionOne. Hvis <b>safe_mode</b> er akivert i PHP, sjekk at webserveren eier eller er med i gruppen(eller bruker) for ZionOne php-filer.
 ErrorNoMailDefinedForThisUser=Ingen e-post angitt for denne brukeren.
 ErrorSetupOfEmailsNotComplete=Installasjonen av e-post er ikke fullført
 ErrorAccountingClosureSetupNotComplete=Oppsett av avslutningskontoer ikke fullført
@@ -88,7 +88,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=Feltet <b> %s </b> må ikke inn
 ErrorFieldMustHaveXChar=Feltet <b> %s </b> må ha minst %s tegn.
 ErrorNoAccountancyModuleLoaded=Ingen regnskapsmodul aktivert
 ErrorExportDuplicateProfil=Profilnavnet til dette eksport-oppsettet finnes allerede
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP oppsett er ikke komplett.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP oppsett er ikke komplett.
 ErrorLDAPMakeManualTest=En .ldif fil er opprettet i mappen %s. Prøv å lese den manuelt for å se mer informasjon om feil.
 ErrorCantSaveADoneUserWithZeroPercentage=Kan ikke lagre en handling med "status ikke startet" hvis feltet "ferdig innen" også er fylt ut.
 ErrorPleaseTypeBankTransactionReportName=Vennligst skriv inn kontoutskriftsnavnet der oppføringen skal rapporteres (Format YYYYMM eller YYYYMMDD)
@@ -122,8 +122,8 @@ ErrorProdIdAlreadyExist=%s er tilordnet en annen tredjepart
 ErrorFailedToSendPassword=Klarte ikke å sende passord
 ErrorFailedToLoadRSSFile=Klarer ikke hente RSS-feed. Prøv å legge konstant MAIN_SIMPLEXMLLOAD_DEBUG hvis feilmeldinger ikke gir nok informasjon.
 ErrorForbidden=Ingen tilgang. <br> Du prøver å få tilgang til en side, område eller funksjon i en deaktivert modul eller uten å være i en godkjent økt eller som ikke er tillatt din bruker.
-ErrorForbidden2=Tillatelse for denne innloggingen kan settes av Dolibarr-administratoren fra menyen %s->%s.
-ErrorForbidden3=Det ser ut til at Dolibarr ikke brukes gjennom en autentisert sesjon. Du kan lese mer i dokumentasjonen om hvordan du håndterer autentisering (htaccess, mod_auth eller andre...).
+ErrorForbidden2=Tillatelse for denne innloggingen kan settes av ZionOne-administratoren fra menyen %s->%s.
+ErrorForbidden3=Det ser ut til at ZionOne ikke brukes gjennom en autentisert sesjon. Du kan lese mer i dokumentasjonen om hvordan du håndterer autentisering (htaccess, mod_auth eller andre...).
 ErrorForbidden4=Merk: slett informasjonskapslene i nettleseren for å fjerne eksisterende økter for denne påloggingen.
 ErrorNoImagickReadimage=Funksjonen imagick_readimage finnes ikke på denne PHP-installasjonen. Forhåndsvisning er da ikke mulig. Administrator kan slå av denne fanen i Oppsett - Visning.
 ErrorRecordAlreadyExists=Posten eksistererer fra før.
@@ -147,8 +147,8 @@ ErrorWebServerUserHasNotPermission=Brukerkonto <b>%s</b> som brukes til å kjør
 ErrorNoActivatedBarcode=Ingen strekkodetype aktivert
 ErrUnzipFails=Klarte ikke å pakke ut %s med ZipArchive
 ErrNoZipEngine=Ingen motor til zip/unzip %s filen i dette PHP-miljøet
-ErrorFileMustBeADolibarrPackage=Filen %s må være en Dolibarr zip-pakke
-ErrorModuleFileRequired=Du må velge en Dolibarr modulpakke-fil
+ErrorFileMustBeADolibarrPackage=Filen %s må være en ZionOne zip-pakke
+ErrorModuleFileRequired=Du må velge en ZionOne modulpakke-fil
 ErrorPhpCurlNotInstalled=PHP CURL er ikke installert. Denne må være installert for å kommunisere med Paypal
 ErrorFailedToAddToMailmanList=Klarte ikke å legge post %s til Mailman-liste %s eller SPIP-base
 ErrorFailedToRemoveToMailmanList=Klarte ikke å fjerne post %s fra Mailman-liste %s eller SPIP-base
@@ -161,7 +161,7 @@ ErrorDateMustBeInFuture=Datoen må være etter i dag
 ErrorStartDateGreaterEnd=Startdatoen er større enn sluttdatoen
 ErrorPaymentModeDefinedToWithoutSetup=En betalingsmodus var satt til å skrive %s, men oppsett av modulen Faktura er ikke ferdig definert for å vise for denne betalingsmodusen.
 ErrorPHPNeedModule=Feil! Din PHP må ha modulen <b>%s</b> installert for  å kunne bruke denne funksjonen.
-ErrorOpenIDSetupNotComplete=Du satte opp Dolibarr config-filen til å tillate OpenID-autentisering, men url til OpenID-tjenesten er ikke definert i konstanten %s
+ErrorOpenIDSetupNotComplete=Du satte opp ZionOne config-filen til å tillate OpenID-autentisering, men url til OpenID-tjenesten er ikke definert i konstanten %s
 ErrorWarehouseMustDiffers=Kilde- og mållager må være ulike
 ErrorBadFormat=Feil format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Feil, dette medlemmet er ennå ikke knyttet til noen tredjepart. Koble medlemmet til en eksisterende tredjepart eller opprett en ny tredjepart før du oppretter abonnement med faktura.
@@ -348,11 +348,11 @@ ErrorNoCloneWithoutEmail=The new user must have an email
 ErrorUserClone=Error in user clone categories
 ErrorQtyOrderedLessQtyShipped = Mengden som er bestilt kan ikke være mindre enn den leverte.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Feil, opprettelse av en annen betaling på en bankkonto med en annen valuta enn selskapets valuta støttes ikke ennå.
-ErrorStreamMustBeEnabled=PHP-strømmen %s er ikke tilgjengelig. Sjekk PHP-modulene dine og Dolibarr-parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=PHP-strømmen %s er ikke tilgjengelig. Sjekk PHP-modulene dine og ZionOne-parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, you try to pay different invoices with different currencies in the same payment
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=PHP-parameteren upload_max_filesize (%s) er høyere enn PHP-parameteren post_max_size (%s). Dette er ikke et konsistent oppsett.
-WarningPasswordSetWithNoAccount=Et passord ble satt for dette medlemmet, men ingen brukerkonto ble opprettet. Det fører til at passordet ikke kan benyttes for å logge inn på Dolibarr. Det kan brukes av en ekstern modul/grensesnitt, men hvis du ikke trenger å definere noen innlogging eller passord for et medlem, kan du deaktivere alternativet "opprett en pålogging for hvert medlem" fra medlemsmodul-oppsettet. Hvis du trenger å administrere en pålogging, men ikke trenger noe passord, kan du holde dette feltet tomt for å unngå denne advarselen. Merk: E-post kan også brukes som en pålogging dersom medlemmet er knyttet til en bruker.
+WarningPasswordSetWithNoAccount=Et passord ble satt for dette medlemmet, men ingen brukerkonto ble opprettet. Det fører til at passordet ikke kan benyttes for å logge inn på ZionOne. Det kan brukes av en ekstern modul/grensesnitt, men hvis du ikke trenger å definere noen innlogging eller passord for et medlem, kan du deaktivere alternativet "opprett en pålogging for hvert medlem" fra medlemsmodul-oppsettet. Hvis du trenger å administrere en pålogging, men ikke trenger noe passord, kan du holde dette feltet tomt for å unngå denne advarselen. Merk: E-post kan også brukes som en pålogging dersom medlemmet er knyttet til en bruker.
 WarningMandatorySetupNotComplete=Klikk her for å sette opp hovedparametere
 WarningEnableYourModulesApplications=Klikk her for å aktivere modulene og applikasjonene dine
 WarningSafeModeOnCheckExecDir=Advarsel, PHP alternativet <b>safe_mode</b> er på så kommandere må lagres i en mappe erklært av php parameter <b>safe_mode_exec_dir.</b>
@@ -399,7 +399,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Advarsel, lesing av bankkonto er o
 WarningNoDataTransferedInAccountancyYet=Vær oppmerksom på at det ikke er data i regnskapstabellen. Vennligst overfør dataene som er registrert i applikasjonen til regnskapsdelen eller endre beregningsmodus for å analysere dataene som er registrert utenfor regnskapet.
 WarningChangingThisMayBreakStopTaskScheduler=Advarsel, endring av denne verdien kan deaktivere planleggeren
 WarningAmountOfFileDiffersFromSumOfLines=Advarsel, mengden i fil (%s) er forskjellig fra summen av linjer (%s)
-WarningModuleAffiliatedToAReportedCompany=Advarsel, denne modulen har blitt rapportert til Dolibarr-stiftelsen som publisert av et selskap som bruker ulovlig praksis (manglende overholdelse av reglene for bruk av Dolibarr-merket, innsamling av data uten ditt samtykke eller distribusjon av skadelig programvare).
+WarningModuleAffiliatedToAReportedCompany=Advarsel, denne modulen har blitt rapportert til ZionOne-stiftelsen som publisert av et selskap som bruker ulovlig praksis (manglende overholdelse av reglene for bruk av ZionOne-merket, innsamling av data uten ditt samtykke eller distribusjon av skadelig programvare).
 WarningModuleAffiliatedToAPiratPlatform=Vær forsiktig når du får en modul (betalt eller gratis) fra en mistenkelig ikke-offisiell plattform som %s
 
 SwissQrOnlyVIR = SwissQR-faktura kan kun legges til på fakturaer som skal betales med kredittoverføring.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paybox
+# ZionOne language file - Source file is en_US - paybox
 PayBoxSetup=Configurare modul PayBox
 PayBoxDesc=Acest modul oferă pagini de plată prin <a href="https://www.paybox.com" target="_blank" rel="noopener noreferrer external">Paybox</a> pentru clienți. Acesta poate fi folosit pentru o plată liberă sau pentru o plată aferentă unui anumit obiect din sistem (factură, comandă, ...)
 PayBoxDoPayment=Plăteşte cu Paybox

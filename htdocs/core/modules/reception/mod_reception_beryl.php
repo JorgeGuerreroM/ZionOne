@@ -30,7 +30,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/reception/modules_reception.php';
  */
 class mod_reception_beryl extends ModelNumRefReception
 {
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 	/**
 	 * @var string
 	 */

@@ -24,7 +24,7 @@
  * \brief   WebPortal setup page.
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require_once "../../main.inc.php";
 require_once DOL_DOCUMENT_ROOT . "/core/lib/admin.lib.php";
 require_once DOL_DOCUMENT_ROOT . "/webportal/lib/webportal.lib.php";
@@ -73,7 +73,7 @@ if (preg_match('/^(set|del)_([A-Z_]+)$/', $action, $regs)) {
 	if ($regs[1] == 'set') {
 		dolibarr_set_const($db, $regs[2], 1, 'chaine', 0, '', $conf->entity);
 	} else {
-		dolibarr_del_const($db, $regs[2], $conf->entity);
+		zionone_del_const($db, $regs[2], $conf->entity);
 	}
 }
 

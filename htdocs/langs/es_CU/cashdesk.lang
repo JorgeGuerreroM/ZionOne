@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cashdesk
+# ZionOne language file - Source file is en_US - cashdesk
 CashDeskMenu=Punto de venta
 CashDeskBankCB=Cuenta bancaria (tarjeta)
 CashDeskBankCheque=Cuenta bancaria (cheque)
@@ -22,7 +22,7 @@ ShowStock=Mostrar almacén
 DeleteArticle=Haga clic para eliminar este artículo
 FilterRefOrLabelOrBC=Buscar (Referencia/Etiqueta)
 UserNeedPermissionToEditStockToUsePos=Solicita reducir el stock en la creación de la factura, por lo que el usuario que usa POS debe tener permiso para editar el stock.
-DolibarrReceiptPrinter=Impresora de recibos Dolibarr
+DolibarrReceiptPrinter=Impresora de recibos ZionOne
 PointOfSale=Punto de venta
 TakeposConnectorNecesary=Se requiere 'Conector TakePOS'
 NotAvailableWithBrowserPrinter=No disponible cuando la impresora para recibos está configurada como navegador

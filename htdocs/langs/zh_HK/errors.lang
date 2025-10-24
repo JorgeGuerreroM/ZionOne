@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=沒有錯誤，我們承諾
@@ -52,12 +52,12 @@ ErrorWrongDate=日期不正確！
 ErrorFailedToWriteInDir=無法寫入目錄 %s
 ErrorFailedToBuildArchive=無法建立存檔檔案 %s
 ErrorFoundBadEmailInFile=發現文件中 %s 行的電子郵件語法不正確（範例行 %s 的電子郵件=%s）
-ErrorUserCannotBeDelete=用戶無法刪除。也許它與 Dolibarr 實體有關。
+ErrorUserCannotBeDelete=用戶無法刪除。也許它與 ZionOne 實體有關。
 ErrorFieldsRequired=一些必填字段已留空。
 ErrorSubjectIsRequired=電子郵件主旨為必填項
 ErrorInAddAttachmentsImageBaseOnMedia=無法創建附件圖像文件，請檢查媒體目錄權限。
 ErrorInAddAttachmentsImageBaseIsSrcData=無法創建附件圖像文件 (數據格式錯誤)，請檢查數據格式和臨時目錄權限。
-ErrorFailedToCreateDir=創建目錄失敗。檢查 Web 服務器用戶是否有權寫入 Dolibarr 文檔目錄。如果參數<b> 安全模式 </b>  在此 PHP 上啟用，請檢查 Dolibarr php 文件是否屬於 Web 服務器用戶（或組）。
+ErrorFailedToCreateDir=創建目錄失敗。檢查 Web 服務器用戶是否有權寫入 ZionOne 文檔目錄。如果參數<b> 安全模式 </b>  在此 PHP 上啟用，請檢查 ZionOne php 文件是否屬於 Web 服務器用戶（或組）。
 ErrorNoMailDefinedForThisUser=沒有為此用戶定義郵件
 ErrorSetupOfEmailsNotComplete=電子郵件設置尚未完成
 ErrorAccountingClosureSetupNotComplete=關閉帳戶設定未完成
@@ -88,7 +88,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=字段 <b>%s</b> 不得包含�
 ErrorFieldMustHaveXChar=欄位 <b>%s</b> 必須至少包含 %s 個字元。
 ErrorNoAccountancyModuleLoaded=沒有激活會計模塊
 ErrorExportDuplicateProfil=該導出集的配置文件名稱已存在。
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP 匹配不完整。
+ErrorLDAPSetupNotComplete=ZionOne-LDAP 匹配不完整。
 ErrorLDAPMakeManualTest=已在目錄 %s 中產生 .ldif 檔案。嘗試從命令列手動加載它以獲得有關錯誤的更多資訊。
 ErrorCantSaveADoneUserWithZeroPercentage=如果字段 “完成者” 也已填寫，則無法保存 “狀態未開始” 的操作。
 ErrorPleaseTypeBankTransactionReportName=請輸入必須報告該條目的銀行對賬單名稱（格式 YYYYMM 或 YYYYMMDD）
@@ -122,8 +122,8 @@ ErrorProdIdAlreadyExist=%s 被分配給另外三分之一
 ErrorFailedToSendPassword=發送密碼失敗
 ErrorFailedToLoadRSSFile=無法獲取 RSS 源。如果錯誤消息未提供足夠的信息，請嘗試添加常量 MAIN_SIMPLEXMLLOAD_DEBUG。
 ErrorForbidden=拒絕訪問。 <br> 您嘗試訪問已禁用模塊的頁面、區域或功能，或者未處於經過身份驗證的會話中，或者您的用戶不允許訪問該頁面、區域或功能。
-ErrorForbidden2=您的 Dolibarr 管理員可以從選單 %s->%s 定義此登入的權限。
-ErrorForbidden3=看來 Dolibarr 不是通過經過身份驗證的會話使用的。查看 Dolibarr 設置文檔以了解如何管理身份驗證（htaccess、mod_auth 或其他...）。
+ErrorForbidden2=您的 ZionOne 管理員可以從選單 %s->%s 定義此登入的權限。
+ErrorForbidden3=看來 ZionOne 不是通過經過身份驗證的會話使用的。查看 ZionOne 設置文檔以了解如何管理身份驗證（htaccess、mod_auth 或其他...）。
 ErrorForbidden4=注意：清除瀏覽器 cookie 以銷毀此登入的現有會話。
 ErrorNoImagickReadimage=在此 PHP 中未找到 Imagick 類。無法進行預覽。管理員可以從菜單“設置 - 顯示”禁用此選項卡。
 ErrorRecordAlreadyExists=記錄已存在
@@ -147,8 +147,8 @@ ErrorWebServerUserHasNotPermission=用戶帳戶 <b>%s</b> 用於執行 Web 服�
 ErrorNoActivatedBarcode=未激活條形碼類型
 ErrUnzipFails=無法使用 ZipArchive 解壓縮 %s
 ErrNoZipEngine=沒有引擎可壓縮/解壓縮 %s 這個 PHP 中的文件
-ErrorFileMustBeADolibarrPackage=文件 %s 必須是 Dolibarr zip 包
-ErrorModuleFileRequired=請選擇一個 Dolibarr 模組安裝包文件
+ErrorFileMustBeADolibarrPackage=文件 %s 必須是 ZionOne zip 包
+ErrorModuleFileRequired=請選擇一個 ZionOne 模組安裝包文件
 ErrorPhpCurlNotInstalled=PHP CURL 未安裝，這是與 Paypal 對話所必需的
 ErrorFailedToAddToMailmanList=添加記錄失敗%s 到郵件列表 %s 或 SPIP 基地
 ErrorFailedToRemoveToMailmanList=無法刪除記錄 %s 到郵件列表 %s 或 SPIP 基地
@@ -161,7 +161,7 @@ ErrorDateMustBeInFuture=日期必須在今天之後
 ErrorStartDateGreaterEnd=開始日期晚於結束日期
 ErrorPaymentModeDefinedToWithoutSetup=付款模式設置為輸入 %s 但是模塊發票的設置尚未完成，無法定義此付款模式顯示的信息。
 ErrorPHPNeedModule=錯誤，您的 PHP 必須具有模塊 <b>%s</b>  安裝以使用此功能。
-ErrorOpenIDSetupNotComplete=您設置 Dolibarr 配置文件以允許 OpenID 身份驗證，但 OpenID 服務的 URL 未定義為常量 %s
+ErrorOpenIDSetupNotComplete=您設置 ZionOne 配置文件以允許 OpenID 身份驗證，但 OpenID 服務的 URL 未定義為常量 %s
 ErrorWarehouseMustDiffers=源倉庫和目標倉庫必須不同
 ErrorBadFormat=格式錯誤！
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=錯誤，該會員尚未連接到任何第三方。在使用發票創建訂閱之前，將成員連接到現有第三方或創建新的第三方。
@@ -348,11 +348,11 @@ ErrorNoCloneWithoutEmail=The new user must have an email
 ErrorUserClone=Error in user clone categories
 ErrorQtyOrderedLessQtyShipped = The quantity ordered cannot be less than the quantity shipped.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Error, creating a various payment on a bank account with a currency different than the currency of the company is not yet supported.
-ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and Dolibarr parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and ZionOne parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, you try to pay different invoices with different currencies in the same payment
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=您的 PHP 參數 upload_max_filesize (%s) 高於 PHP 參數 post_max_size (%s)。這不是一個一致的設定。
-WarningPasswordSetWithNoAccount=已為此成員設定密碼。但是，沒有建立使用者帳戶。因此該密碼被儲存但不能用於登入 Dolibarr。它可以由外部模組/介面使用，但如果您不需要為成員定義任何登入名稱或密碼，您可以從成員模組設定中停用「管理每個成員的登入」選項。如果您需要管理登入但不需要任何密碼，則可以將此欄位保留為空以避免此警告。注意：如果會員連結到用戶，電子郵件也可以用作登入名稱。
+WarningPasswordSetWithNoAccount=已為此成員設定密碼。但是，沒有建立使用者帳戶。因此該密碼被儲存但不能用於登入 ZionOne。它可以由外部模組/介面使用，但如果您不需要為成員定義任何登入名稱或密碼，您可以從成員模組設定中停用「管理每個成員的登入」選項。如果您需要管理登入但不需要任何密碼，則可以將此欄位保留為空以避免此警告。注意：如果會員連結到用戶，電子郵件也可以用作登入名稱。
 WarningMandatorySetupNotComplete=點擊此處設置主要參數
 WarningEnableYourModulesApplications=點擊此處啟用您的模組和應用程式
 WarningSafeModeOnCheckExecDir=警告，PHP 選項 <b> 安全模式 </b>  因此命令必須存儲在 php 參數聲明的目錄中 <b> safe_mode_exec_dir </b> 。
@@ -399,7 +399,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=警告：擁有「管理會計科�
 WarningNoDataTransferedInAccountancyYet=請注意，會計表中沒有數據。請將您在應用程式中記錄的資料轉移到會計部分或更改計算模式以分析會計以外記錄的資料。
 WarningChangingThisMayBreakStopTaskScheduler=警告：更改此值可能會停用排程程序
 WarningAmountOfFileDiffersFromSumOfLines=警告，文件數量 (%s) 與行總和(%s)不同
-WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the Dolibarr foundation as being published by a company using illegal practices (non-compliance with the rules for using the Dolibarr brand, collecting your data without your consent or deploying malware).
+WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the ZionOne foundation as being published by a company using illegal practices (non-compliance with the rules for using the ZionOne brand, collecting your data without your consent or deploying malware).
 WarningModuleAffiliatedToAPiratPlatform=Be careful when getting a module (paid or free) from a suspicious non official platform like %s
 
 SwissQrOnlyVIR = SwissQR 發票只能添加到設定為以銀行轉帳付款的發票上。

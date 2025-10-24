@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - recruitment
+# ZionOne language file - Source file is en_US - recruitment
 ModuleRecruitmentDesc =Gérer et suivre les campagnes de recrutement pour de nouveaux postes
 RecruitmentSetup =Configuration du recrutement
 PublicInterfaceRecruitmentDesc=Les pages publiques d'emplois sont des URL publiques permettant d'afficher et de répondre aux offres d'emploi ouvertes. Il existe un lien différent pour chaque offre d'emploi ouverte, disponible sur chaque fiche d'emploi.

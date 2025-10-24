@@ -46,10 +46,10 @@ class ImportCsv extends ModeleImports
 	public $id;
 
 	/**
-	 * Dolibarr version of driver
-	 * @var string Version, possible values are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'dolibarr'|'experimental'
+	 * ZionOne version of driver
+	 * @var string Version, possible values are: 'development', 'experimental', 'ZionOne', 'dolibarr_deprecated' or a version string like 'x.y.z'''|'development'|'ZionOne'|'experimental'
 	 */
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	/**
 	 * @var string Label of external lib used by driver
@@ -125,7 +125,7 @@ class ImportCsv extends ModeleImports
 		}
 
 		// If driver use an external library, put its name here
-		$this->label_lib = 'Dolibarr';
+		$this->label_lib = 'ZionOne';
 		$this->version_lib = DOL_VERSION;
 
 		$this->datatoimport = $datatoimport;
@@ -1064,7 +1064,7 @@ class ImportCsv extends ModeleImports
 								$resql = $this->db->query($sql);
 								if ($resql) {
 									if (!$is_table_category_link) {
-										$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that child tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in Dolibarr).
+										$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that child tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in ZionOne).
 									}
 									$insertdone = true;
 								} else {

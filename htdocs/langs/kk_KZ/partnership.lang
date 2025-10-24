@@ -34,7 +34,7 @@ PARTNERSHIP_BACKLINKS_TO_CHECK=Тексеру үшін кері сілтемел
 PARTNERSHIP_NBDAYS_AFTER_MEMBER_EXPIRATION_BEFORE_CANCEL=Жазылымның мерзімі аяқталған кезде серіктестік мәртебесін жоюға дейінгі күндердің Nb
 ReferingWebsiteCheck=Сайтқа сілтеме жасауды тексеру
 ReferingWebsiteCheckDesc=Сіз серіктестердің жеке веб -сайттағы веб -сайт домендеріне кері сілтеме қосқанын тексеру мүмкіндігін қосуға болады.
-PublicFormRegistrationPartnerDesc=Dolibarr сізге сыртқы келушілерге серіктестік бағдарламасының бөлігі болуды сұрауға мүмкіндік беру үшін жалпыға қолжетімді URL/веб-сайтты ұсына алады.
+PublicFormRegistrationPartnerDesc=ZionOne сізге сыртқы келушілерге серіктестік бағдарламасының бөлігі болуды сұрауға мүмкіндік беру үшін жалпыға қолжетімді URL/веб-сайтты ұсына алады.
 # Object
 DeletePartnership=Серіктестікті жою
 PartnershipDedicatedToThisThirdParty=Бұл үшінші тарапқа арналған серіктестік

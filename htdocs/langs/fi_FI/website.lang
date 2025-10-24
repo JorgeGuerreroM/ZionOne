@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - website
+# ZionOne language file - Source file is en_US - website
 Shortname=Koodi
 WebsiteName=Verkkosivuston nimi
 WebsiteSetupDesc=luo tässä verkkosivustot, joita haluat käyttää. Siirry sitten valikko Web-sivustoihin muokataksesi niitä.
@@ -51,13 +51,13 @@ ToDeployYourWebsiteOnLiveYouHave3Solutions=Tämän verkkosivuston julkaisuun sin
 SetHereVirtualHost=<u>Käytä kanssa Apache/NGinx/...</u><br>Luo verkkopalvelimesi (Apache, Nginx, ...) omistettu virtuaalipalvelin, jossa PHP on käytössä ja juurihakemisto osoitteessa<br><strong>%s</strong>
 ExampleToUseInApacheVirtualHostConfig=Esimerkki käytettäväksi Apache-virtuaaliisäntäasetuksissa:
 YouCanAlsoTestWithPHPS=<u>Käytä PHP:n sulautetun palvelimen kanssa</u><br>Kehitysympäristössä voit halutessasi testata sivustoa PHP:n sulautetulla web-palvelimella suorittamalla
-YouCanAlsoDeployToAnotherWHP=<u>Käytä verkkosivustoasi Dolibarr-verkkopalveluntarjoajan sisällä</u><br>Jos sinulla ei ole internetissä käytettävissä olevaa web-palvelinta, kuten Apachea tai NGinxiä, voit viedä ja tai tuoda verkkosivustosi toiseen Dolibarr-instanssiin, jonka tarjoaa toinen Dolibarr-palveluntarjoaja, joka tarjoaa täyden integroinnin verkkosivustomoduuliin. Löydät luettelon joistakin Dolibarr-hostingpalveluntarjoajista osoitteesta <a href="https://saas.dolibarr.org" target="_blank" rel="noopener noreferrer external">https://saas.dolibarr.org</a>
+YouCanAlsoDeployToAnotherWHP=<u>Käytä verkkosivustoasi ZionOne-verkkopalveluntarjoajan sisällä</u><br>Jos sinulla ei ole internetissä käytettävissä olevaa web-palvelinta, kuten Apachea tai NGinxiä, voit viedä ja tai tuoda verkkosivustosi toiseen ZionOne-instanssiin, jonka tarjoaa toinen ZionOne-palveluntarjoaja, joka tarjoaa täyden integroinnin verkkosivustomoduuliin. Löydät luettelon joistakin ZionOne-hostingpalveluntarjoajista osoitteesta <a href="https://saas.ZionOne.org" target="_blank" rel="noopener noreferrer external">https://saas.ZionOne.org</a>
 CheckVirtualHostPerms=Tarkista myös, että virtuaalipalvelimen käyttäjällä (esimerkiksi www-data) on <strong>%s</strong>  tiedostojen käyttöoikeudet kohteeseen<br><strong>%s</strong>
 ReadPerm=Lue
 WritePerm=Kirjoita
 TestDeployOnWeb=Testaa / ota käyttöön verkossa
 PreviewSiteServedByWebServer=<u>Preview %s in a new tab.</u><br><br>The %s will be served by an external web server (like Apache, Nginx, IIS). You must install and setup this server before to point to directory:<br><strong>%s</strong><br>URL served by external server:<br><strong>%s</strong>
-PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by Dolibarr server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your Dolibarr.<br>URL served by Dolibarr:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
+PreviewSiteServedByDolibarr=<u>Preview %s in a new tab.</u><br><br>The %s will be served by ZionOne server so it does not need any extra web server (like Apache, Nginx, IIS) to be installed.<br>The inconvenient is that the URLs of pages are not user friendly and start with the path of your ZionOne.<br>URL served by ZionOne:<br><strong>%s</strong><br><br>To deploy or test using your own external web server (like Apache, Nginx, Lighttp) use the link "%s".
 VirtualHostUrlNotDefined=Ulkoisen verkkopalvelimen palveleman virtuaalisen isännän URL-osoitetta ei ole määritetty
 NoPageYet=Ei vielä sivuja
 YouCanCreatePageOrImportTemplate=Voit luo uuden sivun tai tuoda täyden verkkosivustomallin

@@ -21,8 +21,8 @@
  *	\file       htdocs/asterisk/wrapper.php
  *  \brief      File that is entry point to call an Asterisk server
  *	\remarks	To be used, an Asterisk user must be created by adding this in /etc/asterisk/manager.conf
- * 				[dolibarr]
- * 				secret = dolibarr
+ * 				[ZionOne]
+ * 				secret = ZionOne
  * 				deny=0.0.0.0/0.0.0.0
  * 				permit=127.0.0.1/255.255.255.0
  * 				read = system,call,log,verbose,command,agent,user
@@ -74,7 +74,7 @@ function llxHeader($head = '', $title = '', $help_url = '', $target = '', $disab
 {
 	print '<html>'."\n";
 	print '<head>'."\n";
-	print '<title>Asterisk redirection from Dolibarr...</title>'."\n";
+	print '<title>Asterisk redirection from ZionOne...</title>'."\n";
 	print '</head>'."\n";
 }
 
@@ -214,7 +214,7 @@ if (!empty($number)) {
 	if ($pos === false) {
 		$errno = 0;
 		$errstr = 0;
-		$strCallerId = "Dolibarr caller $found <".strtolower($number).">";
+		$strCallerId = "ZionOne caller $found <".strtolower($number).">";
 		$oSocket = @fsockopen($strHost, (int) $port, $errno, $errstr, 10);
 		if (!$oSocket) {
 			print '<body>'."\n";

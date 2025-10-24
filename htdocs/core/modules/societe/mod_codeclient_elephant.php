@@ -40,7 +40,7 @@ class mod_codeclient_elephant extends ModeleThirdPartyCode
 {
 	// variables inherited from ModeleThirdPartyCode class
 	public $name = 'Elephant';
-	public $version = 'dolibarr';
+	public $version = 'ZionOne';
 
 	// variables not inherited
 
@@ -125,7 +125,7 @@ class mod_codeclient_elephant extends ModeleThirdPartyCode
 
 		// Date of switch to that numbering model
 		$datedb = getDolGlobalString('COMPANY_ELEPHANT_DATE_START');
-		// After save, default dolibarr store data like displayed : 20/05/2024 and we need a timestamp -> override data
+		// After save, default ZionOne store data like displayed : 20/05/2024 and we need a timestamp -> override data
 		if (!empty($datedb)) {
 			if (!is_numeric($datedb) && GETPOSTISSET('value3')) {
 				if (GETPOST('value4') == 1) {

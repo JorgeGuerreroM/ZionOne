@@ -27,7 +27,7 @@
  *					  /externalsite/frames.php?keyforcontent=EXTERNAL_SITE_URL_abc to show URL defined into conf 'EXTERNAL_SITE_URL_abc'
  */
 
-// Load Dolibarr environment
+// Load ZionOne environment
 require '../main.inc.php';
 
 /**
@@ -84,7 +84,7 @@ if (!empty($keyforcontent)) {
 			/*print "
 			<html>
 			<head>
-			<title>Dolibarr frame for external web site</title>
+			<title>ZionOne frame for external web site</title>
 			</head>
 
 			<frameset ".(empty($conf->global->MAIN_MENU_INVERT)?"rows":"cols")."=\"".$heightforframes.",*\" border=0 framespacing=0 frameborder=0>
@@ -123,7 +123,7 @@ if (!empty($keyforcontent)) {
 		print "
 	<html>
 	<head>
-	<title>Dolibarr frame for external web site</title>
+	<title>ZionOne frame for external web site</title>
 	</head>
 
 	<frameset ".(!getDolGlobalString('MAIN_MENU_INVERT') ? "rows" : "cols")."=\"".$heightforframes.",*\" border=0 framespacing=0 frameborder=0>

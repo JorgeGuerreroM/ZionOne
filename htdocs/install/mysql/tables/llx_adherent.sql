@@ -31,7 +31,7 @@ create table llx_adherent
   rowid            integer AUTO_INCREMENT PRIMARY KEY,
   ref              varchar(30) NOT NULL,        -- member reference number
   entity           integer DEFAULT 1 NOT NULL,  -- multi company id
-  ref_ext          varchar(128),                -- reference into an external system (not used by dolibarr)
+  ref_ext          varchar(128),                -- reference into an external system (not used by ZionOne)
 
   gender           varchar(10),
   civility         varchar(6),

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# ZionOne language file - Source file is en_US - exports
 ImportExportArea=輸入/輸出
 ExportsArea=エクスポート
 ImportArea=インポート
@@ -68,7 +68,7 @@ ChooseFormatOfFileToImport=%sアイコンをクリックして選択し、イン
 ChooseFileToImport=ファイルをアップロードし、%sアイコンをクリックして、ソースインポートファイルとしてファイルを選択する。
 SourceFileFormat=ソースファイルの形式
 FieldsInSourceFile=ソースファイル内のフィールド
-FieldsInTargetDatabase=Dolibarr データベースのターゲット フィールド
+FieldsInTargetDatabase=ZionOne データベースのターゲット フィールド
 NoFields=Noフィールド
 MoveField=フィールドの列番号%sを移動
 ExampleOfImportFile=Example_of_import_file

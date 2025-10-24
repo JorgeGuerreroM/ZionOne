@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# ZionOne language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Ешқандай қателік жоқ, біз міндеттіміз
@@ -52,12 +52,12 @@ ErrorWrongDate=Күні дұрыс емес!
 ErrorFailedToWriteInDir=%s каталогына жазу сәтсіз аяқталды
 ErrorFailedToBuildArchive=%s мұрағат файлын құру мүмкін болмады
 ErrorFoundBadEmailInFile=Файлда %s жолдары үшін қате электрондық пошта синтаксисі табылды (%s электрондық поштасы = %s мысал жолы)
-ErrorUserCannotBeDelete=Пайдаланушыны жою мүмкін емес. Мүмкін, бұл Dolibarr нысандарымен байланысты.
+ErrorUserCannotBeDelete=Пайдаланушыны жою мүмкін емес. Мүмкін, бұл ZionOne нысандарымен байланысты.
 ErrorFieldsRequired=Кейбір міндетті өрістер бос қалдырылды.
 ErrorSubjectIsRequired=Электрондық поштаның тақырыбы міндетті
 ErrorInAddAttachmentsImageBaseOnMedia=Тіркеме үшін медиа каталогына кескін файлдарын жасау қатесі
 ErrorInAddAttachmentsImageBaseIsSrcData=Тіркеме үшін уақытша каталогқа кескін файлдарын (деректер ретінде табылды:) жасау қатесі
-ErrorFailedToCreateDir=Каталог жасалмады. Веб -сервер пайдаланушысының Dolibarr құжаттар каталогына жазуға рұқсаты бар екенін тексеріңіз. Егер <b> safe_mode </b> параметрі осы PHP -де қосылған болса, Dolibarr php файлдары веб -сервер пайдаланушысына (немесе топқа) тиесілі екенін тексеріңіз.
+ErrorFailedToCreateDir=Каталог жасалмады. Веб -сервер пайдаланушысының ZionOne құжаттар каталогына жазуға рұқсаты бар екенін тексеріңіз. Егер <b> safe_mode </b> параметрі осы PHP -де қосылған болса, ZionOne php файлдары веб -сервер пайдаланушысына (немесе топқа) тиесілі екенін тексеріңіз.
 ErrorNoMailDefinedForThisUser=Бұл пайдаланушы үшін пошта анықталмаған
 ErrorSetupOfEmailsNotComplete=Электрондық поштаны реттеу аяқталмаған
 ErrorAccountingClosureSetupNotComplete=Setup of closure accounts not complete
@@ -88,7 +88,7 @@ ErrorFieldCanNotContainSpecialNorUpperCharacters=<b>%s</b> өрісінде ар
 ErrorFieldMustHaveXChar=<b> %s </b> өрісі кемінде %s таңбадан тұруы керек.
 ErrorNoAccountancyModuleLoaded=Бухгалтерлік есеп модулі іске қосылмаған
 ErrorExportDuplicateProfil=Бұл экспорттау жиынтығы үшін бұл профиль атауы бұрыннан бар.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP сәйкестігі аяқталмаған.
+ErrorLDAPSetupNotComplete=ZionOne-LDAP сәйкестігі аяқталмаған.
 ErrorLDAPMakeManualTest=Aldec файлы %s каталогында жасалды. Қателер туралы қосымша ақпарат алу үшін оны пәрмен жолынан қолмен жүктеуге тырысыңыз.
 ErrorCantSaveADoneUserWithZeroPercentage=Егер «жасаған» өрісі де толтырылса, «күйі басталмады» әрекетін сақтау мүмкін емес.
 ErrorPleaseTypeBankTransactionReportName=Жазу туралы есеп беру керек банк көшірмесінің атауын енгізіңіз (YYYYMM немесе YYYYMMDD форматы)
@@ -122,8 +122,8 @@ ErrorProdIdAlreadyExist=%s басқа үштен біріне тағайында
 ErrorFailedToSendPassword=Құпия сөз жіберілмеді
 ErrorFailedToLoadRSSFile=RSS арнасы алынбады. Қате туралы хабарлар жеткілікті ақпарат бермесе, тұрақты MAIN_SIMPLEXMLLOAD_DEBUG қосуға тырысыңыз.
 ErrorForbidden=Рұқсат жоқ. <br> Сіз өшірілген модульдің бетіне, аймағына немесе мүмкіндігіне немесе аутентификацияланған сеанста болмай немесе пайдаланушыға рұқсат етілмеуге тырысасыз.
-ErrorForbidden2=Бұл кіруге рұқсатты Dolibarr әкімшісі %s-> %s мәзірінен анықтай алады.
-ErrorForbidden3=Dolibarr аутентификацияланған сеанс арқылы қолданылмайтын сияқты. Аутентификацияны (htaccess, mod_auth немесе басқа ...) қалай басқаруға болатынын білу үшін Dolibarr орнату құжаттамасын қараңыз.
+ErrorForbidden2=Бұл кіруге рұқсатты ZionOne әкімшісі %s-> %s мәзірінен анықтай алады.
+ErrorForbidden3=ZionOne аутентификацияланған сеанс арқылы қолданылмайтын сияқты. Аутентификацияны (htaccess, mod_auth немесе басқа ...) қалай басқаруға болатынын білу үшін ZionOne орнату құжаттамасын қараңыз.
 ErrorForbidden4=Ескертпе: осы кіру үшін бар сеанстарды жою үшін шолғыштың cookie файлдарын тазалаңыз.
 ErrorNoImagickReadimage=Imagick класы бұл PHP -де жоқ. Алдын ала қарау мүмкін емес. Әкімшілер бұл қойындыны Setup - Display мәзірінен өшіре алады.
 ErrorRecordAlreadyExists=Жазба бұрыннан бар
@@ -147,8 +147,8 @@ ErrorWebServerUserHasNotPermission=Веб -серверді іске қосу ү
 ErrorNoActivatedBarcode=Штрих -код түрі белсендірілмеген
 ErrUnzipFails=%s ZipArchive көмегімен ашылмады
 ErrNoZipEngine=Бұл PHP файлында %s файлын қысу/ашу үшін қозғалтқыш жоқ
-ErrorFileMustBeADolibarrPackage=%s файлы Dolibarr zip бумасы болуы керек
-ErrorModuleFileRequired=Сіз Dolibarr модулінің пакеттік файлын таңдауыңыз керек
+ErrorFileMustBeADolibarrPackage=%s файлы ZionOne zip бумасы болуы керек
+ErrorModuleFileRequired=Сіз ZionOne модулінің пакеттік файлын таңдауыңыз керек
 ErrorPhpCurlNotInstalled=PHP CURL орнатылмаған, бұл Paypal -мен сөйлесу үшін қажет
 ErrorFailedToAddToMailmanList=%s жазбасын %s немесе SPIP негізіне пошташы тізіміне қосу мүмкін болмады
 ErrorFailedToRemoveToMailmanList=%s жазбасын %s немесе SPIP негізіне пошташы тізіміне жою мүмкін болмады
@@ -161,7 +161,7 @@ ErrorDateMustBeInFuture=Күн бүгінгіден үлкен болуы кер
 ErrorStartDateGreaterEnd=Басталу күні аяқталу күнінен үлкен
 ErrorPaymentModeDefinedToWithoutSetup=Төлем режимі %s теруге орнатылды, бірақ осы төлем режимі үшін көрсетілетін ақпаратты анықтау үшін Шот -фактура модулін орнату аяқталмады.
 ErrorPHPNeedModule=Қате, сіздің PHP -де бұл мүмкіндікті пайдалану үшін <b> %s </b> модулі орнатылған болуы керек.
-ErrorOpenIDSetupNotComplete=Сіз Dolibarr конфигурациялық файлын OpenID аутентификациясына рұқсат ету үшін орнатасыз, бірақ OpenID қызметінің URL мекенжайы тұрақты %s мәнінде анықталмаған.
+ErrorOpenIDSetupNotComplete=Сіз ZionOne конфигурациялық файлын OpenID аутентификациясына рұқсат ету үшін орнатасыз, бірақ OpenID қызметінің URL мекенжайы тұрақты %s мәнінде анықталмаған.
 ErrorWarehouseMustDiffers=Бастапқы және мақсатты қоймалар әр түрлі болуы керек
 ErrorBadFormat=Нашар формат!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Қате, бұл мүше үшінші тараппен әлі байланыстырылмаған. Шот -фактурасы бар жазылымды жасамас бұрын мүшені бар үшінші жаққа байланыстырыңыз немесе жаңа үшінші тарап жасаңыз.
@@ -348,11 +348,11 @@ ErrorNoCloneWithoutEmail=The new user must have an email
 ErrorUserClone=Error in user clone categories
 ErrorQtyOrderedLessQtyShipped = The quantity ordered cannot be less than the quantity shipped.
 ErrorVariousPaymentOnBankAccountWithADifferentCurrencyNotYetSupported=Error, creating a various payment on a bank account with a currency different than the currency of the company is not yet supported.
-ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and Dolibarr parameter $dolibarr_main_stream_to_disable.
+ErrorStreamMustBeEnabled=The PHP stream %s is not available. Check your PHP modules and ZionOne parameter $dolibarr_main_stream_to_disable.
 ErrorYouTryToPayInvoicesWithDifferentCurrenciesInSamePayment=Error, you try to pay different invoices with different currencies in the same payment
 # Warnings
 WarningParamUploadMaxFileSizeHigherThanPostMaxSize=Сіздің PHP параметрі upload_max_filesize (%s) PHP параметрі post_max_size (%s) қарағанда жоғары. Бұл дәйекті орнату емес.
-WarningPasswordSetWithNoAccount=Бұл мүшеге құпия сөз орнатылды. Дегенмен, пайдаланушы тіркелгісі жасалмады. Сондықтан бұл құпия сөз сақталады, бірақ оны Dolibarr жүйесіне кіру үшін қолдануға болмайды. Оны сыртқы модуль/интерфейс қолдануы мүмкін, бірақ егер сіз мүшеге логин мен парольді анықтаудың қажеті болмаса, мүше модулін орнатудан «Әр мүшеге кіруді басқару» опциясын өшіруге болады. Егер сізге логинді басқару қажет болса, бірақ пароль қажет болмаса, бұл ескертуді болдырмау үшін бұл өрісті бос қалдыруға болады. Ескерту: егер мүше пайдаланушыға сілтеме жасаса, электрондық поштаны логин ретінде пайдалануға болады.
+WarningPasswordSetWithNoAccount=Бұл мүшеге құпия сөз орнатылды. Дегенмен, пайдаланушы тіркелгісі жасалмады. Сондықтан бұл құпия сөз сақталады, бірақ оны ZionOne жүйесіне кіру үшін қолдануға болмайды. Оны сыртқы модуль/интерфейс қолдануы мүмкін, бірақ егер сіз мүшеге логин мен парольді анықтаудың қажеті болмаса, мүше модулін орнатудан «Әр мүшеге кіруді басқару» опциясын өшіруге болады. Егер сізге логинді басқару қажет болса, бірақ пароль қажет болмаса, бұл ескертуді болдырмау үшін бұл өрісті бос қалдыруға болады. Ескерту: егер мүше пайдаланушыға сілтеме жасаса, электрондық поштаны логин ретінде пайдалануға болады.
 WarningMandatorySetupNotComplete=Негізгі параметрлерді орнату үшін осы жерді басыңыз
 WarningEnableYourModulesApplications=Модульдер мен қосымшаларды қосу үшін мына жерді басыңыз
 WarningSafeModeOnCheckExecDir=Ескерту, PHP <b> safe_mode </b> қосулы, сондықтан пәрмен <b> safe_mode_exec_dir </b> php параметрімен жарияланған каталогта сақталуы керек.
@@ -399,7 +399,7 @@ WarningReadBankAlsoAllowedIfUserHasPermission=Ескерту, банк шоты�
 WarningNoDataTransferedInAccountancyYet=Есептік кестеде деректер жоқ екенін ескеріңіз. Өтініште жазылған деректеріңізді бухгалтерлік есеп бөліміне жіберіңіз немесе бухгалтерлік есептен тыс жазылған деректерді талдау үшін есептеу режимін өзгертіңіз.
 WarningChangingThisMayBreakStopTaskScheduler=Ескерту, бұл мәнді өзгерту жоспарлаушыны өшіруі мүмкін
 WarningAmountOfFileDiffersFromSumOfLines=Warning, amount of file (%s) differs from the sum of lines (%s)
-WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the Dolibarr foundation as being published by a company using illegal practices (non-compliance with the rules for using the Dolibarr brand, collecting your data without your consent or deploying malware).
+WarningModuleAffiliatedToAReportedCompany=Warning, this module has been reported to the ZionOne foundation as being published by a company using illegal practices (non-compliance with the rules for using the ZionOne brand, collecting your data without your consent or deploying malware).
 WarningModuleAffiliatedToAPiratPlatform=Be careful when getting a module (paid or free) from a suspicious non official platform like %s
 
 SwissQrOnlyVIR = SwissQR шот-фактурасын тек несиелік аударым төлемдерімен төленетін шот-фактураларға қосуға болады.

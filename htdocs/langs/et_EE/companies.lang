@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Teie kontaktandmed on salvestatud. Võtame teiega peagi ühendust...
 ContactUsDesc=See vorm võimaldab teil meile esimese kontakti saamiseks sõnumi saata.
 ErrorCompanyNameAlreadyExists=Ettevõte nimega %s on juba olemas. Vali mõni muu.

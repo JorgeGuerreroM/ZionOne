@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - users
+# ZionOne language file - Source file is en_US - users
 HRMArea=मानव संसाधन प्रबंधन क्षेत्र
 UserCard=उपयोगकर्ता कार्ड
 GroupCard=समूह कार्ड
@@ -65,8 +65,8 @@ LinkedToDolibarrUser=उपयोगकर्ता से लिंक कर�
 LinkedToDolibarrThirdParty=तीसरे पक्ष से लिंक करें
 CreateDolibarrLogin=एक उपयोगकर्ता बनाएँ
 CreateDolibarrThirdParty=एक तृतीय पक्ष बनाएं
-LoginAccountDisableInDolibarr=Dolibarr में खाता अक्षम किया गया
-PASSWORDInDolibarr=Dolibarr में पासवर्ड संशोधित किया गया
+LoginAccountDisableInDolibarr=ZionOne में खाता अक्षम किया गया
+PASSWORDInDolibarr=ZionOne में पासवर्ड संशोधित किया गया
 UsePersonalValue=व्यक्तिगत मूल्य का उपयोग करें
 ExportDataset_user_1=उपयोगकर्ता और उनकी संपत्तियाँ
 ExportDataset_user_2=सुरक्षा घटनाओं की सूची

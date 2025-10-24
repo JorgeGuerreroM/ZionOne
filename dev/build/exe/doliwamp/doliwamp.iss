@@ -1,5 +1,5 @@
 ; ----- DoliWamp.iss ---------------------------------------------------------------------
-; Script to build an auto installer for Dolibarr.
+; Script to build an auto installer for ZionOne.
 ; Works with InnoSetup 5.4.0 (a)
 ; Idea from WampServer 2 (http://www.wampserver.com)
 ;----------------------------------------------------------------------------------------
@@ -8,7 +8,7 @@
 ; package contains only one user called root with no password.
 ; For this, you can edit the mysql.user table of the source database to keep
 ; only the root user with no password, stop server and catch
-; files user.MY* to put them in the Dolibarr dev/build/exe/doliwamp/mysql directory.
+; files user.MY* to put them in the ZionOne dev/build/exe/doliwamp/mysql directory.
 ;
 ;----------------------------------------------------------------------------------------
 
@@ -23,17 +23,17 @@ OutputBaseFilename=__FILENAMEEXEDOLIWAMP__
 ; ----- End of change
 ;OutputManifestFile=build\doliwampbuild.log
 ; Define full path from which all relative path are defined
-; You must modify this to put here your dolibarr root directory
+; You must modify this to put here your ZionOne root directory
 SourceDir=..\..\..\..
 AppId=doliwamp
 AppPublisher=DoliCloud
 AppPublisherURL=https://www.dolicloud.com
-AppSupportURL=https://www.dolibarr.org
-AppUpdatesURL=https://www.dolibarr.org
-AppComments=DoliWamp includes Dolibarr, Apache, PHP and Mysql software.
+AppSupportURL=https://www.ZionOne.org
+AppUpdatesURL=https://www.ZionOne.org
+AppComments=DoliWamp includes ZionOne, Apache, PHP and Mysql software.
 AppCopyright=Copyright (C) 2008-2022 Laurent Destailleur (DoliCloud), Fabian Rodriguez (Le Goût du Libre)
-DefaultDirName=c:\dolibarr
-DefaultGroupName=Dolibarr
+DefaultDirName=c:\ZionOne
+DefaultGroupName=ZionOne
 ;LicenseFile=COPYING
 ;Compression=none
 Compression=lzma
@@ -109,21 +109,21 @@ Source: "C:\wamp64\bin\mariadb\mariadb10.6.5\*.*"; DestDir: "{app}\bin\mariadb\m
 ; We must copy them because the tool mysql_install_db.exe to generate them at first install does not return to prompt so make install hang
 ;Source: "build\exe\doliwamp\mysql\*.*"; DestDir: "{app}\bin\mariadb\data\mysql"; Flags: onlyifdoesntexist ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db"
 
-; Dolibarr
-Source: "htdocs\*.*"; DestDir: "{app}\www\dolibarr\htdocs"; Flags: ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,custom\*,custom2\*,documents\*,includes\ckeditor\_source\*,includes\savant\*,includes\phpmailer\*,jquery\plugins\template\*,nltechno*\*,sabre\sabre\*\tests,tcpdf\fonts\dejavu-fonts-ttf-2.33\*,tcpdf\fonts\freefont-20100919\*,tcpdf\fonts\utils\*,*\conf.php,*\conf.php.mysql,*\conf.php.old,*\conf.php.postgres,*\conf.php.sav,*\install.forced.php"
-Source: "dev\*.*"; DestDir: "{app}\www\dolibarr\dev"; Flags: ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,dbmodel\*,fpdf\*,initdata\*,initdemo\*,iso-normes\*,licence\*,phpcheckstyle\*,phpunit\*,samples\*,test\*,uml\*,vagrant\*,xdebug\*"
-Source: "doc\*.*"; DestDir: "{app}\www\dolibarr\doc"; Flags: ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,wiki\*,plaquette\*,dev\*,images\dolibarr_screenshot2.png,images\dolibarr_screenshot3.png,images\dolibarr_screenshot4.png,images\dolibarr_screenshot5.png,images\dolibarr_screenshot6.png,images\dolibarr_screenshot7.png,images\dolibarr_screenshot8.png,images\dolibarr_screenshot9.png,images\dolibarr_screenshot10.png,images\dolibarr_screenshot11.png,images\dolibarr_screenshot12.png"
-Source: "scripts\*.*"; DestDir: "{app}\www\dolibarr\scripts"; Flags: ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,product\materiel.net.php,product\import-product.php"
-Source: "*.*"; DestDir: "{app}\www\dolibarr"; Flags: ignoreversion; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,default.properties,install.lock"
+; ZionOne
+Source: "htdocs\*.*"; DestDir: "{app}\www\ZionOne\htdocs"; Flags: ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,custom\*,custom2\*,documents\*,includes\ckeditor\_source\*,includes\savant\*,includes\phpmailer\*,jquery\plugins\template\*,nltechno*\*,sabre\sabre\*\tests,tcpdf\fonts\dejavu-fonts-ttf-2.33\*,tcpdf\fonts\freefont-20100919\*,tcpdf\fonts\utils\*,*\conf.php,*\conf.php.mysql,*\conf.php.old,*\conf.php.postgres,*\conf.php.sav,*\install.forced.php"
+Source: "dev\*.*"; DestDir: "{app}\www\ZionOne\dev"; Flags: ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,dbmodel\*,fpdf\*,initdata\*,initdemo\*,iso-normes\*,licence\*,phpcheckstyle\*,phpunit\*,samples\*,test\*,uml\*,vagrant\*,xdebug\*"
+Source: "doc\*.*"; DestDir: "{app}\www\ZionOne\doc"; Flags: ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,wiki\*,plaquette\*,dev\*,images\dolibarr_screenshot2.png,images\dolibarr_screenshot3.png,images\dolibarr_screenshot4.png,images\dolibarr_screenshot5.png,images\dolibarr_screenshot6.png,images\dolibarr_screenshot7.png,images\dolibarr_screenshot8.png,images\dolibarr_screenshot9.png,images\dolibarr_screenshot10.png,images\dolibarr_screenshot11.png,images\dolibarr_screenshot12.png"
+Source: "scripts\*.*"; DestDir: "{app}\www\ZionOne\scripts"; Flags: ignoreversion recursesubdirs; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,product\materiel.net.php,product\import-product.php"
+Source: "*.*"; DestDir: "{app}\www\ZionOne"; Flags: ignoreversion; Excludes: ".gitignore,.project,CVS\*,Thumbs.db,default.properties,install.lock"
 
 ; Config files
-Source: "build\exe\doliwamp\dolibarr.conf.install"; DestDir: "{app}\alias"; Flags: ignoreversion;
+Source: "build\exe\doliwamp\ZionOne.conf.install"; DestDir: "{app}\alias"; Flags: ignoreversion;
 Source: "build\exe\doliwamp\httpd.conf.install"; DestDir: "{app}\bin\apache\apache2.4.51\conf"; Flags: ignoreversion;
 Source: "build\exe\doliwamp\my.ini.install"; DestDir: "{app}\bin\mysql\mysql5.0.45"; Flags: ignoreversion;
 Source: "build\exe\doliwamp\my.ini.install"; DestDir: "{app}\bin\mariadb\mariadb10.6.5"; Flags: ignoreversion;
 Source: "build\exe\doliwamp\php.ini.install"; DestDir: "{app}\bin\php\php7.4.26"; Flags: ignoreversion;
 Source: "build\exe\doliwamp\index.php.install"; DestDir: "{app}\www"; Flags: ignoreversion;
-Source: "build\exe\doliwamp\install.forced.php.install"; DestDir: "{app}\www\dolibarr\htdocs\install"; Flags: ignoreversion;
+Source: "build\exe\doliwamp\install.forced.php.install"; DestDir: "{app}\www\ZionOne\htdocs\install"; Flags: ignoreversion;
 Source: "build\exe\doliwamp\openssl.conf"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "build\exe\doliwamp\ca_demo_dolibarr.crt"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "build\exe\doliwamp\ca_demo_dolibarr.key"; DestDir: "{app}"; Flags: ignoreversion;
@@ -134,18 +134,18 @@ Source: "COPYRIGHT"; DestDir: "{app}"; Flags: ignoreversion;
 
 
 [Icons]
-Name: "{group}\Dolibarr ERP-CRM"; Filename: "{app}\rundoliwamp.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\dolibarr\doc\images\dolibarr.ico
-Name: "{group}\Tools\Help center"; Filename: "{app}\rundolihelp.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\dolibarr\doc\images\dolihelp.ico
-Name: "{group}\Tools\Host your ERP-CRM in the Cloud"; Filename: "http://wiki.dolibarr.org/index.php/Cloud_Solutions"; WorkingDir: "{app}"; IconFilename: {app}\www\dolibarr\doc\images\dolihelp.ico
-Name: "{group}\Tools\Start DoliWamp server"; Filename: "{app}\startdoliwamp.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\dolibarr\doc\images\doliwampon.ico
-Name: "{group}\Tools\Stop DoliWamp server"; Filename: "{app}\stopdoliwamp.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\dolibarr\doc\images\doliwampoff.ico
-Name: "{group}\Tools\Admin DoliWamp server"; Filename: "{app}\rundoliadmin.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\dolibarr\doc\images\doliadmin.ico
+Name: "{group}\ZionOne ERP-CRM"; Filename: "{app}\rundoliwamp.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\ZionOne\doc\images\ZionOne.ico
+Name: "{group}\Tools\Help center"; Filename: "{app}\rundolihelp.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\ZionOne\doc\images\dolihelp.ico
+Name: "{group}\Tools\Host your ERP-CRM in the Cloud"; Filename: "http://wiki.ZionOne.org/index.php/Cloud_Solutions"; WorkingDir: "{app}"; IconFilename: {app}\www\ZionOne\doc\images\dolihelp.ico
+Name: "{group}\Tools\Start DoliWamp server"; Filename: "{app}\startdoliwamp.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\ZionOne\doc\images\doliwampon.ico
+Name: "{group}\Tools\Stop DoliWamp server"; Filename: "{app}\stopdoliwamp.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\ZionOne\doc\images\doliwampoff.ico
+Name: "{group}\Tools\Admin DoliWamp server"; Filename: "{app}\rundoliadmin.bat"; WorkingDir: "{app}"; IconFilename: {app}\www\ZionOne\doc\images\doliadmin.ico
 Name: "{group}\Tools\Uninstall DoliWamp"; Filename: "{app}\unins000.exe"; WorkingDir: "{app}"; IconFilename: {app}\uninstall_services.bat
-Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\Dolibarr"; WorkingDir: "{app}"; Filename: "{app}\rundoliwamp.bat"; Tasks: quicklaunchicon; IconFilename: {app}\www\dolibarr\doc\images\dolibarr.ico
-Name: "{userdesktop}\Dolibarr ERP-CRM"; Filename: "{app}\rundoliwamp.bat"; WorkingDir: "{app}"; Tasks: desktopicon; IconFilename: {app}\www\dolibarr\doc\images\dolibarr.ico
-Name: "{userdesktop}\Dolibarr Help center"; Filename: "{app}\rundolihelp.bat"; WorkingDir: "{app}"; Tasks: desktopicon; IconFilename: {app}\www\dolibarr\doc\images\dolihelp.ico
+Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\ZionOne"; WorkingDir: "{app}"; Filename: "{app}\rundoliwamp.bat"; Tasks: quicklaunchicon; IconFilename: {app}\www\ZionOne\doc\images\ZionOne.ico
+Name: "{userdesktop}\ZionOne ERP-CRM"; Filename: "{app}\rundoliwamp.bat"; WorkingDir: "{app}"; Tasks: desktopicon; IconFilename: {app}\www\ZionOne\doc\images\ZionOne.ico
+Name: "{userdesktop}\ZionOne Help center"; Filename: "{app}\rundolihelp.bat"; WorkingDir: "{app}"; Tasks: desktopicon; IconFilename: {app}\www\ZionOne\doc\images\dolihelp.ico
 ;Start of servers fromstartup menu disabled as services are auto
-;Name: "{userstartup}\DoliWamp server"; Filename: "{app}\startdoliwamp.bat"; WorkingDir: "{app}"; Flags: runminimized; IconFilename: {app}\www\dolibarr\doc\images\dolibarr.ico
+;Name: "{userstartup}\DoliWamp server"; Filename: "{app}\startdoliwamp.bat"; WorkingDir: "{app}"; Flags: runminimized; IconFilename: {app}\www\ZionOne\doc\images\ZionOne.ico
 
 
 [Registry]
@@ -372,8 +372,8 @@ begin
     // Install of service and stop/start scripts are already rebuild by installer.
 //      FileCopy(exedirold+'/my.ini',exedirnew+'/my.ini', true);
 
-	// We should not need this, also databases may not be called dolibarr
-//      res := RenameFile(ibdata1dirold+'/dolibarr',ibdata1dirnew+'/dolibarr');
+	// We should not need this, also databases may not be called ZionOne
+//      res := RenameFile(ibdata1dirold+'/ZionOne',ibdata1dirnew+'/ZionOne');
 //      if res then
 //      begin
 //          themessage := CustomMessage('OldVersionFoundAndMoveInNew');
@@ -420,7 +420,7 @@ begin
 
 
 		// Check if parameters already defined in conf.php file
-		srcFile := pathWithSlashes+'/www/dolibarr/htdocs/conf/conf.php';
+		srcFile := pathWithSlashes+'/www/ZionOne/htdocs/conf/conf.php';
 		if not FileExists (srcFile) then
 		begin
 		    firstinstall := true;
@@ -630,11 +630,11 @@ begin
 
 
 		    //----------------------------------------------
-		    // Create file alias dolibarr (if not exists)
+		    // Create file alias ZionOne (if not exists)
 		    //----------------------------------------------
 
-		    destFile := pathWithSlashes+'/alias/dolibarr.conf';
-		    srcFile := pathWithSlashes+'/alias/dolibarr.conf.install';
+		    destFile := pathWithSlashes+'/alias/ZionOne.conf';
+		    srcFile := pathWithSlashes+'/alias/ZionOne.conf.install';
 
 		    if FileExists(srcFile) then
 		    begin
@@ -744,11 +744,11 @@ begin
 
 
 		    //----------------------------------------------
-		    // Create file dolibarr parametres predefinis install web (if not exists)
+		    // Create file ZionOne parametres predefinis install web (if not exists)
 		    //----------------------------------------------
 
-		    destFile := pathWithSlashes+'/www/dolibarr/htdocs/install/install.forced.php';
-		    srcFile := pathWithSlashes+'/www/dolibarr/htdocs/install/install.forced.php.install';
+		    destFile := pathWithSlashes+'/www/ZionOne/htdocs/install/install.forced.php';
+		    srcFile := pathWithSlashes+'/www/ZionOne/htdocs/install/install.forced.php.install';
 
 		    if not FileExists (destFile) and FileExists (srcFile) then
 		    begin
@@ -1020,7 +1020,7 @@ end;
 
 
 [Run]
-; Launch Dolibarr in browser. This is run after Wizard because of postinstall flag
+; Launch ZionOne in browser. This is run after Wizard because of postinstall flag
 Filename: "{app}\rundoliwamp.bat"; Description: {cm:LaunchNow}; Flags: shellexec postinstall skipifsilent runhidden
 
 
@@ -1036,7 +1036,7 @@ Type: filesandordirs; Name: "{app}\lang"
 Type: filesandordirs; Name: "{app}\logs"
 Type: filesandordirs; Name: "{app}\scripts"
 Type: filesandordirs; Name: "{app}\tmp"
-Type: filesandordirs; Name: "{app}\www\dolibarr"
+Type: filesandordirs; Name: "{app}\www\ZionOne"
 
 
 [UninstallRun]

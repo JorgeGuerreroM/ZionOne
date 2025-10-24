@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <profiles>
-    <profile name="PSR-2 [built-in] dolibarr">
+    <profile name="PSR-2 [built-in] ZionOne">
         <setting id="indentationChar" value="&#9;"/>
         <setting id="insert_space_after_opening_paren_in_declare" value="false"/>
         <setting id="insert_space_before_closing_paren_in_declare" value="false"/>
