@@ -436,6 +436,12 @@ input.button {
     border-radius: 4px;
 }
 
+/* Borde de los inputs */
+input {
+    border: 1px solid rgb($colorbacktitle1) !important;
+    border-radius: 4px;
+}
+
 /* Hover del botón */
 input.button:hover {
     background-color: rgb($colorbacklinepairhover) !important;
