@@ -373,7 +373,7 @@ div.paymentbordline
 .row1withhead{
 	margin: 0 auto;
 	width: 100%;
-	height: calc(45% - 50px);
+	height: 50%;
 	padding-top: 9px;
 }
 
@@ -385,13 +385,13 @@ div.paymentbordline
 
 .row2withhead{
 	margin: 0 auto;
-	width: 100%;
-	height: 55%;
+	width: 66%;
+	height: 40% !important;
 	overflow-x: hidden;
 }
 
 .div1{
-	height:100%;
+	height: calc(100% + 76%);
 	width: 34%;
 	float: left;
 	text-align: center;
@@ -401,6 +401,8 @@ div.paymentbordline
 	padding-top: 1px;
 	padding-bottom: 0;
 	min-height: 180px;
+	position: relative;
+	z-index: 10;
 }
 
 .div2{
@@ -424,19 +426,13 @@ div.paymentbordline
 }
 
 .div4{
-	height: 100%;
-	width: 34%;
-	float: left;
-	box-sizing: border-box;
-	font-size: 6px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	display: none;
 }
 
 .div5{
 	height: 100%;
-	width: 66%;
-	float: left;
+	width: 100%;
+	float: right;
 	box-sizing: border-box;
 	font-size: 6px;
 	padding-top:10px;

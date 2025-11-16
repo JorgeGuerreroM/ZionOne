@@ -1543,6 +1543,8 @@ if (getDolGlobalString('TAKEPOS_WEIGHING_SCALE')) {
 
 		<!--  Show categories -->
 		<?php
+		// Categories section disabled - div4 eliminated
+		/*
 		if (getDolGlobalInt('TAKEPOS_HIDE_CATEGORIES') == 1) {
 			print '<div class="div4" style= "display: none;">';
 		} else {
@@ -1583,6 +1585,8 @@ if (getDolGlobalString('TAKEPOS_WEIGHING_SCALE')) {
 		}
 		?>
 		</div>
+		*/
+		?>
 
 		<!--  Show product -->
 		<div class="div5<?php if (getDolGlobalInt('TAKEPOS_HIDE_CATEGORIES') == 1) {

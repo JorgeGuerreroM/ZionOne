@@ -1796,6 +1796,7 @@ if ($reshook < 0) {
 print $hookmanager->resPrint;
 
 if (empty($_SESSION["basiclayout"]) || $_SESSION["basiclayout"] != 1) {
+	print '<td class="linecolqty right">Precio Uni.</td>';
 	if (getDolGlobalInt("TAKEPOS_SHOW_SUBPRICE")) {
 		print '<td class="linecolqty right">'.$langs->trans('PriceUHT').'</td>';
 	}
@@ -1832,6 +1833,7 @@ if (empty($_SESSION["basiclayout"]) || $_SESSION["basiclayout"] != 1) {
 	}
 	print '</td>';
 } elseif ($mobilepage == "invoice") {
+	print '<td class="linecolqty right">Precio Uni.</td>';
 	print '<td class="linecolqty right">'.$langs->trans('Qty').'</td>';
 }
 if (!$usediv) {
@@ -1964,6 +1966,11 @@ if ($placeid > 0) {
 				$htmlsupplements[$line->fk_parent_line] .= $hookmanager->resPrint;
 
 				if (empty($_SESSION["basiclayout"]) || $_SESSION["basiclayout"] != 1) {
+					$price_per_unit_supp = ($line->qty > 0) ? ($line->total_ttc / $line->qty) : 0;
+					$htmlsupplements[$line->fk_parent_line] .= '<td class="right">'.price($price_per_unit_supp, 0, '', 1, -1, -1, $conf->currency).'</td>';
+					if (getDolGlobalInt("TAKEPOS_SHOW_SUBPRICE")) {
+						$htmlsupplements[$line->fk_parent_line] .= '<td class="right">'.price($line->subprice, 0, '', 1, -1, -1, $conf->currency).'</td>';
+					}
 					$htmlsupplements[$line->fk_parent_line] .= '<td class="right">'.vatrate(price2num($line->remise_percent), true).'</td>';
 					$htmlsupplements[$line->fk_parent_line] .= '<td class="right">'.$line->qty.'</td>';
 					$htmlsupplements[$line->fk_parent_line] .= '<td class="right">'.price($line->total_ttc).'</td>';
@@ -2076,8 +2083,10 @@ if ($placeid > 0) {
 				}
 				$htmlforlines .= $hookmanager->resPrint;
 
+				$price_per_unit = ($line->qty > 0) ? ($line->total_ttc / $line->qty) : 0;
+				$htmlforlines .= '<td class="right">'.price($price_per_unit, 0, '', 1, -1, -1, $conf->currency).'</td>';
 				if (getDolGlobalInt("TAKEPOS_SHOW_SUBPRICE")) {
-					$htmlforlines .= '<td class="right">'.price($line->subprice).'</td>';
+					$htmlforlines .= '<td class="right">'.price($line->subprice, 0, '', 1, -1, -1, $conf->currency).'</td>';
 				}
 				$htmlforlines .= '<td class="right">'.vatrate(price2num($line->remise_percent), true).'</td>';
 				$htmlforlines .= '<td class="right">';
