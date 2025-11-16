@@ -1775,12 +1775,12 @@ if (($action == "valid" || $action == "history" ||  ($action == "addline" && $in
 if ($sectionwithinvoicelink && ($mobilepage == "invoice" || $mobilepage == "")) {
 	print '<!-- Print table line with link to invoice ref -->';
 	if (getDolGlobalString('TAKEPOS_SHOW_HT')) {
-		print '<tr><td colspan="5" class="paddingtopimp paddingbottomimp" style="padding-top: 10px !important; padding-bottom: 10px !important;">';
+		print '<tr><td colspan="6" class="paddingtopimp paddingbottomimp" style="padding-top: 10px !important; padding-bottom: 10px !important;">';
 		print $sectionwithinvoicelink;
 		print $buttontocreatecreditnote;
 		print '</td></tr>';
 	} else {
-		print '<tr><td colspan="4" class="paddingtopimp paddingbottomimp" style="padding-top: 10px !important; padding-bottom: 10px !important;">';
+		print '<tr><td colspan="5" class="paddingtopimp paddingbottomimp" style="padding-top: 10px !important; padding-bottom: 10px !important;">';
 		print $sectionwithinvoicelink;
 		print $buttontocreatecreditnote;
 		print '</td></tr>';
@@ -2202,7 +2202,7 @@ if ($placeid > 0) {
 	} else {
 		print '<tr class="drag drop oddeven"><td class="left"><span class="opacitymedium">'.$langs->trans("Empty").'</span></td><td></td>';
 		if (empty($_SESSION["basiclayout"]) || $_SESSION["basiclayout"] != 1) {
-			print '<td></td><td></td>';
+			print '<td></td><td></td><td></td>';
 			if (getDolGlobalString('TAKEPOS_SHOW_HT')) {
 				print '<td></td>';
 			}
@@ -2212,7 +2212,7 @@ if ($placeid > 0) {
 } else {      // No invoice generated yet
 	print '<tr class="drag drop oddeven"><td class="left"><span class="opacitymedium">'.$langs->trans("Empty").'</span></td><td></td>';
 	if (empty($_SESSION["basiclayout"]) || $_SESSION["basiclayout"] != 1) {
-		print '<td></td><td></td>';
+		print '<td></td><td></td><td></td>';
 		if (getDolGlobalString('TAKEPOS_SHOW_HT')) {
 			print '<td></td>';
 		}
