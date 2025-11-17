@@ -234,7 +234,11 @@ if ($resql) {
 	$transactionspertype = array();
 	$amountpertype = array();
 
-	$totalarray = array('nbfield' => 0, 'pos' => array());
+	$totalarray = array('nbfield' => 0, 'pos' => array(), 'val' => array());
+	// Initialize total fields to prevent undefined key warnings
+	$totalarray['val']['totaldebfield'] = 0;
+	$totalarray['val']['totalcredfield'] = 0;
+	
 	while ($i < $num) {
 		$objp = $db->fetch_object($resql);
 

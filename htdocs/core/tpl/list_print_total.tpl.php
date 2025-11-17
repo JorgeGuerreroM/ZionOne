@@ -25,11 +25,25 @@
  *
  * @var int	$trforbreaknobg
  * @var array{nbfield:int,type?:array<int,string>,pos?:array<int,string>,val?:array<int,float>} $totalarray
+ * @var int $limit
+ * @var int $num
+ * @var int $offset
  */
 '
 @phan-var-force array{nbfield:int,type?:array<int,string>,pos?:array<int,string>,val?:array<int,float>} $totalarray
 @phan-var-force ?string $sqlfields
 ';
+
+// Initialize variables if not defined to prevent warnings
+if (!isset($limit)) {
+	$limit = null;
+}
+if (!isset($num)) {
+	$num = 0;
+}
+if (!isset($offset)) {
+	$offset = 0;
+}
 
 if (!function_exists('printTotalValCell')) { // allow two list with total on same screen
 

@@ -663,6 +663,11 @@ function FreeZone() {
 	$.colorbox({href:"freezone.php?action=freezone&token=<?php echo newToken(); ?>&place="+place+"&invoiceid="+invoiceid, width:"80%", height:"40%", transition:"none", iframe:"true", title:"<?php echo $langs->trans("FreeZone"); ?>"});
 }
 
+function CreateProduct() {
+	console.log("Open box to create a new product");
+	$.colorbox({href:"createproduct.php?action=createproduct&token=<?php echo newToken(); ?>&place="+place, width:"80%", height:"60%", transition:"none", iframe:"true", title:"<?php echo $langs->trans("CreateProduct"); ?>"});
+}
+
 function TakeposOrderNotes() {
 	console.log("Open box to order notes");
 	ModalBox('ModalNote');
@@ -1405,6 +1410,7 @@ if (! getDolGlobalString('TAKEPOS_HIDE_HISTORY')) {
 	$menus[$r++] = array('title' => '<span class="fa fa-history paddingrightonly"></span><div class="trunc">'.$langs->trans("History").'</div>', 'action' => 'History();');
 }
 $menus[$r++] = array('title' => '<span class="fa fa-cube paddingrightonly"></span><div class="trunc">'.$langs->trans("FreeZone").'</div>', 'action' => 'FreeZone();');
+$menus[$r++] = array('title' => '<span class="fas fa-plus-circle paddingrightonly"></span><div class="trunc">'.$langs->trans("CreateProduct").'</div>', 'action' => 'CreateProduct();');
 $menus[$r++] = array('title' => '<span class="fa fa-percent paddingrightonly"></span><div class="trunc">'.$langs->trans("InvoiceDiscountShort").'</div>', 'action' => 'Reduction();');
 
 if (!getDolGlobalString('TAKEPOS_NO_SPLIT_SALE')) {
