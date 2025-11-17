@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# ZionOne language file - Source file is en_US - mails
 Mailing=E-Mailing
 EMailing=E-Mailing
 EMailings=Correos electrónicos masivos
@@ -99,7 +99,7 @@ MailingModuleDescContactsByCategory=Contactos por categoría
 MailingModuleDescContactsByFunction=Contactos por posición
 MailingModuleDescEmailsFromFile=E-mails de archivo
 MailingModuleDescEmailsFromUser=E-mails enviados por usuario
-MailingModuleDescDolibarrUsers=Usuarios con e-mails
+MailingModuleDescZionOneUsers=Usuarios con e-mails
 MailingModuleDescThirdPartiesByCategories=Terceros
 SendingFromWebInterfaceIsNotAllowed=El envío desde la interfaz web no está permitido.
 EmailCollectorFilterDesc=Todos los filtros deben coincidir para que se recopile un correo electrónico. <br> Puede utilizar el carácter "!" antes del valor de la cadena de búsqueda si necesita una prueba negativa

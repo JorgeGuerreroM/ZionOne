@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# ZionOne language file - Source file is en_US - interventions
 Intervention=Intervención
 Interventions=Intervenciones
 InterventionCard=Ficha intervención
@@ -37,17 +37,17 @@ InterventionSign=Establecer firmado
 InterventionUnsign=Establecer sin firmar
 SendInterventionRef=Envío de la intervención %s
 SendInterventionByMail=Enviar intervención por e-mail
-InterventionCreatedInDolibarr=Intervención %s creada
-InterventionValidatedInDolibarr=Intervención %s validada
-InterventionSignedInDolibarr=Intervención firmada
+InterventionCreatedInZionOne=Intervención %s creada
+InterventionValidatedInZionOne=Intervención %s validada
+InterventionSignedInZionOne=Intervención firmada
 InterventionSignedOnline=Intervención firmada online
-InterventionUnsignedInDolibarr=Intervención sin firmar
-InterventionModifiedInDolibarr=Intervención %s modificada
-InterventionClassifiedBilledInDolibarr=Intervención %s clasificada como facturada
-InterventionClassifiedUnbilledInDolibarr=Intervención %s clasificada como no facturada
+InterventionUnsignedInZionOne=Intervención sin firmar
+InterventionModifiedInZionOne=Intervención %s modificada
+InterventionClassifiedBilledInZionOne=Intervención %s clasificada como facturada
+InterventionClassifiedUnbilledInZionOne=Intervención %s clasificada como no facturada
 InterventionSentByEMail=Intervención %s enviada por e-mail
-InterventionClosedInDolibarr= Intervención %s cerrada
-InterventionDeletedInDolibarr=Intervención %s eliminada
+InterventionClosedInZionOne= Intervención %s cerrada
+InterventionDeletedInZionOne=Intervención %s eliminada
 InterventionsArea=Área intervenciones
 DraftFichinter=Intervenciones borrador
 LastModifiedInterventions=Últimas %s intervenciones modificadas

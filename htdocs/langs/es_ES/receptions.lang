@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receptions
+# ZionOne language file - Source file is en_US - receptions
 ReceptionDescription=Administración de recepción de proveedores (Crear documentos de recepción)
 ReceptionsSetup=Configuración de recepción de proveedores
 RefReception=Ref. recepción
@@ -46,9 +46,9 @@ ReceptionsNumberingModules=Módulo de numeración para recepciones
 ReceptionsReceiptModel=Modelos de documentos para recepciones.
 NoMorePredefinedProductToDispatch=No hay más productos predefinidos para enviar
 ReceptionExist=Existe una recepción
-ReceptionBackToDraftInDolibarr=Recepción %s volver al borrador
-ReceptionClassifyClosedInDolibarr=Recepción %s clasificado Cerrado
-ReceptionUnClassifyCloseddInDolibarr=Recepción %s Reabrir
+ReceptionBackToDraftInZionOne=Recepción %s volver al borrador
+ReceptionClassifyClosedInZionOne=Recepción %s clasificado Cerrado
+ReceptionUnClassifyCloseddInZionOne=Recepción %s Reabrir
 RestoreWithCurrentQtySaved=Rellenar cantidades con los últimos valores guardados
 ReceptionsRecorded=Recepciones registradas
 ReceptionUpdated=Recepción actualizada con éxito

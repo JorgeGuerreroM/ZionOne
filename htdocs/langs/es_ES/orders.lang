@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - orders
+# ZionOne language file - Source file is en_US - orders
 OrderExists=Ya había un pedido abierto vinculado a este presupuesto, por lo que no se ha creado ningún otro pedido automáticamente
 OrdersArea=Área pedidos de clientes
 SuppliersOrdersArea=Área pedidos a proveedores
@@ -132,8 +132,8 @@ ConfirmCloneOrder=¿Está seguro de querer clonar este pedido <b>%s</b>?
 DispatchSupplierOrder=Recepción del pedido a proveedor %s
 FirstApprovalAlreadyDone=Primera aprobación realizada
 SecondApprovalAlreadyDone=Segunda aprobación realizada
-SupplierOrderReceivedInDolibarr=Pedido a proveedor %s recibido %s
-SupplierOrderSubmitedInDolibarr=Orden de compra %s enviada (%s)
+SupplierOrderReceivedInZionOne=Pedido a proveedor %s recibido %s
+SupplierOrderSubmitedInZionOne=Orden de compra %s enviada (%s)
 SupplierOrderClassifiedBilled=Pedido a proveedor %s clasificado como facturado
 OtherOrders=Otros pedidos
 SupplierOrderValidatedAndApproved=El pedido del proveedor está validado y aprobado: %s

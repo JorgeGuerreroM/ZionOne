@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# ZionOne language file - Source file is en_US - bills
 Bill=Factura
 Bills=Facturas
 BillsCustomers=Facturas a clientes
@@ -655,8 +655,8 @@ AutoFillDateFromShort=Definir fecha de inicio
 AutoFillDateTo=Establecer fecha de finalización para la línea de servicio con la próxima fecha de facturación
 AutoFillDateToShort=Definir fecha de finalización
 MaxNumberOfGenerationReached=Máximo número de generaciones alcanzado
-BILL_DELETEInDolibarr=Factura eliminada
-BILL_SUPPLIER_DELETEInDolibarr=Factura de proveedor eliminada
+BILL_DELETEInZionOne=Factura eliminada
+BILL_SUPPLIER_DELETEInZionOne=Factura de proveedor eliminada
 UnitPriceXQtyLessDiscount=Precio unitario x Cantidad - Descuento
 CustomersInvoicesArea=Área de facturación a clientes
 SupplierInvoicesArea=Área de facturación de proveedores

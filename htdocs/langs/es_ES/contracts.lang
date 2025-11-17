@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - contracts
+# ZionOne language file - Source file is en_US - contracts
 ContractsArea=Área contratos
 ListOfContracts=Listado de contratos
 AllContracts=Todos los contratos
@@ -45,9 +45,9 @@ ValidateAContract=Validar un contrato
 UnsignContract=Anular contrato
 ContractSign=Establecer firmado
 ContractUnsign=Establecer sin firmar
-ContractSignedInDolibarr=Contrato firmado
+ContractSignedInZionOne=Contrato firmado
 ContractSignedOnline=Contrato firmado en línea
-ContractUnsignedInDolibarr=Contrato sin firmar
+ContractUnsignedInZionOne=Contrato sin firmar
 ActivateService=Activar el servicio
 ConfirmActivateService=¿Está seguro de querer activar este servicio en fecha <b>%s</b>?
 RefContract=Ref. contrato

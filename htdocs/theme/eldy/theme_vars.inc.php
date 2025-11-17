@@ -50,7 +50,7 @@ $theme_bgcoloronglet = array(hexdec('DE'), hexdec('E7'), hexdec('EC'));
 
 // Colors
 $colorbackbody = '255,255,255';
-$colorbackhmenu1 = '38,60,92'; // topmenu
+$colorbackhmenu1 = '55,158,61'; // topmenu - ZionOne Green
 //$colorbackvmenu1 = '250,250,250'; // vmenu
 $colorbackvmenu1 = '248,248,248'; // vmenu
 $colortopbordertitle1 = '215,215,215'; // top border of title
@@ -64,22 +64,22 @@ $colorbacklinepair2 = '252,252,252'; // line pair
 $colorbacklinepairhover = '240,242,249'; // line hover
 $colorbacklinepairchecked = '240,242,249'; // line checked
 $colorbacklinebreak = '248,247,244'; // line break
-$colortexttitlenotab = '35,135,140'; // 150,90,121 140,80,10 or 10,140,80  #875a7b  green=0,123,140, violet: 0,50,120
-$colortexttitlenotab2 = '100,0,100'; // 150,90,121 140,80,10 or 10,140,80  #875a7b  green=0,123,140, violet: 0,50,120
+$colortexttitlenotab = '45,120,50'; // ZionOne green tones for titles
+$colortexttitlenotab2 = '35,100,40'; // Darker green variant
 $colortexttitle = '40, 40, 60';
-$colortexttitlelink = '10, 20, 100';
+$colortexttitlelink = '35,120,50'; // ZionOne green for title links
 $colortext = '0,0,0';
-$colortextlink = '10, 20, 100';
+$colortextlink = '45,130,55'; // ZionOne green for text links
 $fontsize = '0.92em';
 $fontsizesmaller = '0.75em';
 $topMenuFontSize = '1.1em';
 $toolTipBgColor = 'rgba(255, 255, 255, 0.96)';
 $toolTipFontColor = '#333';
-$butactionbg = '150, 110, 162, 0.95';
+$butactionbg = '55, 158, 61, 0.95'; // ZionOne Green for button actions
 $textbutaction = '255, 255, 255';
 
 // text color
-$textSuccess   = '#28a745';
+$textSuccess   = '#379E3D'; // ZionOne Green for success text
 $colorblind_deuteranopes_textSuccess = '#37de5d';
 $textWarning   = '#bc9526'; // See $badgeWarning
 $textDanger    = '#af4705'; // See $badgeDanger
@@ -87,10 +87,10 @@ $colorblind_deuteranopes_textWarning = $textWarning; // currently not tested wit
 
 
 // Badges colors
-$badgePrimary   = '#007bff';
+$badgePrimary   = '#379E3D'; // ZionOne Green primary
 $badgeSecondary = '#aaaabb';
 $badgeInfo      = '#aaaabb';
-$badgeSuccess   = '#55a580';
+$badgeSuccess   = '#379E3D'; // ZionOne Green for success
 $badgeWarning   = '#bc9526'; // See $textWarning bc9526
 $badgeDanger    = '#af4705'; // See $textDanger
 $badgeDark      = '#343a40';
@@ -111,15 +111,15 @@ $badgeStatus1 = '#bc9526'; // validated
 $badgeStatus1b = '#bc9526'; // validated
 $badgeStatus2 = '#9c9c26'; // approved
 $badgeStatus3 = '#bca52b';
-$badgeStatus4 = '#25a580'; // Color ok
-$badgeStatus4b = '#25a580'; // Color ok
+$badgeStatus4 = '#379E3D'; // ZionOne Green - Color ok
+$badgeStatus4b = '#379E3D'; // ZionOne Green - Color ok
 $badgeStatus5 = '#cad2d2';
 $badgeStatus6 = '#cad2d2';
-$badgeStatus7 = '#25a580';
+$badgeStatus7 = '#379E3D'; // ZionOne Green
 $badgeStatus8 = '#993013';
 $badgeStatus9 = '#e7f0f0';
 $badgeStatus10 = '#993013';
-$badgeStatus11 = '#15a540';
+$badgeStatus11 = '#2d7a32'; // Darker ZionOne Green variant
 
 // status color adjustment for color blind
 $colorblind_deuteranopes_badgeStatus4 = $colorblind_deuteranopes_badgeStatus7 = $colorblind_deuteranopes_badgeSuccess; //! text color black

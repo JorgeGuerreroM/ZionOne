@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# ZionOne language file - Source file is en_US - companies
 newSocieteAdded=Sus datos de contacto han sido registrados. Nos pondremos en contacto con usted pronto...
 ContactUsDesc=Este formulario le permite enviarnos un mensaje para un primer contacto.
 ErrorCompanyNameAlreadyExists=El nombre de la empresa %s ya existe. Indique otro.
@@ -14,7 +14,7 @@ MenuNewSupplier=Nuevo proveedor
 MenuNewPrivateIndividual=Nuevo particular
 NewCompany=Nueva empresa (cliente potencial, cliente, proveedor)
 NewThirdParty=Nuevo tercero (cliente potencial, cliente, proveedor)
-CreateDolibarrThirdPartySupplier=Crear un tercero (proveedor)
+CreateZionOneThirdPartySupplier=Crear un tercero (proveedor)
 CreateThirdPartyOnly=Crear tercero
 CreateThirdPartyAndContact=Crear un tercero + un contacto
 ProspectionArea=Área de prospección
@@ -387,8 +387,8 @@ ProspectsByStatus=Clientes potenciales por estado
 NoParentCompany=Ninguna
 ExportCardToFormat=Exportar ficha a formato
 ContactNotLinkedToCompany=Contacto no vinculado a un tercero
-DolibarrLogin=Inicio de sesión de conexión
-NoDolibarrAccess=Sin conexión de inicio de sesión
+ZionOneLogin=Inicio de sesión de conexión
+NoZionOneAccess=Sin conexión de inicio de sesión
 ExportDataset_company_1=Terceros (organizaciones/personas físicas) y atributos
 ExportDataset_company_2=Contactos/direcciones (contactos/direcciones adicionales de terceros) y atributos
 ExportDataset_company_3=Modos de pago de terceros (cuentas bancarias)

@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accountancy (Double entries)
+# ZionOne language file - en_US - Accountancy (Double entries)
 Accountancy=Contabilidad
 Accounting=Contabilidad
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de columnas en el archivo de exportación
@@ -340,7 +340,7 @@ ACCOUNTING_DISABLE_BINDING_ON_SALES=Deshabilitar la vinculación y la transferen
 ACCOUNTING_DISABLE_BINDING_ON_PURCHASES=Deshabilitar la vinculación y transferencia en contabilidad en compras (las facturas de proveedores no se tendrán en cuenta en la contabilidad)
 ACCOUNTING_DISABLE_BINDING_ON_EXPENSEREPORTS=Desactive la vinculación y transferencia en contabilidad en informes de gastos (los informes de gastos no se tendrán en cuenta en la contabilidad)
 ACCOUNTING_ENABLE_LETTERING=Habilitar la función de letras en la contabilidad.
-ACCOUNTING_ENABLE_LETTERING_DESC=Cuando esta opción está habilitada, puede definir, en cada asiento contable, un código para que pueda agrupar diferentes movimientos contables. En el pasado, cuando las diferentes revistas se administraban de forma independiente, esta característica era necesaria para agrupar las líneas de movimiento de diferentes revistas. Sin embargo, con la contabilidad de Dolibarr, dicho código de seguimiento, llamado "<b> %s </b>" ya se guarda automáticamente, por lo que ya se realiza una escritura automática, sin riesgo de error, por lo que esta función se ha vuelto inútil para un uso común. La función de letras manuales se proporciona para los usuarios finales que realmente no confían en el motor de la computadora que realiza la transferencia de datos en la contabilidad.
+ACCOUNTING_ENABLE_LETTERING_DESC=Cuando esta opción está habilitada, puede definir, en cada asiento contable, un código para que pueda agrupar diferentes movimientos contables. En el pasado, cuando las diferentes revistas se administraban de forma independiente, esta característica era necesaria para agrupar las líneas de movimiento de diferentes revistas. Sin embargo, con la contabilidad de ZionOne, dicho código de seguimiento, llamado "<b> %s </b>" ya se guarda automáticamente, por lo que ya se realiza una escritura automática, sin riesgo de error, por lo que esta función se ha vuelto inútil para un uso común. La función de letras manuales se proporciona para los usuarios finales que realmente no confían en el motor de la computadora que realiza la transferencia de datos en la contabilidad.
 EnablingThisFeatureIsNotNecessary=Habilitar esta característica ya no es necesario para una gestión contable rigurosa.
 ACCOUNTING_ENABLE_AUTOLETTERING=Habilite las letras automáticas al transferir a contabilidad
 ACCOUNTING_ENABLE_AUTOLETTERING_DESC=El código de las letras se genera e incrementa automáticamente y no lo elige el usuario final.
