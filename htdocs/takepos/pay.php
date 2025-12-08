@@ -773,5 +773,89 @@ print $hookmanager->resPrint;
 
 </div>
 
+<script>
+// Soporte teclado numérico para TakePos
+document.addEventListener('DOMContentLoaded', function() {
+    // Dar foco al modal automáticamente
+    document.body.setAttribute('tabindex', '0');
+    document.body.focus();
+    
+    // También intentar dar foco cuando se hace clic en cualquier parte
+    document.addEventListener('click', function() {
+        document.body.focus();
+    });
+    
+    document.addEventListener('keydown', function(event) {
+        // No hacer nada si estamos escribiendo en un input
+        if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') {
+            return;
+        }
+        
+        var keyCode = event.keyCode;
+        
+        // Números del 0 al 9 - tanto teclado numérico como principal
+        if ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 96 && keyCode <= 105)) {
+            event.preventDefault();
+            var num = (keyCode >= 96) ? keyCode - 96 : keyCode - 48;
+            
+            // Llamar a addreceived con el número presionado
+            switch(num) {
+                case 0: addreceived(<?php echo ($numpad == 0 ? '0' : '0.01'); ?>); break;
+                case 1: addreceived(<?php echo ($numpad == 0 ? '1' : '0.10'); ?>); break;
+                case 2: addreceived(<?php echo ($numpad == 0 ? '2' : '0.20'); ?>); break;
+                case 3: addreceived(<?php echo ($numpad == 0 ? '3' : '0.50'); ?>); break;
+                case 4: addreceived(<?php echo ($numpad == 0 ? '4' : '1'); ?>); break;
+                case 5: addreceived(<?php echo ($numpad == 0 ? '5' : '2'); ?>); break;
+                case 6: addreceived(<?php echo ($numpad == 0 ? '6' : '5'); ?>); break;
+                case 7: addreceived(<?php echo ($numpad == 0 ? '7' : '10'); ?>); break;
+                case 8: addreceived(<?php echo ($numpad == 0 ? '8' : '20'); ?>); break;
+                case 9: addreceived(<?php echo ($numpad == 0 ? '9' : '50'); ?>); break;
+            }
+        }
+        // Enter = Cobrar
+        else if (keyCode === 13) {
+            event.preventDefault();
+            <?php if (count($arrayOfValidPaymentModes) > 0) {
+                echo "Validate('".dol_escape_js($arrayOfValidPaymentModes[0]->code)."');";
+            } ?>
+        }
+        // C = Limpiar  
+        else if (keyCode === 67) {
+            event.preventDefault();
+            reset();
+        }
+        // Escape = Cerrar
+        else if (keyCode === 27) {
+            event.preventDefault();
+            parent.$.colorbox.close();
+        }
+        // Punto decimal
+        else if (keyCode === 110 || keyCode === 190) {
+            event.preventDefault();
+            <?php if ($numpad == 0) { ?>
+            addreceived('.');
+            <?php } else { ?>
+            addreceived(0.05);
+            <?php } ?>
+        }
+    });
+    
+    // Forzar foco cada 100ms durante los primeros 2 segundos para asegurar que funcione
+    var focusAttempts = 0;
+    var focusInterval = setInterval(function() {
+        document.body.focus();
+        focusAttempts++;
+        if (focusAttempts > 20) { // 20 intentos = 2 segundos
+            clearInterval(focusInterval);
+        }
+    }, 100);
+    
+    // Limpiar el intervalo si el usuario hace algo
+    document.addEventListener('keydown', function() {
+        clearInterval(focusInterval);
+    }, { once: true });
+});
+</script>
+
 </body>
 </html>

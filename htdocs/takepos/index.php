@@ -665,7 +665,20 @@ function FreeZone() {
 
 function CreateProduct() {
 	console.log("Open box to create a new product");
-	$.colorbox({href:"createproduct.php?action=createproduct&token=<?php echo newToken(); ?>&place="+place, width:"80%", height:"60%", transition:"none", iframe:"true", title:"<?php echo $langs->trans("CreateProduct"); ?>"});
+	// Abrir el formulario completo de creación de producto
+	$.colorbox({
+		href: '<?php echo DOL_URL_ROOT; ?>/product/card.php?action=create&type=0', 
+		iframe: true, 
+		width: "90%", 
+		height: "90%", 
+		transition: "none", 
+		title: "<?php echo $langs->trans("CreateProduct"); ?>",
+		onClosed: function() {
+			// Refrescar la lista de productos después de crear uno
+			console.log('Producto creado, refrescando...');
+			LoadProducts(currentcat);
+		}
+	});
 }
 
 function TakeposOrderNotes() {
@@ -1044,6 +1057,53 @@ function ModalBox(ModalID)
 {
 	var modal = document.getElementById(ModalID);
 	modal.style.display = "block";
+}
+
+function OpenProposalModal() {
+	console.log("OpenProposalModal");
+	var customerId = $('#idcustomer').val();
+	
+	// Construir URL del presupuesto
+	var propalUrl = '<?php echo DOL_URL_ROOT; ?>/comm/propal/card.php?action=create';
+	
+	// Si hay cliente seleccionado, lo agregamos a la URL
+	if (customerId && customerId != 0) {
+		propalUrl += '&socid=' + customerId;
+	}
+	
+	// Si hay una factura activa, intentar copiar las líneas
+	if (invoiceid > 0) {
+		propalUrl += '&origin=facture&originid=' + invoiceid;
+	}
+	
+	// Abrir modal con iframe
+	$.colorbox({
+		href: propalUrl,
+		iframe: true,
+		width: '90%',
+		height: '90%',
+		onClosed: function() {
+			console.log('Modal de presupuesto cerrado');
+		}
+	});
+}
+
+function OpenCustomerModal() {
+	console.log("OpenCustomerModal");
+	
+	// Construir URL para crear cliente
+	var customerUrl = '<?php echo DOL_URL_ROOT; ?>/societe/card.php?action=create&type=c';
+	
+	// Abrir modal con iframe
+	$.colorbox({
+		href: customerUrl,
+		iframe: true,
+		width: '90%',
+		height: '90%',
+		onClosed: function() {
+			console.log('Modal de cliente cerrado');
+		}
+	});
 }
 
 function DirectPayment(){
@@ -1481,6 +1541,12 @@ if ($resql) {
 		}
 	}
 }
+
+// Botón para crear presupuestos
+$menus[$r++] = array('title' => '<span class="fa fa-file-invoice pictofixedwidth"></span><div class="trunc">Nuevo Presupuesto</div>', 'action' => 'OpenProposalModal();');
+
+// Botón para crear clientes
+$menus[$r++] = array('title' => '<span class="fa fa-user-plus pictofixedwidth"></span><div class="trunc">Nuevo Cliente</div>', 'action' => 'OpenCustomerModal();');
 
 $parameters = array('menus' => $menus);
 $reshook = $hookmanager->executeHooks('ActionButtons', $parameters);

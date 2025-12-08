@@ -196,7 +196,7 @@ $borderradius = getDolGlobalString('THEME_ELDY_USEBORDERONTABLE') ? getDolGlobal
 	--inputbackgroundcolor: #FFF;
 	--inputbackgroundcolordisabled: #eee;
 	--inputcolordisabled: rgb(80, 80, 80);
-	--inputbordercolor: rgba(0,0,0,.15);
+	--inputbordercolor: #999;
 	--tooltipbgcolor: <?php print $toolTipBgColor; ?>;
 	--tooltipfontcolor : <?php print $toolTipFontColor; ?>;
 	--oddevencolor: #202020;
@@ -375,20 +375,17 @@ input, input.flat, textarea, textarea.flat, form.flat select, select, select.fla
 	outline: none;
 	margin: 0px 0px 0px 0px;
 	background-color: var(--inputbackgroundcolor);
-	<?php if (!getDolGlobalString('THEME_ADD_BACKGROUND_ON_INPUT')) { ?>
-		border<?php echo !getDolGlobalString('THEME_SHOW_BORDER_ON_INPUT') ? '-bottom' : ''; ?>: solid 1px var(--inputbordercolor);
-	<?php } ?>
+	border: solid 1px var(--inputbordercolor) !important;
 }
 
 .liste_titre input, .liste_titre select {
-	border: none;
-	border<?php echo !getDolGlobalString('THEME_SHOW_BORDER_ON_INPUT') ? '-bottom' : ''; ?>: solid 1px var(--inputbordercolor);
+	border: solid 1px var(--inputbordercolor) !important;
 	/* padding: 5px; */
 }
 .divadvancedsearchfieldcompinput,
 div.tabBar input, div.tabBar input.flat, div.tabBar textarea, div.tabBar textarea.flat, div.tabBar form.flat select, div.tabBar select, div.tabBar select.flat, div.tabBar .dataTables_length label select
 {
-	border<?php echo !getDolGlobalString('THEME_SHOW_BORDER_ON_INPUT') ? '-bottom' : ''; ?>: solid 1px var(--inputbordercolor);
+	border: solid 1px var(--inputbordercolor) !important;
 	<?php
 	if (getDolGlobalString('THEME_ADD_BACKGROUND_ON_INPUT')) { ?>
 		background-color: #f8f8fa;
@@ -400,7 +397,7 @@ div.tabBar input, div.tabBar input.flat, div.tabBar textarea, div.tabBar textare
 }
 .divadvancedsearchfieldcompinput {
 	background: #fff;
-	border-bottom: solid 1px var(--inputbordercolor);
+	border: solid 1px var(--inputbordercolor);
 	border-radius: 3px;
 }
 input[name=duration_value], input[name=durationhour]
