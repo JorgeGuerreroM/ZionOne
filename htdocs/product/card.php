@@ -56,7 +56,6 @@ require_once DOL_DOCUMENT_ROOT.'/core/modules/product/modules_product.class.php'
 require_once DOL_DOCUMENT_ROOT.'/categories/class/categorie.class.php';
 require_once DOL_DOCUMENT_ROOT.'/product/class/html.formproduct.class.php';
 require_once DOL_DOCUMENT_ROOT.'/product/class/product.class.php';
-
 /**
  * @var Conf $conf
  * @var DoliDB $db
@@ -65,7 +64,6 @@ require_once DOL_DOCUMENT_ROOT.'/product/class/product.class.php';
  * @var Translate $langs
  * @var User $user
  */
-
 if (isModEnabled('propal')) {
 	require_once DOL_DOCUMENT_ROOT.'/comm/propal/class/propal.class.php';
 }
@@ -99,6 +97,8 @@ if (isModEnabled('invoice')) {
 if (isModEnabled('productbatch')) {
 	$langs->load("productbatch");
 }
+
+$backtopageforcancel = GETPOST('backtopageforcancel');
 
 $mesg = '';
 $error = 0;
@@ -495,7 +495,8 @@ if (empty($reshook)) {
 
 	// Quick edit for extrafields
 	if ($action == 'update_extras' && $permissiontoeditextra) {
-		$object->oldcopy = dol_clone($object, 2);  // @phan-suppress-current-line PhanTypeMismatchProperty
+		// we may use oldcopy->hasBatch( in triggers so keep 1
+		$object->oldcopy = dol_clone($object, 1);  // @phan-suppress-current-line PhanTypeMismatchProperty
 
 		$attribute_name = GETPOST('attribute', 'aZ09');
 
@@ -959,7 +960,7 @@ if (empty($reshook)) {
 	}
 
 	// Action clone object
-	if ($action == 'confirm_clone' && $confirm != 'yes') {
+	if ($action == 'confirm_clone' && $confirm != 'yes') {	// Test on permission not required
 		$action = '';
 	}
 	if ($action == 'confirm_clone' && $confirm == 'yes' && $usercancreate) {
@@ -1084,7 +1085,7 @@ if (empty($reshook)) {
 	}
 
 	// Delete a product
-	if ($action == 'confirm_delete' && $confirm != 'yes') {
+	if ($action == 'confirm_delete' && $confirm != 'yes') {	// Test on permission not required
 		$action = '';
 	}
 	if ($action == 'confirm_delete' && $confirm == 'yes' && $usercandelete) {
@@ -1600,6 +1601,8 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($canvasdisplayactio
 			}
 
 			if ($showbarcode && is_object($modBarCodeProduct)) {
+				//var_dump($modBarCodeProduct); exit;
+
 				print '<tr><td>'.$langs->trans('BarcodeType').'</td><td>';
 				if (GETPOSTISSET('fk_barcode_type')) {
 					$fk_barcode_type = GETPOST('fk_barcode_type') ? GETPOST('fk_barcode_type') : 0;
@@ -1614,14 +1617,16 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($canvasdisplayactio
 				$formbarcode = new FormBarCode($db);
 				print $formbarcode->selectBarcodeType($fk_barcode_type, 'fk_barcode_type', 1);
 				print '</td>';
-				print '</tr><tr>';
-				print '<td>'.$langs->trans("BarcodeValue").'</td><td>';
+				print '</tr>';
+
+				print '<tr>';
+				print '<td'.($modBarCodeProduct->code_null ? '' : ' class="fieldrequired"').'>'.$langs->trans("BarcodeValue").'</td><td>';
 				$tmpcode = GETPOSTISSET('barcode') ? GETPOST('barcode') : $object->barcode;
 				if (empty($tmpcode) && !empty($modBarCodeProduct->code_auto)) {
 					$tmpcode = $modBarCodeProduct->getNextValue($object, $fk_barcode_type);
 				}
 				print img_picto('', 'barcode', 'class="pictofixedwidth"');
-				print '<input class="maxwidth100" type="text" name="barcode" value="'.dol_escape_htmltag($tmpcode).'">';
+				print '<input class="maxwidth150" type="text" name="barcode" value="'.dol_escape_htmltag($tmpcode).'">';
 				print '</td></tr>';
 			}
 
@@ -2962,12 +2967,10 @@ if (is_object($objcanvas) && $objcanvas->displayCanvasExists($canvasdisplayactio
 
 				// Unit
 				if (getDolGlobalString('PRODUCT_USE_UNITS')) {
-					$unit = $object->getLabelOfUnit();
+					$unit = $object->getLabelOfUnit('long', $langs);
 
 					print '<tr><td>'.$langs->trans('DefaultUnitToShow').'</td><td>';
-					if ($unit !== '') {
-						print $langs->trans($unit);
-					}
+					print $unit;
 					print '</td></tr>';
 				}
 

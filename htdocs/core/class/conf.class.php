@@ -346,6 +346,8 @@ class Conf extends stdClass
 	 * @var stdClass
 	 */
 	public $productbatch;
+	public $api;
+
 	/**
 	 * @var ?stdClass
 	 * @deprecated Use project
@@ -516,6 +518,7 @@ class Conf extends stdClass
 		$this->notification = new stdClass();
 		$this->expensereport = new stdClass();
 		$this->productbatch = new stdClass();
+		$this->api = new stdClass();
 
 		// Common arrays
 		$this->cache = array();
@@ -785,6 +788,10 @@ class Conf extends stdClass
 			$this->admin->dir_output = $rootfordata.'/admin';
 			$this->admin->dir_temp = $rootfortemp.'/admin/temp';
 
+			// For api storage
+			$this->api->dir_output = $rootfordata.'/api';
+			$this->api->dir_temp = $rootfortemp.'/api/temp';
+
 			// For user storage
 			$this->user->multidir_output = array($this->entity => $rootfordata."/users");
 			$this->user->multidir_temp = array($this->entity => $rootfortemp."/users/temp");
@@ -957,7 +964,6 @@ class Conf extends stdClass
 					}
 				}
 			}
-
 			if (!isset($this->global->STOCK_SHOW_ALL_BATCH_BY_DEFAULT)) {
 				$this->global->STOCK_SHOW_ALL_BATCH_BY_DEFAULT = 1;
 			}
@@ -1013,11 +1019,6 @@ class Conf extends stdClass
 				} elseif (!empty($_SESSION['dol_screenheight']) && $_SESSION['dol_screenheight'] > 1130) {
 					$this->liste_limit = 20;
 				}
-			}
-
-			// conf->main_checkbox_left_column = constant to set checkbox list to left
-			if (!isset($this->main_checkbox_left_column)) {
-				$this->main_checkbox_left_column = getDolGlobalInt("MAIN_CHECKBOX_LEFT_COLUMN");
 			}
 
 			// Set PRODUIT_LIMIT_SIZE if never defined
@@ -1088,7 +1089,7 @@ class Conf extends stdClass
 				$this->global->MAIN_MAX_DECIMALS_SHOWN = 8;
 			}
 
-			// Non working days
+			// Non working days by default if not set in setup
 			if (!isset($this->global->MAIN_NON_WORKING_DAYS_INCLUDE_SATURDAY)) {
 				$this->global->MAIN_NON_WORKING_DAYS_INCLUDE_SATURDAY = 1;
 			}
@@ -1262,6 +1263,11 @@ class Conf extends stdClass
 
 			if (!isset($this->global->MAIN_CHECKBOX_LEFT_COLUMN)) {
 				$this->global->MAIN_CHECKBOX_LEFT_COLUMN = 1;
+			}
+
+			// conf->main_checkbox_left_column = constant to set checkbox list to left
+			if (!isset($this->main_checkbox_left_column)) {
+				$this->main_checkbox_left_column = getDolGlobalInt("MAIN_CHECKBOX_LEFT_COLUMN");
 			}
 
 			// For modules that want to disable top or left menu

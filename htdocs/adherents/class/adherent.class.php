@@ -505,11 +505,8 @@ class Adherent extends CommonObject
 			$texttosend = dol_htmlentitiesbr($texttosend);
 		}
 
-		// Envoi mail confirmation
-		$from = $conf->email_from;
-		if (getDolGlobalString('ADHERENT_MAIL_FROM')) {
-			$from = getDolGlobalString('ADHERENT_MAIL_FROM');
-		}
+		// Send mail confirmation
+		$from = getDolGlobalString('ADHERENT_MAIL_FROM', $conf->email_from);
 
 		$trackid = 'mem'.$this->id;
 
@@ -2544,7 +2541,7 @@ class Adherent extends CommonObject
 				$labelStatus = $langs->trans("Validated").' - '.$langs->trans("WaitingSubscription");
 				$labelStatusShort = $langs->trans("WaitingSubscriptionShort");
 			} elseif ($date_end_subscription < dol_now()) {	// expired
-				$statusType = 'status8';
+				$statusType = 'status2';
 				$labelStatus = $langs->trans("Validated").' - '.$langs->trans("MemberStatusActiveLate");
 				$labelStatusShort = $langs->trans("MemberStatusActiveLateShort");
 			} else {
@@ -3186,7 +3183,7 @@ class Adherent extends CommonObject
 
 							$subject = make_substitutions($arraydefaultmessage->topic, $substitutionarray, $outputlangs);
 							$msg = make_substitutions($arraydefaultmessage->content, $substitutionarray, $outputlangs);
-							$from = getDolGlobalString('ADHERENT_MAIL_FROM');
+							$from = getDolGlobalString('ADHERENT_MAIL_FROM', $conf->email_from);
 							$to = $adherent->email;
 							$cc = getDolGlobalString('ADHERENT_CC_MAIL_FROM');
 

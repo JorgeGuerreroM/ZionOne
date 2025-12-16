@@ -599,11 +599,27 @@ if (empty($reshook)) {
 		} else {
 			setEventMessages($object->error, $object->errors, 'errors');
 		}
+	} elseif ($action == 'confirm_sign' && $confirm == 'yes' && $user->hasRight('expedition', 'creer')) {
+		$result = $object->setSignedStatus($user, GETPOSTINT('signed_status'), 0, 'SHIPPING_MODIFY');
+		if ($result >= 0) {
+			header('Location: ' . $_SERVER["PHP_SELF"] . '?id=' . $object->id);
+			exit;
+		} else {
+			setEventMessages($object->error, $object->errors, 'errors');
+		}
+	} elseif ($action == 'confirm_unsign' && $confirm == 'yes' && $user->hasRight('expedition', 'creer')) {
+		$result = $object->setSignedStatus($user, Expedition::$SIGNED_STATUSES['STATUS_NO_SIGNATURE'], 0, 'SHIPPING_MODIFY');
+		if ($result >= 0) {
+			header('Location: ' . $_SERVER["PHP_SELF"] . '?id=' . $object->id);
+			exit;
+		} else {
+			setEventMessages($object->error, $object->errors, 'errors');
+		}
 	} elseif ($action == 'setdate_livraison' && $user->hasRight('expedition', 'creer')) {
 		$datedelivery = dol_mktime(GETPOSTINT('liv_hour'), GETPOSTINT('liv_min'), 0, GETPOSTINT('liv_month'), GETPOSTINT('liv_day'), GETPOSTINT('liv_year'));
 
 		$object->fetch($id);
-		$result = $object->setDeliveryDate($user, $datedelivery);
+		$result = $object->setDeliveryDate($user, $datedelivery);	// Set the planned delivery date
 		if ($result < 0) {
 			setEventMessages($object->error, $object->errors, 'errors');
 		}
@@ -619,27 +635,27 @@ if (empty($reshook)) {
 		// Action update
 		$error = 0;
 
-		if ($action == 'settracking_number') {
+		if ($action == 'settracking_number') {	// Test on permission not required
 			$object->tracking_number = trim(GETPOST('tracking_number', 'alpha'));
 		}
-		if ($action == 'settracking_url') {
+		if ($action == 'settracking_url') {		// Test on permission not required
 			$object->tracking_url = trim(GETPOST('tracking_url', 'restricthtml'));
 		}
-		if ($action == 'settrueWeight') {
+		if ($action == 'settrueWeight') {		// Test on permission not required
 			$object->trueWeight = GETPOSTINT('trueWeight');
 			$object->weight_units = GETPOSTINT('weight_units');
 		}
-		if ($action == 'settrueWidth') {
+		if ($action == 'settrueWidth') {		// Test on permission not required
 			$object->trueWidth = GETPOSTINT('trueWidth');
 		}
-		if ($action == 'settrueHeight') {
+		if ($action == 'settrueHeight') {		// Test on permission not required
 			$object->trueHeight = GETPOSTINT('trueHeight');
 			$object->size_units = GETPOSTINT('size_units');
 		}
-		if ($action == 'settrueDepth') {
+		if ($action == 'settrueDepth') {		// Test on permission not required
 			$object->trueDepth = GETPOSTINT('trueDepth');
 		}
-		if ($action == 'setshipping_method_id') {
+		if ($action == 'setshipping_method_id') {	// Test on permission not required
 			$object->shipping_method_id = GETPOSTINT('shipping_method_id');
 		}
 
@@ -705,7 +721,6 @@ if (empty($reshook)) {
 		}
 	} elseif ($action == 'updateline' && $permissiontoadd && GETPOST('save')) {
 		// Update a line
-		// Clean parameters
 		$qty = 0;
 		$entrepot_id = 0;
 		$batch_id = 0;
@@ -1011,7 +1026,9 @@ if ($action == 'create') {
 		$classname = ucfirst($origin);
 
 		$object = new $classname($db);
+		/* @var Commande|Facture $object */
 		'@phan-var-force Commande|Facture $object';
+
 		if ($object->fetch($origin_id)) {	// This include the fetch_lines
 			$soc = new Societe($db);
 			$soc->fetch($object->socid);
@@ -1097,11 +1114,11 @@ if ($action == 'create') {
 			print "</td>\n";
 			print '</tr>';
 
-			// Date sending
-			print '<tr><td>'.$langs->trans("DateShipping").'</td>';
+			// Date shipment (sending)
+			print '<tr><td>' . $langs->trans("DateShipping") . '</td>';
 			print '<td colspan="3">';
 			print img_picto('', 'action', 'class="pictofixedwidth"');
-			$date_shipping = ($date_shipping ? $date_shipping : $object->date_shipping); // $date_shipping comes from GETPOST
+			//$date_shipping = ($date_shipping ? $date_shipping : $object->date_shipping); // $date_shipping comes from GETPOST
 			print $form->selectDate($date_shipping ? $date_shipping : -1, 'date_shipping', 1, 1, 1);
 			print "</td>\n";
 			print '</tr>';
@@ -1164,20 +1181,6 @@ if ($action == 'create') {
 			print '<input name="tracking_number" size="20" value="'.GETPOST('tracking_number', 'alpha').'">';
 			print "</td></tr>\n";
 
-			// Other attributes
-			$parameters = array('objectsrc' => isset($objectsrc) ? $objectsrc : '', 'colspan' => ' colspan="3"', 'cols' => '3', 'socid' => $socid);
-			$reshook = $hookmanager->executeHooks('formObjectOptions', $parameters, $expe, $action); // Note that $action and $object may have been modified by hook
-			print $hookmanager->resPrint;
-
-			if (empty($reshook)) {
-				// copy from order
-				if ($object->fetch_optionals() > 0) {
-					$expe->array_options = array_merge($expe->array_options, $object->array_options);
-				}
-				print $expe->showOptionals($extrafields, 'edit', $parameters);
-			}
-
-
 			// Incoterms
 			if (isModEnabled('incoterm')) {
 				print '<tr>';
@@ -1198,6 +1201,14 @@ if ($action == 'create') {
 				print $form->selectarray('model', $list, getDolGlobalString('EXPEDITION_ADDON_PDF'), 0, 0, 0, '', 0, 0, 0, '', 'widthcentpercentminusx');
 				print "</td></tr>\n";
 			}
+
+			// Other attributes. Fields from hook formObjectOptions and Extrafields.
+			// $objectsrc is Commande|Facture
+			$objectsav = $object;	// Because Expedition is $expe and not $object that is wrongly a duplicate of $objectsrc.
+			$object = $expe;
+			$parameters = array('objectsrc' => isset($objectsrc) ? $objectsrc : '', 'cols' => '3', 'socid' => $socid);
+			include DOL_DOCUMENT_ROOT.'/core/tpl/extrafields_add.tpl.php';
+			$object = $objectsav;
 
 			print "</table>";
 
@@ -2025,7 +2036,7 @@ if ($action == 'create') {
 		);
 	}
 
-	// Confirmation de la suppression d'une ligne subtotal
+	// Confirm delete of subtotal line
 	if ($action == 'ask_subtotal_deleteline') {
 		$lineid = GETPOSTINT('lineid');
 		$langs->load("subtotals");
@@ -2039,7 +2050,7 @@ if ($action == 'create') {
 		$formconfirm = $form->formconfirm($_SERVER["PHP_SELF"].'?id='.$object->id.'&lineid='.$lineid, $langs->trans($title), $langs->trans($question), 'confirm_delete_subtotalline', $formconfirm, 'no', 1);
 	}
 
-	// Confirmation validation
+	// Confirm validation
 	if ($action == 'valid') {
 		$objectref = substr($object->ref, 1, 4);
 		if ($objectref == 'PROV') {
@@ -2062,11 +2073,44 @@ if ($action == 'create') {
 			$text .= $notify->confirmMessage('SHIPPING_VALIDATE', $object->socid, $object);
 		}
 
-		$formconfirm = $form->formconfirm($_SERVER['PHP_SELF'].'?id='.$object->id, $langs->trans('ValidateSending'), $text, 'confirm_valid', '', 0, 1, 250);
+		$formconfirm = $form->formconfirm($_SERVER['PHP_SELF'].'?id='.$object->id, $langs->trans('ValidateSending'), $text, 'confirm_valid', '', 0, 1, 260);
 	}
+
 	// Confirm cancellation
 	if ($action == 'cancel') {
 		$formconfirm = $form->formconfirm($_SERVER['PHP_SELF'].'?id='.$object->id, $langs->trans('CancelSending'), $langs->trans("ConfirmCancelSending", $object->ref), 'confirm_cancel', '', 0, 1);
+	}
+
+	// Confirm sign
+	if ($action == 'sign') {
+		$text = $langs->trans('ConfirmSignShipping');
+		if (isModEnabled('notification')) {
+			require_once DOL_DOCUMENT_ROOT . '/core/class/notify.class.php';
+			$notify = new Notify($db);
+			$text .= '<br>';
+			$text .= $notify->confirmMessage('SHIPPING_MODIFY', $object->socid, $object);
+		}
+		$formquestion = [];
+		$formquestion[] = [
+			'type' 		=> 'select',
+			'name' 		=> 'signed_status',
+			'select_show_empty' => 0,
+			'label'		=> '<span class="fieldrequired">' . $langs->trans('SignStatus') . '</span>',
+			'values'	=> $object->getSignedStatusLocalisedArray()
+		];
+		$formconfirm = $form->formconfirm($_SERVER["PHP_SELF"] . '?id=' . $object->id, $langs->trans('SignShipping'), $text, 'confirm_sign', $formquestion, 0, 1);
+	}
+
+	// Confirm unsign
+	if ($action == 'unsign') {
+		$text = $langs->trans('ConfirmUnsignShipping');
+		if (isModEnabled('notification')) {
+			require_once DOL_DOCUMENT_ROOT . '/core/class/notify.class.php';
+			$notify = new Notify($db);
+			$text .= '<br>';
+			$text .= $notify->confirmMessage('SHIPPING_MODIFY', $object->socid, $object);
+		}
+		$formconfirm = $form->formconfirm($_SERVER["PHP_SELF"] . '?id=' . $object->id, $langs->trans('UnsignShipping'), $text, 'confirm_unsign', '', 0, 1);
 	}
 
 	// Call Hook formConfirm
@@ -2781,7 +2825,7 @@ if ($action == 'create') {
 							}
 						}
 						print $form->textwithtooltip(img_picto('', 'object_stock').' '.$langs->trans("DetailWarehouseNumber"), $detail);
-					} elseif (count($lines[$i]->detail_children) > 1) {
+					} elseif (count($lines[$i]->detail_children ?? []) > 1) {
 						$detail = '';
 						foreach ($lines[$i]->detail_children as $child_product_id => $child_stock_list) {
 							foreach ($child_stock_list as $warehouse_id => $total_qty) {
@@ -2996,6 +3040,21 @@ if ($action == 'create') {
 				}
 			}
 
+			// This is just to generate a delivery receipt when option to do this is on
+			//var_dump($object->linkedObjectsIds['delivery']);
+			if (getDolGlobalInt('MAIN_SUBMODULE_DELIVERY') && ($object->status == Expedition::STATUS_VALIDATED || $object->status == Expedition::STATUS_CLOSED) && $user->hasRight('expedition', 'delivery', 'creer') && empty($object->linkedObjectsIds['delivery'])) {
+				print dolGetButtonAction('', $langs->trans('CreateDeliveryOrder'), 'default', $_SERVER["PHP_SELF"] . '?action=create_delivery&token=' . newToken() . '&id=' . $object->id, '');
+			}
+
+			// Sign (to set to status "Signed" without using the online signature page)
+			if ($object->status > Expedition::STATUS_DRAFT) {
+				if ($object->signed_status != Expedition::$SIGNED_STATUSES['STATUS_SIGNED_ALL']) {
+					print '<div class="inline-block divButAction"><a class="butAction" href="' . $_SERVER["PHP_SELF"] . '?id=' . $object->id . '&action=sign&token=' . newToken() . '">' . $langs->trans("SignShipping") . '</a></div>';
+				} else {
+					print '<div class="inline-block divButAction"><a class="butAction" href="' . $_SERVER["PHP_SELF"] . '?id=' . $object->id . '&action=unsign&token=' . newToken() . '">' . $langs->trans("UnsignShipping") . '</a></div>';
+				}
+			}
+
 			// Create bill
 			if (isModEnabled('invoice') && ($object->status == Expedition::STATUS_VALIDATED || $object->status == Expedition::STATUS_CLOSED)) {
 				if ($user->hasRight('facture', 'creer')) {
@@ -3017,7 +3076,7 @@ if ($action == 'create') {
 					if (!$object->billed && getDolGlobalString('WORKFLOW_BILL_ON_SHIPMENT') !== '0') {
 						print dolGetButtonAction('', $langs->trans('ClassifyBilled'), 'default', $_SERVER["PHP_SELF"].'?action=classifybilled&token='.newToken().'&id='.$object->id, '');
 					}
-					print dolGetButtonAction('', $langs->trans("Close"), 'default', $_SERVER["PHP_SELF"].'?action=classifyclosed&token='.newToken().'&id='.$object->id, '');
+					print dolGetButtonAction('', $langs->trans("Close"), 'default', $_SERVER["PHP_SELF"] . '?action=classifyclosed&token=' . newToken() . '&id=' . $object->id, '');
 				}
 			}
 
