@@ -589,6 +589,18 @@ function deleteline() {
 	ClearSearch(false);
 }
 
+function ProcessRefund(paymentmethod) {
+	invoiceid = $("#invoiceid").val();
+	console.log("Process refund for invoiceid="+invoiceid+" with payment method="+paymentmethod);
+	
+	// Show loading feedback
+	$("#poslines").html('<div style="text-align:center; padding:50px;"><i class="fa fa-spinner fa-spin fa-3x"></i><br><br>Procesando devolución...</div>');
+	
+	$("#poslines").load("invoice.php?action=addrefund&token=<?php echo newToken(); ?>&place="+place+"&pay="+paymentmethod+"&invoiceid="+invoiceid, function() {
+		console.log("Refund processed and invoice reloaded");
+	});
+}
+
 function Customer() {
 	console.log("Open box to select the thirdparty place="+place);
 	$.colorbox({href:"../societe/list.php?type=t&contextpage=poslist&nomassaction=1&place="+place, width:"90%", height:"80%", transition:"none", iframe:"true", title:"<?php echo $langs->trans("Customer"); ?>"});
@@ -1350,6 +1362,7 @@ if (!getDolGlobalString('TAKEPOS_HIDE_HEAD_BAR')) {
 <?php } ?>
 
 <!-- Modal terminal Credit Note -->
+<!-- Commented out - now goes directly to draft credit note
 <div id="ModalCreditNote" class="modal">
 	<div class="modal-content">
 		<div class="modal-header">
@@ -1358,10 +1371,11 @@ if (!getDolGlobalString('TAKEPOS_HIDE_HEAD_BAR')) {
 	</div>
 	<div class="modal-body">
 		<button type="button" class="block" onclick="CreditNote(); document.getElementById('ModalCreditNote').style.display = 'none';"><?php print $langs->trans("Yes"); ?></button>
-		<button type="button" class="block" onclick="document.getElementById('ModalCreditNote').style.display = 'none';"><?php print $langs->trans("No"); ?></button>
+		<button type="button" class="block" onclick="CreditNoteEmpty(); document.getElementById('ModalCreditNote').style.display = 'none';"><?php print $langs->trans("No"); ?></button>
 	</div>
 </div>
 </div>
+-->
 
 <!-- Modal Note -->
 <div id="ModalNote" class="modal">
@@ -1373,6 +1387,21 @@ if (!getDolGlobalString('TAKEPOS_HIDE_HEAD_BAR')) {
 	<div class="modal-body">
 		<input type="text" class="block" id="textinput">
 		<button type="button" class="block" onclick="SetNote(); document.getElementById('ModalNote').style.display = 'none';">OK</button>
+	</div>
+</div>
+</div>
+
+<!-- Modal Refund for Credit Notes -->
+<div id="ModalRefund" class="modal">
+	<div class="modal-content">
+		<div class="modal-header">
+		<span class="close" href="#" onclick="document.getElementById('ModalRefund').style.display = 'none';">&times;</span>
+		<h3>¿Cómo quiere hacer la devolución del dinero?</h3>
+	</div>
+	<div class="modal-body">
+		<button type="button" class="block" onclick="ProcessRefund('LIQ'); document.getElementById('ModalRefund').style.display = 'none';">Efectivo</button>
+		<button type="button" class="block" onclick="ProcessRefund('CHQ'); document.getElementById('ModalRefund').style.display = 'none';">Cheque</button>
+		<button type="button" class="block" onclick="ProcessRefund('CB'); document.getElementById('ModalRefund').style.display = 'none';">Tarjeta</button>
 	</div>
 </div>
 </div>

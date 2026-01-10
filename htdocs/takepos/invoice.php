@@ -402,8 +402,72 @@ if (empty($reshook)) {
 			$db->rollback();
 		}
 	}
+
+	// Action to add refund for a credit note
+	if ($action == 'addrefund' && $user->hasRight('facture', 'creer')) {
+		$invoiceid = GETPOSTINT('invoiceid');
+		$invoice = new Facture($db);
+		$invoice->fetch($invoiceid);
+		
+		if ($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_VALIDATED) {
+			$db->begin();
+			$error = 0;
+			
+			$payment = new Paiement($db);
+			$payment->datepaye = dol_now();
+			$payment->amounts[$invoice->id] = $invoice->getRemainToPay(); // Negative amount for credit note
+			$payment->paiementid = $paiementid;
+			$payment->num_payment = $invoice->ref;
+			
+			// Get bank account
+			$bankaccount = 0;
+			if ($pay == 'LIQ') {
+				$bankaccount = getDolGlobalInt('CASHDESK_ID_BANKACCOUNT_CASH'.$_SESSION["takeposterminal"]);
+			} elseif ($pay == "CHQ") {
+				$bankaccount = getDolGlobalInt('CASHDESK_ID_BANKACCOUNT_CHEQUE'.$_SESSION["takeposterminal"]);
+			} else {
+				$accountname = "CASHDESK_ID_BANKACCOUNT_".$pay.$_SESSION["takeposterminal"];
+				$bankaccount = getDolGlobalInt($accountname);
+			}
+			
+			$payment->fk_account = $bankaccount;
+			
+			$res = $payment->create($user);
+			if ($res < 0) {
+				$error++;
+				dol_htmloutput_errors($langs->trans('Error').' '.$payment->error, $payment->errors, 1);
+			} else {
+				$res = $payment->addPaymentToBank($user, 'payment', '(CustomerInvoicePayment)', $bankaccount, '', '');
+				if ($res < 0) {
+					$error++;
+					dol_htmloutput_errors($langs->trans('ErrorNoPaymentDefined').' '.$payment->error, $payment->errors, 1);
+				}
+			}
+			
+			if (!$error && $res >= 0) {
+				// Mark as paid
+				$result = $invoice->setPaid($user);
+				if ($result > 0) {
+					$invoice->paye = 1;
+					$invoice->status = $invoice::STATUS_CLOSED;
+				}
+				$invoice->setPaymentMethods($paiementid);
+				
+				$db->commit();
+				
+				// Reload the invoice to show updated status
+				$placeid = $invoice->id;
+				$action = 'history';
+			} else {
+				$db->rollback();
+			}
+			
+			// Reload invoice after payment
+			$invoice->fetch($placeid);
+		}
+	}
 	$creditnote = null;
-	if ($action == 'creditnote' && $user->hasRight('facture', 'creer')) {
+	if (($action == 'creditnote' || $action == 'creditnote_empty') && $user->hasRight('facture', 'creer')) {
 		$db->begin();
 
 		$creditnote = new Facture($db);
@@ -419,6 +483,7 @@ if (empty($reshook)) {
 
 		$fk_parent_line = 0; // Initialise
 
+		// Copy all lines for both creditnote and creditnote_empty
 		foreach ($invoice->lines as $line) {
 			// Reset fk_parent_line for no child products and special product
 			if (($line->product_type != 9 && empty($line->fk_parent_line)) || $line->product_type == 9) {
@@ -528,11 +593,13 @@ if (empty($reshook)) {
 		}
 		$creditnote->update_price(1);
 
-		// The credit note is create here. We must now validate it.
+		// The credit note is create here. We must now validate it only if action is creditnote (not creditnote_empty).
 
 		$constantforkey = 'CASHDESK_NO_DECREASE_STOCK'.(isset($_SESSION["takeposterminal"]) ? $_SESSION["takeposterminal"] : '');
 		$allowstockchange = getDolGlobalString($constantforkey) != "1";
 
+		// Only validate if action is creditnote, not creditnote_empty (leave as draft)
+		if ($action == 'creditnote') {
 		if (isModEnabled('stock') && !isModEnabled('productbatch') && $allowstockchange) {
 			// If module stock is enabled and we do not setup takepo to disable stock decrease
 			// The case for isModEnabled('productbatch') is processed few lines later.
@@ -601,8 +668,9 @@ if (empty($reshook)) {
 				}
 			}
 		}
+		} // End if ($action == 'creditnote') - validation
 
-		if (!$error && $res >= 0) {
+		if (!$error && ($action == 'creditnote_empty' || $res >= 0)) {
 			$db->commit();
 		} else {
 			$creditnote->id = $placeid;	// Creation has failed, we reset to ID of source invoice so we go back to this one in action=history
@@ -610,15 +678,88 @@ if (empty($reshook)) {
 		}
 	}
 
-	if (($action == 'history' || $action == 'creditnote') && $user->hasRight('takepos', 'run')) {
-		if ($action == 'creditnote' && $creditnote !== null && $creditnote->id > 0) {	// Test on permission already done
+	// Action to validate a credit note in draft
+	if ($action == 'validate_creditnote' && $user->hasRight('facture', 'creer')) {
+		$invoiceid = GETPOSTINT('invoiceid');
+		$invoice = new Facture($db);
+		$invoice->fetch($invoiceid);
+		
+		if ($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_DRAFT) {
+			$db->begin();
+			$error = 0;
+			$constantforkey = 'CASHDESK_NO_DECREASE_STOCK'.(isset($_SESSION["takeposterminal"]) ? $_SESSION["takeposterminal"] : '');
+			$allowstockchange = getDolGlobalString($constantforkey) != "1";
+			
+			if (isModEnabled('stock') && !isModEnabled('productbatch') && $allowstockchange) {
+				$savconst = getDolGlobalString('STOCK_CALCULATE_ON_BILL');
+				$conf->global->STOCK_CALCULATE_ON_BILL = 1;
+				$constantforkey = 'CASHDESK_ID_WAREHOUSE'.(isset($_SESSION["takeposterminal"]) ? $_SESSION["takeposterminal"] : '');
+				$batch_rule = 0;
+				$res = $invoice->validate($user, '', getDolGlobalInt($constantforkey), 0, $batch_rule);
+				$conf->global->STOCK_CALCULATE_ON_BILL = $savconst;
+			} else {
+				$res = $invoice->validate($user);
+			}
+			
+			// Update stock for batch products
+			if (!$error && $res >= 0) {
+				if (isModEnabled('stock') && isModEnabled('productbatch') && $allowstockchange) {
+					require_once DOL_DOCUMENT_ROOT . "/product/stock/class/mouvementstock.class.php";
+					$constantforkey = 'CASHDESK_ID_WAREHOUSE'.$_SESSION["takeposterminal"];
+					$inventorycode = dol_print_date(dol_now(), 'dayhourlog');
+					$labeltakeposmovement = 'TakePOS - '.$langs->trans("CreditNote").' '.$invoice->ref;
+
+					foreach ($invoice->lines as $line) {
+						$warehouseid = ($line->fk_warehouse ? $line->fk_warehouse : getDolGlobalInt($constantforkey));
+
+						if ($line->batch != '' && $warehouseid > 0) {
+							$mouvP = new MouvementStock($db);
+							$mouvP->setOrigin($invoice->element, $invoice->id);
+							$res = $mouvP->reception($user, $line->fk_product, $warehouseid, $line->qty, $line->price, $labeltakeposmovement, '', '', $line->batch, '', 0, $inventorycode);
+							if ($res < 0) {
+								dol_htmloutput_errors($mouvP->error, $mouvP->errors, 1);
+								$error++;
+							}
+						} elseif ($line->fk_product > 0 && $warehouseid > 0) {
+							$mouvP = new MouvementStock($db);
+							$mouvP->setOrigin($invoice->element, $invoice->id);
+							$res = $mouvP->reception($user, $line->fk_product, $warehouseid, $line->qty, $line->price, $labeltakeposmovement, '', '', '', '', 0, $inventorycode);
+							if ($res < 0) {
+								dol_htmloutput_errors($mouvP->error, $mouvP->errors, 1);
+								$error++;
+							}
+						}
+					}
+				}
+			}
+			
+			if (!$error && $res >= 0) {
+				$db->commit();
+				// Redirect to payment page
+				$action = 'creditnote_topay';
+				$placeid = $invoice->id;
+			} else {
+				$db->rollback();
+			}
+		}
+	}
+
+	if (($action == 'history' || $action == 'creditnote' || $action == 'creditnote_empty' || $action == 'creditnote_topay' || $action == 'validate_creditnote' || $action == 'addrefund') && $user->hasRight('takepos', 'run')) {
+		if (($action == 'creditnote' || $action == 'creditnote_empty') && $creditnote !== null && $creditnote->id > 0) {	// Test on permission already done
 			$placeid = $creditnote->id;
+		} elseif ($action == 'validate_creditnote' || $action == 'creditnote_topay' || $action == 'addrefund') {
+			// placeid already set above
 		} else {
 			$placeid = GETPOSTINT('placeid');
 		}
 
 		$invoice = new Facture($db);
 		$invoice->fetch($placeid);
+
+		// If creditnote was just created and validated, auto-open payment modal
+		if ($action == 'creditnote' && $creditnote !== null && $creditnote->id > 0 && $creditnote->statut == Facture::STATUS_VALIDATED) {
+			$action = 'creditnote_topay';
+		}
 	}
 
 	// If we add a line and no invoice yet, we create the invoice
@@ -1278,7 +1419,7 @@ if (empty($reshook)) {
 	}
 
 	$sectionwithinvoicelink = '';
-	if (($action == "valid" || $action == "history" || $action == 'creditnote' || ($action == 'addline' && $invoice->status == $invoice::STATUS_CLOSED)) && $user->hasRight('takepos', 'run')) {
+	if (($action == "valid" || $action == "history" || $action == 'creditnote' || $action == 'creditnote_empty' || $action == 'creditnote_topay' || ($action == 'addline' && $invoice->status == $invoice::STATUS_CLOSED) || ($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_DRAFT)) && $user->hasRight('takepos', 'run')) {
 		$sectionwithinvoicelink .= '<!-- Section with invoice link -->'."\n";
 		$sectionwithinvoicelink .= '<span style="font-size:120%;" class="center inline-block marginbottomonly">';
 		$sectionwithinvoicelink .= $invoice->getNomUrl(1, '', 0, 0, '', 0, 0, -1, '_backoffice')." - ";
@@ -1293,27 +1434,40 @@ if (empty($reshook)) {
 		if (getDolGlobalInt('TAKEPOS_PRINT_INVOICE_DOC_INSTEAD_OF_RECEIPT')) {
 			$sectionwithinvoicelink .= ' <a target="_blank" class="button" href="' . DOL_URL_ROOT . '/document.php?token=' . newToken() . '&modulepart=facture&file=' . $invoice->ref . '/' . $invoice->ref . '.pdf">Invoice</a>';
 		} elseif (getDolGlobalString('TAKEPOS_PRINT_METHOD') == "takeposconnector") {
+			// Don't show print buttons for draft credit notes
+			if (!($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_DRAFT)) {
 			if (getDolGlobalString('TAKEPOS_PRINT_SERVER') && filter_var(getDolGlobalString('TAKEPOS_PRINT_SERVER'), FILTER_VALIDATE_URL) == true) {
 				$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="TakeposConnector('.$placeid.')">'.$langs->trans('PrintTicket').'</button>';
 			} else {
 				$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="TakeposPrinting('.$placeid.')">'.$langs->trans('PrintTicket').'</button>';
 			}
-		} elseif ((isModEnabled('receiptprinter') && getDolGlobalInt('TAKEPOS_PRINTER_TO_USE'.$term) > 0) || getDolGlobalString('TAKEPOS_PRINT_METHOD') == "receiptprinter") {
-			$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="DolibarrTakeposPrinting('.$placeid.')">'.$langs->trans('PrintTicket').'</button>';
-		} else {
-			$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="Print('.$placeid.')">'.$langs->trans('PrintTicket').'</button>';
-			if (getDolGlobalString('TAKEPOS_PRINT_WITHOUT_DETAILS')) {
-				$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="PrintBox('.$placeid.', \'without_details\')">'.$langs->trans('PrintWithoutDetails').'</button>';
 			}
-			if (getDolGlobalString('TAKEPOS_GIFT_RECEIPT')) {
-				$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="Print('.$placeid.', 1)">'.$langs->trans('GiftReceipt').'</button>';
+		} elseif ((isModEnabled('receiptprinter') && getDolGlobalInt('TAKEPOS_PRINTER_TO_USE'.$term) > 0) || getDolGlobalString('TAKEPOS_PRINT_METHOD') == "receiptprinter") {
+			// Don't show print buttons for draft credit notes
+			if (!($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_DRAFT)) {
+			$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="DolibarrTakeposPrinting('.$placeid.')">'.$langs->trans('PrintTicket').'</button>';
+			}
+		} else {
+			// Don't show print buttons for draft credit notes
+			if (!($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_DRAFT)) {
+				$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="Print('.$placeid.')">'.$langs->trans('PrintTicket').'</button>';
+				if (getDolGlobalString('TAKEPOS_PRINT_WITHOUT_DETAILS')) {
+					$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="PrintBox('.$placeid.', \'without_details\')">'.$langs->trans('PrintWithoutDetails').'</button>';
+				}
+				if (getDolGlobalString('TAKEPOS_GIFT_RECEIPT')) {
+					$sectionwithinvoicelink .= ' <button id="buttonprint" type="button" onclick="Print('.$placeid.', 1)">'.$langs->trans('GiftReceipt').'</button>';
+				}
 			}
 		}
+		// Don't show send button for draft credit notes
 		if (getDolGlobalString('TAKEPOS_EMAIL_TEMPLATE_INVOICE') && getDolGlobalInt('TAKEPOS_EMAIL_TEMPLATE_INVOICE') > 0) {
-			$sectionwithinvoicelink .= ' <button id="buttonsend" type="button" onclick="SendTicket('.$placeid.')">'.$langs->trans('SendTicket').'</button>';
+			if (!($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_DRAFT)) {
+				$sectionwithinvoicelink .= ' <button id="buttonsend" type="button" onclick="SendTicket('.$placeid.')">'.$langs->trans('SendTicket').'</button>';
+			}
 		}
 
-		if ($remaintopay <= 0 && getDolGlobalString('TAKEPOS_AUTO_PRINT_TICKETS') && $action != "history") {
+		// Auto print only if not a draft credit note
+		if ($remaintopay <= 0 && getDolGlobalString('TAKEPOS_AUTO_PRINT_TICKETS') && $action != "history" && !($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_DRAFT)) {
 			$sectionwithinvoicelink .= '<script type="text/javascript">$("#buttonprint").click();</script>';
 		}
 	}
@@ -1360,6 +1514,13 @@ var selectedtext="";
 var placeid=<?php echo($placeid > 0 ? $placeid : 0); ?>;
 $(document).ready(function() {
 	var idoflineadded = <?php echo(empty($idoflineadded) ? 0 : $idoflineadded); ?>;
+
+	<?php if ($action == 'creditnote_topay' && $invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_VALIDATED) { ?>
+	// Auto-open refund modal for validated credit notes
+	setTimeout(function() {
+		parent.ModalBox('ModalRefund');
+	}, 500);
+	<?php } ?>
 
 	$('.posinvoiceline').click(function(){
 		console.log("Click done on "+this.id);
@@ -1534,6 +1695,20 @@ function DolibarrTakeposPrinting(id) {
 // Call url to generate a credit note (with same lines) from existing invoice
 function CreditNote() {
 	$("#poslines").load("<?php print DOL_URL_ROOT; ?>/takepos/invoice.php?action=creditnote&token=<?php echo newToken() ?>&invoiceid="+placeid, function() {	});
+	return true;
+}
+
+// Call url to generate an empty credit note from existing invoice
+function CreditNoteEmpty() {
+	$("#poslines").load("<?php print DOL_URL_ROOT; ?>/takepos/invoice.php?action=creditnote_empty&token=<?php echo newToken() ?>&invoiceid="+placeid, function() {	});
+	return true;
+}
+
+// Call url to validate the credit note
+function ValidateCreditNote() {
+	$("#poslines").load("<?php print DOL_URL_ROOT; ?>/takepos/invoice.php?action=validate_creditnote&token=<?php echo newToken() ?>&invoiceid="+placeid, function() {
+		// Modal will open automatically via the creditnote_topay action
+	});
 	return true;
 }
 
@@ -1733,11 +1908,24 @@ if ($usediv) {
 }
 
 $buttontocreatecreditnote = '';
-if (($action == "valid" || $action == "history" ||  ($action == "addline" && $invoice->status == $invoice::STATUS_CLOSED)) && $invoice->type != Facture::TYPE_CREDIT_NOTE && !getDolGlobalString('TAKEPOS_NO_CREDITNOTE')) {
+if (($action == "valid" || $action == "history" || $action == "creditnote_topay" ||  ($action == "addline" && $invoice->status == $invoice::STATUS_CLOSED)) && $invoice->type != Facture::TYPE_CREDIT_NOTE && !getDolGlobalString('TAKEPOS_NO_CREDITNOTE')) {
 	$buttontocreatecreditnote .= ' &nbsp; <!-- Show button to create a credit note -->'."\n";
-	$buttontocreatecreditnote .= '<button id="buttonprint" type="button" onclick="ModalBox(\'ModalCreditNote\')">'.$langs->trans('CreateCreditNote').'</button>';
-	if (getDolGlobalInt('TAKEPOS_PRINT_INVOICE_DOC_INSTEAD_OF_RECEIPT')) {
+	$buttontocreatecreditnote .= '<button id="buttonprint" type="button" onclick="CreditNoteEmpty()">'.$langs->trans('CreateCreditNote').'</button>';
+	 if (getDolGlobalInt('TAKEPOS_PRINT_INVOICE_DOC_INSTEAD_OF_RECEIPT')) {
 		$buttontocreatecreditnote .= ' <a target="_blank" class="button" href="' . DOL_URL_ROOT . '/document.php?token=' . newToken() . '&modulepart=facture&file=' . urlencode($invoice->ref . '/' . $invoice->ref . '.pdf').'">'.$langs->trans("Invoice").'</a>';
+	}
+}
+
+// If this is a credit note in draft, show validate button
+if ($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_DRAFT) {
+	$buttontocreatecreditnote .= ' &nbsp; <button id="buttonvalidatecreditnote" type="button" onclick="ValidateCreditNote()">'.$langs->trans('Validate').'</button>';
+}
+
+// If this is a validated credit note, show payment/refund button
+if ($invoice->type == Facture::TYPE_CREDIT_NOTE && $invoice->statut == Facture::STATUS_VALIDATED && ($action == 'creditnote_topay' || $action == 'history')) {
+	$remaintopay = abs($invoice->getRemainToPay());
+	if ($remaintopay > 0) {
+		$buttontocreatecreditnote .= ' &nbsp; <button id="buttonrefund" type="button" onclick="parent.ModalBox(\'ModalRefund\')">'.$langs->trans('Refund').': '.price($remaintopay).'</button>';
 	}
 }
 
